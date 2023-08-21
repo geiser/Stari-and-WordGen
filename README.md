@@ -21,6 +21,6 @@ Stari and WordGen (Data Analysis) - São Sebastian /BR
 
 - Learning achievements in reference to reading skills (Resultado de aprendizagem em referência as habilidades de Leitura) [results/learning-leitura.md](results/learning-leitura.md)
 
-- Learning achievement in reference to triagem evaluation (Avaliação Triagem) [results/learning-triagem.md](results/triagem.md)
+- Learning achievement in reference to triagem evaluation (Avaliação Triagem) [results/learning-triagem.md](results/learning-triagem.md)
 
 
