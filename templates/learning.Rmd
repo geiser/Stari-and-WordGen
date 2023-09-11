@@ -1,0 +1,193 @@
+---
+title: "ANCOVA in {{ label.en }} ({{ label.pt }})"
+author: Geiser C. Challco <geiser@alumni.usp.br>
+comment: Teste ANCOVA para determinar se houve diferenças significativas
+         na {{ label.pt }} (medido usando pre- e pos-testes).
+         
+         ANCOVA test to determine whether there were significant differences
+         in {{ label.en }} (measured using pre- and post-tests).
+         
+         Author - Geiser C. Challco <geiser@alumni.usp.br>
+         
+         Shiny-Statistic is distributed in the hope that it will be useful,
+         but WITHOUT ANY WARRANTY; without even the implied warranty of
+         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         GNU General Public License for more details.
+         
+         You should have received a copy of the GNU General Public License.
+         This file is  generate using Shiny-Statistic app (https://github.com/geiser/rshinystatistics)
+         If not, see <https://www.gnu.org/licenses/>.
+output:
+  github_document:
+    toc: true
+  word_document:
+    toc: true
+  html_document:
+    toc: true
+fontsize: 10pt
+---
+
+**NOTE**
+
+ - Teste ANCOVA para determinar se houve diferenças significativas
+no {{ label.pt }} (medido usando pre- e pos-testes).
+ - ANCOVA test to determine whether there were significant differences
+in {{ label.en }} (measured using pre- and post-tests).
+
+```{r setup, include=FALSE}
+# Install and Load Packages
+
+if (!'remotes' %in% rownames(installed.packages())) install.packages('remotes')
+if (!"rshinystatistics" %in% rownames(installed.packages())) {
+  remotes::install_github("geiser/rshinystatistics")
+} else if (packageVersion("rshinystatistics") < "0.0.0.9900") {
+  remotes::install_github("geiser/rshinystatistics")
+}
+
+wants <- c('ggplot2','ggpubr','rshinystatistics','utils','randomcoloR')
+has <- wants %in% rownames(installed.packages())
+if (any(!has)) install.packages(wants[!has])
+
+library(shiny)
+library(esquisse)
+library(scales)
+library(knitr)
+
+library(utils)
+library(ggpubr)
+library(ggplot2)
+library(randomcoloR)
+
+library(dplyr)
+
+library(rshinystatistics)
+```
+
+```{r, include=FALSE, purl=FALSE}
+library(knitr)
+options(knitr.kable.NA = '')
+opts_chunk$set(echo = FALSE)
+defaultW <- getOption("warn")
+options(warn = -1)
+```
+
+```{r, include=FALSE}
+# Setting Initial Variables
+fatores2 <- c({{ paste0(paste0('"', fatores ,'"'), collapse = ",") }})
+lfatores2 <- as.list(fatores2)
+names(lfatores2) <- fatores2
+
+fatores1 <- c("grupo", fatores2)
+lfatores1 <- as.list(fatores1)
+names(lfatores1) <- fatores1
+
+fatores3 <- c({{ paste0(paste0('"', info.monitor ,'"'), collapse = ",") }})
+lfatores3 <- as.list(fatores3)
+names(lfatores3) <- fatores3
+
+lfatores <- c(lfatores1, lfatores3)
+
+# ..
+
+escolas <- readxl::read_excel("{{ file.path }}", sheet = "escolas")
+monitor <- readxl::read_excel("{{ file.path }}", sheet = "monitores")
+monitor <- monitor[,c("id",fatores3[-1])]
+
+  
+dat <- list()
+dat.long <- list()
+for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
+  df <- readxl::read_excel("{{ file.path }}", sheet = "{{ sheet }}.wide")
+  df$idade <- sapply(df$idade, FUN = function(v) {
+    if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
+  })
+  df <- merge(df, escolas, by.x = "escola", by.y = "id", all.x = T, all.y = F)
+  df <- merge(df, monitor, by.x = "monitor", by.y = "id", all.x = T, all.y = F)
+  df[["monitor"]] <- sapply(1:nrow(df), FUN = function(i) {
+    if (df$monitor.count[i] == 1) df$monitor[i] else NA
+  })
+  df$grupo <- factor(df$grupo, c("Controle","Experimental"))
+  df$genero <- factor(df$genero, c("F","M"))
+  df$zona.escola <- factor(df$zona.escola, c("Urbana","Rural"))
+  df$zona.participante <- factor(df$zona.participante, c("Urbana","Rural"))
+  
+  dat[[dv]] <- df[!is.na(df[[paste0(dv,".pre")]]) & !is.na(df[[paste0(dv,".pos")]]),]
+  
+  df <- readxl::read_excel("{{ file.path }}", sheet = "{{ sheet }}.long")
+  df$idade <- sapply(df$idade, FUN = function(v) {
+    if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
+  })
+  df <- merge(df, escolas, by.x = "escola", by.y = "id", all.x = T, all.y = F)
+  df <- merge(df, monitor, by.x = "monitor", by.y = "id", all.x = T, all.y = F)
+  df[["monitor"]] <- sapply(1:nrow(df), FUN = function(i) {
+    if (df$monitor.count[i] == 1) df$monitor[i] else NA
+  })
+  df$time <- factor(df$time, c("pre","pos"))
+  df$grupo <- factor(df$grupo, c("Controle","Experimental"))
+  df$genero <- factor(df$genero, c("F","M"))
+  df$zona.escola <- factor(df$zona.escola, c("Urbana","Rural"))
+  df$zona.participante <- factor(df$zona.participante, c("Urbana","Rural"))
+  
+  dat.long[[dv]] <- df[!is.na(df[[dv]]),]
+}
+
+color <- list()
+for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
+  color[[dv]] <- list()
+  color[[dv]][["prepost"]] = c("#ffee65","#f28e2B")
+  color[[dv]][["grupo"]] = c("#bcbd22","{{ exp.color }}")
+  color[[dv]][["genero"]] = c("#FF007F","#4D4DFF")
+  color[[dv]][["zona.escola"]] = c("#AA00FF","#00CCCC")
+  color[[dv]][["zona.participante"]] = c("#AA00FF","#00CCCC")
+}
+
+for (f in c("grupo", names(lfatores))) {
+  for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
+    if (is.null(color[[dv]][[f]])) 
+      color[[dv]][[f]] <- distinctColorPalette(length(unique(dat[[dv]][[f]])))
+  }
+}
+for (f in c(fatores2)) {
+  for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
+    if (is.null(color[[paste0("grupo:",f)]])) 
+      color[[paste0("grupo:",f)]] <- distinctColorPalette(length(unique(dat[[dv]][["grupo"]]))*length(unique(dat[[dv]][[f]])))
+  }
+}
+```
+
+# Descriptive Statistics of Initial Data
+
+{{ descriptive }}
+
+# Checking of Assumptions
+
+## Assumption: Normality distribution
+
+{{ normality }}
+
+## Assumption: Homogeneity
+
+{{ homogeneity }}
+
+# Computation of ANCOVA test and Pairwise Comparison
+
+```{r, echo=FALSE, include=FALSE}
+aov1 <- list()
+aov2 <- list()
+aov3 <- list()
+```
+
+## ANCOVA tests for one factor
+
+{{ ancova.one }}
+
+## ANCOVA tests for two factors
+
+{{ ancova.two }}
+
+## ANCOVA tests for grupo="Experimental"
+
+{{ ancova.exp }}
+
+
+
