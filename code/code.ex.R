@@ -210,14 +210,12 @@ for (info in list(
        output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
-    score.vocab = list(var="score.vocab", ylab="Vocabulario (Acertos)", barplot=TRUE),
-    tri.vocab = list(var="tri.vocab", ylab="Vocabulario (TRI)", barplot=FALSE),
-
-    score.vocab.ensinado = list(var="score.vocab.ensinado", ylab="Vocabulario Ensinado (Acertos)", barplot=TRUE),
-    tri.vocab.ensinado = list(var="tri.vocab.ensinado", ylab="Vocabulario Ensinado (TRI)", barplot=FALSE),
-
-    score.vocab.nao.ensinado = list(var="score.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (Acertos)", barplot=TRUE),
-    tri.vocab.nao.ensinado = list(var="tri.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (TRI)", barplot=FALSE)
+    score.vocab = list(var="score.vocab", ylab="Vocabulario (Acertos)", barplot=TRUE)
+    #, tri.vocab = list(var="tri.vocab", ylab="Vocabulario (TRI)", barplot=FALSE)
+    , score.vocab.ensinado = list(var="score.vocab.ensinado", ylab="Vocabulario Ensinado (Acertos)", barplot=TRUE)
+    #, tri.vocab.ensinado = list(var="tri.vocab.ensinado", ylab="Vocabulario Ensinado (TRI)", barplot=FALSE)
+    , score.vocab.nao.ensinado = list(var="score.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (Acertos)", barplot=TRUE)
+    #, tri.vocab.nao.ensinado = list(var="tri.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (TRI)", barplot=FALSE)
   )
   params = list(
     label.en = "Vocabulary Test",
@@ -335,23 +333,23 @@ for (info in list(
        output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
-    score.CLPP = list(var="score.CLPP", ylab="Leitura de Pseudo-Palavras (Acertos)", barplot=TRUE),
-    tri.CLPP = list(var="tri.CLPP", ylab="Leitura de Pseudo-Palavras (TRI)", barplot=FALSE),
+    score.CLPP = list(var="score.CLPP", ylab="Leitura de Pseudo-Palavras (Acertos)", barplot=TRUE)
+    #, tri.CLPP = list(var="tri.CLPP", ylab="Leitura de Pseudo-Palavras (TRI)", barplot=FALSE)
 
-    score.CR = list(var="score.CR", ylab="Correta Regular (Acertos)", barplot=TRUE),
-    tri.CR = list(var="tri.CR", ylab="Correta Regular (TRI)", barplot=FALSE),
+    , score.CR = list(var="score.CR", ylab="Correta Regular (Acertos)", barplot=TRUE)
+    #, tri.CR = list(var="tri.CR", ylab="Correta Regular (TRI)", barplot=FALSE)
 
-    score.CI = list(var="score.CI", ylab="Correta Irregular (Acertos)", barplot=TRUE),
-    tri.CI = list(var="tri.CI", ylab="Correta Irregular (TRI)", barplot=FALSE),
+    , score.CI = list(var="score.CI", ylab="Correta Irregular (Acertos)", barplot=TRUE)
+    #, tri.CI = list(var="tri.CI", ylab="Correta Irregular (TRI)", barplot=FALSE)
 
-    score.TV = list(var="score.TV", ylab="Trocas Visuais (Acertos)", barplot=TRUE),
-    tri.TV = list(var="tri.TV", ylab="Trocas Visuais (TRI)", barplot=FALSE),
+    , score.TV = list(var="score.TV", ylab="Trocas Visuais (Acertos)", barplot=TRUE)
+    #, tri.TV = list(var="tri.TV", ylab="Trocas Visuais (TRI)", barplot=FALSE)
 
-    score.TF = list(var="score.TF", ylab="Trocas Fonologicas (Acertos)", barplot=TRUE),
-    tri.TF = list(var="tri.TF", ylab="Trocas Fonologicas (TRI)", barplot=FALSE),
+    , score.TF = list(var="score.TF", ylab="Trocas Fonologicas (Acertos)", barplot=TRUE)
+    #, tri.TF = list(var="tri.TF", ylab="Trocas Fonologicas (TRI)", barplot=FALSE)
 
-    score.TO = list(var="score.TO", ylab="Trocas Orograficas (Acertos)", barplot=TRUE),
-    tri.TO = list(var="tri.TO", ylab="Trocas Orograficas (TRI)", barplot=FALSE)
+    , score.TO = list(var="score.TO", ylab="Trocas Orograficas (Acertos)", barplot=TRUE)
+    #, tri.TO = list(var="tri.TO", ylab="Trocas Orograficas (TRI)", barplot=FALSE)
   )
   params = list(
     label.en = "CLPP Test",
