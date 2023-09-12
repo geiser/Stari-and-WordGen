@@ -200,10 +200,10 @@ lapply(list(
 
 
 for (info in list(
-  list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
-       output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="vocabulario.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/vocabulario-wordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
        output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
@@ -325,10 +325,10 @@ for (info in list(
 #### Leitura Rmarkdown files generation ####
 
 for (info in list(
-  list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
-       output=paste0(getwd(),'/code/leitura-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="leitura.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/leitura-wordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/leitura-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
        output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
