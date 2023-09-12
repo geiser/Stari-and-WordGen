@@ -1,0 +1,1755 @@
+---
+title: "ANCOVA test for leitura (engajamento no leitura)"
+author: Geiser C. Challco <geiser@alumni.usp.br>
+comment: Teste ANCOVA para determinar se houve diferenças significativas
+         em referência ao engajamento no leitura (medido como estado de fluxo).
+         
+         ANCOVA test to determine whether there were significant differences
+         in reference to engagement in leitura (measured as flow state).
+         
+         Author - Geiser C. Challco <geiser@alumni.usp.br>
+         
+         Shiny-Statistic is distributed in the hope that it will be useful,
+         but WITHOUT ANY WARRANTY; without even the implied warranty of
+         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         GNU General Public License for more details.
+         
+         You should have received a copy of the GNU General Public License.
+         This file is  generate using Shiny-Statistic app (https://github.com/geiser/rshinystatistics)
+         If not, see <https://www.gnu.org/licenses/>.
+output:
+  github_document:
+    toc: true
+  word_document:
+    toc: true
+  html_document:
+    toc: true
+fontsize: 10pt
+---
+
+**NOTE**
+
+ - Teste ANCOVA para determinar se houve diferenças significativas
+em referência ao engajamento no leitura (medido como estado de fluxo).
+ - ANCOVA test to determine whether there were significant differences
+in reference to engagement in leitura (measured as flow state).
+
+```{r setup, include=FALSE}
+# Install and Load Packages
+
+if (!'remotes' %in% rownames(installed.packages())) install.packages('remotes')
+if (!"rshinystatistics" %in% rownames(installed.packages())) {
+  remotes::install_github("geiser/rshinystatistics")
+} else if (packageVersion("rshinystatistics") < "0.0.0.9900") {
+  remotes::install_github("geiser/rshinystatistics")
+}
+
+wants <- c('ggplot2','ggpubr','rshinystatistics','utils','randomcoloR')
+has <- wants %in% rownames(installed.packages())
+if (any(!has)) install.packages(wants[!has])
+
+library(shiny)
+library(esquisse)
+library(scales)
+library(knitr)
+
+library(utils)
+library(ggpubr)
+library(ggplot2)
+library(randomcoloR)
+
+library(rshinystatistics)
+```
+
+```{r, include=FALSE, purl=FALSE}
+library(knitr)
+options(knitr.kable.NA = '')
+opts_chunk$set(echo = FALSE)
+defaultW <- getOption("warn")
+options(warn = -1)
+```
+
+```{r, include=FALSE}
+# Setting Initial Variables
+escolas <- readxl::read_excel("../data/data.xlsx", sheet = "escolas")
+monitor <- readxl::read_excel("../data/data.xlsx", sheet = "monitores")
+
+dat <- readxl::read_excel("../data/data.xlsx", sheet = "flow.wg.wo.st")
+dat <- merge(dat, escolas, by.x = "escola", by.y = "id", all.x = T, all.y = F)
+dat <- merge(dat, monitor, by.x = "monitor", by.y = "id", all.x = T, all.y = F)
+dat[["monitor"]] <- sapply(1:nrow(dat), FUN = function(i) {
+  if (dat$monitor.count[i] == 1) dat$monitor[i] else NA
+})
+
+dat <- dat[!is.na(dat[["dfs.leitura"]]) & !is.na(dat[["fss.leitura"]]),]
+dat$idade <- sapply(dat$idade, FUN = function(v) {
+  if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
+})
+
+dat$grupo <- as.vector(sapply(dat$grupo, FUN = function(x) {
+  if (x == "Controle") "Controle" else "WordGen" 
+}))
+dat$grupo <- factor(dat$grupo, c("Controle","WordGen"))
+dat$genero <- factor(dat$genero, c("F","M"))
+dat$zona.escola <- factor(dat$zona.escola, c("Urbana","Rural"))
+dat$zona.participante <- factor(dat$zona.participante, c("Urbana","Rural"))
+
+dat.long <- tidyr::gather(dat, time, flow.leitura, dfs.leitura, fss.leitura)
+dat.long <- dat.long[!is.na(dat.long[["flow.leitura"]]),]
+dat.long$time[dat.long$time=="dfs.leitura"] <- "pre"
+dat.long$time[dat.long$time=="fss.leitura"] <- "pos"
+dat.long$time <- factor(dat.long$time, c("pre","pos"))
+
+fatores2 <- c("genero","idade","zona.participante","escola","zona.escola")
+lfatores2 <- as.list(fatores2)
+names(lfatores2) <- fatores2
+
+fatores1 <- c("grupo", fatores2)
+lfatores1 <- as.list(fatores1)
+names(lfatores1) <- fatores1
+
+fatores3 <- c("monitor","monitor.genero","monitor.area","monitor.formacao","monitor.experiencia")
+lfatores3 <- as.list(fatores3)
+names(lfatores3) <- fatores3
+
+lfatores <- c(lfatores1, lfatores3)
+
+color <- list()
+color[["prepost"]] = c("#ffee65","#f28e2B")
+color[["grupo"]] = c("#bcbd22","#008000")
+color[["genero"]] = c("#FF007F","#4D4DFF")
+color[["zona.escola"]] = c("#AA00FF","#00CCCC")
+color[["zona.participante"]] = c("#AA00FF","#00CCCC")
+
+for (f in c("grupo", names(lfatores))) {
+  if (is.null(color[[f]])) 
+    color[[f]] <- distinctColorPalette(length(unique(dat[[f]])))
+}
+for (f in c(fatores2)) {
+  if (is.null(color[[paste0("grupo:",f)]])) 
+    color[[paste0("grupo:",f)]] <- distinctColorPalette(length(unique(dat[["grupo"]]))*length(unique(dat[[f]])))
+}
+```
+
+# Descriptive Statistics of Initial Data
+
+```{r, include=FALSE}
+df <- do.call(plyr::rbind.fill, lapply(lfatores2, FUN = function(f) {
+  get.descriptives(dat, c("fss.leitura","dfs.leitura"), c("grupo", f))
+}))
+(df <- df[,c(fatores1,"variable", colnames(df)[!colnames(df) %in% c(fatores1,"variable")])])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+# Checking of Assumptions
+
+## Assumption: Normality distribution of data
+
+```{r, echo=FALSE, include=FALSE}
+(df <- do.call(plyr::rbind.fill, lapply(lfatores2, FUN = function(f) {
+  normality.test.by.residual(dat, "fss.leitura", c("grupo", f), c(), "dfs.leitura")
+})))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df)
+```
+
+## Assumption: Homogeneity of data distribution
+
+```{r, echo=FALSE, include=FALSE}
+(df <- do.call(plyr::rbind.fill, lapply(lfatores2, FUN = function(f) {
+  homogeneity.test(dat[!is.na(dat[[f]]),], "fss.leitura", c("grupo", f), c(), "dfs.leitura")
+})))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df)
+```
+
+# Computation of ANCOVA test and Pairwise Comparison
+
+## ANCOVA tests for one factor
+
+```{r, echo=FALSE, include=FALSE}
+aovs1 <- lapply(lfatores1, FUN = function(x) {
+  aov = ancova.test(dat[!is.na(dat[[x]]),], "fss.leitura",
+                    x, "dfs.leitura", 2, "ges")$fss.leitura
+  cbind(formula=rep(paste0("fss.leitura ~ dfs.leitura + ",x), nrow(aov)), aov)
+})
+
+aov1 <- do.call(rbind, aovs1)
+row.names(aov1) <- c()
+(aov1 <- aov1[!duplicated(aov1$Effect),])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+df <- round.pval(aov1)
+kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
+```
+
+## ANCOVA tests for two factors
+
+```{r, echo=FALSE, include=FALSE}
+aovs2 <- lapply(lfatores2, FUN = function(x) {
+  tdat <- dat[!is.na(dat[[x]]),]
+  if (length(unique(tdat$grupo)) >= 2 &&  length(unique(tdat[[x]])) >= 2) {
+    aov = ancova.test(tdat, "fss.leitura", c("grupo", x), "dfs.leitura", 2, "ges")$fss.leitura
+    return(cbind(formula=rep(paste0("fss.leitura ~ dfs.leitura + grupo"," * ",x), nrow(aov)), aov))  
+  }
+})
+
+aov2 <- do.call(rbind, aovs2)
+row.names(aov2) <- c()
+(aov2 <- aov2[!duplicated(aov2$Effect) & !aov2$Effect %in% fatores1,])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+df <- round.pval(aov2)
+kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
+```
+
+## ANCOVA tests for grupo="WordGen"
+
+```{r, echo=FALSE, include=FALSE}
+aovs3 <- lapply(lfatores3, FUN = function(x) {
+  tdat <- dat[!is.na(dat[[x]]),]
+  if (length(unique(tdat[[x]])) >= 2) {
+    aov = ancova.test(tdat, "fss.leitura", x,
+                      "dfs.leitura", 2, "ges")$fss.leitura
+    return(cbind(formula=rep(
+      paste0("fss.leitura ~ dfs.leitura + grupo=`Experimental`"," * ", x),
+      nrow(aov)), aov))  
+  }
+})
+
+aov3 <- do.call(rbind, aovs3)
+row.names(aov3) <- c()
+(aov3 <- aov3[!duplicated(aov3$Effect),])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+df <- round.pval(aov3)
+kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
+```
+
+
+## Pairwise comparisons for one factor
+
+
+
+### factor: **grupo** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "grupo", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "grupo", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "grupo", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo"]],
+    subtitle = which(aov1$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "grupo", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factor: **genero** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["genero"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("genero")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "genero", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("genero"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["genero"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","genero"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","genero"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","genero","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "genero", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["genero"]]$data)))
+  plots[["genero"]] + ggplot2::scale_color_manual(values = color[["genero"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "genero", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["genero"]],
+    subtitle = which(aov1$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "genero", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factor: **idade** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["idade"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("idade")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "idade", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("idade"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["idade"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","idade"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","idade"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","idade","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "idade", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["idade"]]$data)))
+  plots[["idade"]] + ggplot2::scale_color_manual(values = color[["idade"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "idade", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["idade"]],
+    subtitle = which(aov1$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "idade", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factor: **zona.participante** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["zona.participante"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("zona.participante")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "zona.participante", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("zona.participante"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["zona.participante"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","zona.participante"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","zona.participante"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","zona.participante","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "zona.participante", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["zona.participante"]]$data)))
+  plots[["zona.participante"]] + ggplot2::scale_color_manual(values = color[["zona.participante"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "zona.participante", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["zona.participante"]],
+    subtitle = which(aov1$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "zona.participante", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factor: **escola** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["escola"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("escola")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "escola", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("escola"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["escola"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","escola"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","escola"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","escola","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "escola", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["escola"]]$data)))
+  plots[["escola"]] + ggplot2::scale_color_manual(values = color[["escola"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "escola", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["escola"]],
+    subtitle = which(aov1$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "escola", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factor: **zona.escola** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["zona.escola"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("zona.escola")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "zona.escola", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("zona.escola"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["zona.escola"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","zona.escola"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","zona.escola"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","zona.escola","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "zona.escola", aov1, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov1$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["zona.escola"]]$data)))
+  plots[["zona.escola"]] + ggplot2::scale_color_manual(values = color[["zona.escola"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "zona.escola", aov1, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["zona.escola"]],
+    subtitle = which(aov1$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "zona.escola", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+## Pairwise comparisons for two factors
+
+
+
+### factores: **grupo:genero**
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]) & !is.na(dat[["genero"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo","genero")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", c("grupo","genero"), "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo","genero"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","grupo","genero","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]) & !is.na(dat.long[["genero"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo","genero"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo","genero"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","genero","group1","group2","estimate","conf.low",
+                    "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaPlots(pdat, "fss.leitura", c("grupo","genero"), aov2, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov2$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["genero"]])
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["genero"]]$data)))
+  plots[["genero"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat, "fss.leitura", c("grupo","genero"), aov2, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo:genero"]],
+    subtitle = which(aov2$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat.long, "flow.leitura", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+
+### factores: **grupo:idade**
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]) & !is.na(dat[["idade"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo","idade")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", c("grupo","idade"), "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo","idade"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","grupo","idade","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]) & !is.na(dat.long[["idade"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo","idade"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo","idade"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","idade","group1","group2","estimate","conf.low",
+                    "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaPlots(pdat, "fss.leitura", c("grupo","idade"), aov2, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov2$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["idade"]])
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["idade"]]$data)))
+  plots[["idade"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat, "fss.leitura", c("grupo","idade"), aov2, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo:idade"]],
+    subtitle = which(aov2$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat.long, "flow.leitura", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+
+### factores: **grupo:zona.participante**
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]) & !is.na(dat[["zona.participante"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo","zona.participante")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", c("grupo","zona.participante"), "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo","zona.participante"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","grupo","zona.participante","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]) & !is.na(dat.long[["zona.participante"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo","zona.participante"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo","zona.participante"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","zona.participante","group1","group2","estimate","conf.low",
+                    "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaPlots(pdat, "fss.leitura", c("grupo","zona.participante"), aov2, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov2$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["zona.participante"]])
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["zona.participante"]]$data)))
+  plots[["zona.participante"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat, "fss.leitura", c("grupo","zona.participante"), aov2, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo:zona.participante"]],
+    subtitle = which(aov2$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat.long, "flow.leitura", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+
+### factores: **grupo:escola**
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]) & !is.na(dat[["escola"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo","escola")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", c("grupo","escola"), "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo","escola"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","grupo","escola","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]) & !is.na(dat.long[["escola"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo","escola"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo","escola"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","escola","group1","group2","estimate","conf.low",
+                    "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaPlots(pdat, "fss.leitura", c("grupo","escola"), aov2, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov2$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["escola"]])
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["escola"]]$data)))
+  plots[["escola"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat, "fss.leitura", c("grupo","escola"), aov2, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo:escola"]],
+    subtitle = which(aov2$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat.long, "flow.leitura", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+
+### factores: **grupo:zona.escola**
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["grupo"]]) & !is.na(dat[["zona.escola"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("grupo","zona.escola")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", c("grupo","zona.escola"), "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("grupo","zona.escola"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","grupo","zona.escola","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["grupo"]]) & !is.na(dat.long[["zona.escola"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","grupo","zona.escola"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","grupo","zona.escola"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","grupo","zona.escola","group1","group2","estimate","conf.low",
+                    "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaPlots(pdat, "fss.leitura", c("grupo","zona.escola"), aov2, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov2$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::scale_color_manual(values = color[["zona.escola"]])
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["zona.escola"]]$data)))
+  plots[["zona.escola"]] + ggplot2::scale_color_manual(values = color[["grupo"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat, "fss.leitura", c("grupo","zona.escola"), aov2, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["grupo:zona.escola"]],
+    subtitle = which(aov2$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBarPlots(
+    pdat.long, "flow.leitura", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+## Pairwise comparisons for grupo="Experimental"
+
+
+
+### factores: **grupo="Experimental":monitor** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["monitor"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("monitor")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "monitor", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("monitor"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["monitor"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","monitor"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","monitor"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","monitor","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "monitor", aov3, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov3$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["monitor"]]$data)))
+  plots[["monitor"]] + ggplot2::scale_color_manual(values = color[["monitor"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "monitor", aov3, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["monitor"]],
+    subtitle = which(aov3$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "monitor", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factores: **grupo="Experimental":monitor.genero** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["monitor.genero"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("monitor.genero")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "monitor.genero", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("monitor.genero"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["monitor.genero"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","monitor.genero"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","monitor.genero"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","monitor.genero","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "monitor.genero", aov3, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov3$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["monitor.genero"]]$data)))
+  plots[["monitor.genero"]] + ggplot2::scale_color_manual(values = color[["monitor.genero"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "monitor.genero", aov3, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["monitor.genero"]],
+    subtitle = which(aov3$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "monitor.genero", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factores: **grupo="Experimental":monitor.area** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["monitor.area"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("monitor.area")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "monitor.area", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("monitor.area"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["monitor.area"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","monitor.area"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","monitor.area"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","monitor.area","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "monitor.area", aov3, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov3$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["monitor.area"]]$data)))
+  plots[["monitor.area"]] + ggplot2::scale_color_manual(values = color[["monitor.area"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "monitor.area", aov3, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["monitor.area"]],
+    subtitle = which(aov3$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "monitor.area", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factores: **grupo="Experimental":monitor.formacao** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["monitor.formacao"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("monitor.formacao")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "monitor.formacao", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("monitor.formacao"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["monitor.formacao"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","monitor.formacao"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","monitor.formacao"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","monitor.formacao","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "monitor.formacao", aov3, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov3$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["monitor.formacao"]]$data)))
+  plots[["monitor.formacao"]] + ggplot2::scale_color_manual(values = color[["monitor.formacao"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "monitor.formacao", aov3, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["monitor.formacao"]],
+    subtitle = which(aov3$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "monitor.formacao", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
+
+### factores: **grupo="Experimental":monitor.experiencia** 
+
+```{r, include=FALSE}
+pdat = dat[!is.na(dat[["monitor.experiencia"]]),]
+pdat = tryCatch(remove_group_data(pdat, "fss.leitura", c("monitor.experiencia")), error = function(e) NULL)
+
+if (!is.null(pdat)) {
+  pwc = ancova.pwc(pdat, "fss.leitura", "monitor.experiencia", "dfs.leitura", pwc.covar=T)
+  (apa <- get.ancova.emmeans.with.ds(pwc, pdat, "fss.leitura", c("monitor.experiencia"), "apa-format", covar = "dfs.leitura"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat))
+  kable(apa, digits = 3)
+```
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdf <- get.ancova.pwc.table(pwc, only.sig = F)
+  (pdf <- pdf[!is.na(pdf$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf <- round.pval(pdf)
+  kable(pdf[,c(".y.","group1","group2","estimate","conf.low",
+               "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+
+```{r, include=FALSE}
+if (!is.null(pdat)) {
+  pdat.long = dat.long[!is.na(dat.long[["monitor.experiencia"]]),]
+  pdat.long = remove_group_data(pdat.long, "flow.leitura", c("time","monitor.experiencia"))
+  
+  pwc.long = anova.pwc(pdat.long, "flow.leitura", c("time","monitor.experiencia"))
+  pwc.long = pwc.long$flow.leitura$time
+  (pdf.long <- pwc.long[!is.na(pwc.long$p.adj),])
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (!is.null(pdat)) {
+  pdf.long <- round.pval(pdf.long)
+  kable(pdf.long[,c(".y.","monitor.experiencia","group1","group2","estimate","conf.low","conf.high",
+                    "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
+}
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaPlots(pdat, "fss.leitura", "monitor.experiencia", aov3, pwc$fss.leitura,
+                             addParam = c("jitter"), font.label.size=10,
+                             step.increase=0.05, p.label="p.adj",
+                             subtitle = which(aov3$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=7}
+if (!is.null(pdat) && !is.null(nrow(plots[["monitor.experiencia"]]$data)))
+  plots[["monitor.experiencia"]] + ggplot2::scale_color_manual(values = color[["monitor.experiencia"]])
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat, "fss.leitura", "monitor.experiencia", aov3, pwc$fss.leitura, covar = "dfs.leitura",
+    theme = "classic", color = color[["monitor.experiencia"]],
+    subtitle = which(aov3$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("flow (ativ. leitura)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBarPlots(
+    pdat.long, "flow.leitura", "monitor.experiencia", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("flow (ativ. leitura)")
+```
+
