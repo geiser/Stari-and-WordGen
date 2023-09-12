@@ -48,7 +48,7 @@ if (!is.null(pdat)) {
 ```{r, echo=FALSE, purl=FALSE}
 if (!is.null(pdat)) {
   pdf.long <- round.pval(pdf.long)
-  kable(pdf.long[,c("{{ iv }}","group1","group2","estimate","conf.low","conf.high",
+  kable(pdf.long[,c(".y.","{{ iv }}","group1","group2","estimate","conf.low","conf.high",
                     "se","statistic","p","p.adj","p.adj.signif")], digits = 3)
 }
 ```
@@ -67,21 +67,8 @@ if (!is.null(pdat) && !is.null(nrow(plots[["{{ iv }}"]]$data)))
 ```
 
 ```{r}
-if ({{ barplot }} && !is.null(pdat))
-  plots <- oneWayAncovaBarPlots(
-    pdat, "{{ dv }}", "{{ iv }}", {{ aov }}, pwc${{ dv }}, covar = "{{ covar }}",
-    theme = "classic", color = color[["{{ sub }}"]][["{{ iv }}"]],
-    subtitle = which({{ aov }}$Effect == "{{ iv }}"))
-```
-
-```{r, dpi=300, fig.width={{ fig.width.bar }}, fig.height={{ fig.height.bar }}}
-if ({{ barplot }} && !is.null(pdat))
-  plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
-```
-
-```{r}
 if (!is.null(pdat))
-  plots <- oneWayAncovaBoxPlots(
+  plots <- oneWayAncova{{ if (barplot) "Bar" else "Box" }}Plots(
     pdat, "{{ dv }}", "{{ iv }}", {{ aov }}, pwc${{ dv }}, covar = "{{ covar }}",
     theme = "classic", color = color[["{{ sub }}"]][["{{ iv }}"]],
     subtitle = which({{ aov }}$Effect == "{{ iv }}"))
@@ -92,21 +79,10 @@ if (!is.null(pdat))
   plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-```{r}
-if ({{ barplot }} && !is.null(pdat))
-  plots <- oneWayAncovaBarPlots(
-    pdat.long, "{{ pivot.value }}", "{{ iv }}", {{ aov }}, pwc.long, pre.post = "{{ pivot.key }}",
-    theme = "classic", color = color[["{{ sub }}"]]$prepost)
-```
-
-```{r, dpi=300, fig.width={{ fig.width.pbar }}, fig.height={{ fig.height.pbar }}}
-if ({{ barplot }} && !is.null(pdat))
-  plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}")
-```
 
 ```{r}
 if (!is.null(pdat))
-  plots <- oneWayAncovaBoxPlots(
+  plots <- oneWayAncova{{ if (barplot) "Bar" else "Box" }}Plots(
     pdat.long, "{{ pivot.value }}", "{{ iv }}", {{ aov }}, pwc.long, pre.post = "{{ pivot.key }}",
     theme = "classic", color = color[["{{ sub }}"]]$prepost)
 ```

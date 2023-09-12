@@ -86,7 +86,10 @@ dat$idade <- sapply(dat$idade, FUN = function(v) {
   if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
 })
 
-dat$grupo <- factor(dat$grupo, c("Controle","Experimental"))
+dat$grupo <- as.vector(sapply(dat$grupo, FUN = function(x) {
+  if (x == "Controle") "Controle" else "{{ exp.lab }}" 
+}))
+dat$grupo <- factor(dat$grupo, c("Controle","{{ exp.lab }}"))
 dat$genero <- factor(dat$genero, c("F","M"))
 dat$zona.escola <- factor(dat$zona.escola, c("Urbana","Rural"))
 dat$zona.participante <- factor(dat$zona.participante, c("Urbana","Rural"))
@@ -209,7 +212,7 @@ df <- round.pval(aov2)
 kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
 ```
 
-## ANCOVA tests for grupo="Experimental"
+## ANCOVA tests for grupo="{{ exp.lab }}"
 
 ```{r, echo=FALSE, include=FALSE}
 aovs3 <- lapply(lfatores3, FUN = function(x) {

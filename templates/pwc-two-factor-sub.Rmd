@@ -27,7 +27,7 @@ if (!is.null(pdat)) {
 ```{r, echo=FALSE, purl=FALSE}
 if (!is.null(pdat)) {
   pdf <- round.pval(pdf)
-  kable(pdf[,c("{{ iv1 }}","{{ iv2 }}","group1","group2","estimate","conf.low",
+  kable(pdf[,c(".y.","{{ iv1 }}","{{ iv2 }}","group1","group2","estimate","conf.low",
                "conf.high","se","statistic","p","p.adj","p.adj.signif")], digits = 3)
 }
 ```
@@ -74,21 +74,8 @@ if (!is.null(pdat) && !is.null(nrow(plots[["{{ iv2 }}"]]$data)))
 
 
 ```{r}
-if ({{ barplot }} && !is.null(pdat))
-  plots <- twoWayAncovaBarPlots(
-    pdat, "{{ dv }}", c("{{ iv1 }}","{{ iv2 }}"), {{ aov }}, pwc${{ dv }}, covar = "{{ covar }}",
-    theme = "classic", color = color[["{{ sub }}"]][["{{ iv1 }}:{{ iv2 }}"]],
-    subtitle = which({{ aov }}$Effect == "{{ iv1 }}:{{ iv2 }}"))
-```
-
-```{r, dpi=300, fig.width={{ fig.width.bar }}, fig.height={{ fig.height.bar }}}
-if ({{ barplot }} && !is.null(pdat))
-  plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
-```
-
-```{r}
 if (!is.null(pdat))
-  plots <- twoWayAncovaBoxPlots(
+  plots <- twoWayAncova{{ if (barplot) "Bar" else "Box" }}Plots(
     pdat, "{{ dv }}", c("{{ iv1 }}","{{ iv2 }}"), {{ aov }}, pwc${{ dv }}, covar = "{{ covar }}",
     theme = "classic", color = color[["{{ sub }}"]][["{{ iv1 }}:{{ iv2 }}"]],
     subtitle = which({{ aov }}$Effect == "{{ iv1 }}:{{ iv2 }}"))
@@ -99,11 +86,12 @@ if (!is.null(pdat))
   plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
+
 ```{r}
 if (!is.null(pdat))
-  plots <- twoWayAncovaBoxPlots(
-    pdat.long, "{{ pivot.value }}", c("{{ iv1 }}","{{ iv2 }}"), {{ aov }}, pwc.long, pre.post = "{{ pivot.key }}",
-    theme = "classic", color = color[["{{ sub }}"]]$prepost)
+  plots <- twoWayAncova{{ if (barplot) "Bar" else "Box" }}Plots(
+    pdat.long, "{{ pivot.value }}", c("{{ iv1 }}","{{ iv2 }}"), aov2, pwc.long, pre.post = "{{ pivot.key }}",
+    theme = "classic", color = color$prepost)
 ```
 
 ```{r, dpi=300, fig.width={{ fig.width.pbar }}, fig.height={{ fig.height.pbar }}}

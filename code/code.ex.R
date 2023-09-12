@@ -11,16 +11,18 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
                   list(label = "leitura", ylab="flow (ativ. leitura)"),
                   list(label = "matematica", ylab="flow (prob. matemática)"))) {
   for (info in list(
-    list(file="../data/data.xlsx", sheet="flow.wordgen", color = "#1984c5",
+    list(file="../data/data.xlsx", sheet="flow.wg", color = "#1984c5", exp.lab = "Experimental",
          output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen.Rmd')),
-    list(file="../data/data.xlsx", sheet="flow.stariWordgen", color = "#5ad45a",
-         output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')))) {
+    list(file="../data/data.xlsx", sheet="flow.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+         output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')),
+    list(file="../data/data.xlsx", sheet="flow.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+         output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen-without-stari.Rmd')))) {
 
     tfile = "templates/flow.Rmd"
     params = list(
       fatores = c("genero","idade","zona.participante","escola","zona.escola"),
       info.monitor = c("monitor","monitor.genero","monitor.area","monitor.formacao","monitor.experiencia"),
-      label = vars$label, exp.color = info$color,
+      label = vars$label, exp.color = info$color, exp.lab = info$exp.lab,
       file.path = info$file, sheet = info$sheet,
       column.flow = paste0("flow.", vars$label),
       column.dfs = paste0("dfs.", vars$label),
@@ -76,25 +78,27 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
 #### Triagem Rmarkdown files generation ####
 
 lapply(list(
-  list(file="../data/data.xlsx", sheet="triagem.stari", color = "#fd7f6f",
-       output=paste0(getwd(),'/code/triagem-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.wordgen", color = "#1984c5",
+  list(file="../data/data.xlsx", sheet="triagem.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/triagem-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.stariWordgen", color = "#5ad45a",
+  list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/triagem-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="triagem.st.wo.wg", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
        output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd'))
   ), FUN = function(info) {
     tfile = "templates/learning.Rmd"
     sub = list(
-      palavras.lidas = list(var = "palavras.lidas", ylab="Quant. Palavras Lidas", barplot = TRUE),
-      score.compreensao = list(var = "score.compreensao", ylab="Compreensao Leitora (Acertos)", barplot = TRUE),
-      tri.compreensao = list(var = "tri.compreensao", ylab="Compreensao Leitora (TRI)", barplot = FALSE)
+      palavras.lidas = list(var = "palavras.lidas", ylab="Quant. Palavras Lidas", barplot = TRUE)
+      , score.compreensao = list(var = "score.compreensao", ylab="Compreensao Leitora (Acertos)", barplot = TRUE)
+      #, tri.compreensao = list(var = "tri.compreensao", ylab="Compreensao Leitora (TRI)", barplot = FALSE)
     )
     params = list(
       label.en = "Triagem Test - Reading of Words per Minutes and Reading Comprehension",
       label.pt = "Teste Triagem - Leitura de Palavras por Minuto e Compreensao Leitora",
       fatores = c("genero","idade","zona.participante","escola","zona.escola"),
       info.monitor = c("monitor","monitor.genero","monitor.area","monitor.formacao","monitor.experiencia"),
-      exp.color = info$color, sub = sub,
+      exp.color = info$color, sub = sub, exp.lab = info$exp.lab,
       file.path = info$file, sheet = info$sheet,
       descriptive = do.call(paste0, c(collapse = "\n", lapply(sub, FUN = function(x) {
         do.call(tmpl, c(list(".t" = paste(readLines("templates/descriptive-statistics.Rmd"), collapse="\n")), list(
@@ -196,11 +200,13 @@ lapply(list(
 
 
 for (info in list(
-  list(file="../data/data.xlsx", sheet="vocabulario.stari", color = "#fd7f6f",
+  list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
        output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="vocabulario.wordgen", color = "#1984c5",
+  list(file="../data/data.xlsx", sheet="vocabulario.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/vocabulario-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="vocabulario.stariWordgen", color = "#5ad45a",
+  list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
        output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
@@ -218,7 +224,7 @@ for (info in list(
     label.pt = "Teste de Vocabulario",
     fatores = c("genero","idade","zona.participante","escola","zona.escola"),
     info.monitor = c("monitor","monitor.genero","monitor.area","monitor.formacao","monitor.experiencia"),
-    exp.color = info$color, sub = sub,
+    exp.color = info$color, sub = sub, exp.lab = info$exp.lab,
     file.path = info$file, sheet = info$sheet,
     descriptive = do.call(paste0, c(collapse = "\n", lapply(sub, FUN = function(x) {
       do.call(tmpl, c(list(".t" = paste(readLines("templates/descriptive-statistics.Rmd"), collapse="\n")), list(
@@ -319,11 +325,13 @@ for (info in list(
 #### Leitura Rmarkdown files generation ####
 
 for (info in list(
-  list(file="../data/data.xlsx", sheet="leitura.stari", color = "#fd7f6f",
+  list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
        output=paste0(getwd(),'/code/leitura-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="leitura.wordgen", color = "#1984c5",
+  list(file="../data/data.xlsx", sheet="leitura.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/leitura-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="leitura.stariWordgen",color = "#5ad45a",
+  list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
        output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
@@ -350,7 +358,7 @@ for (info in list(
     label.pt = "Teste de Competencia em Leitura de Palavras e Pseudo-palavras",
     fatores = c("genero","idade","zona.participante","escola","zona.escola"),
     info.monitor = c("monitor","monitor.genero","monitor.area","monitor.formacao","monitor.experiencia"),
-    exp.color = info$color, sub = sub,
+    exp.color = info$color, sub = sub,exp.lab = info$exp.lab,
     file.path = info$file, sheet = info$sheet,
     descriptive = do.call(paste0, c(collapse = "\n", lapply(sub, FUN = function(x) {
       do.call(tmpl, c(list(".t" = paste(readLines("templates/descriptive-statistics.Rmd"), collapse="\n")), list(

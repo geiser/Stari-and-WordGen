@@ -27,6 +27,7 @@ output:
 fontsize: 10pt
 ---
 
+
 **NOTE**
 
  - Teste ANCOVA para determinar se houve diferenças significativas
@@ -106,7 +107,10 @@ for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
   df[["monitor"]] <- sapply(1:nrow(df), FUN = function(i) {
     if (df$monitor.count[i] == 1) df$monitor[i] else NA
   })
-  df$grupo <- factor(df$grupo, c("Controle","Experimental"))
+  df$grupo <- as.vector(sapply(df$grupo, FUN = function(x) {
+    if (x == "Controle") "Controle" else "{{ exp.lab }}" 
+  }))
+  df$grupo <- factor(df$grupo, c("Controle","{{ exp.lab }}"))
   df$genero <- factor(df$genero, c("F","M"))
   df$zona.escola <- factor(df$zona.escola, c("Urbana","Rural"))
   df$zona.participante <- factor(df$zona.participante, c("Urbana","Rural"))
@@ -123,7 +127,10 @@ for (dv in c({{ paste0(paste0('"', names(sub),'"'), collapse=",") }})) {
     if (df$monitor.count[i] == 1) df$monitor[i] else NA
   })
   df$time <- factor(df$time, c("pre","pos"))
-  df$grupo <- factor(df$grupo, c("Controle","Experimental"))
+  df$grupo <- as.vector(sapply(df$grupo, FUN = function(x) {
+    if (x == "Controle") "Controle" else "{{ exp.lab }}" 
+  }))
+  df$grupo <- factor(df$grupo, c("Controle","{{ exp.lab }}"))
   df$genero <- factor(df$genero, c("F","M"))
   df$zona.escola <- factor(df$zona.escola, c("Urbana","Rural"))
   df$zona.participante <- factor(df$zona.participante, c("Urbana","Rural"))
