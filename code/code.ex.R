@@ -82,7 +82,7 @@ lapply(list(
        output=paste0(getwd(),'/code/triagem-wordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
        output=paste0(getwd(),'/code/triagem-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.st.wo.wg", color = "#008000", exp.lab = "WordGen",
+  list(file="../data/data.xlsx", sheet="triagem.wg.wo.st", color = "#008000", exp.lab = "WordGen",
        output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
        output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd'))

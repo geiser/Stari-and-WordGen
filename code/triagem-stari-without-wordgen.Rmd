@@ -98,7 +98,7 @@ monitor <- monitor[,c("id",fatores3[-1])]
 dat <- list()
 dat.long <- list()
 for (dv in c("palavras.lidas","score.compreensao")) {
-  df <- readxl::read_excel("../data/data.xlsx", sheet = "triagem.st.wo.wg.wide")
+  df <- readxl::read_excel("../data/data.xlsx", sheet = "triagem.wg.wo.st.wide")
   df$idade <- sapply(df$idade, FUN = function(v) {
     if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
   })
@@ -117,7 +117,7 @@ for (dv in c("palavras.lidas","score.compreensao")) {
   
   dat[[dv]] <- df[!is.na(df[[paste0(dv,".pre")]]) & !is.na(df[[paste0(dv,".pos")]]),]
   
-  df <- readxl::read_excel("../data/data.xlsx", sheet = "triagem.st.wo.wg.long")
+  df <- readxl::read_excel("../data/data.xlsx", sheet = "triagem.wg.wo.st.long")
   df$idade <- sapply(df$idade, FUN = function(v) {
     if (!is.null(v) && !is.na(v)) return(paste0(v,"y")) else return(NA)
   })
@@ -1634,7 +1634,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "palavras.lidas", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["palavras.lidas"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -1734,7 +1734,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "score.compreensao", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["score.compreensao"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -1836,7 +1836,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "palavras.lidas", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["palavras.lidas"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -1936,7 +1936,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "score.compreensao", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["score.compreensao"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2038,7 +2038,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "palavras.lidas", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["palavras.lidas"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2138,7 +2138,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "score.compreensao", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["score.compreensao"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2240,7 +2240,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "palavras.lidas", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["palavras.lidas"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2340,7 +2340,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "score.compreensao", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["score.compreensao"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2442,7 +2442,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "palavras.lidas", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["palavras.lidas"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}
@@ -2542,7 +2542,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
     pdat.long, "score.compreensao", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["score.compreensao"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width=10, fig.height=6}

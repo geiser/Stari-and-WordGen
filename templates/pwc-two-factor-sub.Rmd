@@ -91,7 +91,7 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots <- twoWayAncova{{ if (barplot) "Bar" else "Box" }}Plots(
     pdat.long, "{{ pivot.value }}", c("{{ iv1 }}","{{ iv2 }}"), aov2, pwc.long, pre.post = "{{ pivot.key }}",
-    theme = "classic", color = color$prepost)
+    theme = "classic", color = color[["{{ sub }}"]]$prepost)
 ```
 
 ```{r, dpi=300, fig.width={{ fig.width.pbar }}, fig.height={{ fig.height.pbar }}}

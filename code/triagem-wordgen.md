@@ -1,5 +1,6 @@
-# ANCOVA in Triagem Test 
-Reading of Words per Minutes and Reading Comprehension (Teste Triagem - Leitura de Palavras por Minuto e Compreensao Leitora)
+ANCOVA in Triagem Test - Reading of Words per Minutes and Reading
+Comprehension (Teste Triagem - Leitura de Palavras por Minuto e
+Compreensao Leitora)
 ================
 Geiser C. Challco <geiser@alumni.usp.br>
 
