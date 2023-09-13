@@ -13,10 +13,10 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
                   list(label = "leitura", ylab="flow (ativ. leitura)"),
                   list(label = "matematica", ylab="flow (prob. matemática)"))) {
   for (info in list(
-    #list(file="../data/data.xlsx", sheet="flow.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-    #     output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen-without-stari.Rmd')),
-    #list(file="../data/data.xlsx", sheet="flow.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-    #     output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')),
+    list(file="../data/data.xlsx", sheet="flow.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+         output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen-without-stari.Rmd')),
+    list(file="../data/data.xlsx", sheet="flow.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+         output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')),
     list(file="../data/data.xlsx", sheet="flow.wg", color = "#1984c5", exp.lab = "Experimental",
          output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen.Rmd')))) {
 
@@ -80,12 +80,12 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
 #### Triagem Rmarkdown files generation ####
 
 lapply(list(
-  #list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
-  #     output=paste0(getwd(),'/code/triagem-stari.Rmd')),
-  #list(file="../data/data.xlsx", sheet="triagem.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-  #     output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
-  #list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-  #     output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/triagem-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="triagem.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+       output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="triagem.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/triagem-wordgen.Rmd'))
   ), FUN = function(info) {
@@ -142,7 +142,7 @@ lapply(list(
         c(collapse = "\n", paste0("\n## factor: **",f,"**\n"),
           lapply(params$sub, FUN = function(sub) {
             do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-              title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+              title = paste0("## ",sub$ylab), sub = sub$var,
               dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
               pivot.key = "time", pivot.value = sub$var,
               aov = paste0("aov1[[\"",sub$var,"\"]]"), ylab = sub$ylab,
@@ -161,7 +161,7 @@ lapply(list(
         c(collapse = "\n", paste0("\n## factores: **",f,":grupo**\n"),
           lapply(params$sub, FUN = function(sub) {
             do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-two-factor-sub.Rmd"), collapse="\n")), list(
-              title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+              title = paste0("## ",sub$ylab), sub = sub$var,
               dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"),
               iv1 = "grupo", iv2 = f,
               pivot.key = "time", pivot.value = sub$var,
@@ -181,7 +181,7 @@ lapply(list(
         c(collapse = "\n", paste0("\n## factores: **grupo=\"Experimental\":",f,"**\n"),
           lapply(params$sub, FUN = function(sub) {
             do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-              title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+              title = paste0("## ",sub$ylab), sub = sub$var,
               dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
               pivot.key = "time", pivot.value = sub$var,
               aov = paste0("aov3[[\"",sub$var,"\"]]"), ylab = sub$ylab,
@@ -202,12 +202,12 @@ lapply(list(
 
 
 for (info in list(
-  #list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
-  #     output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
-  #list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-  #     output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
-  #list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-  #     output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+       output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="vocabulario.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/vocabulario-wordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
@@ -266,7 +266,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factor: **",f,"**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
             pivot.key = "time", pivot.value = sub$var,
             aov = paste0("aov1[[\"",sub$var,"\"]]"), ylab = sub$ylab,
@@ -285,7 +285,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factores: **",f,":grupo**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-two-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"),
             iv1 = "grupo", iv2 = f,
             pivot.key = "time", pivot.value = sub$var,
@@ -305,7 +305,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factores: **grupo=\"Experimental\":",f,"**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
             pivot.key = "time", pivot.value = sub$var,
             aov = paste0("aov3[[\"",sub$var,"\"]]"), ylab = sub$ylab,
@@ -325,33 +325,33 @@ for (info in list(
 #### Leitura Rmarkdown files generation ####
 
 for (info in list(
-  #list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
-  #     output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')),
-  #list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
-  #     output=paste0(getwd(),'/code/leitura-stari.Rmd')),
-  #list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-  #     output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
+       output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')),
+  list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
+       output=paste0(getwd(),'/code/leitura-stari.Rmd')),
+  list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+       output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="leitura.wg", color = "#1984c5", exp.lab = "Experimental",
        output=paste0(getwd(),'/code/leitura-wordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
-    score.CLPP = list(var="score.CLPP", ylab="Leitura de Pseudo-Palavras (Acertos)", barplot=TRUE)
-    #, tri.CLPP = list(var="tri.CLPP", ylab="Leitura de Pseudo-Palavras (TRI)", barplot=FALSE)
+    score.CLPP = list(var="score.CLPP", ylab="Leitura de Pseudo-Palavras (Acertos)")
+    , tri.CLPP = list(var="tri.CLPP", ylab="Leitura de Pseudo-Palavras (TRI)")
 
-    , score.CR = list(var="score.CR", ylab="Correta Regular (Acertos)", barplot=TRUE)
-    #, tri.CR = list(var="tri.CR", ylab="Correta Regular (TRI)", barplot=FALSE)
+    , score.CR = list(var="score.CR", ylab="Correta Regular (Acertos)")
+    , tri.CR = list(var="tri.CR", ylab="Correta Regular (TRI)")
 
-    , score.CI = list(var="score.CI", ylab="Correta Irregular (Acertos)", barplot=TRUE)
-    #, tri.CI = list(var="tri.CI", ylab="Correta Irregular (TRI)", barplot=FALSE)
+    , score.CI = list(var="score.CI", ylab="Correta Irregular (Acertos)")
+    , tri.CI = list(var="tri.CI", ylab="Correta Irregular (TRI)")
 
-    , score.TV = list(var="score.TV", ylab="Trocas Visuais (Acertos)", barplot=TRUE)
-    #, tri.TV = list(var="tri.TV", ylab="Trocas Visuais (TRI)", barplot=FALSE)
+    , score.TV = list(var="score.TV", ylab="Trocas Visuais (Acertos)")
+    , tri.TV = list(var="tri.TV", ylab="Trocas Visuais (TRI)")
 
-    , score.TF = list(var="score.TF", ylab="Trocas Fonologicas (Acertos)", barplot=TRUE)
-    #, tri.TF = list(var="tri.TF", ylab="Trocas Fonologicas (TRI)", barplot=FALSE)
+    , score.TF = list(var="score.TF", ylab="Trocas Fonologicas (Acertos)")
+    , tri.TF = list(var="tri.TF", ylab="Trocas Fonologicas (TRI)")
 
-    , score.TO = list(var="score.TO", ylab="Trocas Orograficas (Acertos)", barplot=TRUE)
-    #, tri.TO = list(var="tri.TO", ylab="Trocas Orograficas (TRI)", barplot=FALSE)
+    , score.TO = list(var="score.TO", ylab="Trocas Orograficas (Acertos)")
+    , tri.TO = list(var="tri.TO", ylab="Trocas Orograficas (TRI)")
   )
   params = list(
     label.en = "CLPP Test",
@@ -400,7 +400,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factor: **",f,"**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
             pivot.key = "time", pivot.value = sub$var,
             aov = paste0("aov1[[\"",sub$var,"\"]]"), ylab = sub$ylab,
@@ -419,7 +419,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factores: **",f,":grupo**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-two-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"),
             iv1 = "grupo", iv2 = f,
             pivot.key = "time", pivot.value = sub$var,
@@ -439,7 +439,7 @@ for (info in list(
       c(collapse = "\n", paste0("\n## factores: **grupo=\"Experimental\":",f,"**\n"),
         lapply(params$sub, FUN = function(sub) {
           do.call(tmpl, c(list(".t" = paste(readLines("templates/pwc-one-factor-sub.Rmd"), collapse="\n")), list(
-            title = paste0("## ",sub$ylab), sub = sub$var, barplot = sub$barplot,
+            title = paste0("## ",sub$ylab), sub = sub$var,
             dv = paste0(sub$var,".pos"), covar = paste0(sub$var,".pre"), iv = f,
             pivot.key = "time", pivot.value = sub$var,
             aov = paste0("aov3[[\"",sub$var,"\"]]"), ylab = sub$ylab,

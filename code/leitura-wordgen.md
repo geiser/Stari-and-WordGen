@@ -7,196 +7,349 @@ Geiser C. Challco <geiser@alumni.usp.br>
   Data](#descriptive-statistics-of-initial-data)
   - [Leitura de Pseudo-Palavras
     (Acertos)](#leitura-de-pseudo-palavras-acertos)
+  - [Leitura de Pseudo-Palavras (TRI)](#leitura-de-pseudo-palavras-tri)
   - [Correta Regular (Acertos)](#correta-regular-acertos)
+  - [Correta Regular (TRI)](#correta-regular-tri)
   - [Correta Irregular (Acertos)](#correta-irregular-acertos)
+  - [Correta Irregular (TRI)](#correta-irregular-tri)
   - [Trocas Visuais (Acertos)](#trocas-visuais-acertos)
+  - [Trocas Visuais (TRI)](#trocas-visuais-tri)
   - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos)
+  - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri)
   - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos)
+  - [Trocas Orograficas (TRI)](#trocas-orograficas-tri)
 - [Checking of Assumptions](#checking-of-assumptions)
   - [Assumption: Normality
     distribution](#assumption-normality-distribution)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-1)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-1)
     - [Correta Regular (Acertos)](#correta-regular-acertos-1)
+    - [Correta Regular (TRI)](#correta-regular-tri-1)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-1)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-1)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-1)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-1)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-1)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-1)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-1)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-1)
   - [Assumption: Homogeneity](#assumption-homogeneity)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-2)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-2)
     - [Correta Regular (Acertos)](#correta-regular-acertos-2)
+    - [Correta Regular (TRI)](#correta-regular-tri-2)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-2)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-2)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-2)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-2)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-2)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-2)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-2)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-2)
 - [Computation of ANCOVA test and Pairwise
   Comparison](#computation-of-ancova-test-and-pairwise-comparison)
   - [ANCOVA tests for one factor](#ancova-tests-for-one-factor)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-3)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-3)
     - [Correta Regular (Acertos)](#correta-regular-acertos-3)
+    - [Correta Regular (TRI)](#correta-regular-tri-3)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-3)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-3)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-3)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-3)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-3)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-3)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-3)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-3)
   - [ANCOVA tests for two factors](#ancova-tests-for-two-factors)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-4)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-4)
     - [Correta Regular (Acertos)](#correta-regular-acertos-4)
+    - [Correta Regular (TRI)](#correta-regular-tri-4)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-4)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-4)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-4)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-4)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-4)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-4)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-4)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-4)
   - [ANCOVA tests for
     grupo=“Experimental”](#ancova-tests-for-grupoexperimental)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-5)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-5)
     - [Correta Regular (Acertos)](#correta-regular-acertos-5)
+    - [Correta Regular (TRI)](#correta-regular-tri-5)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-5)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-5)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-5)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-5)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-5)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-5)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-5)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-5)
 - [Pairwise comparisons for one
   factor](#pairwise-comparisons-for-one-factor)
   - [factor: **grupo**](#factor-grupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-6)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-6)
     - [Correta Regular (Acertos)](#correta-regular-acertos-6)
+    - [Correta Regular (TRI)](#correta-regular-tri-6)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-6)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-6)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-6)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-6)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-6)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-6)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-6)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-6)
   - [factor: **genero**](#factor-genero)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-7)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-7)
     - [Correta Regular (Acertos)](#correta-regular-acertos-7)
+    - [Correta Regular (TRI)](#correta-regular-tri-7)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-7)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-7)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-7)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-7)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-7)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-7)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-7)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-7)
   - [factor: **idade**](#factor-idade)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-8)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-8)
     - [Correta Regular (Acertos)](#correta-regular-acertos-8)
+    - [Correta Regular (TRI)](#correta-regular-tri-8)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-8)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-8)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-8)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-8)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-8)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-8)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-8)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-8)
   - [factor: **zona.participante**](#factor-zonaparticipante)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-9)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-9)
     - [Correta Regular (Acertos)](#correta-regular-acertos-9)
+    - [Correta Regular (TRI)](#correta-regular-tri-9)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-9)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-9)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-9)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-9)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-9)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-9)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-9)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-9)
   - [factor: **escola**](#factor-escola)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-10)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-10)
     - [Correta Regular (Acertos)](#correta-regular-acertos-10)
+    - [Correta Regular (TRI)](#correta-regular-tri-10)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-10)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-10)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-10)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-10)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-10)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-10)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-10)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-10)
   - [factor: **zona.escola**](#factor-zonaescola)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-11)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-11)
     - [Correta Regular (Acertos)](#correta-regular-acertos-11)
+    - [Correta Regular (TRI)](#correta-regular-tri-11)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-11)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-11)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-11)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-11)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-11)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-11)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-11)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-11)
 - [Pairwise comparisons for two
   factors](#pairwise-comparisons-for-two-factors)
   - [factores: **genero:grupo**](#factores-generogrupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-12)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-12)
     - [Correta Regular (Acertos)](#correta-regular-acertos-12)
+    - [Correta Regular (TRI)](#correta-regular-tri-12)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-12)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-12)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-12)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-12)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-12)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-12)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-12)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-12)
   - [factores: **idade:grupo**](#factores-idadegrupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-13)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-13)
     - [Correta Regular (Acertos)](#correta-regular-acertos-13)
+    - [Correta Regular (TRI)](#correta-regular-tri-13)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-13)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-13)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-13)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-13)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-13)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-13)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-13)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-13)
   - [factores:
     **zona.participante:grupo**](#factores-zonaparticipantegrupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-14)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-14)
     - [Correta Regular (Acertos)](#correta-regular-acertos-14)
+    - [Correta Regular (TRI)](#correta-regular-tri-14)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-14)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-14)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-14)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-14)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-14)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-14)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-14)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-14)
   - [factores: **escola:grupo**](#factores-escolagrupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-15)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-15)
     - [Correta Regular (Acertos)](#correta-regular-acertos-15)
+    - [Correta Regular (TRI)](#correta-regular-tri-15)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-15)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-15)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-15)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-15)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-15)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-15)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-15)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-15)
   - [factores: **zona.escola:grupo**](#factores-zonaescolagrupo)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-16)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-16)
     - [Correta Regular (Acertos)](#correta-regular-acertos-16)
+    - [Correta Regular (TRI)](#correta-regular-tri-16)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-16)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-16)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-16)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-16)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-16)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-16)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-16)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-16)
 - [Pairwise comparisons for
   grupo=“Experimental”](#pairwise-comparisons-for-grupoexperimental)
   - [factores:
     **grupo=“Experimental”:monitor**](#factores-grupoexperimentalmonitor)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-17)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-17)
     - [Correta Regular (Acertos)](#correta-regular-acertos-17)
+    - [Correta Regular (TRI)](#correta-regular-tri-17)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-17)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-17)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-17)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-17)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-17)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-17)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-17)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-17)
   - [factores:
     **grupo=“Experimental”:monitor.genero**](#factores-grupoexperimentalmonitorgenero)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-18)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-18)
     - [Correta Regular (Acertos)](#correta-regular-acertos-18)
+    - [Correta Regular (TRI)](#correta-regular-tri-18)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-18)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-18)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-18)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-18)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-18)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-18)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-18)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-18)
   - [factores:
     **grupo=“Experimental”:monitor.area**](#factores-grupoexperimentalmonitorarea)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-19)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-19)
     - [Correta Regular (Acertos)](#correta-regular-acertos-19)
+    - [Correta Regular (TRI)](#correta-regular-tri-19)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-19)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-19)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-19)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-19)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-19)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-19)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-19)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-19)
   - [factores:
     **grupo=“Experimental”:monitor.formacao**](#factores-grupoexperimentalmonitorformacao)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-20)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-20)
     - [Correta Regular (Acertos)](#correta-regular-acertos-20)
+    - [Correta Regular (TRI)](#correta-regular-tri-20)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-20)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-20)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-20)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-20)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-20)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-20)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-20)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-20)
   - [factores:
     **grupo=“Experimental”:monitor.experiencia**](#factores-grupoexperimentalmonitorexperiencia)
     - [Leitura de Pseudo-Palavras
       (Acertos)](#leitura-de-pseudo-palavras-acertos-21)
+    - [Leitura de Pseudo-Palavras
+      (TRI)](#leitura-de-pseudo-palavras-tri-21)
     - [Correta Regular (Acertos)](#correta-regular-acertos-21)
+    - [Correta Regular (TRI)](#correta-regular-tri-21)
     - [Correta Irregular (Acertos)](#correta-irregular-acertos-21)
+    - [Correta Irregular (TRI)](#correta-irregular-tri-21)
     - [Trocas Visuais (Acertos)](#trocas-visuais-acertos-21)
+    - [Trocas Visuais (TRI)](#trocas-visuais-tri-21)
     - [Trocas Fonologicas (Acertos)](#trocas-fonologicas-acertos-21)
+    - [Trocas Fonologicas (TRI)](#trocas-fonologicas-tri-21)
     - [Trocas Orograficas (Acertos)](#trocas-orograficas-acertos-21)
+    - [Trocas Orograficas (TRI)](#trocas-orograficas-tri-21)
 
 **NOTE**
 
@@ -291,6 +444,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Experimental |        |       |                   |        | Urbana      | score.CLPP.pre |  89 | 69.674 |   72.0 |  24 |  92 | 14.961 |  1.586 |   3.152 | 19.00 |
 | Experimental |        |       |                   |        | Rural       | score.CLPP.pre |  46 | 70.543 |   71.0 |  38 |  91 | 13.058 |  1.925 |   3.878 | 15.00 |
 
+## Leitura de Pseudo-Palavras (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable     |   n |   mean | median | min | max |     sd |     se |      ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-------------|----:|-------:|-------:|----:|----:|-------:|-------:|--------:|------:|
+| Controle     | F      |       |                   |        |             | tri.CLPP.pos |  78 | 72.692 |   75.5 |  23 |  96 | 14.418 |  1.633 |   3.251 | 21.75 |
+| Controle     | M      |       |                   |        |             | tri.CLPP.pos |  71 | 66.197 |   68.0 |  29 |  92 | 15.133 |  1.796 |   3.582 | 24.50 |
+| Experimental | F      |       |                   |        |             | tri.CLPP.pos |  56 | 74.286 |   79.0 |  16 |  93 | 15.553 |  2.078 |   4.165 | 16.50 |
+| Experimental | M      |       |                   |        |             | tri.CLPP.pos |  79 | 68.532 |   68.0 |  33 |  94 | 12.755 |  1.435 |   2.857 | 17.00 |
+| Controle     | F      |       |                   |        |             | tri.CLPP.pre |  78 | 70.205 |   71.5 |  13 |  96 | 15.002 |  1.699 |   3.383 | 18.25 |
+| Controle     | M      |       |                   |        |             | tri.CLPP.pre |  71 | 65.789 |   67.0 |  11 |  94 | 14.028 |  1.665 |   3.320 | 14.50 |
+| Experimental | F      |       |                   |        |             | tri.CLPP.pre |  56 | 73.982 |   78.0 |  33 |  91 | 14.168 |  1.893 |   3.794 | 16.50 |
+| Experimental | M      |       |                   |        |             | tri.CLPP.pre |  79 | 67.127 |   68.0 |  24 |  92 | 13.781 |  1.550 |   3.087 | 16.50 |
+| Controle     |        | 10y   |                   |        |             | tri.CLPP.pos |  28 | 70.429 |   73.0 |  38 |  96 | 14.101 |  2.665 |   5.468 | 20.00 |
+| Controle     |        | 11y   |                   |        |             | tri.CLPP.pos |  84 | 72.429 |   76.0 |  23 |  96 | 14.699 |  1.604 |   3.190 | 22.25 |
+| Controle     |        | 12y   |                   |        |             | tri.CLPP.pos |  20 | 59.450 |   62.0 |  29 |  87 | 16.015 |  3.581 |   7.495 | 19.00 |
+| Controle     |        | 13y   |                   |        |             | tri.CLPP.pos |   8 | 65.500 |   65.5 |  51 |  76 |  9.243 |  3.268 |   7.727 | 15.00 |
+| Controle     |        | 14y   |                   |        |             | tri.CLPP.pos |   2 | 63.500 |   63.5 |  47 |  80 | 23.335 | 16.500 | 209.652 | 16.50 |
+| Controle     |        | 15y   |                   |        |             | tri.CLPP.pos |   1 | 59.000 |   59.0 |  59 |  59 |        |        |         |  0.00 |
+| Controle     |        |       |                   |        |             | tri.CLPP.pos |   6 | 69.167 |   61.5 |  55 |  90 | 15.587 |  6.364 |  16.358 | 22.50 |
+| Experimental |        | 10y   |                   |        |             | tri.CLPP.pos |  27 | 67.667 |   70.0 |  16 |  89 | 16.770 |  3.227 |   6.634 | 22.00 |
+| Experimental |        | 11y   |                   |        |             | tri.CLPP.pos |  82 | 73.183 |   74.0 |  40 |  94 | 13.066 |  1.443 |   2.871 | 21.75 |
+| Experimental |        | 12y   |                   |        |             | tri.CLPP.pos |  16 | 67.250 |   68.0 |  38 |  93 | 14.938 |  3.734 |   7.960 | 19.50 |
+| Experimental |        | 13y   |                   |        |             | tri.CLPP.pos |   7 | 65.571 |   67.0 |  42 |  81 | 13.227 |  4.999 |  12.233 | 12.50 |
+| Experimental |        | 14y   |                   |        |             | tri.CLPP.pos |   1 | 61.000 |   61.0 |  61 |  61 |        |        |         |  0.00 |
+| Experimental |        |       |                   |        |             | tri.CLPP.pos |   2 | 75.000 |   75.0 |  63 |  87 | 16.971 | 12.000 | 152.474 | 12.00 |
+| Controle     |        | 10y   |                   |        |             | tri.CLPP.pre |  28 | 71.643 |   72.0 |  53 |  95 | 10.166 |  1.921 |   3.942 | 16.25 |
+| Controle     |        | 11y   |                   |        |             | tri.CLPP.pre |  84 | 68.917 |   71.0 |  11 |  96 | 16.045 |  1.751 |   3.482 | 18.25 |
+| Controle     |        | 12y   |                   |        |             | tri.CLPP.pre |  20 | 64.650 |   66.5 |  35 |  83 | 11.842 |  2.648 |   5.542 |  7.75 |
+| Controle     |        | 13y   |                   |        |             | tri.CLPP.pre |   8 | 60.875 |   64.5 |  35 |  73 | 12.529 |  4.430 |  10.475 | 11.00 |
+| Controle     |        | 14y   |                   |        |             | tri.CLPP.pre |   2 | 46.000 |   46.0 |  30 |  62 | 22.627 | 16.000 | 203.299 | 16.00 |
+| Controle     |        | 15y   |                   |        |             | tri.CLPP.pre |   1 | 52.000 |   52.0 |  52 |  52 |        |        |         |  0.00 |
+| Controle     |        |       |                   |        |             | tri.CLPP.pre |   6 | 71.333 |   67.5 |  51 |  90 | 14.390 |  5.875 |  15.101 | 15.25 |
+| Experimental |        | 10y   |                   |        |             | tri.CLPP.pre |  27 | 69.556 |   70.0 |  24 |  88 | 13.695 |  2.636 |   5.418 | 14.50 |
+| Experimental |        | 11y   |                   |        |             | tri.CLPP.pre |  82 | 71.927 |   72.0 |  38 |  92 | 13.343 |  1.474 |   2.932 | 17.50 |
+| Experimental |        | 12y   |                   |        |             | tri.CLPP.pre |  16 | 67.000 |   71.5 |  33 |  91 | 17.178 |  4.294 |   9.153 | 17.75 |
+| Experimental |        | 13y   |                   |        |             | tri.CLPP.pre |   7 | 62.000 |   59.0 |  50 |  80 | 10.970 |  4.146 |  10.145 | 11.50 |
+| Experimental |        | 14y   |                   |        |             | tri.CLPP.pre |   1 | 35.000 |   35.0 |  35 |  35 |        |        |         |  0.00 |
+| Experimental |        |       |                   |        |             | tri.CLPP.pre |   2 | 64.500 |   64.5 |  45 |  84 | 27.577 | 19.500 | 247.771 | 19.50 |
+| Controle     |        |       | Urbana            |        |             | tri.CLPP.pos |  64 | 70.859 |   75.5 |  23 |  93 | 15.614 |  1.952 |   3.900 | 23.25 |
+| Controle     |        |       | Rural             |        |             | tri.CLPP.pos |  51 | 69.824 |   70.0 |  45 |  96 | 13.995 |  1.960 |   3.936 | 22.00 |
+| Controle     |        |       |                   |        |             | tri.CLPP.pos |  34 | 66.882 |   64.0 |  29 |  94 | 15.665 |  2.686 |   5.466 | 21.50 |
+| Experimental |        |       | Urbana            |        |             | tri.CLPP.pos |  47 | 69.298 |   70.0 |  16 |  94 | 17.163 |  2.503 |   5.039 | 25.00 |
+| Experimental |        |       | Rural             |        |             | tri.CLPP.pos |  58 | 71.431 |   72.0 |  42 |  93 | 13.496 |  1.772 |   3.549 | 22.75 |
+| Experimental |        |       |                   |        |             | tri.CLPP.pos |  30 | 72.467 |   71.5 |  56 |  88 | 10.061 |  1.837 |   3.757 | 13.75 |
+| Controle     |        |       | Urbana            |        |             | tri.CLPP.pre |  64 | 68.594 |   71.0 |  13 |  93 | 15.010 |  1.876 |   3.749 | 18.00 |
+| Controle     |        |       | Rural             |        |             | tri.CLPP.pre |  51 | 68.137 |   67.0 |  35 |  96 | 13.458 |  1.885 |   3.785 | 16.50 |
+| Controle     |        |       |                   |        |             | tri.CLPP.pre |  34 | 67.118 |   69.5 |  11 |  94 | 16.081 |  2.758 |   5.611 | 17.00 |
+| Experimental |        |       | Urbana            |        |             | tri.CLPP.pre |  47 | 67.766 |   69.0 |  24 |  91 | 16.855 |  2.459 |   4.949 | 20.50 |
+| Experimental |        |       | Rural             |        |             | tri.CLPP.pre |  58 | 70.948 |   71.5 |  38 |  91 | 13.165 |  1.729 |   3.462 | 17.00 |
+| Experimental |        |       |                   |        |             | tri.CLPP.pre |  30 | 71.533 |   71.0 |  45 |  92 | 11.875 |  2.168 |   4.434 | 17.50 |
+| Controle     |        |       |                   | E1     |             | tri.CLPP.pos |  12 | 75.250 |   77.0 |  57 |  93 | 10.830 |  3.126 |   6.881 | 11.75 |
+| Controle     |        |       |                   | E2     |             | tri.CLPP.pos |  28 | 62.714 |   62.0 |  29 |  92 | 17.237 |  3.257 |   6.684 | 26.50 |
+| Controle     |        |       |                   | E3     |             | tri.CLPP.pos |  19 | 71.105 |   76.0 |  46 |  96 | 14.689 |  3.370 |   7.080 | 22.00 |
+| Controle     |        |       |                   | E4     |             | tri.CLPP.pos |  20 | 68.700 |   73.5 |  23 |  87 | 15.482 |  3.462 |   7.246 | 20.00 |
+| Controle     |        |       |                   | E5     |             | tri.CLPP.pos |  58 | 70.190 |   70.0 |  38 |  96 | 14.336 |  1.882 |   3.769 | 23.50 |
+| Controle     |        |       |                   | E6     |             | tri.CLPP.pos |  12 | 76.250 |   80.0 |  54 |  94 | 12.864 |  3.713 |   8.173 | 23.00 |
+| Experimental |        |       |                   | E1     |             | tri.CLPP.pos |  11 | 71.182 |   74.0 |  51 |  91 | 12.448 |  3.753 |   8.363 | 17.00 |
+| Experimental |        |       |                   | E2     |             | tri.CLPP.pos |  23 | 65.130 |   70.0 |  16 |  88 | 18.765 |  3.913 |   8.115 | 23.50 |
+| Experimental |        |       |                   | E3     |             | tri.CLPP.pos |  16 | 69.188 |   68.0 |  49 |  93 | 14.039 |  3.510 |   7.481 | 23.25 |
+| Experimental |        |       |                   | E4     |             | tri.CLPP.pos |  15 | 75.333 |   71.0 |  61 |  91 |  9.641 |  2.489 |   5.339 | 15.50 |
+| Experimental |        |       |                   | E5     |             | tri.CLPP.pos |  55 | 72.473 |   74.0 |  33 |  94 | 14.537 |  1.960 |   3.930 | 25.00 |
+| Experimental |        |       |                   | E6     |             | tri.CLPP.pos |  15 | 71.333 |   70.0 |  57 |  87 |  7.862 |  2.030 |   4.354 |  9.00 |
+| Controle     |        |       |                   | E1     |             | tri.CLPP.pre |  12 | 71.583 |   71.5 |  52 |  92 | 10.698 |  3.088 |   6.797 | 12.50 |
+| Controle     |        |       |                   | E2     |             | tri.CLPP.pre |  28 | 65.714 |   67.5 |  30 |  88 | 14.045 |  2.654 |   5.446 | 15.50 |
+| Controle     |        |       |                   | E3     |             | tri.CLPP.pre |  19 | 63.263 |   67.0 |  35 |  96 | 17.770 |  4.077 |   8.565 | 27.00 |
+| Controle     |        |       |                   | E4     |             | tri.CLPP.pre |  20 | 64.850 |   66.0 |  13 |  84 | 16.359 |  3.658 |   7.656 | 14.25 |
+| Controle     |        |       |                   | E5     |             | tri.CLPP.pre |  58 | 70.776 |   69.5 |  48 |  95 | 11.546 |  1.516 |   3.036 | 15.00 |
+| Controle     |        |       |                   | E6     |             | tri.CLPP.pre |  12 | 70.333 |   79.0 |  11 |  94 | 22.248 |  6.422 |  14.136 | 20.50 |
+| Experimental |        |       |                   | E1     |             | tri.CLPP.pre |  11 | 67.182 |   69.0 |  35 |  87 | 16.594 |  5.003 |  11.148 | 17.50 |
+| Experimental |        |       |                   | E2     |             | tri.CLPP.pre |  23 | 70.130 |   70.0 |  33 |  87 | 11.698 |  2.439 |   5.059 | 11.50 |
+| Experimental |        |       |                   | E3     |             | tri.CLPP.pre |  16 | 67.812 |   69.5 |  38 |  91 | 16.130 |  4.032 |   8.595 | 17.50 |
+| Experimental |        |       |                   | E4     |             | tri.CLPP.pre |  15 | 74.200 |   75.0 |  40 |  88 | 12.531 |  3.236 |   6.939 | 12.00 |
+| Experimental |        |       |                   | E5     |             | tri.CLPP.pre |  55 | 69.982 |   72.0 |  24 |  92 | 16.018 |  2.160 |   4.330 | 25.50 |
+| Experimental |        |       |                   | E6     |             | tri.CLPP.pre |  15 | 69.800 |   69.0 |  55 |  89 |  9.428 |  2.434 |   5.221 | 11.50 |
+| Controle     |        |       |                   |        | Urbana      | tri.CLPP.pos |  98 | 68.673 |   70.0 |  29 |  96 | 15.289 |  1.544 |   3.065 | 23.00 |
+| Controle     |        |       |                   |        | Rural       | tri.CLPP.pos |  51 | 71.373 |   75.0 |  23 |  96 | 14.620 |  2.047 |   4.112 | 19.50 |
+| Experimental |        |       |                   |        | Urbana      | tri.CLPP.pos |  89 | 70.416 |   74.0 |  16 |  94 | 15.663 |  1.660 |   3.299 | 24.00 |
+| Experimental |        |       |                   |        | Rural       | tri.CLPP.pos |  46 | 71.891 |   70.0 |  49 |  93 | 10.977 |  1.619 |   3.260 | 13.75 |
+| Controle     |        |       |                   |        | Urbana      | tri.CLPP.pre |  98 | 69.429 |   69.5 |  30 |  95 | 12.323 |  1.245 |   2.471 | 16.00 |
+| Controle     |        |       |                   |        | Rural       | tri.CLPP.pre |  51 | 65.549 |   67.0 |  11 |  96 | 18.219 |  2.551 |   5.124 | 20.50 |
+| Experimental |        |       |                   |        | Urbana      | tri.CLPP.pre |  89 | 69.674 |   72.0 |  24 |  92 | 14.961 |  1.586 |   3.152 | 19.00 |
+| Experimental |        |       |                   |        | Rural       | tri.CLPP.pre |  46 | 70.543 |   71.0 |  38 |  91 | 13.058 |  1.925 |   3.878 | 15.00 |
+
 ## Correta Regular (Acertos)
 
 | grupo        | genero | idade | zona.participante | escola | zona.escola | variable     |   n |   mean | median | min | max |    sd |    se |     ci |   iqr |
@@ -377,6 +613,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Controle     |        |       |                   |        | Rural       | score.CR.pre |  58 | 13.759 |   15.0 |   0 |  20 | 4.758 | 0.625 |  1.251 |  6.00 |
 | Experimental |        |       |                   |        | Urbana      | score.CR.pre | 108 | 14.231 |   16.0 |   0 |  20 | 4.917 | 0.473 |  0.938 |  6.25 |
 | Experimental |        |       |                   |        | Rural       | score.CR.pre |  48 | 15.188 |   16.0 |   0 |  20 | 4.025 | 0.581 |  1.169 |  4.00 |
+
+## Correta Regular (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable   |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-----------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle     | F      |       |                   |        |             | tri.CR.pos |  78 |  0.166 |  0.288 | -1.596 |  1.231 | 0.775 | 0.088 |  0.175 | 1.218 |
+| Controle     | M      |       |                   |        |             | tri.CR.pos |  71 | -0.113 | -0.046 | -2.009 |  1.231 | 0.910 | 0.108 |  0.215 | 1.566 |
+| Experimental | F      |       |                   |        |             | tri.CR.pos |  56 |  0.334 |  0.342 | -1.778 |  1.231 | 0.678 | 0.091 |  0.182 | 0.996 |
+| Experimental | M      |       |                   |        |             | tri.CR.pos |  79 |  0.013 |  0.160 | -1.730 |  1.231 | 0.792 | 0.089 |  0.177 | 1.313 |
+| Controle     | F      |       |                   |        |             | tri.CR.pre |  78 |  0.022 |  0.110 | -2.377 |  1.231 | 0.785 | 0.089 |  0.177 | 1.146 |
+| Controle     | M      |       |                   |        |             | tri.CR.pre |  71 | -0.127 | -0.182 | -1.586 |  1.231 | 0.726 | 0.086 |  0.172 | 1.230 |
+| Experimental | F      |       |                   |        |             | tri.CR.pre |  56 |  0.427 |  0.585 | -1.544 |  1.231 | 0.650 | 0.087 |  0.174 | 0.830 |
+| Experimental | M      |       |                   |        |             | tri.CR.pre |  79 | -0.055 |  0.100 | -2.013 |  1.231 | 0.911 | 0.103 |  0.204 | 1.621 |
+| Controle     |        | 10y   |                   |        |             | tri.CR.pos |  28 |  0.243 |  0.280 | -1.091 |  1.231 | 0.668 | 0.126 |  0.259 | 1.143 |
+| Controle     |        | 11y   |                   |        |             | tri.CR.pos |  84 |  0.174 |  0.289 | -1.706 |  1.231 | 0.796 | 0.087 |  0.173 | 1.211 |
+| Controle     |        | 12y   |                   |        |             | tri.CR.pos |  20 | -0.522 | -0.397 | -2.009 |  0.946 | 0.999 | 0.223 |  0.468 | 1.778 |
+| Controle     |        | 13y   |                   |        |             | tri.CR.pos |   8 | -0.431 | -0.442 | -1.573 |  0.561 | 0.798 | 0.282 |  0.667 | 1.398 |
+| Controle     |        | 14y   |                   |        |             | tri.CR.pos |   2 | -0.339 | -0.339 | -1.663 |  0.985 | 1.872 | 1.324 | 16.824 | 1.324 |
+| Controle     |        | 15y   |                   |        |             | tri.CR.pos |   1 | -1.003 | -1.003 | -1.003 | -1.003 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.CR.pos |   6 | -0.151 | -0.352 | -0.896 |  1.231 | 0.795 | 0.324 |  0.834 | 0.830 |
+| Experimental |        | 10y   |                   |        |             | tri.CR.pos |  27 |  0.103 |  0.175 | -1.125 |  1.231 | 0.648 | 0.125 |  0.256 | 0.895 |
+| Experimental |        | 11y   |                   |        |             | tri.CR.pos |  82 |  0.225 |  0.342 | -1.778 |  1.231 | 0.784 | 0.087 |  0.172 | 1.064 |
+| Experimental |        | 12y   |                   |        |             | tri.CR.pos |  16 | -0.095 | -0.211 | -1.256 |  1.231 | 0.803 | 0.201 |  0.428 | 1.051 |
+| Experimental |        | 13y   |                   |        |             | tri.CR.pos |   7 |  0.016 |  0.139 | -0.892 |  1.231 | 0.805 | 0.304 |  0.744 | 1.167 |
+| Experimental |        | 14y   |                   |        |             | tri.CR.pos |   1 | -1.057 | -1.057 | -1.057 | -1.057 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.CR.pos |   2 |  0.473 |  0.473 |  0.412 |  0.534 | 0.086 | 0.061 |  0.773 | 0.061 |
+| Controle     |        | 10y   |                   |        |             | tri.CR.pre |  28 |  0.120 | -0.043 | -0.818 |  1.074 | 0.622 | 0.118 |  0.241 | 0.999 |
+| Controle     |        | 11y   |                   |        |             | tri.CR.pre |  84 | -0.053 |  0.026 | -2.377 |  1.231 | 0.806 | 0.088 |  0.175 | 1.358 |
+| Controle     |        | 12y   |                   |        |             | tri.CR.pre |  20 | -0.001 |  0.227 | -1.191 |  1.231 | 0.695 | 0.156 |  0.325 | 0.996 |
+| Controle     |        | 13y   |                   |        |             | tri.CR.pre |   8 | -0.398 | -0.492 | -1.736 |  0.788 | 0.757 | 0.268 |  0.633 | 0.745 |
+| Controle     |        | 14y   |                   |        |             | tri.CR.pre |   2 | -0.674 | -0.674 | -0.912 | -0.435 | 0.338 | 0.239 |  3.033 | 0.239 |
+| Controle     |        | 15y   |                   |        |             | tri.CR.pre |   1 | -1.586 | -1.586 | -1.586 | -1.586 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.CR.pre |   6 | -0.013 | -0.107 | -0.944 |  0.854 | 0.698 | 0.285 |  0.733 | 0.980 |
+| Experimental |        | 10y   |                   |        |             | tri.CR.pre |  27 |  0.075 |  0.109 | -1.651 |  1.078 | 0.811 | 0.156 |  0.321 | 0.883 |
+| Experimental |        | 11y   |                   |        |             | tri.CR.pre |  82 |  0.263 |  0.507 | -2.013 |  1.231 | 0.805 | 0.089 |  0.177 | 0.983 |
+| Experimental |        | 12y   |                   |        |             | tri.CR.pre |  16 |  0.094 |  0.304 | -1.567 |  1.231 | 0.925 | 0.231 |  0.493 | 1.172 |
+| Experimental |        | 13y   |                   |        |             | tri.CR.pre |   7 | -0.480 | -0.734 | -1.336 |  0.783 | 0.844 | 0.319 |  0.781 | 1.363 |
+| Experimental |        | 14y   |                   |        |             | tri.CR.pre |   1 | -1.700 | -1.700 | -1.700 | -1.700 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.CR.pre |   2 | -0.245 | -0.245 | -1.025 |  0.534 | 1.102 | 0.779 |  9.903 | 0.779 |
+| Controle     |        |       | Urbana            |        |             | tri.CR.pos |  64 |  0.146 |  0.288 | -1.758 |  1.231 | 0.858 | 0.107 |  0.214 | 1.306 |
+| Controle     |        |       | Rural             |        |             | tri.CR.pos |  51 | -0.023 |  0.037 | -1.706 |  1.231 | 0.831 | 0.116 |  0.234 | 1.186 |
+| Controle     |        |       |                   |        |             | tri.CR.pos |  34 | -0.097 | -0.002 | -2.009 |  1.231 | 0.862 | 0.148 |  0.301 | 1.370 |
+| Experimental |        |       | Urbana            |        |             | tri.CR.pos |  47 |  0.071 |  0.196 | -1.778 |  1.231 | 0.794 | 0.116 |  0.233 | 1.034 |
+| Experimental |        |       | Rural             |        |             | tri.CR.pos |  58 |  0.216 |  0.326 | -1.730 |  1.231 | 0.816 | 0.107 |  0.214 | 1.397 |
+| Experimental |        |       |                   |        |             | tri.CR.pos |  30 |  0.130 |  0.253 | -1.134 |  1.074 | 0.590 | 0.108 |  0.220 | 0.742 |
+| Controle     |        |       | Urbana            |        |             | tri.CR.pre |  64 | -0.084 | -0.102 | -2.377 |  1.231 | 0.804 | 0.101 |  0.201 | 1.261 |
+| Controle     |        |       | Rural             |        |             | tri.CR.pre |  51 |  0.002 |  0.123 | -1.567 |  1.231 | 0.735 | 0.103 |  0.207 | 1.225 |
+| Controle     |        |       |                   |        |             | tri.CR.pre |  34 | -0.060 | -0.095 | -1.736 |  1.231 | 0.721 | 0.124 |  0.251 | 1.129 |
+| Experimental |        |       | Urbana            |        |             | tri.CR.pre |  47 |  0.055 |  0.212 | -1.700 |  1.231 | 0.930 | 0.136 |  0.273 | 1.484 |
+| Experimental |        |       | Rural             |        |             | tri.CR.pre |  58 |  0.160 |  0.315 | -2.013 |  1.231 | 0.853 | 0.112 |  0.224 | 1.074 |
+| Experimental |        |       |                   |        |             | tri.CR.pre |  30 |  0.256 |  0.433 | -1.266 |  1.231 | 0.684 | 0.125 |  0.255 | 0.770 |
+| Controle     |        |       |                   | E1     |             | tri.CR.pos |  12 |  0.451 |  0.574 | -1.003 |  1.231 | 0.710 | 0.205 |  0.451 | 1.025 |
+| Controle     |        |       |                   | E2     |             | tri.CR.pos |  28 | -0.394 | -0.346 | -2.009 |  1.231 | 0.924 | 0.175 |  0.358 | 1.442 |
+| Controle     |        |       |                   | E3     |             | tri.CR.pos |  19 | -0.045 |  0.226 | -1.758 |  1.074 | 0.961 | 0.220 |  0.463 | 1.450 |
+| Controle     |        |       |                   | E4     |             | tri.CR.pos |  20 |  0.239 |  0.365 | -1.502 |  1.231 | 0.812 | 0.181 |  0.380 | 0.970 |
+| Controle     |        |       |                   | E5     |             | tri.CR.pos |  58 |  0.037 |  0.067 | -1.573 |  1.231 | 0.787 | 0.103 |  0.207 | 1.238 |
+| Controle     |        |       |                   | E6     |             | tri.CR.pos |  12 |  0.375 |  0.447 | -0.781 |  1.231 | 0.636 | 0.184 |  0.404 | 0.958 |
+| Experimental |        |       |                   | E1     |             | tri.CR.pos |  11 |  0.207 |  0.226 | -1.097 |  1.231 | 0.924 | 0.279 |  0.621 | 1.597 |
+| Experimental |        |       |                   | E2     |             | tri.CR.pos |  23 | -0.060 | -0.118 | -1.778 |  1.231 | 0.767 | 0.160 |  0.331 | 0.875 |
+| Experimental |        |       |                   | E3     |             | tri.CR.pos |  16 |  0.154 |  0.385 | -0.999 |  1.231 | 0.807 | 0.202 |  0.430 | 1.387 |
+| Experimental |        |       |                   | E4     |             | tri.CR.pos |  15 |  0.420 |  0.300 | -0.493 |  1.231 | 0.580 | 0.150 |  0.321 | 0.993 |
+| Experimental |        |       |                   | E5     |             | tri.CR.pos |  55 |  0.135 |  0.178 | -1.730 |  1.231 | 0.808 | 0.109 |  0.218 | 1.165 |
+| Experimental |        |       |                   | E6     |             | tri.CR.pos |  15 |  0.173 |  0.287 | -0.983 |  1.074 | 0.551 | 0.142 |  0.305 | 0.675 |
+| Controle     |        |       |                   | E1     |             | tri.CR.pre |  12 |  0.027 |  0.020 | -1.586 |  0.850 | 0.751 | 0.217 |  0.477 | 0.978 |
+| Controle     |        |       |                   | E2     |             | tri.CR.pre |  28 | -0.344 | -0.584 | -1.861 |  1.231 | 0.820 | 0.155 |  0.318 | 0.967 |
+| Controle     |        |       |                   | E3     |             | tri.CR.pre |  19 | -0.002 | -0.051 | -1.567 |  0.870 | 0.738 | 0.169 |  0.356 | 1.148 |
+| Controle     |        |       |                   | E4     |             | tri.CR.pre |  20 | -0.075 |  0.068 | -2.377 |  1.074 | 0.772 | 0.173 |  0.361 | 0.707 |
+| Controle     |        |       |                   | E5     |             | tri.CR.pre |  58 | -0.025 | -0.045 | -1.736 |  1.231 | 0.737 | 0.097 |  0.194 | 1.052 |
+| Controle     |        |       |                   | E6     |             | tri.CR.pre |  12 |  0.415 |  0.559 | -0.742 |  1.047 | 0.561 | 0.162 |  0.356 | 0.738 |
+| Experimental |        |       |                   | E1     |             | tri.CR.pre |  11 | -0.009 |  0.115 | -1.700 |  1.231 | 0.970 | 0.292 |  0.651 | 1.238 |
+| Experimental |        |       |                   | E2     |             | tri.CR.pre |  23 |  0.255 |  0.253 | -1.336 |  1.231 | 0.635 | 0.132 |  0.274 | 0.754 |
+| Experimental |        |       |                   | E3     |             | tri.CR.pre |  16 | -0.045 |  0.099 | -2.013 |  1.231 | 1.012 | 0.253 |  0.539 | 1.293 |
+| Experimental |        |       |                   | E4     |             | tri.CR.pre |  15 |  0.505 |  0.854 | -1.241 |  1.231 | 0.783 | 0.202 |  0.434 | 0.706 |
+| Experimental |        |       |                   | E5     |             | tri.CR.pre |  55 |  0.050 |  0.270 | -1.651 |  1.231 | 0.898 | 0.121 |  0.243 | 1.558 |
+| Experimental |        |       |                   | E6     |             | tri.CR.pre |  15 |  0.280 |  0.450 | -1.266 |  1.047 | 0.658 | 0.170 |  0.364 | 0.659 |
+| Controle     |        |       |                   |        | Urbana      | tri.CR.pos |  98 | -0.036 |  0.005 | -2.009 |  1.231 | 0.853 | 0.086 |  0.171 | 1.459 |
+| Controle     |        |       |                   |        | Rural       | tri.CR.pos |  51 |  0.165 |  0.312 | -1.758 |  1.231 | 0.837 | 0.117 |  0.235 | 1.260 |
+| Experimental |        |       |                   |        | Urbana      | tri.CR.pos |  89 |  0.094 |  0.175 | -1.778 |  1.231 | 0.808 | 0.086 |  0.170 | 1.137 |
+| Experimental |        |       |                   |        | Rural       | tri.CR.pos |  46 |  0.247 |  0.326 | -0.999 |  1.231 | 0.656 | 0.097 |  0.195 | 0.911 |
+| Controle     |        |       |                   |        | Urbana      | tri.CR.pre |  98 | -0.110 | -0.190 | -1.861 |  1.231 | 0.770 | 0.078 |  0.154 | 1.228 |
+| Controle     |        |       |                   |        | Rural       | tri.CR.pre |  51 |  0.068 |  0.124 | -2.377 |  1.074 | 0.728 | 0.102 |  0.205 | 1.112 |
+| Experimental |        |       |                   |        | Urbana      | tri.CR.pre |  89 |  0.095 |  0.253 | -1.700 |  1.231 | 0.843 | 0.089 |  0.178 | 1.049 |
+| Experimental |        |       |                   |        | Rural       | tri.CR.pre |  46 |  0.240 |  0.507 | -2.013 |  1.231 | 0.848 | 0.125 |  0.252 | 1.012 |
 
 ## Correta Irregular (Acertos)
 
@@ -465,6 +784,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Experimental |        |       |                   |        | Urbana      | score.CI.pre | 108 | 11.130 |   12.0 |   0 |  19 | 4.411 | 0.424 |  0.841 |  6.00 |
 | Experimental |        |       |                   |        | Rural       | score.CI.pre |  48 | 11.896 |   13.0 |   0 |  18 | 3.777 | 0.545 |  1.097 |  5.25 |
 
+## Correta Irregular (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable   |   n |   mean | median |    min |    max |    sd |    se |    ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-----------|----:|-------:|-------:|-------:|-------:|------:|------:|------:|------:|
+| Controle     | F      |       |                   |        |             | tri.CI.pos |  78 |  0.135 |  0.232 | -1.984 |  1.785 | 1.026 | 0.116 | 0.231 | 1.676 |
+| Controle     | M      |       |                   |        |             | tri.CI.pos |  71 | -0.130 | -0.166 | -1.989 |  1.616 | 0.825 | 0.098 | 0.195 | 1.285 |
+| Experimental | F      |       |                   |        |             | tri.CI.pos |  56 |  0.558 |  0.477 | -1.332 |  1.785 | 0.747 | 0.100 | 0.200 | 1.330 |
+| Experimental | M      |       |                   |        |             | tri.CI.pos |  79 |  0.001 |  0.002 | -1.889 |  1.641 | 0.843 | 0.095 | 0.189 | 1.323 |
+| Controle     | F      |       |                   |        |             | tri.CI.pre |  78 |  0.099 |  0.089 | -1.956 |  1.785 | 0.884 | 0.100 | 0.199 | 1.343 |
+| Controle     | M      |       |                   |        |             | tri.CI.pre |  71 | -0.115 | -0.217 | -1.656 |  1.738 | 0.706 | 0.084 | 0.167 | 0.942 |
+| Experimental | F      |       |                   |        |             | tri.CI.pre |  56 |  0.444 |  0.574 | -1.185 |  1.785 | 0.696 | 0.093 | 0.186 | 1.079 |
+| Experimental | M      |       |                   |        |             | tri.CI.pre |  79 | -0.267 | -0.119 | -2.068 |  1.406 | 0.854 | 0.096 | 0.191 | 1.110 |
+| Controle     |        | 10y   |                   |        |             | tri.CI.pos |  28 |  0.185 |  0.171 | -1.515 |  1.785 | 0.900 | 0.170 | 0.349 | 1.261 |
+| Controle     |        | 11y   |                   |        |             | tri.CI.pos |  84 |  0.074 |  0.150 | -1.989 |  1.785 | 0.970 | 0.106 | 0.211 | 1.533 |
+| Controle     |        | 12y   |                   |        |             | tri.CI.pos |  20 | -0.164 | -0.160 | -1.730 |  1.245 | 0.917 | 0.205 | 0.429 | 1.587 |
+| Controle     |        | 13y   |                   |        |             | tri.CI.pos |   8 | -0.311 | -0.514 | -1.396 |  1.277 | 0.857 | 0.303 | 0.716 | 0.810 |
+| Controle     |        | 14y   |                   |        |             | tri.CI.pos |   2 | -0.717 | -0.717 | -1.251 | -0.183 | 0.755 | 0.534 | 6.783 | 0.534 |
+| Controle     |        | 15y   |                   |        |             | tri.CI.pos |   1 | -0.274 | -0.274 | -0.274 | -0.274 |       |       |       | 0.000 |
+| Controle     |        |       |                   |        |             | tri.CI.pos |   6 | -0.441 | -0.547 | -1.866 |  0.939 | 0.949 | 0.388 | 0.996 | 0.772 |
+| Experimental |        | 10y   |                   |        |             | tri.CI.pos |  27 |  0.280 |  0.351 | -1.680 |  1.409 | 0.840 | 0.162 | 0.332 | 0.919 |
+| Experimental |        | 11y   |                   |        |             | tri.CI.pos |  82 |  0.256 |  0.248 | -1.857 |  1.785 | 0.873 | 0.096 | 0.192 | 1.248 |
+| Experimental |        | 12y   |                   |        |             | tri.CI.pos |  16 |  0.089 | -0.003 | -1.889 |  1.442 | 0.867 | 0.217 | 0.462 | 1.114 |
+| Experimental |        | 13y   |                   |        |             | tri.CI.pos |   7 |  0.161 |  0.176 | -1.108 |  1.122 | 0.810 | 0.306 | 0.749 | 1.094 |
+| Experimental |        | 14y   |                   |        |             | tri.CI.pos |   1 | -0.224 | -0.224 | -0.224 | -0.224 |       |       |       | 0.000 |
+| Experimental |        |       |                   |        |             | tri.CI.pos |   2 |  0.240 |  0.240 | -0.166 |  0.645 | 0.573 | 0.405 | 5.151 | 0.405 |
+| Controle     |        | 10y   |                   |        |             | tri.CI.pre |  28 |  0.030 |  0.040 | -1.435 |  1.785 | 0.762 | 0.144 | 0.295 | 0.916 |
+| Controle     |        | 11y   |                   |        |             | tri.CI.pre |  84 |  0.029 |  0.021 | -1.956 |  1.738 | 0.887 | 0.097 | 0.193 | 1.302 |
+| Controle     |        | 12y   |                   |        |             | tri.CI.pre |  20 |  0.064 |  0.133 | -1.277 |  1.316 | 0.674 | 0.151 | 0.315 | 0.814 |
+| Controle     |        | 13y   |                   |        |             | tri.CI.pre |   8 | -0.423 | -0.457 | -1.013 |  0.220 | 0.424 | 0.150 | 0.354 | 0.628 |
+| Controle     |        | 14y   |                   |        |             | tri.CI.pre |   2 | -0.110 | -0.110 | -0.203 | -0.018 | 0.131 | 0.093 | 1.179 | 0.093 |
+| Controle     |        | 15y   |                   |        |             | tri.CI.pre |   1 | -0.272 | -0.272 | -0.272 | -0.272 |       |       |       | 0.000 |
+| Controle     |        |       |                   |        |             | tri.CI.pre |   6 | -0.187 | -0.210 | -1.570 |  0.924 | 0.895 | 0.366 | 0.940 | 0.996 |
+| Experimental |        | 10y   |                   |        |             | tri.CI.pre |  27 | -0.012 |  0.088 | -1.759 |  1.540 | 0.789 | 0.152 | 0.312 | 0.790 |
+| Experimental |        | 11y   |                   |        |             | tri.CI.pre |  82 |  0.124 |  0.204 | -2.068 |  1.785 | 0.861 | 0.095 | 0.189 | 1.398 |
+| Experimental |        | 12y   |                   |        |             | tri.CI.pre |  16 | -0.061 |  0.173 | -1.787 |  1.281 | 0.999 | 0.250 | 0.532 | 1.482 |
+| Experimental |        | 13y   |                   |        |             | tri.CI.pre |   7 | -0.567 | -0.405 | -2.050 |  0.401 | 0.873 | 0.330 | 0.808 | 1.072 |
+| Experimental |        | 14y   |                   |        |             | tri.CI.pre |   1 | -0.291 | -0.291 | -0.291 | -0.291 |       |       |       | 0.000 |
+| Experimental |        |       |                   |        |             | tri.CI.pre |   2 | -0.456 | -0.456 | -0.889 | -0.024 | 0.611 | 0.432 | 5.494 | 0.432 |
+| Controle     |        |       | Urbana            |        |             | tri.CI.pos |  64 | -0.021 |  0.076 | -1.984 |  1.723 | 0.974 | 0.122 | 0.243 | 1.487 |
+| Controle     |        |       | Rural             |        |             | tri.CI.pos |  51 |  0.061 |  0.194 | -1.989 |  1.785 | 0.952 | 0.133 | 0.268 | 1.667 |
+| Controle     |        |       |                   |        |             | tri.CI.pos |  34 | -0.014 | -0.188 | -1.396 |  1.616 | 0.886 | 0.152 | 0.309 | 1.387 |
+| Experimental |        |       | Urbana            |        |             | tri.CI.pos |  47 |  0.378 |  0.351 | -1.680 |  1.785 | 0.862 | 0.126 | 0.253 | 1.107 |
+| Experimental |        |       | Rural             |        |             | tri.CI.pos |  58 |  0.133 |  0.160 | -1.857 |  1.723 | 0.829 | 0.109 | 0.218 | 1.079 |
+| Experimental |        |       |                   |        |             | tri.CI.pos |  30 |  0.198 |  0.183 | -1.889 |  1.641 | 0.858 | 0.157 | 0.320 | 1.013 |
+| Controle     |        |       | Urbana            |        |             | tri.CI.pre |  64 | -0.048 | -0.094 | -1.956 |  1.554 | 0.853 | 0.107 | 0.213 | 1.125 |
+| Controle     |        |       | Rural             |        |             | tri.CI.pre |  51 |  0.083 |  0.054 | -1.570 |  1.785 | 0.781 | 0.109 | 0.220 | 1.073 |
+| Controle     |        |       |                   |        |             | tri.CI.pre |  34 | -0.047 | -0.127 | -1.518 |  1.738 | 0.776 | 0.133 | 0.271 | 0.935 |
+| Experimental |        |       | Urbana            |        |             | tri.CI.pre |  47 |  0.187 |  0.180 | -1.717 |  1.785 | 0.847 | 0.123 | 0.249 | 1.111 |
+| Experimental |        |       | Rural             |        |             | tri.CI.pre |  58 | -0.085 |  0.005 | -2.068 |  1.723 | 0.886 | 0.116 | 0.233 | 1.413 |
+| Experimental |        |       |                   |        |             | tri.CI.pre |  30 | -0.005 |  0.119 | -2.050 |  1.088 | 0.841 | 0.153 | 0.314 | 0.838 |
+| Controle     |        |       |                   | E1     |             | tri.CI.pos |  12 |  0.294 |  0.259 | -0.974 |  1.723 | 0.879 | 0.254 | 0.559 | 1.347 |
+| Controle     |        |       |                   | E2     |             | tri.CI.pos |  28 | -0.393 | -0.404 | -1.629 |  1.540 | 0.928 | 0.175 | 0.360 | 1.350 |
+| Controle     |        |       |                   | E3     |             | tri.CI.pos |  19 | -0.008 | -0.166 | -1.989 |  1.785 | 1.019 | 0.234 | 0.491 | 1.739 |
+| Controle     |        |       |                   | E4     |             | tri.CI.pos |  20 |  0.057 |  0.196 | -1.984 |  1.277 | 0.896 | 0.200 | 0.419 | 1.276 |
+| Controle     |        |       |                   | E5     |             | tri.CI.pos |  58 |  0.012 |  0.138 | -1.866 |  1.785 | 0.930 | 0.122 | 0.245 | 1.360 |
+| Controle     |        |       |                   | E6     |             | tri.CI.pos |  12 |  0.589 |  0.622 | -0.338 |  1.616 | 0.772 | 0.223 | 0.491 | 1.532 |
+| Experimental |        |       |                   | E1     |             | tri.CI.pos |  11 |  0.174 |  0.212 | -1.291 |  1.785 | 0.953 | 0.287 | 0.640 | 1.329 |
+| Experimental |        |       |                   | E2     |             | tri.CI.pos |  23 |  0.203 |  0.192 | -1.332 |  1.552 | 0.840 | 0.175 | 0.363 | 1.211 |
+| Experimental |        |       |                   | E3     |             | tri.CI.pos |  16 |  0.165 |  0.396 | -1.563 |  1.723 | 0.958 | 0.239 | 0.510 | 1.122 |
+| Experimental |        |       |                   | E4     |             | tri.CI.pos |  15 |  0.308 |  0.241 | -0.639 |  1.723 | 0.695 | 0.179 | 0.385 | 1.041 |
+| Experimental |        |       |                   | E5     |             | tri.CI.pos |  55 |  0.308 |  0.304 | -1.857 |  1.641 | 0.868 | 0.117 | 0.235 | 1.129 |
+| Experimental |        |       |                   | E6     |             | tri.CI.pos |  15 |  0.040 |  0.159 | -1.889 |  1.497 | 0.821 | 0.212 | 0.454 | 0.615 |
+| Controle     |        |       |                   | E1     |             | tri.CI.pre |  12 |  0.053 | -0.130 | -0.920 |  1.402 | 0.802 | 0.232 | 0.510 | 1.179 |
+| Controle     |        |       |                   | E2     |             | tri.CI.pre |  28 | -0.092 | -0.133 | -1.158 |  1.554 | 0.822 | 0.155 | 0.319 | 1.210 |
+| Controle     |        |       |                   | E3     |             | tri.CI.pre |  19 | -0.051 | -0.058 | -1.277 |  1.678 | 0.716 | 0.164 | 0.345 | 0.835 |
+| Controle     |        |       |                   | E4     |             | tri.CI.pre |  20 | -0.001 |  0.111 | -1.562 |  1.316 | 0.714 | 0.160 | 0.334 | 0.598 |
+| Controle     |        |       |                   | E5     |             | tri.CI.pre |  58 | -0.012 |  0.032 | -1.956 |  1.785 | 0.864 | 0.113 | 0.227 | 1.144 |
+| Controle     |        |       |                   | E6     |             | tri.CI.pre |  12 |  0.263 |  0.032 | -1.226 |  1.738 | 0.896 | 0.259 | 0.570 | 1.288 |
+| Experimental |        |       |                   | E1     |             | tri.CI.pre |  11 |  0.153 |  0.227 | -1.513 |  1.785 | 0.989 | 0.298 | 0.665 | 1.096 |
+| Experimental |        |       |                   | E2     |             | tri.CI.pre |  23 |  0.024 |  0.107 | -2.068 |  1.540 | 0.959 | 0.200 | 0.414 | 1.124 |
+| Experimental |        |       |                   | E3     |             | tri.CI.pre |  16 | -0.083 |  0.065 | -1.759 |  1.079 | 0.872 | 0.218 | 0.465 | 1.092 |
+| Experimental |        |       |                   | E4     |             | tri.CI.pre |  15 |  0.039 |  0.034 | -1.573 |  1.723 | 0.835 | 0.216 | 0.462 | 1.249 |
+| Experimental |        |       |                   | E5     |             | tri.CI.pre |  55 |  0.027 |  0.096 | -2.050 |  1.497 | 0.857 | 0.116 | 0.232 | 1.374 |
+| Experimental |        |       |                   | E6     |             | tri.CI.pre |  15 |  0.048 |  0.147 | -1.787 |  1.088 | 0.797 | 0.206 | 0.441 | 0.764 |
+| Controle     |        |       |                   |        | Urbana      | tri.CI.pos |  98 | -0.069 | -0.086 | -1.866 |  1.785 | 0.941 | 0.095 | 0.189 | 1.491 |
+| Controle     |        |       |                   |        | Rural       | tri.CI.pos |  51 |  0.158 |  0.122 | -1.989 |  1.785 | 0.933 | 0.131 | 0.262 | 1.237 |
+| Experimental |        |       |                   |        | Urbana      | tri.CI.pos |  89 |  0.264 |  0.254 | -1.857 |  1.785 | 0.863 | 0.092 | 0.182 | 1.237 |
+| Experimental |        |       |                   |        | Rural       | tri.CI.pos |  46 |  0.171 |  0.183 | -1.889 |  1.723 | 0.823 | 0.121 | 0.244 | 0.839 |
+| Controle     |        |       |                   |        | Urbana      | tri.CI.pre |  98 | -0.027 | -0.003 | -1.956 |  1.785 | 0.838 | 0.085 | 0.168 | 1.170 |
+| Controle     |        |       |                   |        | Rural       | tri.CI.pre |  51 |  0.043 | -0.040 | -1.562 |  1.738 | 0.756 | 0.106 | 0.213 | 0.826 |
+| Experimental |        |       |                   |        | Urbana      | tri.CI.pre |  89 |  0.042 |  0.131 | -2.068 |  1.785 | 0.891 | 0.094 | 0.188 | 1.349 |
+| Experimental |        |       |                   |        | Rural       | tri.CI.pre |  46 |  0.000 |  0.065 | -1.787 |  1.723 | 0.820 | 0.121 | 0.243 | 1.124 |
+
 ## Trocas Visuais (Acertos)
 
 | grupo        | genero | idade | zona.participante | escola | zona.escola | variable     |   n |   mean | median | min | max |    sd |    se |     ci |   iqr |
@@ -551,6 +953,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Controle     |        |       |                   |        | Rural       | score.TV.pre |  58 | 15.138 |   17.0 |   0 |  20 | 5.375 | 0.706 |  1.413 |  5.75 |
 | Experimental |        |       |                   |        | Urbana      | score.TV.pre | 108 | 16.083 |   18.0 |   0 |  20 | 5.210 | 0.501 |  0.994 |  4.00 |
 | Experimental |        |       |                   |        | Rural       | score.TV.pre |  48 | 16.396 |   18.0 |   0 |  20 | 4.399 | 0.635 |  1.277 |  3.00 |
+
+## Trocas Visuais (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable   |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-----------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle     | F      |       |                   |        |             | tri.TV.pos |  78 |  0.149 |  0.342 | -1.754 |  0.980 | 0.815 | 0.092 |  0.184 | 1.467 |
+| Controle     | M      |       |                   |        |             | tri.TV.pos |  71 | -0.125 |  0.004 | -1.772 |  0.980 | 0.847 | 0.100 |  0.200 | 1.458 |
+| Experimental | F      |       |                   |        |             | tri.TV.pos |  56 |  0.204 |  0.507 | -1.972 |  0.980 | 0.775 | 0.104 |  0.208 | 0.601 |
+| Experimental | M      |       |                   |        |             | tri.TV.pos |  79 | -0.027 |  0.036 | -1.851 |  0.980 | 0.815 | 0.092 |  0.182 | 1.266 |
+| Controle     | F      |       |                   |        |             | tri.TV.pre |  78 |  0.063 |  0.206 | -1.355 |  0.980 | 0.696 | 0.079 |  0.157 | 1.057 |
+| Controle     | M      |       |                   |        |             | tri.TV.pre |  71 | -0.060 |  0.070 | -2.541 |  0.980 | 0.887 | 0.105 |  0.210 | 1.171 |
+| Experimental | F      |       |                   |        |             | tri.TV.pre |  56 |  0.270 |  0.385 | -1.956 |  0.980 | 0.676 | 0.090 |  0.181 | 1.072 |
+| Experimental | M      |       |                   |        |             | tri.TV.pre |  79 | -0.014 |  0.136 | -2.647 |  0.980 | 0.877 | 0.099 |  0.196 | 1.511 |
+| Controle     |        | 10y   |                   |        |             | tri.TV.pos |  28 |  0.216 |  0.247 | -1.435 |  0.980 | 0.652 | 0.123 |  0.253 | 0.914 |
+| Controle     |        | 11y   |                   |        |             | tri.TV.pos |  84 |  0.163 |  0.534 | -1.754 |  0.980 | 0.876 | 0.096 |  0.190 | 1.389 |
+| Controle     |        | 12y   |                   |        |             | tri.TV.pos |  20 | -0.663 | -0.667 | -1.772 |  0.980 | 0.670 | 0.150 |  0.314 | 0.946 |
+| Controle     |        | 13y   |                   |        |             | tri.TV.pos |   8 | -0.305 | -0.325 | -1.219 |  0.631 | 0.615 | 0.218 |  0.514 | 0.727 |
+| Controle     |        | 14y   |                   |        |             | tri.TV.pos |   2 | -0.380 | -0.380 | -1.159 |  0.400 | 1.102 | 0.779 |  9.902 | 0.779 |
+| Controle     |        | 15y   |                   |        |             | tri.TV.pos |   1 | -0.814 | -0.814 | -0.814 | -0.814 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TV.pos |   6 |  0.038 |  0.104 | -0.937 |  0.980 | 0.723 | 0.295 |  0.759 | 0.975 |
+| Experimental |        | 10y   |                   |        |             | tri.TV.pos |  27 |  0.022 |  0.115 | -1.300 |  0.980 | 0.730 | 0.140 |  0.289 | 1.052 |
+| Experimental |        | 11y   |                   |        |             | tri.TV.pos |  82 |  0.176 |  0.396 | -1.972 |  0.980 | 0.781 | 0.086 |  0.171 | 0.854 |
+| Experimental |        | 12y   |                   |        |             | tri.TV.pos |  16 |  0.047 |  0.138 | -1.700 |  0.980 | 0.801 | 0.200 |  0.427 | 1.177 |
+| Experimental |        | 13y   |                   |        |             | tri.TV.pos |   7 | -0.651 | -0.716 | -1.522 |  0.980 | 0.849 | 0.321 |  0.785 | 0.873 |
+| Experimental |        | 14y   |                   |        |             | tri.TV.pos |   1 | -1.787 | -1.787 | -1.787 | -1.787 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TV.pos |   2 | -0.086 | -0.086 | -0.893 |  0.721 | 1.141 | 0.807 | 10.254 | 0.807 |
+| Controle     |        | 10y   |                   |        |             | tri.TV.pre |  28 |  0.216 |  0.320 | -1.350 |  0.980 | 0.611 | 0.116 |  0.237 | 0.709 |
+| Controle     |        | 11y   |                   |        |             | tri.TV.pre |  84 |  0.063 |  0.200 | -2.541 |  0.980 | 0.802 | 0.088 |  0.174 | 1.064 |
+| Controle     |        | 12y   |                   |        |             | tri.TV.pre |  20 | -0.313 | -0.212 | -2.065 |  0.967 | 0.771 | 0.172 |  0.361 | 0.707 |
+| Controle     |        | 13y   |                   |        |             | tri.TV.pre |   8 | -0.258 | -0.373 | -1.707 |  0.980 | 1.039 | 0.367 |  0.868 | 1.810 |
+| Controle     |        | 14y   |                   |        |             | tri.TV.pre |   2 | -0.785 | -0.785 | -0.979 | -0.592 | 0.273 | 0.193 |  2.454 | 0.193 |
+| Controle     |        | 15y   |                   |        |             | tri.TV.pre |   1 | -1.401 | -1.401 | -1.401 | -1.401 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TV.pre |   6 |  0.104 |  0.294 | -1.271 |  0.980 | 0.785 | 0.320 |  0.823 | 0.626 |
+| Experimental |        | 10y   |                   |        |             | tri.TV.pre |  27 |  0.072 |  0.078 | -1.714 |  0.980 | 0.772 | 0.149 |  0.305 | 1.180 |
+| Experimental |        | 11y   |                   |        |             | tri.TV.pre |  82 |  0.192 |  0.363 | -2.647 |  0.980 | 0.780 | 0.086 |  0.171 | 1.144 |
+| Experimental |        | 12y   |                   |        |             | tri.TV.pre |  16 |  0.047 |  0.156 | -1.956 |  0.980 | 0.851 | 0.213 |  0.454 | 0.770 |
+| Experimental |        | 13y   |                   |        |             | tri.TV.pre |   7 | -0.536 | -0.881 | -1.547 |  0.980 | 0.982 | 0.371 |  0.908 | 1.077 |
+| Experimental |        | 14y   |                   |        |             | tri.TV.pre |   1 | -1.093 | -1.093 | -1.093 | -1.093 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TV.pre |   2 |  0.179 |  0.179 | -0.621 |  0.980 | 1.132 | 0.800 | 10.169 | 0.800 |
+| Controle     |        |       | Urbana            |        |             | tri.TV.pos |  64 |  0.200 |  0.512 | -1.772 |  0.980 | 0.830 | 0.104 |  0.207 | 1.288 |
+| Controle     |        |       | Rural             |        |             | tri.TV.pos |  51 | -0.029 |  0.052 | -1.752 |  0.980 | 0.792 | 0.111 |  0.223 | 1.237 |
+| Controle     |        |       |                   |        |             | tri.TV.pos |  34 | -0.253 | -0.197 | -1.754 |  0.980 | 0.863 | 0.148 |  0.301 | 1.457 |
+| Experimental |        |       | Urbana            |        |             | tri.TV.pos |  47 | -0.095 |  0.241 | -1.972 |  0.980 | 0.915 | 0.133 |  0.269 | 1.479 |
+| Experimental |        |       | Rural             |        |             | tri.TV.pos |  58 |  0.192 |  0.403 | -1.833 |  0.980 | 0.761 | 0.100 |  0.200 | 1.124 |
+| Experimental |        |       |                   |        |             | tri.TV.pos |  30 |  0.085 |  0.297 | -1.298 |  0.980 | 0.666 | 0.122 |  0.249 | 1.103 |
+| Controle     |        |       | Urbana            |        |             | tri.TV.pre |  64 |  0.163 |  0.358 | -2.065 |  0.980 | 0.771 | 0.096 |  0.193 | 1.352 |
+| Controle     |        |       | Rural             |        |             | tri.TV.pre |  51 |  0.034 |  0.277 | -1.863 |  0.980 | 0.741 | 0.104 |  0.208 | 1.017 |
+| Controle     |        |       |                   |        |             | tri.TV.pre |  34 | -0.340 | -0.180 | -2.541 |  0.980 | 0.822 | 0.141 |  0.287 | 0.975 |
+| Experimental |        |       | Urbana            |        |             | tri.TV.pre |  47 | -0.022 |  0.260 | -2.647 |  0.980 | 0.919 | 0.134 |  0.270 | 1.186 |
+| Experimental |        |       | Rural             |        |             | tri.TV.pre |  58 |  0.270 |  0.439 | -1.705 |  0.980 | 0.709 | 0.093 |  0.186 | 1.022 |
+| Experimental |        |       |                   |        |             | tri.TV.pre |  30 | -0.022 | -0.125 | -1.402 |  0.980 | 0.775 | 0.142 |  0.289 | 1.274 |
+| Controle     |        |       |                   | E1     |             | tri.TV.pos |  12 |  0.545 |  0.760 | -0.814 |  0.980 | 0.587 | 0.170 |  0.373 | 0.572 |
+| Controle     |        |       |                   | E2     |             | tri.TV.pos |  28 | -0.334 | -0.412 | -1.772 |  0.980 | 1.019 | 0.193 |  0.395 | 1.928 |
+| Controle     |        |       |                   | E3     |             | tri.TV.pos |  19 |  0.259 |  0.619 | -1.142 |  0.980 | 0.756 | 0.173 |  0.364 | 0.983 |
+| Controle     |        |       |                   | E4     |             | tri.TV.pos |  20 | -0.162 | -0.151 | -1.528 |  0.980 | 0.707 | 0.158 |  0.331 | 1.084 |
+| Controle     |        |       |                   | E5     |             | tri.TV.pos |  58 |  0.037 |  0.043 | -1.752 |  0.980 | 0.768 | 0.101 |  0.202 | 1.129 |
+| Controle     |        |       |                   | E6     |             | tri.TV.pos |  12 |  0.146 |  0.407 | -1.754 |  0.980 | 0.954 | 0.276 |  0.606 | 1.334 |
+| Experimental |        |       |                   | E1     |             | tri.TV.pos |  11 | -0.095 |  0.293 | -1.851 |  0.980 | 1.002 | 0.302 |  0.673 | 1.142 |
+| Experimental |        |       |                   | E2     |             | tri.TV.pos |  23 | -0.046 |  0.292 | -1.972 |  0.980 | 0.936 | 0.195 |  0.405 | 1.544 |
+| Experimental |        |       |                   | E3     |             | tri.TV.pos |  16 | -0.031 | -0.148 | -1.833 |  0.980 | 0.900 | 0.225 |  0.479 | 1.457 |
+| Experimental |        |       |                   | E4     |             | tri.TV.pos |  15 |  0.225 |  0.420 | -1.299 |  0.980 | 0.740 | 0.191 |  0.410 | 0.952 |
+| Experimental |        |       |                   | E5     |             | tri.TV.pos |  55 |  0.143 |  0.331 | -1.700 |  0.980 | 0.758 | 0.102 |  0.205 | 1.063 |
+| Experimental |        |       |                   | E6     |             | tri.TV.pos |  15 |  0.042 |  0.078 | -1.010 |  0.980 | 0.597 | 0.154 |  0.331 | 0.903 |
+| Controle     |        |       |                   | E1     |             | tri.TV.pre |  12 |  0.229 |  0.485 | -1.401 |  0.980 | 0.727 | 0.210 |  0.462 | 0.985 |
+| Controle     |        |       |                   | E2     |             | tri.TV.pre |  28 | -0.152 | -0.165 | -1.529 |  0.980 | 0.845 | 0.160 |  0.328 | 1.520 |
+| Controle     |        |       |                   | E3     |             | tri.TV.pre |  19 |  0.232 |  0.576 | -1.863 |  0.980 | 0.826 | 0.190 |  0.398 | 1.073 |
+| Controle     |        |       |                   | E4     |             | tri.TV.pre |  20 | -0.127 | -0.029 | -2.065 |  0.980 | 0.784 | 0.175 |  0.367 | 0.855 |
+| Controle     |        |       |                   | E5     |             | tri.TV.pre |  58 |  0.041 |  0.226 | -1.707 |  0.980 | 0.730 | 0.096 |  0.192 | 1.014 |
+| Controle     |        |       |                   | E6     |             | tri.TV.pre |  12 | -0.174 | -0.047 | -2.541 |  0.980 | 0.973 | 0.281 |  0.618 | 0.611 |
+| Experimental |        |       |                   | E1     |             | tri.TV.pre |  11 | -0.134 |  0.312 | -2.647 |  0.962 | 1.065 | 0.321 |  0.715 | 1.170 |
+| Experimental |        |       |                   | E2     |             | tri.TV.pre |  23 |  0.227 |  0.292 | -0.881 |  0.980 | 0.580 | 0.121 |  0.251 | 0.663 |
+| Experimental |        |       |                   | E3     |             | tri.TV.pre |  16 |  0.215 |  0.329 | -1.705 |  0.980 | 0.828 | 0.207 |  0.441 | 1.095 |
+| Experimental |        |       |                   | E4     |             | tri.TV.pre |  15 |  0.159 |  0.480 | -1.664 |  0.980 | 0.925 | 0.239 |  0.512 | 1.475 |
+| Experimental |        |       |                   | E5     |             | tri.TV.pre |  55 |  0.150 |  0.354 | -1.956 |  0.980 | 0.817 | 0.110 |  0.221 | 1.171 |
+| Experimental |        |       |                   | E6     |             | tri.TV.pre |  15 | -0.254 | -0.330 | -1.402 |  0.980 | 0.730 | 0.188 |  0.404 | 0.861 |
+| Controle     |        |       |                   |        | Urbana      | tri.TV.pos |  98 | -0.007 |  0.075 | -1.772 |  0.980 | 0.863 | 0.087 |  0.173 | 1.429 |
+| Controle     |        |       |                   |        | Rural       | tri.TV.pos |  51 |  0.067 |  0.260 | -1.754 |  0.980 | 0.795 | 0.111 |  0.224 | 1.340 |
+| Experimental |        |       |                   |        | Urbana      | tri.TV.pos |  89 |  0.065 |  0.312 | -1.972 |  0.980 | 0.834 | 0.088 |  0.176 | 1.181 |
+| Experimental |        |       |                   |        | Rural       | tri.TV.pos |  46 |  0.076 |  0.271 | -1.833 |  0.980 | 0.750 | 0.111 |  0.223 | 1.003 |
+| Controle     |        |       |                   |        | Urbana      | tri.TV.pre |  98 |  0.009 |  0.200 | -1.707 |  0.980 | 0.765 | 0.077 |  0.153 | 1.076 |
+| Controle     |        |       |                   |        | Rural       | tri.TV.pre |  51 | -0.004 |  0.046 | -2.541 |  0.980 | 0.850 | 0.119 |  0.239 | 1.031 |
+| Experimental |        |       |                   |        | Urbana      | tri.TV.pre |  89 |  0.135 |  0.317 | -2.647 |  0.980 | 0.796 | 0.084 |  0.168 | 0.951 |
+| Experimental |        |       |                   |        | Rural       | tri.TV.pre |  46 |  0.044 |  0.095 | -1.705 |  0.980 | 0.840 | 0.124 |  0.249 | 1.509 |
 
 ## Trocas Fonologicas (Acertos)
 
@@ -639,6 +1124,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Experimental |        |       |                   |        | Urbana      | score.TF.pre | 108 | 14.843 |   17.0 |   0 |  20 |  5.501 | 0.529 |  1.049 |  6.00 |
 | Experimental |        |       |                   |        | Rural       | score.TF.pre |  48 | 15.396 |   17.0 |   0 |  20 |  4.546 | 0.656 |  1.320 |  5.50 |
 
+## Trocas Fonologicas (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable   |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-----------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle     | F      |       |                   |        |             | tri.TF.pos |  78 |  0.082 |  0.183 | -1.789 |  1.232 | 0.886 | 0.100 |  0.200 | 1.456 |
+| Controle     | M      |       |                   |        |             | tri.TF.pos |  71 | -0.101 | -0.127 | -2.192 |  1.232 | 0.982 | 0.117 |  0.232 | 1.773 |
+| Experimental | F      |       |                   |        |             | tri.TF.pos |  56 |  0.138 |  0.319 | -1.493 |  1.232 | 0.789 | 0.105 |  0.211 | 1.016 |
+| Experimental | M      |       |                   |        |             | tri.TF.pos |  79 |  0.096 |  0.148 | -1.484 |  1.232 | 0.840 | 0.095 |  0.188 | 1.486 |
+| Controle     | F      |       |                   |        |             | tri.TF.pre |  78 |  0.047 | -0.030 | -1.507 |  1.232 | 0.828 | 0.094 |  0.187 | 1.554 |
+| Controle     | M      |       |                   |        |             | tri.TF.pre |  71 | -0.071 | -0.072 | -2.148 |  1.232 | 0.766 | 0.091 |  0.181 | 1.002 |
+| Experimental | F      |       |                   |        |             | tri.TF.pre |  56 |  0.191 |  0.372 | -2.213 |  1.232 | 0.819 | 0.109 |  0.219 | 1.144 |
+| Experimental | M      |       |                   |        |             | tri.TF.pre |  79 |  0.076 |  0.169 | -2.156 |  1.232 | 0.905 | 0.102 |  0.203 | 1.398 |
+| Controle     |        | 10y   |                   |        |             | tri.TF.pos |  28 | -0.023 |  0.013 | -1.789 |  1.232 | 0.913 | 0.173 |  0.354 | 1.484 |
+| Controle     |        | 11y   |                   |        |             | tri.TF.pos |  84 |  0.158 |  0.405 | -2.192 |  1.232 | 0.935 | 0.102 |  0.203 | 1.613 |
+| Controle     |        | 12y   |                   |        |             | tri.TF.pos |  20 | -0.550 | -0.584 | -2.059 |  1.232 | 0.955 | 0.214 |  0.447 | 1.587 |
+| Controle     |        | 13y   |                   |        |             | tri.TF.pos |   8 |  0.057 |  0.023 | -0.778 |  0.832 | 0.533 | 0.189 |  0.446 | 0.572 |
+| Controle     |        | 14y   |                   |        |             | tri.TF.pos |   2 | -0.193 | -0.193 | -0.993 |  0.607 | 1.132 | 0.800 | 10.168 | 0.800 |
+| Controle     |        | 15y   |                   |        |             | tri.TF.pos |   1 | -0.588 | -0.588 | -0.588 | -0.588 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TF.pos |   6 | -0.319 | -0.492 | -1.406 |  0.795 | 0.929 | 0.379 |  0.975 | 1.455 |
+| Experimental |        | 10y   |                   |        |             | tri.TF.pos |  27 | -0.014 | -0.095 | -1.288 |  1.232 | 0.769 | 0.148 |  0.304 | 1.180 |
+| Experimental |        | 11y   |                   |        |             | tri.TF.pos |  82 |  0.221 |  0.497 | -1.493 |  1.232 | 0.811 | 0.090 |  0.178 | 1.289 |
+| Experimental |        | 12y   |                   |        |             | tri.TF.pos |  16 | -0.061 | -0.042 | -1.485 |  1.232 | 0.827 | 0.207 |  0.441 | 1.340 |
+| Experimental |        | 13y   |                   |        |             | tri.TF.pos |   7 | -0.112 | -0.191 | -1.391 |  1.232 | 0.884 | 0.334 |  0.817 | 0.938 |
+| Experimental |        | 14y   |                   |        |             | tri.TF.pos |   1 | -0.884 | -0.884 | -0.884 | -0.884 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TF.pos |   2 |  0.120 |  0.120 | -0.993 |  1.232 | 1.573 | 1.112 | 14.133 | 1.112 |
+| Controle     |        | 10y   |                   |        |             | tri.TF.pre |  28 |  0.019 |  0.087 | -1.345 |  1.232 | 0.830 | 0.157 |  0.322 | 1.490 |
+| Controle     |        | 11y   |                   |        |             | tri.TF.pre |  84 |  0.051 |  0.040 | -2.148 |  1.232 | 0.794 | 0.087 |  0.172 | 1.159 |
+| Controle     |        | 12y   |                   |        |             | tri.TF.pre |  20 | -0.154 | -0.274 | -1.618 |  1.232 | 0.817 | 0.183 |  0.382 | 1.374 |
+| Controle     |        | 13y   |                   |        |             | tri.TF.pre |   8 | -0.191 | -0.077 | -1.607 |  0.791 | 0.801 | 0.283 |  0.670 | 0.906 |
+| Controle     |        | 14y   |                   |        |             | tri.TF.pre |   2 | -0.080 | -0.080 | -0.483 |  0.324 | 0.571 | 0.404 |  5.127 | 0.404 |
+| Controle     |        | 15y   |                   |        |             | tri.TF.pre |   1 | -1.055 | -1.055 | -1.055 | -1.055 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TF.pre |   6 | -0.048 | -0.102 | -1.446 |  0.893 | 0.863 | 0.352 |  0.906 | 0.909 |
+| Experimental |        | 10y   |                   |        |             | tri.TF.pre |  27 |  0.079 | -0.056 | -1.313 |  1.232 | 0.760 | 0.146 |  0.300 | 1.329 |
+| Experimental |        | 11y   |                   |        |             | tri.TF.pre |  82 |  0.209 |  0.260 | -2.156 |  1.232 | 0.853 | 0.094 |  0.187 | 1.185 |
+| Experimental |        | 12y   |                   |        |             | tri.TF.pre |  16 |  0.044 |  0.665 | -1.943 |  0.887 | 0.949 | 0.237 |  0.505 | 1.393 |
+| Experimental |        | 13y   |                   |        |             | tri.TF.pre |   7 | -0.085 |  0.289 | -1.044 |  1.232 | 0.892 | 0.337 |  0.825 | 1.355 |
+| Experimental |        | 14y   |                   |        |             | tri.TF.pre |   1 | -1.285 | -1.285 | -1.285 | -1.285 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TF.pre |   2 | -0.712 | -0.712 | -2.213 |  0.789 | 2.122 | 1.501 | 19.070 | 1.501 |
+| Controle     |        |       | Urbana            |        |             | tri.TF.pos |  64 |  0.098 |  0.344 | -1.789 |  1.232 | 0.936 | 0.117 |  0.234 | 1.457 |
+| Controle     |        |       | Rural             |        |             | tri.TF.pos |  51 | -0.041 |  0.086 | -2.192 |  1.232 | 0.939 | 0.131 |  0.264 | 1.738 |
+| Controle     |        |       |                   |        |             | tri.TF.pos |  34 | -0.146 | -0.085 | -2.059 |  1.232 | 0.929 | 0.159 |  0.324 | 1.661 |
+| Experimental |        |       | Urbana            |        |             | tri.TF.pos |  47 | -0.037 |  0.058 | -1.493 |  1.232 | 0.852 | 0.124 |  0.250 | 1.639 |
+| Experimental |        |       | Rural             |        |             | tri.TF.pos |  58 |  0.248 |  0.448 | -1.484 |  1.232 | 0.776 | 0.102 |  0.204 | 1.132 |
+| Experimental |        |       |                   |        |             | tri.TF.pos |  30 |  0.090 |  0.413 | -1.391 |  1.232 | 0.820 | 0.150 |  0.306 | 1.202 |
+| Controle     |        |       | Urbana            |        |             | tri.TF.pre |  64 | -0.009 |  0.014 | -1.618 |  1.232 | 0.807 | 0.101 |  0.202 | 1.211 |
+| Controle     |        |       | Rural             |        |             | tri.TF.pre |  51 | -0.037 | -0.081 | -1.607 |  1.232 | 0.743 | 0.104 |  0.209 | 1.101 |
+| Controle     |        |       |                   |        |             | tri.TF.pre |  34 |  0.032 | -0.077 | -2.148 |  1.232 | 0.881 | 0.151 |  0.307 | 1.330 |
+| Experimental |        |       | Urbana            |        |             | tri.TF.pre |  47 | -0.050 | -0.055 | -2.156 |  1.232 | 0.944 | 0.138 |  0.277 | 1.499 |
+| Experimental |        |       | Rural             |        |             | tri.TF.pre |  58 |  0.321 |  0.496 | -1.796 |  1.232 | 0.736 | 0.097 |  0.194 | 1.020 |
+| Experimental |        |       |                   |        |             | tri.TF.pre |  30 |  0.015 |  0.112 | -2.213 |  1.232 | 0.933 | 0.170 |  0.349 | 1.613 |
+| Controle     |        |       |                   | E1     |             | tri.TF.pos |  12 |  0.488 |  0.648 | -0.684 |  1.232 | 0.603 | 0.174 |  0.383 | 0.567 |
+| Controle     |        |       |                   | E2     |             | tri.TF.pos |  28 | -0.343 | -0.353 | -2.192 |  1.232 | 1.029 | 0.195 |  0.399 | 1.615 |
+| Controle     |        |       |                   | E3     |             | tri.TF.pos |  19 |  0.066 |  0.221 | -1.616 |  1.232 | 0.977 | 0.224 |  0.471 | 1.546 |
+| Controle     |        |       |                   | E4     |             | tri.TF.pos |  20 | -0.168 |  0.080 | -1.545 |  1.232 | 1.002 | 0.224 |  0.469 | 1.723 |
+| Controle     |        |       |                   | E5     |             | tri.TF.pos |  58 |  0.033 |  0.036 | -1.789 |  1.232 | 0.873 | 0.115 |  0.230 | 1.420 |
+| Controle     |        |       |                   | E6     |             | tri.TF.pos |  12 |  0.266 |  0.624 | -1.071 |  1.232 | 0.914 | 0.264 |  0.580 | 1.425 |
+| Experimental |        |       |                   | E1     |             | tri.TF.pos |  11 | -0.030 |  0.399 | -1.466 |  0.768 | 0.785 | 0.237 |  0.528 | 1.031 |
+| Experimental |        |       |                   | E2     |             | tri.TF.pos |  23 | -0.034 |  0.058 | -1.493 |  1.232 | 0.798 | 0.166 |  0.345 | 1.084 |
+| Experimental |        |       |                   | E3     |             | tri.TF.pos |  16 |  0.113 |  0.208 | -1.484 |  1.232 | 0.860 | 0.215 |  0.458 | 1.391 |
+| Experimental |        |       |                   | E4     |             | tri.TF.pos |  15 |  0.352 |  0.513 | -0.876 |  1.232 | 0.675 | 0.174 |  0.374 | 0.839 |
+| Experimental |        |       |                   | E5     |             | tri.TF.pos |  55 |  0.210 |  0.462 | -1.333 |  1.232 | 0.854 | 0.115 |  0.231 | 1.541 |
+| Experimental |        |       |                   | E6     |             | tri.TF.pos |  15 | -0.145 | -0.133 | -1.391 |  1.232 | 0.811 | 0.209 |  0.449 | 1.384 |
+| Controle     |        |       |                   | E1     |             | tri.TF.pre |  12 |  0.168 |  0.091 | -1.106 |  1.232 | 0.798 | 0.230 |  0.507 | 0.814 |
+| Controle     |        |       |                   | E2     |             | tri.TF.pre |  28 | -0.135 | -0.110 | -1.507 |  1.232 | 0.709 | 0.134 |  0.275 | 1.009 |
+| Controle     |        |       |                   | E3     |             | tri.TF.pre |  19 |  0.167 |  0.330 | -1.335 |  1.232 | 0.717 | 0.164 |  0.345 | 0.959 |
+| Controle     |        |       |                   | E4     |             | tri.TF.pre |  20 | -0.346 | -0.361 | -1.618 |  1.232 | 0.775 | 0.173 |  0.363 | 0.982 |
+| Controle     |        |       |                   | E5     |             | tri.TF.pre |  58 |  0.004 | -0.112 | -1.607 |  1.232 | 0.795 | 0.104 |  0.209 | 1.369 |
+| Controle     |        |       |                   | E6     |             | tri.TF.pre |  12 |  0.326 |  0.637 | -2.148 |  1.232 | 1.044 | 0.301 |  0.664 | 1.566 |
+| Experimental |        |       |                   | E1     |             | tri.TF.pre |  11 |  0.019 |  0.253 | -2.156 |  0.851 | 0.929 | 0.280 |  0.624 | 0.529 |
+| Experimental |        |       |                   | E2     |             | tri.TF.pre |  23 |  0.264 |  0.428 | -0.891 |  1.232 | 0.601 | 0.125 |  0.260 | 0.845 |
+| Experimental |        |       |                   | E3     |             | tri.TF.pre |  16 |  0.241 |  0.470 | -1.796 |  1.232 | 0.941 | 0.235 |  0.501 | 1.499 |
+| Experimental |        |       |                   | E4     |             | tri.TF.pre |  15 |  0.363 |  0.718 | -1.697 |  1.232 | 0.896 | 0.231 |  0.496 | 1.352 |
+| Experimental |        |       |                   | E5     |             | tri.TF.pre |  55 |  0.067 |  0.096 | -2.213 |  1.232 | 0.940 | 0.127 |  0.254 | 1.451 |
+| Experimental |        |       |                   | E6     |             | tri.TF.pre |  15 | -0.170 | -0.153 | -1.238 |  1.210 | 0.813 | 0.210 |  0.450 | 1.437 |
+| Controle     |        |       |                   |        | Urbana      | tri.TF.pos |  98 | -0.019 |  0.071 | -2.192 |  1.232 | 0.921 | 0.093 |  0.185 | 1.521 |
+| Controle     |        |       |                   |        | Rural       | tri.TF.pos |  51 |  0.021 |  0.214 | -1.616 |  1.232 | 0.969 | 0.136 |  0.272 | 1.783 |
+| Experimental |        |       |                   |        | Urbana      | tri.TF.pos |  89 |  0.117 |  0.241 | -1.493 |  1.232 | 0.831 | 0.088 |  0.175 | 1.422 |
+| Experimental |        |       |                   |        | Rural       | tri.TF.pos |  46 |  0.107 |  0.172 | -1.484 |  1.232 | 0.796 | 0.117 |  0.236 | 1.233 |
+| Controle     |        |       |                   |        | Urbana      | tri.TF.pre |  98 | -0.015 | -0.082 | -1.607 |  1.232 | 0.770 | 0.078 |  0.154 | 1.110 |
+| Controle     |        |       |                   |        | Rural       | tri.TF.pre |  51 |  0.003 |  0.060 | -2.148 |  1.232 | 0.859 | 0.120 |  0.241 | 1.220 |
+| Experimental |        |       |                   |        | Urbana      | tri.TF.pre |  89 |  0.112 |  0.267 | -2.213 |  1.232 | 0.860 | 0.091 |  0.181 | 1.332 |
+| Experimental |        |       |                   |        | Rural       | tri.TF.pre |  46 |  0.147 |  0.200 | -1.796 |  1.232 | 0.896 | 0.132 |  0.266 | 1.416 |
+
 ## Trocas Orograficas (Acertos)
 
 | grupo        | genero | idade | zona.participante | escola | zona.escola | variable     |   n |   mean | median | min | max |    sd |    se |     ci |   iqr |
@@ -726,6 +1294,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Experimental |        |       |                   |        | Urbana      | score.TO.pre | 108 |  9.870 |   10.0 |   0 |  19 | 4.559 | 0.439 |  0.870 |  6.00 |
 | Experimental |        |       |                   |        | Rural       | score.TO.pre |  48 | 10.167 |   10.0 |   0 |  19 | 4.174 | 0.602 |  1.212 |  6.25 |
 
+## Trocas Orograficas (TRI)
+
+| grupo        | genero | idade | zona.participante | escola | zona.escola | variable   |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:-------------|:-------|:------|:------------------|:-------|:------------|:-----------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle     | F      |       |                   |        |             | tri.TO.pos |  78 |  0.324 |  0.166 | -1.196 |  2.107 | 0.825 | 0.093 |  0.186 | 1.014 |
+| Controle     | M      |       |                   |        |             | tri.TO.pos |  71 | -0.076 | -0.172 | -1.793 |  1.791 | 0.877 | 0.104 |  0.208 | 1.264 |
+| Experimental | F      |       |                   |        |             | tri.TO.pos |  56 |  0.407 |  0.335 | -2.177 |  1.886 | 0.989 | 0.132 |  0.265 | 1.509 |
+| Experimental | M      |       |                   |        |             | tri.TO.pos |  79 | -0.073 | -0.128 | -1.768 |  2.107 | 0.899 | 0.101 |  0.201 | 1.223 |
+| Controle     | F      |       |                   |        |             | tri.TO.pre |  78 |  0.117 |  0.030 | -2.329 |  2.107 | 0.921 | 0.104 |  0.208 | 1.312 |
+| Controle     | M      |       |                   |        |             | tri.TO.pre |  71 | -0.214 | -0.182 | -1.704 |  1.730 | 0.793 | 0.094 |  0.188 | 1.296 |
+| Experimental | F      |       |                   |        |             | tri.TO.pre |  56 |  0.214 |  0.196 | -1.573 |  1.886 | 0.945 | 0.126 |  0.253 | 1.395 |
+| Experimental | M      |       |                   |        |             | tri.TO.pre |  79 | -0.112 | -0.226 | -1.584 |  1.817 | 0.853 | 0.096 |  0.191 | 1.264 |
+| Controle     |        | 10y   |                   |        |             | tri.TO.pos |  28 |  0.067 |  0.058 | -1.403 |  2.107 | 0.810 | 0.153 |  0.314 | 1.224 |
+| Controle     |        | 11y   |                   |        |             | tri.TO.pos |  84 |  0.268 |  0.181 | -1.729 |  2.107 | 0.906 | 0.099 |  0.197 | 1.354 |
+| Controle     |        | 12y   |                   |        |             | tri.TO.pos |  20 | -0.222 | -0.239 | -1.793 |  1.452 | 0.757 | 0.169 |  0.354 | 0.691 |
+| Controle     |        | 13y   |                   |        |             | tri.TO.pos |   8 | -0.353 | -0.260 | -1.293 | -0.013 | 0.419 | 0.148 |  0.351 | 0.309 |
+| Controle     |        | 14y   |                   |        |             | tri.TO.pos |   2 |  0.830 |  0.830 |  0.683 |  0.976 | 0.207 | 0.147 |  1.862 | 0.147 |
+| Controle     |        | 15y   |                   |        |             | tri.TO.pos |   1 | -0.822 | -0.822 | -0.822 | -0.822 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TO.pos |   6 |  0.314 |  0.024 | -0.822 |  1.720 | 1.096 | 0.447 |  1.150 | 1.746 |
+| Experimental |        | 10y   |                   |        |             | tri.TO.pos |  27 |  0.013 | -0.098 | -1.768 |  1.344 | 0.889 | 0.171 |  0.352 | 1.499 |
+| Experimental |        | 11y   |                   |        |             | tri.TO.pos |  82 |  0.267 |  0.248 | -2.177 |  2.107 | 1.014 | 0.112 |  0.223 | 1.661 |
+| Experimental |        | 12y   |                   |        |             | tri.TO.pos |  16 | -0.267 | -0.197 | -1.552 |  1.787 | 0.865 | 0.216 |  0.461 | 1.021 |
+| Experimental |        | 13y   |                   |        |             | tri.TO.pos |   7 | -0.313 | -0.255 | -0.812 |  0.183 | 0.419 | 0.158 |  0.388 | 0.720 |
+| Experimental |        | 14y   |                   |        |             | tri.TO.pos |   1 |  0.413 |  0.413 |  0.413 |  0.413 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TO.pos |   2 |  0.428 |  0.428 | -0.591 |  1.446 | 1.440 | 1.018 | 12.939 | 1.018 |
+| Controle     |        | 10y   |                   |        |             | tri.TO.pre |  28 | -0.006 |  0.102 | -1.433 |  2.107 | 0.898 | 0.170 |  0.348 | 1.364 |
+| Controle     |        | 11y   |                   |        |             | tri.TO.pre |  84 |  0.044 | -0.071 | -2.329 |  2.107 | 0.907 | 0.099 |  0.197 | 1.180 |
+| Controle     |        | 12y   |                   |        |             | tri.TO.pre |  20 | -0.393 | -0.572 | -1.704 |  0.785 | 0.697 | 0.156 |  0.326 | 0.721 |
+| Controle     |        | 13y   |                   |        |             | tri.TO.pre |   8 | -0.296 | -0.126 | -1.343 |  0.533 | 0.646 | 0.228 |  0.540 | 0.844 |
+| Controle     |        | 14y   |                   |        |             | tri.TO.pre |   2 |  0.081 |  0.081 | -0.181 |  0.342 | 0.370 | 0.262 |  3.324 | 0.262 |
+| Controle     |        | 15y   |                   |        |             | tri.TO.pre |   1 | -0.599 | -0.599 | -0.599 | -0.599 |       |       |        | 0.000 |
+| Controle     |        |       |                   |        |             | tri.TO.pre |   6 |  0.183 |  0.206 | -1.190 |  1.581 | 1.167 | 0.477 |  1.225 | 1.764 |
+| Experimental |        | 10y   |                   |        |             | tri.TO.pre |  27 | -0.079 | -0.213 | -1.238 |  1.480 | 0.805 | 0.155 |  0.318 | 1.160 |
+| Experimental |        | 11y   |                   |        |             | tri.TO.pre |  82 |  0.137 |  0.159 | -1.584 |  1.817 | 0.936 | 0.103 |  0.206 | 1.423 |
+| Experimental |        | 12y   |                   |        |             | tri.TO.pre |  16 | -0.328 | -0.558 | -1.573 |  1.886 | 0.909 | 0.227 |  0.485 | 0.830 |
+| Experimental |        | 13y   |                   |        |             | tri.TO.pre |   7 | -0.077 | -0.419 | -0.871 |  1.200 | 0.776 | 0.293 |  0.718 | 0.924 |
+| Experimental |        | 14y   |                   |        |             | tri.TO.pre |   1 | -1.030 | -1.030 | -1.030 | -1.030 |       |       |        | 0.000 |
+| Experimental |        |       |                   |        |             | tri.TO.pre |   2 |  0.411 |  0.411 | -0.224 |  1.045 | 0.898 | 0.635 |  8.065 | 0.635 |
+| Controle     |        |       | Urbana            |        |             | tri.TO.pos |  64 |  0.291 |  0.141 | -1.457 |  2.107 | 0.845 | 0.106 |  0.211 | 1.239 |
+| Controle     |        |       | Rural             |        |             | tri.TO.pos |  51 |  0.105 |  0.073 | -1.403 |  2.107 | 0.880 | 0.123 |  0.247 | 1.235 |
+| Controle     |        |       |                   |        |             | tri.TO.pos |  34 | -0.121 | -0.111 | -1.793 |  1.730 | 0.863 | 0.148 |  0.301 | 0.894 |
+| Experimental |        |       | Urbana            |        |             | tri.TO.pos |  47 |  0.183 |  0.178 | -2.177 |  2.107 | 0.985 | 0.144 |  0.289 | 1.209 |
+| Experimental |        |       | Rural             |        |             | tri.TO.pos |  58 |  0.049 |  0.024 | -1.958 |  1.787 | 0.987 | 0.130 |  0.260 | 1.623 |
+| Experimental |        |       |                   |        |             | tri.TO.pos |  30 |  0.186 |  0.001 | -1.230 |  1.763 | 0.900 | 0.164 |  0.336 | 1.506 |
+| Controle     |        |       | Urbana            |        |             | tri.TO.pre |  64 |  0.031 |  0.089 | -1.704 |  2.107 | 0.874 | 0.109 |  0.218 | 1.268 |
+| Controle     |        |       | Rural             |        |             | tri.TO.pre |  51 | -0.049 | -0.113 | -2.329 |  2.107 | 0.956 | 0.134 |  0.269 | 1.132 |
+| Controle     |        |       |                   |        |             | tri.TO.pre |  34 | -0.162 | -0.160 | -1.450 |  1.730 | 0.754 | 0.129 |  0.263 | 1.188 |
+| Experimental |        |       | Urbana            |        |             | tri.TO.pre |  47 |  0.037 | -0.018 | -1.439 |  1.814 | 0.889 | 0.130 |  0.261 | 1.329 |
+| Experimental |        |       | Rural             |        |             | tri.TO.pre |  58 |  0.004 | -0.098 | -1.584 |  1.886 | 0.921 | 0.121 |  0.242 | 1.576 |
+| Experimental |        |       |                   |        |             | tri.TO.pre |  30 |  0.039 |  0.060 | -1.573 |  1.787 | 0.921 | 0.168 |  0.344 | 1.281 |
+| Controle     |        |       |                   | E1     |             | tri.TO.pos |  12 |  0.157 |  0.257 | -1.457 |  1.718 | 0.893 | 0.258 |  0.567 | 1.017 |
+| Controle     |        |       |                   | E2     |             | tri.TO.pos |  28 | -0.007 | -0.043 | -1.729 |  2.107 | 0.768 | 0.145 |  0.298 | 0.856 |
+| Controle     |        |       |                   | E3     |             | tri.TO.pos |  19 |  0.284 |  0.154 | -1.403 |  2.107 | 1.022 | 0.234 |  0.492 | 1.277 |
+| Controle     |        |       |                   | E4     |             | tri.TO.pos |  20 | -0.031 | -0.080 | -1.293 |  1.317 | 0.770 | 0.172 |  0.360 | 0.996 |
+| Controle     |        |       |                   | E5     |             | tri.TO.pos |  58 |  0.223 |  0.048 | -1.793 |  2.107 | 0.888 | 0.117 |  0.233 | 1.388 |
+| Controle     |        |       |                   | E6     |             | tri.TO.pos |  12 |  0.037 |  0.043 | -1.483 |  1.730 | 0.971 | 0.280 |  0.617 | 1.360 |
+| Experimental |        |       |                   | E1     |             | tri.TO.pos |  11 |  0.122 |  0.222 | -1.107 |  1.886 | 0.925 | 0.279 |  0.622 | 1.252 |
+| Experimental |        |       |                   | E2     |             | tri.TO.pos |  23 | -0.194 | -0.098 | -2.177 |  1.536 | 0.945 | 0.197 |  0.409 | 1.043 |
+| Experimental |        |       |                   | E3     |             | tri.TO.pos |  16 |  0.033 | -0.145 | -1.357 |  1.787 | 1.011 | 0.253 |  0.538 | 1.258 |
+| Experimental |        |       |                   | E4     |             | tri.TO.pos |  15 |  0.034 | -0.207 | -1.628 |  1.225 | 1.001 | 0.258 |  0.554 | 1.849 |
+| Experimental |        |       |                   | E5     |             | tri.TO.pos |  55 |  0.418 |  0.443 | -1.958 |  2.107 | 0.970 | 0.131 |  0.262 | 1.539 |
+| Experimental |        |       |                   | E6     |             | tri.TO.pos |  15 | -0.258 | -0.347 | -1.230 |  1.522 | 0.672 | 0.174 |  0.372 | 0.625 |
+| Controle     |        |       |                   | E1     |             | tri.TO.pre |  12 | -0.088 | -0.472 | -1.388 |  1.513 | 0.970 | 0.280 |  0.616 | 1.388 |
+| Controle     |        |       |                   | E2     |             | tri.TO.pre |  28 | -0.236 | -0.274 | -1.702 |  1.031 | 0.768 | 0.145 |  0.298 | 1.226 |
+| Controle     |        |       |                   | E3     |             | tri.TO.pre |  19 |  0.096 | -0.103 | -1.433 |  2.107 | 0.967 | 0.222 |  0.466 | 1.363 |
+| Controle     |        |       |                   | E4     |             | tri.TO.pre |  20 | -0.283 | -0.457 | -1.704 |  1.399 | 0.839 | 0.188 |  0.393 | 1.310 |
+| Controle     |        |       |                   | E5     |             | tri.TO.pre |  58 |  0.092 |  0.135 | -2.329 |  2.107 | 0.870 | 0.114 |  0.229 | 1.098 |
+| Controle     |        |       |                   | E6     |             | tri.TO.pre |  12 |  0.012 | -0.070 | -1.332 |  1.730 | 0.959 | 0.277 |  0.609 | 1.379 |
+| Experimental |        |       |                   | E1     |             | tri.TO.pre |  11 | -0.293 | -0.226 | -1.584 |  1.227 | 0.873 | 0.263 |  0.587 | 1.115 |
+| Experimental |        |       |                   | E2     |             | tri.TO.pre |  23 | -0.298 | -0.449 | -1.263 |  0.904 | 0.659 | 0.137 |  0.285 | 0.972 |
+| Experimental |        |       |                   | E3     |             | tri.TO.pre |  16 |  0.116 |  0.045 | -1.570 |  1.886 | 0.980 | 0.245 |  0.522 | 1.052 |
+| Experimental |        |       |                   | E4     |             | tri.TO.pre |  15 |  0.081 | -0.081 | -1.192 |  1.368 | 0.924 | 0.239 |  0.512 | 1.498 |
+| Experimental |        |       |                   | E5     |             | tri.TO.pre |  55 |  0.248 |  0.294 | -1.560 |  1.817 | 0.964 | 0.130 |  0.261 | 1.570 |
+| Experimental |        |       |                   | E6     |             | tri.TO.pre |  15 | -0.236 | -0.326 | -1.573 |  1.376 | 0.766 | 0.198 |  0.424 | 0.893 |
+| Controle     |        |       |                   |        | Urbana      | tri.TO.pos |  98 |  0.149 | -0.003 | -1.793 |  2.107 | 0.853 | 0.086 |  0.171 | 1.118 |
+| Controle     |        |       |                   |        | Rural       | tri.TO.pos |  51 |  0.102 |  0.073 | -1.483 |  2.107 | 0.911 | 0.128 |  0.256 | 1.295 |
+| Experimental |        |       |                   |        | Urbana      | tri.TO.pos |  89 |  0.223 |  0.221 | -2.177 |  2.107 | 0.984 | 0.104 |  0.207 | 1.406 |
+| Experimental |        |       |                   |        | Rural       | tri.TO.pos |  46 | -0.062 | -0.184 | -1.628 |  1.787 | 0.901 | 0.133 |  0.268 | 1.115 |
+| Controle     |        |       |                   |        | Urbana      | tri.TO.pre |  98 | -0.024 | -0.109 | -2.329 |  2.107 | 0.859 | 0.087 |  0.172 | 1.202 |
+| Controle     |        |       |                   |        | Rural       | tri.TO.pre |  51 | -0.072 | -0.113 | -1.704 |  2.107 | 0.915 | 0.128 |  0.257 | 1.323 |
+| Experimental |        |       |                   |        | Urbana      | tri.TO.pre |  89 |  0.040 | -0.082 | -1.584 |  1.817 | 0.914 | 0.097 |  0.193 | 1.451 |
+| Experimental |        |       |                   |        | Rural       | tri.TO.pre |  46 | -0.010 | -0.083 | -1.573 |  1.886 | 0.891 | 0.131 |  0.265 | 1.385 |
+
 # Checking of Assumptions
 
 ## Assumption: Normality distribution
@@ -740,6 +1391,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CLPP.pos | 284 | -0.6177322 | 2.282648 | NO       |  35.95792 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.CLPP.pos | 284 | -0.7947420 | 2.965451 | NO       |  50.43773 | D’Agostino |   0 | \*\*\*\* | \-        |
 
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          |   n |   skewness | kurtosis | symmetry | statistic | method     |   p | p.signif | normality |
+|:-------------|----:|-----------:|---------:|:---------|----------:|:-----------|----:|:---------|:----------|
+| tri.CLPP.pos | 284 | -0.7801323 | 3.158589 | NO       |  51.20778 | D’Agostino |   0 | \*\*\*\* | \-        |
+| tri.CLPP.pos | 276 | -0.6814617 | 2.966665 | NO       |  43.66935 | D’Agostino |   0 | \*\*\*\* | \-        |
+| tri.CLPP.pos | 220 | -0.7952100 | 3.691290 | NO       |  45.22348 | D’Agostino |   0 | \*\*\*\* | \-        |
+| tri.CLPP.pos | 284 | -0.6177322 | 2.282648 | NO       |  35.95792 | D’Agostino |   0 | \*\*\*\* | \-        |
+| tri.CLPP.pos | 284 | -0.7947420 | 2.965451 | NO       |  50.43773 | D’Agostino |   0 | \*\*\*\* | \-        |
+
 ### Correta Regular (Acertos)
 
 | var          |   n |  skewness | kurtosis | symmetry | statistic | method     |   p | p.signif | normality |
@@ -749,6 +1410,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CR.pos | 249 | -1.446759 | 1.719753 | NO       |  67.27546 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.CR.pos | 332 | -1.257747 | 1.081206 | NO       |  67.80275 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.CR.pos | 332 | -1.331780 | 1.105191 | NO       |  72.86650 | D’Agostino |   0 | \*\*\*\* | \-        |
+
+### Correta Regular (TRI)
+
+| var        |   n |   skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------|----:|-----------:|-----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.CR.pos | 284 | -0.3874209 |  0.0989657 | YES      |  7.440207 | D’Agostino | 0.0242315 | ns       | \-        |
+| tri.CR.pos | 276 | -0.3443826 |  0.1404466 | YES      |  6.054860 | D’Agostino | 0.0484400 | ns       | \-        |
+| tri.CR.pos | 220 | -0.5585768 |  0.3819865 | NO       | 12.667917 | D’Agostino | 0.0017750 | \*       | \-        |
+| tri.CR.pos | 284 | -0.2472138 | -0.0457005 | YES      |  3.000427 | D’Agostino | 0.2230826 | ns       | \-        |
+| tri.CR.pos | 284 | -0.4254502 |  0.1170289 | YES      |  8.864228 | D’Agostino | 0.0118893 | ns       | \-        |
 
 ### Correta Irregular (Acertos)
 
@@ -760,6 +1431,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CI.pos | 332 | -0.9007567 | 0.7481992 | NO       |  41.38287 | D’Agostino | 0e+00 | \*\*\*\* | \-        |
 | score.CI.pos | 332 | -0.9400167 | 0.7377769 | NO       |  43.72966 | D’Agostino | 0e+00 | \*\*\*\* | \-        |
 
+### Correta Irregular (TRI)
+
+| var        |   n |   skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------|----:|-----------:|-----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.CI.pos | 284 | -0.2811352 | -0.0369843 | YES      |  3.854652 | D’Agostino | 0.1455369 | ns       | \-        |
+| tri.CI.pos | 276 | -0.2967783 |  0.0181761 | YES      |  4.261745 | D’Agostino | 0.1187337 | ns       | \-        |
+| tri.CI.pos | 220 | -0.2501953 |  0.0212441 | YES      |  2.553522 | D’Agostino | 0.2789394 | ns       | \-        |
+| tri.CI.pos | 284 | -0.2599567 | -0.0621296 | YES      |  3.296462 | D’Agostino | 0.1923900 | ns       | \-        |
+| tri.CI.pos | 284 | -0.3241044 |  0.0418682 | YES      |  5.217669 | D’Agostino | 0.0736203 | ns       | \-        |
+
 ### Trocas Visuais (Acertos)
 
 | var          |   n |  skewness | kurtosis | symmetry | statistic | method     |   p | p.signif | normality |
@@ -769,6 +1450,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TV.pos | 249 | -1.521220 | 2.086116 | NO       |  74.00250 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.TV.pos | 332 | -1.313009 | 1.307218 | NO       |  73.86099 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.TV.pos | 332 | -1.424394 | 1.364744 | NO       |  81.70103 | D’Agostino |   0 | \*\*\*\* | \-        |
+
+### Trocas Visuais (TRI)
+
+| var        |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.TV.pos | 284 | -0.5457784 | 0.3362126 | NO       | 14.955337 | D’Agostino | 0.0005656 | \*\*     | \-        |
+| tri.TV.pos | 276 | -0.7117101 | 0.5104350 | NO       | 23.433221 | D’Agostino | 0.0000082 | \*\*\*\* | \-        |
+| tri.TV.pos | 220 | -0.6442070 | 0.5503024 | NO       | 16.866834 | D’Agostino | 0.0002175 | \*\*     | \-        |
+| tri.TV.pos | 284 | -0.3531198 | 0.3690537 | YES      |  7.868945 | D’Agostino | 0.0195560 | ns       | \-        |
+| tri.TV.pos | 284 | -0.5575258 | 0.3598703 | NO       | 15.634448 | D’Agostino | 0.0004027 | \*\*     | \-        |
 
 ### Trocas Fonologicas (Acertos)
 
@@ -780,6 +1471,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TF.pos | 332 | -1.165820 | 1.219579 | NO       |  63.35747 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.TF.pos | 332 | -1.237939 | 1.194692 | NO       |  67.75863 | D’Agostino |   0 | \*\*\*\* | \-        |
 
+### Trocas Fonologicas (TRI)
+
+| var        |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.TF.pos | 284 | -0.4893285 | 0.1706429 | YES      | 11.582313 | D’Agostino | 0.0030544 | \*       | \-        |
+| tri.TF.pos | 276 | -0.5623138 | 0.3125617 | NO       | 15.125467 | D’Agostino | 0.0005195 | \*\*     | \-        |
+| tri.TF.pos | 220 | -0.5520590 | 0.3066963 | NO       | 12.001964 | D’Agostino | 0.0024763 | \*       | \-        |
+| tri.TF.pos | 284 | -0.3239866 | 0.1753485 | YES      |  5.757322 | D’Agostino | 0.0562100 | ns       | \-        |
+| tri.TF.pos | 284 | -0.5193795 | 0.2624076 | NO       | 13.341755 | D’Agostino | 0.0012673 | \*       | \-        |
+
 ### Trocas Orograficas (Acertos)
 
 | var          |   n |   skewness |  kurtosis | symmetry | statistic | method     |        p | p.signif | normality |
@@ -789,6 +1490,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TO.pos | 249 | -0.6322534 | 0.8792441 | NO       |  20.94465 | D’Agostino | 2.83e-05 | \*\*\*   | \-        |
 | score.TO.pos | 332 | -0.6350102 | 0.4394225 | NO       |  22.74278 | D’Agostino | 1.15e-05 | \*\*\*   | \-        |
 | score.TO.pos | 332 | -0.6733987 | 0.4292930 | NO       |  24.77708 | D’Agostino | 4.20e-06 | \*\*\*\* | \-        |
+
+### Trocas Orograficas (TRI)
+
+| var        |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.TO.pos | 284 | -0.2739062 | 0.1566379 | YES      |  4.274361 | D’Agostino | 0.1179871 | ns       | \-        |
+| tri.TO.pos | 276 | -0.3659097 | 0.3187182 | YES      |  7.737807 | D’Agostino | 0.0208813 | ns       | \-        |
+| tri.TO.pos | 220 | -0.2720111 | 0.3741870 | YES      |  4.559685 | D’Agostino | 0.1023003 | ns       | \-        |
+| tri.TO.pos | 284 | -0.3522544 | 0.3219763 | YES      |  7.510622 | D’Agostino | 0.0233932 | ns       | \-        |
+| tri.TO.pos | 284 | -0.3701258 | 0.2944391 | YES      |  7.906065 | D’Agostino | 0.0191964 | ns       | \-        |
 
 ## Assumption: Homogeneity
 
@@ -807,6 +1518,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 0.6157255 | 0.6053229 | ns       |
 | score.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 4.2640000 | 0.0060000 | \*       |
 
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 | 1.7316904 | 0.1606808 | ns       |
+| tri.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 | 0.2350000 | 0.8720000 | ns       |
+| tri.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 | 0.5751747 | 0.8337481 | ns       |
+| tri.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 | 1.2570000 | 0.2660000 | ns       |
+| tri.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 | 1.0098185 | 0.3892646 | ns       |
+| tri.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 | 1.3090000 | 0.2720000 | ns       |
+| tri.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 | 1.5930567 | 0.1003981 | ns       |
+| tri.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 | 2.1250000 | 0.0190000 | ns       |
+| tri.CLPP.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 0.6157255 | 0.6053229 | ns       |
+| tri.CLPP.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 4.2640000 | 0.0060000 | \*       |
+
 ### Correta Regular (Acertos)
 
 | var          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -821,6 +1547,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CR.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 332 |      11 |     308 |  1.876000 | 0.0420000 | ns       |
 | score.CR.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     328 |  3.336202 | 0.0196689 | ns       |
 | score.CR.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     324 |  0.454000 | 0.7150000 | ns       |
+
+### Correta Regular (TRI)
+
+| var        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.CR.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 |  2.592090 | 0.0530171 | ns       |
+| tri.CR.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 |  0.286000 | 0.8360000 | ns       |
+| tri.CR.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 |  1.985912 | 0.0350568 | ns       |
+| tri.CR.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 |  1.465000 | 0.1700000 | ns       |
+| tri.CR.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 |  1.451951 | 0.2286837 | ns       |
+| tri.CR.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 |  0.156000 | 0.9260000 | ns       |
+| tri.CR.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 |  2.395507 | 0.0075359 | \*       |
+| tri.CR.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 |  0.635000 | 0.7980000 | ns       |
+| tri.CR.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 |  2.086945 | 0.1021460 | ns       |
+| tri.CR.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 |  0.609000 | 0.6090000 | ns       |
 
 ### Correta Irregular (Acertos)
 
@@ -837,6 +1578,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.CI.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     328 |  1.567143 | 0.1971891 | ns       |
 | score.CI.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     324 |  0.592000 | 0.6210000 | ns       |
 
+### Correta Irregular (TRI)
+
+| var        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.CI.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 | 1.0011508 | 0.3927397 | ns       |
+| tri.CI.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 | 1.0240000 | 0.3830000 | ns       |
+| tri.CI.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 | 0.7817158 | 0.6464479 | ns       |
+| tri.CI.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 | 0.5360000 | 0.8290000 | ns       |
+| tri.CI.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 | 5.0287655 | 0.0021757 | \*       |
+| tri.CI.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 | 2.4670000 | 0.0630000 | ns       |
+| tri.CI.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 | 1.0371444 | 0.4136671 | ns       |
+| tri.CI.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 | 0.5380000 | 0.8760000 | ns       |
+| tri.CI.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 2.0011312 | 0.1140429 | ns       |
+| tri.CI.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 0.7530000 | 0.5210000 | ns       |
+
 ### Trocas Visuais (Acertos)
 
 | var          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -851,6 +1607,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TV.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 332 |      11 |     308 | 1.4450000 | 0.1520000 | ns       |
 | score.TV.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     328 | 2.7940950 | 0.0403918 | ns       |
 | score.TV.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     324 | 1.0160000 | 0.3860000 | ns       |
+
+### Trocas Visuais (TRI)
+
+| var        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.TV.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 | 1.4734594 | 0.2219741 | ns       |
+| tri.TV.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 | 2.5860000 | 0.0530000 | ns       |
+| tri.TV.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 | 0.7898715 | 0.6385998 | ns       |
+| tri.TV.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 | 0.6280000 | 0.7540000 | ns       |
+| tri.TV.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 | 0.6325218 | 0.5947727 | ns       |
+| tri.TV.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 | 0.6340000 | 0.5940000 | ns       |
+| tri.TV.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 | 2.5078778 | 0.0050904 | \*       |
+| tri.TV.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 | 0.5410000 | 0.8750000 | ns       |
+| tri.TV.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 1.0389290 | 0.3757046 | ns       |
+| tri.TV.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 0.3950000 | 0.7570000 | ns       |
 
 ### Trocas Fonologicas (Acertos)
 
@@ -867,6 +1638,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TF.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     328 |  2.511079 | 0.0586122 | ns       |
 | score.TF.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     324 |  0.193000 | 0.9010000 | ns       |
 
+### Trocas Fonologicas (TRI)
+
+| var        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.TF.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 | 2.2079579 | 0.0873880 | ns       |
+| tri.TF.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 | 0.6730000 | 0.5690000 | ns       |
+| tri.TF.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 | 0.8975557 | 0.5359730 | ns       |
+| tri.TF.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 | 0.7450000 | 0.6520000 | ns       |
+| tri.TF.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 | 0.7739905 | 0.5096704 | ns       |
+| tri.TF.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 | 0.8660000 | 0.4590000 | ns       |
+| tri.TF.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 | 1.4723338 | 0.1415092 | ns       |
+| tri.TF.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 | 0.9780000 | 0.4670000 | ns       |
+| tri.TF.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 1.3120995 | 0.2706956 | ns       |
+| tri.TF.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 0.6840000 | 0.5630000 | ns       |
+
 ### Trocas Orograficas (Acertos)
 
 | var          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -882,6 +1668,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.TO.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     328 | 1.7204673 | 0.1625912 | ns       |
 | score.TO.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 332 |       3 |     324 | 0.5520000 | 0.6470000 | ns       |
 
+### Trocas Orograficas (TRI)
+
+| var        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.TO.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 284 |       3 |     280 | 1.5074068 | 0.2128191 | ns       |
+| tri.TO.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 284 |       3 |     276 | 1.0050000 | 0.3910000 | ns       |
+| tri.TO.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 276 |      10 |     265 | 2.1509629 | 0.0211621 | ns       |
+| tri.TO.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 276 |       8 |     256 | 2.4450000 | 0.0150000 | ns       |
+| tri.TO.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     216 | 0.6219953 | 0.6014807 | ns       |
+| tri.TO.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 220 |       3 |     212 | 0.6090000 | 0.6100000 | ns       |
+| tri.TO.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 284 |      11 |     272 | 0.6143225 | 0.8162379 | ns       |
+| tri.TO.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 284 |      11 |     260 | 0.3690000 | 0.9670000 | ns       |
+| tri.TO.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     280 | 0.5496234 | 0.6487885 | ns       |
+| tri.TO.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 284 |       3 |     276 | 0.1620000 | 0.9220000 | ns       |
+
 # Computation of ANCOVA test and Pairwise Comparison
 
 ## ANCOVA tests for one factor
@@ -891,6 +1692,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 |     | Effect            | DFn | DFd |       SSn |      SSd |       F | p       |   ges | p\<.05 |
 |:----|:------------------|----:|----:|----------:|---------:|--------:|:--------|------:|:-------|
 | 1   | score.CLPP.pre    |   1 | 281 | 27478.999 | 33204.94 | 232.544 | \<0.001 | 0.453 | \*     |
+| 2   | grupo             |   1 | 281 |     0.160 | 33204.94 |   0.001 | 0.971   | 0.000 |        |
+| 4   | genero            |   1 | 281 |   396.612 | 32808.49 |   3.397 | 0.066   | 0.012 |        |
+| 6   | idade             |   5 | 269 |  1976.626 | 30719.76 |   3.462 | 0.005   | 0.060 | \*     |
+| 8   | zona.participante |   1 | 217 |    13.793 | 26037.61 |   0.115 | 0.735   | 0.001 |        |
+| 10  | escola            |   5 | 277 |  2210.347 | 30994.76 |   3.951 | 0.002   | 0.067 | \*     |
+| 12  | zona.escola       |   1 | 281 |   666.152 | 32538.95 |   5.753 | 0.017   | 0.020 | \*     |
+
+### Leitura de Pseudo-Palavras (TRI)
+
+|     | Effect            | DFn | DFd |       SSn |      SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|----------:|---------:|--------:|:--------|------:|:-------|
+| 1   | tri.CLPP.pre      |   1 | 281 | 27478.999 | 33204.94 | 232.544 | \<0.001 | 0.453 | \*     |
 | 2   | grupo             |   1 | 281 |     0.160 | 33204.94 |   0.001 | 0.971   | 0.000 |        |
 | 4   | genero            |   1 | 281 |   396.612 | 32808.49 |   3.397 | 0.066   | 0.012 |        |
 | 6   | idade             |   5 | 269 |  1976.626 | 30719.76 |   3.462 | 0.005   | 0.060 | \*     |
@@ -910,6 +1723,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola            |   5 | 325 |  586.415 |  9857.411 |  3.867 | 0.002   | 0.056 | \*     |
 | 12  | zona.escola       |   1 | 329 |  387.758 | 10056.068 | 12.686 | \<0.001 | 0.037 | \*     |
 
+### Correta Regular (TRI)
+
+|     | Effect            | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.CR.pre        |   1 | 281 | 72.508 | 112.112 | 181.735 | \<0.001 | 0.393 | \*     |
+| 2   | grupo             |   1 | 281 |  0.007 | 112.112 |   0.017 | 0.897   | 0.000 |        |
+| 4   | genero            |   1 | 281 |  0.815 | 111.304 |   2.056 | 0.153   | 0.007 |        |
+| 6   | idade             |   5 | 269 |  7.362 | 101.587 |   3.899 | 0.002   | 0.068 | \*     |
+| 8   | zona.participante |   1 | 217 |  0.363 |  88.204 |   0.892 | 0.346   | 0.004 |        |
+| 10  | escola            |   5 | 277 |  5.823 | 106.296 |   3.035 | 0.011   | 0.052 | \*     |
+| 12  | zona.escola       |   1 | 281 |  0.368 | 111.751 |   0.924 | 0.337   | 0.003 |        |
+
 ### Correta Irregular (Acertos)
 
 |     | Effect            | DFn | DFd |      SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -921,6 +1746,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | zona.participante |   1 | 246 |  134.243 | 4859.058 |  6.796 | 0.01    | 0.027 | \*     |
 | 10  | escola            |   5 | 325 |  488.749 | 7274.853 |  4.367 | \<0.001 | 0.063 | \*     |
 | 12  | zona.escola       |   1 | 329 |  294.576 | 7469.026 | 12.976 | \<0.001 | 0.038 | \*     |
+
+### Correta Irregular (TRI)
+
+|     | Effect            | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.CI.pre        |   1 | 281 | 124.546 | 102.983 | 339.837 | \<0.001 | 0.547 | \*     |
+| 2   | grupo             |   1 | 281 |   2.811 | 102.983 |   7.669 | 0.006   | 0.027 | \*     |
+| 4   | genero            |   1 | 281 |   0.041 | 105.753 |   0.109 | 0.742   | 0.000 |        |
+| 6   | idade             |   5 | 269 |   3.150 | 100.680 |   1.683 | 0.139   | 0.030 |        |
+| 8   | zona.participante |   1 | 217 |   0.000 |  79.408 |   0.001 | 0.978   | 0.000 |        |
+| 10  | escola            |   5 | 277 |   2.486 | 103.307 |   1.333 | 0.25    | 0.023 |        |
+| 12  | zona.escola       |   1 | 281 |   0.242 | 105.551 |   0.645 | 0.422   | 0.002 |        |
 
 ### Trocas Visuais (Acertos)
 
@@ -934,6 +1771,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola            |   5 | 325 |  699.515 | 11504.284 |  3.952 | 0.002   | 0.057 | \*     |
 | 12  | zona.escola       |   1 | 329 |  341.693 | 11862.106 |  9.477 | 0.002   | 0.028 | \*     |
 
+### Trocas Visuais (TRI)
+
+|     | Effect            | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TV.pre        |   1 | 281 | 68.308 | 122.337 | 156.899 | \<0.001 | 0.358 | \*     |
+| 2   | grupo             |   1 | 281 |  0.008 | 122.337 |   0.019 | 0.889   | 0.000 |        |
+| 4   | genero            |   1 | 281 |  1.252 | 121.093 |   2.906 | 0.089   | 0.010 |        |
+| 6   | idade             |   5 | 269 |  4.957 | 115.203 |   2.315 | 0.044   | 0.041 | \*     |
+| 8   | zona.participante |   1 | 217 |  0.067 |  93.962 |   0.154 | 0.695   | 0.001 |        |
+| 10  | escola            |   5 | 277 |  4.758 | 117.588 |   2.241 | 0.05    | 0.039 |        |
+| 12  | zona.escola       |   1 | 281 |  0.362 | 121.984 |   0.833 | 0.362   | 0.003 |        |
+
 ### Trocas Fonologicas (Acertos)
 
 |     | Effect            | DFn | DFd |      SSn |       SSd |      F | p       |   ges | p\<.05 |
@@ -945,6 +1794,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | zona.participante |   1 | 246 |  235.461 |  6847.762 |  8.459 | 0.004   | 0.033 | \*     |
 | 10  | escola            |   5 | 325 |  658.390 | 10478.853 |  4.084 | 0.001   | 0.059 | \*     |
 | 12  | zona.escola       |   1 | 329 |  262.188 | 10875.055 |  7.932 | 0.005   | 0.024 | \*     |
+
+### Trocas Fonologicas (TRI)
+
+|     | Effect            | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TF.pre        |   1 | 281 | 104.133 | 114.397 | 255.787 | \<0.001 | 0.477 | \*     |
+| 2   | grupo             |   1 | 281 |   0.034 | 114.397 |   0.084 | 0.773   | 0.000 |        |
+| 4   | genero            |   1 | 281 |   0.060 | 114.371 |   0.148 | 0.701   | 0.001 |        |
+| 6   | idade             |   5 | 269 |   4.710 | 107.408 |   2.359 | 0.041   | 0.042 | \*     |
+| 8   | zona.participante |   1 | 217 |   0.212 |  89.659 |   0.512 | 0.475   | 0.002 |        |
+| 10  | escola            |   5 | 277 |   4.843 | 109.588 |   2.448 | 0.034   | 0.042 | \*     |
+| 12  | zona.escola       |   1 | 281 |   0.001 | 114.430 |   0.002 | 0.967   | 0.000 |        |
 
 ### Trocas Orograficas (Acertos)
 
@@ -958,6 +1819,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola            |   5 | 325 |  215.763 | 6660.241 |   2.106 | 0.064   | 0.031 |        |
 | 12  | zona.escola       |   1 | 329 |   17.896 | 6858.108 |   0.859 | 0.355   | 0.003 |        |
 
+### Trocas Orograficas (TRI)
+
+|     | Effect            | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TO.pre        |   1 | 281 | 131.502 | 104.928 | 352.165 | \<0.001 | 0.556 | \*     |
+| 2   | grupo             |   1 | 281 |   0.221 | 104.928 |   0.592 | 0.442   | 0.002 |        |
+| 4   | genero            |   1 | 281 |   2.602 | 102.547 |   7.130 | 0.008   | 0.025 | \*     |
+| 6   | idade             |   5 | 269 |   4.901 |  98.272 |   2.683 | 0.022   | 0.048 | \*     |
+| 8   | zona.participante |   1 | 217 |   0.903 |  77.384 |   2.532 | 0.113   | 0.012 |        |
+| 10  | escola            |   5 | 277 |   1.746 | 103.404 |   0.935 | 0.458   | 0.017 |        |
+| 12  | zona.escola       |   1 | 281 |   0.952 | 104.198 |   2.566 | 0.11    | 0.009 |        |
+
 ## ANCOVA tests for two factors
 
 ### Leitura de Pseudo-Palavras (Acertos)
@@ -965,6 +1838,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 |     | Effect                  | DFn | DFd |       SSn |      SSd |       F | p       |   ges | p\<.05 |
 |:----|:------------------------|----:|----:|----------:|---------:|--------:|:--------|------:|:-------|
 | 1   | score.CLPP.pre          |   1 | 279 | 25328.128 | 32702.83 | 216.084 | \<0.001 | 0.436 | \*     |
+| 4   | grupo:genero            |   1 | 279 |    97.443 | 32702.83 |   0.831 | 0.363   | 0.003 |        |
+| 8   | grupo:idade             |   4 | 264 |   450.518 | 30265.32 |   0.982 | 0.418   | 0.015 |        |
+| 12  | grupo:zona.participante |   1 | 215 |     4.816 | 26007.87 |   0.040 | 0.842   | 0.000 |        |
+| 16  | grupo:escola            |   5 | 271 |   592.820 | 30401.55 |   1.057 | 0.385   | 0.019 |        |
+| 20  | grupo:zona.escola       |   1 | 279 |   322.353 | 32216.47 |   2.792 | 0.096   | 0.010 |        |
+
+### Leitura de Pseudo-Palavras (TRI)
+
+|     | Effect                  | DFn | DFd |       SSn |      SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|----------:|---------:|--------:|:--------|------:|:-------|
+| 1   | tri.CLPP.pre            |   1 | 279 | 25328.128 | 32702.83 | 216.084 | \<0.001 | 0.436 | \*     |
 | 4   | grupo:genero            |   1 | 279 |    97.443 | 32702.83 |   0.831 | 0.363   | 0.003 |        |
 | 8   | grupo:idade             |   4 | 264 |   450.518 | 30265.32 |   0.982 | 0.418   | 0.015 |        |
 | 12  | grupo:zona.participante |   1 | 215 |     4.816 | 26007.87 |   0.040 | 0.842   | 0.000 |        |
@@ -982,6 +1866,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola            |   5 | 319 |  93.874 |  9762.523 |  0.613 | 0.69    | 0.010 |        |
 | 20  | grupo:zona.escola       |   1 | 327 |  19.489 | 10035.480 |  0.635 | 0.426   | 0.002 |        |
 
+### Correta Regular (TRI)
+
+|     | Effect                  | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.CR.pre              |   1 | 279 | 67.532 | 110.820 | 170.018 | \<0.001 | 0.379 | \*     |
+| 4   | grupo:genero            |   1 | 279 |  0.482 | 110.820 |   1.214 | 0.271   | 0.004 |        |
+| 8   | grupo:idade             |   4 | 264 |  3.120 |  98.367 |   2.093 | 0.082   | 0.031 |        |
+| 12  | grupo:zona.participante |   1 | 215 |  1.235 |  86.960 |   3.053 | 0.082   | 0.014 |        |
+| 16  | grupo:escola            |   5 | 271 |  1.194 | 105.096 |   0.616 | 0.688   | 0.011 |        |
+| 20  | grupo:zona.escola       |   1 | 279 |  0.012 | 111.734 |   0.030 | 0.863   | 0.000 |        |
+
 ### Correta Irregular (Acertos)
 
 |     | Effect                  | DFn | DFd |      SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -992,6 +1887,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 12  | grupo:zona.participante |   1 | 244 |    0.730 | 4784.497 |  0.037 | 0.847   | 0.000 |        |
 | 16  | grupo:escola            |   5 | 319 |   60.686 | 7166.632 |  0.540 | 0.746   | 0.008 |        |
 | 20  | grupo:zona.escola       |   1 | 327 |    6.700 | 7414.607 |  0.295 | 0.587   | 0.001 |        |
+
+### Correta Irregular (TRI)
+
+|     | Effect                  | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.CI.pre              |   1 | 279 | 112.112 | 102.648 | 304.724 | \<0.001 | 0.522 | \*     |
+| 4   | grupo:genero            |   1 | 279 |   0.173 | 102.648 |   0.471 | 0.493   | 0.002 |        |
+| 8   | grupo:idade             |   4 | 264 |   1.286 |  97.329 |   0.872 | 0.481   | 0.013 |        |
+| 12  | grupo:zona.participante |   1 | 215 |   0.000 |  77.066 |   0.000 | 0.998   | 0.000 |        |
+| 16  | grupo:escola            |   5 | 271 |   4.441 |  96.183 |   2.502 | 0.031   | 0.044 | \*     |
+| 20  | grupo:zona.escola       |   1 | 279 |   0.856 | 101.881 |   2.344 | 0.127   | 0.008 |        |
 
 ### Trocas Visuais (Acertos)
 
@@ -1004,6 +1910,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola            |   5 | 319 |   87.817 | 11416.298 |  0.491 | 0.783   | 0.008 |        |
 | 20  | grupo:zona.escola       |   1 | 327 |   19.298 | 11842.677 |  0.533 | 0.466   | 0.002 |        |
 
+### Trocas Visuais (TRI)
+
+|     | Effect                  | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TV.pre              |   1 | 279 | 65.343 | 120.747 | 150.983 | \<0.001 | 0.351 | \*     |
+| 4   | grupo:genero            |   1 | 279 |  0.345 | 120.747 |   0.797 | 0.373   | 0.003 |        |
+| 8   | grupo:idade             |   4 | 264 |  3.694 | 111.488 |   2.187 | 0.071   | 0.032 |        |
+| 12  | grupo:zona.participante |   1 | 215 |  0.828 |  92.979 |   1.915 | 0.168   | 0.009 |        |
+| 16  | grupo:escola            |   5 | 271 |  2.122 | 115.428 |   0.996 | 0.42    | 0.018 |        |
+| 20  | grupo:zona.escola       |   1 | 279 |  0.003 | 121.972 |   0.008 | 0.93    | 0.000 |        |
+
 ### Trocas Fonologicas (Acertos)
 
 |     | Effect                  | DFn | DFd |      SSn |       SSd |      F | p       |   ges | p\<.05 |
@@ -1014,6 +1931,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 12  | grupo:zona.participante |   1 | 244 |   21.745 |  6812.208 |  0.779 | 0.378   | 0.003 |        |
 | 16  | grupo:escola            |   5 | 319 |   59.295 | 10403.650 |  0.364 | 0.873   | 0.006 |        |
 | 20  | grupo:zona.escola       |   1 | 327 |   19.270 | 10840.288 |  0.581 | 0.446   | 0.002 |        |
+
+### Trocas Fonologicas (TRI)
+
+|     | Effect                  | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TF.pre              |   1 | 279 | 103.233 | 113.995 | 252.662 | \<0.001 | 0.475 | \*     |
+| 4   | grupo:genero            |   1 | 279 |   0.330 | 113.995 |   0.808 | 0.369   | 0.003 |        |
+| 8   | grupo:idade             |   4 | 264 |   1.438 | 105.968 |   0.895 | 0.467   | 0.013 |        |
+| 12  | grupo:zona.participante |   1 | 215 |   0.222 |  89.346 |   0.534 | 0.466   | 0.002 |        |
+| 16  | grupo:escola            |   5 | 271 |   1.448 | 108.120 |   0.726 | 0.605   | 0.013 |        |
+| 20  | grupo:zona.escola       |   1 | 279 |   0.063 | 114.334 |   0.153 | 0.696   | 0.001 |        |
 
 ### Trocas Orograficas (Acertos)
 
@@ -1026,6 +1954,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola            |   5 | 319 |   97.985 | 6555.899 |   0.954 | 0.447   | 0.015 |        |
 | 20  | grupo:zona.escola       |   1 | 327 |    9.093 | 6841.447 |   0.435 | 0.51    | 0.001 |        |
 
+### Trocas Orograficas (TRI)
+
+|     | Effect                  | DFn | DFd |     SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|--------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.TO.pre              |   1 | 279 | 120.609 | 102.346 | 328.787 | \<0.001 | 0.541 | \*     |
+| 4   | grupo:genero            |   1 | 279 |   0.121 | 102.346 |   0.331 | 0.566   | 0.001 |        |
+| 8   | grupo:idade             |   4 | 264 |   0.233 |  97.811 |   0.157 | 0.96    | 0.002 |        |
+| 12  | grupo:zona.participante |   1 | 215 |   0.003 |  76.788 |   0.009 | 0.925   | 0.000 |        |
+| 16  | grupo:escola            |   5 | 271 |   1.375 | 101.826 |   0.732 | 0.6     | 0.013 |        |
+| 20  | grupo:zona.escola       |   1 | 279 |   0.894 | 103.082 |   2.419 | 0.121   | 0.009 |        |
+
 ## ANCOVA tests for grupo=“Experimental”
 
 ### Leitura de Pseudo-Palavras (Acertos)
@@ -1033,6 +1972,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 |     | Effect              | DFn | DFd |      SSn |      SSd |      F | p       |   ges | p\<.05 |
 |:----|:--------------------|----:|----:|---------:|---------:|-------:|:--------|------:|:-------|
 | 1   | score.CLPP.pre      |   1 | 113 | 7682.995 | 12412.50 | 69.944 | \<0.001 | 0.382 | \*     |
+| 2   | monitor             |   9 | 113 | 1217.353 | 12412.50 |  1.231 | 0.283   | 0.089 |        |
+| 4   | monitor.genero      |   1 | 121 |  519.408 | 13110.45 |  4.794 | 0.03    | 0.038 | \*     |
+| 6   | monitor.area        |   8 | 114 | 1195.144 | 12434.71 |  1.370 | 0.217   | 0.088 |        |
+| 8   | monitor.formacao    |   2 | 120 |   40.659 | 13589.20 |  0.180 | 0.836   | 0.003 |        |
+| 10  | monitor.experiencia |   1 | 121 |   28.592 | 13601.26 |  0.254 | 0.615   | 0.002 |        |
+
+### Leitura de Pseudo-Palavras (TRI)
+
+|     | Effect              | DFn | DFd |      SSn |      SSd |      F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|---------:|---------:|-------:|:--------|------:|:-------|
+| 1   | tri.CLPP.pre        |   1 | 113 | 7682.995 | 12412.50 | 69.944 | \<0.001 | 0.382 | \*     |
 | 2   | monitor             |   9 | 113 | 1217.353 | 12412.50 |  1.231 | 0.283   | 0.089 |        |
 | 4   | monitor.genero      |   1 | 121 |  519.408 | 13110.45 |  4.794 | 0.03    | 0.038 | \*     |
 | 6   | monitor.area        |   8 | 114 | 1195.144 | 12434.71 |  1.370 | 0.217   | 0.088 |        |
@@ -1050,6 +2000,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao    |   2 | 137 | 117.573 | 3978.034 |  2.025 | 0.136   | 0.029 |        |
 | 10  | monitor.experiencia |   1 | 138 |  31.377 | 4064.230 |  1.065 | 0.304   | 0.008 |        |
 
+### Correta Regular (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.CR.pre          |   1 | 113 | 29.792 | 33.718 | 99.843 | \<0.001 | 0.469 | \*     |
+| 2   | monitor             |   9 | 113 |  4.784 | 33.718 |  1.782 | 0.079   | 0.124 |        |
+| 4   | monitor.genero      |   1 | 121 |  0.616 | 37.886 |  1.967 | 0.163   | 0.016 |        |
+| 6   | monitor.area        |   8 | 114 |  4.227 | 34.275 |  1.758 | 0.093   | 0.110 |        |
+| 8   | monitor.formacao    |   2 | 120 |  2.319 | 36.183 |  3.845 | 0.024   | 0.060 | \*     |
+| 10  | monitor.experiencia |   1 | 121 |  0.138 | 38.364 |  0.435 | 0.511   | 0.004 |        |
+
 ### Correta Irregular (Acertos)
 
 |     | Effect              | DFn | DFd |     SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -1060,6 +2021,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 6   | monitor.area        |   8 | 131 | 372.482 | 2753.168 |  2.215 | 0.03    | 0.119 | \*     |
 | 8   | monitor.formacao    |   2 | 137 |  88.619 | 3037.032 |  1.999 | 0.139   | 0.028 |        |
 | 10  | monitor.experiencia |   1 | 138 |  80.771 | 3044.879 |  3.661 | 0.058   | 0.026 |        |
+
+### Correta Irregular (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.CI.pre          |   1 | 113 | 46.153 | 36.710 | 142.066 | \<0.001 | 0.557 | \*     |
+| 2   | monitor             |   9 | 113 |  2.794 | 36.710 |   0.956 | 0.481   | 0.071 |        |
+| 4   | monitor.genero      |   1 | 121 |  0.467 | 39.037 |   1.449 | 0.231   | 0.012 |        |
+| 6   | monitor.area        |   8 | 114 |  2.642 | 36.863 |   1.021 | 0.424   | 0.067 |        |
+| 8   | monitor.formacao    |   2 | 120 |  0.070 | 39.434 |   0.107 | 0.899   | 0.002 |        |
+| 10  | monitor.experiencia |   1 | 121 |  0.020 | 39.484 |   0.061 | 0.805   | 0.001 |        |
 
 ### Trocas Visuais (Acertos)
 
@@ -1072,6 +2044,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao    |   2 | 137 | 148.312 | 4814.330 |  2.110 | 0.125   | 0.030 |        |
 | 10  | monitor.experiencia |   1 | 138 |  79.900 | 4882.743 |  2.258 | 0.135   | 0.016 |        |
 
+### Trocas Visuais (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.TV.pre          |   1 | 113 | 30.820 | 39.905 | 87.272 | \<0.001 | 0.436 | \*     |
+| 2   | monitor             |   9 | 113 |  3.877 | 39.905 |  1.220 | 0.29    | 0.089 |        |
+| 4   | monitor.genero      |   1 | 121 |  1.031 | 42.751 |  2.919 | 0.09    | 0.024 |        |
+| 6   | monitor.area        |   8 | 114 |  3.081 | 40.701 |  1.079 | 0.383   | 0.070 |        |
+| 8   | monitor.formacao    |   2 | 120 |  0.937 | 42.845 |  1.312 | 0.273   | 0.021 |        |
+| 10  | monitor.experiencia |   1 | 121 |  0.011 | 43.772 |  0.029 | 0.865   | 0.000 |        |
+
 ### Trocas Fonologicas (Acertos)
 
 |     | Effect              | DFn | DFd |     SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -1083,6 +2066,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao    |   2 | 137 | 157.977 | 4181.567 |  2.588 | 0.079   | 0.036 |        |
 | 10  | monitor.experiencia |   1 | 138 | 121.488 | 4218.057 |  3.975 | 0.048   | 0.028 | \*     |
 
+### Trocas Fonologicas (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.TF.pre          |   1 | 113 | 38.239 | 35.362 | 122.196 | \<0.001 | 0.520 | \*     |
+| 2   | monitor             |   9 | 113 |  2.614 | 35.362 |   0.928 | 0.504   | 0.069 |        |
+| 4   | monitor.genero      |   1 | 121 |  0.699 | 37.276 |   2.269 | 0.135   | 0.018 |        |
+| 6   | monitor.area        |   8 | 114 |  2.298 | 35.677 |   0.918 | 0.505   | 0.061 |        |
+| 8   | monitor.formacao    |   2 | 120 |  0.063 | 37.912 |   0.100 | 0.905   | 0.002 |        |
+| 10  | monitor.experiencia |   1 | 121 |  0.009 | 37.966 |   0.029 | 0.864   | 0.000 |        |
+
 ### Trocas Orograficas (Acertos)
 
 |     | Effect              | DFn | DFd |     SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -1093,6 +2087,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 6   | monitor.area        |   8 | 131 | 330.676 | 2511.143 |  2.156 | 0.035   | 0.116 | \*     |
 | 8   | monitor.formacao    |   2 | 137 |  71.970 | 2769.850 |  1.780 | 0.173   | 0.025 |        |
 | 10  | monitor.experiencia |   1 | 138 | 140.826 | 2700.993 |  7.195 | 0.008   | 0.050 | \*     |
+
+### Trocas Orograficas (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.TO.pre          |   1 | 113 | 54.782 | 38.593 | 160.401 | \<0.001 | 0.587 | \*     |
+| 2   | monitor             |   9 | 113 |  7.475 | 38.593 |   2.432 | 0.014   | 0.162 | \*     |
+| 4   | monitor.genero      |   1 | 121 |  0.632 | 45.436 |   1.684 | 0.197   | 0.014 |        |
+| 6   | monitor.area        |   8 | 114 |  6.692 | 39.376 |   2.422 | 0.019   | 0.145 | \*     |
+| 8   | monitor.formacao    |   2 | 120 |  1.836 | 44.232 |   2.490 | 0.087   | 0.040 |        |
+| 10  | monitor.experiencia |   1 | 121 |  1.157 | 44.911 |   3.118 | 0.08    | 0.025 |        |
 
 # Pairwise comparisons for one factor
 
@@ -1118,15 +2123,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-89-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Controle     | 149 |  68.101 |    1.201 |    69.597 |      1.234 |  70.203 |    0.891 |
+| tri.CLPP.pos | Experimental | 135 |  69.970 |    1.231 |    70.919 |      1.223 |  70.250 |    0.937 |
+
+| .y.          | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Controle | Experimental |   -0.048 |   -2.596 |      2.50 | 1.294 |    -0.037 | 0.971 | 0.971 | ns           |
+| tri.CLPP.pre | Controle | Experimental |   -1.870 |   -5.259 |      1.52 | 1.722 |    -1.086 | 0.279 | 0.279 | ns           |
+
+| .y.      | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | Controle     | pre    | pos    |   -0.043 |   -0.251 |     0.165 | 0.106 |    -0.407 | 0.684 | 0.684 | ns           |
+| tri.CLPP | Experimental | pre    | pos    |   -0.068 |   -0.288 |     0.153 | 0.112 |    -0.602 | 0.547 | 0.547 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-173-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-175-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-177-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1148,15 +2183,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-189-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-103-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-105-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Controle     | 149 |  -0.049 |    0.062 |     0.033 |      0.070 |   0.091 |    0.052 |
+| tri.CR.pos | Experimental | 135 |   0.145 |    0.073 |     0.146 |      0.065 |   0.082 |    0.055 |
+
+| .y.        | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Controle | Experimental |    0.010 |   -0.139 |     0.159 | 0.076 |     0.129 | 0.897 | 0.897 | ns           |
+| tri.CR.pre | Controle | Experimental |   -0.194 |   -0.381 |    -0.007 | 0.095 |    -2.039 | 0.042 | 0.042 | \*           |
+
+| .y.    | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | Controle     | pre    | pos    |   -0.065 |   -0.240 |     0.111 | 0.089 |    -0.725 | 0.469 | 0.469 | ns           |
+| tri.CR | Experimental | pre    | pos    |    0.020 |   -0.166 |     0.206 | 0.095 |     0.212 | 0.832 | 0.832 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-205-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-209-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1178,15 +2243,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-115-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-221-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-223-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-225-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Controle     | 149 |  -0.003 |    0.066 |     0.009 |      0.077 |    0.02 |    0.050 |
+| tri.CI.pos | Experimental | 135 |   0.028 |    0.074 |     0.232 |      0.073 |    0.22 |    0.052 |
+
+| .y.        | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Controle | Experimental |   -0.199 |   -0.341 |    -0.058 | 0.072 |    -2.769 | 0.006 | 0.006 | \*\*         |
+| tri.CI.pre | Controle | Experimental |   -0.031 |   -0.226 |     0.165 | 0.099 |    -0.308 | 0.758 | 0.758 | ns           |
+
+| .y.    | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | Controle     | pre    | pos    |   -0.021 |   -0.209 |     0.166 | 0.096 |    -0.223 | 0.823 | 0.823 | ns           |
+| tri.CI | Experimental | pre    | pos    |   -0.213 |   -0.412 |    -0.014 | 0.101 |    -2.104 | 0.036 | 0.036 | \*           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-237-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1208,15 +2303,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-137-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-257-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-139-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Controle     | 149 |   0.004 |    0.065 |     0.018 |      0.069 |   0.047 |    0.054 |
+| tri.TV.pos | Experimental | 135 |   0.104 |    0.070 |     0.069 |      0.069 |   0.036 |    0.057 |
+
+| .y.        | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Controle | Experimental |    0.011 |   -0.144 |     0.166 | 0.079 |     0.140 | 0.889 | 0.889 | ns           |
+| tri.TV.pre | Controle | Experimental |   -0.099 |   -0.287 |     0.088 | 0.095 |    -1.044 | 0.297 | 0.297 | ns           |
+
+| .y.    | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | Controle     | pre    | pos    |   -0.003 |   -0.182 |     0.176 | 0.091 |    -0.030 | 0.976 | 0.976 | ns           |
+| tri.TV | Experimental | pre    | pos    |    0.076 |   -0.113 |     0.266 | 0.097 |     0.792 | 0.429 | 0.429 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-269-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-271-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-273-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1238,15 +2363,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-285-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-287-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-153-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-289-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Controle     | 149 |  -0.009 |    0.065 |    -0.005 |      0.077 |   0.041 |    0.052 |
+| tri.TF.pos | Experimental | 135 |   0.124 |    0.075 |     0.114 |      0.070 |   0.063 |    0.055 |
+
+| .y.        | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Controle | Experimental |   -0.022 |   -0.172 |     0.128 | 0.076 |    -0.289 | 0.773 | 0.773 | ns           |
+| tri.TF.pre | Controle | Experimental |   -0.133 |   -0.328 |     0.062 | 0.099 |    -1.342 | 0.181 | 0.181 | ns           |
+
+| .y.    | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | Controle     | pre    | pos    |    0.031 |   -0.157 |      0.22 | 0.096 |     0.328 | 0.743 | 0.743 | ns           |
+| tri.TF | Experimental | pre    | pos    |    0.020 |   -0.180 |      0.22 | 0.102 |     0.198 | 0.843 | 0.843 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-301-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-303-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-305-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1268,15 +2423,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-317-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-319-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-321-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Controle     | 149 |  -0.040 |    0.072 |     0.133 |      0.071 |   0.156 |    0.050 |
+| tri.TO.pos | Experimental | 135 |   0.023 |    0.078 |     0.126 |      0.083 |   0.101 |    0.053 |
+
+| .y.        | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle | Experimental |    0.056 |   -0.087 |     0.199 | 0.073 |     0.770 | 0.442 | 0.442 | ns           |
+| tri.TO.pre | Controle | Experimental |   -0.064 |   -0.272 |     0.144 | 0.106 |    -0.603 | 0.547 | 0.547 | ns           |
+
+| .y.    | grupo        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | Controle     | pre    | pos    |   -0.192 |   -0.389 |     0.004 | 0.100 |    -1.921 | 0.055 | 0.055 | ns           |
+| tri.TO | Experimental | pre    | pos    |   -0.107 |   -0.315 |     0.101 | 0.106 |    -1.011 | 0.313 | 0.313 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-333-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-335-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-337-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
 
 ## factor: **genero**
 
@@ -1300,15 +2485,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-349-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-351-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-353-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | F      | 134 |  71.784 |    1.272 |    73.358 |      1.284 |  71.497 |    0.942 |
+| tri.CLPP.pos | M      | 150 |  66.493 |    1.132 |    67.427 |      1.138 |  69.089 |    0.889 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | F      | M      |    2.408 |   -0.164 |     4.979 | 1.306 |     1.843 | 0.066 | 0.066 | ns           |
+| tri.CLPP.pre | F      | M      |    5.290 |    1.949 |     8.631 | 1.697 |     3.117 | 0.002 | 0.002 | \*\*         |
+
+| .y.      | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | F      | pre    | pos    |   -0.031 |    -0.25 |     0.188 | 0.111 |     -0.28 | 0.779 | 0.779 | ns           |
+| tri.CLPP | M      | pre    | pos    |   -0.076 |    -0.28 |     0.127 | 0.103 |     -0.74 | 0.460 | 0.460 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-365-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-367-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-369-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1330,15 +2545,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-379-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-381-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-383-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-201-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-385-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | F      | 134 |   0.191 |    0.065 |     0.236 |      0.064 |   0.144 |    0.055 |
+| tri.CR.pos | M      | 150 |  -0.089 |    0.067 |    -0.047 |      0.069 |   0.035 |    0.052 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | F      | M      |    0.109 |   -0.041 |     0.258 | 0.076 |     1.434 | 0.153 | 0.153 | ns           |
+| tri.CR.pre | F      | M      |    0.280 |    0.094 |     0.466 | 0.094 |     2.967 | 0.003 | 0.003 | \*\*         |
+
+| .y.    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | F      | pre    | pos    |    -0.01 |   -0.196 |     0.176 | 0.095 |    -0.106 | 0.916 | 0.916 | ns           |
+| tri.CR | M      | pre    | pos    |    -0.04 |   -0.212 |     0.132 | 0.088 |    -0.455 | 0.650 | 0.650 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-397-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-399-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-401-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1360,15 +2605,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-413-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-415-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-417-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | F      | 134 |   0.243 |    0.071 |     0.312 |      0.081 |   0.128 |    0.054 |
+| tri.CI.pos | M      | 150 |  -0.195 |    0.064 |    -0.061 |      0.068 |   0.103 |    0.051 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.CI.pos | F      | M      |    0.025 |   -0.124 |     0.174 | 0.076 |     0.330 | 0.742   | 0.742   | ns           |
+| tri.CI.pre | F      | M      |    0.438 |    0.249 |     0.627 | 0.096 |     4.569 | \<0.001 | \<0.001 | \*\*\*\*     |
+
+| .y.    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | F      | pre    | pos    |   -0.075 |   -0.272 |     0.122 | 0.100 |    -0.751 | 0.453 | 0.453 | ns           |
+| tri.CI | M      | pre    | pos    |   -0.140 |   -0.322 |     0.043 | 0.093 |    -1.504 | 0.133 | 0.133 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-429-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-431-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-433-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1390,15 +2665,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-445-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-447-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-233-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-449-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-451-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | F      | 134 |   0.149 |    0.060 |     0.172 |      0.069 |   0.113 |    0.057 |
+| tri.TV.pos | M      | 150 |  -0.036 |    0.072 |    -0.074 |      0.068 |  -0.021 |    0.054 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | F      | M      |    0.134 |   -0.021 |     0.289 | 0.079 |     1.705 | 0.089 | 0.089 | ns           |
+| tri.TV.pre | F      | M      |    0.185 |   -0.001 |     0.371 | 0.095 |     1.955 | 0.052 | 0.052 | ns           |
+
+| .y.    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | F      | pre    | pos    |    0.012 |   -0.178 |     0.202 | 0.097 |     0.124 | 0.902 | 0.902 | ns           |
+| tri.TV | M      | pre    | pos    |    0.051 |   -0.126 |     0.227 | 0.090 |     0.565 | 0.572 | 0.572 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-461-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-463-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-465-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1420,15 +2725,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-475-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-477-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-479-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-249-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-481-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | F      | 134 |   0.107 |    0.071 |     0.106 |      0.073 |   0.067 |    0.055 |
+| tri.TF.pos | M      | 150 |   0.007 |    0.069 |     0.003 |      0.074 |   0.038 |    0.052 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | F      | M      |    0.029 |   -0.120 |     0.179 | 0.076 |     0.384 | 0.701 | 0.701 | ns           |
+| tri.TF.pre | F      | M      |    0.101 |   -0.095 |     0.296 | 0.099 |     1.015 | 0.311 | 0.311 | ns           |
+
+| .y.    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |    p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|-----:|------:|:-------------|
+| tri.TF | F      | pre    | pos    |    0.038 |   -0.163 |     0.240 | 0.103 |     0.372 | 0.71 |  0.71 | ns           |
+| tri.TF | M      | pre    | pos    |    0.010 |   -0.177 |     0.197 | 0.095 |     0.101 | 0.92 |  0.92 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-493-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-495-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-497-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-499-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1450,15 +2785,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-261-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-509-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-511-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-265-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-513-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | F      | 134 |   0.158 |    0.080 |     0.358 |      0.077 |   0.233 |    0.053 |
+| tri.TO.pos | M      | 150 |  -0.160 |    0.067 |    -0.074 |      0.072 |   0.038 |    0.050 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | F      | M      |    0.195 |    0.051 |     0.339 | 0.073 |     2.670 | 0.008 | 0.008 | \*\*         |
+| tri.TO.pre | F      | M      |    0.318 |    0.113 |     0.523 | 0.104 |     3.059 | 0.002 | 0.002 | \*\*         |
+
+| .y.    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | F      | pre    | pos    |   -0.208 |   -0.414 |    -0.003 | 0.105 |    -1.989 | 0.047 | 0.047 | \*           |
+| tri.TO | M      | pre    | pos    |   -0.107 |   -0.298 |     0.084 | 0.097 |    -1.102 | 0.271 | 0.271 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-525-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-527-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-529-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
 
 ## factor: **idade**
 
@@ -1496,15 +2861,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-541-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-543-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-545-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-547-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | 10y   |  55 |  70.618 |    1.613 |    69.073 |      2.075 |  68.197 |    1.446 |
+| tri.CLPP.pos | 11y   | 166 |  70.404 |    1.149 |    72.801 |      1.077 |  72.071 |    0.833 |
+| tri.CLPP.pos | 12y   |  36 |  65.694 |    2.380 |    62.917 |      2.637 |  65.382 |    1.793 |
+| tri.CLPP.pos | 13y   |  15 |  61.400 |    2.948 |    65.533 |      2.801 |  70.912 |    2.790 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.CLPP.pos | 10y    | 11y    |   -3.874 |   -7.156 |    -0.593 | 1.667 |    -2.324 | 0.021   | 0.125 | ns           |
+| tri.CLPP.pos | 10y    | 12y    |    2.815 |   -1.729 |     7.359 | 2.308 |     1.220 | 0.224   | 1.000 | ns           |
+| tri.CLPP.pos | 10y    | 13y    |   -2.716 |   -8.917 |     3.486 | 3.150 |    -0.862 | 0.389   | 1.000 | ns           |
+| tri.CLPP.pos | 11y    | 12y    |    6.689 |    2.787 |    10.591 | 1.982 |     3.375 | \<0.001 | 0.005 | \*\*         |
+| tri.CLPP.pos | 11y    | 13y    |    1.158 |   -4.588 |     6.905 | 2.919 |     0.397 | 0.692   | 1.000 | ns           |
+| tri.CLPP.pos | 12y    | 13y    |   -5.531 |  -12.025 |     0.963 | 3.298 |    -1.677 | 0.095   | 0.568 | ns           |
+| tri.CLPP.pre | 10y    | 11y    |    0.215 |   -4.087 |     4.516 | 2.185 |     0.098 | 0.922   | 1.000 | ns           |
+| tri.CLPP.pre | 10y    | 12y    |    4.924 |   -1.004 |    10.851 | 3.011 |     1.635 | 0.103   | 0.619 | ns           |
+| tri.CLPP.pre | 10y    | 13y    |    9.218 |    1.164 |    17.272 | 4.091 |     2.253 | 0.025   | 0.150 | ns           |
+| tri.CLPP.pre | 11y    | 12y    |    4.709 |   -0.374 |     9.793 | 2.582 |     1.824 | 0.069   | 0.416 | ns           |
+| tri.CLPP.pre | 11y    | 13y    |    9.004 |    1.549 |    16.459 | 3.786 |     2.378 | 0.018   | 0.109 | ns           |
+| tri.CLPP.pre | 12y    | 13y    |    4.294 |   -4.203 |    12.792 | 4.316 |     0.995 | 0.321   | 1.000 | ns           |
+
+| .y.      | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | 10y   | pre    | pos    |   -0.050 |   -0.387 |     0.288 | 0.172 |    -0.288 | 0.773 | 0.773 | ns           |
+| tri.CLPP | 11y   | pre    | pos    |   -0.084 |   -0.277 |     0.110 | 0.098 |    -0.852 | 0.395 | 0.395 | ns           |
+| tri.CLPP | 12y   | pre    | pos    |    0.182 |   -0.221 |     0.585 | 0.205 |     0.887 | 0.375 | 0.375 | ns           |
+| tri.CLPP | 13y   | pre    | pos    |   -0.149 |   -0.754 |     0.456 | 0.308 |    -0.484 | 0.629 | 0.629 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-557-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-559-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-561-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1550,15 +2959,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-571-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-293-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-573-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-295-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-575-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-577-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-579-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | 10y   |  55 |   0.098 |    0.096 |     0.174 |      0.088 |   0.153 |    0.082 |
+| tri.CR.pos | 11y   | 166 |   0.103 |    0.064 |     0.199 |      0.061 |   0.174 |    0.047 |
+| tri.CR.pos | 12y   |  36 |   0.041 |    0.132 |    -0.332 |      0.155 |  -0.318 |    0.101 |
+| tri.CR.pos | 13y   |  15 |  -0.436 |    0.199 |    -0.223 |      0.208 |   0.091 |    0.159 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.CR.pos | 10y    | 11y    |   -0.021 |   -0.208 |     0.165 | 0.095 |    -0.225 | 0.822   | 1       | ns           |
+| tri.CR.pos | 10y    | 12y    |    0.471 |    0.214 |     0.728 | 0.130 |     3.613 | \<0.001 | 0.002   | \*\*         |
+| tri.CR.pos | 10y    | 13y    |    0.062 |   -0.290 |     0.414 | 0.179 |     0.346 | 0.73    | 1       | ns           |
+| tri.CR.pos | 11y    | 12y    |    0.493 |    0.272 |     0.713 | 0.112 |     4.403 | \<0.001 | \<0.001 | \*\*\*\*     |
+| tri.CR.pos | 11y    | 13y    |    0.083 |   -0.244 |     0.410 | 0.166 |     0.501 | 0.617   | 1       | ns           |
+| tri.CR.pos | 12y    | 13y    |   -0.409 |   -0.780 |    -0.039 | 0.188 |    -2.174 | 0.031   | 0.183   | ns           |
+| tri.CR.pre | 10y    | 11y    |   -0.006 |   -0.248 |     0.237 | 0.123 |    -0.045 | 0.964   | 1       | ns           |
+| tri.CR.pre | 10y    | 12y    |    0.056 |   -0.279 |     0.391 | 0.170 |     0.330 | 0.742   | 1       | ns           |
+| tri.CR.pre | 10y    | 13y    |    0.534 |    0.079 |     0.989 | 0.231 |     2.312 | 0.022   | 0.129   | ns           |
+| tri.CR.pre | 11y    | 12y    |    0.062 |   -0.225 |     0.349 | 0.146 |     0.423 | 0.673   | 1       | ns           |
+| tri.CR.pre | 11y    | 13y    |    0.539 |    0.119 |     0.960 | 0.214 |     2.523 | 0.012   | 0.073   | ns           |
+| tri.CR.pre | 12y    | 13y    |    0.478 |   -0.002 |     0.958 | 0.244 |     1.961 | 0.051   | 0.306   | ns           |
+
+| .y.    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | 10y   | pre    | pos    |   -0.056 |   -0.345 |     0.232 | 0.147 |    -0.383 | 0.702 | 0.702 | ns           |
+| tri.CR | 11y   | pre    | pos    |   -0.067 |   -0.232 |     0.098 | 0.084 |    -0.799 | 0.425 | 0.425 | ns           |
+| tri.CR | 12y   | pre    | pos    |    0.348 |    0.004 |     0.693 | 0.175 |     1.985 | 0.048 | 0.048 | \*           |
+| tri.CR | 13y   | pre    | pos    |   -0.178 |   -0.695 |     0.338 | 0.263 |    -0.677 | 0.499 | 0.499 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-587-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-589-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-591-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-593-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-595-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1604,15 +3057,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-603-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-605-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-607-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-609-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | 10y   |  55 |   0.009 |    0.104 |     0.232 |      0.117 |   0.242 |    0.082 |
+| tri.CI.pos | 11y   | 166 |   0.076 |    0.068 |     0.164 |      0.072 |   0.121 |    0.047 |
+| tri.CI.pos | 12y   |  36 |   0.008 |    0.137 |    -0.052 |      0.149 |  -0.041 |    0.102 |
+| tri.CI.pos | 13y   |  15 |  -0.490 |    0.168 |    -0.091 |      0.217 |   0.319 |    0.159 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | 10y    | 11y    |    0.121 |   -0.066 |     0.308 | 0.095 |     1.273 | 0.204 | 1.000 | ns           |
+| tri.CI.pos | 10y    | 12y    |    0.283 |    0.025 |     0.541 | 0.131 |     2.162 | 0.032 | 0.189 | ns           |
+| tri.CI.pos | 10y    | 13y    |   -0.077 |   -0.430 |     0.277 | 0.179 |    -0.427 | 0.670 | 1.000 | ns           |
+| tri.CI.pos | 11y    | 12y    |    0.162 |   -0.059 |     0.383 | 0.112 |     1.443 | 0.150 | 0.902 | ns           |
+| tri.CI.pos | 11y    | 13y    |   -0.198 |   -0.526 |     0.131 | 0.167 |    -1.186 | 0.237 | 1.000 | ns           |
+| tri.CI.pos | 12y    | 13y    |   -0.360 |   -0.732 |     0.013 | 0.189 |    -1.902 | 0.058 | 0.349 | ns           |
+| tri.CI.pre | 10y    | 11y    |   -0.067 |   -0.323 |     0.189 | 0.130 |    -0.512 | 0.609 | 1.000 | ns           |
+| tri.CI.pre | 10y    | 12y    |    0.001 |   -0.352 |     0.354 | 0.179 |     0.005 | 0.996 | 1.000 | ns           |
+| tri.CI.pre | 10y    | 13y    |    0.499 |    0.020 |     0.979 | 0.243 |     2.051 | 0.041 | 0.248 | ns           |
+| tri.CI.pre | 11y    | 12y    |    0.067 |   -0.235 |     0.370 | 0.154 |     0.439 | 0.661 | 1.000 | ns           |
+| tri.CI.pre | 11y    | 13y    |    0.566 |    0.122 |     1.010 | 0.225 |     2.511 | 0.013 | 0.076 | ns           |
+| tri.CI.pre | 12y    | 13y    |    0.498 |   -0.007 |     1.004 | 0.257 |     1.940 | 0.053 | 0.320 | ns           |
+
+| .y.    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | 10y   | pre    | pos    |   -0.235 |   -0.551 |     0.081 | 0.161 |    -1.459 | 0.145 | 0.145 | ns           |
+| tri.CI | 11y   | pre    | pos    |   -0.081 |   -0.262 |     0.100 | 0.092 |    -0.879 | 0.380 | 0.380 | ns           |
+| tri.CI | 12y   | pre    | pos    |   -0.007 |   -0.384 |     0.371 | 0.192 |    -0.034 | 0.973 | 0.973 | ns           |
+| tri.CI | 13y   | pre    | pos    |   -0.320 |   -0.886 |     0.247 | 0.288 |    -1.108 | 0.268 | 0.268 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-619-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-621-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-623-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-625-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-627-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1658,15 +3155,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-637-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-639-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-641-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-643-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | 10y   |  55 |   0.146 |    0.093 |     0.121 |      0.093 |   0.075 |    0.088 |
+| tri.TV.pos | 11y   | 166 |   0.127 |    0.061 |     0.169 |      0.064 |   0.134 |    0.051 |
+| tri.TV.pos | 12y   |  36 |  -0.153 |    0.136 |    -0.347 |      0.134 |  -0.221 |    0.109 |
+| tri.TV.pos | 13y   |  15 |  -0.387 |    0.255 |    -0.466 |      0.188 |  -0.205 |    0.170 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | 10y    | 11y    |   -0.059 |   -0.259 |     0.140 | 0.101 |    -0.585 | 0.559 | 1.000 | ns           |
+| tri.TV.pos | 10y    | 12y    |    0.296 |    0.019 |     0.572 | 0.140 |     2.105 | 0.036 | 0.217 | ns           |
+| tri.TV.pos | 10y    | 13y    |    0.280 |   -0.098 |     0.657 | 0.192 |     1.459 | 0.146 | 0.875 | ns           |
+| tri.TV.pos | 11y    | 12y    |    0.355 |    0.118 |     0.592 | 0.121 |     2.944 | 0.004 | 0.021 | \*           |
+| tri.TV.pos | 11y    | 13y    |    0.339 |   -0.011 |     0.688 | 0.178 |     1.908 | 0.057 | 0.345 | ns           |
+| tri.TV.pos | 12y    | 13y    |   -0.016 |   -0.411 |     0.379 | 0.201 |    -0.081 | 0.936 | 1.000 | ns           |
+| tri.TV.pre | 10y    | 11y    |    0.019 |   -0.222 |     0.260 | 0.123 |     0.156 | 0.876 | 1.000 | ns           |
+| tri.TV.pre | 10y    | 12y    |    0.298 |   -0.034 |     0.631 | 0.169 |     1.767 | 0.078 | 0.470 | ns           |
+| tri.TV.pre | 10y    | 13y    |    0.533 |    0.081 |     0.985 | 0.229 |     2.323 | 0.021 | 0.126 | ns           |
+| tri.TV.pre | 11y    | 12y    |    0.279 |   -0.006 |     0.564 | 0.145 |     1.929 | 0.055 | 0.329 | ns           |
+| tri.TV.pre | 11y    | 13y    |    0.514 |    0.096 |     0.932 | 0.212 |     2.420 | 0.016 | 0.097 | ns           |
+| tri.TV.pre | 12y    | 13y    |    0.235 |   -0.242 |     0.711 | 0.242 |     0.969 | 0.333 | 1.000 | ns           |
+
+| .y.    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | 10y   | pre    | pos    |    0.054 |   -0.240 |     0.349 | 0.150 |     0.363 | 0.716 | 0.716 | ns           |
+| tri.TV | 11y   | pre    | pos    |   -0.013 |   -0.182 |     0.155 | 0.086 |    -0.154 | 0.877 | 0.877 | ns           |
+| tri.TV | 12y   | pre    | pos    |    0.162 |   -0.189 |     0.514 | 0.179 |     0.906 | 0.365 | 0.365 | ns           |
+| tri.TV | 13y   | pre    | pos    |    0.209 |   -0.318 |     0.736 | 0.268 |     0.780 | 0.436 | 0.436 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-651-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-653-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-655-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-657-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1712,15 +3253,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-667-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-669-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-343-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-671-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-345-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-673-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-675-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | 10y   |  55 |   0.048 |    0.106 |    -0.019 |      0.113 |  -0.002 |    0.085 |
+| tri.TF.pos | 11y   | 166 |   0.129 |    0.064 |     0.190 |      0.068 |   0.149 |    0.049 |
+| tri.TF.pos | 12y   |  36 |  -0.066 |    0.145 |    -0.333 |      0.154 |  -0.234 |    0.106 |
+| tri.TF.pos | 13y   |  15 |  -0.142 |    0.211 |    -0.022 |      0.180 |   0.132 |    0.164 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | 10y    | 11y    |   -0.150 |   -0.344 |     0.044 | 0.099 |    -1.524 | 0.129 | 0.772 | ns           |
+| tri.TF.pos | 10y    | 12y    |    0.233 |   -0.035 |     0.500 | 0.136 |     1.714 | 0.088 | 0.526 | ns           |
+| tri.TF.pos | 10y    | 13y    |   -0.133 |   -0.496 |     0.230 | 0.184 |    -0.721 | 0.471 | 1.000 | ns           |
+| tri.TF.pos | 11y    | 12y    |    0.383 |    0.153 |     0.612 | 0.117 |     3.281 | 0.001 | 0.007 | \*\*         |
+| tri.TF.pos | 11y    | 13y    |    0.017 |   -0.320 |     0.354 | 0.171 |     0.100 | 0.921 | 1.000 | ns           |
+| tri.TF.pos | 12y    | 13y    |   -0.366 |   -0.749 |     0.017 | 0.194 |    -1.881 | 0.061 | 0.367 | ns           |
+| tri.TF.pre | 10y    | 11y    |   -0.081 |   -0.333 |     0.172 | 0.128 |    -0.630 | 0.529 | 1.000 | ns           |
+| tri.TF.pre | 10y    | 12y    |    0.114 |   -0.234 |     0.462 | 0.177 |     0.646 | 0.519 | 1.000 | ns           |
+| tri.TF.pre | 10y    | 13y    |    0.190 |   -0.282 |     0.663 | 0.240 |     0.792 | 0.429 | 1.000 | ns           |
+| tri.TF.pre | 11y    | 12y    |    0.195 |   -0.103 |     0.493 | 0.151 |     1.287 | 0.199 | 1.000 | ns           |
+| tri.TF.pre | 11y    | 13y    |    0.271 |   -0.166 |     0.708 | 0.222 |     1.220 | 0.224 | 1.000 | ns           |
+| tri.TF.pre | 12y    | 13y    |    0.076 |   -0.422 |     0.574 | 0.253 |     0.300 | 0.764 | 1.000 | ns           |
+
+| .y.    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | 10y   | pre    | pos    |    0.105 |   -0.206 |     0.417 | 0.159 |     0.665 | 0.507 | 0.507 | ns           |
+| tri.TF | 11y   | pre    | pos    |   -0.029 |   -0.207 |     0.149 | 0.091 |    -0.318 | 0.750 | 0.750 | ns           |
+| tri.TF | 12y   | pre    | pos    |    0.332 |   -0.040 |     0.704 | 0.189 |     1.755 | 0.080 | 0.080 | ns           |
+| tri.TF | 13y   | pre    | pos    |   -0.133 |   -0.691 |     0.424 | 0.284 |    -0.470 | 0.639 | 0.639 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-683-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-687-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-689-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-691-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1766,15 +3351,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-699-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-701-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-703-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-705-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-707-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | 10y   |  55 |  -0.042 |    0.114 |     0.040 |      0.114 |   0.063 |    0.082 |
+| tri.TO.pos | 11y   | 166 |   0.090 |    0.071 |     0.268 |      0.074 |   0.191 |    0.047 |
+| tri.TO.pos | 12y   |  36 |  -0.364 |    0.131 |    -0.242 |      0.133 |   0.022 |    0.102 |
+| tri.TO.pos | 13y   |  15 |  -0.194 |    0.179 |    -0.334 |      0.104 |  -0.199 |    0.157 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | 10y    | 11y    |   -0.128 |   -0.314 |     0.058 | 0.094 |    -1.356 | 0.176 | 1.000 | ns           |
+| tri.TO.pos | 10y    | 12y    |    0.041 |   -0.216 |     0.298 | 0.131 |     0.312 | 0.755 | 1.000 | ns           |
+| tri.TO.pos | 10y    | 13y    |    0.261 |   -0.087 |     0.609 | 0.177 |     1.477 | 0.141 | 0.845 | ns           |
+| tri.TO.pos | 11y    | 12y    |    0.169 |   -0.054 |     0.392 | 0.113 |     1.494 | 0.136 | 0.818 | ns           |
+| tri.TO.pos | 11y    | 13y    |    0.389 |    0.067 |     0.712 | 0.164 |     2.375 | 0.018 | 0.110 | ns           |
+| tri.TO.pos | 12y    | 13y    |    0.220 |   -0.147 |     0.587 | 0.186 |     1.181 | 0.239 | 1.000 | ns           |
+| tri.TO.pre | 10y    | 11y    |   -0.132 |   -0.401 |     0.137 | 0.137 |    -0.968 | 0.334 | 1.000 | ns           |
+| tri.TO.pre | 10y    | 12y    |    0.322 |   -0.048 |     0.693 | 0.188 |     1.711 | 0.088 | 0.529 | ns           |
+| tri.TO.pre | 10y    | 13y    |    0.152 |   -0.352 |     0.655 | 0.256 |     0.593 | 0.553 | 1.000 | ns           |
+| tri.TO.pre | 11y    | 12y    |    0.454 |    0.136 |     0.772 | 0.161 |     2.814 | 0.005 | 0.031 | \*           |
+| tri.TO.pre | 11y    | 13y    |    0.284 |   -0.182 |     0.750 | 0.237 |     1.200 | 0.231 | 1.000 | ns           |
+| tri.TO.pre | 12y    | 13y    |   -0.170 |   -0.702 |     0.361 | 0.270 |    -0.631 | 0.528 | 1.000 | ns           |
+
+| .y.    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | 10y   | pre    | pos    |   -0.084 |   -0.407 |     0.240 | 0.165 |    -0.508 | 0.612 | 0.612 | ns           |
+| tri.TO | 11y   | pre    | pos    |   -0.193 |   -0.378 |    -0.008 | 0.094 |    -2.046 | 0.041 | 0.041 | \*           |
+| tri.TO | 12y   | pre    | pos    |   -0.091 |   -0.477 |     0.295 | 0.197 |    -0.462 | 0.645 | 0.645 | ns           |
+| tri.TO | 13y   | pre    | pos    |    0.149 |   -0.430 |     0.729 | 0.295 |     0.506 | 0.613 | 0.613 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-717-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-719-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-721-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-723-1.png)<!-- -->
 
 ## factor: **zona.participante**
 
@@ -1798,15 +3427,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-731-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-733-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-375-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-735-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-377-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-737-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-379-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-739-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Rural             | 109 |  69.633 |    1.275 |    70.679 |      1.311 |  70.183 |     1.05 |
+| tri.CLPP.pos | Urbana            | 111 |  68.243 |    1.495 |    70.198 |      1.540 |  70.685 |     1.04 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Urbana | Rural  |    0.501 |   -2.413 |     3.416 | 1.479 |     0.339 | 0.735 | 0.735 | ns           |
+| tri.CLPP.pre | Urbana | Rural  |   -1.390 |   -5.268 |     2.489 | 1.968 |    -0.706 | 0.481 | 0.481 | ns           |
+
+| .y.      | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | Urbana            | pre    | pos    |   -0.082 |   -0.325 |     0.161 | 0.124 |    -0.662 | 0.508 | 0.508 | ns           |
+| tri.CLPP | Rural             | pre    | pos    |    0.003 |   -0.248 |     0.254 | 0.128 |     0.024 | 0.981 | 0.981 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-747-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-751-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-753-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-755-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1828,15 +3487,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-763-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-389-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-765-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-391-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-767-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-769-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-771-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Rural             | 109 |   0.086 |    0.077 |     0.104 |      0.079 |   0.068 |    0.061 |
+| tri.CR.pos | Urbana            | 111 |  -0.025 |    0.081 |     0.114 |      0.079 |   0.149 |    0.061 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Urbana | Rural  |    0.081 |   -0.088 |     0.251 | 0.086 |     0.945 | 0.346 | 0.346 | ns           |
+| tri.CR.pre | Urbana | Rural  |   -0.112 |   -0.332 |     0.109 | 0.112 |    -0.998 | 0.320 | 0.320 | ns           |
+
+| .y.    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | Urbana            | pre    | pos    |   -0.078 |   -0.287 |     0.131 | 0.106 |    -0.734 | 0.464 | 0.464 | ns           |
+| tri.CR | Rural             | pre    | pos    |   -0.012 |   -0.228 |     0.204 | 0.110 |    -0.111 | 0.911 | 0.911 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-779-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-781-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-783-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-785-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-787-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1858,15 +3547,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-795-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-405-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-797-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-799-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-801-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-803-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Rural             | 109 |  -0.006 |    0.080 |     0.099 |      0.085 |   0.123 |    0.058 |
+| tri.CI.pos | Urbana            | 111 |   0.051 |    0.081 |     0.148 |      0.090 |   0.125 |    0.057 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Urbana | Rural  |    0.002 |   -0.159 |     0.163 | 0.082 |     0.028 | 0.978 | 0.978 | ns           |
+| tri.CI.pre | Urbana | Rural  |    0.057 |   -0.168 |     0.282 | 0.114 |     0.502 | 0.616 | 0.616 | ns           |
+
+| .y.    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | Urbana            | pre    | pos    |   -0.078 |   -0.300 |     0.143 | 0.113 |    -0.694 | 0.488 | 0.488 | ns           |
+| tri.CI | Rural             | pre    | pos    |   -0.132 |   -0.361 |     0.097 | 0.116 |    -1.132 | 0.258 | 0.258 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-811-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-813-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1888,15 +3607,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-827-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-829-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-831-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-425-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-833-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-835-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Rural             | 109 |   0.160 |     0.07 |     0.089 |      0.075 |   0.064 |    0.063 |
+| tri.TV.pos | Urbana            | 111 |   0.085 |     0.08 |     0.075 |      0.083 |   0.099 |    0.062 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Urbana | Rural  |    0.035 |   -0.140 |     0.210 | 0.089 |     0.393 | 0.695 | 0.695 | ns           |
+| tri.TV.pre | Urbana | Rural  |   -0.075 |   -0.284 |     0.134 | 0.106 |    -0.707 | 0.480 | 0.480 | ns           |
+
+| .y.    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | Urbana            | pre    | pos    |    0.056 |   -0.150 |     0.263 | 0.105 |     0.535 | 0.593 | 0.593 | ns           |
+| tri.TV | Rural             | pre    | pos    |    0.075 |   -0.139 |     0.288 | 0.109 |     0.685 | 0.493 | 0.493 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-843-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-845-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-847-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-849-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-851-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1918,15 +3667,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-859-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-861-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-439-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-863-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-441-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-865-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-867-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Rural             | 109 |   0.153 |    0.073 |     0.113 |      0.083 |   0.045 |    0.062 |
+| tri.TF.pos | Urbana            | 111 |  -0.026 |    0.082 |     0.041 |      0.085 |   0.107 |    0.061 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Urbana | Rural  |    0.062 |   -0.109 |     0.234 | 0.087 |     0.716 | 0.475 | 0.475 | ns           |
+| tri.TF.pre | Urbana | Rural  |   -0.180 |   -0.396 |     0.036 | 0.110 |    -1.638 | 0.103 | 0.103 | ns           |
+
+| .y.    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | Urbana            | pre    | pos    |    0.017 |   -0.198 |     0.232 | 0.109 |     0.156 | 0.876 | 0.876 | ns           |
+| tri.TF | Rural             | pre    | pos    |    0.047 |   -0.176 |     0.269 | 0.113 |     0.413 | 0.680 | 0.680 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-875-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-877-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-879-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-881-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-883-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1948,15 +3727,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-451-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-891-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-453-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-893-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-895-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-899-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Rural             | 109 |  -0.021 |    0.089 |     0.075 |      0.090 |   0.096 |    0.057 |
+| tri.TO.pos | Urbana            | 111 |   0.034 |    0.083 |     0.246 |      0.086 |   0.225 |    0.057 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Urbana | Rural  |    0.128 |   -0.031 |     0.287 | 0.081 |     1.591 | 0.113 | 0.113 | ns           |
+| tri.TO.pre | Urbana | Rural  |    0.055 |   -0.186 |     0.295 | 0.122 |     0.447 | 0.655 | 0.655 | ns           |
+
+| .y.    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | Urbana            | pre    | pos    |   -0.239 |   -0.470 |    -0.008 | 0.118 |    -2.036 | 0.042 | 0.042 | \*           |
+| tri.TO | Rural             | pre    | pos    |   -0.102 |   -0.341 |     0.136 | 0.122 |    -0.842 | 0.400 | 0.400 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-907-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-909-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-911-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-913-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-915-1.png)<!-- -->
 
 ## factor: **escola**
 
@@ -2016,15 +3825,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-923-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-469-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-925-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-927-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-473-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-929-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-475-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | E1     |  23 |  69.478 |    2.855 |    73.304 |      2.408 |  72.973 |    2.206 |
+| tri.CLPP.pos | E2     |  51 |  67.706 |    1.835 |    63.804 |      2.493 |  64.675 |    1.482 |
+| tri.CLPP.pos | E3     |  35 |  65.343 |    2.865 |    70.229 |      2.403 |  72.703 |    1.795 |
+| tri.CLPP.pos | E4     |  35 |  68.857 |    2.598 |    71.543 |      2.289 |  71.633 |    1.788 |
+| tri.CLPP.pos | E5     | 113 |  70.389 |    1.302 |    71.301 |      1.356 |  70.351 |    0.997 |
+| tri.CLPP.pos | E6     |  27 |  70.037 |    3.087 |    73.519 |      2.014 |  72.808 |    2.036 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.CLPP.pos | E1     | E2     |    8.298 |    3.065 |    13.530 | 2.658 |     3.122 | 0.002   | 0.030 | \*           |
+| tri.CLPP.pos | E1     | E3     |    0.270 |   -5.331 |     5.871 | 2.845 |     0.095 | 0.924   | 1.000 | ns           |
+| tri.CLPP.pos | E1     | E4     |    1.340 |   -4.250 |     6.930 | 2.839 |     0.472 | 0.637   | 1.000 | ns           |
+| tri.CLPP.pos | E1     | E5     |    2.622 |   -2.142 |     7.386 | 2.420 |     1.083 | 0.28    | 1.000 | ns           |
+| tri.CLPP.pos | E1     | E6     |    0.165 |   -5.744 |     6.074 | 3.002 |     0.055 | 0.956   | 1.000 | ns           |
+| tri.CLPP.pos | E2     | E3     |   -8.028 |  -12.603 |    -3.453 | 2.324 |    -3.454 | \<0.001 | 0.010 | \*\*         |
+| tri.CLPP.pos | E2     | E4     |   -6.958 |  -11.530 |    -2.386 | 2.322 |    -2.996 | 0.003   | 0.045 | \*           |
+| tri.CLPP.pos | E2     | E5     |   -5.676 |   -9.197 |    -2.156 | 1.788 |    -3.174 | 0.002   | 0.025 | \*           |
+| tri.CLPP.pos | E2     | E6     |   -8.133 |  -13.093 |    -3.173 | 2.520 |    -3.228 | 0.001   | 0.021 | \*           |
+| tri.CLPP.pos | E3     | E4     |    1.070 |   -3.917 |     6.057 | 2.533 |     0.422 | 0.673   | 1.000 | ns           |
+| tri.CLPP.pos | E3     | E5     |    2.352 |   -1.700 |     6.403 | 2.058 |     1.143 | 0.254   | 1.000 | ns           |
+| tri.CLPP.pos | E3     | E6     |   -0.105 |   -5.454 |     5.244 | 2.717 |    -0.039 | 0.969   | 1.000 | ns           |
+| tri.CLPP.pos | E4     | E5     |    1.282 |   -2.749 |     5.312 | 2.047 |     0.626 | 0.532   | 1.000 | ns           |
+| tri.CLPP.pos | E4     | E6     |   -1.175 |   -6.510 |     4.160 | 2.710 |    -0.434 | 0.665   | 1.000 | ns           |
+| tri.CLPP.pos | E5     | E6     |   -2.457 |   -6.917 |     2.004 | 2.266 |    -1.084 | 0.279   | 1.000 | ns           |
+| tri.CLPP.pre | E1     | E2     |    1.772 |   -5.410 |     8.955 | 3.649 |     0.486 | 0.628   | 1.000 | ns           |
+| tri.CLPP.pre | E1     | E3     |    4.135 |   -3.541 |    11.811 | 3.899 |     1.061 | 0.29    | 1.000 | ns           |
+| tri.CLPP.pre | E1     | E4     |    0.621 |   -7.055 |     8.297 | 3.899 |     0.159 | 0.874   | 1.000 | ns           |
+| tri.CLPP.pre | E1     | E5     |   -0.911 |   -7.453 |     5.630 | 3.323 |    -0.274 | 0.784   | 1.000 | ns           |
+| tri.CLPP.pre | E1     | E6     |   -0.559 |   -8.673 |     7.556 | 4.122 |    -0.136 | 0.892   | 1.000 | ns           |
+| tri.CLPP.pre | E2     | E3     |    2.363 |   -3.914 |     8.640 | 3.189 |     0.741 | 0.459   | 1.000 | ns           |
+| tri.CLPP.pre | E2     | E4     |   -1.151 |   -7.428 |     5.126 | 3.189 |    -0.361 | 0.718   | 1.000 | ns           |
+| tri.CLPP.pre | E2     | E5     |   -2.683 |   -7.508 |     2.141 | 2.451 |    -1.095 | 0.274   | 1.000 | ns           |
+| tri.CLPP.pre | E2     | E6     |   -2.331 |   -9.137 |     4.475 | 3.457 |    -0.674 | 0.501   | 1.000 | ns           |
+| tri.CLPP.pre | E3     | E4     |   -3.514 |  -10.350 |     3.322 | 3.473 |    -1.012 | 0.312   | 1.000 | ns           |
+| tri.CLPP.pre | E3     | E5     |   -5.047 |  -10.578 |     0.485 | 2.810 |    -1.796 | 0.074   | 1.000 | ns           |
+| tri.CLPP.pre | E3     | E6     |   -4.694 |  -12.019 |     2.631 | 3.721 |    -1.262 | 0.208   | 1.000 | ns           |
+| tri.CLPP.pre | E4     | E5     |   -1.532 |   -7.064 |     4.000 | 2.810 |    -0.545 | 0.586   | 1.000 | ns           |
+| tri.CLPP.pre | E4     | E6     |   -1.180 |   -8.505 |     6.145 | 3.721 |    -0.317 | 0.751   | 1.000 | ns           |
+| tri.CLPP.pre | E5     | E6     |    0.352 |   -5.773 |     6.478 | 3.112 |     0.113 | 0.91    | 1.000 | ns           |
+
+| .y.      | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | E1     | pre    | pos    |   -0.230 |   -0.768 |     0.308 | 0.274 |    -0.840 | 0.401 | 0.401 | ns           |
+| tri.CLPP | E2     | pre    | pos    |    0.313 |   -0.034 |     0.659 | 0.177 |     1.771 | 0.077 | 0.077 | ns           |
+| tri.CLPP | E3     | pre    | pos    |   -0.024 |   -0.459 |     0.412 | 0.222 |    -0.108 | 0.914 | 0.914 | ns           |
+| tri.CLPP | E4     | pre    | pos    |   -0.195 |   -0.636 |     0.247 | 0.225 |    -0.866 | 0.387 | 0.387 | ns           |
+| tri.CLPP | E5     | pre    | pos    |   -0.134 |   -0.374 |     0.105 | 0.122 |    -1.102 | 0.271 | 0.271 | ns           |
+| tri.CLPP | E6     | pre    | pos    |   -0.142 |   -0.627 |     0.343 | 0.247 |    -0.574 | 0.566 | 0.566 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-939-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-941-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-943-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-945-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-947-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2082,15 +3957,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-485-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-487-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-959-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-489-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-961-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-963-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | E1     |  23 |   0.010 |    0.176 |     0.334 |      0.169 |   0.355 |    0.129 |
+| tri.CR.pos | E2     |  51 |  -0.074 |    0.111 |    -0.244 |      0.121 |  -0.171 |    0.087 |
+| tri.CR.pos | E3     |  35 |  -0.022 |    0.145 |     0.046 |      0.150 |   0.086 |    0.105 |
+| tri.CR.pos | E4     |  35 |   0.174 |    0.138 |     0.316 |      0.121 |   0.235 |    0.105 |
+| tri.CR.pos | E5     | 113 |   0.011 |    0.077 |     0.085 |      0.075 |   0.105 |    0.058 |
+| tri.CR.pos | E6     |  27 |   0.340 |    0.117 |     0.262 |      0.113 |   0.077 |    0.120 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.CR.pos | E1     | E2     |    0.526 |    0.219 |     0.832 | 0.156 |     3.378 | \<0.001 | 0.013 | \*           |
+| tri.CR.pos | E1     | E3     |    0.269 |   -0.059 |     0.596 | 0.166 |     1.617 | 0.107   | 1.000 | ns           |
+| tri.CR.pos | E1     | E4     |    0.120 |   -0.207 |     0.448 | 0.166 |     0.722 | 0.471   | 1.000 | ns           |
+| tri.CR.pos | E1     | E5     |    0.251 |   -0.028 |     0.530 | 0.142 |     1.769 | 0.078   | 1.000 | ns           |
+| tri.CR.pos | E1     | E6     |    0.278 |   -0.070 |     0.625 | 0.176 |     1.575 | 0.116   | 1.000 | ns           |
+| tri.CR.pos | E2     | E3     |   -0.257 |   -0.525 |     0.011 | 0.136 |    -1.889 | 0.06    | 0.898 | ns           |
+| tri.CR.pos | E2     | E4     |   -0.406 |   -0.674 |    -0.137 | 0.136 |    -2.972 | 0.003   | 0.048 | \*           |
+| tri.CR.pos | E2     | E5     |   -0.275 |   -0.481 |    -0.069 | 0.105 |    -2.631 | 0.009   | 0.135 | ns           |
+| tri.CR.pos | E2     | E6     |   -0.248 |   -0.541 |     0.045 | 0.149 |    -1.668 | 0.096   | 1.000 | ns           |
+| tri.CR.pos | E3     | E4     |   -0.149 |   -0.441 |     0.143 | 0.148 |    -1.002 | 0.317   | 1.000 | ns           |
+| tri.CR.pos | E3     | E5     |   -0.018 |   -0.254 |     0.218 | 0.120 |    -0.152 | 0.88    | 1.000 | ns           |
+| tri.CR.pos | E3     | E6     |    0.009 |   -0.305 |     0.323 | 0.160 |     0.056 | 0.955   | 1.000 | ns           |
+| tri.CR.pos | E4     | E5     |    0.130 |   -0.106 |     0.367 | 0.120 |     1.087 | 0.278   | 1.000 | ns           |
+| tri.CR.pos | E4     | E6     |    0.158 |   -0.155 |     0.470 | 0.159 |     0.992 | 0.322   | 1.000 | ns           |
+| tri.CR.pos | E5     | E6     |    0.027 |   -0.236 |     0.290 | 0.134 |     0.203 | 0.839   | 1.000 | ns           |
+| tri.CR.pre | E1     | E2     |    0.084 |   -0.313 |     0.481 | 0.202 |     0.415 | 0.679   | 1.000 | ns           |
+| tri.CR.pre | E1     | E3     |    0.031 |   -0.393 |     0.456 | 0.216 |     0.145 | 0.885   | 1.000 | ns           |
+| tri.CR.pre | E1     | E4     |   -0.164 |   -0.589 |     0.260 | 0.216 |    -0.761 | 0.447   | 1.000 | ns           |
+| tri.CR.pre | E1     | E5     |   -0.002 |   -0.363 |     0.360 | 0.184 |    -0.009 | 0.993   | 1.000 | ns           |
+| tri.CR.pre | E1     | E6     |   -0.331 |   -0.779 |     0.118 | 0.228 |    -1.451 | 0.148   | 1.000 | ns           |
+| tri.CR.pre | E2     | E3     |   -0.052 |   -0.400 |     0.295 | 0.176 |    -0.298 | 0.766   | 1.000 | ns           |
+| tri.CR.pre | E2     | E4     |   -0.248 |   -0.595 |     0.099 | 0.176 |    -1.406 | 0.161   | 1.000 | ns           |
+| tri.CR.pre | E2     | E5     |   -0.085 |   -0.352 |     0.181 | 0.136 |    -0.630 | 0.529   | 1.000 | ns           |
+| tri.CR.pre | E2     | E6     |   -0.414 |   -0.791 |    -0.038 | 0.191 |    -2.167 | 0.031   | 0.466 | ns           |
+| tri.CR.pre | E3     | E4     |   -0.195 |   -0.573 |     0.183 | 0.192 |    -1.018 | 0.31    | 1.000 | ns           |
+| tri.CR.pre | E3     | E5     |   -0.033 |   -0.339 |     0.273 | 0.155 |    -0.212 | 0.832   | 1.000 | ns           |
+| tri.CR.pre | E3     | E6     |   -0.362 |   -0.767 |     0.043 | 0.206 |    -1.759 | 0.08    | 1.000 | ns           |
+| tri.CR.pre | E4     | E5     |    0.162 |   -0.143 |     0.468 | 0.155 |     1.045 | 0.297   | 1.000 | ns           |
+| tri.CR.pre | E4     | E6     |   -0.166 |   -0.571 |     0.239 | 0.206 |    -0.809 | 0.419   | 1.000 | ns           |
+| tri.CR.pre | E5     | E6     |   -0.329 |   -0.668 |     0.010 | 0.172 |    -1.911 | 0.057   | 0.855 | ns           |
+
+| .y.    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | E1     | pre    | pos    |   -0.306 |   -0.758 |     0.146 | 0.230 |    -1.331 | 0.184 | 0.184 | ns           |
+| tri.CR | E2     | pre    | pos    |    0.213 |   -0.078 |     0.505 | 0.148 |     1.438 | 0.151 | 0.151 | ns           |
+| tri.CR | E3     | pre    | pos    |   -0.100 |   -0.466 |     0.267 | 0.186 |    -0.534 | 0.593 | 0.593 | ns           |
+| tri.CR | E4     | pre    | pos    |   -0.140 |   -0.511 |     0.231 | 0.189 |    -0.741 | 0.459 | 0.459 | ns           |
+| tri.CR | E5     | pre    | pos    |   -0.022 |   -0.223 |     0.179 | 0.102 |    -0.217 | 0.829 | 0.829 | ns           |
+| tri.CR | E6     | pre    | pos    |    0.005 |   -0.403 |     0.413 | 0.208 |     0.024 | 0.981 | 0.981 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-971-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-973-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-975-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-977-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-979-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2148,15 +4089,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-499-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-987-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-501-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-503-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-993-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-995-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | E1     |  23 |   0.101 |    0.183 |     0.237 |      0.187 |   0.166 |    0.127 |
+| tri.CI.pos | E2     |  51 |  -0.040 |    0.123 |    -0.124 |      0.130 |  -0.083 |    0.086 |
+| tri.CI.pos | E3     |  35 |  -0.066 |    0.132 |     0.071 |      0.166 |   0.132 |    0.103 |
+| tri.CI.pos | E4     |  35 |   0.016 |    0.128 |     0.165 |      0.138 |   0.161 |    0.103 |
+| tri.CI.pos | E5     | 113 |   0.007 |    0.081 |     0.156 |      0.086 |   0.160 |    0.057 |
+| tri.CI.pos | E6     |  27 |   0.144 |    0.160 |     0.284 |      0.160 |   0.179 |    0.118 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | E1     | E2     |    0.249 |   -0.053 |     0.552 | 0.154 |     1.625 | 0.105 | 1.000 | ns           |
+| tri.CI.pos | E1     | E3     |    0.034 |   -0.289 |     0.357 | 0.164 |     0.205 | 0.838 | 1.000 | ns           |
+| tri.CI.pos | E1     | E4     |    0.005 |   -0.318 |     0.328 | 0.164 |     0.030 | 0.976 | 1.000 | ns           |
+| tri.CI.pos | E1     | E5     |    0.006 |   -0.269 |     0.282 | 0.140 |     0.046 | 0.963 | 1.000 | ns           |
+| tri.CI.pos | E1     | E6     |   -0.013 |   -0.354 |     0.328 | 0.173 |    -0.075 | 0.940 | 1.000 | ns           |
+| tri.CI.pos | E2     | E3     |   -0.216 |   -0.480 |     0.048 | 0.134 |    -1.610 | 0.108 | 1.000 | ns           |
+| tri.CI.pos | E2     | E4     |   -0.245 |   -0.509 |     0.019 | 0.134 |    -1.824 | 0.069 | 1.000 | ns           |
+| tri.CI.pos | E2     | E5     |   -0.243 |   -0.446 |    -0.040 | 0.103 |    -2.359 | 0.019 | 0.286 | ns           |
+| tri.CI.pos | E2     | E6     |   -0.263 |   -0.549 |     0.024 | 0.146 |    -1.804 | 0.072 | 1.000 | ns           |
+| tri.CI.pos | E3     | E4     |   -0.029 |   -0.316 |     0.259 | 0.146 |    -0.197 | 0.844 | 1.000 | ns           |
+| tri.CI.pos | E3     | E5     |   -0.027 |   -0.260 |     0.205 | 0.118 |    -0.230 | 0.818 | 1.000 | ns           |
+| tri.CI.pos | E3     | E6     |   -0.047 |   -0.355 |     0.262 | 0.157 |    -0.298 | 0.766 | 1.000 | ns           |
+| tri.CI.pos | E4     | E5     |    0.002 |   -0.231 |     0.234 | 0.118 |     0.013 | 0.990 | 1.000 | ns           |
+| tri.CI.pos | E4     | E6     |   -0.018 |   -0.326 |     0.290 | 0.157 |    -0.115 | 0.909 | 1.000 | ns           |
+| tri.CI.pos | E5     | E6     |   -0.020 |   -0.277 |     0.238 | 0.131 |    -0.149 | 0.882 | 1.000 | ns           |
+| tri.CI.pre | E1     | E2     |    0.141 |   -0.274 |     0.556 | 0.211 |     0.667 | 0.505 | 1.000 | ns           |
+| tri.CI.pre | E1     | E3     |    0.167 |   -0.277 |     0.610 | 0.225 |     0.739 | 0.460 | 1.000 | ns           |
+| tri.CI.pre | E1     | E4     |    0.085 |   -0.359 |     0.528 | 0.225 |     0.375 | 0.708 | 1.000 | ns           |
+| tri.CI.pre | E1     | E5     |    0.094 |   -0.284 |     0.472 | 0.192 |     0.489 | 0.625 | 1.000 | ns           |
+| tri.CI.pre | E1     | E6     |   -0.043 |   -0.512 |     0.426 | 0.238 |    -0.179 | 0.858 | 1.000 | ns           |
+| tri.CI.pre | E2     | E3     |    0.026 |   -0.337 |     0.389 | 0.184 |     0.141 | 0.888 | 1.000 | ns           |
+| tri.CI.pre | E2     | E4     |   -0.056 |   -0.419 |     0.307 | 0.184 |    -0.304 | 0.761 | 1.000 | ns           |
+| tri.CI.pre | E2     | E5     |   -0.047 |   -0.326 |     0.232 | 0.142 |    -0.330 | 0.742 | 1.000 | ns           |
+| tri.CI.pre | E2     | E6     |   -0.183 |   -0.577 |     0.210 | 0.200 |    -0.918 | 0.359 | 1.000 | ns           |
+| tri.CI.pre | E3     | E4     |   -0.082 |   -0.477 |     0.313 | 0.201 |    -0.409 | 0.683 | 1.000 | ns           |
+| tri.CI.pre | E3     | E5     |   -0.073 |   -0.392 |     0.247 | 0.162 |    -0.447 | 0.655 | 1.000 | ns           |
+| tri.CI.pre | E3     | E6     |   -0.209 |   -0.633 |     0.214 | 0.215 |    -0.973 | 0.331 | 1.000 | ns           |
+| tri.CI.pre | E4     | E5     |    0.009 |   -0.310 |     0.329 | 0.162 |     0.058 | 0.954 | 1.000 | ns           |
+| tri.CI.pre | E4     | E6     |   -0.127 |   -0.551 |     0.296 | 0.215 |    -0.592 | 0.554 | 1.000 | ns           |
+| tri.CI.pre | E5     | E6     |   -0.137 |   -0.491 |     0.217 | 0.180 |    -0.760 | 0.448 | 1.000 | ns           |
+
+| .y.    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | E1     | pre    | pos    |   -0.111 |   -0.599 |     0.377 | 0.248 |    -0.446 | 0.655 | 0.655 | ns           |
+| tri.CI | E2     | pre    | pos    |    0.118 |   -0.197 |     0.433 | 0.160 |     0.738 | 0.461 | 0.461 | ns           |
+| tri.CI | E3     | pre    | pos    |   -0.219 |   -0.615 |     0.176 | 0.201 |    -1.089 | 0.277 | 0.277 | ns           |
+| tri.CI | E4     | pre    | pos    |   -0.169 |   -0.570 |     0.232 | 0.204 |    -0.829 | 0.408 | 0.408 | ns           |
+| tri.CI | E5     | pre    | pos    |   -0.144 |   -0.361 |     0.074 | 0.111 |    -1.298 | 0.195 | 0.195 | ns           |
+| tri.CI | E6     | pre    | pos    |   -0.213 |   -0.654 |     0.227 | 0.224 |    -0.951 | 0.342 | 0.342 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1003-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1005-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1007-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1009-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1011-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2214,15 +4221,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1019-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-517-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1021-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-519-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1023-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-521-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1027-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | E1     |  23 |   0.056 |    0.188 |     0.239 |      0.179 |   0.237 |    0.136 |
+| tri.TV.pos | E2     |  51 |   0.019 |    0.106 |    -0.204 |      0.138 |  -0.184 |    0.091 |
+| tri.TV.pos | E3     |  35 |   0.224 |    0.138 |     0.127 |      0.140 |   0.019 |    0.110 |
+| tri.TV.pos | E4     |  35 |  -0.004 |    0.143 |     0.004 |      0.124 |   0.038 |    0.110 |
+| tri.TV.pos | E5     | 113 |   0.094 |    0.073 |     0.088 |      0.072 |   0.062 |    0.061 |
+| tri.TV.pos | E6     |  27 |  -0.219 |    0.160 |     0.088 |      0.147 |   0.256 |    0.126 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | E1     | E2     |    0.420 |    0.098 |     0.743 | 0.164 |     2.568 | 0.011 | 0.161 | ns           |
+| tri.TV.pos | E1     | E3     |    0.217 |   -0.128 |     0.562 | 0.175 |     1.240 | 0.216 | 1.000 | ns           |
+| tri.TV.pos | E1     | E4     |    0.198 |   -0.146 |     0.543 | 0.175 |     1.134 | 0.258 | 1.000 | ns           |
+| tri.TV.pos | E1     | E5     |    0.175 |   -0.119 |     0.468 | 0.149 |     1.172 | 0.242 | 1.000 | ns           |
+| tri.TV.pos | E1     | E6     |   -0.019 |   -0.384 |     0.346 | 0.185 |    -0.103 | 0.918 | 1.000 | ns           |
+| tri.TV.pos | E2     | E3     |   -0.203 |   -0.485 |     0.079 | 0.143 |    -1.418 | 0.157 | 1.000 | ns           |
+| tri.TV.pos | E2     | E4     |   -0.222 |   -0.503 |     0.060 | 0.143 |    -1.552 | 0.122 | 1.000 | ns           |
+| tri.TV.pos | E2     | E5     |   -0.246 |   -0.462 |    -0.029 | 0.110 |    -2.234 | 0.026 | 0.394 | ns           |
+| tri.TV.pos | E2     | E6     |   -0.439 |   -0.745 |    -0.133 | 0.155 |    -2.826 | 0.005 | 0.076 | ns           |
+| tri.TV.pos | E3     | E4     |   -0.019 |   -0.326 |     0.289 | 0.156 |    -0.120 | 0.905 | 1.000 | ns           |
+| tri.TV.pos | E3     | E5     |   -0.042 |   -0.291 |     0.206 | 0.126 |    -0.336 | 0.737 | 1.000 | ns           |
+| tri.TV.pos | E3     | E6     |   -0.236 |   -0.567 |     0.095 | 0.168 |    -1.403 | 0.162 | 1.000 | ns           |
+| tri.TV.pos | E4     | E5     |   -0.024 |   -0.272 |     0.225 | 0.126 |    -0.188 | 0.851 | 1.000 | ns           |
+| tri.TV.pos | E4     | E6     |   -0.217 |   -0.547 |     0.112 | 0.167 |    -1.301 | 0.195 | 1.000 | ns           |
+| tri.TV.pos | E5     | E6     |   -0.194 |   -0.470 |     0.083 | 0.140 |    -1.380 | 0.169 | 1.000 | ns           |
+| tri.TV.pre | E1     | E2     |    0.037 |   -0.359 |     0.433 | 0.201 |     0.184 | 0.854 | 1.000 | ns           |
+| tri.TV.pre | E1     | E3     |   -0.169 |   -0.591 |     0.254 | 0.215 |    -0.785 | 0.433 | 1.000 | ns           |
+| tri.TV.pre | E1     | E4     |    0.060 |   -0.363 |     0.483 | 0.215 |     0.278 | 0.781 | 1.000 | ns           |
+| tri.TV.pre | E1     | E5     |   -0.038 |   -0.399 |     0.322 | 0.183 |    -0.209 | 0.834 | 1.000 | ns           |
+| tri.TV.pre | E1     | E6     |    0.274 |   -0.173 |     0.721 | 0.227 |     1.208 | 0.228 | 1.000 | ns           |
+| tri.TV.pre | E2     | E3     |   -0.206 |   -0.551 |     0.140 | 0.176 |    -1.170 | 0.243 | 1.000 | ns           |
+| tri.TV.pre | E2     | E4     |    0.023 |   -0.323 |     0.369 | 0.176 |     0.130 | 0.896 | 1.000 | ns           |
+| tri.TV.pre | E2     | E5     |   -0.075 |   -0.341 |     0.190 | 0.135 |    -0.558 | 0.578 | 1.000 | ns           |
+| tri.TV.pre | E2     | E6     |    0.237 |   -0.138 |     0.612 | 0.190 |     1.246 | 0.214 | 1.000 | ns           |
+| tri.TV.pre | E3     | E4     |    0.228 |   -0.148 |     0.605 | 0.191 |     1.194 | 0.233 | 1.000 | ns           |
+| tri.TV.pre | E3     | E5     |    0.130 |   -0.174 |     0.435 | 0.155 |     0.841 | 0.401 | 1.000 | ns           |
+| tri.TV.pre | E3     | E6     |    0.443 |    0.039 |     0.846 | 0.205 |     2.160 | 0.032 | 0.474 | ns           |
+| tri.TV.pre | E4     | E5     |   -0.098 |   -0.403 |     0.207 | 0.155 |    -0.634 | 0.527 | 1.000 | ns           |
+| tri.TV.pre | E4     | E6     |    0.214 |   -0.189 |     0.618 | 0.205 |     1.046 | 0.297 | 1.000 | ns           |
+| tri.TV.pre | E5     | E6     |    0.312 |   -0.025 |     0.650 | 0.171 |     1.823 | 0.069 | 1.000 | ns           |
+
+| .y.    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | E1     | pre    | pos    |   -0.166 |   -0.630 |     0.297 | 0.236 |    -0.706 | 0.481 | 0.481 | ns           |
+| tri.TV | E2     | pre    | pos    |    0.336 |    0.037 |     0.635 | 0.152 |     2.206 | 0.028 | 0.028 | \*           |
+| tri.TV | E3     | pre    | pos    |    0.057 |   -0.319 |     0.432 | 0.191 |     0.298 | 0.766 | 0.766 | ns           |
+| tri.TV | E4     | pre    | pos    |    0.001 |   -0.379 |     0.382 | 0.194 |     0.007 | 0.994 | 0.994 | ns           |
+| tri.TV | E5     | pre    | pos    |    0.005 |   -0.201 |     0.211 | 0.105 |     0.047 | 0.962 | 0.962 | ns           |
+| tri.TV | E6     | pre    | pos    |   -0.241 |   -0.660 |     0.177 | 0.213 |    -1.134 | 0.257 | 0.257 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1035-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1037-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1039-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1041-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1043-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2280,15 +4353,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-533-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-535-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1055-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-537-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1057-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1059-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | E1     |  23 |   0.097 |    0.176 |     0.240 |      0.152 |   0.209 |    0.131 |
+| tri.TF.pos | E2     |  51 |   0.045 |    0.096 |    -0.204 |      0.131 |  -0.197 |    0.088 |
+| tri.TF.pos | E3     |  35 |   0.201 |    0.138 |     0.088 |      0.154 |  -0.020 |    0.107 |
+| tri.TF.pos | E4     |  35 |  -0.042 |    0.150 |     0.055 |      0.153 |   0.125 |    0.106 |
+| tri.TF.pos | E5     | 113 |   0.035 |    0.081 |     0.119 |      0.081 |   0.133 |    0.059 |
+| tri.TF.pos | E6     |  27 |   0.050 |    0.181 |     0.037 |      0.167 |   0.040 |    0.121 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | E1     | E2     |    0.406 |    0.095 |     0.717 | 0.158 |     2.568 | 0.011 | 0.161 | ns           |
+| tri.TF.pos | E1     | E3     |    0.229 |   -0.104 |     0.561 | 0.169 |     1.355 | 0.176 | 1.000 | ns           |
+| tri.TF.pos | E1     | E4     |    0.084 |   -0.249 |     0.416 | 0.169 |     0.495 | 0.621 | 1.000 | ns           |
+| tri.TF.pos | E1     | E5     |    0.076 |   -0.208 |     0.359 | 0.144 |     0.526 | 0.600 | 1.000 | ns           |
+| tri.TF.pos | E1     | E6     |    0.169 |   -0.183 |     0.520 | 0.178 |     0.945 | 0.346 | 1.000 | ns           |
+| tri.TF.pos | E2     | E3     |   -0.177 |   -0.449 |     0.095 | 0.138 |    -1.280 | 0.202 | 1.000 | ns           |
+| tri.TF.pos | E2     | E4     |   -0.322 |   -0.594 |    -0.050 | 0.138 |    -2.332 | 0.020 | 0.306 | ns           |
+| tri.TF.pos | E2     | E5     |   -0.330 |   -0.539 |    -0.121 | 0.106 |    -3.111 | 0.002 | 0.031 | \*           |
+| tri.TF.pos | E2     | E6     |   -0.237 |   -0.532 |     0.058 | 0.150 |    -1.584 | 0.114 | 1.000 | ns           |
+| tri.TF.pos | E3     | E4     |   -0.145 |   -0.442 |     0.152 | 0.151 |    -0.963 | 0.336 | 1.000 | ns           |
+| tri.TF.pos | E3     | E5     |   -0.153 |   -0.393 |     0.087 | 0.122 |    -1.257 | 0.210 | 1.000 | ns           |
+| tri.TF.pos | E3     | E6     |   -0.060 |   -0.378 |     0.257 | 0.161 |    -0.374 | 0.709 | 1.000 | ns           |
+| tri.TF.pos | E4     | E5     |   -0.008 |   -0.248 |     0.232 | 0.122 |    -0.066 | 0.947 | 1.000 | ns           |
+| tri.TF.pos | E4     | E6     |    0.085 |   -0.232 |     0.402 | 0.161 |     0.527 | 0.599 | 1.000 | ns           |
+| tri.TF.pos | E5     | E6     |    0.093 |   -0.172 |     0.358 | 0.135 |     0.690 | 0.491 | 1.000 | ns           |
+| tri.TF.pre | E1     | E2     |    0.052 |   -0.363 |     0.467 | 0.211 |     0.246 | 0.806 | 1.000 | ns           |
+| tri.TF.pre | E1     | E3     |   -0.104 |   -0.547 |     0.339 | 0.225 |    -0.462 | 0.644 | 1.000 | ns           |
+| tri.TF.pre | E1     | E4     |    0.139 |   -0.304 |     0.582 | 0.225 |     0.617 | 0.538 | 1.000 | ns           |
+| tri.TF.pre | E1     | E5     |    0.062 |   -0.316 |     0.440 | 0.192 |     0.323 | 0.747 | 1.000 | ns           |
+| tri.TF.pre | E1     | E6     |    0.047 |   -0.422 |     0.515 | 0.238 |     0.196 | 0.845 | 1.000 | ns           |
+| tri.TF.pre | E2     | E3     |   -0.156 |   -0.518 |     0.207 | 0.184 |    -0.847 | 0.398 | 1.000 | ns           |
+| tri.TF.pre | E2     | E4     |    0.087 |   -0.275 |     0.449 | 0.184 |     0.472 | 0.637 | 1.000 | ns           |
+| tri.TF.pre | E2     | E5     |    0.010 |   -0.268 |     0.289 | 0.141 |     0.072 | 0.943 | 1.000 | ns           |
+| tri.TF.pre | E2     | E6     |   -0.005 |   -0.398 |     0.388 | 0.200 |    -0.027 | 0.979 | 1.000 | ns           |
+| tri.TF.pre | E3     | E4     |    0.243 |   -0.152 |     0.638 | 0.201 |     1.211 | 0.227 | 1.000 | ns           |
+| tri.TF.pre | E3     | E5     |    0.166 |   -0.153 |     0.486 | 0.162 |     1.024 | 0.307 | 1.000 | ns           |
+| tri.TF.pre | E3     | E6     |    0.151 |   -0.272 |     0.574 | 0.215 |     0.701 | 0.484 | 1.000 | ns           |
+| tri.TF.pre | E4     | E5     |   -0.077 |   -0.396 |     0.243 | 0.162 |    -0.473 | 0.636 | 1.000 | ns           |
+| tri.TF.pre | E4     | E6     |   -0.092 |   -0.515 |     0.331 | 0.215 |    -0.430 | 0.668 | 1.000 | ns           |
+| tri.TF.pre | E5     | E6     |   -0.015 |   -0.369 |     0.338 | 0.180 |    -0.086 | 0.931 | 1.000 | ns           |
+
+| .y.    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | E1     | pre    | pos    |   -0.112 |   -0.601 |     0.378 | 0.249 |    -0.448 | 0.654 | 0.654 | ns           |
+| tri.TF | E2     | pre    | pos    |    0.304 |   -0.011 |     0.620 | 0.161 |     1.893 | 0.059 | 0.059 | ns           |
+| tri.TF | E3     | pre    | pos    |    0.121 |   -0.276 |     0.517 | 0.202 |     0.598 | 0.550 | 0.550 | ns           |
+| tri.TF | E4     | pre    | pos    |   -0.082 |   -0.484 |     0.320 | 0.205 |    -0.400 | 0.689 | 0.689 | ns           |
+| tri.TF | E5     | pre    | pos    |   -0.070 |   -0.288 |     0.147 | 0.111 |    -0.635 | 0.526 | 0.526 | ns           |
+| tri.TF | E6     | pre    | pos    |    0.017 |   -0.424 |     0.459 | 0.225 |     0.077 | 0.939 | 0.939 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1067-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1069-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1071-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1073-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1075-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2346,15 +4485,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-547-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1083-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-549-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-551-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-553-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1091-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | E1     |  23 |  -0.186 |    0.190 |     0.140 |      0.185 |   0.274 |    0.128 |
+| tri.TO.pos | E2     |  51 |  -0.264 |    0.100 |    -0.091 |      0.119 |   0.102 |    0.086 |
+| tri.TO.pos | E3     |  35 |   0.105 |    0.162 |     0.169 |      0.171 |   0.081 |    0.103 |
+| tri.TO.pos | E4     |  35 |  -0.127 |    0.149 |    -0.003 |      0.146 |   0.086 |    0.103 |
+| tri.TO.pos | E5     | 113 |   0.168 |    0.086 |     0.318 |      0.087 |   0.182 |    0.058 |
+| tri.TO.pos | E6     |  27 |  -0.126 |    0.163 |    -0.127 |      0.157 |  -0.039 |    0.118 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | E1     | E2     |    0.172 |   -0.130 |     0.475 | 0.153 |     1.123 | 0.262 | 1.000 | ns           |
+| tri.TO.pos | E1     | E3     |    0.193 |   -0.131 |     0.517 | 0.164 |     1.175 | 0.241 | 1.000 | ns           |
+| tri.TO.pos | E1     | E4     |    0.188 |   -0.135 |     0.511 | 0.164 |     1.147 | 0.252 | 1.000 | ns           |
+| tri.TO.pos | E1     | E5     |    0.092 |   -0.185 |     0.369 | 0.141 |     0.654 | 0.514 | 1.000 | ns           |
+| tri.TO.pos | E1     | E6     |    0.313 |   -0.028 |     0.655 | 0.173 |     1.808 | 0.072 | 1.000 | ns           |
+| tri.TO.pos | E2     | E3     |    0.021 |   -0.245 |     0.287 | 0.135 |     0.154 | 0.878 | 1.000 | ns           |
+| tri.TO.pos | E2     | E4     |    0.016 |   -0.249 |     0.280 | 0.134 |     0.117 | 0.907 | 1.000 | ns           |
+| tri.TO.pos | E2     | E5     |   -0.081 |   -0.287 |     0.125 | 0.105 |    -0.770 | 0.442 | 1.000 | ns           |
+| tri.TO.pos | E2     | E6     |    0.141 |   -0.145 |     0.428 | 0.146 |     0.969 | 0.333 | 1.000 | ns           |
+| tri.TO.pos | E3     | E4     |   -0.005 |   -0.293 |     0.283 | 0.146 |    -0.034 | 0.973 | 1.000 | ns           |
+| tri.TO.pos | E3     | E5     |   -0.101 |   -0.334 |     0.131 | 0.118 |    -0.857 | 0.392 | 1.000 | ns           |
+| tri.TO.pos | E3     | E6     |    0.120 |   -0.188 |     0.429 | 0.157 |     0.767 | 0.444 | 1.000 | ns           |
+| tri.TO.pos | E4     | E5     |   -0.096 |   -0.330 |     0.138 | 0.119 |    -0.810 | 0.418 | 1.000 | ns           |
+| tri.TO.pos | E4     | E6     |    0.125 |   -0.183 |     0.433 | 0.156 |     0.801 | 0.424 | 1.000 | ns           |
+| tri.TO.pos | E5     | E6     |    0.222 |   -0.037 |     0.480 | 0.131 |     1.686 | 0.093 | 1.000 | ns           |
+| tri.TO.pre | E1     | E2     |    0.078 |   -0.356 |     0.512 | 0.220 |     0.353 | 0.725 | 1.000 | ns           |
+| tri.TO.pre | E1     | E3     |   -0.291 |   -0.755 |     0.172 | 0.236 |    -1.237 | 0.217 | 1.000 | ns           |
+| tri.TO.pre | E1     | E4     |   -0.059 |   -0.523 |     0.405 | 0.236 |    -0.250 | 0.803 | 1.000 | ns           |
+| tri.TO.pre | E1     | E5     |   -0.354 |   -0.749 |     0.041 | 0.201 |    -1.764 | 0.079 | 1.000 | ns           |
+| tri.TO.pre | E1     | E6     |   -0.061 |   -0.551 |     0.430 | 0.249 |    -0.243 | 0.808 | 1.000 | ns           |
+| tri.TO.pre | E2     | E3     |   -0.369 |   -0.748 |     0.010 | 0.193 |    -1.916 | 0.056 | 0.846 | ns           |
+| tri.TO.pre | E2     | E4     |   -0.137 |   -0.516 |     0.243 | 0.193 |    -0.709 | 0.479 | 1.000 | ns           |
+| tri.TO.pre | E2     | E5     |   -0.432 |   -0.723 |    -0.140 | 0.148 |    -2.917 | 0.004 | 0.057 | ns           |
+| tri.TO.pre | E2     | E6     |   -0.138 |   -0.550 |     0.273 | 0.209 |    -0.662 | 0.508 | 1.000 | ns           |
+| tri.TO.pre | E3     | E4     |    0.232 |   -0.181 |     0.646 | 0.210 |     1.108 | 0.269 | 1.000 | ns           |
+| tri.TO.pre | E3     | E5     |   -0.063 |   -0.397 |     0.271 | 0.170 |    -0.370 | 0.712 | 1.000 | ns           |
+| tri.TO.pre | E3     | E6     |    0.231 |   -0.212 |     0.673 | 0.225 |     1.026 | 0.306 | 1.000 | ns           |
+| tri.TO.pre | E4     | E5     |   -0.295 |   -0.630 |     0.039 | 0.170 |    -1.739 | 0.083 | 1.000 | ns           |
+| tri.TO.pre | E4     | E6     |   -0.002 |   -0.444 |     0.441 | 0.225 |    -0.008 | 0.994 | 1.000 | ns           |
+| tri.TO.pre | E5     | E6     |    0.294 |   -0.077 |     0.664 | 0.188 |     1.561 | 0.120 | 1.000 | ns           |
+
+| .y.    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | E1     | pre    | pos    |   -0.300 |   -0.804 |     0.205 | 0.257 |    -1.166 | 0.244 | 0.244 | ns           |
+| tri.TO | E2     | pre    | pos    |   -0.097 |   -0.423 |     0.228 | 0.166 |    -0.588 | 0.557 | 0.557 | ns           |
+| tri.TO | E3     | pre    | pos    |   -0.091 |   -0.500 |     0.318 | 0.208 |    -0.437 | 0.662 | 0.662 | ns           |
+| tri.TO | E4     | pre    | pos    |   -0.134 |   -0.549 |     0.280 | 0.211 |    -0.637 | 0.525 | 0.525 | ns           |
+| tri.TO | E5     | pre    | pos    |   -0.190 |   -0.415 |     0.035 | 0.114 |    -1.662 | 0.097 | 0.097 | ns           |
+| tri.TO | E6     | pre    | pos    |   -0.054 |   -0.509 |     0.402 | 0.232 |    -0.232 | 0.817 | 0.817 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1099-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1103-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1105-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1107-1.png)<!-- -->
 
 ## factor: **zona.escola**
 
@@ -2378,15 +4583,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1115-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-565-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1117-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-567-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1119-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-569-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-571-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Rural       |  97 |  67.918 |    1.634 |    71.619 |      1.316 |  72.355 |    1.094 |
+| tri.CLPP.pos | Urbana      | 187 |  69.545 |    0.995 |    69.503 |      1.130 |  69.121 |    0.787 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Urbana | Rural  |   -3.234 |   -5.888 |     -0.58 | 1.348 |    -2.398 | 0.017 | 0.017 | \*           |
+| tri.CLPP.pre | Urbana | Rural  |    1.628 |   -1.944 |      5.20 | 1.815 |     0.897 | 0.370 | 0.370 | ns           |
+
+| .y.      | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | Urbana      | pre    | pos    |   -0.024 |   -0.210 |     0.162 | 0.095 |    -0.254 | 0.799 | 0.799 | ns           |
+| tri.CLPP | Rural       | pre    | pos    |   -0.117 |   -0.379 |     0.146 | 0.134 |    -0.874 | 0.383 | 0.383 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1131-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1133-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1137-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1139-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2408,15 +4643,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-579-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1147-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-581-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1149-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-583-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1151-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-585-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1153-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-587-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1155-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Rural       |  97 |   0.150 |    0.080 |     0.204 |      0.077 |   0.137 |    0.064 |
+| tri.CR.pos | Urbana      | 187 |  -0.012 |    0.059 |     0.026 |      0.061 |   0.061 |    0.046 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Urbana | Rural  |   -0.076 |   -0.232 |     0.080 | 0.079 |    -0.961 | 0.337 | 0.337 | ns           |
+| tri.CR.pre | Urbana | Rural  |   -0.162 |   -0.359 |     0.036 | 0.100 |    -1.611 | 0.108 | 0.108 | ns           |
+
+| .y.    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | Urbana      | pre    | pos    |    0.007 |   -0.149 |     0.164 | 0.080 |     0.093 | 0.926 | 0.926 | ns           |
+| tri.CR | Rural       | pre    | pos    |   -0.082 |   -0.303 |     0.139 | 0.113 |    -0.732 | 0.464 | 0.464 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1163-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1165-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1167-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2438,15 +4703,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-595-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1179-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-597-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1181-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-599-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1183-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-601-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-603-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1187-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Rural       |  97 |   0.022 |    0.079 |     0.164 |      0.089 |   0.156 |    0.062 |
+| tri.CI.pos | Urbana      | 187 |   0.006 |    0.063 |     0.090 |      0.067 |   0.094 |    0.045 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Urbana | Rural  |   -0.062 |   -0.213 |     0.089 | 0.077 |    -0.803 | 0.422 | 0.422 | ns           |
+| tri.CI.pre | Urbana | Rural  |   -0.016 |   -0.222 |     0.189 | 0.105 |    -0.157 | 0.875 | 0.875 | ns           |
+
+| .y.    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | Urbana      | pre    | pos    |   -0.068 |   -0.236 |     0.100 | 0.085 |    -0.796 | 0.426 | 0.426 | ns           |
+| tri.CI | Rural       | pre    | pos    |   -0.198 |   -0.435 |     0.039 | 0.121 |    -1.643 | 0.101 | 0.101 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1195-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1197-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1199-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1201-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1203-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2468,15 +4763,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1211-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-613-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1213-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-615-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1215-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-617-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-619-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Rural       |  97 |   0.019 |    0.085 |     0.071 |      0.078 |   0.092 |    0.067 |
+| tri.TV.pos | Urbana      | 187 |   0.069 |    0.057 |     0.027 |      0.062 |   0.017 |    0.048 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Urbana | Rural  |   -0.075 |   -0.238 |     0.087 | 0.082 |    -0.913 | 0.362 | 0.362 | ns           |
+| tri.TV.pre | Urbana | Rural  |    0.050 |   -0.147 |     0.248 | 0.100 |     0.500 | 0.617 | 0.617 | ns           |
+
+| .y.    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | Urbana      | pre    | pos    |    0.076 |   -0.084 |     0.236 | 0.081 |     0.937 | 0.349 | 0.349 | ns           |
+| tri.TV | Rural       | pre    | pos    |   -0.050 |   -0.275 |     0.176 | 0.115 |    -0.434 | 0.664 | 0.664 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1227-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1229-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1231-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1235-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2498,15 +4823,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-627-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1243-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-629-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1245-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-631-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1247-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-633-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1249-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1251-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Rural       |  97 |   0.071 |    0.089 |     0.062 |      0.090 |   0.049 |    0.065 |
+| tri.TF.pos | Urbana      | 187 |   0.045 |    0.060 |     0.046 |      0.064 |   0.052 |    0.047 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Urbana | Rural  |    0.003 |   -0.154 |      0.16 | 0.080 |     0.041 | 0.967 | 0.967 | ns           |
+| tri.TF.pre | Urbana | Rural  |   -0.026 |   -0.232 |      0.18 | 0.105 |    -0.250 | 0.803 | 0.803 | ns           |
+
+| .y.    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | Urbana      | pre    | pos    |    0.029 |   -0.140 |     0.197 | 0.086 |     0.334 | 0.739 | 0.739 | ns           |
+| tri.TF | Rural       | pre    | pos    |    0.020 |   -0.218 |     0.258 | 0.121 |     0.167 | 0.867 | 0.867 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1259-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1261-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1263-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1265-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1267-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2528,15 +4883,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-643-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1275-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-645-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1277-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-647-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1279-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-649-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1281-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-651-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1283-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Rural       |  97 |  -0.043 |    0.091 |     0.024 |      0.092 |   0.049 |    0.062 |
+| tri.TO.pos | Urbana      | 187 |   0.007 |    0.065 |     0.185 |      0.067 |   0.172 |    0.045 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Urbana | Rural  |    0.122 |   -0.028 |     0.272 | 0.076 |     1.602 | 0.110 | 0.110 | ns           |
+| tri.TO.pre | Urbana | Rural  |    0.050 |   -0.169 |     0.269 | 0.111 |     0.445 | 0.656 | 0.656 | ns           |
+
+| .y.    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | Urbana      | pre    | pos    |   -0.183 |   -0.357 |    -0.008 | 0.089 |    -2.049 | 0.041 | 0.041 | \*           |
+| tri.TO | Rural       | pre    | pos    |   -0.097 |   -0.345 |     0.150 | 0.126 |    -0.775 | 0.439 | 0.439 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1291-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1293-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1295-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1297-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1299-1.png)<!-- -->
 
 # Pairwise comparisons for two factors
 
@@ -2572,20 +4957,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1307-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-660-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1308-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-662-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1310-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-664-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1312-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-666-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1314-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-668-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1316-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | F      | Controle     |  78 |  70.205 |    1.699 |    72.692 |      1.633 |  71.882 |    1.227 |
+| tri.CLPP.pos | F      | Experimental |  56 |  73.982 |    1.893 |    74.286 |      2.078 |  70.956 |    1.464 |
+| tri.CLPP.pos | M      | Controle     |  71 |  65.789 |    1.665 |    66.197 |      1.796 |  68.332 |    1.293 |
+| tri.CLPP.pos | M      | Experimental |  79 |  67.127 |    1.550 |    68.532 |      1.435 |  69.774 |    1.221 |
+
+| .y.          | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Controle     |        | F        | M            |    3.550 |    0.032 |     7.068 | 1.787 |     1.987 | 0.048 | 0.048 | \*           |
+| tri.CLPP.pos | Experimental |        | F        | M            |    1.183 |   -2.590 |     4.956 | 1.917 |     0.617 | 0.538 | 0.538 | ns           |
+| tri.CLPP.pre | Controle     |        | F        | M            |    4.416 |   -0.189 |     9.022 | 2.340 |     1.888 | 0.060 | 0.060 | ns           |
+| tri.CLPP.pre | Experimental |        | F        | M            |    6.856 |    1.951 |    11.760 | 2.492 |     2.752 | 0.006 | 0.006 | \*\*         |
+| tri.CLPP.pos |              | F      | Controle | Experimental |    0.925 |   -2.823 |     4.673 | 1.904 |     0.486 | 0.627 | 0.627 | ns           |
+| tri.CLPP.pos |              | M      | Controle | Experimental |   -1.442 |   -4.930 |     2.045 | 1.772 |    -0.814 | 0.416 | 0.416 | ns           |
+| tri.CLPP.pre |              | F      | Controle | Experimental |   -3.777 |   -8.695 |     1.141 | 2.498 |    -1.512 | 0.132 | 0.132 | ns           |
+| tri.CLPP.pre |              | M      | Controle | Experimental |   -1.338 |   -5.929 |     3.253 | 2.332 |    -0.574 | 0.567 | 0.567 | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |   -0.037 |   -0.323 |     0.248 | 0.145 |    -0.255 | 0.799 | 0.799 | ns           |
+| Controle     | M      | pre    | pos    |   -0.038 |   -0.330 |     0.253 | 0.148 |    -0.258 | 0.796 | 0.796 | ns           |
+| Experimental | F      | pre    | pos    |   -0.030 |   -0.368 |     0.308 | 0.172 |    -0.173 | 0.863 | 0.863 | ns           |
+| Experimental | M      | pre    | pos    |   -0.110 |   -0.391 |     0.171 | 0.143 |    -0.767 | 0.443 | 0.443 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1324-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1325-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1327-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1329-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1331-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1333-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2617,20 +5047,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1341-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-677-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1342-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-679-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1344-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-681-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1346-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-683-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1348-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1350-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | F      | Controle     |  78 |   0.022 |    0.089 |     0.166 |      0.088 |   0.179 |    0.071 |
+| tri.CR.pos | F      | Experimental |  56 |   0.427 |    0.087 |     0.334 |      0.091 |   0.093 |    0.086 |
+| tri.CR.pos | M      | Controle     |  71 |  -0.127 |    0.086 |    -0.113 |      0.108 |  -0.007 |    0.075 |
+| tri.CR.pos | M      | Experimental |  79 |  -0.055 |    0.103 |     0.013 |      0.089 |   0.074 |    0.071 |
+
+| .y.        | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.CR.pos | Controle     |        | F        | M            |    0.186 |   -0.018 |     0.390 | 0.104 |     1.798 | 0.073   | 0.073   | ns           |
+| tri.CR.pos | Experimental |        | F        | M            |    0.019 |   -0.203 |     0.240 | 0.112 |     0.168 | 0.866   | 0.866   | ns           |
+| tri.CR.pre | Controle     |        | F        | M            |    0.149 |   -0.105 |     0.402 | 0.129 |     1.155 | 0.249   | 0.249   | ns           |
+| tri.CR.pre | Experimental |        | F        | M            |    0.482 |    0.212 |     0.752 | 0.137 |     3.516 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.CR.pos |              | F      | Controle | Experimental |    0.086 |   -0.135 |     0.307 | 0.112 |     0.767 | 0.443   | 0.443   | ns           |
+| tri.CR.pos |              | M      | Controle | Experimental |   -0.081 |   -0.284 |     0.122 | 0.103 |    -0.788 | 0.431   | 0.431   | ns           |
+| tri.CR.pre |              | F      | Controle | Experimental |   -0.405 |   -0.676 |    -0.135 | 0.137 |    -2.949 | 0.003   | 0.003   | \*\*         |
+| tri.CR.pre |              | M      | Controle | Experimental |   -0.072 |   -0.324 |     0.181 | 0.128 |    -0.560 | 0.576   | 0.576   | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |   -0.088 |   -0.330 |     0.154 | 0.123 |    -0.717 | 0.474 | 0.474 | ns           |
+| Controle     | M      | pre    | pos    |   -0.032 |   -0.279 |     0.214 | 0.126 |    -0.257 | 0.797 | 0.797 | ns           |
+| Experimental | F      | pre    | pos    |    0.094 |   -0.193 |     0.380 | 0.146 |     0.644 | 0.520 | 0.520 | ns           |
+| Experimental | M      | pre    | pos    |   -0.044 |   -0.283 |     0.194 | 0.121 |    -0.366 | 0.714 | 0.714 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1358-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1359-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1361-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1363-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1365-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1367-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2662,20 +5137,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-693-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1375-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-694-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1376-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-696-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1378-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-698-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1380-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-700-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1382-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1384-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | F      | Controle     |  78 |   0.099 |    0.100 |     0.135 |      0.116 |   0.066 |    0.069 |
+| tri.CI.pos | F      | Experimental |  56 |   0.444 |    0.093 |     0.558 |      0.100 |   0.216 |    0.083 |
+| tri.CI.pos | M      | Controle     |  71 |  -0.115 |    0.084 |    -0.130 |      0.098 |  -0.029 |    0.072 |
+| tri.CI.pos | M      | Experimental |  79 |  -0.267 |    0.096 |     0.001 |      0.095 |   0.222 |    0.069 |
+
+| .y.        | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.CI.pos | Controle     |        | F        | M            |    0.095 |   -0.102 |     0.292 | 0.100 |     0.951 | 0.342   | 0.342   | ns           |
+| tri.CI.pos | Experimental |        | F        | M            |   -0.006 |   -0.224 |     0.212 | 0.111 |    -0.053 | 0.958   | 0.958   | ns           |
+| tri.CI.pre | Controle     |        | F        | M            |    0.214 |   -0.044 |     0.472 | 0.131 |     1.630 | 0.104   | 0.104   | ns           |
+| tri.CI.pre | Experimental |        | F        | M            |    0.711 |    0.436 |     0.986 | 0.140 |     5.094 | \<0.001 | \<0.001 | \*\*\*\*     |
+| tri.CI.pos |              | F      | Controle | Experimental |   -0.151 |   -0.362 |     0.061 | 0.107 |    -1.402 | 0.162   | 0.162   | ns           |
+| tri.CI.pos |              | M      | Controle | Experimental |   -0.252 |   -0.447 |    -0.056 | 0.099 |    -2.530 | 0.012   | 0.012   | \*           |
+| tri.CI.pre |              | F      | Controle | Experimental |   -0.345 |   -0.620 |    -0.069 | 0.140 |    -2.464 | 0.014   | 0.014   | \*           |
+| tri.CI.pre |              | M      | Controle | Experimental |    0.152 |   -0.105 |     0.410 | 0.131 |     1.167 | 0.244   | 0.244   | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |   -0.028 |   -0.283 |     0.227 | 0.130 |    -0.216 | 0.829 | 0.829 | ns           |
+| Controle     | M      | pre    | pos    |   -0.006 |   -0.266 |     0.254 | 0.133 |    -0.044 | 0.965 | 0.965 | ns           |
+| Experimental | F      | pre    | pos    |   -0.149 |   -0.452 |     0.153 | 0.154 |    -0.971 | 0.332 | 0.332 | ns           |
+| Experimental | M      | pre    | pos    |   -0.265 |   -0.517 |    -0.014 | 0.128 |    -2.073 | 0.039 | 0.039 | \*           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1392-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1393-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1395-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1397-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1399-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1401-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2707,20 +5227,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1409-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-711-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1410-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-713-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1412-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1414-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-717-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1416-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-719-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1418-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | F      | Controle     |  78 |   0.063 |    0.079 |     0.149 |      0.092 |   0.142 |    0.074 |
+| tri.TV.pos | F      | Experimental |  56 |   0.270 |    0.090 |     0.204 |      0.104 |   0.071 |    0.089 |
+| tri.TV.pos | M      | Controle     |  71 |  -0.060 |    0.105 |    -0.125 |      0.100 |  -0.058 |    0.078 |
+| tri.TV.pos | M      | Experimental |  79 |  -0.014 |    0.099 |    -0.027 |      0.092 |   0.012 |    0.074 |
+
+| .y.        | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Controle     |        | F        | M            |    0.200 |   -0.013 |     0.413 | 0.108 |     1.851 | 0.065 | 0.065 | ns           |
+| tri.TV.pos | Experimental |        | F        | M            |    0.059 |   -0.169 |     0.287 | 0.116 |     0.511 | 0.610 | 0.610 | ns           |
+| tri.TV.pre | Controle     |        | F        | M            |    0.123 |   -0.134 |     0.380 | 0.131 |     0.941 | 0.347 | 0.347 | ns           |
+| tri.TV.pre | Experimental |        | F        | M            |    0.284 |    0.010 |     0.557 | 0.139 |     2.039 | 0.042 | 0.042 | \*           |
+| tri.TV.pos |              | F      | Controle | Experimental |    0.071 |   -0.157 |     0.299 | 0.116 |     0.613 | 0.540 | 0.540 | ns           |
+| tri.TV.pos |              | M      | Controle | Experimental |   -0.070 |   -0.282 |     0.142 | 0.108 |    -0.651 | 0.516 | 0.516 | ns           |
+| tri.TV.pre |              | F      | Controle | Experimental |   -0.207 |   -0.481 |     0.068 | 0.139 |    -1.483 | 0.139 | 0.139 | ns           |
+| tri.TV.pre |              | M      | Controle | Experimental |   -0.046 |   -0.302 |     0.210 | 0.130 |    -0.353 | 0.724 | 0.724 | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |   -0.039 |   -0.289 |     0.210 | 0.127 |    -0.308 | 0.758 | 0.758 | ns           |
+| Controle     | M      | pre    | pos    |    0.042 |   -0.213 |     0.296 | 0.130 |     0.321 | 0.748 | 0.748 | ns           |
+| Experimental | F      | pre    | pos    |    0.080 |   -0.215 |     0.376 | 0.150 |     0.534 | 0.593 | 0.593 | ns           |
+| Experimental | M      | pre    | pos    |    0.061 |   -0.185 |     0.307 | 0.125 |     0.489 | 0.625 | 0.625 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1426-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1427-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1429-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1431-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1433-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1435-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2752,20 +5317,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-727-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1443-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-728-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1444-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-730-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1446-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-732-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1448-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-734-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1450-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1452-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | F      | Controle     |  78 |   0.047 |    0.094 |     0.082 |      0.100 |   0.087 |    0.072 |
+| tri.TF.pos | F      | Experimental |  56 |   0.191 |    0.109 |     0.138 |      0.105 |   0.039 |    0.086 |
+| tri.TF.pos | M      | Controle     |  71 |  -0.071 |    0.091 |    -0.101 |      0.117 |  -0.010 |    0.076 |
+| tri.TF.pos | M      | Experimental |  79 |   0.076 |    0.102 |     0.096 |      0.095 |   0.080 |    0.072 |
+
+| .y.        | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Controle     |        | F        | M            |    0.097 |   -0.110 |     0.303 | 0.105 |     0.921 | 0.358 | 0.358 | ns           |
+| tri.TF.pos | Experimental |        | F        | M            |   -0.041 |   -0.261 |     0.179 | 0.112 |    -0.367 | 0.714 | 0.714 | ns           |
+| tri.TF.pre | Controle     |        | F        | M            |    0.118 |   -0.151 |     0.388 | 0.137 |     0.866 | 0.387 | 0.387 | ns           |
+| tri.TF.pre | Experimental |        | F        | M            |    0.114 |   -0.173 |     0.401 | 0.146 |     0.784 | 0.434 | 0.434 | ns           |
+| tri.TF.pos |              | F      | Controle | Experimental |    0.048 |   -0.173 |     0.269 | 0.112 |     0.427 | 0.670 | 0.670 | ns           |
+| tri.TF.pos |              | M      | Controle | Experimental |   -0.090 |   -0.296 |     0.116 | 0.105 |    -0.857 | 0.392 | 0.392 | ns           |
+| tri.TF.pre |              | F      | Controle | Experimental |   -0.143 |   -0.431 |     0.144 | 0.146 |    -0.980 | 0.328 | 0.328 | ns           |
+| tri.TF.pre |              | M      | Controle | Experimental |   -0.147 |   -0.416 |     0.121 | 0.136 |    -1.081 | 0.280 | 0.280 | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |    0.021 |   -0.243 |     0.285 | 0.135 |     0.155 | 0.877 | 0.877 | ns           |
+| Controle     | M      | pre    | pos    |    0.047 |   -0.223 |     0.317 | 0.137 |     0.342 | 0.732 | 0.732 | ns           |
+| Experimental | F      | pre    | pos    |    0.060 |   -0.253 |     0.373 | 0.159 |     0.377 | 0.706 | 0.706 | ns           |
+| Experimental | M      | pre    | pos    |   -0.021 |   -0.282 |     0.239 | 0.133 |    -0.162 | 0.871 | 0.871 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1460-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1461-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1463-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1465-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1467-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1469-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2797,20 +5407,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-744-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1477-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-745-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1478-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-747-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1480-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1482-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-751-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1484-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-753-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1486-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | genero | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | F      | Controle     |  78 |   0.117 |    0.104 |     0.324 |      0.093 |   0.228 |    0.069 |
+| tri.TO.pos | F      | Experimental |  56 |   0.214 |    0.126 |     0.407 |      0.132 |   0.239 |    0.081 |
+| tri.TO.pos | M      | Controle     |  71 |  -0.214 |    0.094 |    -0.076 |      0.104 |   0.076 |    0.072 |
+| tri.TO.pos | M      | Experimental |  79 |  -0.112 |    0.096 |    -0.073 |      0.101 |   0.004 |    0.068 |
+
+| .y.        | grupo        | genero | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle     |        | F        | M            |    0.152 |   -0.046 |     0.349 | 0.100 |     1.513 | 0.131 | 0.131 | ns           |
+| tri.TO.pos | Experimental |        | F        | M            |    0.235 |    0.025 |     0.445 | 0.107 |     2.205 | 0.028 | 0.028 | \*           |
+| tri.TO.pre | Controle     |        | F        | M            |    0.331 |    0.048 |     0.614 | 0.144 |     2.302 | 0.022 | 0.022 | \*           |
+| tri.TO.pre | Experimental |        | F        | M            |    0.327 |    0.025 |     0.628 | 0.153 |     2.133 | 0.034 | 0.034 | \*           |
+| tri.TO.pos |              | F      | Controle | Experimental |   -0.011 |   -0.220 |     0.198 | 0.106 |    -0.100 | 0.920 | 0.920 | ns           |
+| tri.TO.pos |              | M      | Controle | Experimental |    0.073 |   -0.122 |     0.268 | 0.099 |     0.734 | 0.463 | 0.463 | ns           |
+| tri.TO.pre |              | F      | Controle | Experimental |   -0.097 |   -0.399 |     0.205 | 0.154 |    -0.632 | 0.528 | 0.528 | ns           |
+| tri.TO.pre |              | M      | Controle | Experimental |   -0.101 |   -0.384 |     0.181 | 0.143 |    -0.708 | 0.480 | 0.480 | ns           |
+
+| grupo        | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | F      | pre    | pos    |   -0.200 |   -0.470 |     0.069 | 0.137 |    -1.460 | 0.145 | 0.145 | ns           |
+| Controle     | M      | pre    | pos    |   -0.168 |   -0.444 |     0.107 | 0.140 |    -1.203 | 0.229 | 0.229 | ns           |
+| Experimental | F      | pre    | pos    |   -0.220 |   -0.540 |     0.099 | 0.163 |    -1.356 | 0.176 | 0.176 | ns           |
+| Experimental | M      | pre    | pos    |   -0.047 |   -0.313 |     0.218 | 0.135 |    -0.350 | 0.727 | 0.727 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1494-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1495-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1497-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1499-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1501-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1503-1.png)<!-- -->
 
 ## factores: **idade:grupo**
 
@@ -2876,20 +5531,97 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-761-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1511-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-762-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1512-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-764-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1514-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-766-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1516-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-768-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1518-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-770-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1520-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | 10y   | Controle     |  28 |  71.643 |    1.921 |    70.429 |      2.665 |  68.857 |    2.028 |
+| tri.CLPP.pos | 10y   | Experimental |  27 |  69.556 |    2.636 |    67.667 |      3.227 |  67.512 |    2.062 |
+| tri.CLPP.pos | 11y   | Controle     |  84 |  68.917 |    1.751 |    72.429 |      1.604 |  72.707 |    1.169 |
+| tri.CLPP.pos | 11y   | Experimental |  82 |  71.927 |    1.474 |    73.183 |      1.443 |  71.419 |    1.190 |
+| tri.CLPP.pos | 12y   | Controle     |  20 |  64.650 |    2.648 |    59.450 |      3.581 |  62.623 |    2.406 |
+| tri.CLPP.pos | 12y   | Experimental |  16 |  67.000 |    4.294 |    67.250 |      3.734 |  68.829 |    2.681 |
+| tri.CLPP.pos | 13y   | Controle     |   8 |  60.875 |    4.430 |    65.500 |      3.268 |  71.235 |    3.809 |
+| tri.CLPP.pos | 13y   | Experimental |   7 |  62.000 |    4.146 |    65.571 |      4.999 |  70.543 |    4.065 |
+
+| .y.          | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-------------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.CLPP.pos | Controle     |       | 10y      | 11y          |   -3.850 |   -8.461 |     0.762 | 2.342 |    -1.644 | 0.101   | 0.608 | ns           |
+| tri.CLPP.pos | Controle     |       | 10y      | 12y          |    6.234 |    0.023 |    12.445 | 3.154 |     1.976 | 0.049   | 0.295 | ns           |
+| tri.CLPP.pos | Controle     |       | 10y      | 13y          |   -2.377 |  -10.894 |     6.140 | 4.326 |    -0.550 | 0.583   | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |       | 11y      | 12y          |   10.084 |    4.819 |    15.348 | 2.674 |     3.771 | \<0.001 | 0.001 | \*\*         |
+| tri.CLPP.pos | Controle     |       | 11y      | 13y          |    1.472 |   -6.370 |     9.315 | 3.983 |     0.370 | 0.712   | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |       | 12y      | 13y          |   -8.611 |  -17.445 |     0.223 | 4.486 |    -1.919 | 0.056   | 0.336 | ns           |
+| tri.CLPP.pos | Experimental |       | 10y      | 11y          |   -3.907 |   -8.594 |     0.780 | 2.380 |    -1.642 | 0.102   | 0.611 | ns           |
+| tri.CLPP.pos | Experimental |       | 10y      | 12y          |   -1.317 |   -7.978 |     5.344 | 3.383 |    -0.389 | 0.697   | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |       | 10y      | 13y          |   -3.031 |  -12.008 |     5.946 | 4.559 |    -0.665 | 0.507   | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |       | 11y      | 12y          |    2.590 |   -3.195 |     8.375 | 2.938 |     0.882 | 0.379   | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |       | 11y      | 13y          |    0.876 |   -7.483 |     9.235 | 4.245 |     0.206 | 0.837   | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |       | 12y      | 13y          |   -1.714 |  -11.287 |     7.859 | 4.862 |    -0.353 | 0.725   | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |       | 10y      | 11y          |    2.726 |   -3.325 |     8.778 | 3.073 |     0.887 | 0.376   | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |       | 10y      | 12y          |    6.993 |   -1.126 |    15.112 | 4.123 |     1.696 | 0.091   | 0.547 | ns           |
+| tri.CLPP.pre | Controle     |       | 10y      | 13y          |   10.768 |   -0.350 |    21.885 | 5.646 |     1.907 | 0.058   | 0.346 | ns           |
+| tri.CLPP.pre | Controle     |       | 11y      | 12y          |    4.267 |   -2.633 |    11.167 | 3.504 |     1.218 | 0.224   | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |       | 11y      | 13y          |    8.042 |   -2.219 |    18.303 | 5.211 |     1.543 | 0.124   | 0.744 | ns           |
+| tri.CLPP.pre | Controle     |       | 12y      | 13y          |    3.775 |   -7.826 |    15.376 | 5.892 |     0.641 | 0.522   | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |       | 10y      | 11y          |   -2.371 |   -8.524 |     3.782 | 3.125 |    -0.759 | 0.449   | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |       | 10y      | 12y          |    2.556 |   -6.194 |    11.305 | 4.444 |     0.575 | 0.566   | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |       | 10y      | 13y          |    7.556 |   -4.207 |    19.318 | 5.974 |     1.265 | 0.207   | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |       | 11y      | 12y          |    4.927 |   -2.652 |    12.506 | 3.849 |     1.280 | 0.202   | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |       | 11y      | 13y          |    9.927 |   -0.993 |    20.847 | 5.546 |     1.790 | 0.075   | 0.448 | ns           |
+| tri.CLPP.pre | Experimental |       | 12y      | 13y          |    5.000 |   -7.567 |    17.567 | 6.382 |     0.783 | 0.434   | 1.000 | ns           |
+| tri.CLPP.pos |              | 10y   | Controle | Experimental |    1.346 |   -4.349 |     7.040 | 2.892 |     0.465 | 0.642   | 0.642 | ns           |
+| tri.CLPP.pos |              | 11y   | Controle | Experimental |    1.288 |   -1.999 |     4.575 | 1.670 |     0.771 | 0.441   | 0.441 | ns           |
+| tri.CLPP.pos |              | 12y   | Controle | Experimental |   -6.206 |  -13.286 |     0.875 | 3.596 |    -1.726 | 0.086   | 0.086 | ns           |
+| tri.CLPP.pos |              | 13y   | Controle | Experimental |    0.692 |  -10.229 |    11.613 | 5.546 |     0.125 | 0.901   | 0.901 | ns           |
+| tri.CLPP.pre |              | 10y   | Controle | Experimental |    2.087 |   -5.393 |     9.567 | 3.799 |     0.549 | 0.583   | 0.583 | ns           |
+| tri.CLPP.pre |              | 11y   | Controle | Experimental |   -3.010 |   -7.315 |     1.295 | 2.186 |    -1.377 | 0.17    | 0.170 | ns           |
+| tri.CLPP.pre |              | 12y   | Controle | Experimental |   -2.350 |  -11.651 |     6.951 | 4.724 |    -0.497 | 0.619   | 0.619 | ns           |
+| tri.CLPP.pre |              | 13y   | Controle | Experimental |   -1.125 |  -15.478 |    13.228 | 7.289 |    -0.154 | 0.877   | 0.877 | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |   -0.017 |   -0.482 |     0.448 | 0.237 |    -0.072 | 0.943 | 0.943 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.110 |   -0.381 |     0.161 | 0.138 |    -0.798 | 0.425 | 0.425 | ns           |
+| Controle     | 12y   | pre    | pos    |    0.324 |   -0.207 |     0.855 | 0.270 |     1.198 | 0.231 | 0.231 | ns           |
+| Controle     | 13y   | pre    | pos    |   -0.407 |   -1.260 |     0.447 | 0.435 |    -0.936 | 0.350 | 0.350 | ns           |
+| Experimental | 10y   | pre    | pos    |   -0.090 |   -0.580 |     0.399 | 0.249 |    -0.363 | 0.717 | 0.717 | ns           |
+| Experimental | 11y   | pre    | pos    |   -0.057 |   -0.332 |     0.218 | 0.140 |    -0.407 | 0.684 | 0.684 | ns           |
+| Experimental | 12y   | pre    | pos    |    0.010 |   -0.607 |     0.627 | 0.314 |     0.032 | 0.974 | 0.974 | ns           |
+| Experimental | 13y   | pre    | pos    |    0.109 |   -0.745 |     0.962 | 0.435 |     0.250 | 0.803 | 0.803 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1528-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1529-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1531-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1533-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1535-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1537-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2963,15 +5695,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-779-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1546-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-781-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1548-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-783-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1550-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-785-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1552-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-787-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1554-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | 10y   | Controle     |  28 |   0.120 |    0.118 |     0.243 |      0.126 |   0.207 |    0.114 |
+| tri.CR.pos | 10y   | Experimental |  27 |   0.075 |    0.156 |     0.103 |      0.125 |   0.096 |    0.116 |
+| tri.CR.pos | 11y   | Controle     |  84 |  -0.053 |    0.088 |     0.174 |      0.087 |   0.248 |    0.066 |
+| tri.CR.pos | 11y   | Experimental |  82 |   0.263 |    0.089 |     0.225 |      0.087 |   0.098 |    0.067 |
+| tri.CR.pos | 12y   | Controle     |  20 |  -0.001 |    0.156 |    -0.522 |      0.223 |  -0.481 |    0.135 |
+| tri.CR.pos | 12y   | Experimental |  16 |   0.094 |    0.231 |    -0.095 |      0.201 |  -0.114 |    0.151 |
+| tri.CR.pos | 13y   | Controle     |   8 |  -0.398 |    0.268 |    -0.431 |      0.282 |  -0.136 |    0.214 |
+| tri.CR.pos | 13y   | Experimental |   7 |  -0.480 |    0.319 |     0.016 |      0.304 |   0.362 |    0.229 |
+
+| .y.        | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.CR.pos | Controle     |       | 10y      | 11y          |   -0.041 |   -0.301 |     0.219 | 0.132 |    -0.311 | 0.756   | 1       | ns           |
+| tri.CR.pos | Controle     |       | 10y      | 12y          |    0.688 |    0.340 |     1.036 | 0.177 |     3.895 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.CR.pos | Controle     |       | 10y      | 13y          |    0.343 |   -0.135 |     0.822 | 0.243 |     1.413 | 0.159   | 0.953   | ns           |
+| tri.CR.pos | Controle     |       | 11y      | 12y          |    0.729 |    0.433 |     1.024 | 0.150 |     4.858 | \<0.001 | \<0.001 | \*\*\*\*     |
+| tri.CR.pos | Controle     |       | 11y      | 13y          |    0.384 |   -0.056 |     0.825 | 0.224 |     1.718 | 0.087   | 0.522   | ns           |
+| tri.CR.pos | Controle     |       | 12y      | 13y          |   -0.345 |   -0.843 |     0.153 | 0.253 |    -1.362 | 0.174   | 1       | ns           |
+| tri.CR.pos | Experimental |       | 10y      | 11y          |   -0.002 |   -0.266 |     0.262 | 0.134 |    -0.013 | 0.99    | 1       | ns           |
+| tri.CR.pos | Experimental |       | 10y      | 12y          |    0.211 |   -0.164 |     0.585 | 0.190 |     1.108 | 0.269   | 1       | ns           |
+| tri.CR.pos | Experimental |       | 10y      | 13y          |   -0.266 |   -0.772 |     0.240 | 0.257 |    -1.034 | 0.302   | 1       | ns           |
+| tri.CR.pos | Experimental |       | 11y      | 12y          |    0.213 |   -0.112 |     0.537 | 0.165 |     1.288 | 0.199   | 1       | ns           |
+| tri.CR.pos | Experimental |       | 11y      | 13y          |   -0.264 |   -0.737 |     0.209 | 0.240 |    -1.100 | 0.272   | 1       | ns           |
+| tri.CR.pos | Experimental |       | 12y      | 13y          |   -0.477 |   -1.017 |     0.064 | 0.275 |    -1.736 | 0.084   | 0.503   | ns           |
+| tri.CR.pre | Controle     |       | 10y      | 11y          |    0.173 |   -0.166 |     0.512 | 0.172 |     1.005 | 0.316   | 1       | ns           |
+| tri.CR.pre | Controle     |       | 10y      | 12y          |    0.121 |   -0.334 |     0.575 | 0.231 |     0.523 | 0.602   | 1       | ns           |
+| tri.CR.pre | Controle     |       | 10y      | 13y          |    0.518 |   -0.104 |     1.141 | 0.316 |     1.639 | 0.102   | 0.614   | ns           |
+| tri.CR.pre | Controle     |       | 11y      | 12y          |   -0.052 |   -0.439 |     0.334 | 0.196 |    -0.267 | 0.79    | 1       | ns           |
+| tri.CR.pre | Controle     |       | 11y      | 13y          |    0.345 |   -0.229 |     0.920 | 0.292 |     1.183 | 0.238   | 1       | ns           |
+| tri.CR.pre | Controle     |       | 12y      | 13y          |    0.398 |   -0.252 |     1.047 | 0.330 |     1.205 | 0.229   | 1       | ns           |
+| tri.CR.pre | Experimental |       | 10y      | 11y          |   -0.189 |   -0.533 |     0.156 | 0.175 |    -1.078 | 0.282   | 1       | ns           |
+| tri.CR.pre | Experimental |       | 10y      | 12y          |   -0.020 |   -0.510 |     0.470 | 0.249 |    -0.080 | 0.937   | 1       | ns           |
+| tri.CR.pre | Experimental |       | 10y      | 13y          |    0.554 |   -0.104 |     1.213 | 0.334 |     1.657 | 0.099   | 0.593   | ns           |
+| tri.CR.pre | Experimental |       | 11y      | 12y          |    0.169 |   -0.256 |     0.593 | 0.216 |     0.783 | 0.434   | 1       | ns           |
+| tri.CR.pre | Experimental |       | 11y      | 13y          |    0.743 |    0.131 |     1.354 | 0.311 |     2.392 | 0.017   | 0.105   | ns           |
+| tri.CR.pre | Experimental |       | 12y      | 13y          |    0.574 |   -0.130 |     1.278 | 0.357 |     1.606 | 0.109   | 0.657   | ns           |
+| tri.CR.pos |              | 10y   | Controle | Experimental |    0.111 |   -0.209 |     0.431 | 0.163 |     0.681 | 0.496   | 0.496   | ns           |
+| tri.CR.pos |              | 11y   | Controle | Experimental |    0.150 |   -0.036 |     0.337 | 0.095 |     1.584 | 0.114   | 0.114   | ns           |
+| tri.CR.pos |              | 12y   | Controle | Experimental |   -0.366 |   -0.765 |     0.032 | 0.202 |    -1.810 | 0.071   | 0.071   | ns           |
+| tri.CR.pos |              | 13y   | Controle | Experimental |   -0.498 |   -1.113 |     0.116 | 0.312 |    -1.596 | 0.112   | 0.112   | ns           |
+| tri.CR.pre |              | 10y   | Controle | Experimental |    0.045 |   -0.373 |     0.464 | 0.213 |     0.213 | 0.831   | 0.831   | ns           |
+| tri.CR.pre |              | 11y   | Controle | Experimental |   -0.316 |   -0.557 |    -0.075 | 0.122 |    -2.583 | 0.01    | 0.01    | \*           |
+| tri.CR.pre |              | 12y   | Controle | Experimental |   -0.095 |   -0.616 |     0.426 | 0.265 |    -0.360 | 0.719   | 0.719   | ns           |
+| tri.CR.pre |              | 13y   | Controle | Experimental |    0.081 |   -0.722 |     0.885 | 0.408 |     0.199 | 0.842   | 0.842   | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |   -0.085 |   -0.481 |     0.311 | 0.202 |    -0.421 | 0.674 | 0.674 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.196 |   -0.427 |     0.035 | 0.117 |    -1.670 | 0.096 | 0.096 | ns           |
+| Controle     | 12y   | pre    | pos    |    0.452 |   -0.001 |     0.904 | 0.231 |     1.959 | 0.051 | 0.051 | ns           |
+| Controle     | 13y   | pre    | pos    |   -0.094 |   -0.822 |     0.633 | 0.370 |    -0.254 | 0.799 | 0.799 | ns           |
+| Experimental | 10y   | pre    | pos    |   -0.029 |   -0.446 |     0.389 | 0.213 |    -0.134 | 0.893 | 0.893 | ns           |
+| Experimental | 11y   | pre    | pos    |    0.066 |   -0.169 |     0.301 | 0.119 |     0.552 | 0.581 | 0.581 | ns           |
+| Experimental | 12y   | pre    | pos    |    0.218 |   -0.308 |     0.744 | 0.268 |     0.813 | 0.417 | 0.417 | ns           |
+| Experimental | 13y   | pre    | pos    |   -0.262 |   -0.990 |     0.466 | 0.370 |    -0.707 | 0.480 | 0.480 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1562-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1563-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1565-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1567-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1569-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1571-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -3045,15 +5854,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-796-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1580-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-798-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1582-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-800-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1584-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1586-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1588-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | 10y   | Controle     |  28 |   0.030 |    0.144 |     0.185 |      0.170 |   0.179 |    0.115 |
+| tri.CI.pos | 10y   | Experimental |  27 |  -0.012 |    0.152 |     0.280 |      0.162 |   0.308 |    0.117 |
+| tri.CI.pos | 11y   | Controle     |  84 |   0.029 |    0.097 |     0.074 |      0.106 |   0.069 |    0.066 |
+| tri.CI.pos | 11y   | Experimental |  82 |   0.124 |    0.095 |     0.256 |      0.096 |   0.175 |    0.067 |
+| tri.CI.pos | 12y   | Controle     |  20 |   0.064 |    0.151 |    -0.164 |      0.205 |  -0.198 |    0.136 |
+| tri.CI.pos | 12y   | Experimental |  16 |  -0.061 |    0.250 |     0.089 |      0.217 |   0.155 |    0.152 |
+| tri.CI.pos | 13y   | Controle     |   8 |  -0.423 |    0.150 |    -0.311 |      0.303 |   0.046 |    0.215 |
+| tri.CI.pos | 13y   | Experimental |   7 |  -0.567 |    0.330 |     0.161 |      0.306 |   0.633 |    0.231 |
+
+| .y.        | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Controle     |       | 10y      | 11y          |    0.110 |   -0.150 |     0.370 | 0.132 |     0.832 | 0.406 | 1.000 | ns           |
+| tri.CI.pos | Controle     |       | 10y      | 12y          |    0.377 |    0.027 |     0.726 | 0.177 |     2.124 | 0.035 | 0.208 | ns           |
+| tri.CI.pos | Controle     |       | 10y      | 13y          |    0.133 |   -0.347 |     0.613 | 0.244 |     0.547 | 0.585 | 1.000 | ns           |
+| tri.CI.pos | Controle     |       | 11y      | 12y          |    0.267 |   -0.030 |     0.564 | 0.151 |     1.769 | 0.078 | 0.468 | ns           |
+| tri.CI.pos | Controle     |       | 11y      | 13y          |    0.023 |   -0.420 |     0.467 | 0.225 |     0.104 | 0.917 | 1.000 | ns           |
+| tri.CI.pos | Controle     |       | 12y      | 13y          |   -0.243 |   -0.744 |     0.258 | 0.254 |    -0.957 | 0.340 | 1.000 | ns           |
+| tri.CI.pos | Experimental |       | 10y      | 11y          |    0.133 |   -0.132 |     0.398 | 0.135 |     0.991 | 0.322 | 1.000 | ns           |
+| tri.CI.pos | Experimental |       | 10y      | 12y          |    0.153 |   -0.224 |     0.529 | 0.191 |     0.798 | 0.425 | 1.000 | ns           |
+| tri.CI.pos | Experimental |       | 10y      | 13y          |   -0.325 |   -0.834 |     0.183 | 0.258 |    -1.259 | 0.209 | 1.000 | ns           |
+| tri.CI.pos | Experimental |       | 11y      | 12y          |    0.019 |   -0.307 |     0.346 | 0.166 |     0.116 | 0.908 | 1.000 | ns           |
+| tri.CI.pos | Experimental |       | 11y      | 13y          |   -0.459 |   -0.932 |     0.015 | 0.241 |    -1.906 | 0.058 | 0.346 | ns           |
+| tri.CI.pos | Experimental |       | 12y      | 13y          |   -0.478 |   -1.020 |     0.065 | 0.276 |    -1.734 | 0.084 | 0.504 | ns           |
+| tri.CI.pre | Controle     |       | 10y      | 11y          |    0.001 |   -0.360 |     0.362 | 0.183 |     0.007 | 0.995 | 1.000 | ns           |
+| tri.CI.pre | Controle     |       | 10y      | 12y          |   -0.034 |   -0.519 |     0.451 | 0.246 |    -0.138 | 0.891 | 1.000 | ns           |
+| tri.CI.pre | Controle     |       | 10y      | 13y          |    0.453 |   -0.211 |     1.117 | 0.337 |     1.344 | 0.180 | 1.000 | ns           |
+| tri.CI.pre | Controle     |       | 11y      | 12y          |   -0.035 |   -0.447 |     0.377 | 0.209 |    -0.168 | 0.867 | 1.000 | ns           |
+| tri.CI.pre | Controle     |       | 11y      | 13y          |    0.452 |   -0.161 |     1.064 | 0.311 |     1.452 | 0.148 | 0.886 | ns           |
+| tri.CI.pre | Controle     |       | 12y      | 13y          |    0.487 |   -0.206 |     1.179 | 0.352 |     1.384 | 0.167 | 1.000 | ns           |
+| tri.CI.pre | Experimental |       | 10y      | 11y          |   -0.136 |   -0.504 |     0.231 | 0.187 |    -0.731 | 0.465 | 1.000 | ns           |
+| tri.CI.pre | Experimental |       | 10y      | 12y          |    0.049 |   -0.474 |     0.571 | 0.265 |     0.183 | 0.855 | 1.000 | ns           |
+| tri.CI.pre | Experimental |       | 10y      | 13y          |    0.554 |   -0.148 |     1.257 | 0.357 |     1.555 | 0.121 | 0.727 | ns           |
+| tri.CI.pre | Experimental |       | 11y      | 12y          |    0.185 |   -0.267 |     0.638 | 0.230 |     0.805 | 0.421 | 1.000 | ns           |
+| tri.CI.pre | Experimental |       | 11y      | 13y          |    0.691 |    0.039 |     1.343 | 0.331 |     2.087 | 0.038 | 0.227 | ns           |
+| tri.CI.pre | Experimental |       | 12y      | 13y          |    0.506 |   -0.244 |     1.256 | 0.381 |     1.328 | 0.185 | 1.000 | ns           |
+| tri.CI.pos |              | 10y   | Controle | Experimental |   -0.129 |   -0.451 |     0.193 | 0.163 |    -0.787 | 0.432 | 0.432 | ns           |
+| tri.CI.pos |              | 11y   | Controle | Experimental |   -0.105 |   -0.291 |     0.080 | 0.094 |    -1.117 | 0.265 | 0.265 | ns           |
+| tri.CI.pos |              | 12y   | Controle | Experimental |   -0.353 |   -0.753 |     0.048 | 0.203 |    -1.735 | 0.084 | 0.084 | ns           |
+| tri.CI.pos |              | 13y   | Controle | Experimental |   -0.587 |   -1.205 |     0.030 | 0.314 |    -1.872 | 0.062 | 0.062 | ns           |
+| tri.CI.pre |              | 10y   | Controle | Experimental |    0.042 |   -0.404 |     0.489 | 0.227 |     0.186 | 0.853 | 0.853 | ns           |
+| tri.CI.pre |              | 11y   | Controle | Experimental |   -0.095 |   -0.352 |     0.162 | 0.131 |    -0.731 | 0.465 | 0.465 | ns           |
+| tri.CI.pre |              | 12y   | Controle | Experimental |    0.125 |   -0.431 |     0.680 | 0.282 |     0.442 | 0.659 | 0.659 | ns           |
+| tri.CI.pre |              | 13y   | Controle | Experimental |    0.144 |   -0.713 |     1.001 | 0.435 |     0.330 | 0.742 | 0.742 | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |   -0.183 |   -0.621 |     0.256 | 0.223 |    -0.818 | 0.414 | 0.414 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.014 |   -0.269 |     0.241 | 0.130 |    -0.108 | 0.914 | 0.914 | ns           |
+| Controle     | 12y   | pre    | pos    |    0.079 |   -0.422 |     0.580 | 0.255 |     0.308 | 0.758 | 0.758 | ns           |
+| Controle     | 13y   | pre    | pos    |   -0.209 |   -1.014 |     0.596 | 0.410 |    -0.509 | 0.611 | 0.611 | ns           |
+| Experimental | 10y   | pre    | pos    |   -0.292 |   -0.755 |     0.170 | 0.235 |    -1.243 | 0.214 | 0.214 | ns           |
+| Experimental | 11y   | pre    | pos    |   -0.151 |   -0.410 |     0.109 | 0.132 |    -1.138 | 0.255 | 0.255 | ns           |
+| Experimental | 12y   | pre    | pos    |   -0.118 |   -0.700 |     0.464 | 0.296 |    -0.398 | 0.691 | 0.691 | ns           |
+| Experimental | 13y   | pre    | pos    |   -0.431 |   -1.236 |     0.375 | 0.410 |    -1.050 | 0.294 | 0.294 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1596-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1597-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1599-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1601-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1603-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1605-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -3127,15 +6013,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-813-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1614-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1616-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1618-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1620-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-821-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1622-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | 10y   | Controle     |  28 |   0.216 |    0.116 |     0.216 |      0.123 |   0.131 |    0.123 |
+| tri.TV.pos | 10y   | Experimental |  27 |   0.072 |    0.149 |     0.022 |      0.140 |   0.018 |    0.125 |
+| tri.TV.pos | 11y   | Controle     |  84 |   0.063 |    0.088 |     0.163 |      0.096 |   0.165 |    0.071 |
+| tri.TV.pos | 11y   | Experimental |  82 |   0.192 |    0.086 |     0.176 |      0.086 |   0.104 |    0.072 |
+| tri.TV.pos | 12y   | Controle     |  20 |  -0.313 |    0.172 |    -0.663 |      0.150 |  -0.448 |    0.146 |
+| tri.TV.pos | 12y   | Experimental |  16 |   0.047 |    0.213 |     0.047 |      0.200 |   0.057 |    0.162 |
+| tri.TV.pos | 13y   | Controle     |   8 |  -0.258 |    0.367 |    -0.305 |      0.218 |  -0.122 |    0.230 |
+| tri.TV.pos | 13y   | Experimental |   7 |  -0.536 |    0.371 |    -0.651 |      0.321 |  -0.310 |    0.247 |
+
+| .y.        | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-----------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.TV.pos | Controle     |       | 10y      | 11y          |   -0.034 |   -0.313 |     0.245 | 0.142 |    -0.241 | 0.81    | 1.000 | ns           |
+| tri.TV.pos | Controle     |       | 10y      | 12y          |    0.579 |    0.201 |     0.956 | 0.192 |     3.018 | 0.003   | 0.017 | \*           |
+| tri.TV.pos | Controle     |       | 10y      | 13y          |    0.253 |   -0.262 |     0.767 | 0.261 |     0.967 | 0.334   | 1.000 | ns           |
+| tri.TV.pos | Controle     |       | 11y      | 12y          |    0.613 |    0.293 |     0.933 | 0.162 |     3.772 | \<0.001 | 0.001 | \*\*         |
+| tri.TV.pos | Controle     |       | 11y      | 13y          |    0.287 |   -0.187 |     0.760 | 0.240 |     1.192 | 0.234   | 1.000 | ns           |
+| tri.TV.pos | Controle     |       | 12y      | 13y          |   -0.326 |   -0.860 |     0.208 | 0.271 |    -1.202 | 0.23    | 1.000 | ns           |
+| tri.TV.pos | Experimental |       | 10y      | 11y          |   -0.085 |   -0.369 |     0.198 | 0.144 |    -0.592 | 0.554   | 1.000 | ns           |
+| tri.TV.pos | Experimental |       | 10y      | 12y          |   -0.039 |   -0.442 |     0.364 | 0.205 |    -0.192 | 0.848   | 1.000 | ns           |
+| tri.TV.pos | Experimental |       | 10y      | 13y          |    0.328 |   -0.217 |     0.873 | 0.277 |     1.185 | 0.237   | 1.000 | ns           |
+| tri.TV.pos | Experimental |       | 11y      | 12y          |    0.046 |   -0.303 |     0.395 | 0.177 |     0.260 | 0.795   | 1.000 | ns           |
+| tri.TV.pos | Experimental |       | 11y      | 13y          |    0.413 |   -0.095 |     0.921 | 0.258 |     1.602 | 0.11    | 0.662 | ns           |
+| tri.TV.pos | Experimental |       | 12y      | 13y          |    0.367 |   -0.214 |     0.949 | 0.295 |     1.243 | 0.215   | 1.000 | ns           |
+| tri.TV.pre | Controle     |       | 10y      | 11y          |    0.154 |   -0.185 |     0.492 | 0.172 |     0.894 | 0.372   | 1.000 | ns           |
+| tri.TV.pre | Controle     |       | 10y      | 12y          |    0.529 |    0.075 |     0.983 | 0.231 |     2.294 | 0.023   | 0.136 | ns           |
+| tri.TV.pre | Controle     |       | 10y      | 13y          |    0.474 |   -0.148 |     1.096 | 0.316 |     1.500 | 0.135   | 0.808 | ns           |
+| tri.TV.pre | Controle     |       | 11y      | 12y          |    0.375 |   -0.011 |     0.761 | 0.196 |     1.915 | 0.057   | 0.340 | ns           |
+| tri.TV.pre | Controle     |       | 11y      | 13y          |    0.320 |   -0.254 |     0.894 | 0.291 |     1.098 | 0.273   | 1.000 | ns           |
+| tri.TV.pre | Controle     |       | 12y      | 13y          |   -0.055 |   -0.704 |     0.594 | 0.330 |    -0.168 | 0.867   | 1.000 | ns           |
+| tri.TV.pre | Experimental |       | 10y      | 11y          |   -0.120 |   -0.464 |     0.224 | 0.175 |    -0.685 | 0.494   | 1.000 | ns           |
+| tri.TV.pre | Experimental |       | 10y      | 12y          |    0.025 |   -0.464 |     0.515 | 0.249 |     0.101 | 0.919   | 1.000 | ns           |
+| tri.TV.pre | Experimental |       | 10y      | 13y          |    0.608 |   -0.050 |     1.266 | 0.334 |     1.820 | 0.07    | 0.419 | ns           |
+| tri.TV.pre | Experimental |       | 11y      | 12y          |    0.145 |   -0.279 |     0.569 | 0.215 |     0.673 | 0.501   | 1.000 | ns           |
+| tri.TV.pre | Experimental |       | 11y      | 13y          |    0.728 |    0.117 |     1.339 | 0.310 |     2.346 | 0.02    | 0.118 | ns           |
+| tri.TV.pre | Experimental |       | 12y      | 13y          |    0.583 |   -0.120 |     1.286 | 0.357 |     1.633 | 0.104   | 0.622 | ns           |
+| tri.TV.pos |              | 10y   | Controle | Experimental |    0.112 |   -0.232 |     0.457 | 0.175 |     0.642 | 0.521   | 0.521 | ns           |
+| tri.TV.pos |              | 11y   | Controle | Experimental |    0.061 |   -0.137 |     0.260 | 0.101 |     0.608 | 0.544   | 0.544 | ns           |
+| tri.TV.pos |              | 12y   | Controle | Experimental |   -0.505 |   -0.935 |    -0.076 | 0.218 |    -2.315 | 0.021   | 0.021 | \*           |
+| tri.TV.pos |              | 13y   | Controle | Experimental |    0.188 |   -0.473 |     0.849 | 0.336 |     0.559 | 0.576   | 0.576 | ns           |
+| tri.TV.pre |              | 10y   | Controle | Experimental |    0.144 |   -0.275 |     0.562 | 0.212 |     0.677 | 0.499   | 0.499 | ns           |
+| tri.TV.pre |              | 11y   | Controle | Experimental |   -0.130 |   -0.370 |     0.111 | 0.122 |    -1.061 | 0.29    | 0.290 | ns           |
+| tri.TV.pre |              | 12y   | Controle | Experimental |   -0.360 |   -0.880 |     0.160 | 0.264 |    -1.363 | 0.174   | 0.174 | ns           |
+| tri.TV.pre |              | 13y   | Controle | Experimental |    0.278 |   -0.525 |     1.081 | 0.408 |     0.682 | 0.496   | 0.496 | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |    0.053 |   -0.350 |     0.456 | 0.205 |     0.256 | 0.798 | 0.798 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.074 |   -0.309 |     0.160 | 0.119 |    -0.622 | 0.534 | 0.534 | ns           |
+| Controle     | 12y   | pre    | pos    |    0.311 |   -0.149 |     0.772 | 0.234 |     1.327 | 0.185 | 0.185 | ns           |
+| Controle     | 13y   | pre    | pos    |   -0.141 |   -0.881 |     0.599 | 0.377 |    -0.375 | 0.708 | 0.708 | ns           |
+| Experimental | 10y   | pre    | pos    |    0.050 |   -0.375 |     0.475 | 0.216 |     0.232 | 0.817 | 0.817 | ns           |
+| Experimental | 11y   | pre    | pos    |    0.050 |   -0.189 |     0.289 | 0.122 |     0.410 | 0.682 | 0.682 | ns           |
+| Experimental | 12y   | pre    | pos    |   -0.016 |   -0.551 |     0.519 | 0.272 |    -0.060 | 0.953 | 0.953 | ns           |
+| Experimental | 13y   | pre    | pos    |    0.560 |   -0.180 |     1.300 | 0.377 |     1.486 | 0.138 | 0.138 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1630-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1631-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1633-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1635-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1637-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1639-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -3209,15 +6172,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-830-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1648-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-832-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1650-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-834-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1652-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-836-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1654-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-838-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1656-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | 10y   | Controle     |  28 |   0.019 |    0.157 |    -0.023 |      0.173 |   0.016 |    0.120 |
+| tri.TF.pos | 10y   | Experimental |  27 |   0.079 |    0.146 |    -0.014 |      0.148 |  -0.019 |    0.122 |
+| tri.TF.pos | 11y   | Controle     |  84 |   0.051 |    0.087 |     0.158 |      0.102 |   0.174 |    0.069 |
+| tri.TF.pos | 11y   | Experimental |  82 |   0.209 |    0.094 |     0.221 |      0.090 |   0.123 |    0.070 |
+| tri.TF.pos | 12y   | Controle     |  20 |  -0.154 |    0.183 |    -0.550 |      0.214 |  -0.389 |    0.142 |
+| tri.TF.pos | 12y   | Experimental |  16 |   0.044 |    0.237 |    -0.061 |      0.207 |  -0.041 |    0.158 |
+| tri.TF.pos | 13y   | Controle     |   8 |  -0.191 |    0.283 |     0.057 |      0.189 |   0.246 |    0.224 |
+| tri.TF.pos | 13y   | Experimental |   7 |  -0.085 |    0.337 |    -0.112 |      0.334 |   0.001 |    0.239 |
+
+| .y.        | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-----------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.TF.pos | Controle     |       | 10y      | 11y          |   -0.158 |   -0.430 |     0.114 | 0.138 |    -1.144 | 0.254   | 1.000 | ns           |
+| tri.TF.pos | Controle     |       | 10y      | 12y          |    0.404 |    0.039 |     0.770 | 0.186 |     2.178 | 0.03    | 0.182 | ns           |
+| tri.TF.pos | Controle     |       | 10y      | 13y          |   -0.230 |   -0.730 |     0.270 | 0.254 |    -0.906 | 0.366   | 1.000 | ns           |
+| tri.TF.pos | Controle     |       | 11y      | 12y          |    0.562 |    0.251 |     0.873 | 0.158 |     3.562 | \<0.001 | 0.003 | \*\*         |
+| tri.TF.pos | Controle     |       | 11y      | 13y          |   -0.072 |   -0.534 |     0.390 | 0.235 |    -0.307 | 0.759   | 1.000 | ns           |
+| tri.TF.pos | Controle     |       | 12y      | 13y          |   -0.634 |   -1.156 |    -0.113 | 0.265 |    -2.395 | 0.017   | 0.104 | ns           |
+| tri.TF.pos | Experimental |       | 10y      | 11y          |   -0.142 |   -0.419 |     0.135 | 0.141 |    -1.012 | 0.312   | 1.000 | ns           |
+| tri.TF.pos | Experimental |       | 10y      | 12y          |    0.022 |   -0.371 |     0.415 | 0.200 |     0.110 | 0.912   | 1.000 | ns           |
+| tri.TF.pos | Experimental |       | 10y      | 13y          |   -0.020 |   -0.549 |     0.509 | 0.269 |    -0.074 | 0.941   | 1.000 | ns           |
+| tri.TF.pos | Experimental |       | 11y      | 12y          |    0.164 |   -0.177 |     0.506 | 0.173 |     0.949 | 0.343   | 1.000 | ns           |
+| tri.TF.pos | Experimental |       | 11y      | 13y          |    0.122 |   -0.369 |     0.614 | 0.250 |     0.490 | 0.624   | 1.000 | ns           |
+| tri.TF.pos | Experimental |       | 12y      | 13y          |   -0.042 |   -0.607 |     0.523 | 0.287 |    -0.146 | 0.884   | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 10y      | 11y          |   -0.032 |   -0.387 |     0.323 | 0.180 |    -0.178 | 0.859   | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 10y      | 12y          |    0.172 |   -0.304 |     0.649 | 0.242 |     0.713 | 0.477   | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 10y      | 13y          |    0.210 |   -0.443 |     0.862 | 0.331 |     0.633 | 0.527   | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 11y      | 12y          |    0.205 |   -0.200 |     0.609 | 0.206 |     0.994 | 0.321   | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 11y      | 13y          |    0.242 |   -0.360 |     0.844 | 0.306 |     0.791 | 0.43    | 1.000 | ns           |
+| tri.TF.pre | Controle     |       | 12y      | 13y          |    0.037 |   -0.644 |     0.718 | 0.346 |     0.108 | 0.914   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 10y      | 11y          |   -0.130 |   -0.491 |     0.231 | 0.183 |    -0.711 | 0.478   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 10y      | 12y          |    0.035 |   -0.479 |     0.548 | 0.261 |     0.134 | 0.894   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 10y      | 13y          |    0.165 |   -0.526 |     0.855 | 0.351 |     0.469 | 0.639   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 11y      | 12y          |    0.165 |   -0.280 |     0.610 | 0.226 |     0.731 | 0.465   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 11y      | 13y          |    0.295 |   -0.346 |     0.936 | 0.325 |     0.906 | 0.366   | 1.000 | ns           |
+| tri.TF.pre | Experimental |       | 12y      | 13y          |    0.130 |   -0.608 |     0.867 | 0.375 |     0.346 | 0.729   | 1.000 | ns           |
+| tri.TF.pos |              | 10y   | Controle | Experimental |    0.035 |   -0.301 |     0.371 | 0.171 |     0.205 | 0.838   | 0.838 | ns           |
+| tri.TF.pos |              | 11y   | Controle | Experimental |    0.051 |   -0.143 |     0.245 | 0.099 |     0.514 | 0.607   | 0.607 | ns           |
+| tri.TF.pos |              | 12y   | Controle | Experimental |   -0.347 |   -0.766 |     0.071 | 0.213 |    -1.633 | 0.104   | 0.104 | ns           |
+| tri.TF.pos |              | 13y   | Controle | Experimental |    0.245 |   -0.400 |     0.891 | 0.328 |     0.748 | 0.455   | 0.455 | ns           |
+| tri.TF.pre |              | 10y   | Controle | Experimental |   -0.061 |   -0.500 |     0.378 | 0.223 |    -0.271 | 0.786   | 0.786 | ns           |
+| tri.TF.pre |              | 11y   | Controle | Experimental |   -0.159 |   -0.411 |     0.094 | 0.128 |    -1.238 | 0.217   | 0.217 | ns           |
+| tri.TF.pre |              | 12y   | Controle | Experimental |   -0.198 |   -0.744 |     0.348 | 0.277 |    -0.715 | 0.476   | 0.476 | ns           |
+| tri.TF.pre |              | 13y   | Controle | Experimental |   -0.106 |   -0.948 |     0.737 | 0.428 |    -0.247 | 0.805   | 0.805 | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |    0.117 |   -0.312 |     0.546 | 0.218 |     0.534 | 0.593 | 0.593 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.069 |   -0.319 |     0.180 | 0.127 |    -0.546 | 0.585 | 0.585 | ns           |
+| Controle     | 12y   | pre    | pos    |    0.449 |   -0.042 |     0.939 | 0.250 |     1.797 | 0.073 | 0.073 | ns           |
+| Controle     | 13y   | pre    | pos    |   -0.438 |   -1.226 |     0.350 | 0.401 |    -1.092 | 0.275 | 0.275 | ns           |
+| Experimental | 10y   | pre    | pos    |    0.093 |   -0.359 |     0.545 | 0.230 |     0.406 | 0.685 | 0.685 | ns           |
+| Experimental | 11y   | pre    | pos    |    0.013 |   -0.241 |     0.267 | 0.129 |     0.100 | 0.920 | 0.920 | ns           |
+| Experimental | 12y   | pre    | pos    |    0.189 |   -0.381 |     0.759 | 0.290 |     0.652 | 0.515 | 0.515 | ns           |
+| Experimental | 13y   | pre    | pos    |    0.171 |   -0.617 |     0.959 | 0.401 |     0.427 | 0.670 | 0.670 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1664-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1665-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1667-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1669-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1671-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1673-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -3291,15 +6331,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-847-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1682-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-849-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1684-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-851-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1686-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-853-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1688-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-855-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1690-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | idade | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | 10y   | Controle     |  28 |  -0.006 |    0.170 |     0.067 |      0.153 |   0.062 |    0.115 |
+| tri.TO.pos | 10y   | Experimental |  27 |  -0.079 |    0.155 |     0.013 |      0.171 |   0.063 |    0.117 |
+| tri.TO.pos | 11y   | Controle     |  84 |   0.044 |    0.099 |     0.268 |      0.099 |   0.226 |    0.067 |
+| tri.TO.pos | 11y   | Experimental |  82 |   0.137 |    0.103 |     0.267 |      0.112 |   0.154 |    0.068 |
+| tri.TO.pos | 12y   | Controle     |  20 |  -0.393 |    0.156 |    -0.222 |      0.169 |   0.064 |    0.137 |
+| tri.TO.pos | 12y   | Experimental |  16 |  -0.328 |    0.227 |    -0.267 |      0.216 |  -0.030 |    0.153 |
+| tri.TO.pos | 13y   | Controle     |   8 |  -0.296 |    0.228 |    -0.353 |      0.148 |  -0.140 |    0.216 |
+| tri.TO.pos | 13y   | Experimental |   7 |  -0.077 |    0.293 |    -0.313 |      0.158 |  -0.264 |    0.231 |
+
+| .y.        | grupo        | idade | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle     |       | 10y      | 11y          |   -0.164 |   -0.426 |     0.098 | 0.133 |    -1.230 | 0.220 | 1.000 | ns           |
+| tri.TO.pos | Controle     |       | 10y      | 12y          |   -0.002 |   -0.355 |     0.351 | 0.179 |    -0.011 | 0.991 | 1.000 | ns           |
+| tri.TO.pos | Controle     |       | 10y      | 13y          |    0.202 |   -0.280 |     0.684 | 0.245 |     0.826 | 0.410 | 1.000 | ns           |
+| tri.TO.pos | Controle     |       | 11y      | 12y          |    0.162 |   -0.139 |     0.463 | 0.153 |     1.058 | 0.291 | 1.000 | ns           |
+| tri.TO.pos | Controle     |       | 11y      | 13y          |    0.366 |   -0.079 |     0.811 | 0.226 |     1.619 | 0.107 | 0.640 | ns           |
+| tri.TO.pos | Controle     |       | 12y      | 13y          |    0.204 |   -0.298 |     0.707 | 0.255 |     0.801 | 0.424 | 1.000 | ns           |
+| tri.TO.pos | Experimental |       | 10y      | 11y          |   -0.091 |   -0.358 |     0.176 | 0.136 |    -0.672 | 0.502 | 1.000 | ns           |
+| tri.TO.pos | Experimental |       | 10y      | 12y          |    0.093 |   -0.287 |     0.472 | 0.193 |     0.481 | 0.631 | 1.000 | ns           |
+| tri.TO.pos | Experimental |       | 10y      | 13y          |    0.328 |   -0.182 |     0.837 | 0.259 |     1.266 | 0.206 | 1.000 | ns           |
+| tri.TO.pos | Experimental |       | 11y      | 12y          |    0.184 |   -0.147 |     0.514 | 0.168 |     1.095 | 0.274 | 1.000 | ns           |
+| tri.TO.pos | Experimental |       | 11y      | 13y          |    0.419 |   -0.054 |     0.892 | 0.240 |     1.742 | 0.083 | 0.496 | ns           |
+| tri.TO.pos | Experimental |       | 12y      | 13y          |    0.235 |   -0.310 |     0.779 | 0.277 |     0.849 | 0.397 | 1.000 | ns           |
+| tri.TO.pre | Controle     |       | 10y      | 11y          |   -0.050 |   -0.430 |     0.329 | 0.193 |    -0.261 | 0.794 | 1.000 | ns           |
+| tri.TO.pre | Controle     |       | 10y      | 12y          |    0.387 |   -0.122 |     0.896 | 0.259 |     1.496 | 0.136 | 0.815 | ns           |
+| tri.TO.pre | Controle     |       | 10y      | 13y          |    0.290 |   -0.408 |     0.987 | 0.354 |     0.818 | 0.414 | 1.000 | ns           |
+| tri.TO.pre | Controle     |       | 11y      | 12y          |    0.437 |    0.005 |     0.870 | 0.220 |     1.990 | 0.048 | 0.286 | ns           |
+| tri.TO.pre | Controle     |       | 11y      | 13y          |    0.340 |   -0.304 |     0.983 | 0.327 |     1.040 | 0.299 | 1.000 | ns           |
+| tri.TO.pre | Controle     |       | 12y      | 13y          |   -0.097 |   -0.825 |     0.630 | 0.370 |    -0.263 | 0.793 | 1.000 | ns           |
+| tri.TO.pre | Experimental |       | 10y      | 11y          |   -0.217 |   -0.602 |     0.169 | 0.196 |    -1.105 | 0.270 | 1.000 | ns           |
+| tri.TO.pre | Experimental |       | 10y      | 12y          |    0.249 |   -0.300 |     0.798 | 0.279 |     0.893 | 0.373 | 1.000 | ns           |
+| tri.TO.pre | Experimental |       | 10y      | 13y          |   -0.002 |   -0.740 |     0.736 | 0.375 |    -0.005 | 0.996 | 1.000 | ns           |
+| tri.TO.pre | Experimental |       | 11y      | 12y          |    0.465 |   -0.010 |     0.941 | 0.241 |     1.928 | 0.055 | 0.330 | ns           |
+| tri.TO.pre | Experimental |       | 11y      | 13y          |    0.214 |   -0.470 |     0.899 | 0.348 |     0.617 | 0.538 | 1.000 | ns           |
+| tri.TO.pre | Experimental |       | 12y      | 13y          |   -0.251 |   -1.039 |     0.537 | 0.400 |    -0.627 | 0.531 | 1.000 | ns           |
+| tri.TO.pos |              | 10y   | Controle | Experimental |   -0.001 |   -0.325 |     0.323 | 0.165 |    -0.007 | 0.994 | 0.994 | ns           |
+| tri.TO.pos |              | 11y   | Controle | Experimental |    0.071 |   -0.115 |     0.258 | 0.095 |     0.754 | 0.452 | 0.452 | ns           |
+| tri.TO.pos |              | 12y   | Controle | Experimental |    0.094 |   -0.309 |     0.496 | 0.205 |     0.457 | 0.648 | 0.648 | ns           |
+| tri.TO.pos |              | 13y   | Controle | Experimental |    0.124 |   -0.498 |     0.746 | 0.316 |     0.393 | 0.695 | 0.695 | ns           |
+| tri.TO.pre |              | 10y   | Controle | Experimental |    0.073 |   -0.396 |     0.542 | 0.238 |     0.306 | 0.760 | 0.760 | ns           |
+| tri.TO.pre |              | 11y   | Controle | Experimental |   -0.093 |   -0.363 |     0.177 | 0.137 |    -0.679 | 0.497 | 0.497 | ns           |
+| tri.TO.pre |              | 12y   | Controle | Experimental |   -0.065 |   -0.648 |     0.518 | 0.296 |    -0.220 | 0.826 | 0.826 | ns           |
+| tri.TO.pre |              | 13y   | Controle | Experimental |   -0.219 |   -1.119 |     0.681 | 0.457 |    -0.478 | 0.633 | 0.633 | ns           |
+
+| grupo        | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | 10y   | pre    | pos    |   -0.079 |   -0.528 |     0.371 | 0.229 |    -0.343 | 0.732 | 0.732 | ns           |
+| Controle     | 11y   | pre    | pos    |   -0.236 |   -0.498 |     0.026 | 0.133 |    -1.773 | 0.077 | 0.077 | ns           |
+| Controle     | 12y   | pre    | pos    |   -0.146 |   -0.660 |     0.368 | 0.262 |    -0.559 | 0.576 | 0.576 | ns           |
+| Controle     | 13y   | pre    | pos    |    0.086 |   -0.740 |     0.911 | 0.420 |     0.204 | 0.839 | 0.839 | ns           |
+| Experimental | 10y   | pre    | pos    |   -0.092 |   -0.566 |     0.382 | 0.241 |    -0.382 | 0.703 | 0.703 | ns           |
+| Experimental | 11y   | pre    | pos    |   -0.148 |   -0.414 |     0.118 | 0.136 |    -1.092 | 0.275 | 0.275 | ns           |
+| Experimental | 12y   | pre    | pos    |   -0.013 |   -0.610 |     0.584 | 0.304 |    -0.043 | 0.965 | 0.965 | ns           |
+| Experimental | 13y   | pre    | pos    |    0.213 |   -0.613 |     1.039 | 0.420 |     0.507 | 0.613 | 0.613 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1698-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1699-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1701-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1703-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1705-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1707-1.png)<!-- -->
 
 ## factores: **zona.participante:grupo**
 
@@ -3333,20 +6450,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-863-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1715-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-864-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1716-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-866-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1718-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-868-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1720-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-870-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1722-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-872-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1724-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Rural             | Controle     |  51 |  68.137 |    1.885 |    69.824 |      1.960 |  70.385 |    1.541 |
+| tri.CLPP.pos | Rural             | Experimental |  58 |  70.948 |    1.729 |    71.431 |      1.772 |  70.006 |    1.448 |
+| tri.CLPP.pos | Urbana            | Controle     |  64 |  68.594 |    1.876 |    70.859 |      1.952 |  71.098 |    1.375 |
+| tri.CLPP.pos | Urbana            | Experimental |  47 |  67.766 |    2.459 |    69.298 |      2.503 |  70.122 |    1.605 |
+
+| .y.          | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Controle     |                   | Urbana   | Rural        |    0.713 |   -3.356 |     4.783 | 2.065 |     0.345 | 0.730 | 0.730 | ns           |
+| tri.CLPP.pos | Experimental |                   | Urbana   | Rural        |    0.116 |   -4.151 |     4.383 | 2.165 |     0.054 | 0.957 | 0.957 | ns           |
+| tri.CLPP.pre | Controle     |                   | Urbana   | Rural        |    0.456 |   -4.954 |     5.867 | 2.745 |     0.166 | 0.868 | 0.868 | ns           |
+| tri.CLPP.pre | Experimental |                   | Urbana   | Rural        |   -3.182 |   -8.839 |     2.475 | 2.870 |    -1.109 | 0.269 | 0.269 | ns           |
+| tri.CLPP.pos |              | Urbana            | Controle | Experimental |    0.976 |   -3.189 |     5.142 | 2.113 |     0.462 | 0.645 | 0.645 | ns           |
+| tri.CLPP.pos |              | Rural             | Controle | Experimental |    0.379 |   -3.792 |     4.550 | 2.116 |     0.179 | 0.858 | 0.858 | ns           |
+| tri.CLPP.pre |              | Urbana            | Controle | Experimental |    0.828 |   -4.709 |     6.365 | 2.809 |     0.295 | 0.769 | 0.769 | ns           |
+| tri.CLPP.pre |              | Rural             | Controle | Experimental |   -2.811 |   -8.344 |     2.722 | 2.807 |    -1.001 | 0.318 | 0.318 | ns           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |   -0.088 |   -0.408 |     0.232 | 0.163 |    -0.541 | 0.589 | 0.589 | ns           |
+| Controle     | Rural             | pre    | pos    |    0.012 |   -0.352 |     0.376 | 0.185 |     0.065 | 0.949 | 0.949 | ns           |
+| Experimental | Urbana            | pre    | pos    |   -0.074 |   -0.449 |     0.301 | 0.191 |    -0.388 | 0.698 | 0.698 | ns           |
+| Experimental | Rural             | pre    | pos    |   -0.002 |   -0.350 |     0.346 | 0.177 |    -0.011 | 0.991 | 0.991 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1732-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1733-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1735-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1737-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1739-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1741-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -3378,20 +6540,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-880-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1749-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-881-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1750-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-883-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1752-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-885-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1754-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-887-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1756-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-889-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1758-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Rural             | Controle     |  51 |   0.002 |    0.103 |    -0.023 |      0.116 |  -0.005 |    0.089 |
+| tri.CR.pos | Rural             | Experimental |  58 |   0.160 |    0.112 |     0.216 |      0.107 |   0.132 |    0.084 |
+| tri.CR.pos | Urbana            | Controle     |  64 |  -0.084 |    0.101 |     0.146 |      0.107 |   0.219 |    0.080 |
+| tri.CR.pos | Urbana            | Experimental |  47 |   0.055 |    0.136 |     0.071 |      0.116 |   0.055 |    0.093 |
+
+| .y.        | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Controle     |                   | Urbana   | Rural        |    0.224 |   -0.011 |     0.460 | 0.119 |     1.876 | 0.062 | 0.062 | ns           |
+| tri.CR.pos | Experimental |                   | Urbana   | Rural        |   -0.078 |   -0.324 |     0.169 | 0.125 |    -0.622 | 0.535 | 0.535 | ns           |
+| tri.CR.pre | Controle     |                   | Urbana   | Rural        |   -0.087 |   -0.394 |     0.221 | 0.156 |    -0.555 | 0.579 | 0.579 | ns           |
+| tri.CR.pre | Experimental |                   | Urbana   | Rural        |   -0.105 |   -0.427 |     0.216 | 0.163 |    -0.647 | 0.519 | 0.519 | ns           |
+| tri.CR.pos |              | Urbana            | Controle | Experimental |    0.165 |   -0.077 |     0.406 | 0.122 |     1.344 | 0.180 | 0.180 | ns           |
+| tri.CR.pos |              | Rural             | Controle | Experimental |   -0.137 |   -0.378 |     0.104 | 0.122 |    -1.122 | 0.263 | 0.263 | ns           |
+| tri.CR.pre |              | Urbana            | Controle | Experimental |   -0.139 |   -0.453 |     0.175 | 0.160 |    -0.871 | 0.385 | 0.385 | ns           |
+| tri.CR.pre |              | Rural             | Controle | Experimental |   -0.158 |   -0.472 |     0.156 | 0.159 |    -0.990 | 0.323 | 0.323 | ns           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |   -0.164 |   -0.438 |     0.111 | 0.140 |    -1.171 | 0.242 | 0.242 | ns           |
+| Controle     | Rural             | pre    | pos    |    0.012 |   -0.300 |     0.325 | 0.159 |     0.078 | 0.938 | 0.938 | ns           |
+| Experimental | Urbana            | pre    | pos    |    0.041 |   -0.281 |     0.362 | 0.164 |     0.249 | 0.803 | 0.803 | ns           |
+| Experimental | Rural             | pre    | pos    |   -0.032 |   -0.330 |     0.267 | 0.152 |    -0.208 | 0.835 | 0.835 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1766-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1767-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1769-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1771-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1773-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1775-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -3423,20 +6630,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1783-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-898-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1784-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-900-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1786-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-902-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1788-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-904-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1790-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-906-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1792-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Rural             | Controle     |  51 |   0.083 |    0.109 |     0.061 |      0.133 |   0.012 |    0.084 |
+| tri.CI.pos | Rural             | Experimental |  58 |  -0.085 |    0.116 |     0.133 |      0.109 |   0.220 |    0.079 |
+| tri.CI.pos | Urbana            | Controle     |  64 |  -0.048 |    0.107 |    -0.021 |      0.122 |   0.037 |    0.075 |
+| tri.CI.pos | Urbana            | Experimental |  47 |   0.187 |    0.123 |     0.378 |      0.126 |   0.245 |    0.088 |
+
+| .y.        | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Controle     |                   | Urbana   | Rural        |    0.025 |   -0.197 |     0.247 | 0.113 |     0.220 | 0.826 | 0.826 | ns           |
+| tri.CI.pos | Experimental |                   | Urbana   | Rural        |    0.025 |   -0.208 |     0.258 | 0.118 |     0.213 | 0.831 | 0.831 | ns           |
+| tri.CI.pre | Controle     |                   | Urbana   | Rural        |   -0.131 |   -0.444 |     0.181 | 0.159 |    -0.829 | 0.408 | 0.408 | ns           |
+| tri.CI.pre | Experimental |                   | Urbana   | Rural        |    0.271 |   -0.055 |     0.598 | 0.166 |     1.637 | 0.103 | 0.103 | ns           |
+| tri.CI.pos |              | Urbana            | Controle | Experimental |   -0.208 |   -0.436 |     0.020 | 0.116 |    -1.800 | 0.073 | 0.073 | ns           |
+| tri.CI.pos |              | Rural             | Controle | Experimental |   -0.208 |   -0.435 |     0.020 | 0.115 |    -1.802 | 0.073 | 0.073 | ns           |
+| tri.CI.pre |              | Urbana            | Controle | Experimental |   -0.235 |   -0.555 |     0.085 | 0.162 |    -1.449 | 0.149 | 0.149 | ns           |
+| tri.CI.pre |              | Rural             | Controle | Experimental |    0.168 |   -0.152 |     0.487 | 0.162 |     1.035 | 0.302 | 0.302 | ns           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |    0.012 |   -0.278 |     0.301 | 0.147 |     0.079 | 0.937 | 0.937 | ns           |
+| Controle     | Rural             | pre    | pos    |   -0.041 |   -0.370 |     0.288 | 0.168 |    -0.245 | 0.807 | 0.807 | ns           |
+| Experimental | Urbana            | pre    | pos    |   -0.194 |   -0.533 |     0.145 | 0.173 |    -1.125 | 0.261 | 0.261 | ns           |
+| Experimental | Rural             | pre    | pos    |   -0.216 |   -0.531 |     0.099 | 0.160 |    -1.345 | 0.179 | 0.179 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1800-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1801-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1803-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1805-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1807-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1809-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -3468,20 +6720,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-914-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1817-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-915-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1818-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-917-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1820-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-919-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1822-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-921-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1824-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-923-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1826-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Rural             | Controle     |  51 |   0.034 |    0.104 |    -0.029 |      0.111 |   0.027 |    0.092 |
+| tri.TV.pos | Rural             | Experimental |  58 |   0.270 |    0.093 |     0.192 |      0.100 |   0.098 |    0.087 |
+| tri.TV.pos | Urbana            | Controle     |  64 |   0.163 |    0.096 |     0.200 |      0.104 |   0.174 |    0.082 |
+| tri.TV.pos | Urbana            | Experimental |  47 |  -0.022 |    0.134 |    -0.095 |      0.133 |  -0.004 |    0.096 |
+
+| .y.        | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Controle     |                   | Urbana   | Rural        |    0.147 |   -0.096 |     0.391 | 0.124 |     1.193 | 0.234 | 0.234 | ns           |
+| tri.TV.pos | Experimental |                   | Urbana   | Rural        |   -0.102 |   -0.358 |     0.155 | 0.130 |    -0.783 | 0.435 | 0.435 | ns           |
+| tri.TV.pre | Controle     |                   | Urbana   | Rural        |    0.129 |   -0.161 |     0.418 | 0.147 |     0.875 | 0.382 | 0.382 | ns           |
+| tri.TV.pre | Experimental |                   | Urbana   | Rural        |   -0.292 |   -0.595 |     0.011 | 0.154 |    -1.898 | 0.059 | 0.059 | ns           |
+| tri.TV.pos |              | Urbana            | Controle | Experimental |    0.178 |   -0.072 |     0.428 | 0.127 |     1.403 | 0.162 | 0.162 | ns           |
+| tri.TV.pos |              | Rural             | Controle | Experimental |   -0.072 |   -0.322 |     0.179 | 0.127 |    -0.563 | 0.574 | 0.574 | ns           |
+| tri.TV.pre |              | Urbana            | Controle | Experimental |    0.185 |   -0.112 |     0.481 | 0.150 |     1.227 | 0.221 | 0.221 | ns           |
+| tri.TV.pre |              | Rural             | Controle | Experimental |   -0.236 |   -0.532 |     0.061 | 0.150 |    -1.568 | 0.118 | 0.118 | ns           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |    0.013 |   -0.258 |     0.283 | 0.138 |     0.093 | 0.926 | 0.926 | ns           |
+| Controle     | Rural             | pre    | pos    |    0.038 |   -0.270 |     0.346 | 0.157 |     0.242 | 0.809 | 0.809 | ns           |
+| Experimental | Urbana            | pre    | pos    |    0.111 |   -0.206 |     0.428 | 0.161 |     0.689 | 0.491 | 0.491 | ns           |
+| Experimental | Rural             | pre    | pos    |    0.111 |   -0.183 |     0.406 | 0.150 |     0.744 | 0.457 | 0.457 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1834-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1835-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1837-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1839-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1841-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1843-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -3513,20 +6810,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1851-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-932-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1852-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-934-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1854-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-936-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1856-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-938-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1858-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-940-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1860-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Rural             | Controle     |  51 |  -0.037 |    0.104 |    -0.041 |      0.131 |   0.032 |    0.090 |
+| tri.TF.pos | Rural             | Experimental |  58 |   0.321 |    0.097 |     0.248 |      0.102 |   0.056 |    0.086 |
+| tri.TF.pos | Urbana            | Controle     |  64 |  -0.009 |    0.101 |     0.098 |      0.117 |   0.152 |    0.081 |
+| tri.TF.pos | Urbana            | Experimental |  47 |  -0.050 |    0.138 |    -0.037 |      0.124 |   0.047 |    0.094 |
+
+| .y.        | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Controle     |                   | Urbana   | Rural        |    0.119 |   -0.119 |     0.358 | 0.121 |     0.985 | 0.326 | 0.326 | ns           |
+| tri.TF.pos | Experimental |                   | Urbana   | Rural        |   -0.010 |   -0.262 |     0.243 | 0.128 |    -0.076 | 0.940 | 0.940 | ns           |
+| tri.TF.pre | Controle     |                   | Urbana   | Rural        |    0.028 |   -0.270 |     0.326 | 0.151 |     0.184 | 0.854 | 0.854 | ns           |
+| tri.TF.pre | Experimental |                   | Urbana   | Rural        |   -0.370 |   -0.682 |    -0.058 | 0.158 |    -2.340 | 0.020 | 0.020 | \*           |
+| tri.TF.pos |              | Urbana            | Controle | Experimental |    0.105 |   -0.139 |     0.349 | 0.124 |     0.847 | 0.398 | 0.398 | ns           |
+| tri.TF.pos |              | Rural             | Controle | Experimental |   -0.024 |   -0.271 |     0.223 | 0.125 |    -0.191 | 0.848 | 0.848 | ns           |
+| tri.TF.pre |              | Urbana            | Controle | Experimental |    0.041 |   -0.264 |     0.346 | 0.155 |     0.265 | 0.791 | 0.791 | ns           |
+| tri.TF.pre |              | Rural             | Controle | Experimental |   -0.357 |   -0.662 |    -0.052 | 0.155 |    -2.307 | 0.022 | 0.022 | \*           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |   -0.017 |   -0.299 |     0.264 | 0.143 |    -0.120 | 0.905 | 0.905 | ns           |
+| Controle     | Rural             | pre    | pos    |    0.008 |   -0.313 |     0.329 | 0.163 |     0.049 | 0.961 | 0.961 | ns           |
+| Experimental | Urbana            | pre    | pos    |    0.062 |   -0.268 |     0.392 | 0.168 |     0.371 | 0.711 | 0.711 | ns           |
+| Experimental | Rural             | pre    | pos    |    0.087 |   -0.219 |     0.394 | 0.156 |     0.560 | 0.576 | 0.576 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1868-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1869-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1871-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1873-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1875-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1877-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -3558,20 +6900,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-948-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1885-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-949-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1886-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-951-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1888-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-953-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1890-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1892-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1894-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | zona.participante | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Rural             | Controle     |  51 |  -0.049 |    0.134 |     0.105 |      0.123 |   0.148 |    0.084 |
+| tri.TO.pos | Rural             | Experimental |  58 |   0.004 |    0.121 |     0.049 |      0.130 |   0.051 |    0.078 |
+| tri.TO.pos | Urbana            | Controle     |  64 |   0.031 |    0.109 |     0.291 |      0.106 |   0.272 |    0.075 |
+| tri.TO.pos | Urbana            | Experimental |  47 |   0.037 |    0.130 |     0.183 |      0.144 |   0.160 |    0.087 |
+
+| .y.        | grupo        | zona.participante | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle     |                   | Urbana   | Rural        |    0.124 |   -0.097 |     0.345 | 0.112 |     1.105 | 0.270 | 0.270 | ns           |
+| tri.TO.pos | Experimental |                   | Urbana   | Rural        |    0.109 |   -0.122 |     0.340 | 0.117 |     0.928 | 0.355 | 0.355 | ns           |
+| tri.TO.pre | Controle     |                   | Urbana   | Rural        |    0.081 |   -0.256 |     0.417 | 0.171 |     0.472 | 0.638 | 0.638 | ns           |
+| tri.TO.pre | Experimental |                   | Urbana   | Rural        |    0.033 |   -0.319 |     0.385 | 0.178 |     0.185 | 0.854 | 0.854 | ns           |
+| tri.TO.pos |              | Urbana            | Controle | Experimental |    0.112 |   -0.114 |     0.338 | 0.115 |     0.977 | 0.330 | 0.330 | ns           |
+| tri.TO.pos |              | Rural             | Controle | Experimental |    0.097 |   -0.129 |     0.323 | 0.115 |     0.845 | 0.399 | 0.399 | ns           |
+| tri.TO.pre |              | Urbana            | Controle | Experimental |   -0.006 |   -0.350 |     0.339 | 0.175 |    -0.033 | 0.974 | 0.974 | ns           |
+| tri.TO.pre |              | Rural             | Controle | Experimental |   -0.053 |   -0.397 |     0.291 | 0.175 |    -0.305 | 0.761 | 0.761 | ns           |
+
+| grupo        | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana            | pre    | pos    |   -0.284 |   -0.589 |     0.021 | 0.155 |    -1.831 | 0.068 | 0.068 | ns           |
+| Controle     | Rural             | pre    | pos    |   -0.166 |   -0.513 |     0.181 | 0.177 |    -0.939 | 0.348 | 0.348 | ns           |
+| Experimental | Urbana            | pre    | pos    |   -0.179 |   -0.536 |     0.178 | 0.182 |    -0.986 | 0.325 | 0.325 | ns           |
+| Experimental | Rural             | pre    | pos    |   -0.045 |   -0.377 |     0.287 | 0.169 |    -0.265 | 0.791 | 0.791 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1902-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1903-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1905-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1907-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1909-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1911-1.png)<!-- -->
 
 ## factores: **escola:grupo**
 
@@ -3685,20 +7072,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-965-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1919-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-966-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1920-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-968-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1922-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-970-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1924-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-972-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1926-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-974-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1928-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | E1     | Controle     |  12 |  71.583 |    3.088 |    75.250 |      3.126 |  73.480 |    3.060 |
+| tri.CLPP.pos | E1     | Experimental |  11 |  67.182 |    5.003 |    71.182 |      3.753 |  72.415 |    3.194 |
+| tri.CLPP.pos | E2     | Controle     |  28 |  65.714 |    2.654 |    62.714 |      3.257 |  64.949 |    2.007 |
+| tri.CLPP.pos | E2     | Experimental |  23 |  70.130 |    2.439 |    65.130 |      3.913 |  64.352 |    2.209 |
+| tri.CLPP.pos | E3     | Controle     |  19 |  63.263 |    4.077 |    71.105 |      3.370 |  75.013 |    2.443 |
+| tri.CLPP.pos | E3     | Experimental |  16 |  67.812 |    4.032 |    69.188 |      3.510 |  69.991 |    2.648 |
+| tri.CLPP.pos | E4     | Controle     |  20 |  64.850 |    3.658 |    68.700 |      3.462 |  71.525 |    2.375 |
+| tri.CLPP.pos | E4     | Experimental |  15 |  74.200 |    3.236 |    75.333 |      2.489 |  71.777 |    2.744 |
+| tri.CLPP.pos | E5     | Controle     |  58 |  70.776 |    1.516 |    70.190 |      1.882 |  68.971 |    1.393 |
+| tri.CLPP.pos | E5     | Experimental |  55 |  69.982 |    2.160 |    72.473 |      1.960 |  71.795 |    1.429 |
+| tri.CLPP.pos | E6     | Controle     |  12 |  70.333 |    6.422 |    76.250 |      3.713 |  75.333 |    3.058 |
+| tri.CLPP.pos | E6     | Experimental |  15 |  69.800 |    2.434 |    71.333 |      2.030 |  70.780 |    2.735 |
+
+| .y.          | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Controle     |        | E1       | E2           |    8.530 |    1.318 |    15.743 | 3.664 |     2.328 | 0.021 | 0.309 | ns           |
+| tri.CLPP.pos | Controle     |        | E1       | E3           |   -1.533 |   -9.256 |     6.190 | 3.923 |    -0.391 | 0.696 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E1       | E4           |    1.955 |   -5.682 |     9.592 | 3.879 |     0.504 | 0.615 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E1       | E5           |    4.509 |   -2.104 |    11.123 | 3.359 |     1.342 | 0.181 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E1       | E6           |   -1.853 |  -10.367 |     6.661 | 4.324 |    -0.429 | 0.669 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E2       | E3           |  -10.064 |  -16.265 |    -3.862 | 3.150 |    -3.195 | 0.002 | 0.023 | \*           |
+| tri.CLPP.pos | Controle     |        | E2       | E4           |   -6.576 |  -12.681 |    -0.470 | 3.101 |    -2.120 | 0.035 | 0.523 | ns           |
+| tri.CLPP.pos | Controle     |        | E2       | E5           |   -4.021 |   -8.840 |     0.798 | 2.448 |    -1.643 | 0.102 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E2       | E6           |  -10.383 |  -17.589 |    -3.177 | 3.660 |    -2.837 | 0.005 | 0.073 | ns           |
+| tri.CLPP.pos | Controle     |        | E3       | E4           |    3.488 |   -3.194 |    10.170 | 3.394 |     1.028 | 0.305 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E3       | E5           |    6.043 |    0.492 |    11.593 | 2.819 |     2.143 | 0.033 | 0.495 | ns           |
+| tri.CLPP.pos | Controle     |        | E3       | E6           |   -0.320 |   -8.033 |     7.394 | 3.918 |    -0.082 | 0.935 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E4       | E5           |    2.554 |   -2.877 |     7.986 | 2.759 |     0.926 | 0.355 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E4       | E6           |   -3.808 |  -11.437 |     3.821 | 3.875 |    -0.983 | 0.327 | 1.000 | ns           |
+| tri.CLPP.pos | Controle     |        | E5       | E6           |   -6.362 |  -12.975 |     0.251 | 3.359 |    -1.894 | 0.059 | 0.889 | ns           |
+| tri.CLPP.pos | Experimental |        | E1       | E2           |    8.064 |    0.415 |    15.712 | 3.885 |     2.076 | 0.039 | 0.583 | ns           |
+| tri.CLPP.pos | Experimental |        | E1       | E3           |    2.425 |   -5.743 |    10.592 | 4.149 |     0.584 | 0.559 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E1       | E4           |    0.638 |   -7.662 |     8.938 | 4.216 |     0.151 | 0.880 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E1       | E5           |    0.620 |   -6.272 |     7.512 | 3.500 |     0.177 | 0.860 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E1       | E6           |    1.635 |   -6.645 |     9.916 | 4.206 |     0.389 | 0.698 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E2       | E3           |   -5.639 |  -12.430 |     1.152 | 3.450 |    -1.635 | 0.103 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E2       | E4           |   -7.426 |  -14.355 |    -0.496 | 3.520 |    -2.110 | 0.036 | 0.537 | ns           |
+| tri.CLPP.pos | Experimental |        | E2       | E5           |   -7.444 |  -12.622 |    -2.266 | 2.630 |    -2.830 | 0.005 | 0.075 | ns           |
+| tri.CLPP.pos | Experimental |        | E2       | E6           |   -6.428 |  -13.349 |     0.492 | 3.515 |    -1.829 | 0.069 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E3       | E4           |   -1.787 |   -9.302 |     5.728 | 3.817 |    -0.468 | 0.640 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E3       | E5           |   -1.805 |   -7.731 |     4.121 | 3.010 |    -0.600 | 0.549 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E3       | E6           |   -0.789 |   -8.286 |     6.707 | 3.808 |    -0.207 | 0.836 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E4       | E5           |   -0.018 |   -6.103 |     6.067 | 3.091 |    -0.006 | 0.995 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E4       | E6           |    0.997 |   -6.627 |     8.621 | 3.872 |     0.258 | 0.797 | 1.000 | ns           |
+| tri.CLPP.pos | Experimental |        | E5       | E6           |    1.015 |   -5.059 |     7.089 | 3.085 |     0.329 | 0.742 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E1       | E2           |    5.869 |   -3.995 |    15.733 | 5.010 |     1.171 | 0.242 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E1       | E3           |    8.320 |   -2.222 |    18.862 | 5.355 |     1.554 | 0.121 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E1       | E4           |    6.733 |   -3.706 |    17.173 | 5.303 |     1.270 | 0.205 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E1       | E5           |    0.807 |   -8.259 |     9.874 | 4.605 |     0.175 | 0.861 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E1       | E6           |    1.250 |  -10.422 |    12.922 | 5.928 |     0.211 | 0.833 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E2       | E3           |    2.451 |   -6.047 |    10.949 | 4.316 |     0.568 | 0.571 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E2       | E4           |    0.864 |   -7.506 |     9.234 | 4.252 |     0.203 | 0.839 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E2       | E5           |   -5.062 |  -11.641 |     1.517 | 3.342 |    -1.515 | 0.131 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E2       | E6           |   -4.619 |  -14.483 |     5.245 | 5.010 |    -0.922 | 0.357 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E3       | E4           |   -1.587 |  -10.746 |     7.572 | 4.652 |    -0.341 | 0.733 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E3       | E5           |   -7.513 |  -15.070 |     0.044 | 3.839 |    -1.957 | 0.051 | 0.770 | ns           |
+| tri.CLPP.pre | Controle     |        | E3       | E6           |   -7.070 |  -17.612 |     3.472 | 5.355 |    -1.320 | 0.188 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E4       | E5           |   -5.926 |  -13.339 |     1.488 | 3.766 |    -1.574 | 0.117 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E4       | E6           |   -5.483 |  -15.923 |     4.956 | 5.303 |    -1.034 | 0.302 | 1.000 | ns           |
+| tri.CLPP.pre | Controle     |        | E5       | E6           |    0.443 |   -8.624 |     9.509 | 4.605 |     0.096 | 0.924 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E1       | E2           |   -2.949 |  -13.429 |     7.532 | 5.324 |    -0.554 | 0.580 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E1       | E3           |   -0.631 |  -11.828 |    10.567 | 5.688 |    -0.111 | 0.912 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E1       | E4           |   -7.018 |  -18.367 |     4.331 | 5.765 |    -1.217 | 0.224 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E1       | E5           |   -2.800 |  -12.243 |     6.643 | 4.796 |    -0.584 | 0.560 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E1       | E6           |   -2.618 |  -13.967 |     8.731 | 5.765 |    -0.454 | 0.650 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E2       | E3           |    2.318 |   -6.989 |    11.625 | 4.727 |     0.490 | 0.624 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E2       | E4           |   -4.070 |  -13.558 |     5.419 | 4.820 |    -0.844 | 0.399 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E2       | E5           |    0.149 |   -6.951 |     7.248 | 3.606 |     0.041 | 0.967 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E2       | E6           |    0.330 |   -9.158 |     9.819 | 4.820 |     0.069 | 0.945 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E3       | E4           |   -6.387 |  -16.662 |     3.887 | 5.219 |    -1.224 | 0.222 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E3       | E5           |   -2.169 |  -10.290 |     5.951 | 4.125 |    -0.526 | 0.599 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E3       | E6           |   -1.988 |  -12.262 |     8.287 | 5.219 |    -0.381 | 0.704 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E4       | E5           |    4.218 |   -4.110 |    12.546 | 4.230 |     0.997 | 0.320 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E4       | E6           |    4.400 |   -6.039 |    14.839 | 5.303 |     0.830 | 0.407 | 1.000 | ns           |
+| tri.CLPP.pre | Experimental |        | E5       | E6           |    0.182 |   -8.146 |     8.510 | 4.230 |     0.043 | 0.966 | 1.000 | ns           |
+| tri.CLPP.pos |              | E1     | Controle | Experimental |    1.064 |   -7.648 |     9.777 | 4.425 |     0.241 | 0.810 | 0.810 | ns           |
+| tri.CLPP.pos |              | E2     | Controle | Experimental |    0.598 |   -5.283 |     6.478 | 2.987 |     0.200 | 0.842 | 0.842 | ns           |
+| tri.CLPP.pos |              | E3     | Controle | Experimental |    5.022 |   -2.064 |    12.109 | 3.599 |     1.395 | 0.164 | 0.164 | ns           |
+| tri.CLPP.pos |              | E4     | Controle | Experimental |   -0.252 |   -7.421 |     6.916 | 3.641 |    -0.069 | 0.945 | 0.945 | ns           |
+| tri.CLPP.pos |              | E5     | Controle | Experimental |   -2.825 |   -6.750 |     1.100 | 1.994 |    -1.417 | 0.158 | 0.158 | ns           |
+| tri.CLPP.pos |              | E6     | Controle | Experimental |    4.553 |   -3.524 |    12.629 | 4.102 |     1.110 | 0.268 | 0.268 | ns           |
+| tri.CLPP.pre |              | E1     | Controle | Experimental |    4.402 |   -7.532 |    16.335 | 6.062 |     0.726 | 0.468 | 0.468 | ns           |
+| tri.CLPP.pre |              | E2     | Controle | Experimental |   -4.416 |  -12.462 |     3.629 | 4.087 |    -1.081 | 0.281 | 0.281 | ns           |
+| tri.CLPP.pre |              | E3     | Controle | Experimental |   -4.549 |  -14.250 |     5.151 | 4.927 |    -0.923 | 0.357 | 0.357 | ns           |
+| tri.CLPP.pre |              | E4     | Controle | Experimental |   -9.350 |  -19.115 |     0.415 | 4.960 |    -1.885 | 0.060 | 0.060 | ns           |
+| tri.CLPP.pre |              | E5     | Controle | Experimental |    0.794 |   -4.587 |     6.175 | 2.733 |     0.291 | 0.772 | 0.772 | ns           |
+| tri.CLPP.pre |              | E6     | Controle | Experimental |    0.533 |  -10.539 |    11.606 | 5.624 |     0.095 | 0.925 | 0.925 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.355 |   -1.087 |     0.377 | 0.373 |    -0.953 | 0.341 | 0.341 | ns           |
+| Controle     | E2     | pre    | pos    |    0.396 |   -0.073 |     0.866 | 0.239 |     1.659 | 0.098 | 0.098 | ns           |
+| Controle     | E3     | pre    | pos    |   -0.039 |   -0.620 |     0.542 | 0.296 |    -0.133 | 0.894 | 0.894 | ns           |
+| Controle     | E4     | pre    | pos    |   -0.176 |   -0.764 |     0.412 | 0.299 |    -0.588 | 0.557 | 0.557 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.131 |   -0.466 |     0.203 | 0.170 |    -0.770 | 0.441 | 0.441 | ns           |
+| Controle     | E6     | pre    | pos    |   -0.213 |   -0.918 |     0.491 | 0.359 |    -0.594 | 0.552 | 0.552 | ns           |
+| Experimental | E1     | pre    | pos    |   -0.113 |   -0.906 |     0.680 | 0.404 |    -0.281 | 0.779 | 0.779 | ns           |
+| Experimental | E2     | pre    | pos    |    0.177 |   -0.339 |     0.692 | 0.262 |     0.673 | 0.501 | 0.501 | ns           |
+| Experimental | E3     | pre    | pos    |   -0.003 |   -0.661 |     0.655 | 0.335 |    -0.009 | 0.993 | 0.993 | ns           |
+| Experimental | E4     | pre    | pos    |   -0.203 |   -0.871 |     0.466 | 0.340 |    -0.596 | 0.552 | 0.552 | ns           |
+| Experimental | E5     | pre    | pos    |   -0.136 |   -0.478 |     0.207 | 0.174 |    -0.777 | 0.437 | 0.437 | ns           |
+| Experimental | E6     | pre    | pos    |   -0.084 |   -0.753 |     0.584 | 0.340 |    -0.248 | 0.804 | 0.804 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1936-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1937-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1939-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1941-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1943-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1945-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -3810,20 +7322,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-982-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1953-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-983-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1954-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-985-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1956-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-987-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1958-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1960-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1962-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | E1     | Controle     |  12 |   0.027 |    0.217 |     0.451 |      0.205 |   0.462 |    0.180 |
+| tri.CR.pos | E1     | Experimental |  11 |  -0.009 |    0.292 |     0.207 |      0.279 |   0.240 |    0.188 |
+| tri.CR.pos | E2     | Controle     |  28 |  -0.344 |    0.155 |    -0.394 |      0.175 |  -0.151 |    0.119 |
+| tri.CR.pos | E2     | Experimental |  23 |   0.255 |    0.132 |    -0.060 |      0.160 |  -0.193 |    0.130 |
+| tri.CR.pos | E3     | Controle     |  19 |  -0.002 |    0.169 |    -0.045 |      0.220 |  -0.017 |    0.143 |
+| tri.CR.pos | E3     | Experimental |  16 |  -0.045 |    0.253 |     0.154 |      0.202 |   0.210 |    0.156 |
+| tri.CR.pos | E4     | Controle     |  20 |  -0.075 |    0.173 |     0.239 |      0.181 |   0.313 |    0.139 |
+| tri.CR.pos | E4     | Experimental |  15 |   0.505 |    0.202 |     0.420 |      0.150 |   0.129 |    0.162 |
+| tri.CR.pos | E5     | Controle     |  58 |  -0.025 |    0.097 |     0.037 |      0.103 |   0.079 |    0.082 |
+| tri.CR.pos | E5     | Experimental |  55 |   0.050 |    0.121 |     0.135 |      0.109 |   0.131 |    0.084 |
+| tri.CR.pos | E6     | Controle     |  12 |   0.415 |    0.162 |     0.375 |      0.184 |   0.141 |    0.181 |
+| tri.CR.pos | E6     | Experimental |  15 |   0.280 |    0.170 |     0.173 |      0.142 |   0.024 |    0.161 |
+
+| .y.        | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Controle     |        | E1       | E2           |    0.613 |    0.188 |     1.037 | 0.216 |     2.841 | 0.005 | 0.072 | ns           |
+| tri.CR.pos | Controle     |        | E1       | E3           |    0.478 |    0.026 |     0.930 | 0.230 |     2.083 | 0.038 | 0.573 | ns           |
+| tri.CR.pos | Controle     |        | E1       | E4           |    0.149 |   -0.299 |     0.597 | 0.227 |     0.654 | 0.514 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E1       | E5           |    0.382 |   -0.007 |     0.771 | 0.198 |     1.935 | 0.054 | 0.810 | ns           |
+| tri.CR.pos | Controle     |        | E1       | E6           |    0.321 |   -0.181 |     0.823 | 0.255 |     1.259 | 0.209 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E2       | E3           |   -0.134 |   -0.500 |     0.232 | 0.186 |    -0.723 | 0.470 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E2       | E4           |   -0.464 |   -0.824 |    -0.104 | 0.183 |    -2.538 | 0.012 | 0.176 | ns           |
+| tri.CR.pos | Controle     |        | E2       | E5           |   -0.230 |   -0.514 |     0.053 | 0.144 |    -1.599 | 0.111 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E2       | E6           |   -0.292 |   -0.721 |     0.137 | 0.218 |    -1.339 | 0.182 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E3       | E4           |   -0.330 |   -0.722 |     0.063 | 0.200 |    -1.651 | 0.100 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E3       | E5           |   -0.096 |   -0.420 |     0.228 | 0.165 |    -0.584 | 0.560 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E3       | E6           |   -0.157 |   -0.611 |     0.296 | 0.230 |    -0.683 | 0.495 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E4       | E5           |    0.233 |   -0.085 |     0.551 | 0.162 |     1.445 | 0.150 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E4       | E6           |    0.172 |   -0.278 |     0.622 | 0.229 |     0.753 | 0.452 | 1.000 | ns           |
+| tri.CR.pos | Controle     |        | E5       | E6           |   -0.061 |   -0.452 |     0.330 | 0.199 |    -0.309 | 0.757 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E1       | E2           |    0.432 |   -0.018 |     0.883 | 0.229 |     1.891 | 0.060 | 0.895 | ns           |
+| tri.CR.pos | Experimental |        | E1       | E3           |    0.030 |   -0.450 |     0.510 | 0.244 |     0.123 | 0.903 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E1       | E4           |    0.110 |   -0.379 |     0.599 | 0.248 |     0.443 | 0.658 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E1       | E5           |    0.108 |   -0.297 |     0.513 | 0.206 |     0.525 | 0.600 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E1       | E6           |    0.216 |   -0.271 |     0.703 | 0.248 |     0.873 | 0.384 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E2       | E3           |   -0.403 |   -0.803 |    -0.002 | 0.203 |    -1.981 | 0.049 | 0.730 | ns           |
+| tri.CR.pos | Experimental |        | E2       | E4           |   -0.322 |   -0.730 |     0.085 | 0.207 |    -1.557 | 0.121 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E2       | E5           |   -0.324 |   -0.629 |    -0.019 | 0.155 |    -2.093 | 0.037 | 0.559 | ns           |
+| tri.CR.pos | Experimental |        | E2       | E6           |   -0.216 |   -0.623 |     0.191 | 0.207 |    -1.047 | 0.296 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E3       | E4           |    0.080 |   -0.363 |     0.524 | 0.225 |     0.356 | 0.722 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E3       | E5           |    0.078 |   -0.270 |     0.427 | 0.177 |     0.442 | 0.659 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E3       | E6           |    0.186 |   -0.256 |     0.628 | 0.224 |     0.830 | 0.408 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E4       | E5           |   -0.002 |   -0.362 |     0.358 | 0.183 |    -0.011 | 0.991 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E4       | E6           |    0.106 |   -0.342 |     0.554 | 0.228 |     0.466 | 0.642 | 1.000 | ns           |
+| tri.CR.pos | Experimental |        | E5       | E6           |    0.108 |   -0.250 |     0.466 | 0.182 |     0.594 | 0.553 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E1       | E2           |    0.371 |   -0.169 |     0.911 | 0.274 |     1.353 | 0.177 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E1       | E3           |    0.029 |   -0.548 |     0.605 | 0.293 |     0.098 | 0.922 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E1       | E4           |    0.101 |   -0.470 |     0.672 | 0.290 |     0.349 | 0.727 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E1       | E5           |    0.052 |   -0.444 |     0.548 | 0.252 |     0.205 | 0.838 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E1       | E6           |   -0.388 |   -1.027 |     0.250 | 0.324 |    -1.198 | 0.232 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E2       | E3           |   -0.342 |   -0.807 |     0.123 | 0.236 |    -1.449 | 0.148 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E2       | E4           |   -0.270 |   -0.728 |     0.188 | 0.233 |    -1.160 | 0.247 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E2       | E5           |   -0.319 |   -0.679 |     0.041 | 0.183 |    -1.747 | 0.082 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E2       | E6           |   -0.759 |   -1.299 |    -0.220 | 0.274 |    -2.771 | 0.006 | 0.090 | ns           |
+| tri.CR.pre | Controle     |        | E3       | E4           |    0.073 |   -0.429 |     0.574 | 0.255 |     0.285 | 0.776 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E3       | E5           |    0.023 |   -0.391 |     0.436 | 0.210 |     0.109 | 0.914 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E3       | E6           |   -0.417 |   -0.994 |     0.160 | 0.293 |    -1.424 | 0.156 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E4       | E5           |   -0.050 |   -0.455 |     0.356 | 0.206 |    -0.241 | 0.809 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E4       | E6           |   -0.490 |   -1.061 |     0.081 | 0.290 |    -1.688 | 0.093 | 1.000 | ns           |
+| tri.CR.pre | Controle     |        | E5       | E6           |   -0.440 |   -0.936 |     0.056 | 0.252 |    -1.746 | 0.082 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E1       | E2           |   -0.264 |   -0.837 |     0.309 | 0.291 |    -0.906 | 0.366 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E1       | E3           |    0.036 |   -0.577 |     0.648 | 0.311 |     0.115 | 0.908 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E1       | E4           |   -0.514 |   -1.135 |     0.107 | 0.315 |    -1.630 | 0.104 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E1       | E5           |   -0.059 |   -0.575 |     0.458 | 0.262 |    -0.223 | 0.824 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E1       | E6           |   -0.289 |   -0.910 |     0.332 | 0.315 |    -0.917 | 0.360 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E2       | E3           |    0.300 |   -0.209 |     0.809 | 0.259 |     1.159 | 0.248 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E2       | E4           |   -0.250 |   -0.769 |     0.269 | 0.264 |    -0.949 | 0.344 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E2       | E5           |    0.205 |   -0.183 |     0.594 | 0.197 |     1.041 | 0.299 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E2       | E6           |   -0.025 |   -0.545 |     0.494 | 0.264 |    -0.096 | 0.923 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E3       | E4           |   -0.550 |   -1.112 |     0.012 | 0.286 |    -1.926 | 0.055 | 0.828 | ns           |
+| tri.CR.pre | Experimental |        | E3       | E5           |   -0.094 |   -0.539 |     0.350 | 0.226 |    -0.418 | 0.676 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E3       | E6           |   -0.325 |   -0.887 |     0.237 | 0.286 |    -1.139 | 0.256 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E4       | E5           |    0.455 |    0.000 |     0.911 | 0.231 |     1.968 | 0.050 | 0.751 | ns           |
+| tri.CR.pre | Experimental |        | E4       | E6           |    0.225 |   -0.346 |     0.796 | 0.290 |     0.775 | 0.439 | 1.000 | ns           |
+| tri.CR.pre | Experimental |        | E5       | E6           |   -0.231 |   -0.686 |     0.225 | 0.231 |    -0.997 | 0.319 | 1.000 | ns           |
+| tri.CR.pos |              | E1     | Controle | Experimental |    0.222 |   -0.290 |     0.734 | 0.260 |     0.854 | 0.394 | 0.394 | ns           |
+| tri.CR.pos |              | E2     | Controle | Experimental |    0.042 |   -0.308 |     0.391 | 0.178 |     0.236 | 0.814 | 0.814 | ns           |
+| tri.CR.pos |              | E3     | Controle | Experimental |   -0.226 |   -0.642 |     0.190 | 0.211 |    -1.071 | 0.285 | 0.285 | ns           |
+| tri.CR.pos |              | E4     | Controle | Experimental |    0.183 |   -0.239 |     0.606 | 0.214 |     0.854 | 0.394 | 0.394 | ns           |
+| tri.CR.pos |              | E5     | Controle | Experimental |   -0.052 |   -0.283 |     0.179 | 0.117 |    -0.444 | 0.657 | 0.657 | ns           |
+| tri.CR.pos |              | E6     | Controle | Experimental |    0.117 |   -0.358 |     0.592 | 0.241 |     0.486 | 0.627 | 0.627 | ns           |
+| tri.CR.pre |              | E1     | Controle | Experimental |    0.036 |   -0.617 |     0.689 | 0.332 |     0.107 | 0.914 | 0.914 | ns           |
+| tri.CR.pre |              | E2     | Controle | Experimental |   -0.599 |   -1.039 |    -0.159 | 0.224 |    -2.680 | 0.008 | 0.008 | \*\*         |
+| tri.CR.pre |              | E3     | Controle | Experimental |    0.043 |   -0.488 |     0.573 | 0.270 |     0.158 | 0.874 | 0.874 | ns           |
+| tri.CR.pre |              | E4     | Controle | Experimental |   -0.580 |   -1.114 |    -0.045 | 0.271 |    -2.136 | 0.034 | 0.034 | \*           |
+| tri.CR.pre |              | E5     | Controle | Experimental |   -0.074 |   -0.369 |     0.220 | 0.150 |    -0.498 | 0.619 | 0.619 | ns           |
+| tri.CR.pre |              | E6     | Controle | Experimental |    0.135 |   -0.471 |     0.741 | 0.308 |     0.438 | 0.662 | 0.662 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.394 |   -1.008 |     0.220 | 0.313 |    -1.260 | 0.208 | 0.208 | ns           |
+| Controle     | E2     | pre    | pos    |    0.141 |   -0.253 |     0.535 | 0.200 |     0.704 | 0.482 | 0.482 | ns           |
+| Controle     | E3     | pre    | pos    |   -0.020 |   -0.508 |     0.468 | 0.248 |    -0.081 | 0.936 | 0.936 | ns           |
+| Controle     | E4     | pre    | pos    |   -0.313 |   -0.807 |     0.180 | 0.251 |    -1.247 | 0.213 | 0.213 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.037 |   -0.318 |     0.244 | 0.143 |    -0.260 | 0.795 | 0.795 | ns           |
+| Controle     | E6     | pre    | pos    |   -0.079 |   -0.670 |     0.513 | 0.301 |    -0.261 | 0.794 | 0.794 | ns           |
+| Experimental | E1     | pre    | pos    |   -0.216 |   -0.881 |     0.450 | 0.339 |    -0.637 | 0.524 | 0.524 | ns           |
+| Experimental | E2     | pre    | pos    |    0.264 |   -0.168 |     0.697 | 0.220 |     1.200 | 0.231 | 0.231 | ns           |
+| Experimental | E3     | pre    | pos    |   -0.199 |   -0.751 |     0.353 | 0.281 |    -0.709 | 0.479 | 0.479 | ns           |
+| Experimental | E4     | pre    | pos    |    0.097 |   -0.464 |     0.658 | 0.286 |     0.340 | 0.734 | 0.734 | ns           |
+| Experimental | E5     | pre    | pos    |   -0.005 |   -0.293 |     0.282 | 0.146 |    -0.036 | 0.971 | 0.971 | ns           |
+| Experimental | E6     | pre    | pos    |    0.074 |   -0.487 |     0.635 | 0.286 |     0.261 | 0.795 | 0.795 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1970-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1971-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1973-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1975-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1977-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1979-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -3935,20 +7572,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-999-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1987-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1000-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1988-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1002-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1990-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1004-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1992-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1006-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1994-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1008-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1996-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | E1     | Controle     |  12 |   0.053 |    0.232 |     0.294 |      0.254 |   0.261 |    0.172 |
+| tri.CI.pos | E1     | Experimental |  11 |   0.153 |    0.298 |     0.174 |      0.287 |   0.063 |    0.180 |
+| tri.CI.pos | E2     | Controle     |  28 |  -0.092 |    0.155 |    -0.393 |      0.175 |  -0.312 |    0.113 |
+| tri.CI.pos | E2     | Experimental |  23 |   0.024 |    0.200 |     0.203 |      0.175 |   0.193 |    0.124 |
+| tri.CI.pos | E3     | Controle     |  19 |  -0.051 |    0.164 |    -0.008 |      0.234 |   0.042 |    0.137 |
+| tri.CI.pos | E3     | Experimental |  16 |  -0.083 |    0.218 |     0.165 |      0.239 |   0.239 |    0.149 |
+| tri.CI.pos | E4     | Controle     |  20 |  -0.001 |    0.160 |     0.057 |      0.200 |   0.067 |    0.133 |
+| tri.CI.pos | E4     | Experimental |  15 |   0.039 |    0.216 |     0.308 |      0.179 |   0.286 |    0.154 |
+| tri.CI.pos | E5     | Controle     |  58 |  -0.012 |    0.113 |     0.012 |      0.122 |   0.031 |    0.078 |
+| tri.CI.pos | E5     | Experimental |  55 |   0.027 |    0.116 |     0.308 |      0.117 |   0.295 |    0.080 |
+| tri.CI.pos | E6     | Controle     |  12 |   0.263 |    0.259 |     0.589 |      0.223 |   0.391 |    0.172 |
+| tri.CI.pos | E6     | Experimental |  15 |   0.048 |    0.206 |     0.040 |      0.212 |   0.011 |    0.154 |
+
+| .y.        | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.CI.pos | Controle     |        | E1       | E2           |    0.573 |    0.168 |     0.978 | 0.206 |     2.787 | 0.006   | 0.085 | ns           |
+| tri.CI.pos | Controle     |        | E1       | E3           |    0.220 |   -0.213 |     0.653 | 0.220 |     1.001 | 0.318   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E1       | E4           |    0.194 |   -0.234 |     0.623 | 0.218 |     0.893 | 0.372   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E1       | E5           |    0.231 |   -0.141 |     0.603 | 0.189 |     1.221 | 0.223   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E1       | E6           |   -0.130 |   -0.609 |     0.350 | 0.243 |    -0.533 | 0.595   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E2       | E3           |   -0.353 |   -0.702 |    -0.005 | 0.177 |    -1.995 | 0.047   | 0.706 | ns           |
+| tri.CI.pos | Controle     |        | E2       | E4           |   -0.379 |   -0.722 |    -0.035 | 0.174 |    -2.172 | 0.031   | 0.461 | ns           |
+| tri.CI.pos | Controle     |        | E2       | E5           |   -0.343 |   -0.613 |    -0.073 | 0.137 |    -2.498 | 0.013   | 0.196 | ns           |
+| tri.CI.pos | Controle     |        | E2       | E6           |   -0.703 |   -1.109 |    -0.297 | 0.206 |    -3.410 | \<0.001 | 0.011 | \*           |
+| tri.CI.pos | Controle     |        | E3       | E4           |   -0.026 |   -0.401 |     0.350 | 0.191 |    -0.134 | 0.893   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E3       | E5           |    0.011 |   -0.299 |     0.321 | 0.157 |     0.068 | 0.946   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E3       | E6           |   -0.350 |   -0.783 |     0.084 | 0.220 |    -1.589 | 0.113   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E4       | E5           |    0.036 |   -0.268 |     0.340 | 0.154 |     0.235 | 0.814   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E4       | E6           |   -0.324 |   -0.753 |     0.105 | 0.218 |    -1.487 | 0.138   | 1.000 | ns           |
+| tri.CI.pos | Controle     |        | E5       | E6           |   -0.360 |   -0.733 |     0.012 | 0.189 |    -1.903 | 0.058   | 0.871 | ns           |
+| tri.CI.pos | Experimental |        | E1       | E2           |   -0.130 |   -0.560 |     0.300 | 0.218 |    -0.596 | 0.552   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E1       | E3           |   -0.176 |   -0.636 |     0.284 | 0.234 |    -0.753 | 0.452   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E1       | E4           |   -0.223 |   -0.689 |     0.243 | 0.237 |    -0.944 | 0.346   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E1       | E5           |   -0.232 |   -0.620 |     0.156 | 0.197 |    -1.179 | 0.24    | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E1       | E6           |    0.052 |   -0.414 |     0.518 | 0.237 |     0.220 | 0.826   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E2       | E3           |   -0.046 |   -0.427 |     0.336 | 0.194 |    -0.235 | 0.815   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E2       | E4           |   -0.093 |   -0.482 |     0.296 | 0.198 |    -0.470 | 0.639   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E2       | E5           |   -0.102 |   -0.393 |     0.189 | 0.148 |    -0.688 | 0.492   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E2       | E6           |    0.182 |   -0.207 |     0.572 | 0.198 |     0.922 | 0.357   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E3       | E4           |   -0.047 |   -0.469 |     0.374 | 0.214 |    -0.221 | 0.825   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E3       | E5           |   -0.056 |   -0.390 |     0.277 | 0.169 |    -0.332 | 0.74    | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E3       | E6           |    0.228 |   -0.194 |     0.649 | 0.214 |     1.064 | 0.288   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E4       | E5           |   -0.009 |   -0.350 |     0.333 | 0.174 |    -0.051 | 0.959   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E4       | E6           |    0.275 |   -0.153 |     0.703 | 0.218 |     1.265 | 0.207   | 1.000 | ns           |
+| tri.CI.pos | Experimental |        | E5       | E6           |    0.284 |   -0.058 |     0.626 | 0.174 |     1.637 | 0.103   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E1       | E2           |    0.145 |   -0.431 |     0.721 | 0.292 |     0.496 | 0.62    | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E1       | E3           |    0.104 |   -0.511 |     0.720 | 0.313 |     0.333 | 0.739   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E1       | E4           |    0.054 |   -0.555 |     0.663 | 0.309 |     0.175 | 0.861   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E1       | E5           |    0.065 |   -0.464 |     0.595 | 0.269 |     0.243 | 0.808   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E1       | E6           |   -0.210 |   -0.891 |     0.471 | 0.346 |    -0.607 | 0.544   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E2       | E3           |   -0.041 |   -0.537 |     0.455 | 0.252 |    -0.162 | 0.871   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E2       | E4           |   -0.091 |   -0.580 |     0.398 | 0.248 |    -0.367 | 0.714   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E2       | E5           |   -0.080 |   -0.464 |     0.304 | 0.195 |    -0.409 | 0.683   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E2       | E6           |   -0.355 |   -0.931 |     0.220 | 0.292 |    -1.215 | 0.225   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E3       | E4           |   -0.050 |   -0.585 |     0.485 | 0.272 |    -0.184 | 0.854   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E3       | E5           |   -0.039 |   -0.480 |     0.402 | 0.224 |    -0.173 | 0.863   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E3       | E6           |   -0.314 |   -0.930 |     0.301 | 0.313 |    -1.006 | 0.315   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E4       | E5           |    0.011 |   -0.421 |     0.444 | 0.220 |     0.051 | 0.959   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E4       | E6           |   -0.264 |   -0.874 |     0.345 | 0.309 |    -0.854 | 0.394   | 1.000 | ns           |
+| tri.CI.pre | Controle     |        | E5       | E6           |   -0.276 |   -0.805 |     0.254 | 0.269 |    -1.025 | 0.306   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E1       | E2           |    0.129 |   -0.483 |     0.741 | 0.311 |     0.416 | 0.678   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E1       | E3           |    0.236 |   -0.418 |     0.890 | 0.332 |     0.711 | 0.478   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E1       | E4           |    0.114 |   -0.549 |     0.776 | 0.336 |     0.338 | 0.736   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E1       | E5           |    0.126 |   -0.425 |     0.677 | 0.280 |     0.449 | 0.654   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E1       | E6           |    0.105 |   -0.557 |     0.767 | 0.336 |     0.312 | 0.755   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E2       | E3           |    0.107 |   -0.436 |     0.650 | 0.276 |     0.387 | 0.699   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E2       | E4           |   -0.016 |   -0.569 |     0.538 | 0.281 |    -0.056 | 0.956   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E2       | E5           |   -0.003 |   -0.418 |     0.411 | 0.210 |    -0.016 | 0.987   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E2       | E6           |   -0.024 |   -0.578 |     0.530 | 0.281 |    -0.086 | 0.932   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E3       | E4           |   -0.122 |   -0.722 |     0.477 | 0.305 |    -0.402 | 0.688   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E3       | E5           |   -0.110 |   -0.584 |     0.364 | 0.241 |    -0.458 | 0.647   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E3       | E6           |   -0.131 |   -0.731 |     0.469 | 0.305 |    -0.430 | 0.668   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E4       | E5           |    0.012 |   -0.474 |     0.498 | 0.247 |     0.049 | 0.961   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E4       | E6           |   -0.009 |   -0.618 |     0.601 | 0.309 |    -0.027 | 0.978   | 1.000 | ns           |
+| tri.CI.pre | Experimental |        | E5       | E6           |   -0.021 |   -0.507 |     0.465 | 0.247 |    -0.084 | 0.933   | 1.000 | ns           |
+| tri.CI.pos |              | E1     | Controle | Experimental |    0.198 |   -0.291 |     0.688 | 0.249 |     0.797 | 0.426   | 0.426 | ns           |
+| tri.CI.pos |              | E2     | Controle | Experimental |   -0.505 |   -0.835 |    -0.175 | 0.168 |    -3.012 | 0.003   | 0.003 | \*\*         |
+| tri.CI.pos |              | E3     | Controle | Experimental |   -0.198 |   -0.595 |     0.200 | 0.202 |    -0.977 | 0.329   | 0.329 | ns           |
+| tri.CI.pos |              | E4     | Controle | Experimental |   -0.219 |   -0.620 |     0.181 | 0.203 |    -1.078 | 0.282   | 0.282 | ns           |
+| tri.CI.pos |              | E5     | Controle | Experimental |   -0.264 |   -0.485 |    -0.044 | 0.112 |    -2.358 | 0.019   | 0.019 | \*           |
+| tri.CI.pos |              | E6     | Controle | Experimental |    0.380 |   -0.075 |     0.835 | 0.231 |     1.645 | 0.101   | 0.101 | ns           |
+| tri.CI.pre |              | E1     | Controle | Experimental |   -0.100 |   -0.796 |     0.597 | 0.354 |    -0.282 | 0.778   | 0.778 | ns           |
+| tri.CI.pre |              | E2     | Controle | Experimental |   -0.116 |   -0.585 |     0.354 | 0.239 |    -0.485 | 0.628   | 0.628 | ns           |
+| tri.CI.pre |              | E3     | Controle | Experimental |    0.032 |   -0.534 |     0.598 | 0.288 |     0.112 | 0.911   | 0.911 | ns           |
+| tri.CI.pre |              | E4     | Controle | Experimental |   -0.040 |   -0.610 |     0.530 | 0.290 |    -0.139 | 0.889   | 0.889 | ns           |
+| tri.CI.pre |              | E5     | Controle | Experimental |   -0.039 |   -0.353 |     0.275 | 0.160 |    -0.247 | 0.805   | 0.805 | ns           |
+| tri.CI.pre |              | E6     | Controle | Experimental |    0.216 |   -0.431 |     0.862 | 0.328 |     0.657 | 0.512   | 0.512 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.189 |   -0.853 |     0.474 | 0.338 |    -0.561 | 0.575 | 0.575 | ns           |
+| Controle     | E2     | pre    | pos    |    0.334 |   -0.092 |     0.759 | 0.217 |     1.541 | 0.124 | 0.124 | ns           |
+| Controle     | E3     | pre    | pos    |   -0.195 |   -0.722 |     0.332 | 0.268 |    -0.726 | 0.468 | 0.468 | ns           |
+| Controle     | E4     | pre    | pos    |   -0.058 |   -0.592 |     0.475 | 0.272 |    -0.215 | 0.830 | 0.830 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.019 |   -0.322 |     0.284 | 0.154 |    -0.123 | 0.902 | 0.902 | ns           |
+| Controle     | E6     | pre    | pos    |   -0.398 |   -1.037 |     0.241 | 0.325 |    -1.224 | 0.221 | 0.221 | ns           |
+| Experimental | E1     | pre    | pos    |   -0.021 |   -0.741 |     0.698 | 0.366 |    -0.059 | 0.953 | 0.953 | ns           |
+| Experimental | E2     | pre    | pos    |   -0.169 |   -0.637 |     0.298 | 0.238 |    -0.712 | 0.477 | 0.477 | ns           |
+| Experimental | E3     | pre    | pos    |   -0.248 |   -0.844 |     0.348 | 0.304 |    -0.816 | 0.415 | 0.415 | ns           |
+| Experimental | E4     | pre    | pos    |   -0.306 |   -0.912 |     0.300 | 0.309 |    -0.992 | 0.321 | 0.321 | ns           |
+| Experimental | E5     | pre    | pos    |   -0.272 |   -0.583 |     0.039 | 0.158 |    -1.720 | 0.086 | 0.086 | ns           |
+| Experimental | E6     | pre    | pos    |   -0.060 |   -0.667 |     0.546 | 0.309 |    -0.196 | 0.845 | 0.845 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2004-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2005-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2007-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2009-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2011-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2013-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -4060,20 +7822,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1016-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2021-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1017-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2022-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1019-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2024-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1021-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2026-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1023-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2028-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2030-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | E1     | Controle     |  12 |   0.229 |    0.210 |     0.545 |      0.170 |   0.437 |    0.189 |
+| tri.TV.pos | E1     | Experimental |  11 |  -0.134 |    0.321 |    -0.095 |      0.302 |   0.018 |    0.197 |
+| tri.TV.pos | E2     | Controle     |  28 |  -0.152 |    0.160 |    -0.334 |      0.193 |  -0.210 |    0.124 |
+| tri.TV.pos | E2     | Experimental |  23 |   0.227 |    0.121 |    -0.046 |      0.195 |  -0.153 |    0.136 |
+| tri.TV.pos | E3     | Controle     |  19 |   0.232 |    0.190 |     0.259 |      0.173 |   0.149 |    0.150 |
+| tri.TV.pos | E3     | Experimental |  16 |   0.215 |    0.207 |    -0.031 |      0.225 |  -0.131 |    0.163 |
+| tri.TV.pos | E4     | Controle     |  20 |  -0.127 |    0.175 |    -0.162 |      0.158 |  -0.054 |    0.146 |
+| tri.TV.pos | E4     | Experimental |  15 |   0.159 |    0.239 |     0.225 |      0.191 |   0.159 |    0.169 |
+| tri.TV.pos | E5     | Controle     |  58 |   0.041 |    0.096 |     0.037 |      0.101 |   0.043 |    0.086 |
+| tri.TV.pos | E5     | Experimental |  55 |   0.150 |    0.110 |     0.143 |      0.102 |   0.083 |    0.088 |
+| tri.TV.pos | E6     | Controle     |  12 |  -0.174 |    0.281 |     0.146 |      0.276 |   0.284 |    0.189 |
+| tri.TV.pos | E6     | Experimental |  15 |  -0.254 |    0.188 |     0.042 |      0.154 |   0.228 |    0.169 |
+
+| .y.        | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Controle     |        | E1       | E2           |    0.646 |    0.201 |     1.091 | 0.226 |     2.860 | 0.005 | 0.069 | ns           |
+| tri.TV.pos | Controle     |        | E1       | E3           |    0.287 |   -0.186 |     0.761 | 0.241 |     1.194 | 0.234 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E1       | E4           |    0.490 |    0.020 |     0.961 | 0.239 |     2.052 | 0.041 | 0.617 | ns           |
+| tri.TV.pos | Controle     |        | E1       | E5           |    0.393 |   -0.014 |     0.801 | 0.207 |     1.899 | 0.059 | 0.879 | ns           |
+| tri.TV.pos | Controle     |        | E1       | E6           |    0.153 |   -0.373 |     0.679 | 0.267 |     0.573 | 0.567 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E2       | E3           |   -0.359 |   -0.743 |     0.025 | 0.195 |    -1.841 | 0.067 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E2       | E4           |   -0.156 |   -0.532 |     0.220 | 0.191 |    -0.816 | 0.415 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E2       | E5           |   -0.253 |   -0.549 |     0.044 | 0.150 |    -1.680 | 0.094 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E2       | E6           |   -0.493 |   -0.936 |    -0.050 | 0.225 |    -2.190 | 0.029 | 0.441 | ns           |
+| tri.TV.pos | Controle     |        | E3       | E4           |    0.203 |   -0.210 |     0.616 | 0.210 |     0.968 | 0.334 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E3       | E5           |    0.106 |   -0.234 |     0.446 | 0.173 |     0.614 | 0.539 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E3       | E6           |   -0.134 |   -0.610 |     0.341 | 0.241 |    -0.556 | 0.579 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E4       | E5           |   -0.097 |   -0.430 |     0.237 | 0.169 |    -0.572 | 0.568 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E4       | E6           |   -0.337 |   -0.806 |     0.132 | 0.238 |    -1.415 | 0.158 | 1.000 | ns           |
+| tri.TV.pos | Controle     |        | E5       | E6           |   -0.240 |   -0.648 |     0.168 | 0.207 |    -1.160 | 0.247 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E1       | E2           |    0.171 |   -0.301 |     0.644 | 0.240 |     0.715 | 0.475 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E1       | E3           |    0.149 |   -0.355 |     0.654 | 0.256 |     0.582 | 0.561 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E1       | E4           |   -0.141 |   -0.652 |     0.370 | 0.259 |    -0.543 | 0.588 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E1       | E5           |   -0.064 |   -0.489 |     0.361 | 0.216 |    -0.297 | 0.767 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E1       | E6           |   -0.210 |   -0.720 |     0.300 | 0.259 |    -0.810 | 0.419 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E2       | E3           |   -0.022 |   -0.441 |     0.396 | 0.212 |    -0.105 | 0.917 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E2       | E4           |   -0.312 |   -0.739 |     0.114 | 0.217 |    -1.442 | 0.151 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E2       | E5           |   -0.236 |   -0.555 |     0.083 | 0.162 |    -1.454 | 0.147 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E2       | E6           |   -0.381 |   -0.810 |     0.048 | 0.218 |    -1.750 | 0.081 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E3       | E4           |   -0.290 |   -0.752 |     0.172 | 0.235 |    -1.237 | 0.217 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E3       | E5           |   -0.213 |   -0.578 |     0.152 | 0.185 |    -1.151 | 0.251 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E3       | E6           |   -0.359 |   -0.823 |     0.105 | 0.236 |    -1.523 | 0.129 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E4       | E5           |    0.077 |   -0.298 |     0.451 | 0.190 |     0.403 | 0.687 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E4       | E6           |   -0.069 |   -0.540 |     0.402 | 0.239 |    -0.288 | 0.773 | 1.000 | ns           |
+| tri.TV.pos | Experimental |        | E5       | E6           |   -0.146 |   -0.522 |     0.231 | 0.191 |    -0.762 | 0.447 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E1       | E2           |    0.381 |   -0.162 |     0.925 | 0.276 |     1.381 | 0.169 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E1       | E3           |   -0.003 |   -0.584 |     0.578 | 0.295 |    -0.009 | 0.993 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E1       | E4           |    0.356 |   -0.220 |     0.931 | 0.292 |     1.216 | 0.225 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E1       | E5           |    0.188 |   -0.312 |     0.688 | 0.254 |     0.741 | 0.460 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E1       | E6           |    0.403 |   -0.240 |     1.047 | 0.327 |     1.234 | 0.218 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E2       | E3           |   -0.384 |   -0.853 |     0.084 | 0.238 |    -1.614 | 0.108 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E2       | E4           |   -0.026 |   -0.487 |     0.436 | 0.234 |    -0.110 | 0.913 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E2       | E5           |   -0.193 |   -0.556 |     0.169 | 0.184 |    -1.049 | 0.295 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E2       | E6           |    0.022 |   -0.522 |     0.566 | 0.276 |     0.080 | 0.936 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E3       | E4           |    0.358 |   -0.147 |     0.863 | 0.256 |     1.397 | 0.164 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E3       | E5           |    0.191 |   -0.226 |     0.607 | 0.212 |     0.901 | 0.368 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E3       | E6           |    0.406 |   -0.175 |     0.987 | 0.295 |     1.376 | 0.170 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E4       | E5           |   -0.168 |   -0.576 |     0.241 | 0.208 |    -0.807 | 0.420 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E4       | E6           |    0.048 |   -0.528 |     0.623 | 0.292 |     0.163 | 0.870 | 1.000 | ns           |
+| tri.TV.pre | Controle     |        | E5       | E6           |    0.215 |   -0.285 |     0.715 | 0.254 |     0.848 | 0.397 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E1       | E2           |   -0.360 |   -0.938 |     0.217 | 0.293 |    -1.228 | 0.220 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E1       | E3           |   -0.349 |   -0.966 |     0.269 | 0.314 |    -1.112 | 0.267 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E1       | E4           |   -0.293 |   -0.918 |     0.333 | 0.318 |    -0.920 | 0.358 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E1       | E5           |   -0.283 |   -0.804 |     0.237 | 0.264 |    -1.072 | 0.285 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E1       | E6           |    0.120 |   -0.505 |     0.746 | 0.318 |     0.379 | 0.705 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E2       | E3           |    0.012 |   -0.501 |     0.525 | 0.261 |     0.045 | 0.964 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E2       | E4           |    0.068 |   -0.455 |     0.591 | 0.266 |     0.256 | 0.798 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E2       | E5           |    0.077 |   -0.314 |     0.468 | 0.199 |     0.388 | 0.699 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E2       | E6           |    0.481 |   -0.042 |     1.004 | 0.266 |     1.809 | 0.072 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E3       | E4           |    0.056 |   -0.510 |     0.623 | 0.288 |     0.196 | 0.845 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E3       | E5           |    0.065 |   -0.382 |     0.513 | 0.227 |     0.288 | 0.774 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E3       | E6           |    0.469 |   -0.097 |     1.036 | 0.288 |     1.630 | 0.104 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E4       | E5           |    0.009 |   -0.450 |     0.468 | 0.233 |     0.039 | 0.969 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E4       | E6           |    0.413 |   -0.163 |     0.988 | 0.292 |     1.412 | 0.159 | 1.000 | ns           |
+| tri.TV.pre | Experimental |        | E5       | E6           |    0.404 |   -0.055 |     0.863 | 0.233 |     1.731 | 0.085 | 1.000 | ns           |
+| tri.TV.pos |              | E1     | Controle | Experimental |    0.418 |   -0.119 |     0.956 | 0.273 |     1.532 | 0.127 | 0.127 | ns           |
+| tri.TV.pos |              | E2     | Controle | Experimental |   -0.057 |   -0.420 |     0.307 | 0.185 |    -0.307 | 0.759 | 0.759 | ns           |
+| tri.TV.pos |              | E3     | Controle | Experimental |    0.280 |   -0.156 |     0.716 | 0.221 |     1.265 | 0.207 | 0.207 | ns           |
+| tri.TV.pos |              | E4     | Controle | Experimental |   -0.213 |   -0.653 |     0.227 | 0.223 |    -0.954 | 0.341 | 0.341 | ns           |
+| tri.TV.pos |              | E5     | Controle | Experimental |   -0.040 |   -0.282 |     0.203 | 0.123 |    -0.321 | 0.748 | 0.748 | ns           |
+| tri.TV.pos |              | E6     | Controle | Experimental |    0.055 |   -0.442 |     0.553 | 0.253 |     0.218 | 0.827 | 0.827 | ns           |
+| tri.TV.pre |              | E1     | Controle | Experimental |    0.363 |   -0.295 |     1.021 | 0.334 |     1.086 | 0.279 | 0.279 | ns           |
+| tri.TV.pre |              | E2     | Controle | Experimental |   -0.379 |   -0.823 |     0.065 | 0.225 |    -1.682 | 0.094 | 0.094 | ns           |
+| tri.TV.pre |              | E3     | Controle | Experimental |    0.017 |   -0.518 |     0.551 | 0.272 |     0.061 | 0.951 | 0.951 | ns           |
+| tri.TV.pre |              | E4     | Controle | Experimental |   -0.285 |   -0.824 |     0.253 | 0.273 |    -1.044 | 0.298 | 0.298 | ns           |
+| tri.TV.pre |              | E5     | Controle | Experimental |   -0.109 |   -0.405 |     0.188 | 0.151 |    -0.721 | 0.471 | 0.471 | ns           |
+| tri.TV.pre |              | E6     | Controle | Experimental |    0.080 |   -0.531 |     0.690 | 0.310 |     0.257 | 0.797 | 0.797 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.310 |   -0.940 |     0.319 | 0.321 |    -0.968 | 0.334 | 0.334 | ns           |
+| Controle     | E2     | pre    | pos    |    0.332 |   -0.072 |     0.736 | 0.206 |     1.614 | 0.107 | 0.107 | ns           |
+| Controle     | E3     | pre    | pos    |   -0.093 |   -0.593 |     0.407 | 0.255 |    -0.365 | 0.715 | 0.715 | ns           |
+| Controle     | E4     | pre    | pos    |    0.036 |   -0.470 |     0.542 | 0.258 |     0.139 | 0.889 | 0.889 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.043 |   -0.331 |     0.245 | 0.147 |    -0.293 | 0.770 | 0.770 | ns           |
+| Controle     | E6     | pre    | pos    |   -0.247 |   -0.853 |     0.360 | 0.309 |    -0.799 | 0.425 | 0.425 | ns           |
+| Experimental | E1     | pre    | pos    |   -0.039 |   -0.722 |     0.643 | 0.348 |    -0.112 | 0.911 | 0.911 | ns           |
+| Experimental | E2     | pre    | pos    |    0.312 |   -0.132 |     0.755 | 0.226 |     1.381 | 0.168 | 0.168 | ns           |
+| Experimental | E3     | pre    | pos    |    0.246 |   -0.320 |     0.812 | 0.288 |     0.854 | 0.394 | 0.394 | ns           |
+| Experimental | E4     | pre    | pos    |   -0.032 |   -0.607 |     0.544 | 0.293 |    -0.108 | 0.914 | 0.914 | ns           |
+| Experimental | E5     | pre    | pos    |    0.057 |   -0.238 |     0.352 | 0.150 |     0.379 | 0.705 | 0.705 | ns           |
+| Experimental | E6     | pre    | pos    |   -0.240 |   -0.816 |     0.335 | 0.293 |    -0.821 | 0.412 | 0.412 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2038-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2039-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2041-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2043-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2045-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2047-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -4185,20 +8072,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1033-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2055-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1034-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2056-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1036-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2058-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1038-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2060-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1040-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2062-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1042-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2064-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | E1     | Controle     |  12 |   0.168 |    0.230 |     0.488 |      0.174 |   0.405 |    0.182 |
+| tri.TF.pos | E1     | Experimental |  11 |   0.019 |    0.280 |    -0.030 |      0.237 |  -0.004 |    0.190 |
+| tri.TF.pos | E2     | Controle     |  28 |  -0.135 |    0.134 |    -0.343 |      0.195 |  -0.205 |    0.120 |
+| tri.TF.pos | E2     | Experimental |  23 |   0.264 |    0.125 |    -0.034 |      0.166 |  -0.187 |    0.132 |
+| tri.TF.pos | E3     | Controle     |  19 |   0.167 |    0.164 |     0.066 |      0.224 |  -0.016 |    0.145 |
+| tri.TF.pos | E3     | Experimental |  16 |   0.241 |    0.235 |     0.113 |      0.215 |  -0.023 |    0.158 |
+| tri.TF.pos | E4     | Controle     |  20 |  -0.346 |    0.173 |    -0.168 |      0.224 |   0.123 |    0.142 |
+| tri.TF.pos | E4     | Experimental |  15 |   0.363 |    0.231 |     0.352 |      0.174 |   0.127 |    0.164 |
+| tri.TF.pos | E5     | Controle     |  58 |   0.004 |    0.104 |     0.033 |      0.115 |   0.069 |    0.083 |
+| tri.TF.pos | E5     | Experimental |  55 |   0.067 |    0.127 |     0.210 |      0.115 |   0.201 |    0.085 |
+| tri.TF.pos | E6     | Controle     |  12 |   0.326 |    0.301 |     0.266 |      0.264 |   0.068 |    0.183 |
+| tri.TF.pos | E6     | Experimental |  15 |  -0.170 |    0.210 |    -0.145 |      0.209 |   0.018 |    0.163 |
+
+| .y.        | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Controle     |        | E1       | E2           |    0.610 |    0.180 |     1.040 | 0.218 |     2.794 | 0.006 | 0.084 | ns           |
+| tri.TF.pos | Controle     |        | E1       | E3           |    0.421 |   -0.038 |     0.879 | 0.233 |     1.806 | 0.072 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E1       | E4           |    0.281 |   -0.175 |     0.738 | 0.232 |     1.214 | 0.226 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E1       | E5           |    0.336 |   -0.059 |     0.730 | 0.200 |     1.675 | 0.095 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E1       | E6           |    0.337 |   -0.171 |     0.845 | 0.258 |     1.306 | 0.193 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E2       | E3           |   -0.189 |   -0.560 |     0.181 | 0.188 |    -1.006 | 0.315 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E2       | E4           |   -0.329 |   -0.693 |     0.036 | 0.185 |    -1.775 | 0.077 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E2       | E5           |   -0.274 |   -0.561 |     0.012 | 0.145 |    -1.886 | 0.060 | 0.906 | ns           |
+| tri.TF.pos | Controle     |        | E2       | E6           |   -0.273 |   -0.704 |     0.158 | 0.219 |    -1.247 | 0.213 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E3       | E4           |   -0.139 |   -0.540 |     0.262 | 0.204 |    -0.684 | 0.495 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E3       | E5           |   -0.085 |   -0.414 |     0.244 | 0.167 |    -0.509 | 0.611 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E3       | E6           |   -0.084 |   -0.543 |     0.375 | 0.233 |    -0.359 | 0.720 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E4       | E5           |    0.054 |   -0.270 |     0.378 | 0.165 |     0.330 | 0.742 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E4       | E6           |    0.056 |   -0.403 |     0.514 | 0.233 |     0.239 | 0.812 | 1.000 | ns           |
+| tri.TF.pos | Controle     |        | E5       | E6           |    0.001 |   -0.394 |     0.397 | 0.201 |     0.006 | 0.995 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E1       | E2           |    0.182 |   -0.274 |     0.639 | 0.232 |     0.787 | 0.432 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E1       | E3           |    0.019 |   -0.468 |     0.506 | 0.248 |     0.077 | 0.939 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E1       | E4           |   -0.131 |   -0.626 |     0.364 | 0.251 |    -0.522 | 0.602 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E1       | E5           |   -0.205 |   -0.616 |     0.206 | 0.209 |    -0.983 | 0.326 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E1       | E6           |   -0.023 |   -0.517 |     0.471 | 0.251 |    -0.090 | 0.928 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E2       | E3           |   -0.163 |   -0.568 |     0.241 | 0.206 |    -0.794 | 0.428 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E2       | E4           |   -0.313 |   -0.726 |     0.099 | 0.210 |    -1.495 | 0.136 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E2       | E5           |   -0.388 |   -0.697 |    -0.078 | 0.157 |    -2.467 | 0.014 | 0.214 | ns           |
+| tri.TF.pos | Experimental |        | E2       | E6           |   -0.205 |   -0.620 |     0.210 | 0.211 |    -0.973 | 0.331 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E3       | E4           |   -0.150 |   -0.597 |     0.297 | 0.227 |    -0.661 | 0.509 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E3       | E5           |   -0.224 |   -0.578 |     0.129 | 0.180 |    -1.248 | 0.213 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E3       | E6           |   -0.042 |   -0.490 |     0.407 | 0.228 |    -0.183 | 0.855 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E4       | E5           |   -0.074 |   -0.437 |     0.289 | 0.184 |    -0.401 | 0.688 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E4       | E6           |    0.108 |   -0.348 |     0.565 | 0.232 |     0.468 | 0.640 | 1.000 | ns           |
+| tri.TF.pos | Experimental |        | E5       | E6           |    0.183 |   -0.180 |     0.545 | 0.184 |     0.990 | 0.323 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E1       | E2           |    0.303 |   -0.261 |     0.867 | 0.286 |     1.058 | 0.291 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E1       | E3           |    0.001 |   -0.601 |     0.604 | 0.306 |     0.003 | 0.997 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E1       | E4           |    0.513 |   -0.083 |     1.110 | 0.303 |     1.694 | 0.091 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E1       | E5           |    0.163 |   -0.355 |     0.682 | 0.263 |     0.621 | 0.535 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E1       | E6           |   -0.158 |   -0.825 |     0.509 | 0.339 |    -0.466 | 0.641 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E2       | E3           |   -0.302 |   -0.788 |     0.184 | 0.247 |    -1.224 | 0.222 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E2       | E4           |    0.210 |   -0.268 |     0.689 | 0.243 |     0.866 | 0.387 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E2       | E5           |   -0.140 |   -0.516 |     0.236 | 0.191 |    -0.731 | 0.465 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E2       | E6           |   -0.461 |   -1.025 |     0.103 | 0.286 |    -1.610 | 0.109 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E3       | E4           |    0.512 |   -0.011 |     1.036 | 0.266 |     1.927 | 0.055 | 0.825 | ns           |
+| tri.TF.pre | Controle     |        | E3       | E5           |    0.162 |   -0.270 |     0.594 | 0.219 |     0.740 | 0.460 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E3       | E6           |   -0.159 |   -0.762 |     0.443 | 0.306 |    -0.520 | 0.604 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E4       | E5           |   -0.350 |   -0.774 |     0.074 | 0.215 |    -1.627 | 0.105 | 1.000 | ns           |
+| tri.TF.pre | Controle     |        | E4       | E6           |   -0.671 |   -1.268 |    -0.075 | 0.303 |    -2.216 | 0.028 | 0.413 | ns           |
+| tri.TF.pre | Controle     |        | E5       | E6           |   -0.321 |   -0.840 |     0.197 | 0.263 |    -1.221 | 0.223 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E1       | E2           |   -0.245 |   -0.844 |     0.354 | 0.304 |    -0.805 | 0.422 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E1       | E3           |   -0.222 |   -0.862 |     0.418 | 0.325 |    -0.683 | 0.495 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E1       | E4           |   -0.343 |   -0.992 |     0.305 | 0.329 |    -1.042 | 0.298 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E1       | E5           |   -0.047 |   -0.587 |     0.492 | 0.274 |    -0.173 | 0.863 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E1       | E6           |    0.190 |   -0.459 |     0.838 | 0.329 |     0.575 | 0.566 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E2       | E3           |    0.023 |   -0.509 |     0.555 | 0.270 |     0.085 | 0.933 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E2       | E4           |   -0.099 |   -0.641 |     0.444 | 0.275 |    -0.358 | 0.721 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E2       | E5           |    0.198 |   -0.208 |     0.603 | 0.206 |     0.959 | 0.339 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E2       | E6           |    0.434 |   -0.108 |     0.977 | 0.275 |     1.577 | 0.116 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E3       | E4           |   -0.121 |   -0.709 |     0.466 | 0.298 |    -0.407 | 0.684 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E3       | E5           |    0.175 |   -0.289 |     0.639 | 0.236 |     0.741 | 0.459 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E3       | E6           |    0.412 |   -0.176 |     0.999 | 0.298 |     1.380 | 0.169 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E4       | E5           |    0.296 |   -0.180 |     0.772 | 0.242 |     1.225 | 0.222 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E4       | E6           |    0.533 |   -0.064 |     1.130 | 0.303 |     1.759 | 0.080 | 1.000 | ns           |
+| tri.TF.pre | Experimental |        | E5       | E6           |    0.237 |   -0.239 |     0.713 | 0.242 |     0.980 | 0.328 | 1.000 | ns           |
+| tri.TF.pos |              | E1     | Controle | Experimental |    0.409 |   -0.110 |     0.928 | 0.264 |     1.551 | 0.122 | 0.122 | ns           |
+| tri.TF.pos |              | E2     | Controle | Experimental |   -0.019 |   -0.370 |     0.333 | 0.179 |    -0.104 | 0.917 | 0.917 | ns           |
+| tri.TF.pos |              | E3     | Controle | Experimental |    0.007 |   -0.415 |     0.429 | 0.214 |     0.035 | 0.972 | 0.972 | ns           |
+| tri.TF.pos |              | E4     | Controle | Experimental |   -0.003 |   -0.433 |     0.426 | 0.218 |    -0.015 | 0.988 | 0.988 | ns           |
+| tri.TF.pos |              | E5     | Controle | Experimental |   -0.132 |   -0.366 |     0.102 | 0.119 |    -1.108 | 0.269 | 0.269 | ns           |
+| tri.TF.pos |              | E6     | Controle | Experimental |    0.050 |   -0.434 |     0.533 | 0.246 |     0.202 | 0.840 | 0.840 | ns           |
+| tri.TF.pre |              | E1     | Controle | Experimental |    0.148 |   -0.534 |     0.831 | 0.346 |     0.429 | 0.669 | 0.669 | ns           |
+| tri.TF.pre |              | E2     | Controle | Experimental |   -0.399 |   -0.859 |     0.060 | 0.234 |    -1.710 | 0.088 | 0.088 | ns           |
+| tri.TF.pre |              | E3     | Controle | Experimental |   -0.075 |   -0.629 |     0.480 | 0.282 |    -0.265 | 0.791 | 0.791 | ns           |
+| tri.TF.pre |              | E4     | Controle | Experimental |   -0.708 |   -1.266 |    -0.150 | 0.283 |    -2.499 | 0.013 | 0.013 | \*           |
+| tri.TF.pre |              | E5     | Controle | Experimental |   -0.062 |   -0.370 |     0.245 | 0.156 |    -0.398 | 0.691 | 0.691 | ns           |
+| tri.TF.pre |              | E6     | Controle | Experimental |    0.496 |   -0.137 |     1.129 | 0.321 |     1.543 | 0.124 | 0.124 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.273 |   -0.936 |     0.389 | 0.337 |    -0.809 | 0.419 | 0.419 | ns           |
+| Controle     | E2     | pre    | pos    |    0.336 |   -0.089 |     0.761 | 0.216 |     1.552 | 0.121 | 0.121 | ns           |
+| Controle     | E3     | pre    | pos    |    0.117 |   -0.410 |     0.643 | 0.268 |     0.436 | 0.663 | 0.663 | ns           |
+| Controle     | E4     | pre    | pos    |   -0.178 |   -0.710 |     0.355 | 0.271 |    -0.655 | 0.513 | 0.513 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.042 |   -0.345 |     0.261 | 0.154 |    -0.273 | 0.785 | 0.785 | ns           |
+| Controle     | E6     | pre    | pos    |    0.070 |   -0.569 |     0.708 | 0.325 |     0.214 | 0.831 | 0.831 | ns           |
+| Experimental | E1     | pre    | pos    |    0.049 |   -0.669 |     0.767 | 0.366 |     0.134 | 0.893 | 0.893 | ns           |
+| Experimental | E2     | pre    | pos    |    0.241 |   -0.226 |     0.708 | 0.238 |     1.014 | 0.311 | 0.311 | ns           |
+| Experimental | E3     | pre    | pos    |    0.128 |   -0.467 |     0.724 | 0.303 |     0.423 | 0.673 | 0.673 | ns           |
+| Experimental | E4     | pre    | pos    |    0.063 |   -0.542 |     0.668 | 0.308 |     0.205 | 0.838 | 0.838 | ns           |
+| Experimental | E5     | pre    | pos    |   -0.099 |   -0.409 |     0.212 | 0.158 |    -0.624 | 0.533 | 0.533 | ns           |
+| Experimental | E6     | pre    | pos    |   -0.045 |   -0.650 |     0.561 | 0.308 |    -0.145 | 0.885 | 0.885 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2072-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2073-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2075-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2077-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2079-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2081-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -4310,20 +8322,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1050-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2089-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2090-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2092-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1055-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2094-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1057-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2096-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1059-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2098-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | E1     | Controle     |  12 |  -0.088 |    0.280 |     0.157 |      0.258 |   0.217 |    0.177 |
+| tri.TO.pos | E1     | Experimental |  11 |  -0.293 |    0.263 |     0.122 |      0.279 |   0.337 |    0.185 |
+| tri.TO.pos | E2     | Controle     |  28 |  -0.236 |    0.145 |    -0.007 |      0.145 |   0.165 |    0.116 |
+| tri.TO.pos | E2     | Experimental |  23 |  -0.298 |    0.137 |    -0.194 |      0.197 |   0.025 |    0.128 |
+| tri.TO.pos | E3     | Controle     |  19 |   0.096 |    0.222 |     0.284 |      0.234 |   0.203 |    0.141 |
+| tri.TO.pos | E3     | Experimental |  16 |   0.116 |    0.245 |     0.033 |      0.253 |  -0.064 |    0.153 |
+| tri.TO.pos | E4     | Controle     |  20 |  -0.283 |    0.188 |    -0.031 |      0.172 |   0.177 |    0.138 |
+| tri.TO.pos | E4     | Experimental |  15 |   0.081 |    0.239 |     0.034 |      0.258 |  -0.035 |    0.158 |
+| tri.TO.pos | E5     | Controle     |  58 |   0.092 |    0.114 |     0.223 |      0.117 |   0.145 |    0.081 |
+| tri.TO.pos | E5     | Experimental |  55 |   0.248 |    0.130 |     0.418 |      0.131 |   0.221 |    0.083 |
+| tri.TO.pos | E6     | Controle     |  12 |   0.012 |    0.277 |     0.037 |      0.280 |   0.020 |    0.177 |
+| tri.TO.pos | E6     | Experimental |  15 |  -0.236 |    0.198 |    -0.258 |      0.174 |  -0.087 |    0.159 |
+
+| .y.        | grupo        | escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle     |        | E1       | E2           |    0.051 |   -0.366 |     0.468 | 0.212 |     0.241 | 0.810 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E1       | E3           |    0.014 |   -0.431 |     0.459 | 0.226 |     0.062 | 0.951 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E1       | E4           |    0.039 |   -0.402 |     0.480 | 0.224 |     0.175 | 0.861 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E1       | E5           |    0.071 |   -0.312 |     0.454 | 0.195 |     0.367 | 0.714 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E1       | E6           |    0.196 |   -0.296 |     0.689 | 0.250 |     0.785 | 0.433 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E2       | E3           |   -0.037 |   -0.397 |     0.323 | 0.183 |    -0.203 | 0.839 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E2       | E4           |   -0.012 |   -0.365 |     0.341 | 0.179 |    -0.066 | 0.947 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E2       | E5           |    0.020 |   -0.259 |     0.299 | 0.142 |     0.144 | 0.886 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E2       | E6           |    0.145 |   -0.272 |     0.562 | 0.212 |     0.686 | 0.493 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E3       | E4           |    0.025 |   -0.363 |     0.413 | 0.197 |     0.128 | 0.898 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E3       | E5           |    0.058 |   -0.262 |     0.377 | 0.162 |     0.355 | 0.723 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E3       | E6           |    0.182 |   -0.263 |     0.627 | 0.226 |     0.807 | 0.420 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E4       | E5           |    0.032 |   -0.282 |     0.347 | 0.160 |     0.202 | 0.840 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E4       | E6           |    0.157 |   -0.284 |     0.599 | 0.224 |     0.701 | 0.484 | 1.000 | ns           |
+| tri.TO.pos | Controle     |        | E5       | E6           |    0.125 |   -0.258 |     0.508 | 0.194 |     0.642 | 0.521 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E1       | E2           |    0.313 |   -0.130 |     0.755 | 0.225 |     1.392 | 0.165 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E1       | E3           |    0.401 |   -0.073 |     0.875 | 0.241 |     1.666 | 0.097 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E1       | E4           |    0.373 |   -0.107 |     0.853 | 0.244 |     1.530 | 0.127 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E1       | E5           |    0.116 |   -0.285 |     0.517 | 0.204 |     0.571 | 0.569 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E1       | E6           |    0.424 |   -0.055 |     0.903 | 0.243 |     1.743 | 0.082 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E2       | E3           |    0.088 |   -0.306 |     0.483 | 0.200 |     0.441 | 0.659 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E2       | E4           |    0.060 |   -0.341 |     0.462 | 0.204 |     0.295 | 0.768 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E2       | E5           |   -0.196 |   -0.500 |     0.107 | 0.154 |    -1.276 | 0.203 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E2       | E6           |    0.111 |   -0.289 |     0.512 | 0.203 |     0.548 | 0.584 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E3       | E4           |   -0.028 |   -0.462 |     0.406 | 0.220 |    -0.128 | 0.898 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E3       | E5           |   -0.285 |   -0.628 |     0.058 | 0.174 |    -1.635 | 0.103 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E3       | E6           |    0.023 |   -0.412 |     0.458 | 0.221 |     0.104 | 0.917 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E4       | E5           |   -0.257 |   -0.609 |     0.095 | 0.179 |    -1.437 | 0.152 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E4       | E6           |    0.051 |   -0.390 |     0.493 | 0.224 |     0.228 | 0.820 | 1.000 | ns           |
+| tri.TO.pos | Experimental |        | E5       | E6           |    0.308 |   -0.046 |     0.662 | 0.180 |     1.713 | 0.088 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E1       | E2           |    0.148 |   -0.451 |     0.747 | 0.304 |     0.486 | 0.627 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E1       | E3           |   -0.184 |   -0.825 |     0.456 | 0.325 |    -0.566 | 0.572 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E1       | E4           |    0.195 |   -0.439 |     0.829 | 0.322 |     0.605 | 0.545 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E1       | E5           |   -0.180 |   -0.731 |     0.371 | 0.280 |    -0.644 | 0.520 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E1       | E6           |   -0.100 |   -0.809 |     0.609 | 0.360 |    -0.279 | 0.781 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E2       | E3           |   -0.332 |   -0.849 |     0.184 | 0.262 |    -1.267 | 0.206 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E2       | E4           |    0.047 |   -0.462 |     0.555 | 0.258 |     0.182 | 0.856 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E2       | E5           |   -0.328 |   -0.728 |     0.071 | 0.203 |    -1.617 | 0.107 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E2       | E6           |   -0.249 |   -0.848 |     0.351 | 0.304 |    -0.816 | 0.415 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E3       | E4           |    0.379 |   -0.177 |     0.936 | 0.283 |     1.342 | 0.181 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E3       | E5           |    0.004 |   -0.455 |     0.463 | 0.233 |     0.018 | 0.986 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E3       | E6           |    0.084 |   -0.557 |     0.724 | 0.325 |     0.258 | 0.797 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E4       | E5           |   -0.375 |   -0.825 |     0.075 | 0.229 |    -1.640 | 0.102 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E4       | E6           |   -0.295 |   -0.930 |     0.339 | 0.322 |    -0.917 | 0.360 | 1.000 | ns           |
+| tri.TO.pre | Controle     |        | E5       | E6           |    0.080 |   -0.471 |     0.630 | 0.280 |     0.285 | 0.776 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E1       | E2           |    0.005 |   -0.632 |     0.641 | 0.323 |     0.014 | 0.989 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E1       | E3           |   -0.409 |   -1.089 |     0.271 | 0.346 |    -1.184 | 0.237 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E1       | E4           |   -0.374 |   -1.063 |     0.316 | 0.350 |    -1.067 | 0.287 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E1       | E5           |   -0.541 |   -1.115 |     0.032 | 0.291 |    -1.858 | 0.064 | 0.964 | ns           |
+| tri.TO.pre | Experimental |        | E1       | E6           |   -0.057 |   -0.747 |     0.632 | 0.350 |    -0.164 | 0.870 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E2       | E3           |   -0.414 |   -0.979 |     0.152 | 0.287 |    -1.440 | 0.151 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E2       | E4           |   -0.378 |   -0.955 |     0.198 | 0.293 |    -1.292 | 0.197 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E2       | E5           |   -0.546 |   -0.977 |    -0.115 | 0.219 |    -2.492 | 0.013 | 0.200 | ns           |
+| tri.TO.pre | Experimental |        | E2       | E6           |   -0.062 |   -0.638 |     0.515 | 0.293 |    -0.211 | 0.833 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E3       | E4           |    0.035 |   -0.589 |     0.660 | 0.317 |     0.112 | 0.911 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E3       | E5           |   -0.132 |   -0.626 |     0.361 | 0.251 |    -0.528 | 0.598 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E3       | E6           |    0.352 |   -0.272 |     0.976 | 0.317 |     1.110 | 0.268 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E4       | E5           |   -0.168 |   -0.674 |     0.338 | 0.257 |    -0.652 | 0.515 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E4       | E6           |    0.316 |   -0.318 |     0.951 | 0.322 |     0.982 | 0.327 | 1.000 | ns           |
+| tri.TO.pre | Experimental |        | E5       | E6           |    0.484 |   -0.022 |     0.990 | 0.257 |     1.884 | 0.061 | 0.910 | ns           |
+| tri.TO.pos |              | E1     | Controle | Experimental |   -0.121 |   -0.625 |     0.383 | 0.256 |    -0.472 | 0.637 | 0.637 | ns           |
+| tri.TO.pos |              | E2     | Controle | Experimental |    0.141 |   -0.199 |     0.480 | 0.173 |     0.816 | 0.415 | 0.415 | ns           |
+| tri.TO.pos |              | E3     | Controle | Experimental |    0.266 |   -0.143 |     0.676 | 0.208 |     1.280 | 0.202 | 0.202 | ns           |
+| tri.TO.pos |              | E4     | Controle | Experimental |    0.213 |   -0.200 |     0.626 | 0.210 |     1.014 | 0.311 | 0.311 | ns           |
+| tri.TO.pos |              | E5     | Controle | Experimental |   -0.076 |   -0.304 |     0.151 | 0.116 |    -0.659 | 0.510 | 0.510 | ns           |
+| tri.TO.pos |              | E6     | Controle | Experimental |    0.107 |   -0.361 |     0.575 | 0.238 |     0.449 | 0.653 | 0.653 | ns           |
+| tri.TO.pre |              | E1     | Controle | Experimental |    0.205 |   -0.520 |     0.930 | 0.368 |     0.556 | 0.579 | 0.579 | ns           |
+| tri.TO.pre |              | E2     | Controle | Experimental |    0.061 |   -0.427 |     0.550 | 0.248 |     0.247 | 0.805 | 0.805 | ns           |
+| tri.TO.pre |              | E3     | Controle | Experimental |   -0.020 |   -0.609 |     0.569 | 0.299 |    -0.067 | 0.947 | 0.947 | ns           |
+| tri.TO.pre |              | E4     | Controle | Experimental |   -0.364 |   -0.957 |     0.229 | 0.301 |    -1.208 | 0.228 | 0.228 | ns           |
+| tri.TO.pre |              | E5     | Controle | Experimental |   -0.156 |   -0.483 |     0.170 | 0.166 |    -0.942 | 0.347 | 0.347 | ns           |
+| tri.TO.pre |              | E6     | Controle | Experimental |    0.248 |   -0.425 |     0.921 | 0.342 |     0.726 | 0.469 | 0.469 | ns           |
+
+| grupo        | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | E1     | pre    | pos    |   -0.211 |   -0.901 |     0.478 | 0.351 |    -0.602 | 0.548 | 0.548 | ns           |
+| Controle     | E2     | pre    | pos    |   -0.127 |   -0.569 |     0.315 | 0.225 |    -0.564 | 0.573 | 0.573 | ns           |
+| Controle     | E3     | pre    | pos    |   -0.229 |   -0.777 |     0.318 | 0.279 |    -0.823 | 0.411 | 0.411 | ns           |
+| Controle     | E4     | pre    | pos    |   -0.253 |   -0.807 |     0.302 | 0.282 |    -0.895 | 0.371 | 0.371 | ns           |
+| Controle     | E5     | pre    | pos    |   -0.206 |   -0.521 |     0.109 | 0.161 |    -1.283 | 0.200 | 0.200 | ns           |
+| Controle     | E6     | pre    | pos    |   -0.134 |   -0.798 |     0.530 | 0.338 |    -0.396 | 0.692 | 0.692 | ns           |
+| Experimental | E1     | pre    | pos    |   -0.415 |   -1.163 |     0.333 | 0.381 |    -1.090 | 0.276 | 0.276 | ns           |
+| Experimental | E2     | pre    | pos    |   -0.048 |   -0.534 |     0.438 | 0.247 |    -0.194 | 0.846 | 0.846 | ns           |
+| Experimental | E3     | pre    | pos    |    0.083 |   -0.536 |     0.703 | 0.316 |     0.264 | 0.792 | 0.792 | ns           |
+| Experimental | E4     | pre    | pos    |    0.026 |   -0.604 |     0.656 | 0.321 |     0.082 | 0.935 | 0.935 | ns           |
+| Experimental | E5     | pre    | pos    |   -0.171 |   -0.494 |     0.152 | 0.164 |    -1.038 | 0.300 | 0.300 | ns           |
+| Experimental | E6     | pre    | pos    |    0.011 |   -0.619 |     0.641 | 0.321 |     0.034 | 0.973 | 0.973 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2106-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2107-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2109-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2111-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2113-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2115-1.png)<!-- -->
 
 ## factores: **zona.escola:grupo**
 
@@ -4357,20 +8494,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1067-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2123-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1068-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2124-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1070-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2126-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1072-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2128-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1074-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2130-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1076-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2132-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Rural       | Controle     |  51 |  65.549 |    2.551 |    71.373 |      2.047 |  73.755 |    1.512 |
+| tri.CLPP.pos | Rural       | Experimental |  46 |  70.543 |    1.925 |    71.891 |      1.619 |  70.815 |    1.586 |
+| tri.CLPP.pos | Urbana      | Controle     |  98 |  69.429 |    1.245 |    68.673 |      1.544 |  68.369 |    1.086 |
+| tri.CLPP.pos | Urbana      | Experimental |  89 |  69.674 |    1.586 |    70.416 |      1.660 |  69.941 |    1.139 |
+
+| .y.          | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Controle     |             | Urbana   | Rural        |   -5.386 |   -9.054 |    -1.718 | 1.863 |    -2.891 | 0.004 | 0.004 | \*\*         |
+| tri.CLPP.pos | Experimental |             | Urbana   | Rural        |   -0.873 |   -4.715 |     2.968 | 1.952 |    -0.448 | 0.655 | 0.655 | ns           |
+| tri.CLPP.pre | Controle     |             | Urbana   | Rural        |    3.880 |   -1.041 |     8.801 | 2.500 |     1.552 | 0.122 | 0.122 | ns           |
+| tri.CLPP.pre | Experimental |             | Urbana   | Rural        |   -0.869 |   -6.045 |     4.306 | 2.629 |    -0.331 | 0.741 | 0.741 | ns           |
+| tri.CLPP.pos |              | Urbana      | Controle | Experimental |   -1.572 |   -4.670 |     1.525 | 1.573 |    -0.999 | 0.319 | 0.319 | ns           |
+| tri.CLPP.pos |              | Rural       | Controle | Experimental |    2.940 |   -1.383 |     7.264 | 2.196 |     1.339 | 0.182 | 0.182 | ns           |
+| tri.CLPP.pre |              | Urbana      | Controle | Experimental |   -0.246 |   -4.419 |     3.928 | 2.120 |    -0.116 | 0.908 | 0.908 | ns           |
+| tri.CLPP.pre |              | Rural       | Controle | Experimental |   -4.994 |  -10.790 |     0.801 | 2.944 |    -1.696 | 0.091 | 0.091 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |    0.000 |   -0.257 |     0.257 | 0.131 |     0.001 | 0.999 | 0.999 | ns           |
+| Controle     | Rural       | pre    | pos    |   -0.127 |   -0.486 |     0.232 | 0.183 |    -0.695 | 0.487 | 0.487 | ns           |
+| Experimental | Urbana      | pre    | pos    |   -0.052 |   -0.322 |     0.218 | 0.137 |    -0.377 | 0.707 | 0.707 | ns           |
+| Experimental | Rural       | pre    | pos    |   -0.102 |   -0.488 |     0.284 | 0.197 |    -0.517 | 0.605 | 0.605 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2140-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2141-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2143-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2145-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2147-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2149-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -4402,20 +8584,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1084-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2157-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2158-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2160-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2162-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1091-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2164-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1093-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2166-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Rural       | Controle     |  51 |   0.068 |    0.102 |     0.165 |      0.117 |   0.149 |    0.089 |
+| tri.CR.pos | Rural       | Experimental |  46 |   0.240 |    0.125 |     0.247 |      0.097 |   0.123 |    0.094 |
+| tri.CR.pos | Urbana      | Controle     |  98 |  -0.110 |    0.078 |    -0.036 |      0.086 |   0.060 |    0.064 |
+| tri.CR.pos | Urbana      | Experimental |  89 |   0.095 |    0.089 |     0.094 |      0.086 |   0.061 |    0.067 |
+
+| .y.        | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Controle     |             | Urbana   | Rural        |   -0.089 |   -0.305 |     0.127 | 0.110 |    -0.813 | 0.417 | 0.417 | ns           |
+| tri.CR.pos | Experimental |             | Urbana   | Rural        |   -0.062 |   -0.288 |     0.165 | 0.115 |    -0.536 | 0.592 | 0.592 | ns           |
+| tri.CR.pre | Controle     |             | Urbana   | Rural        |   -0.177 |   -0.449 |     0.094 | 0.138 |    -1.286 | 0.200 | 0.200 | ns           |
+| tri.CR.pre | Experimental |             | Urbana   | Rural        |   -0.145 |   -0.431 |     0.141 | 0.145 |    -1.000 | 0.318 | 0.318 | ns           |
+| tri.CR.pos |              | Urbana      | Controle | Experimental |   -0.001 |   -0.184 |     0.183 | 0.093 |    -0.006 | 0.995 | 0.995 | ns           |
+| tri.CR.pos |              | Rural       | Controle | Experimental |    0.027 |   -0.227 |     0.281 | 0.129 |     0.208 | 0.835 | 0.835 | ns           |
+| tri.CR.pre |              | Urbana      | Controle | Experimental |   -0.205 |   -0.436 |     0.025 | 0.117 |    -1.753 | 0.081 | 0.081 | ns           |
+| tri.CR.pre |              | Rural       | Controle | Experimental |   -0.173 |   -0.493 |     0.147 | 0.163 |    -1.063 | 0.289 | 0.289 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |   -0.026 |   -0.241 |     0.190 | 0.110 |    -0.234 | 0.815 | 0.815 | ns           |
+| Controle     | Rural       | pre    | pos    |   -0.136 |   -0.437 |     0.165 | 0.153 |    -0.887 | 0.376 | 0.376 | ns           |
+| Experimental | Urbana      | pre    | pos    |    0.043 |   -0.184 |     0.270 | 0.115 |     0.373 | 0.709 | 0.709 | ns           |
+| Experimental | Rural       | pre    | pos    |   -0.016 |   -0.341 |     0.308 | 0.165 |    -0.100 | 0.921 | 0.921 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2174-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2175-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2177-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2179-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2181-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2183-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -4447,20 +8674,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2191-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1102-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2192-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1104-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2194-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1106-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2196-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1108-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2198-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1110-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2200-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Rural       | Controle     |  51 |   0.043 |    0.106 |     0.158 |      0.131 |   0.134 |    0.085 |
+| tri.CI.pos | Rural       | Experimental |  46 |   0.000 |    0.121 |     0.171 |      0.121 |   0.180 |    0.089 |
+| tri.CI.pos | Urbana      | Controle     |  98 |  -0.027 |    0.085 |    -0.069 |      0.095 |  -0.039 |    0.061 |
+| tri.CI.pos | Urbana      | Experimental |  89 |   0.042 |    0.094 |     0.264 |      0.092 |   0.240 |    0.064 |
+
+| .y.        | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Controle     |             | Urbana   | Rural        |   -0.172 |   -0.378 |     0.033 | 0.104 |    -1.649 | 0.100 | 0.100 | ns           |
+| tri.CI.pos | Experimental |             | Urbana   | Rural        |    0.060 |   -0.156 |     0.276 | 0.110 |     0.545 | 0.586 | 0.586 | ns           |
+| tri.CI.pre | Controle     |             | Urbana   | Rural        |   -0.070 |   -0.354 |     0.215 | 0.145 |    -0.481 | 0.631 | 0.631 | ns           |
+| tri.CI.pre | Experimental |             | Urbana   | Rural        |    0.042 |   -0.257 |     0.342 | 0.152 |     0.278 | 0.781 | 0.781 | ns           |
+| tri.CI.pos |              | Urbana      | Controle | Experimental |   -0.279 |   -0.453 |    -0.104 | 0.089 |    -3.147 | 0.002 | 0.002 | \*\*         |
+| tri.CI.pos |              | Rural       | Controle | Experimental |   -0.047 |   -0.289 |     0.195 | 0.123 |    -0.380 | 0.704 | 0.704 | ns           |
+| tri.CI.pre |              | Urbana      | Controle | Experimental |   -0.069 |   -0.310 |     0.173 | 0.123 |    -0.561 | 0.575 | 0.575 | ns           |
+| tri.CI.pre |              | Rural       | Controle | Experimental |    0.043 |   -0.292 |     0.379 | 0.170 |     0.253 | 0.801 | 0.801 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |    0.066 |   -0.165 |     0.297 | 0.118 |     0.564 | 0.573 | 0.573 | ns           |
+| Controle     | Rural       | pre    | pos    |   -0.189 |   -0.511 |     0.134 | 0.164 |    -1.149 | 0.251 | 0.251 | ns           |
+| Experimental | Urbana      | pre    | pos    |   -0.217 |   -0.460 |     0.025 | 0.124 |    -1.759 | 0.079 | 0.079 | ns           |
+| Experimental | Rural       | pre    | pos    |   -0.209 |   -0.556 |     0.138 | 0.177 |    -1.183 | 0.237 | 0.237 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2208-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2209-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2211-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2213-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2215-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2217-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -4492,20 +8764,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1118-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2225-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1119-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2226-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2228-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2230-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1125-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2232-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1127-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2234-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Rural       | Controle     |  51 |  -0.004 |    0.119 |     0.067 |      0.111 |   0.102 |    0.093 |
+| tri.TV.pos | Rural       | Experimental |  46 |   0.044 |    0.124 |     0.076 |      0.111 |   0.081 |    0.097 |
+| tri.TV.pos | Urbana      | Controle     |  98 |   0.009 |    0.077 |    -0.007 |      0.087 |   0.019 |    0.067 |
+| tri.TV.pos | Urbana      | Experimental |  89 |   0.135 |    0.084 |     0.065 |      0.088 |   0.013 |    0.070 |
+
+| .y.        | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Controle     |             | Urbana   | Rural        |   -0.082 |   -0.307 |     0.142 | 0.114 |    -0.720 | 0.472 | 0.472 | ns           |
+| tri.TV.pos | Experimental |             | Urbana   | Rural        |   -0.068 |   -0.304 |     0.169 | 0.120 |    -0.563 | 0.574 | 0.574 | ns           |
+| tri.TV.pre | Controle     |             | Urbana   | Rural        |    0.013 |   -0.260 |     0.286 | 0.139 |     0.095 | 0.925 | 0.925 | ns           |
+| tri.TV.pre | Experimental |             | Urbana   | Rural        |    0.091 |   -0.196 |     0.378 | 0.146 |     0.623 | 0.534 | 0.534 | ns           |
+| tri.TV.pos |              | Urbana      | Controle | Experimental |    0.006 |   -0.185 |     0.197 | 0.097 |     0.062 | 0.951 | 0.951 | ns           |
+| tri.TV.pos |              | Rural       | Controle | Experimental |    0.021 |   -0.244 |     0.285 | 0.134 |     0.153 | 0.878 | 0.878 | ns           |
+| tri.TV.pre |              | Urbana      | Controle | Experimental |   -0.126 |   -0.357 |     0.106 | 0.118 |    -1.070 | 0.286 | 0.286 | ns           |
+| tri.TV.pre |              | Rural       | Controle | Experimental |   -0.048 |   -0.369 |     0.273 | 0.163 |    -0.295 | 0.768 | 0.768 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |    0.038 |   -0.183 |     0.259 | 0.112 |     0.339 | 0.734 | 0.734 | ns           |
+| Controle     | Rural       | pre    | pos    |   -0.082 |   -0.391 |     0.226 | 0.157 |    -0.523 | 0.601 | 0.601 | ns           |
+| Experimental | Urbana      | pre    | pos    |    0.118 |   -0.114 |     0.350 | 0.118 |     0.995 | 0.320 | 0.320 | ns           |
+| Experimental | Rural       | pre    | pos    |   -0.011 |   -0.343 |     0.321 | 0.169 |    -0.067 | 0.947 | 0.947 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2242-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2243-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2245-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2247-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2249-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2251-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -4537,20 +8854,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2259-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1136-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2260-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1138-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2262-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1140-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2264-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1142-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2266-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1144-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2268-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Rural       | Controle     |  51 |   0.003 |    0.120 |     0.021 |      0.136 |   0.058 |    0.090 |
+| tri.TF.pos | Rural       | Experimental |  46 |   0.147 |    0.132 |     0.107 |      0.117 |   0.039 |    0.094 |
+| tri.TF.pos | Urbana      | Controle     |  98 |  -0.015 |    0.078 |    -0.019 |      0.093 |   0.032 |    0.065 |
+| tri.TF.pos | Urbana      | Experimental |  89 |   0.112 |    0.091 |     0.117 |      0.088 |   0.075 |    0.068 |
+
+| .y.        | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Controle     |             | Urbana   | Rural        |   -0.027 |   -0.244 |     0.191 | 0.111 |    -0.241 | 0.810 | 0.810 | ns           |
+| tri.TF.pos | Experimental |             | Urbana   | Rural        |    0.036 |   -0.193 |     0.265 | 0.116 |     0.311 | 0.756 | 0.756 | ns           |
+| tri.TF.pre | Controle     |             | Urbana   | Rural        |   -0.019 |   -0.303 |     0.265 | 0.144 |    -0.130 | 0.897 | 0.897 | ns           |
+| tri.TF.pre | Experimental |             | Urbana   | Rural        |   -0.035 |   -0.333 |     0.264 | 0.152 |    -0.230 | 0.819 | 0.819 | ns           |
+| tri.TF.pos |              | Urbana      | Controle | Experimental |   -0.043 |   -0.228 |     0.141 | 0.094 |    -0.462 | 0.644 | 0.644 | ns           |
+| tri.TF.pos |              | Rural       | Controle | Experimental |    0.019 |   -0.237 |     0.276 | 0.130 |     0.149 | 0.882 | 0.882 | ns           |
+| tri.TF.pre |              | Urbana      | Controle | Experimental |   -0.127 |   -0.368 |     0.114 | 0.122 |    -1.041 | 0.299 | 0.299 | ns           |
+| tri.TF.pre |              | Rural       | Controle | Experimental |   -0.143 |   -0.478 |     0.191 | 0.170 |    -0.844 | 0.399 | 0.399 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |    0.044 |   -0.189 |     0.277 | 0.118 |     0.371 | 0.710 | 0.710 | ns           |
+| Controle     | Rural       | pre    | pos    |    0.007 |   -0.318 |     0.332 | 0.165 |     0.041 | 0.967 | 0.967 | ns           |
+| Experimental | Urbana      | pre    | pos    |    0.011 |   -0.234 |     0.256 | 0.125 |     0.088 | 0.930 | 0.930 | ns           |
+| Experimental | Rural       | pre    | pos    |    0.039 |   -0.311 |     0.389 | 0.178 |     0.219 | 0.827 | 0.827 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2276-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2277-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2279-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2281-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2283-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2285-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -4582,20 +8944,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1152-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2293-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1153-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2294-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1155-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2296-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1157-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2298-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1159-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2300-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1161-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2302-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | zona.escola | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:------------|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Rural       | Controle     |  51 |  -0.072 |    0.128 |     0.102 |      0.128 |   0.150 |    0.085 |
+| tri.TO.pos | Rural       | Experimental |  46 |  -0.010 |    0.131 |    -0.062 |      0.133 |  -0.062 |    0.090 |
+| tri.TO.pos | Urbana      | Controle     |  98 |  -0.024 |    0.087 |     0.149 |      0.086 |   0.160 |    0.061 |
+| tri.TO.pos | Urbana      | Experimental |  89 |   0.040 |    0.097 |     0.223 |      0.104 |   0.185 |    0.064 |
+
+| .y.        | grupo        | zona.escola | group1   | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:------------|:---------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Controle     |             | Urbana   | Rural        |    0.010 |   -0.197 |     0.216 | 0.105 |     0.092 | 0.927 | 0.927 | ns           |
+| tri.TO.pos | Experimental |             | Urbana   | Rural        |    0.247 |    0.029 |     0.464 | 0.110 |     2.233 | 0.026 | 0.026 | \*           |
+| tri.TO.pre | Controle     |             | Urbana   | Rural        |    0.048 |   -0.255 |     0.352 | 0.154 |     0.315 | 0.753 | 0.753 | ns           |
+| tri.TO.pre | Experimental |             | Urbana   | Rural        |    0.051 |   -0.268 |     0.369 | 0.162 |     0.312 | 0.755 | 0.755 | ns           |
+| tri.TO.pos |              | Urbana      | Controle | Experimental |   -0.025 |   -0.200 |     0.150 | 0.089 |    -0.280 | 0.780 | 0.780 | ns           |
+| tri.TO.pos |              | Rural       | Controle | Experimental |    0.212 |   -0.031 |     0.455 | 0.124 |     1.715 | 0.087 | 0.087 | ns           |
+| tri.TO.pre |              | Urbana      | Controle | Experimental |   -0.064 |   -0.321 |     0.193 | 0.131 |    -0.492 | 0.623 | 0.623 | ns           |
+| tri.TO.pre |              | Rural       | Controle | Experimental |   -0.062 |   -0.419 |     0.295 | 0.181 |    -0.343 | 0.732 | 0.732 | ns           |
+
+| grupo        | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle     | Urbana      | pre    | pos    |   -0.183 |   -0.425 |     0.059 | 0.123 |    -1.488 | 0.137 | 0.137 | ns           |
+| Controle     | Rural       | pre    | pos    |   -0.212 |   -0.550 |     0.126 | 0.172 |    -1.230 | 0.219 | 0.219 | ns           |
+| Experimental | Urbana      | pre    | pos    |   -0.182 |   -0.436 |     0.072 | 0.129 |    -1.406 | 0.160 | 0.160 | ns           |
+| Experimental | Rural       | pre    | pos    |    0.034 |   -0.330 |     0.398 | 0.185 |     0.182 | 0.855 | 0.855 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2310-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2311-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2313-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2315-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2317-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2319-1.png)<!-- -->
 
 # Pairwise comparisons for grupo=“Experimental”
 
@@ -4725,15 +9132,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2327-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2329-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1173-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2331-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1175-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2333-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1177-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2335-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | AC      |  11 |  76.364 |    2.081 |    72.909 |      4.196 |  69.967 |    3.180 |
+| tri.CLPP.pos | CE      |  15 |  74.200 |    3.236 |    75.333 |      2.489 |  73.754 |    2.713 |
+| tri.CLPP.pos | EA      |  11 |  74.364 |    3.817 |    76.636 |      4.124 |  74.954 |    3.166 |
+| tri.CLPP.pos | GR      |  14 |  68.786 |    4.362 |    71.214 |      3.853 |  73.046 |    2.810 |
+| tri.CLPP.pos | JC      |  10 |  77.400 |    3.149 |    81.000 |      3.190 |  77.405 |    3.342 |
+| tri.CLPP.pos | MF      |  11 |  75.545 |    4.519 |    72.636 |      4.521 |  70.210 |    3.173 |
+| tri.CLPP.pos | ML      |  16 |  67.812 |    4.032 |    69.188 |      3.510 |  71.632 |    2.636 |
+| tri.CLPP.pos | MM      |  10 |  68.000 |    2.539 |    61.600 |      6.454 |  63.927 |    3.326 |
+| tri.CLPP.pos | PR      |  11 |  67.182 |    5.003 |    71.182 |      3.753 |  74.024 |    3.178 |
+| tri.CLPP.pos | VL      |  15 |  69.800 |    2.434 |    71.333 |      2.030 |  72.526 |    2.710 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | AC     | CE     |   -3.787 |  -12.036 |     4.462 | 4.164 |    -0.910 | 0.365 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | EA     |   -4.987 |  -13.846 |     3.872 | 4.472 |    -1.115 | 0.267 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | GR     |   -3.079 |  -11.521 |     5.363 | 4.261 |    -0.723 | 0.471 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | JC     |   -7.438 |  -16.512 |     1.636 | 4.580 |    -1.624 | 0.107 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | MF     |   -0.243 |   -9.097 |     8.612 | 4.469 |    -0.054 | 0.957 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | ML     |   -1.665 |   -9.898 |     6.567 | 4.155 |    -0.401 | 0.689 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | MM     |    6.040 |   -3.118 |    15.198 | 4.622 |     1.307 | 0.194 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | PR     |   -4.057 |  -13.016 |     4.902 | 4.522 |    -0.897 | 0.372 | 1.000 | ns           |
+| tri.CLPP.pos | AC     | VL     |   -2.559 |  -10.860 |     5.741 | 4.190 |    -0.611 | 0.543 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | EA     |   -1.200 |   -9.442 |     7.043 | 4.160 |    -0.288 | 0.774 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | GR     |    0.708 |   -7.050 |     8.467 | 3.916 |     0.181 | 0.857 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | JC     |   -3.651 |  -12.141 |     4.840 | 4.286 |    -0.852 | 0.396 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | MF     |    3.545 |   -4.700 |    11.790 | 4.162 |     0.852 | 0.396 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | ML     |    2.122 |   -5.401 |     9.645 | 3.797 |     0.559 | 0.577 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | MM     |    9.828 |    1.300 |    18.355 | 4.304 |     2.283 | 0.024 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | PR     |   -0.270 |   -8.578 |     8.039 | 4.194 |    -0.064 | 0.949 | 1.000 | ns           |
+| tri.CLPP.pos | CE     | VL     |    1.228 |   -6.382 |     8.839 | 3.841 |     0.320 | 0.750 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | GR     |    1.908 |   -6.499 |    10.316 | 4.244 |     0.450 | 0.654 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | JC     |   -2.451 |  -11.535 |     6.633 | 4.585 |    -0.535 | 0.594 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | MF     |    4.745 |   -4.111 |    13.600 | 4.470 |     1.061 | 0.291 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | ML     |    3.322 |   -4.869 |    11.513 | 4.135 |     0.803 | 0.423 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | MM     |   11.027 |    1.905 |    20.150 | 4.604 |     2.395 | 0.018 | 0.822 | ns           |
+| tri.CLPP.pos | EA     | PR     |    0.930 |   -7.988 |     9.849 | 4.502 |     0.207 | 0.837 | 1.000 | ns           |
+| tri.CLPP.pos | EA     | VL     |    2.428 |   -5.843 |    10.699 | 4.175 |     0.582 | 0.562 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | JC     |   -4.359 |  -13.052 |     4.334 | 4.388 |    -0.993 | 0.323 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | MF     |    2.836 |   -5.590 |    11.263 | 4.253 |     0.667 | 0.506 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | ML     |    1.414 |   -6.187 |     9.014 | 3.836 |     0.369 | 0.713 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | MM     |    9.119 |    0.521 |    17.717 | 4.340 |     2.101 | 0.038 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | PR     |   -0.978 |   -9.347 |     7.392 | 4.225 |    -0.231 | 0.817 | 1.000 | ns           |
+| tri.CLPP.pos | GR     | VL     |    0.520 |   -7.198 |     8.238 | 3.896 |     0.133 | 0.894 | 1.000 | ns           |
+| tri.CLPP.pos | JC     | MF     |    7.195 |   -1.881 |    16.272 | 4.581 |     1.571 | 0.119 | 1.000 | ns           |
+| tri.CLPP.pos | JC     | ML     |    5.773 |   -2.719 |    14.264 | 4.286 |     1.347 | 0.181 | 1.000 | ns           |
+| tri.CLPP.pos | JC     | MM     |   13.478 |    4.087 |    22.870 | 4.740 |     2.843 | 0.005 | 0.238 | ns           |
+| tri.CLPP.pos | JC     | PR     |    3.381 |   -5.819 |    12.581 | 4.644 |     0.728 | 0.468 | 1.000 | ns           |
+| tri.CLPP.pos | JC     | VL     |    4.879 |   -3.674 |    13.431 | 4.317 |     1.130 | 0.261 | 1.000 | ns           |
+| tri.CLPP.pos | MF     | ML     |   -1.423 |   -9.637 |     6.792 | 4.146 |    -0.343 | 0.732 | 1.000 | ns           |
+| tri.CLPP.pos | MF     | MM     |    6.283 |   -2.859 |    15.425 | 4.614 |     1.362 | 0.176 | 1.000 | ns           |
+| tri.CLPP.pos | MF     | PR     |   -3.814 |  -12.756 |     5.127 | 4.513 |    -0.845 | 0.400 | 1.000 | ns           |
+| tri.CLPP.pos | MF     | VL     |   -2.316 |  -10.603 |     5.971 | 4.183 |    -0.554 | 0.581 | 1.000 | ns           |
+| tri.CLPP.pos | ML     | MM     |    7.706 |   -0.665 |    16.076 | 4.225 |     1.824 | 0.071 | 1.000 | ns           |
+| tri.CLPP.pos | ML     | PR     |   -2.392 |  -10.525 |     5.742 | 4.105 |    -0.583 | 0.561 | 1.000 | ns           |
+| tri.CLPP.pos | ML     | VL     |   -0.894 |   -8.362 |     6.575 | 3.770 |    -0.237 | 0.813 | 1.000 | ns           |
+| tri.CLPP.pos | MM     | PR     |  -10.097 |  -19.171 |    -1.024 | 4.580 |    -2.205 | 0.029 | 1.000 | ns           |
+| tri.CLPP.pos | MM     | VL     |   -8.599 |  -17.081 |    -0.118 | 4.281 |    -2.009 | 0.047 | 1.000 | ns           |
+| tri.CLPP.pos | PR     | VL     |    1.498 |   -6.754 |     9.750 | 4.165 |     0.360 | 0.720 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | CE     |    2.164 |   -8.084 |    12.411 | 5.173 |     0.418 | 0.677 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | EA     |    2.000 |   -9.008 |    13.008 | 5.557 |     0.360 | 0.720 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | GR     |    7.578 |   -2.823 |    17.979 | 5.251 |     1.443 | 0.152 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | JC     |   -1.036 |  -12.316 |    10.243 | 5.694 |    -0.182 | 0.856 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | MF     |    0.818 |  -10.189 |    11.826 | 5.557 |     0.147 | 0.883 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | ML     |    8.551 |   -1.560 |    18.662 | 5.104 |     1.675 | 0.097 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | MM     |    8.364 |   -2.916 |    19.643 | 5.694 |     1.469 | 0.145 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | PR     |    9.182 |   -1.826 |    20.189 | 5.557 |     1.652 | 0.101 | 1.000 | ns           |
+| tri.CLPP.pre | AC     | VL     |    6.564 |   -3.684 |    16.811 | 5.173 |     1.269 | 0.207 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | EA     |   -0.164 |  -10.411 |    10.084 | 5.173 |    -0.032 | 0.975 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | GR     |    5.414 |   -4.179 |    15.008 | 4.843 |     1.118 | 0.266 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | JC     |   -3.200 |  -13.739 |     7.339 | 5.320 |    -0.601 | 0.549 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | MF     |   -1.345 |  -11.593 |     8.902 | 5.173 |    -0.260 | 0.795 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | ML     |    6.387 |   -2.890 |    15.665 | 4.683 |     1.364 | 0.175 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | MM     |    6.200 |   -4.339 |    16.739 | 5.320 |     1.165 | 0.246 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | PR     |    7.018 |   -3.229 |    17.266 | 5.173 |     1.357 | 0.178 | 1.000 | ns           |
+| tri.CLPP.pre | CE     | VL     |    4.400 |   -5.026 |    13.826 | 4.758 |     0.925 | 0.357 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | GR     |    5.578 |   -4.823 |    15.979 | 5.251 |     1.062 | 0.290 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | JC     |   -3.036 |  -14.316 |     8.243 | 5.694 |    -0.533 | 0.595 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | MF     |   -1.182 |  -12.189 |     9.826 | 5.557 |    -0.213 | 0.832 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | ML     |    6.551 |   -3.560 |    16.662 | 5.104 |     1.284 | 0.202 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | MM     |    6.364 |   -4.916 |    17.643 | 5.694 |     1.118 | 0.266 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | PR     |    7.182 |   -3.826 |    18.189 | 5.557 |     1.292 | 0.199 | 1.000 | ns           |
+| tri.CLPP.pre | EA     | VL     |    4.564 |   -5.684 |    14.811 | 5.173 |     0.882 | 0.380 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | JC     |   -8.614 |  -19.303 |     2.074 | 5.396 |    -1.597 | 0.113 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | MF     |   -6.760 |  -17.161 |     3.642 | 5.251 |    -1.287 | 0.201 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | ML     |    0.973 |   -8.474 |    10.421 | 4.769 |     0.204 | 0.839 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | MM     |    0.786 |   -9.903 |    11.474 | 5.396 |     0.146 | 0.884 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | PR     |    1.604 |   -8.797 |    12.005 | 5.251 |     0.305 | 0.761 | 1.000 | ns           |
+| tri.CLPP.pre | GR     | VL     |   -1.014 |  -10.608 |     8.579 | 4.843 |    -0.209 | 0.834 | 1.000 | ns           |
+| tri.CLPP.pre | JC     | MF     |    1.855 |   -9.425 |    13.134 | 5.694 |     0.326 | 0.745 | 1.000 | ns           |
+| tri.CLPP.pre | JC     | ML     |    9.588 |   -0.819 |    19.994 | 5.253 |     1.825 | 0.071 | 1.000 | ns           |
+| tri.CLPP.pre | JC     | MM     |    9.400 |   -2.145 |    20.945 | 5.828 |     1.613 | 0.110 | 1.000 | ns           |
+| tri.CLPP.pre | JC     | PR     |   10.218 |   -1.061 |    21.498 | 5.694 |     1.795 | 0.075 | 1.000 | ns           |
+| tri.CLPP.pre | JC     | VL     |    7.600 |   -2.939 |    18.139 | 5.320 |     1.429 | 0.156 | 1.000 | ns           |
+| tri.CLPP.pre | MF     | ML     |    7.733 |   -2.378 |    17.844 | 5.104 |     1.515 | 0.133 | 1.000 | ns           |
+| tri.CLPP.pre | MF     | MM     |    7.545 |   -3.734 |    18.825 | 5.694 |     1.325 | 0.188 | 1.000 | ns           |
+| tri.CLPP.pre | MF     | PR     |    8.364 |   -2.644 |    19.371 | 5.557 |     1.505 | 0.135 | 1.000 | ns           |
+| tri.CLPP.pre | MF     | VL     |    5.745 |   -4.502 |    15.993 | 5.173 |     1.111 | 0.269 | 1.000 | ns           |
+| tri.CLPP.pre | ML     | MM     |   -0.188 |  -10.594 |    10.219 | 5.253 |    -0.036 | 0.972 | 1.000 | ns           |
+| tri.CLPP.pre | ML     | PR     |    0.631 |   -9.481 |    10.742 | 5.104 |     0.124 | 0.902 | 1.000 | ns           |
+| tri.CLPP.pre | ML     | VL     |   -1.988 |  -11.265 |     7.290 | 4.683 |    -0.424 | 0.672 | 1.000 | ns           |
+| tri.CLPP.pre | MM     | PR     |    0.818 |  -10.461 |    12.098 | 5.694 |     0.144 | 0.886 | 1.000 | ns           |
+| tri.CLPP.pre | MM     | VL     |   -1.800 |  -12.339 |     8.739 | 5.320 |    -0.338 | 0.736 | 1.000 | ns           |
+| tri.CLPP.pre | PR     | VL     |   -2.618 |  -12.866 |     7.629 | 5.173 |    -0.506 | 0.614 | 1.000 | ns           |
+
+| .y.      | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | AC      | pre    | pos    |    0.026 |   -0.702 |     0.754 | 0.370 |     0.071 | 0.944 | 0.944 | ns           |
+| tri.CLPP | CE      | pre    | pos    |   -0.203 |   -0.841 |     0.436 | 0.324 |    -0.625 | 0.532 | 0.532 | ns           |
+| tri.CLPP | EA      | pre    | pos    |   -0.189 |   -0.946 |     0.569 | 0.385 |    -0.490 | 0.624 | 0.624 | ns           |
+| tri.CLPP | GR      | pre    | pos    |   -0.099 |   -0.748 |     0.550 | 0.329 |    -0.301 | 0.763 | 0.763 | ns           |
+| tri.CLPP | JC      | pre    | pos    |   -0.318 |   -1.079 |     0.443 | 0.386 |    -0.822 | 0.412 | 0.412 | ns           |
+| tri.CLPP | MF      | pre    | pos    |   -0.234 |   -0.950 |     0.482 | 0.364 |    -0.644 | 0.520 | 0.520 | ns           |
+| tri.CLPP | ML      | pre    | pos    |   -0.003 |   -0.631 |     0.625 | 0.319 |    -0.009 | 0.993 | 0.993 | ns           |
+| tri.CLPP | MM      | pre    | pos    |    0.447 |   -0.289 |     1.183 | 0.374 |     1.197 | 0.233 | 0.233 | ns           |
+| tri.CLPP | PR      | pre    | pos    |   -0.113 |   -0.871 |     0.644 | 0.385 |    -0.295 | 0.769 | 0.769 | ns           |
+| tri.CLPP | VL      | pre    | pos    |   -0.084 |   -0.723 |     0.554 | 0.324 |    -0.260 | 0.795 | 0.795 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2343-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2345-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2347-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2349-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2351-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -4859,15 +9400,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2359-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1187-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2361-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1189-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2363-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1191-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2365-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1193-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2367-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | AC      |  11 |   0.588 |    0.146 |     0.007 |      0.208 |  -0.230 |    0.166 |
+| tri.CR.pos | CE      |  15 |   0.505 |    0.202 |     0.420 |      0.150 |   0.235 |    0.142 |
+| tri.CR.pos | EA      |  11 |   0.134 |    0.227 |    -0.015 |      0.253 |   0.037 |    0.165 |
+| tri.CR.pos | GR      |  14 |   0.052 |    0.275 |     0.233 |      0.240 |   0.338 |    0.146 |
+| tri.CR.pos | JC      |  10 |   0.406 |    0.209 |     0.697 |      0.167 |   0.576 |    0.173 |
+| tri.CR.pos | MF      |  11 |   0.343 |    0.220 |     0.154 |      0.180 |   0.073 |    0.165 |
+| tri.CR.pos | ML      |  16 |  -0.045 |    0.253 |     0.154 |      0.202 |   0.320 |    0.138 |
+| tri.CR.pos | MM      |  10 |  -0.072 |    0.179 |    -0.072 |      0.296 |   0.112 |    0.174 |
+| tri.CR.pos | PR      |  11 |  -0.009 |    0.292 |     0.207 |      0.279 |   0.350 |    0.165 |
+| tri.CR.pos | VL      |  15 |   0.280 |    0.170 |     0.173 |      0.142 |   0.131 |    0.141 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | AC     | CE     |   -0.465 |   -0.895 |    -0.036 | 0.217 |    -2.145 | 0.034 | 1.000 | ns           |
+| tri.CR.pos | AC     | EA     |   -0.267 |   -0.732 |     0.198 | 0.235 |    -1.136 | 0.258 | 1.000 | ns           |
+| tri.CR.pos | AC     | GR     |   -0.567 |   -1.009 |    -0.126 | 0.223 |    -2.548 | 0.012 | 0.548 | ns           |
+| tri.CR.pos | AC     | JC     |   -0.806 |   -1.279 |    -0.333 | 0.239 |    -3.373 | 0.001 | 0.046 | \*           |
+| tri.CR.pos | AC     | MF     |   -0.303 |   -0.765 |     0.160 | 0.233 |    -1.297 | 0.197 | 1.000 | ns           |
+| tri.CR.pos | AC     | ML     |   -0.550 |   -0.982 |    -0.119 | 0.218 |    -2.527 | 0.013 | 0.579 | ns           |
+| tri.CR.pos | AC     | MM     |   -0.342 |   -0.822 |     0.139 | 0.242 |    -1.409 | 0.162 | 1.000 | ns           |
+| tri.CR.pos | AC     | PR     |   -0.580 |   -1.047 |    -0.112 | 0.236 |    -2.457 | 0.016 | 0.699 | ns           |
+| tri.CR.pos | AC     | VL     |   -0.361 |   -0.793 |     0.070 | 0.218 |    -1.659 | 0.100 | 1.000 | ns           |
+| tri.CR.pos | CE     | EA     |    0.198 |   -0.234 |     0.631 | 0.218 |     0.910 | 0.365 | 1.000 | ns           |
+| tri.CR.pos | CE     | GR     |   -0.102 |   -0.508 |     0.304 | 0.205 |    -0.499 | 0.619 | 1.000 | ns           |
+| tri.CR.pos | CE     | JC     |   -0.341 |   -0.783 |     0.101 | 0.223 |    -1.528 | 0.129 | 1.000 | ns           |
+| tri.CR.pos | CE     | MF     |    0.163 |   -0.268 |     0.593 | 0.217 |     0.749 | 0.455 | 1.000 | ns           |
+| tri.CR.pos | CE     | ML     |   -0.085 |   -0.480 |     0.310 | 0.199 |    -0.426 | 0.671 | 1.000 | ns           |
+| tri.CR.pos | CE     | MM     |    0.124 |   -0.324 |     0.571 | 0.226 |     0.547 | 0.585 | 1.000 | ns           |
+| tri.CR.pos | CE     | PR     |   -0.115 |   -0.549 |     0.320 | 0.219 |    -0.523 | 0.602 | 1.000 | ns           |
+| tri.CR.pos | CE     | VL     |    0.104 |   -0.292 |     0.500 | 0.200 |     0.520 | 0.604 | 1.000 | ns           |
+| tri.CR.pos | EA     | GR     |   -0.301 |   -0.737 |     0.135 | 0.220 |    -1.366 | 0.175 | 1.000 | ns           |
+| tri.CR.pos | EA     | JC     |   -0.539 |   -1.013 |    -0.065 | 0.239 |    -2.254 | 0.026 | 1.000 | ns           |
+| tri.CR.pos | EA     | MF     |   -0.036 |   -0.498 |     0.426 | 0.233 |    -0.154 | 0.878 | 1.000 | ns           |
+| tri.CR.pos | EA     | ML     |   -0.284 |   -0.708 |     0.141 | 0.214 |    -1.323 | 0.188 | 1.000 | ns           |
+| tri.CR.pos | EA     | MM     |   -0.075 |   -0.548 |     0.399 | 0.239 |    -0.313 | 0.755 | 1.000 | ns           |
+| tri.CR.pos | EA     | PR     |   -0.313 |   -0.775 |     0.149 | 0.233 |    -1.343 | 0.182 | 1.000 | ns           |
+| tri.CR.pos | EA     | VL     |   -0.095 |   -0.525 |     0.335 | 0.217 |    -0.436 | 0.664 | 1.000 | ns           |
+| tri.CR.pos | GR     | JC     |   -0.239 |   -0.689 |     0.212 | 0.227 |    -1.050 | 0.296 | 1.000 | ns           |
+| tri.CR.pos | GR     | MF     |    0.265 |   -0.173 |     0.702 | 0.221 |     1.199 | 0.233 | 1.000 | ns           |
+| tri.CR.pos | GR     | ML     |    0.017 |   -0.379 |     0.413 | 0.200 |     0.086 | 0.932 | 1.000 | ns           |
+| tri.CR.pos | GR     | MM     |    0.226 |   -0.222 |     0.674 | 0.226 |     0.999 | 0.320 | 1.000 | ns           |
+| tri.CR.pos | GR     | PR     |   -0.012 |   -0.448 |     0.424 | 0.220 |    -0.056 | 0.955 | 1.000 | ns           |
+| tri.CR.pos | GR     | VL     |    0.206 |   -0.197 |     0.609 | 0.204 |     1.013 | 0.313 | 1.000 | ns           |
+| tri.CR.pos | JC     | MF     |    0.503 |    0.030 |     0.976 | 0.239 |     2.109 | 0.037 | 1.000 | ns           |
+| tri.CR.pos | JC     | ML     |    0.256 |   -0.184 |     0.696 | 0.222 |     1.152 | 0.252 | 1.000 | ns           |
+| tri.CR.pos | JC     | MM     |    0.465 |   -0.023 |     0.952 | 0.246 |     1.887 | 0.062 | 1.000 | ns           |
+| tri.CR.pos | JC     | PR     |    0.226 |   -0.250 |     0.702 | 0.240 |     0.942 | 0.348 | 1.000 | ns           |
+| tri.CR.pos | JC     | VL     |    0.445 |    0.003 |     0.887 | 0.223 |     1.993 | 0.049 | 1.000 | ns           |
+| tri.CR.pos | MF     | ML     |   -0.248 |   -0.674 |     0.179 | 0.215 |    -1.150 | 0.253 | 1.000 | ns           |
+| tri.CR.pos | MF     | MM     |   -0.039 |   -0.515 |     0.437 | 0.240 |    -0.162 | 0.872 | 1.000 | ns           |
+| tri.CR.pos | MF     | PR     |   -0.277 |   -0.741 |     0.186 | 0.234 |    -1.185 | 0.239 | 1.000 | ns           |
+| tri.CR.pos | MF     | VL     |   -0.059 |   -0.488 |     0.371 | 0.217 |    -0.270 | 0.788 | 1.000 | ns           |
+| tri.CR.pos | ML     | MM     |    0.209 |   -0.228 |     0.645 | 0.220 |     0.948 | 0.345 | 1.000 | ns           |
+| tri.CR.pos | ML     | PR     |   -0.030 |   -0.453 |     0.394 | 0.214 |    -0.138 | 0.890 | 1.000 | ns           |
+| tri.CR.pos | ML     | VL     |    0.189 |   -0.202 |     0.580 | 0.197 |     0.957 | 0.340 | 1.000 | ns           |
+| tri.CR.pos | MM     | PR     |   -0.238 |   -0.711 |     0.235 | 0.239 |    -0.998 | 0.320 | 1.000 | ns           |
+| tri.CR.pos | MM     | VL     |   -0.020 |   -0.464 |     0.424 | 0.224 |    -0.088 | 0.930 | 1.000 | ns           |
+| tri.CR.pos | PR     | VL     |    0.219 |   -0.213 |     0.650 | 0.218 |     1.005 | 0.317 | 1.000 | ns           |
+| tri.CR.pre | AC     | CE     |    0.083 |   -0.548 |     0.713 | 0.318 |     0.259 | 0.796 | 1.000 | ns           |
+| tri.CR.pre | AC     | EA     |    0.453 |   -0.224 |     1.131 | 0.342 |     1.326 | 0.188 | 1.000 | ns           |
+| tri.CR.pre | AC     | GR     |    0.536 |   -0.105 |     1.176 | 0.323 |     1.657 | 0.100 | 1.000 | ns           |
+| tri.CR.pre | AC     | JC     |    0.182 |   -0.513 |     0.876 | 0.350 |     0.518 | 0.605 | 1.000 | ns           |
+| tri.CR.pre | AC     | MF     |    0.245 |   -0.433 |     0.922 | 0.342 |     0.716 | 0.476 | 1.000 | ns           |
+| tri.CR.pre | AC     | ML     |    0.632 |    0.010 |     1.255 | 0.314 |     2.013 | 0.047 | 1.000 | ns           |
+| tri.CR.pre | AC     | MM     |    0.659 |   -0.035 |     1.354 | 0.350 |     1.881 | 0.062 | 1.000 | ns           |
+| tri.CR.pre | AC     | PR     |    0.597 |   -0.081 |     1.274 | 0.342 |     1.744 | 0.084 | 1.000 | ns           |
+| tri.CR.pre | AC     | VL     |    0.307 |   -0.324 |     0.938 | 0.318 |     0.965 | 0.337 | 1.000 | ns           |
+| tri.CR.pre | CE     | EA     |    0.371 |   -0.260 |     1.002 | 0.318 |     1.165 | 0.247 | 1.000 | ns           |
+| tri.CR.pre | CE     | GR     |    0.453 |   -0.137 |     1.044 | 0.298 |     1.520 | 0.131 | 1.000 | ns           |
+| tri.CR.pre | CE     | JC     |    0.099 |   -0.550 |     0.748 | 0.327 |     0.303 | 0.763 | 1.000 | ns           |
+| tri.CR.pre | CE     | MF     |    0.162 |   -0.469 |     0.793 | 0.318 |     0.509 | 0.611 | 1.000 | ns           |
+| tri.CR.pre | CE     | ML     |    0.550 |   -0.021 |     1.121 | 0.288 |     1.907 | 0.059 | 1.000 | ns           |
+| tri.CR.pre | CE     | MM     |    0.577 |   -0.072 |     1.225 | 0.327 |     1.761 | 0.081 | 1.000 | ns           |
+| tri.CR.pre | CE     | PR     |    0.514 |   -0.117 |     1.145 | 0.318 |     1.614 | 0.109 | 1.000 | ns           |
+| tri.CR.pre | CE     | VL     |    0.225 |   -0.356 |     0.805 | 0.293 |     0.767 | 0.445 | 1.000 | ns           |
+| tri.CR.pre | EA     | GR     |    0.082 |   -0.558 |     0.723 | 0.323 |     0.255 | 0.799 | 1.000 | ns           |
+| tri.CR.pre | EA     | JC     |   -0.272 |   -0.966 |     0.423 | 0.350 |    -0.775 | 0.440 | 1.000 | ns           |
+| tri.CR.pre | EA     | MF     |   -0.209 |   -0.886 |     0.469 | 0.342 |    -0.610 | 0.543 | 1.000 | ns           |
+| tri.CR.pre | EA     | ML     |    0.179 |   -0.443 |     0.801 | 0.314 |     0.570 | 0.570 | 1.000 | ns           |
+| tri.CR.pre | EA     | MM     |    0.206 |   -0.488 |     0.900 | 0.350 |     0.588 | 0.558 | 1.000 | ns           |
+| tri.CR.pre | EA     | PR     |    0.143 |   -0.534 |     0.821 | 0.342 |     0.419 | 0.676 | 1.000 | ns           |
+| tri.CR.pre | EA     | VL     |   -0.146 |   -0.777 |     0.485 | 0.318 |    -0.459 | 0.647 | 1.000 | ns           |
+| tri.CR.pre | GR     | JC     |   -0.354 |   -1.012 |     0.304 | 0.332 |    -1.066 | 0.289 | 1.000 | ns           |
+| tri.CR.pre | GR     | MF     |   -0.291 |   -0.931 |     0.349 | 0.323 |    -0.900 | 0.370 | 1.000 | ns           |
+| tri.CR.pre | GR     | ML     |    0.097 |   -0.485 |     0.678 | 0.294 |     0.329 | 0.743 | 1.000 | ns           |
+| tri.CR.pre | GR     | MM     |    0.124 |   -0.534 |     0.782 | 0.332 |     0.372 | 0.710 | 1.000 | ns           |
+| tri.CR.pre | GR     | PR     |    0.061 |   -0.579 |     0.701 | 0.323 |     0.188 | 0.851 | 1.000 | ns           |
+| tri.CR.pre | GR     | VL     |   -0.228 |   -0.819 |     0.362 | 0.298 |    -0.766 | 0.445 | 1.000 | ns           |
+| tri.CR.pre | JC     | MF     |    0.063 |   -0.631 |     0.757 | 0.350 |     0.180 | 0.858 | 1.000 | ns           |
+| tri.CR.pre | JC     | ML     |    0.451 |   -0.190 |     1.091 | 0.323 |     1.394 | 0.166 | 1.000 | ns           |
+| tri.CR.pre | JC     | MM     |    0.478 |   -0.233 |     1.188 | 0.359 |     1.331 | 0.186 | 1.000 | ns           |
+| tri.CR.pre | JC     | PR     |    0.415 |   -0.279 |     1.109 | 0.350 |     1.184 | 0.239 | 1.000 | ns           |
+| tri.CR.pre | JC     | VL     |    0.126 |   -0.523 |     0.774 | 0.327 |     0.383 | 0.702 | 1.000 | ns           |
+| tri.CR.pre | MF     | ML     |    0.388 |   -0.235 |     1.010 | 0.314 |     1.234 | 0.220 | 1.000 | ns           |
+| tri.CR.pre | MF     | MM     |    0.415 |   -0.280 |     1.109 | 0.350 |     1.183 | 0.239 | 1.000 | ns           |
+| tri.CR.pre | MF     | PR     |    0.352 |   -0.326 |     1.029 | 0.342 |     1.029 | 0.306 | 1.000 | ns           |
+| tri.CR.pre | MF     | VL     |    0.062 |   -0.568 |     0.693 | 0.318 |     0.196 | 0.845 | 1.000 | ns           |
+| tri.CR.pre | ML     | MM     |    0.027 |   -0.614 |     0.668 | 0.323 |     0.083 | 0.934 | 1.000 | ns           |
+| tri.CR.pre | ML     | PR     |   -0.036 |   -0.658 |     0.587 | 0.314 |    -0.114 | 0.909 | 1.000 | ns           |
+| tri.CR.pre | ML     | VL     |   -0.325 |   -0.896 |     0.246 | 0.288 |    -1.128 | 0.262 | 1.000 | ns           |
+| tri.CR.pre | MM     | PR     |   -0.063 |   -0.757 |     0.632 | 0.350 |    -0.179 | 0.858 | 1.000 | ns           |
+| tri.CR.pre | MM     | VL     |   -0.352 |   -1.001 |     0.297 | 0.327 |    -1.075 | 0.285 | 1.000 | ns           |
+| tri.CR.pre | PR     | VL     |   -0.289 |   -0.920 |     0.341 | 0.318 |    -0.909 | 0.365 | 1.000 | ns           |
+
+| .y.    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | AC      | pre    | pos    |    0.474 |   -0.148 |     1.095 | 0.316 |     1.501 | 0.135 | 0.135 | ns           |
+| tri.CR | CE      | pre    | pos    |    0.097 |   -0.448 |     0.642 | 0.277 |     0.351 | 0.726 | 0.726 | ns           |
+| tri.CR | EA      | pre    | pos    |    0.149 |   -0.498 |     0.796 | 0.328 |     0.454 | 0.650 | 0.650 | ns           |
+| tri.CR | GR      | pre    | pos    |   -0.141 |   -0.695 |     0.413 | 0.281 |    -0.503 | 0.616 | 0.616 | ns           |
+| tri.CR | JC      | pre    | pos    |   -0.197 |   -0.847 |     0.452 | 0.330 |    -0.599 | 0.550 | 0.550 | ns           |
+| tri.CR | MF      | pre    | pos    |    0.208 |   -0.403 |     0.819 | 0.310 |     0.670 | 0.503 | 0.503 | ns           |
+| tri.CR | ML      | pre    | pos    |   -0.199 |   -0.736 |     0.337 | 0.272 |    -0.732 | 0.465 | 0.465 | ns           |
+| tri.CR | MM      | pre    | pos    |    0.144 |   -0.484 |     0.773 | 0.319 |     0.453 | 0.651 | 0.651 | ns           |
+| tri.CR | PR      | pre    | pos    |   -0.216 |   -0.863 |     0.431 | 0.328 |    -0.657 | 0.512 | 0.512 | ns           |
+| tri.CR | VL      | pre    | pos    |    0.074 |   -0.471 |     0.620 | 0.277 |     0.269 | 0.788 | 0.788 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2375-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2377-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2379-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2381-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2383-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -4993,15 +9668,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1201-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2391-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1203-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2393-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1205-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2395-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1207-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2397-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1209-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2399-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | AC      |  11 |   0.275 |    0.291 |     0.256 |      0.247 |   0.122 |    0.172 |
+| tri.CI.pos | CE      |  15 |   0.039 |    0.216 |     0.308 |      0.179 |   0.348 |    0.147 |
+| tri.CI.pos | EA      |  11 |   0.098 |    0.305 |     0.402 |      0.284 |   0.398 |    0.172 |
+| tri.CI.pos | GR      |  14 |   0.241 |    0.231 |     0.350 |      0.201 |   0.241 |    0.153 |
+| tri.CI.pos | JC      |  10 |   0.050 |    0.193 |     0.589 |      0.250 |   0.621 |    0.180 |
+| tri.CI.pos | MF      |  11 |   0.320 |    0.215 |     0.574 |      0.256 |   0.407 |    0.172 |
+| tri.CI.pos | ML      |  16 |  -0.083 |    0.218 |     0.165 |      0.239 |   0.294 |    0.143 |
+| tri.CI.pos | MM      |  10 |  -0.166 |    0.293 |     0.160 |      0.299 |   0.351 |    0.181 |
+| tri.CI.pos | PR      |  11 |   0.153 |    0.298 |     0.174 |      0.287 |   0.130 |    0.172 |
+| tri.CI.pos | VL      |  15 |   0.048 |    0.206 |     0.040 |      0.212 |   0.073 |    0.147 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | AC     | CE     |   -0.226 |   -0.675 |     0.223 | 0.227 |    -0.996 | 0.321 | 1.000 | ns           |
+| tri.CI.pos | AC     | EA     |   -0.277 |   -0.759 |     0.205 | 0.243 |    -1.137 | 0.258 | 1.000 | ns           |
+| tri.CI.pos | AC     | GR     |   -0.119 |   -0.574 |     0.336 | 0.230 |    -0.519 | 0.604 | 1.000 | ns           |
+| tri.CI.pos | AC     | JC     |   -0.499 |   -0.994 |    -0.005 | 0.249 |    -2.002 | 0.048 | 1.000 | ns           |
+| tri.CI.pos | AC     | MF     |   -0.285 |   -0.767 |     0.197 | 0.243 |    -1.173 | 0.243 | 1.000 | ns           |
+| tri.CI.pos | AC     | ML     |   -0.172 |   -0.617 |     0.272 | 0.224 |    -0.768 | 0.444 | 1.000 | ns           |
+| tri.CI.pos | AC     | MM     |   -0.229 |   -0.725 |     0.267 | 0.251 |    -0.914 | 0.363 | 1.000 | ns           |
+| tri.CI.pos | AC     | PR     |   -0.008 |   -0.490 |     0.473 | 0.243 |    -0.034 | 0.973 | 1.000 | ns           |
+| tri.CI.pos | AC     | VL     |    0.049 |   -0.400 |     0.498 | 0.227 |     0.216 | 0.829 | 1.000 | ns           |
+| tri.CI.pos | CE     | EA     |   -0.051 |   -0.499 |     0.398 | 0.226 |    -0.224 | 0.823 | 1.000 | ns           |
+| tri.CI.pos | CE     | GR     |    0.107 |   -0.314 |     0.527 | 0.212 |     0.502 | 0.616 | 1.000 | ns           |
+| tri.CI.pos | CE     | JC     |   -0.274 |   -0.735 |     0.187 | 0.233 |    -1.176 | 0.242 | 1.000 | ns           |
+| tri.CI.pos | CE     | MF     |   -0.059 |   -0.509 |     0.390 | 0.227 |    -0.261 | 0.795 | 1.000 | ns           |
+| tri.CI.pos | CE     | ML     |    0.054 |   -0.353 |     0.460 | 0.205 |     0.261 | 0.794 | 1.000 | ns           |
+| tri.CI.pos | CE     | MM     |   -0.003 |   -0.465 |     0.459 | 0.233 |    -0.013 | 0.990 | 1.000 | ns           |
+| tri.CI.pos | CE     | PR     |    0.217 |   -0.231 |     0.666 | 0.226 |     0.961 | 0.339 | 1.000 | ns           |
+| tri.CI.pos | CE     | VL     |    0.275 |   -0.138 |     0.687 | 0.208 |     1.320 | 0.189 | 1.000 | ns           |
+| tri.CI.pos | EA     | GR     |    0.157 |   -0.298 |     0.613 | 0.230 |     0.684 | 0.495 | 1.000 | ns           |
+| tri.CI.pos | EA     | JC     |   -0.223 |   -0.716 |     0.271 | 0.249 |    -0.895 | 0.373 | 1.000 | ns           |
+| tri.CI.pos | EA     | MF     |   -0.008 |   -0.491 |     0.474 | 0.243 |    -0.035 | 0.972 | 1.000 | ns           |
+| tri.CI.pos | EA     | ML     |    0.104 |   -0.339 |     0.547 | 0.224 |     0.467 | 0.642 | 1.000 | ns           |
+| tri.CI.pos | EA     | MM     |    0.048 |   -0.447 |     0.542 | 0.250 |     0.191 | 0.849 | 1.000 | ns           |
+| tri.CI.pos | EA     | PR     |    0.268 |   -0.213 |     0.750 | 0.243 |     1.103 | 0.272 | 1.000 | ns           |
+| tri.CI.pos | EA     | VL     |    0.326 |   -0.123 |     0.774 | 0.226 |     1.439 | 0.153 | 1.000 | ns           |
+| tri.CI.pos | GR     | JC     |   -0.380 |   -0.848 |     0.088 | 0.236 |    -1.609 | 0.110 | 1.000 | ns           |
+| tri.CI.pos | GR     | MF     |   -0.166 |   -0.621 |     0.289 | 0.230 |    -0.722 | 0.472 | 1.000 | ns           |
+| tri.CI.pos | GR     | ML     |   -0.053 |   -0.468 |     0.362 | 0.210 |    -0.253 | 0.801 | 1.000 | ns           |
+| tri.CI.pos | GR     | MM     |   -0.110 |   -0.580 |     0.361 | 0.237 |    -0.462 | 0.645 | 1.000 | ns           |
+| tri.CI.pos | GR     | PR     |    0.111 |   -0.344 |     0.566 | 0.230 |     0.483 | 0.630 | 1.000 | ns           |
+| tri.CI.pos | GR     | VL     |    0.168 |   -0.252 |     0.589 | 0.212 |     0.793 | 0.429 | 1.000 | ns           |
+| tri.CI.pos | JC     | MF     |    0.214 |   -0.280 |     0.709 | 0.250 |     0.859 | 0.392 | 1.000 | ns           |
+| tri.CI.pos | JC     | ML     |    0.327 |   -0.128 |     0.783 | 0.230 |     1.423 | 0.157 | 1.000 | ns           |
+| tri.CI.pos | JC     | MM     |    0.271 |   -0.235 |     0.776 | 0.255 |     1.060 | 0.291 | 1.000 | ns           |
+| tri.CI.pos | JC     | PR     |    0.491 |   -0.002 |     0.985 | 0.249 |     1.971 | 0.051 | 1.000 | ns           |
+| tri.CI.pos | JC     | VL     |    0.548 |    0.087 |     1.009 | 0.233 |     2.357 | 0.020 | 0.907 | ns           |
+| tri.CI.pos | MF     | ML     |    0.113 |   -0.332 |     0.558 | 0.225 |     0.502 | 0.617 | 1.000 | ns           |
+| tri.CI.pos | MF     | MM     |    0.056 |   -0.441 |     0.553 | 0.251 |     0.224 | 0.823 | 1.000 | ns           |
+| tri.CI.pos | MF     | PR     |    0.277 |   -0.205 |     0.759 | 0.243 |     1.137 | 0.258 | 1.000 | ns           |
+| tri.CI.pos | MF     | VL     |    0.334 |   -0.116 |     0.783 | 0.227 |     1.472 | 0.144 | 1.000 | ns           |
+| tri.CI.pos | ML     | MM     |   -0.057 |   -0.512 |     0.399 | 0.230 |    -0.246 | 0.806 | 1.000 | ns           |
+| tri.CI.pos | ML     | PR     |    0.164 |   -0.279 |     0.607 | 0.224 |     0.733 | 0.465 | 1.000 | ns           |
+| tri.CI.pos | ML     | VL     |    0.221 |   -0.185 |     0.627 | 0.205 |     1.079 | 0.283 | 1.000 | ns           |
+| tri.CI.pos | MM     | PR     |    0.220 |   -0.274 |     0.715 | 0.250 |     0.883 | 0.379 | 1.000 | ns           |
+| tri.CI.pos | MM     | VL     |    0.278 |   -0.184 |     0.740 | 0.233 |     1.192 | 0.236 | 1.000 | ns           |
+| tri.CI.pos | PR     | VL     |    0.057 |   -0.391 |     0.506 | 0.226 |     0.253 | 0.801 | 1.000 | ns           |
+| tri.CI.pre | AC     | CE     |    0.235 |   -0.445 |     0.916 | 0.343 |     0.685 | 0.495 | 1.000 | ns           |
+| tri.CI.pre | AC     | EA     |    0.177 |   -0.554 |     0.908 | 0.369 |     0.480 | 0.632 | 1.000 | ns           |
+| tri.CI.pre | AC     | GR     |    0.033 |   -0.657 |     0.724 | 0.349 |     0.095 | 0.924 | 1.000 | ns           |
+| tri.CI.pre | AC     | JC     |    0.225 |   -0.524 |     0.974 | 0.378 |     0.596 | 0.553 | 1.000 | ns           |
+| tri.CI.pre | AC     | MF     |   -0.045 |   -0.776 |     0.685 | 0.369 |    -0.123 | 0.902 | 1.000 | ns           |
+| tri.CI.pre | AC     | ML     |    0.358 |   -0.314 |     1.029 | 0.339 |     1.056 | 0.293 | 1.000 | ns           |
+| tri.CI.pre | AC     | MM     |    0.441 |   -0.308 |     1.190 | 0.378 |     1.167 | 0.246 | 1.000 | ns           |
+| tri.CI.pre | AC     | PR     |    0.122 |   -0.609 |     0.852 | 0.369 |     0.330 | 0.742 | 1.000 | ns           |
+| tri.CI.pre | AC     | VL     |    0.227 |   -0.454 |     0.907 | 0.343 |     0.660 | 0.510 | 1.000 | ns           |
+| tri.CI.pre | CE     | EA     |   -0.058 |   -0.739 |     0.622 | 0.343 |    -0.170 | 0.866 | 1.000 | ns           |
+| tri.CI.pre | CE     | GR     |   -0.202 |   -0.839 |     0.435 | 0.321 |    -0.628 | 0.531 | 1.000 | ns           |
+| tri.CI.pre | CE     | JC     |   -0.010 |   -0.710 |     0.690 | 0.353 |    -0.029 | 0.977 | 1.000 | ns           |
+| tri.CI.pre | CE     | MF     |   -0.281 |   -0.961 |     0.400 | 0.343 |    -0.817 | 0.416 | 1.000 | ns           |
+| tri.CI.pre | CE     | ML     |    0.122 |   -0.493 |     0.738 | 0.311 |     0.394 | 0.694 | 1.000 | ns           |
+| tri.CI.pre | CE     | MM     |    0.206 |   -0.494 |     0.905 | 0.353 |     0.583 | 0.561 | 1.000 | ns           |
+| tri.CI.pre | CE     | PR     |   -0.114 |   -0.794 |     0.567 | 0.343 |    -0.331 | 0.741 | 1.000 | ns           |
+| tri.CI.pre | CE     | VL     |   -0.009 |   -0.634 |     0.617 | 0.316 |    -0.027 | 0.979 | 1.000 | ns           |
+| tri.CI.pre | EA     | GR     |   -0.144 |   -0.834 |     0.547 | 0.349 |    -0.412 | 0.681 | 1.000 | ns           |
+| tri.CI.pre | EA     | JC     |    0.048 |   -0.701 |     0.797 | 0.378 |     0.128 | 0.899 | 1.000 | ns           |
+| tri.CI.pre | EA     | MF     |   -0.222 |   -0.953 |     0.508 | 0.369 |    -0.603 | 0.548 | 1.000 | ns           |
+| tri.CI.pre | EA     | ML     |    0.181 |   -0.490 |     0.852 | 0.339 |     0.533 | 0.595 | 1.000 | ns           |
+| tri.CI.pre | EA     | MM     |    0.264 |   -0.485 |     1.013 | 0.378 |     0.699 | 0.486 | 1.000 | ns           |
+| tri.CI.pre | EA     | PR     |   -0.055 |   -0.786 |     0.675 | 0.369 |    -0.150 | 0.881 | 1.000 | ns           |
+| tri.CI.pre | EA     | VL     |    0.050 |   -0.631 |     0.730 | 0.343 |     0.145 | 0.885 | 1.000 | ns           |
+| tri.CI.pre | GR     | JC     |    0.192 |   -0.518 |     0.901 | 0.358 |     0.536 | 0.593 | 1.000 | ns           |
+| tri.CI.pre | GR     | MF     |   -0.079 |   -0.769 |     0.612 | 0.349 |    -0.225 | 0.822 | 1.000 | ns           |
+| tri.CI.pre | GR     | ML     |    0.324 |   -0.303 |     0.952 | 0.317 |     1.025 | 0.308 | 1.000 | ns           |
+| tri.CI.pre | GR     | MM     |    0.408 |   -0.302 |     1.117 | 0.358 |     1.139 | 0.257 | 1.000 | ns           |
+| tri.CI.pre | GR     | PR     |    0.088 |   -0.602 |     0.779 | 0.349 |     0.254 | 0.800 | 1.000 | ns           |
+| tri.CI.pre | GR     | VL     |    0.194 |   -0.443 |     0.830 | 0.321 |     0.602 | 0.548 | 1.000 | ns           |
+| tri.CI.pre | JC     | MF     |   -0.270 |   -1.019 |     0.478 | 0.378 |    -0.716 | 0.476 | 1.000 | ns           |
+| tri.CI.pre | JC     | ML     |    0.133 |   -0.558 |     0.823 | 0.349 |     0.380 | 0.705 | 1.000 | ns           |
+| tri.CI.pre | JC     | MM     |    0.216 |   -0.551 |     0.982 | 0.387 |     0.558 | 0.578 | 1.000 | ns           |
+| tri.CI.pre | JC     | PR     |   -0.103 |   -0.852 |     0.645 | 0.378 |    -0.274 | 0.785 | 1.000 | ns           |
+| tri.CI.pre | JC     | VL     |    0.002 |   -0.698 |     0.701 | 0.353 |     0.004 | 0.996 | 1.000 | ns           |
+| tri.CI.pre | MF     | ML     |    0.403 |   -0.268 |     1.074 | 0.339 |     1.189 | 0.237 | 1.000 | ns           |
+| tri.CI.pre | MF     | MM     |    0.486 |   -0.262 |     1.235 | 0.378 |     1.287 | 0.201 | 1.000 | ns           |
+| tri.CI.pre | MF     | PR     |    0.167 |   -0.564 |     0.898 | 0.369 |     0.453 | 0.652 | 1.000 | ns           |
+| tri.CI.pre | MF     | VL     |    0.272 |   -0.408 |     0.952 | 0.343 |     0.792 | 0.430 | 1.000 | ns           |
+| tri.CI.pre | ML     | MM     |    0.083 |   -0.607 |     0.774 | 0.349 |     0.239 | 0.812 | 1.000 | ns           |
+| tri.CI.pre | ML     | PR     |   -0.236 |   -0.907 |     0.435 | 0.339 |    -0.697 | 0.487 | 1.000 | ns           |
+| tri.CI.pre | ML     | VL     |   -0.131 |   -0.747 |     0.485 | 0.311 |    -0.421 | 0.674 | 1.000 | ns           |
+| tri.CI.pre | MM     | PR     |   -0.319 |   -1.068 |     0.429 | 0.378 |    -0.845 | 0.400 | 1.000 | ns           |
+| tri.CI.pre | MM     | VL     |   -0.214 |   -0.914 |     0.485 | 0.353 |    -0.607 | 0.545 | 1.000 | ns           |
+| tri.CI.pre | PR     | VL     |    0.105 |   -0.575 |     0.785 | 0.343 |     0.306 | 0.760 | 1.000 | ns           |
+
+| .y.    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | AC      | pre    | pos    |   -0.042 |   -0.724 |     0.640 | 0.346 |    -0.122 | 0.903 | 0.903 | ns           |
+| tri.CI | CE      | pre    | pos    |   -0.306 |   -0.905 |     0.292 | 0.304 |    -1.008 | 0.314 | 0.314 | ns           |
+| tri.CI | EA      | pre    | pos    |   -0.304 |   -1.014 |     0.406 | 0.360 |    -0.844 | 0.399 | 0.399 | ns           |
+| tri.CI | GR      | pre    | pos    |   -0.076 |   -0.684 |     0.532 | 0.309 |    -0.246 | 0.806 | 0.806 | ns           |
+| tri.CI | JC      | pre    | pos    |   -0.574 |   -1.287 |     0.139 | 0.362 |    -1.586 | 0.114 | 0.114 | ns           |
+| tri.CI | MF      | pre    | pos    |   -0.323 |   -0.993 |     0.348 | 0.341 |    -0.947 | 0.345 | 0.345 | ns           |
+| tri.CI | ML      | pre    | pos    |   -0.248 |   -0.836 |     0.341 | 0.299 |    -0.829 | 0.408 | 0.408 | ns           |
+| tri.CI | MM      | pre    | pos    |   -0.135 |   -0.825 |     0.554 | 0.350 |    -0.387 | 0.699 | 0.699 | ns           |
+| tri.CI | PR      | pre    | pos    |   -0.021 |   -0.731 |     0.688 | 0.360 |    -0.060 | 0.953 | 0.953 | ns           |
+| tri.CI | VL      | pre    | pos    |   -0.060 |   -0.659 |     0.538 | 0.304 |    -0.199 | 0.842 | 0.842 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2407-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2409-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2411-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2413-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2415-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -5127,15 +9936,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2423-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2425-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1221-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2427-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1223-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2429-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1225-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2431-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | AC      |  11 |   0.329 |    0.157 |     0.295 |      0.235 |   0.163 |    0.180 |
+| tri.TV.pos | CE      |  15 |   0.159 |    0.239 |     0.225 |      0.191 |   0.202 |    0.153 |
+| tri.TV.pos | EA      |  11 |   0.331 |    0.205 |     0.511 |      0.159 |   0.377 |    0.180 |
+| tri.TV.pos | GR      |  14 |  -0.122 |    0.262 |    -0.143 |      0.238 |   0.015 |    0.160 |
+| tri.TV.pos | JC      |  10 |   0.457 |    0.219 |     0.497 |      0.111 |   0.282 |    0.189 |
+| tri.TV.pos | MF      |  11 |   0.259 |    0.230 |     0.177 |      0.233 |   0.090 |    0.179 |
+| tri.TV.pos | ML      |  16 |   0.215 |    0.207 |    -0.031 |      0.225 |  -0.090 |    0.149 |
+| tri.TV.pos | MM      |  10 |   0.178 |    0.193 |    -0.229 |      0.328 |  -0.264 |    0.188 |
+| tri.TV.pos | PR      |  11 |  -0.134 |    0.321 |    -0.095 |      0.302 |   0.071 |    0.180 |
+| tri.TV.pos | VL      |  15 |  -0.254 |    0.188 |     0.042 |      0.154 |   0.285 |    0.156 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | AC     | CE     |   -0.039 |   -0.507 |     0.429 | 0.236 |    -0.167 | 0.868 | 1.000 | ns           |
+| tri.TV.pos | AC     | EA     |   -0.215 |   -0.717 |     0.287 | 0.253 |    -0.848 | 0.398 | 1.000 | ns           |
+| tri.TV.pos | AC     | GR     |    0.148 |   -0.331 |     0.626 | 0.241 |     0.612 | 0.542 | 1.000 | ns           |
+| tri.TV.pos | AC     | JC     |   -0.119 |   -0.634 |     0.396 | 0.260 |    -0.458 | 0.648 | 1.000 | ns           |
+| tri.TV.pos | AC     | MF     |    0.072 |   -0.430 |     0.575 | 0.253 |     0.286 | 0.776 | 1.000 | ns           |
+| tri.TV.pos | AC     | ML     |    0.253 |   -0.209 |     0.714 | 0.233 |     1.084 | 0.280 | 1.000 | ns           |
+| tri.TV.pos | AC     | MM     |    0.426 |   -0.089 |     0.941 | 0.260 |     1.640 | 0.104 | 1.000 | ns           |
+| tri.TV.pos | AC     | PR     |    0.092 |   -0.414 |     0.598 | 0.255 |     0.360 | 0.720 | 1.000 | ns           |
+| tri.TV.pos | AC     | VL     |   -0.122 |   -0.596 |     0.352 | 0.239 |    -0.510 | 0.611 | 1.000 | ns           |
+| tri.TV.pos | CE     | EA     |   -0.175 |   -0.643 |     0.293 | 0.236 |    -0.743 | 0.459 | 1.000 | ns           |
+| tri.TV.pos | CE     | GR     |    0.187 |   -0.252 |     0.626 | 0.222 |     0.844 | 0.401 | 1.000 | ns           |
+| tri.TV.pos | CE     | JC     |   -0.080 |   -0.562 |     0.403 | 0.243 |    -0.327 | 0.745 | 1.000 | ns           |
+| tri.TV.pos | CE     | MF     |    0.112 |   -0.356 |     0.579 | 0.236 |     0.474 | 0.636 | 1.000 | ns           |
+| tri.TV.pos | CE     | ML     |    0.292 |   -0.131 |     0.715 | 0.214 |     1.367 | 0.174 | 1.000 | ns           |
+| tri.TV.pos | CE     | MM     |    0.466 |   -0.015 |     0.946 | 0.243 |     1.919 | 0.057 | 1.000 | ns           |
+| tri.TV.pos | CE     | PR     |    0.131 |   -0.338 |     0.600 | 0.237 |     0.554 | 0.581 | 1.000 | ns           |
+| tri.TV.pos | CE     | VL     |   -0.083 |   -0.516 |     0.351 | 0.219 |    -0.377 | 0.707 | 1.000 | ns           |
+| tri.TV.pos | EA     | GR     |    0.362 |   -0.116 |     0.841 | 0.241 |     1.501 | 0.136 | 1.000 | ns           |
+| tri.TV.pos | EA     | JC     |    0.096 |   -0.419 |     0.611 | 0.260 |     0.369 | 0.713 | 1.000 | ns           |
+| tri.TV.pos | EA     | MF     |    0.287 |   -0.215 |     0.789 | 0.253 |     1.133 | 0.259 | 1.000 | ns           |
+| tri.TV.pos | EA     | ML     |    0.467 |    0.006 |     0.929 | 0.233 |     2.007 | 0.047 | 1.000 | ns           |
+| tri.TV.pos | EA     | MM     |    0.641 |    0.126 |     1.156 | 0.260 |     2.467 | 0.015 | 0.681 | ns           |
+| tri.TV.pos | EA     | PR     |    0.307 |   -0.199 |     0.813 | 0.255 |     1.200 | 0.232 | 1.000 | ns           |
+| tri.TV.pos | EA     | VL     |    0.093 |   -0.381 |     0.567 | 0.239 |     0.388 | 0.699 | 1.000 | ns           |
+| tri.TV.pos | GR     | JC     |   -0.267 |   -0.760 |     0.227 | 0.249 |    -1.069 | 0.287 | 1.000 | ns           |
+| tri.TV.pos | GR     | MF     |   -0.075 |   -0.552 |     0.402 | 0.241 |    -0.312 | 0.755 | 1.000 | ns           |
+| tri.TV.pos | GR     | ML     |    0.105 |   -0.328 |     0.538 | 0.219 |     0.480 | 0.632 | 1.000 | ns           |
+| tri.TV.pos | GR     | MM     |    0.279 |   -0.211 |     0.768 | 0.247 |     1.128 | 0.262 | 1.000 | ns           |
+| tri.TV.pos | GR     | PR     |   -0.056 |   -0.530 |     0.419 | 0.239 |    -0.233 | 0.816 | 1.000 | ns           |
+| tri.TV.pos | GR     | VL     |   -0.270 |   -0.707 |     0.168 | 0.221 |    -1.220 | 0.225 | 1.000 | ns           |
+| tri.TV.pos | JC     | MF     |    0.191 |   -0.324 |     0.707 | 0.260 |     0.736 | 0.463 | 1.000 | ns           |
+| tri.TV.pos | JC     | ML     |    0.371 |   -0.104 |     0.847 | 0.240 |     1.547 | 0.125 | 1.000 | ns           |
+| tri.TV.pos | JC     | MM     |    0.545 |    0.017 |     1.073 | 0.266 |     2.046 | 0.043 | 1.000 | ns           |
+| tri.TV.pos | JC     | PR     |    0.211 |   -0.310 |     0.731 | 0.263 |     0.802 | 0.424 | 1.000 | ns           |
+| tri.TV.pos | JC     | VL     |   -0.003 |   -0.493 |     0.487 | 0.248 |    -0.012 | 0.990 | 1.000 | ns           |
+| tri.TV.pos | MF     | ML     |    0.180 |   -0.281 |     0.641 | 0.233 |     0.774 | 0.441 | 1.000 | ns           |
+| tri.TV.pos | MF     | MM     |    0.354 |   -0.161 |     0.868 | 0.260 |     1.362 | 0.176 | 1.000 | ns           |
+| tri.TV.pos | MF     | PR     |    0.019 |   -0.486 |     0.524 | 0.255 |     0.076 | 0.940 | 1.000 | ns           |
+| tri.TV.pos | MF     | VL     |   -0.194 |   -0.667 |     0.278 | 0.239 |    -0.815 | 0.417 | 1.000 | ns           |
+| tri.TV.pos | ML     | MM     |    0.174 |   -0.301 |     0.648 | 0.240 |     0.725 | 0.470 | 1.000 | ns           |
+| tri.TV.pos | ML     | PR     |   -0.161 |   -0.624 |     0.303 | 0.234 |    -0.687 | 0.494 | 1.000 | ns           |
+| tri.TV.pos | ML     | VL     |   -0.375 |   -0.802 |     0.053 | 0.216 |    -1.734 | 0.086 | 1.000 | ns           |
+| tri.TV.pos | MM     | PR     |   -0.334 |   -0.851 |     0.182 | 0.261 |    -1.284 | 0.202 | 1.000 | ns           |
+| tri.TV.pos | MM     | VL     |   -0.548 |   -1.032 |    -0.064 | 0.244 |    -2.243 | 0.027 | 1.000 | ns           |
+| tri.TV.pos | PR     | VL     |   -0.214 |   -0.681 |     0.254 | 0.236 |    -0.906 | 0.367 | 1.000 | ns           |
+| tri.TV.pre | AC     | CE     |    0.170 |   -0.465 |     0.806 | 0.321 |     0.531 | 0.596 | 1.000 | ns           |
+| tri.TV.pre | AC     | EA     |   -0.002 |   -0.685 |     0.680 | 0.344 |    -0.006 | 0.995 | 1.000 | ns           |
+| tri.TV.pre | AC     | GR     |    0.451 |   -0.194 |     1.096 | 0.326 |     1.386 | 0.168 | 1.000 | ns           |
+| tri.TV.pre | AC     | JC     |   -0.128 |   -0.827 |     0.571 | 0.353 |    -0.363 | 0.717 | 1.000 | ns           |
+| tri.TV.pre | AC     | MF     |    0.071 |   -0.612 |     0.753 | 0.344 |     0.205 | 0.838 | 1.000 | ns           |
+| tri.TV.pre | AC     | ML     |    0.114 |   -0.513 |     0.741 | 0.316 |     0.361 | 0.719 | 1.000 | ns           |
+| tri.TV.pre | AC     | MM     |    0.152 |   -0.548 |     0.851 | 0.353 |     0.429 | 0.669 | 1.000 | ns           |
+| tri.TV.pre | AC     | PR     |    0.463 |   -0.219 |     1.145 | 0.344 |     1.344 | 0.182 | 1.000 | ns           |
+| tri.TV.pre | AC     | VL     |    0.583 |   -0.052 |     1.219 | 0.321 |     1.819 | 0.072 | 1.000 | ns           |
+| tri.TV.pre | CE     | EA     |   -0.173 |   -0.808 |     0.463 | 0.321 |    -0.538 | 0.592 | 1.000 | ns           |
+| tri.TV.pre | CE     | GR     |    0.281 |   -0.314 |     0.875 | 0.300 |     0.935 | 0.352 | 1.000 | ns           |
+| tri.TV.pre | CE     | JC     |   -0.298 |   -0.952 |     0.355 | 0.330 |    -0.905 | 0.367 | 1.000 | ns           |
+| tri.TV.pre | CE     | MF     |   -0.100 |   -0.735 |     0.535 | 0.321 |    -0.311 | 0.756 | 1.000 | ns           |
+| tri.TV.pre | CE     | ML     |   -0.056 |   -0.631 |     0.519 | 0.290 |    -0.194 | 0.847 | 1.000 | ns           |
+| tri.TV.pre | CE     | MM     |   -0.019 |   -0.672 |     0.634 | 0.330 |    -0.057 | 0.954 | 1.000 | ns           |
+| tri.TV.pre | CE     | PR     |    0.293 |   -0.343 |     0.928 | 0.321 |     0.912 | 0.364 | 1.000 | ns           |
+| tri.TV.pre | CE     | VL     |    0.413 |   -0.172 |     0.997 | 0.295 |     1.399 | 0.164 | 1.000 | ns           |
+| tri.TV.pre | EA     | GR     |    0.453 |   -0.192 |     1.098 | 0.326 |     1.393 | 0.166 | 1.000 | ns           |
+| tri.TV.pre | EA     | JC     |   -0.126 |   -0.825 |     0.573 | 0.353 |    -0.357 | 0.722 | 1.000 | ns           |
+| tri.TV.pre | EA     | MF     |    0.073 |   -0.610 |     0.755 | 0.344 |     0.211 | 0.833 | 1.000 | ns           |
+| tri.TV.pre | EA     | ML     |    0.116 |   -0.511 |     0.743 | 0.316 |     0.368 | 0.714 | 1.000 | ns           |
+| tri.TV.pre | EA     | MM     |    0.154 |   -0.546 |     0.853 | 0.353 |     0.435 | 0.664 | 1.000 | ns           |
+| tri.TV.pre | EA     | PR     |    0.465 |   -0.217 |     1.148 | 0.344 |     1.350 | 0.180 | 1.000 | ns           |
+| tri.TV.pre | EA     | VL     |    0.585 |   -0.050 |     1.221 | 0.321 |     1.825 | 0.071 | 1.000 | ns           |
+| tri.TV.pre | GR     | JC     |   -0.579 |   -1.242 |     0.083 | 0.334 |    -1.732 | 0.086 | 1.000 | ns           |
+| tri.TV.pre | GR     | MF     |   -0.381 |   -1.025 |     0.264 | 0.326 |    -1.169 | 0.245 | 1.000 | ns           |
+| tri.TV.pre | GR     | ML     |   -0.337 |   -0.923 |     0.249 | 0.296 |    -1.140 | 0.257 | 1.000 | ns           |
+| tri.TV.pre | GR     | MM     |   -0.300 |   -0.962 |     0.363 | 0.334 |    -0.896 | 0.372 | 1.000 | ns           |
+| tri.TV.pre | GR     | PR     |    0.012 |   -0.633 |     0.657 | 0.326 |     0.036 | 0.971 | 1.000 | ns           |
+| tri.TV.pre | GR     | VL     |    0.132 |   -0.463 |     0.727 | 0.300 |     0.440 | 0.661 | 1.000 | ns           |
+| tri.TV.pre | JC     | MF     |    0.199 |   -0.501 |     0.898 | 0.353 |     0.563 | 0.575 | 1.000 | ns           |
+| tri.TV.pre | JC     | ML     |    0.242 |   -0.403 |     0.887 | 0.326 |     0.744 | 0.459 | 1.000 | ns           |
+| tri.TV.pre | JC     | MM     |    0.280 |   -0.436 |     0.995 | 0.361 |     0.774 | 0.441 | 1.000 | ns           |
+| tri.TV.pre | JC     | PR     |    0.591 |   -0.108 |     1.290 | 0.353 |     1.674 | 0.097 | 1.000 | ns           |
+| tri.TV.pre | JC     | VL     |    0.711 |    0.058 |     1.365 | 0.330 |     2.157 | 0.033 | 1.000 | ns           |
+| tri.TV.pre | MF     | ML     |    0.044 |   -0.583 |     0.670 | 0.316 |     0.138 | 0.891 | 1.000 | ns           |
+| tri.TV.pre | MF     | MM     |    0.081 |   -0.618 |     0.780 | 0.353 |     0.229 | 0.819 | 1.000 | ns           |
+| tri.TV.pre | MF     | PR     |    0.392 |   -0.290 |     1.075 | 0.344 |     1.139 | 0.257 | 1.000 | ns           |
+| tri.TV.pre | MF     | VL     |    0.513 |   -0.123 |     1.148 | 0.321 |     1.599 | 0.113 | 1.000 | ns           |
+| tri.TV.pre | ML     | MM     |    0.037 |   -0.608 |     0.682 | 0.326 |     0.115 | 0.909 | 1.000 | ns           |
+| tri.TV.pre | ML     | PR     |    0.349 |   -0.278 |     0.976 | 0.316 |     1.102 | 0.273 | 1.000 | ns           |
+| tri.TV.pre | ML     | VL     |    0.469 |   -0.106 |     1.044 | 0.290 |     1.616 | 0.109 | 1.000 | ns           |
+| tri.TV.pre | MM     | PR     |    0.311 |   -0.388 |     1.011 | 0.353 |     0.882 | 0.379 | 1.000 | ns           |
+| tri.TV.pre | MM     | VL     |    0.432 |   -0.222 |     1.085 | 0.330 |     1.309 | 0.193 | 1.000 | ns           |
+| tri.TV.pre | PR     | VL     |    0.120 |   -0.515 |     0.756 | 0.321 |     0.375 | 0.708 | 1.000 | ns           |
+
+| .y.    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | AC      | pre    | pos    |    0.134 |   -0.498 |     0.767 | 0.321 |     0.418 | 0.676 | 0.676 | ns           |
+| tri.TV | CE      | pre    | pos    |   -0.032 |   -0.586 |     0.523 | 0.282 |    -0.112 | 0.911 | 0.911 | ns           |
+| tri.TV | EA      | pre    | pos    |   -0.180 |   -0.838 |     0.478 | 0.334 |    -0.538 | 0.591 | 0.591 | ns           |
+| tri.TV | GR      | pre    | pos    |   -0.056 |   -0.620 |     0.507 | 0.286 |    -0.197 | 0.844 | 0.844 | ns           |
+| tri.TV | JC      | pre    | pos    |    0.016 |   -0.645 |     0.677 | 0.336 |     0.048 | 0.961 | 0.961 | ns           |
+| tri.TV | MF      | pre    | pos    |    0.119 |   -0.502 |     0.741 | 0.316 |     0.378 | 0.706 | 0.706 | ns           |
+| tri.TV | ML      | pre    | pos    |    0.246 |   -0.300 |     0.792 | 0.277 |     0.888 | 0.375 | 0.375 | ns           |
+| tri.TV | MM      | pre    | pos    |    0.508 |   -0.132 |     1.147 | 0.324 |     1.564 | 0.119 | 0.119 | ns           |
+| tri.TV | PR      | pre    | pos    |   -0.039 |   -0.697 |     0.619 | 0.334 |    -0.117 | 0.907 | 0.907 | ns           |
+| tri.TV | VL      | pre    | pos    |   -0.240 |   -0.795 |     0.314 | 0.282 |    -0.854 | 0.394 | 0.394 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2439-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2441-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2443-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2445-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2447-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -5261,15 +10204,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2455-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1235-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2457-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1237-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2459-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1239-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2461-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1241-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2463-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | AC      |  11 |   0.486 |    0.164 |     0.113 |      0.225 |  -0.106 |    0.170 |
+| tri.TF.pos | CE      |  15 |   0.363 |    0.231 |     0.352 |      0.174 |   0.216 |    0.145 |
+| tri.TF.pos | EA      |  11 |   0.169 |    0.229 |     0.403 |      0.230 |   0.399 |    0.169 |
+| tri.TF.pos | GR      |  14 |  -0.232 |    0.229 |    -0.097 |      0.234 |   0.171 |    0.151 |
+| tri.TF.pos | JC      |  10 |   0.496 |    0.224 |     0.566 |      0.243 |   0.339 |    0.178 |
+| tri.TF.pos | MF      |  11 |   0.316 |    0.370 |     0.436 |      0.271 |   0.332 |    0.169 |
+| tri.TF.pos | ML      |  16 |   0.241 |    0.235 |     0.113 |      0.215 |   0.060 |    0.140 |
+| tri.TF.pos | MM      |  10 |   0.084 |    0.167 |    -0.025 |      0.259 |   0.028 |    0.177 |
+| tri.TF.pos | PR      |  11 |   0.019 |    0.280 |    -0.030 |      0.237 |   0.068 |    0.169 |
+| tri.TF.pos | VL      |  15 |  -0.170 |    0.210 |    -0.145 |      0.209 |   0.081 |    0.146 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | AC     | CE     |   -0.322 |   -0.762 |     0.118 | 0.222 |    -1.450 | 0.150 |     1 | ns           |
+| tri.TF.pos | AC     | EA     |   -0.505 |   -0.979 |    -0.031 | 0.239 |    -2.111 | 0.037 |     1 | ns           |
+| tri.TF.pos | AC     | GR     |   -0.277 |   -0.732 |     0.178 | 0.230 |    -1.208 | 0.230 |     1 | ns           |
+| tri.TF.pos | AC     | JC     |   -0.446 |   -0.930 |     0.039 | 0.244 |    -1.823 | 0.071 |     1 | ns           |
+| tri.TF.pos | AC     | MF     |   -0.438 |   -0.911 |     0.035 | 0.239 |    -1.834 | 0.069 |     1 | ns           |
+| tri.TF.pos | AC     | ML     |   -0.166 |   -0.601 |     0.269 | 0.220 |    -0.757 | 0.451 |     1 | ns           |
+| tri.TF.pos | AC     | MM     |   -0.135 |   -0.622 |     0.352 | 0.246 |    -0.549 | 0.584 |     1 | ns           |
+| tri.TF.pos | AC     | PR     |   -0.174 |   -0.650 |     0.302 | 0.240 |    -0.725 | 0.470 |     1 | ns           |
+| tri.TF.pos | AC     | VL     |   -0.187 |   -0.635 |     0.260 | 0.226 |    -0.830 | 0.408 |     1 | ns           |
+| tri.TF.pos | CE     | EA     |   -0.183 |   -0.623 |     0.258 | 0.222 |    -0.822 | 0.413 |     1 | ns           |
+| tri.TF.pos | CE     | GR     |    0.045 |   -0.373 |     0.463 | 0.211 |     0.213 | 0.832 |     1 | ns           |
+| tri.TF.pos | CE     | JC     |   -0.123 |   -0.576 |     0.329 | 0.229 |    -0.540 | 0.590 |     1 | ns           |
+| tri.TF.pos | CE     | MF     |   -0.116 |   -0.556 |     0.324 | 0.222 |    -0.521 | 0.603 |     1 | ns           |
+| tri.TF.pos | CE     | ML     |    0.156 |   -0.242 |     0.555 | 0.201 |     0.776 | 0.439 |     1 | ns           |
+| tri.TF.pos | CE     | MM     |    0.187 |   -0.266 |     0.641 | 0.229 |     0.819 | 0.415 |     1 | ns           |
+| tri.TF.pos | CE     | PR     |    0.148 |   -0.294 |     0.590 | 0.223 |     0.664 | 0.508 |     1 | ns           |
+| tri.TF.pos | CE     | VL     |    0.135 |   -0.275 |     0.545 | 0.207 |     0.652 | 0.516 |     1 | ns           |
+| tri.TF.pos | EA     | GR     |    0.228 |   -0.221 |     0.677 | 0.227 |     1.005 | 0.317 |     1 | ns           |
+| tri.TF.pos | EA     | JC     |    0.059 |   -0.426 |     0.545 | 0.245 |     0.243 | 0.809 |     1 | ns           |
+| tri.TF.pos | EA     | MF     |    0.067 |   -0.406 |     0.540 | 0.239 |     0.281 | 0.779 |     1 | ns           |
+| tri.TF.pos | EA     | ML     |    0.339 |   -0.095 |     0.773 | 0.219 |     1.547 | 0.125 |     1 | ns           |
+| tri.TF.pos | EA     | MM     |    0.370 |   -0.114 |     0.855 | 0.244 |     1.515 | 0.133 |     1 | ns           |
+| tri.TF.pos | EA     | PR     |    0.331 |   -0.142 |     0.804 | 0.239 |     1.386 | 0.168 |     1 | ns           |
+| tri.TF.pos | EA     | VL     |    0.318 |   -0.124 |     0.760 | 0.223 |     1.425 | 0.157 |     1 | ns           |
+| tri.TF.pos | GR     | JC     |   -0.168 |   -0.636 |     0.299 | 0.236 |    -0.713 | 0.477 |     1 | ns           |
+| tri.TF.pos | GR     | MF     |   -0.161 |   -0.612 |     0.291 | 0.228 |    -0.705 | 0.482 |     1 | ns           |
+| tri.TF.pos | GR     | ML     |    0.111 |   -0.298 |     0.521 | 0.207 |     0.538 | 0.592 |     1 | ns           |
+| tri.TF.pos | GR     | MM     |    0.143 |   -0.318 |     0.603 | 0.232 |     0.613 | 0.541 |     1 | ns           |
+| tri.TF.pos | GR     | PR     |    0.103 |   -0.344 |     0.551 | 0.226 |     0.457 | 0.649 |     1 | ns           |
+| tri.TF.pos | GR     | VL     |    0.090 |   -0.322 |     0.502 | 0.208 |     0.433 | 0.666 |     1 | ns           |
+| tri.TF.pos | JC     | MF     |    0.008 |   -0.477 |     0.492 | 0.245 |     0.031 | 0.975 |     1 | ns           |
+| tri.TF.pos | JC     | ML     |    0.279 |   -0.168 |     0.727 | 0.226 |     1.236 | 0.219 |     1 | ns           |
+| tri.TF.pos | JC     | MM     |    0.311 |   -0.187 |     0.809 | 0.251 |     1.236 | 0.219 |     1 | ns           |
+| tri.TF.pos | JC     | PR     |    0.271 |   -0.216 |     0.759 | 0.246 |     1.103 | 0.273 |     1 | ns           |
+| tri.TF.pos | JC     | VL     |    0.258 |   -0.201 |     0.718 | 0.232 |     1.113 | 0.268 |     1 | ns           |
+| tri.TF.pos | MF     | ML     |    0.272 |   -0.162 |     0.706 | 0.219 |     1.240 | 0.217 |     1 | ns           |
+| tri.TF.pos | MF     | MM     |    0.303 |   -0.182 |     0.788 | 0.245 |     1.238 | 0.218 |     1 | ns           |
+| tri.TF.pos | MF     | PR     |    0.264 |   -0.210 |     0.738 | 0.239 |     1.103 | 0.273 |     1 | ns           |
+| tri.TF.pos | MF     | VL     |    0.251 |   -0.193 |     0.694 | 0.224 |     1.118 | 0.266 |     1 | ns           |
+| tri.TF.pos | ML     | MM     |    0.031 |   -0.416 |     0.479 | 0.226 |     0.139 | 0.890 |     1 | ns           |
+| tri.TF.pos | ML     | PR     |   -0.008 |   -0.443 |     0.427 | 0.220 |    -0.037 | 0.971 |     1 | ns           |
+| tri.TF.pos | ML     | VL     |   -0.021 |   -0.423 |     0.380 | 0.203 |    -0.105 | 0.917 |     1 | ns           |
+| tri.TF.pos | MM     | PR     |   -0.039 |   -0.524 |     0.445 | 0.244 |    -0.161 | 0.872 |     1 | ns           |
+| tri.TF.pos | MM     | VL     |   -0.053 |   -0.506 |     0.401 | 0.229 |    -0.230 | 0.819 |     1 | ns           |
+| tri.TF.pos | PR     | VL     |   -0.013 |   -0.454 |     0.427 | 0.222 |    -0.059 | 0.953 |     1 | ns           |
+| tri.TF.pre | AC     | CE     |    0.123 |   -0.547 |     0.794 | 0.338 |     0.365 | 0.716 |     1 | ns           |
+| tri.TF.pre | AC     | EA     |    0.318 |   -0.402 |     1.037 | 0.363 |     0.874 | 0.384 |     1 | ns           |
+| tri.TF.pre | AC     | GR     |    0.718 |    0.038 |     1.398 | 0.343 |     2.091 | 0.039 |     1 | ns           |
+| tri.TF.pre | AC     | JC     |   -0.010 |   -0.747 |     0.728 | 0.372 |    -0.026 | 0.979 |     1 | ns           |
+| tri.TF.pre | AC     | MF     |    0.170 |   -0.550 |     0.890 | 0.363 |     0.468 | 0.641 |     1 | ns           |
+| tri.TF.pre | AC     | ML     |    0.245 |   -0.416 |     0.906 | 0.334 |     0.734 | 0.465 |     1 | ns           |
+| tri.TF.pre | AC     | MM     |    0.403 |   -0.335 |     1.140 | 0.372 |     1.081 | 0.282 |     1 | ns           |
+| tri.TF.pre | AC     | PR     |    0.467 |   -0.253 |     1.187 | 0.363 |     1.285 | 0.201 |     1 | ns           |
+| tri.TF.pre | AC     | VL     |    0.656 |   -0.014 |     1.327 | 0.338 |     1.940 | 0.055 |     1 | ns           |
+| tri.TF.pre | CE     | EA     |    0.194 |   -0.476 |     0.864 | 0.338 |     0.574 | 0.567 |     1 | ns           |
+| tri.TF.pre | CE     | GR     |    0.594 |   -0.033 |     1.222 | 0.317 |     1.877 | 0.063 |     1 | ns           |
+| tri.TF.pre | CE     | JC     |   -0.133 |   -0.822 |     0.556 | 0.348 |    -0.383 | 0.703 |     1 | ns           |
+| tri.TF.pre | CE     | MF     |    0.047 |   -0.624 |     0.717 | 0.338 |     0.138 | 0.891 |     1 | ns           |
+| tri.TF.pre | CE     | ML     |    0.121 |   -0.485 |     0.728 | 0.306 |     0.396 | 0.693 |     1 | ns           |
+| tri.TF.pre | CE     | MM     |    0.279 |   -0.410 |     0.968 | 0.348 |     0.802 | 0.424 |     1 | ns           |
+| tri.TF.pre | CE     | PR     |    0.343 |   -0.327 |     1.014 | 0.338 |     1.015 | 0.312 |     1 | ns           |
+| tri.TF.pre | CE     | VL     |    0.533 |   -0.083 |     1.149 | 0.311 |     1.713 | 0.089 |     1 | ns           |
+| tri.TF.pre | EA     | GR     |    0.400 |   -0.280 |     1.081 | 0.343 |     1.166 | 0.246 |     1 | ns           |
+| tri.TF.pre | EA     | JC     |   -0.327 |   -1.065 |     0.410 | 0.372 |    -0.879 | 0.381 |     1 | ns           |
+| tri.TF.pre | EA     | MF     |   -0.147 |   -0.867 |     0.572 | 0.363 |    -0.406 | 0.686 |     1 | ns           |
+| tri.TF.pre | EA     | ML     |   -0.073 |   -0.734 |     0.589 | 0.334 |    -0.218 | 0.828 |     1 | ns           |
+| tri.TF.pre | EA     | MM     |    0.085 |   -0.653 |     0.823 | 0.372 |     0.228 | 0.820 |     1 | ns           |
+| tri.TF.pre | EA     | PR     |    0.149 |   -0.571 |     0.869 | 0.363 |     0.411 | 0.682 |     1 | ns           |
+| tri.TF.pre | EA     | VL     |    0.339 |   -0.331 |     1.009 | 0.338 |     1.002 | 0.319 |     1 | ns           |
+| tri.TF.pre | GR     | JC     |   -0.728 |   -1.427 |    -0.029 | 0.353 |    -2.062 | 0.041 |     1 | ns           |
+| tri.TF.pre | GR     | MF     |   -0.548 |   -1.228 |     0.132 | 0.343 |    -1.595 | 0.113 |     1 | ns           |
+| tri.TF.pre | GR     | ML     |   -0.473 |   -1.091 |     0.145 | 0.312 |    -1.517 | 0.132 |     1 | ns           |
+| tri.TF.pre | GR     | MM     |   -0.315 |   -1.014 |     0.384 | 0.353 |    -0.894 | 0.373 |     1 | ns           |
+| tri.TF.pre | GR     | PR     |   -0.251 |   -0.931 |     0.429 | 0.343 |    -0.731 | 0.466 |     1 | ns           |
+| tri.TF.pre | GR     | VL     |   -0.061 |   -0.689 |     0.566 | 0.317 |    -0.194 | 0.846 |     1 | ns           |
+| tri.TF.pre | JC     | MF     |    0.180 |   -0.558 |     0.917 | 0.372 |     0.483 | 0.630 |     1 | ns           |
+| tri.TF.pre | JC     | ML     |    0.255 |   -0.426 |     0.935 | 0.344 |     0.741 | 0.460 |     1 | ns           |
+| tri.TF.pre | JC     | MM     |    0.412 |   -0.343 |     1.167 | 0.381 |     1.082 | 0.282 |     1 | ns           |
+| tri.TF.pre | JC     | PR     |    0.477 |   -0.261 |     1.214 | 0.372 |     1.280 | 0.203 |     1 | ns           |
+| tri.TF.pre | JC     | VL     |    0.666 |   -0.023 |     1.355 | 0.348 |     1.914 | 0.058 |     1 | ns           |
+| tri.TF.pre | MF     | ML     |    0.075 |   -0.586 |     0.736 | 0.334 |     0.224 | 0.823 |     1 | ns           |
+| tri.TF.pre | MF     | MM     |    0.232 |   -0.505 |     0.970 | 0.372 |     0.624 | 0.534 |     1 | ns           |
+| tri.TF.pre | MF     | PR     |    0.297 |   -0.423 |     1.017 | 0.363 |     0.817 | 0.416 |     1 | ns           |
+| tri.TF.pre | MF     | VL     |    0.486 |   -0.184 |     1.157 | 0.338 |     1.438 | 0.153 |     1 | ns           |
+| tri.TF.pre | ML     | MM     |    0.158 |   -0.523 |     0.838 | 0.344 |     0.459 | 0.647 |     1 | ns           |
+| tri.TF.pre | ML     | PR     |    0.222 |   -0.439 |     0.883 | 0.334 |     0.665 | 0.507 |     1 | ns           |
+| tri.TF.pre | ML     | VL     |    0.412 |   -0.195 |     1.018 | 0.306 |     1.344 | 0.182 |     1 | ns           |
+| tri.TF.pre | MM     | PR     |    0.064 |   -0.673 |     0.802 | 0.372 |     0.173 | 0.863 |     1 | ns           |
+| tri.TF.pre | MM     | VL     |    0.254 |   -0.435 |     0.943 | 0.348 |     0.730 | 0.467 |     1 | ns           |
+| tri.TF.pre | PR     | VL     |    0.190 |   -0.481 |     0.860 | 0.338 |     0.560 | 0.576 |     1 | ns           |
+
+| .y.    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | AC      | pre    | pos    |    0.256 |   -0.408 |     0.921 | 0.337 |     0.760 | 0.448 | 0.448 | ns           |
+| tri.TF | CE      | pre    | pos    |    0.063 |   -0.520 |     0.646 | 0.296 |     0.213 | 0.832 | 0.832 | ns           |
+| tri.TF | EA      | pre    | pos    |   -0.234 |   -0.926 |     0.458 | 0.351 |    -0.666 | 0.506 | 0.506 | ns           |
+| tri.TF | GR      | pre    | pos    |   -0.113 |   -0.706 |     0.479 | 0.301 |    -0.376 | 0.707 | 0.707 | ns           |
+| tri.TF | JC      | pre    | pos    |   -0.005 |   -0.700 |     0.689 | 0.353 |    -0.015 | 0.988 | 0.988 | ns           |
+| tri.TF | MF      | pre    | pos    |   -0.185 |   -0.839 |     0.468 | 0.332 |    -0.559 | 0.577 | 0.577 | ns           |
+| tri.TF | ML      | pre    | pos    |    0.128 |   -0.445 |     0.702 | 0.291 |     0.440 | 0.660 | 0.660 | ns           |
+| tri.TF | MM      | pre    | pos    |    0.299 |   -0.373 |     0.970 | 0.341 |     0.875 | 0.382 | 0.382 | ns           |
+| tri.TF | PR      | pre    | pos    |    0.049 |   -0.643 |     0.741 | 0.351 |     0.140 | 0.889 | 0.889 | ns           |
+| tri.TF | VL      | pre    | pos    |   -0.045 |   -0.628 |     0.538 | 0.296 |    -0.151 | 0.880 | 0.880 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2471-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2473-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2475-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2477-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2479-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -5395,15 +10472,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1249-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2487-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1251-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2489-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1253-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2491-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1255-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2493-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1257-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2495-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | AC      |  11 |  -0.064 |    0.218 |     0.282 |      0.215 |   0.364 |    0.176 |
+| tri.TO.pos | CE      |  15 |   0.081 |    0.239 |     0.034 |      0.258 |   0.006 |    0.151 |
+| tri.TO.pos | EA      |  11 |   0.262 |    0.326 |     0.659 |      0.307 |   0.492 |    0.177 |
+| tri.TO.pos | GR      |  14 |   0.326 |    0.242 |     0.351 |      0.212 |   0.136 |    0.157 |
+| tri.TO.pos | JC      |  10 |   0.421 |    0.297 |     0.635 |      0.335 |   0.348 |    0.186 |
+| tri.TO.pos | MF      |  11 |   0.279 |    0.349 |     0.809 |      0.240 |   0.630 |    0.177 |
+| tri.TO.pos | ML      |  16 |   0.116 |    0.245 |     0.033 |      0.253 |  -0.022 |    0.146 |
+| tri.TO.pos | MM      |  10 |  -0.486 |    0.184 |    -0.591 |      0.318 |  -0.187 |    0.188 |
+| tri.TO.pos | PR      |  11 |  -0.293 |    0.263 |     0.122 |      0.279 |   0.379 |    0.177 |
+| tri.TO.pos | VL      |  15 |  -0.236 |    0.198 |    -0.258 |      0.174 |  -0.045 |    0.152 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | AC     | CE     |    0.358 |   -0.102 |     0.818 | 0.232 |     1.543 | 0.126 | 1.000 | ns           |
+| tri.TO.pos | AC     | EA     |   -0.128 |   -0.623 |     0.367 | 0.250 |    -0.513 | 0.609 | 1.000 | ns           |
+| tri.TO.pos | AC     | GR     |    0.228 |   -0.240 |     0.697 | 0.237 |     0.965 | 0.337 | 1.000 | ns           |
+| tri.TO.pos | AC     | JC     |    0.016 |   -0.494 |     0.525 | 0.257 |     0.061 | 0.952 | 1.000 | ns           |
+| tri.TO.pos | AC     | MF     |   -0.266 |   -0.761 |     0.230 | 0.250 |    -1.063 | 0.290 | 1.000 | ns           |
+| tri.TO.pos | AC     | ML     |    0.386 |   -0.068 |     0.840 | 0.229 |     1.686 | 0.095 | 1.000 | ns           |
+| tri.TO.pos | AC     | MM     |    0.551 |    0.043 |     1.059 | 0.257 |     2.147 | 0.034 | 1.000 | ns           |
+| tri.TO.pos | AC     | PR     |   -0.015 |   -0.509 |     0.479 | 0.250 |    -0.060 | 0.952 | 1.000 | ns           |
+| tri.TO.pos | AC     | VL     |    0.409 |   -0.051 |     0.869 | 0.232 |     1.762 | 0.081 | 1.000 | ns           |
+| tri.TO.pos | CE     | EA     |   -0.486 |   -0.946 |    -0.026 | 0.232 |    -2.094 | 0.038 | 1.000 | ns           |
+| tri.TO.pos | CE     | GR     |   -0.130 |   -0.561 |     0.301 | 0.218 |    -0.596 | 0.552 | 1.000 | ns           |
+| tri.TO.pos | CE     | JC     |   -0.342 |   -0.817 |     0.132 | 0.239 |    -1.430 | 0.155 | 1.000 | ns           |
+| tri.TO.pos | CE     | MF     |   -0.624 |   -1.084 |    -0.164 | 0.232 |    -2.686 | 0.008 | 0.375 | ns           |
+| tri.TO.pos | CE     | ML     |    0.028 |   -0.388 |     0.444 | 0.210 |     0.134 | 0.894 | 1.000 | ns           |
+| tri.TO.pos | CE     | MM     |    0.193 |   -0.285 |     0.670 | 0.241 |     0.800 | 0.425 | 1.000 | ns           |
+| tri.TO.pos | CE     | PR     |   -0.373 |   -0.835 |     0.089 | 0.233 |    -1.601 | 0.112 | 1.000 | ns           |
+| tri.TO.pos | CE     | VL     |    0.051 |   -0.373 |     0.476 | 0.214 |     0.238 | 0.812 | 1.000 | ns           |
+| tri.TO.pos | EA     | GR     |    0.357 |   -0.110 |     0.823 | 0.235 |     1.514 | 0.133 | 1.000 | ns           |
+| tri.TO.pos | EA     | JC     |    0.144 |   -0.362 |     0.650 | 0.256 |     0.563 | 0.575 | 1.000 | ns           |
+| tri.TO.pos | EA     | MF     |   -0.138 |   -0.631 |     0.356 | 0.249 |    -0.552 | 0.582 | 1.000 | ns           |
+| tri.TO.pos | EA     | ML     |    0.514 |    0.061 |     0.968 | 0.229 |     2.246 | 0.027 | 1.000 | ns           |
+| tri.TO.pos | EA     | MM     |    0.679 |    0.165 |     1.193 | 0.259 |     2.619 | 0.010 | 0.451 | ns           |
+| tri.TO.pos | EA     | PR     |    0.113 |   -0.385 |     0.611 | 0.251 |     0.450 | 0.653 | 1.000 | ns           |
+| tri.TO.pos | EA     | VL     |    0.537 |    0.074 |     1.001 | 0.234 |     2.297 | 0.023 | 1.000 | ns           |
+| tri.TO.pos | GR     | JC     |   -0.213 |   -0.692 |     0.267 | 0.242 |    -0.879 | 0.381 | 1.000 | ns           |
+| tri.TO.pos | GR     | MF     |   -0.494 |   -0.961 |    -0.028 | 0.235 |    -2.098 | 0.038 | 1.000 | ns           |
+| tri.TO.pos | GR     | ML     |    0.158 |   -0.267 |     0.582 | 0.214 |     0.737 | 0.462 | 1.000 | ns           |
+| tri.TO.pos | GR     | MM     |    0.323 |   -0.167 |     0.812 | 0.247 |     1.307 | 0.194 | 1.000 | ns           |
+| tri.TO.pos | GR     | PR     |   -0.243 |   -0.716 |     0.229 | 0.238 |    -1.020 | 0.310 | 1.000 | ns           |
+| tri.TO.pos | GR     | VL     |    0.181 |   -0.255 |     0.616 | 0.220 |     0.823 | 0.412 | 1.000 | ns           |
+| tri.TO.pos | JC     | MF     |   -0.281 |   -0.788 |     0.225 | 0.255 |    -1.102 | 0.273 | 1.000 | ns           |
+| tri.TO.pos | JC     | ML     |    0.371 |   -0.098 |     0.839 | 0.236 |     1.569 | 0.120 | 1.000 | ns           |
+| tri.TO.pos | JC     | MM     |    0.535 |    0.006 |     1.064 | 0.267 |     2.005 | 0.047 | 1.000 | ns           |
+| tri.TO.pos | JC     | PR     |   -0.031 |   -0.544 |     0.482 | 0.259 |    -0.118 | 0.906 | 1.000 | ns           |
+| tri.TO.pos | JC     | VL     |    0.394 |   -0.086 |     0.873 | 0.242 |     1.627 | 0.106 | 1.000 | ns           |
+| tri.TO.pos | MF     | ML     |    0.652 |    0.198 |     1.106 | 0.229 |     2.846 | 0.005 | 0.236 | ns           |
+| tri.TO.pos | MF     | MM     |    0.817 |    0.303 |     1.331 | 0.259 |     3.148 | 0.002 | 0.095 | ns           |
+| tri.TO.pos | MF     | PR     |    0.251 |   -0.248 |     0.749 | 0.252 |     0.997 | 0.321 | 1.000 | ns           |
+| tri.TO.pos | MF     | VL     |    0.675 |    0.211 |     1.139 | 0.234 |     2.884 | 0.005 | 0.212 | ns           |
+| tri.TO.pos | ML     | MM     |    0.165 |   -0.308 |     0.637 | 0.238 |     0.691 | 0.491 | 1.000 | ns           |
+| tri.TO.pos | ML     | PR     |   -0.401 |   -0.857 |     0.055 | 0.230 |    -1.743 | 0.084 | 1.000 | ns           |
+| tri.TO.pos | ML     | VL     |    0.023 |   -0.395 |     0.441 | 0.211 |     0.108 | 0.914 | 1.000 | ns           |
+| tri.TO.pos | MM     | PR     |   -0.566 |   -1.072 |    -0.059 | 0.256 |    -2.214 | 0.029 | 1.000 | ns           |
+| tri.TO.pos | MM     | VL     |   -0.142 |   -0.615 |     0.332 | 0.239 |    -0.593 | 0.554 | 1.000 | ns           |
+| tri.TO.pos | PR     | VL     |    0.424 |   -0.036 |     0.884 | 0.232 |     1.828 | 0.070 | 1.000 | ns           |
+| tri.TO.pre | AC     | CE     |   -0.145 |   -0.860 |     0.570 | 0.361 |    -0.401 | 0.689 | 1.000 | ns           |
+| tri.TO.pre | AC     | EA     |   -0.326 |   -1.094 |     0.442 | 0.388 |    -0.842 | 0.402 | 1.000 | ns           |
+| tri.TO.pre | AC     | GR     |   -0.390 |   -1.116 |     0.335 | 0.366 |    -1.066 | 0.289 | 1.000 | ns           |
+| tri.TO.pre | AC     | JC     |   -0.485 |   -1.272 |     0.302 | 0.397 |    -1.220 | 0.225 | 1.000 | ns           |
+| tri.TO.pre | AC     | MF     |   -0.344 |   -1.111 |     0.424 | 0.388 |    -0.886 | 0.377 | 1.000 | ns           |
+| tri.TO.pre | AC     | ML     |   -0.180 |   -0.886 |     0.525 | 0.356 |    -0.506 | 0.614 | 1.000 | ns           |
+| tri.TO.pre | AC     | MM     |    0.422 |   -0.365 |     1.209 | 0.397 |     1.063 | 0.290 | 1.000 | ns           |
+| tri.TO.pre | AC     | PR     |    0.229 |   -0.539 |     0.997 | 0.388 |     0.590 | 0.556 | 1.000 | ns           |
+| tri.TO.pre | AC     | VL     |    0.172 |   -0.543 |     0.887 | 0.361 |     0.475 | 0.635 | 1.000 | ns           |
+| tri.TO.pre | CE     | EA     |   -0.182 |   -0.896 |     0.533 | 0.361 |    -0.503 | 0.616 | 1.000 | ns           |
+| tri.TO.pre | CE     | GR     |   -0.246 |   -0.915 |     0.424 | 0.338 |    -0.727 | 0.469 | 1.000 | ns           |
+| tri.TO.pre | CE     | JC     |   -0.340 |   -1.075 |     0.395 | 0.371 |    -0.916 | 0.362 | 1.000 | ns           |
+| tri.TO.pre | CE     | MF     |   -0.199 |   -0.914 |     0.516 | 0.361 |    -0.551 | 0.583 | 1.000 | ns           |
+| tri.TO.pre | CE     | ML     |   -0.035 |   -0.683 |     0.612 | 0.327 |    -0.108 | 0.914 | 1.000 | ns           |
+| tri.TO.pre | CE     | MM     |    0.567 |   -0.168 |     1.302 | 0.371 |     1.528 | 0.129 | 1.000 | ns           |
+| tri.TO.pre | CE     | PR     |    0.374 |   -0.341 |     1.089 | 0.361 |     1.035 | 0.303 | 1.000 | ns           |
+| tri.TO.pre | CE     | VL     |    0.316 |   -0.341 |     0.974 | 0.332 |     0.953 | 0.343 | 1.000 | ns           |
+| tri.TO.pre | EA     | GR     |   -0.064 |   -0.790 |     0.662 | 0.366 |    -0.175 | 0.861 | 1.000 | ns           |
+| tri.TO.pre | EA     | JC     |   -0.158 |   -0.945 |     0.629 | 0.397 |    -0.399 | 0.691 | 1.000 | ns           |
+| tri.TO.pre | EA     | MF     |   -0.017 |   -0.785 |     0.751 | 0.388 |    -0.044 | 0.965 | 1.000 | ns           |
+| tri.TO.pre | EA     | ML     |    0.146 |   -0.559 |     0.852 | 0.356 |     0.410 | 0.682 | 1.000 | ns           |
+| tri.TO.pre | EA     | MM     |    0.749 |   -0.038 |     1.536 | 0.397 |     1.885 | 0.062 | 1.000 | ns           |
+| tri.TO.pre | EA     | PR     |    0.555 |   -0.213 |     1.323 | 0.388 |     1.432 | 0.155 | 1.000 | ns           |
+| tri.TO.pre | EA     | VL     |    0.498 |   -0.217 |     1.213 | 0.361 |     1.380 | 0.170 | 1.000 | ns           |
+| tri.TO.pre | GR     | JC     |   -0.094 |   -0.840 |     0.651 | 0.376 |    -0.250 | 0.803 | 1.000 | ns           |
+| tri.TO.pre | GR     | MF     |    0.047 |   -0.679 |     0.773 | 0.366 |     0.128 | 0.898 | 1.000 | ns           |
+| tri.TO.pre | GR     | ML     |    0.210 |   -0.449 |     0.869 | 0.333 |     0.632 | 0.529 | 1.000 | ns           |
+| tri.TO.pre | GR     | MM     |    0.813 |    0.067 |     1.558 | 0.376 |     2.159 | 0.033 | 1.000 | ns           |
+| tri.TO.pre | GR     | PR     |    0.619 |   -0.106 |     1.345 | 0.366 |     1.691 | 0.094 | 1.000 | ns           |
+| tri.TO.pre | GR     | VL     |    0.562 |   -0.107 |     1.231 | 0.338 |     1.664 | 0.099 | 1.000 | ns           |
+| tri.TO.pre | JC     | MF     |    0.141 |   -0.646 |     0.928 | 0.397 |     0.355 | 0.723 | 1.000 | ns           |
+| tri.TO.pre | JC     | ML     |    0.304 |   -0.422 |     1.031 | 0.366 |     0.831 | 0.408 | 1.000 | ns           |
+| tri.TO.pre | JC     | MM     |    0.907 |    0.102 |     1.712 | 0.407 |     2.231 | 0.028 | 1.000 | ns           |
+| tri.TO.pre | JC     | PR     |    0.714 |   -0.073 |     1.501 | 0.397 |     1.796 | 0.075 | 1.000 | ns           |
+| tri.TO.pre | JC     | VL     |    0.656 |   -0.079 |     1.392 | 0.371 |     1.768 | 0.080 | 1.000 | ns           |
+| tri.TO.pre | MF     | ML     |    0.163 |   -0.542 |     0.869 | 0.356 |     0.459 | 0.647 | 1.000 | ns           |
+| tri.TO.pre | MF     | MM     |    0.766 |   -0.021 |     1.553 | 0.397 |     1.928 | 0.056 | 1.000 | ns           |
+| tri.TO.pre | MF     | PR     |    0.572 |   -0.196 |     1.340 | 0.388 |     1.476 | 0.143 | 1.000 | ns           |
+| tri.TO.pre | MF     | VL     |    0.515 |   -0.200 |     1.230 | 0.361 |     1.427 | 0.156 | 1.000 | ns           |
+| tri.TO.pre | ML     | MM     |    0.603 |   -0.123 |     1.329 | 0.366 |     1.644 | 0.103 | 1.000 | ns           |
+| tri.TO.pre | ML     | PR     |    0.409 |   -0.296 |     1.115 | 0.356 |     1.149 | 0.253 | 1.000 | ns           |
+| tri.TO.pre | ML     | VL     |    0.352 |   -0.295 |     0.999 | 0.327 |     1.077 | 0.284 | 1.000 | ns           |
+| tri.TO.pre | MM     | PR     |   -0.193 |   -0.980 |     0.593 | 0.397 |    -0.487 | 0.627 | 1.000 | ns           |
+| tri.TO.pre | MM     | VL     |   -0.251 |   -0.986 |     0.485 | 0.371 |    -0.675 | 0.501 | 1.000 | ns           |
+| tri.TO.pre | PR     | VL     |   -0.057 |   -0.772 |     0.658 | 0.361 |    -0.159 | 0.874 | 1.000 | ns           |
+
+| .y.    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | AC      | pre    | pos    |   -0.455 |   -1.179 |     0.269 | 0.368 |    -1.237 | 0.217 | 0.217 | ns           |
+| tri.TO | CE      | pre    | pos    |    0.026 |   -0.609 |     0.662 | 0.323 |     0.081 | 0.935 | 0.935 | ns           |
+| tri.TO | EA      | pre    | pos    |   -0.396 |   -1.150 |     0.358 | 0.383 |    -1.035 | 0.301 | 0.301 | ns           |
+| tri.TO | GR      | pre    | pos    |   -0.016 |   -0.662 |     0.629 | 0.328 |    -0.050 | 0.960 | 0.960 | ns           |
+| tri.TO | JC      | pre    | pos    |   -0.394 |   -1.151 |     0.363 | 0.384 |    -1.026 | 0.306 | 0.306 | ns           |
+| tri.TO | MF      | pre    | pos    |   -0.461 |   -1.174 |     0.251 | 0.362 |    -1.275 | 0.203 | 0.203 | ns           |
+| tri.TO | ML      | pre    | pos    |    0.083 |   -0.542 |     0.709 | 0.317 |     0.263 | 0.793 | 0.793 | ns           |
+| tri.TO | MM      | pre    | pos    |    0.301 |   -0.431 |     1.033 | 0.372 |     0.811 | 0.418 | 0.418 | ns           |
+| tri.TO | PR      | pre    | pos    |   -0.415 |   -1.169 |     0.339 | 0.383 |    -1.084 | 0.279 | 0.279 | ns           |
+| tri.TO | VL      | pre    | pos    |    0.011 |   -0.625 |     0.646 | 0.323 |     0.033 | 0.973 | 0.973 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2503-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2505-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2507-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2509-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2511-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.genero**
 
@@ -5427,15 +10638,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1265-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2519-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1267-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2521-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1269-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2523-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1271-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2525-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1273-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2527-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | F              |  77 |  70.727 |    1.479 |    70.013 |      1.622 |  70.628 |    1.188 |
+| tri.CLPP.pos | M              |  47 |  73.277 |    1.930 |    75.872 |      1.687 |  74.865 |    1.523 |
+
+| .y.          | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | F      | M      |   -4.238 |   -8.070 |    -0.406 | 1.936 |    -2.189 | 0.030 | 0.030 | \*           |
+| tri.CLPP.pre | F      | M      |   -2.549 |   -7.339 |     2.240 | 2.420 |    -1.054 | 0.294 | 0.294 | ns           |
+
+| .y.      | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | F              | pre    | pos    |    0.003 |   -0.273 |     0.280 | 0.141 |     0.023 | 0.982 | 0.982 | ns           |
+| tri.CLPP | M              | pre    | pos    |   -0.189 |   -0.550 |     0.173 | 0.184 |    -1.028 | 0.305 | 0.305 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2535-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2537-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2539-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2541-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2543-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -5457,15 +10698,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1281-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2551-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1283-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2553-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1285-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2555-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1287-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2557-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1289-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2559-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | F              |  77 |   0.178 |    0.092 |     0.122 |      0.084 |   0.145 |    0.064 |
+| tri.CR.pos | M              |  47 |   0.277 |    0.117 |     0.327 |      0.109 |   0.290 |    0.082 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | F      | M      |   -0.146 |   -0.351 |     0.060 | 0.104 |    -1.403 | 0.163 | 0.163 | ns           |
+| tri.CR.pre | F      | M      |   -0.098 |   -0.394 |     0.197 | 0.149 |    -0.660 | 0.511 | 0.511 | ns           |
+
+| .y.    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | F              | pre    | pos    |     0.07 |   -0.166 |     0.305 | 0.120 |     0.584 | 0.560 | 0.560 | ns           |
+| tri.CR | M              | pre    | pos    |    -0.02 |   -0.327 |     0.287 | 0.156 |    -0.128 | 0.898 | 0.898 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2567-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2569-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2571-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2573-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2575-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -5487,15 +10758,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1297-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2583-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1299-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2585-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1301-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2587-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1303-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2589-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1305-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2591-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | F              |  77 |   0.099 |    0.097 |     0.245 |      0.097 |   0.240 |    0.065 |
+| tri.CI.pos | M              |  47 |   0.082 |    0.124 |     0.359 |      0.120 |   0.367 |    0.083 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | F      | M      |   -0.127 |   -0.335 |     0.082 | 0.105 |    -1.204 | 0.231 | 0.231 | ns           |
+| tri.CI.pre | F      | M      |    0.018 |   -0.293 |     0.328 | 0.157 |     0.112 | 0.911 | 0.911 | ns           |
+
+| .y.    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | F              | pre    | pos    |   -0.143 |   -0.397 |     0.111 | 0.129 |    -1.107 | 0.269 | 0.269 | ns           |
+| tri.CI | M              | pre    | pos    |   -0.298 |   -0.630 |     0.034 | 0.169 |    -1.767 | 0.078 | 0.078 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2599-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2601-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2603-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2605-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2607-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -5517,15 +10818,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1313-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2615-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1315-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2617-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1317-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2619-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1319-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2621-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1321-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2623-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | F              |  77 |   0.080 |    0.088 |     0.014 |      0.094 |   0.041 |    0.068 |
+| tri.TV.pos | M              |  47 |   0.194 |    0.126 |     0.275 |      0.106 |   0.230 |    0.087 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |   se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|-----:|----------:|------:|------:|:-------------|
+| tri.TV.pos | F      | M      |   -0.188 |   -0.407 |     0.030 | 0.11 |    -1.709 | 0.090 | 0.090 | ns           |
+| tri.TV.pre | F      | M      |   -0.114 |   -0.411 |     0.183 | 0.15 |    -0.761 | 0.448 | 0.448 | ns           |
+
+| .y.    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | F              | pre    | pos    |    0.112 |    -0.13 |     0.353 | 0.123 |     0.909 | 0.364 | 0.364 | ns           |
+| tri.TV | M              | pre    | pos    |   -0.044 |    -0.36 |     0.272 | 0.160 |    -0.273 | 0.785 | 0.785 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2631-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2633-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2635-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2637-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2639-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -5547,15 +10878,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1329-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2647-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1331-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2649-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1333-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2651-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1335-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2653-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1337-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2655-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | F              |  77 |   0.100 |    0.099 |     0.053 |      0.095 |   0.095 |    0.063 |
+| tri.TF.pos | M              |  47 |   0.265 |    0.121 |     0.320 |      0.109 |   0.250 |    0.081 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | F      | M      |   -0.155 |   -0.360 |     0.049 | 0.103 |    -1.506 | 0.135 | 0.135 | ns           |
+| tri.TF.pre | F      | M      |   -0.165 |   -0.479 |     0.149 | 0.158 |    -1.041 | 0.300 | 0.300 | ns           |
+
+| .y.    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | F              | pre    | pos    |    0.061 |   -0.192 |     0.314 | 0.128 |     0.475 | 0.635 | 0.635 | ns           |
+| tri.TF | M              | pre    | pos    |   -0.013 |   -0.343 |     0.317 | 0.168 |    -0.076 | 0.939 | 0.939 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2663-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2665-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2667-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2669-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2671-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -5577,15 +10938,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1345-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2679-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1347-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2681-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1349-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2683-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1351-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2685-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1353-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2687-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | F              |  77 |   0.005 |    0.102 |     0.099 |      0.104 |   0.130 |    0.070 |
+| tri.TO.pos | M              |  47 |   0.108 |    0.140 |     0.329 |      0.147 |   0.278 |    0.089 |
+
+| .y.        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | F      | M      |   -0.147 |   -0.372 |     0.077 | 0.114 |    -1.298 | 0.197 | 0.197 | ns           |
+| tri.TO.pre | F      | M      |   -0.103 |   -0.440 |     0.234 | 0.170 |    -0.605 | 0.546 | 0.546 | ns           |
+
+| .y.    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | F              | pre    | pos    |   -0.085 |   -0.368 |     0.198 | 0.144 |    -0.594 | 0.553 | 0.553 | ns           |
+| tri.TO | M              | pre    | pos    |   -0.253 |   -0.622 |     0.117 | 0.188 |    -1.346 | 0.180 | 0.180 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2695-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2697-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2699-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2701-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2703-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.area**
 
@@ -5693,15 +11084,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1361-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2711-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1363-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2713-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1365-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2715-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1367-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2717-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1369-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2719-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | Arquitetura e Urbanismo    |  10 |  77.400 |    3.149 |    81.000 |      3.190 |  77.386 |    3.330 |
+| tri.CLPP.pos | Ciencias Biologicas        |  16 |  67.812 |    4.032 |    69.188 |      3.510 |  71.645 |    2.627 |
+| tri.CLPP.pos | Comunicacao Social         |  15 |  74.200 |    3.236 |    75.333 |      2.489 |  73.746 |    2.703 |
+| tri.CLPP.pos | Historia                   |  11 |  67.182 |    5.003 |    71.182 |      3.753 |  74.039 |    3.167 |
+| tri.CLPP.pos | Letras - Lingua Portuguesa |  11 |  75.545 |    4.519 |    72.636 |      4.521 |  70.197 |    3.162 |
+| tri.CLPP.pos | Matematica                 |  25 |  71.240 |    2.960 |    73.600 |      2.815 |  73.887 |    2.089 |
+| tri.CLPP.pos | Nutricao                   |  10 |  68.000 |    2.539 |    61.600 |      6.454 |  63.939 |    3.314 |
+| tri.CLPP.pos | Pedagogia                  |  11 |  76.364 |    2.081 |    72.909 |      4.196 |  69.951 |    3.168 |
+| tri.CLPP.pos | Servico Social             |  15 |  69.800 |    2.434 |    71.333 |      2.030 |  72.533 |    2.700 |
+
+| .y.          | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    5.741 |   -2.719 |    14.200 | 4.271 |     1.344 | 0.182 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Comunicacao Social  |    3.640 |   -4.820 |    12.100 | 4.270 |     0.852 | 0.396 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Historia            |    3.347 |   -5.819 |    12.512 | 4.627 |     0.723 | 0.471 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Letras              |    7.189 |   -1.855 |    16.233 | 4.565 |     1.575 | 0.118 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Matematica          |    3.499 |   -4.296 |    11.293 | 3.935 |     0.889 | 0.376 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Nutricao            |   13.447 |    4.090 |    22.803 | 4.723 |     2.847 | 0.005 | 0.188 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Pedagogia           |    7.435 |   -1.607 |    16.476 | 4.564 |     1.629 | 0.106 | 1.000 | ns           |
+| tri.CLPP.pos | Arquitetura e Urbanismo | Servico Social      |    4.853 |   -3.668 |    13.374 | 4.301 |     1.128 | 0.262 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Comunicacao Social  |   -2.100 |   -9.596 |     5.395 | 3.784 |    -0.555 | 0.580 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Historia            |   -2.394 |  -10.498 |     5.710 | 4.091 |    -0.585 | 0.560 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Letras              |    1.449 |   -6.735 |     9.632 | 4.131 |     0.351 | 0.727 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Matematica          |   -2.242 |   -8.885 |     4.401 | 3.353 |    -0.668 | 0.505 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Nutricao            |    7.706 |   -0.634 |    16.046 | 4.210 |     1.830 | 0.070 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Pedagogia           |    1.694 |   -6.508 |     9.896 | 4.140 |     0.409 | 0.683 | 1.000 | ns           |
+| tri.CLPP.pos | Ciencias Biologicas     | Servico Social      |   -0.887 |   -8.329 |     6.554 | 3.756 |    -0.236 | 0.814 | 1.000 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Historia            |   -0.293 |   -8.571 |     7.985 | 4.179 |    -0.070 | 0.944 | 1.000 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Letras              |    3.549 |   -4.666 |    11.764 | 4.147 |     0.856 | 0.394 | 1.000 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Matematica          |   -0.141 |   -6.913 |     6.630 | 3.418 |    -0.041 | 0.967 | 1.000 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Nutricao            |    9.807 |    1.311 |    18.303 | 4.289 |     2.287 | 0.024 | 0.866 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Pedagogia           |    3.795 |   -4.425 |    12.014 | 4.149 |     0.915 | 0.362 | 1.000 | ns           |
+| tri.CLPP.pos | Comunicacao Social      | Servico Social      |    1.213 |   -6.369 |     8.796 | 3.828 |     0.317 | 0.752 | 1.000 | ns           |
+| tri.CLPP.pos | Historia                | Letras              |    3.842 |   -5.066 |    12.751 | 4.497 |     0.854 | 0.395 | 1.000 | ns           |
+| tri.CLPP.pos | Historia                | Matematica          |    0.152 |   -7.358 |     7.662 | 3.791 |     0.040 | 0.968 | 1.000 | ns           |
+| tri.CLPP.pos | Historia                | Nutricao            |   10.100 |    1.059 |    19.141 | 4.564 |     2.213 | 0.029 | 1.000 | ns           |
+| tri.CLPP.pos | Historia                | Pedagogia           |    4.088 |   -4.838 |    13.014 | 4.506 |     0.907 | 0.366 | 1.000 | ns           |
+| tri.CLPP.pos | Historia                | Servico Social      |    1.507 |   -6.715 |     9.729 | 4.150 |     0.363 | 0.717 | 1.000 | ns           |
+| tri.CLPP.pos | Letras                  | Lingua Portuguesa   |   -3.690 |  -11.203 |     3.822 | 3.792 |    -0.973 | 0.333 | 1.000 | ns           |
+| tri.CLPP.pos | Letras                  | Lingua Portuguesa   |    6.258 |   -2.851 |    15.366 | 4.598 |     1.361 | 0.176 | 1.000 | ns           |
+| tri.CLPP.pos | Letras                  | Lingua Portuguesa   |    0.245 |   -8.577 |     9.068 | 4.454 |     0.055 | 0.956 | 1.000 | ns           |
+| tri.CLPP.pos | Letras                  | Lingua Portuguesa   |   -2.336 |  -10.592 |     5.921 | 4.168 |    -0.560 | 0.576 | 1.000 | ns           |
+| tri.CLPP.pos | Matematica              | Nutricao            |    9.948 |    2.192 |    17.704 | 3.915 |     2.541 | 0.012 | 0.447 | ns           |
+| tri.CLPP.pos | Matematica              | Pedagogia           |    3.936 |   -3.588 |    11.460 | 3.798 |     1.036 | 0.302 | 1.000 | ns           |
+| tri.CLPP.pos | Matematica              | Servico Social      |    1.355 |   -5.406 |     8.115 | 3.413 |     0.397 | 0.692 | 1.000 | ns           |
+| tri.CLPP.pos | Nutricao                | Pedagogia           |   -6.012 |  -15.136 |     3.112 | 4.606 |    -1.305 | 0.194 | 1.000 | ns           |
+| tri.CLPP.pos | Nutricao                | Servico Social      |   -8.593 |  -17.044 |    -0.143 | 4.266 |    -2.014 | 0.046 | 1.000 | ns           |
+| tri.CLPP.pos | Pedagogia               | Servico Social      |   -2.581 |  -10.851 |     5.689 | 4.175 |    -0.618 | 0.538 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    9.588 |   -0.824 |    19.999 | 5.256 |     1.824 | 0.071 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Comunicacao Social  |    3.200 |   -7.344 |    13.744 | 5.323 |     0.601 | 0.549 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Historia            |   10.218 |   -1.067 |    21.503 | 5.697 |     1.794 | 0.076 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Letras              |    1.855 |   -9.430 |    13.139 | 5.697 |     0.326 | 0.745 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Matematica          |    6.160 |   -3.504 |    15.824 | 4.879 |     1.263 | 0.209 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Nutricao            |    9.400 |   -2.150 |    20.950 | 5.831 |     1.612 | 0.110 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Pedagogia           |    1.036 |  -10.248 |    12.321 | 5.697 |     0.182 | 0.856 | 1.000 | ns           |
+| tri.CLPP.pre | Arquitetura e Urbanismo | Servico Social      |    7.600 |   -2.944 |    18.144 | 5.323 |     1.428 | 0.156 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Comunicacao Social  |   -6.388 |  -15.670 |     2.895 | 4.686 |    -1.363 | 0.176 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Historia            |    0.631 |   -9.485 |    10.747 | 5.107 |     0.123 | 0.902 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Letras              |   -7.733 |  -17.849 |     2.383 | 5.107 |    -1.514 | 0.133 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Matematica          |   -3.428 |  -11.696 |     4.841 | 4.174 |    -0.821 | 0.413 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Nutricao            |   -0.188 |  -10.599 |    10.224 | 5.256 |    -0.036 | 0.972 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Pedagogia           |   -8.551 |  -18.667 |     1.565 | 5.107 |    -1.674 | 0.097 | 1.000 | ns           |
+| tri.CLPP.pre | Ciencias Biologicas     | Servico Social      |   -1.988 |  -11.270 |     7.295 | 4.686 |    -0.424 | 0.672 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Historia            |    7.018 |   -3.234 |    17.271 | 5.176 |     1.356 | 0.178 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Letras              |   -1.345 |  -11.598 |     8.907 | 5.176 |    -0.260 | 0.795 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Matematica          |    2.960 |   -5.475 |    11.395 | 4.258 |     0.695 | 0.488 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Nutricao            |    6.200 |   -4.344 |    16.744 | 5.323 |     1.165 | 0.247 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Pedagogia           |   -2.164 |  -12.416 |     8.089 | 5.176 |    -0.418 | 0.677 | 1.000 | ns           |
+| tri.CLPP.pre | Comunicacao Social      | Servico Social      |    4.400 |   -5.031 |    13.831 | 4.761 |     0.924 | 0.357 | 1.000 | ns           |
+| tri.CLPP.pre | Historia                | Letras              |   -8.364 |  -19.376 |     2.649 | 5.560 |    -1.504 | 0.135 | 1.000 | ns           |
+| tri.CLPP.pre | Historia                | Matematica          |   -4.058 |  -13.403 |     5.286 | 4.718 |    -0.860 | 0.391 | 1.000 | ns           |
+| tri.CLPP.pre | Historia                | Nutricao            |   -0.818 |  -12.103 |    10.467 | 5.697 |    -0.144 | 0.886 | 1.000 | ns           |
+| tri.CLPP.pre | Historia                | Pedagogia           |   -9.182 |  -20.195 |     1.831 | 5.560 |    -1.651 | 0.101 | 1.000 | ns           |
+| tri.CLPP.pre | Historia                | Servico Social      |   -2.618 |  -12.871 |     7.634 | 5.176 |    -0.506 | 0.614 | 1.000 | ns           |
+| tri.CLPP.pre | Letras                  | Lingua Portuguesa   |    4.305 |   -5.039 |    13.650 | 4.718 |     0.913 | 0.363 | 1.000 | ns           |
+| tri.CLPP.pre | Letras                  | Lingua Portuguesa   |    7.545 |   -3.739 |    18.830 | 5.697 |     1.324 | 0.188 | 1.000 | ns           |
+| tri.CLPP.pre | Letras                  | Lingua Portuguesa   |   -0.818 |  -11.831 |    10.195 | 5.560 |    -0.147 | 0.883 | 1.000 | ns           |
+| tri.CLPP.pre | Letras                  | Lingua Portuguesa   |    5.745 |   -4.507 |    15.998 | 5.176 |     1.110 | 0.269 | 1.000 | ns           |
+| tri.CLPP.pre | Matematica              | Nutricao            |    3.240 |   -6.424 |    12.904 | 4.879 |     0.664 | 0.508 | 1.000 | ns           |
+| tri.CLPP.pre | Matematica              | Pedagogia           |   -5.124 |  -14.468 |     4.221 | 4.718 |    -1.086 | 0.280 | 1.000 | ns           |
+| tri.CLPP.pre | Matematica              | Servico Social      |    1.440 |   -6.995 |     9.875 | 4.258 |     0.338 | 0.736 | 1.000 | ns           |
+| tri.CLPP.pre | Nutricao                | Pedagogia           |   -8.364 |  -19.648 |     2.921 | 5.697 |    -1.468 | 0.145 | 1.000 | ns           |
+| tri.CLPP.pre | Nutricao                | Servico Social      |   -1.800 |  -12.344 |     8.744 | 5.323 |    -0.338 | 0.736 | 1.000 | ns           |
+| tri.CLPP.pre | Pedagogia               | Servico Social      |    6.564 |   -3.689 |    16.816 | 5.176 |     1.268 | 0.207 | 1.000 | ns           |
+
+| .y.      | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | Arquitetura e Urbanismo    | pre    | pos    |   -0.318 |   -1.079 |     0.443 | 0.386 |    -0.822 | 0.412 | 0.412 | ns           |
+| tri.CLPP | Ciencias Biologicas        | pre    | pos    |   -0.003 |   -0.631 |     0.625 | 0.319 |    -0.009 | 0.993 | 0.993 | ns           |
+| tri.CLPP | Comunicacao Social         | pre    | pos    |   -0.203 |   -0.841 |     0.436 | 0.324 |    -0.625 | 0.532 | 0.532 | ns           |
+| tri.CLPP | Historia                   | pre    | pos    |   -0.113 |   -0.871 |     0.644 | 0.385 |    -0.295 | 0.769 | 0.769 | ns           |
+| tri.CLPP | Letras - Lingua Portuguesa | pre    | pos    |   -0.234 |   -0.950 |     0.482 | 0.364 |    -0.644 | 0.520 | 0.520 | ns           |
+| tri.CLPP | Matematica                 | pre    | pos    |   -0.137 |   -0.630 |     0.356 | 0.250 |    -0.548 | 0.584 | 0.584 | ns           |
+| tri.CLPP | Nutricao                   | pre    | pos    |    0.447 |   -0.289 |     1.183 | 0.374 |     1.197 | 0.233 | 0.233 | ns           |
+| tri.CLPP | Pedagogia                  | pre    | pos    |    0.026 |   -0.702 |     0.754 | 0.370 |     0.071 | 0.944 | 0.944 | ns           |
+| tri.CLPP | Servico Social             | pre    | pos    |   -0.084 |   -0.723 |     0.554 | 0.324 |    -0.260 | 0.795 | 0.795 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2727-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2729-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2731-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2733-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2735-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -5807,15 +11312,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1377-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2743-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1379-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2745-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1381-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2747-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1383-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2749-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1385-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2751-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | Arquitetura e Urbanismo    |  10 |   0.406 |    0.209 |     0.697 |      0.167 |   0.577 |    0.174 |
+| tri.CR.pos | Ciencias Biologicas        |  16 |  -0.045 |    0.253 |     0.154 |      0.202 |   0.320 |    0.138 |
+| tri.CR.pos | Comunicacao Social         |  15 |   0.505 |    0.202 |     0.420 |      0.150 |   0.236 |    0.143 |
+| tri.CR.pos | Historia                   |  11 |  -0.009 |    0.292 |     0.207 |      0.279 |   0.350 |    0.166 |
+| tri.CR.pos | Letras - Lingua Portuguesa |  11 |   0.343 |    0.220 |     0.154 |      0.180 |   0.073 |    0.166 |
+| tri.CR.pos | Matematica                 |  25 |   0.088 |    0.180 |     0.124 |      0.173 |   0.205 |    0.110 |
+| tri.CR.pos | Nutricao                   |  10 |  -0.072 |    0.179 |    -0.072 |      0.296 |   0.111 |    0.174 |
+| tri.CR.pos | Pedagogia                  |  11 |   0.588 |    0.146 |     0.007 |      0.208 |  -0.229 |    0.167 |
+| tri.CR.pos | Servico Social             |  15 |   0.280 |    0.170 |     0.173 |      0.142 |   0.132 |    0.142 |
+
+| .y.        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.257 |   -0.185 |     0.698 | 0.223 |     1.152 | 0.252 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.341 |   -0.103 |     0.784 | 0.224 |     1.521 | 0.131 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Historia            |    0.227 |   -0.250 |     0.705 | 0.241 |     0.942 | 0.348 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Letras              |    0.504 |    0.029 |     0.978 | 0.240 |     2.101 | 0.038 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Matematica          |    0.372 |   -0.037 |     0.780 | 0.206 |     1.802 | 0.074 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Nutricao            |    0.466 |   -0.024 |     0.955 | 0.247 |     1.884 | 0.062 | 1.000 | ns           |
+| tri.CR.pos | Arquitetura e Urbanismo | Pedagogia           |    0.806 |    0.331 |     1.281 | 0.240 |     3.359 | 0.001 | 0.038 | \*           |
+| tri.CR.pos | Arquitetura e Urbanismo | Servico Social      |    0.445 |    0.001 |     0.889 | 0.224 |     1.987 | 0.049 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Comunicacao Social  |    0.084 |   -0.313 |     0.480 | 0.200 |     0.419 | 0.676 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Historia            |   -0.030 |   -0.455 |     0.396 | 0.215 |    -0.138 | 0.890 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Letras              |    0.247 |   -0.181 |     0.675 | 0.216 |     1.142 | 0.256 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Matematica          |    0.115 |   -0.233 |     0.463 | 0.176 |     0.653 | 0.515 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Nutricao            |    0.209 |   -0.229 |     0.647 | 0.221 |     0.945 | 0.347 | 1.000 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Pedagogia           |    0.549 |    0.116 |     0.982 | 0.219 |     2.512 | 0.013 | 0.483 | ns           |
+| tri.CR.pos | Ciencias Biologicas     | Servico Social      |    0.188 |   -0.204 |     0.581 | 0.198 |     0.950 | 0.344 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Historia            |   -0.114 |   -0.550 |     0.323 | 0.220 |    -0.516 | 0.607 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Letras              |    0.163 |   -0.269 |     0.595 | 0.218 |     0.748 | 0.456 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Matematica          |    0.031 |   -0.328 |     0.390 | 0.181 |     0.171 | 0.865 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Nutricao            |    0.125 |   -0.325 |     0.574 | 0.227 |     0.551 | 0.583 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Pedagogia           |    0.465 |    0.034 |     0.896 | 0.218 |     2.136 | 0.035 | 1.000 | ns           |
+| tri.CR.pos | Comunicacao Social      | Servico Social      |    0.104 |   -0.293 |     0.502 | 0.201 |     0.520 | 0.604 | 1.000 | ns           |
+| tri.CR.pos | Historia                | Letras              |    0.276 |   -0.189 |     0.742 | 0.235 |     1.177 | 0.242 | 1.000 | ns           |
+| tri.CR.pos | Historia                | Matematica          |    0.145 |   -0.249 |     0.538 | 0.198 |     0.728 | 0.468 | 1.000 | ns           |
+| tri.CR.pos | Historia                | Nutricao            |    0.238 |   -0.236 |     0.713 | 0.240 |     0.995 | 0.322 | 1.000 | ns           |
+| tri.CR.pos | Historia                | Pedagogia           |    0.579 |    0.109 |     1.048 | 0.237 |     2.442 | 0.016 | 0.580 | ns           |
+| tri.CR.pos | Historia                | Servico Social      |    0.218 |   -0.215 |     0.651 | 0.218 |     0.998 | 0.320 | 1.000 | ns           |
+| tri.CR.pos | Letras                  | Lingua Portuguesa   |   -0.132 |   -0.526 |     0.262 | 0.199 |    -0.663 | 0.509 | 1.000 | ns           |
+| tri.CR.pos | Letras                  | Lingua Portuguesa   |   -0.038 |   -0.516 |     0.440 | 0.241 |    -0.158 | 0.875 | 1.000 | ns           |
+| tri.CR.pos | Letras                  | Lingua Portuguesa   |    0.302 |   -0.162 |     0.766 | 0.234 |     1.289 | 0.200 | 1.000 | ns           |
+| tri.CR.pos | Letras                  | Lingua Portuguesa   |   -0.058 |   -0.490 |     0.373 | 0.218 |    -0.269 | 0.789 | 1.000 | ns           |
+| tri.CR.pos | Matematica              | Nutricao            |    0.094 |   -0.313 |     0.501 | 0.205 |     0.457 | 0.648 | 1.000 | ns           |
+| tri.CR.pos | Matematica              | Pedagogia           |    0.434 |    0.036 |     0.832 | 0.201 |     2.160 | 0.033 | 1.000 | ns           |
+| tri.CR.pos | Matematica              | Servico Social      |    0.073 |   -0.282 |     0.429 | 0.180 |     0.409 | 0.683 | 1.000 | ns           |
+| tri.CR.pos | Nutricao                | Pedagogia           |    0.340 |   -0.142 |     0.822 | 0.243 |     1.398 | 0.165 | 1.000 | ns           |
+| tri.CR.pos | Nutricao                | Servico Social      |   -0.020 |   -0.466 |     0.425 | 0.225 |    -0.091 | 0.928 | 1.000 | ns           |
+| tri.CR.pos | Pedagogia               | Servico Social      |   -0.361 |   -0.794 |     0.072 | 0.219 |    -1.650 | 0.102 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.451 |   -0.187 |     1.089 | 0.322 |     1.399 | 0.164 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Comunicacao Social  |   -0.099 |   -0.745 |     0.547 | 0.326 |    -0.304 | 0.762 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Historia            |    0.415 |   -0.277 |     1.106 | 0.349 |     1.188 | 0.237 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Letras              |    0.063 |   -0.628 |     0.754 | 0.349 |     0.181 | 0.857 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Matematica          |    0.318 |   -0.274 |     0.910 | 0.299 |     1.063 | 0.290 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Nutricao            |    0.478 |   -0.230 |     1.185 | 0.357 |     1.337 | 0.184 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Pedagogia           |   -0.182 |   -0.873 |     0.510 | 0.349 |    -0.521 | 0.604 | 1.000 | ns           |
+| tri.CR.pre | Arquitetura e Urbanismo | Servico Social      |    0.126 |   -0.520 |     0.772 | 0.326 |     0.385 | 0.701 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Comunicacao Social  |   -0.550 |   -1.119 |     0.019 | 0.287 |    -1.915 | 0.058 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Historia            |   -0.036 |   -0.656 |     0.584 | 0.313 |    -0.114 | 0.909 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Letras              |   -0.388 |   -1.007 |     0.232 | 0.313 |    -1.239 | 0.218 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Matematica          |   -0.133 |   -0.639 |     0.374 | 0.256 |    -0.520 | 0.604 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Nutricao            |    0.027 |   -0.611 |     0.665 | 0.322 |     0.084 | 0.933 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Pedagogia           |   -0.632 |   -1.252 |    -0.013 | 0.313 |    -2.021 | 0.046 | 1.000 | ns           |
+| tri.CR.pre | Ciencias Biologicas     | Servico Social      |   -0.325 |   -0.894 |     0.244 | 0.287 |    -1.132 | 0.260 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Historia            |    0.514 |   -0.114 |     1.142 | 0.317 |     1.621 | 0.108 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Letras              |    0.162 |   -0.466 |     0.790 | 0.317 |     0.512 | 0.610 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Matematica          |    0.417 |   -0.100 |     0.934 | 0.261 |     1.598 | 0.113 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Nutricao            |    0.577 |   -0.069 |     1.223 | 0.326 |     1.769 | 0.080 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Pedagogia           |   -0.083 |   -0.711 |     0.546 | 0.317 |    -0.260 | 0.795 | 1.000 | ns           |
+| tri.CR.pre | Comunicacao Social      | Servico Social      |    0.225 |   -0.353 |     0.802 | 0.292 |     0.770 | 0.443 | 1.000 | ns           |
+| tri.CR.pre | Historia                | Letras              |   -0.352 |   -1.027 |     0.323 | 0.341 |    -1.033 | 0.304 | 1.000 | ns           |
+| tri.CR.pre | Historia                | Matematica          |   -0.097 |   -0.670 |     0.475 | 0.289 |    -0.336 | 0.738 | 1.000 | ns           |
+| tri.CR.pre | Historia                | Nutricao            |    0.063 |   -0.629 |     0.754 | 0.349 |     0.180 | 0.858 | 1.000 | ns           |
+| tri.CR.pre | Historia                | Pedagogia           |   -0.597 |   -1.271 |     0.078 | 0.341 |    -1.751 | 0.083 | 1.000 | ns           |
+| tri.CR.pre | Historia                | Servico Social      |   -0.289 |   -0.917 |     0.339 | 0.317 |    -0.912 | 0.363 | 1.000 | ns           |
+| tri.CR.pre | Letras                  | Lingua Portuguesa   |    0.255 |   -0.318 |     0.827 | 0.289 |     0.881 | 0.380 | 1.000 | ns           |
+| tri.CR.pre | Letras                  | Lingua Portuguesa   |    0.415 |   -0.277 |     1.106 | 0.349 |     1.188 | 0.237 | 1.000 | ns           |
+| tri.CR.pre | Letras                  | Lingua Portuguesa   |   -0.245 |   -0.919 |     0.430 | 0.341 |    -0.719 | 0.474 | 1.000 | ns           |
+| tri.CR.pre | Letras                  | Lingua Portuguesa   |    0.062 |   -0.566 |     0.691 | 0.317 |     0.197 | 0.844 | 1.000 | ns           |
+| tri.CR.pre | Matematica              | Nutricao            |    0.160 |   -0.432 |     0.752 | 0.299 |     0.535 | 0.594 | 1.000 | ns           |
+| tri.CR.pre | Matematica              | Pedagogia           |   -0.499 |   -1.072 |     0.073 | 0.289 |    -1.728 | 0.087 | 1.000 | ns           |
+| tri.CR.pre | Matematica              | Servico Social      |   -0.192 |   -0.709 |     0.325 | 0.261 |    -0.737 | 0.463 | 1.000 | ns           |
+| tri.CR.pre | Nutricao                | Pedagogia           |   -0.659 |   -1.351 |     0.032 | 0.349 |    -1.889 | 0.061 | 1.000 | ns           |
+| tri.CR.pre | Nutricao                | Servico Social      |   -0.352 |   -0.998 |     0.294 | 0.326 |    -1.080 | 0.283 | 1.000 | ns           |
+| tri.CR.pre | Pedagogia               | Servico Social      |    0.307 |   -0.321 |     0.935 | 0.317 |     0.969 | 0.335 | 1.000 | ns           |
+
+| .y.    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | Arquitetura e Urbanismo    | pre    | pos    |   -0.197 |   -0.845 |     0.450 | 0.329 |    -0.600 | 0.549 | 0.549 | ns           |
+| tri.CR | Ciencias Biologicas        | pre    | pos    |   -0.199 |   -0.734 |     0.336 | 0.272 |    -0.734 | 0.464 | 0.464 | ns           |
+| tri.CR | Comunicacao Social         | pre    | pos    |    0.097 |   -0.446 |     0.641 | 0.276 |     0.352 | 0.725 | 0.725 | ns           |
+| tri.CR | Historia                   | pre    | pos    |   -0.216 |   -0.861 |     0.429 | 0.327 |    -0.659 | 0.510 | 0.510 | ns           |
+| tri.CR | Letras - Lingua Portuguesa | pre    | pos    |    0.208 |   -0.401 |     0.817 | 0.309 |     0.672 | 0.502 | 0.502 | ns           |
+| tri.CR | Matematica                 | pre    | pos    |   -0.018 |   -0.438 |     0.401 | 0.213 |    -0.086 | 0.931 | 0.931 | ns           |
+| tri.CR | Nutricao                   | pre    | pos    |    0.144 |   -0.482 |     0.771 | 0.318 |     0.454 | 0.650 | 0.650 | ns           |
+| tri.CR | Pedagogia                  | pre    | pos    |    0.474 |   -0.146 |     1.093 | 0.315 |     1.506 | 0.133 | 0.133 | ns           |
+| tri.CR | Servico Social             | pre    | pos    |    0.074 |   -0.469 |     0.618 | 0.276 |     0.270 | 0.788 | 0.788 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2759-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2761-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2763-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2765-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2767-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -5921,15 +11540,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1393-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2775-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1395-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2777-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1397-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2779-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1399-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2781-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1401-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2783-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | Arquitetura e Urbanismo    |  10 |   0.050 |    0.193 |     0.589 |      0.250 |   0.621 |    0.180 |
+| tri.CI.pos | Ciencias Biologicas        |  16 |  -0.083 |    0.218 |     0.165 |      0.239 |   0.294 |    0.143 |
+| tri.CI.pos | Comunicacao Social         |  15 |   0.039 |    0.216 |     0.308 |      0.179 |   0.348 |    0.147 |
+| tri.CI.pos | Historia                   |  11 |   0.153 |    0.298 |     0.174 |      0.287 |   0.130 |    0.171 |
+| tri.CI.pos | Letras - Lingua Portuguesa |  11 |   0.320 |    0.215 |     0.574 |      0.256 |   0.407 |    0.172 |
+| tri.CI.pos | Matematica                 |  25 |   0.178 |    0.183 |     0.373 |      0.165 |   0.310 |    0.114 |
+| tri.CI.pos | Nutricao                   |  10 |  -0.166 |    0.293 |     0.160 |      0.299 |   0.350 |    0.181 |
+| tri.CI.pos | Pedagogia                  |  11 |   0.275 |    0.291 |     0.256 |      0.247 |   0.122 |    0.172 |
+| tri.CI.pos | Servico Social             |  15 |   0.048 |    0.206 |     0.040 |      0.212 |   0.073 |    0.147 |
+
+| .y.        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.327 |   -0.127 |     0.782 | 0.229 |     1.427 | 0.156 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.274 |   -0.186 |     0.734 | 0.232 |     1.179 | 0.241 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Historia            |    0.491 |   -0.001 |     0.983 | 0.249 |     1.975 | 0.051 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Letras              |    0.214 |   -0.279 |     0.707 | 0.249 |     0.859 | 0.392 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Matematica          |    0.311 |   -0.111 |     0.733 | 0.213 |     1.460 | 0.147 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Nutricao            |    0.271 |   -0.234 |     0.775 | 0.255 |     1.064 | 0.290 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Pedagogia           |    0.499 |    0.006 |     0.992 | 0.249 |     2.006 | 0.047 | 1.000 | ns           |
+| tri.CI.pos | Arquitetura e Urbanismo | Servico Social      |    0.548 |    0.089 |     1.008 | 0.232 |     2.362 | 0.020 | 0.715 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Comunicacao Social  |   -0.054 |   -0.459 |     0.351 | 0.205 |    -0.263 | 0.793 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Historia            |    0.164 |   -0.279 |     0.606 | 0.223 |     0.733 | 0.465 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Letras              |   -0.113 |   -0.557 |     0.331 | 0.224 |    -0.506 | 0.614 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Matematica          |   -0.017 |   -0.379 |     0.345 | 0.183 |    -0.091 | 0.928 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Nutricao            |   -0.056 |   -0.511 |     0.398 | 0.229 |    -0.246 | 0.806 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Pedagogia           |    0.172 |   -0.272 |     0.615 | 0.224 |     0.767 | 0.445 | 1.000 | ns           |
+| tri.CI.pos | Ciencias Biologicas     | Servico Social      |    0.221 |   -0.184 |     0.626 | 0.205 |     1.081 | 0.282 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Historia            |    0.217 |   -0.230 |     0.665 | 0.226 |     0.962 | 0.338 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Letras              |   -0.060 |   -0.508 |     0.389 | 0.226 |    -0.263 | 0.793 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Matematica          |    0.037 |   -0.331 |     0.405 | 0.186 |     0.200 | 0.842 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Nutricao            |   -0.003 |   -0.463 |     0.458 | 0.232 |    -0.012 | 0.991 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Pedagogia           |    0.225 |   -0.223 |     0.674 | 0.226 |     0.997 | 0.321 | 1.000 | ns           |
+| tri.CI.pos | Comunicacao Social      | Servico Social      |    0.275 |   -0.137 |     0.686 | 0.208 |     1.323 | 0.188 | 1.000 | ns           |
+| tri.CI.pos | Historia                | Letras              |   -0.277 |   -0.758 |     0.204 | 0.243 |    -1.141 | 0.256 | 1.000 | ns           |
+| tri.CI.pos | Historia                | Matematica          |   -0.180 |   -0.588 |     0.227 | 0.206 |    -0.876 | 0.383 | 1.000 | ns           |
+| tri.CI.pos | Historia                | Nutricao            |   -0.220 |   -0.714 |     0.274 | 0.249 |    -0.883 | 0.379 | 1.000 | ns           |
+| tri.CI.pos | Historia                | Pedagogia           |    0.008 |   -0.472 |     0.489 | 0.243 |     0.034 | 0.973 | 1.000 | ns           |
+| tri.CI.pos | Historia                | Servico Social      |    0.057 |   -0.390 |     0.505 | 0.226 |     0.255 | 0.799 | 1.000 | ns           |
+| tri.CI.pos | Letras                  | Lingua Portuguesa   |    0.097 |   -0.311 |     0.505 | 0.206 |     0.470 | 0.639 | 1.000 | ns           |
+| tri.CI.pos | Letras                  | Lingua Portuguesa   |    0.057 |   -0.439 |     0.553 | 0.250 |     0.228 | 0.820 | 1.000 | ns           |
+| tri.CI.pos | Letras                  | Lingua Portuguesa   |    0.285 |   -0.195 |     0.765 | 0.242 |     1.176 | 0.242 | 1.000 | ns           |
+| tri.CI.pos | Letras                  | Lingua Portuguesa   |    0.334 |   -0.114 |     0.783 | 0.226 |     1.477 | 0.142 | 1.000 | ns           |
+| tri.CI.pos | Matematica              | Nutricao            |   -0.040 |   -0.463 |     0.384 | 0.214 |    -0.186 | 0.853 | 1.000 | ns           |
+| tri.CI.pos | Matematica              | Pedagogia           |    0.188 |   -0.219 |     0.596 | 0.206 |     0.915 | 0.362 | 1.000 | ns           |
+| tri.CI.pos | Matematica              | Servico Social      |    0.238 |   -0.131 |     0.606 | 0.186 |     1.278 | 0.204 | 1.000 | ns           |
+| tri.CI.pos | Nutricao                | Pedagogia           |    0.228 |   -0.267 |     0.723 | 0.250 |     0.913 | 0.363 | 1.000 | ns           |
+| tri.CI.pos | Nutricao                | Servico Social      |    0.277 |   -0.183 |     0.738 | 0.233 |     1.193 | 0.235 | 1.000 | ns           |
+| tri.CI.pos | Pedagogia               | Servico Social      |    0.049 |   -0.399 |     0.497 | 0.226 |     0.218 | 0.828 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.133 |   -0.556 |     0.821 | 0.347 |     0.381 | 0.704 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.010 |   -0.687 |     0.707 | 0.352 |     0.029 | 0.977 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Historia            |   -0.103 |   -0.849 |     0.643 | 0.377 |    -0.275 | 0.784 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Letras              |   -0.270 |   -1.016 |     0.476 | 0.377 |    -0.718 | 0.474 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Matematica          |   -0.129 |   -0.768 |     0.510 | 0.323 |    -0.399 | 0.691 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Nutricao            |    0.216 |   -0.548 |     0.979 | 0.385 |     0.560 | 0.577 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Pedagogia           |   -0.225 |   -0.971 |     0.521 | 0.377 |    -0.598 | 0.551 | 1.000 | ns           |
+| tri.CI.pre | Arquitetura e Urbanismo | Servico Social      |    0.002 |   -0.695 |     0.699 | 0.352 |     0.004 | 0.996 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Comunicacao Social  |   -0.122 |   -0.736 |     0.491 | 0.310 |    -0.395 | 0.693 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Historia            |   -0.236 |   -0.905 |     0.433 | 0.338 |    -0.699 | 0.486 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Letras              |   -0.403 |   -1.072 |     0.266 | 0.338 |    -1.194 | 0.235 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Matematica          |   -0.261 |   -0.808 |     0.285 | 0.276 |    -0.947 | 0.346 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Nutricao            |    0.083 |   -0.605 |     0.772 | 0.347 |     0.240 | 0.811 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Pedagogia           |   -0.358 |   -1.026 |     0.311 | 0.338 |    -1.060 | 0.292 | 1.000 | ns           |
+| tri.CI.pre | Ciencias Biologicas     | Servico Social      |   -0.131 |   -0.745 |     0.483 | 0.310 |    -0.423 | 0.673 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Historia            |   -0.114 |   -0.791 |     0.564 | 0.342 |    -0.332 | 0.741 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Letras              |   -0.281 |   -0.958 |     0.397 | 0.342 |    -0.820 | 0.414 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Matematica          |   -0.139 |   -0.696 |     0.419 | 0.282 |    -0.493 | 0.623 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Nutricao            |    0.206 |   -0.491 |     0.903 | 0.352 |     0.585 | 0.560 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Pedagogia           |   -0.235 |   -0.913 |     0.443 | 0.342 |    -0.688 | 0.493 | 1.000 | ns           |
+| tri.CI.pre | Comunicacao Social      | Servico Social      |   -0.009 |   -0.632 |     0.615 | 0.315 |    -0.027 | 0.978 | 1.000 | ns           |
+| tri.CI.pre | Historia                | Letras              |   -0.167 |   -0.895 |     0.561 | 0.368 |    -0.454 | 0.650 | 1.000 | ns           |
+| tri.CI.pre | Historia                | Matematica          |   -0.025 |   -0.643 |     0.593 | 0.312 |    -0.081 | 0.936 | 1.000 | ns           |
+| tri.CI.pre | Historia                | Nutricao            |    0.319 |   -0.427 |     1.065 | 0.377 |     0.848 | 0.398 | 1.000 | ns           |
+| tri.CI.pre | Historia                | Pedagogia           |   -0.122 |   -0.850 |     0.606 | 0.368 |    -0.331 | 0.741 | 1.000 | ns           |
+| tri.CI.pre | Historia                | Servico Social      |    0.105 |   -0.573 |     0.783 | 0.342 |     0.307 | 0.759 | 1.000 | ns           |
+| tri.CI.pre | Letras                  | Lingua Portuguesa   |    0.142 |   -0.476 |     0.760 | 0.312 |     0.455 | 0.650 | 1.000 | ns           |
+| tri.CI.pre | Letras                  | Lingua Portuguesa   |    0.486 |   -0.260 |     1.232 | 0.377 |     1.291 | 0.199 | 1.000 | ns           |
+| tri.CI.pre | Letras                  | Lingua Portuguesa   |    0.045 |   -0.683 |     0.773 | 0.368 |     0.123 | 0.902 | 1.000 | ns           |
+| tri.CI.pre | Letras                  | Lingua Portuguesa   |    0.272 |   -0.406 |     0.950 | 0.342 |     0.795 | 0.428 | 1.000 | ns           |
+| tri.CI.pre | Matematica              | Nutricao            |    0.345 |   -0.294 |     0.983 | 0.323 |     1.068 | 0.288 | 1.000 | ns           |
+| tri.CI.pre | Matematica              | Pedagogia           |   -0.096 |   -0.714 |     0.521 | 0.312 |    -0.309 | 0.758 | 1.000 | ns           |
+| tri.CI.pre | Matematica              | Servico Social      |    0.130 |   -0.427 |     0.688 | 0.282 |     0.463 | 0.644 | 1.000 | ns           |
+| tri.CI.pre | Nutricao                | Pedagogia           |   -0.441 |   -1.187 |     0.305 | 0.377 |    -1.171 | 0.244 | 1.000 | ns           |
+| tri.CI.pre | Nutricao                | Servico Social      |   -0.214 |   -0.911 |     0.483 | 0.352 |    -0.609 | 0.544 | 1.000 | ns           |
+| tri.CI.pre | Pedagogia               | Servico Social      |    0.227 |   -0.451 |     0.904 | 0.342 |     0.663 | 0.509 | 1.000 | ns           |
+
+| .y.    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | Arquitetura e Urbanismo    | pre    | pos    |   -0.574 |   -1.284 |     0.136 | 0.361 |    -1.592 | 0.113 | 0.113 | ns           |
+| tri.CI | Ciencias Biologicas        | pre    | pos    |   -0.248 |   -0.834 |     0.339 | 0.298 |    -0.832 | 0.406 | 0.406 | ns           |
+| tri.CI | Comunicacao Social         | pre    | pos    |   -0.306 |   -0.903 |     0.290 | 0.303 |    -1.012 | 0.313 | 0.313 | ns           |
+| tri.CI | Historia                   | pre    | pos    |   -0.021 |   -0.729 |     0.686 | 0.359 |    -0.060 | 0.952 | 0.952 | ns           |
+| tri.CI | Letras - Lingua Portuguesa | pre    | pos    |   -0.323 |   -0.991 |     0.346 | 0.339 |    -0.950 | 0.343 | 0.343 | ns           |
+| tri.CI | Matematica                 | pre    | pos    |   -0.172 |   -0.633 |     0.288 | 0.234 |    -0.738 | 0.461 | 0.461 | ns           |
+| tri.CI | Nutricao                   | pre    | pos    |   -0.135 |   -0.822 |     0.552 | 0.349 |    -0.388 | 0.698 | 0.698 | ns           |
+| tri.CI | Pedagogia                  | pre    | pos    |   -0.042 |   -0.722 |     0.637 | 0.345 |    -0.123 | 0.902 | 0.902 | ns           |
+| tri.CI | Servico Social             | pre    | pos    |   -0.060 |   -0.657 |     0.536 | 0.303 |    -0.200 | 0.842 | 0.842 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2791-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2793-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2795-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2797-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2799-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -6035,15 +11768,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1409-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2807-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1411-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2809-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1413-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2811-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1415-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2813-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1417-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2815-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | Arquitetura e Urbanismo    |  10 |   0.457 |    0.219 |     0.497 |      0.111 |   0.277 |    0.190 |
+| tri.TV.pos | Ciencias Biologicas        |  16 |   0.215 |    0.207 |    -0.031 |      0.225 |  -0.091 |    0.150 |
+| tri.TV.pos | Comunicacao Social         |  15 |   0.159 |    0.239 |     0.225 |      0.191 |   0.202 |    0.154 |
+| tri.TV.pos | Historia                   |  11 |  -0.134 |    0.321 |    -0.095 |      0.302 |   0.074 |    0.181 |
+| tri.TV.pos | Letras - Lingua Portuguesa |  11 |   0.259 |    0.230 |     0.177 |      0.233 |   0.088 |    0.180 |
+| tri.TV.pos | Matematica                 |  25 |   0.078 |    0.175 |     0.145 |      0.162 |   0.175 |    0.120 |
+| tri.TV.pos | Nutricao                   |  10 |   0.178 |    0.193 |    -0.229 |      0.328 |  -0.264 |    0.189 |
+| tri.TV.pos | Pedagogia                  |  11 |   0.329 |    0.157 |     0.295 |      0.235 |   0.160 |    0.181 |
+| tri.TV.pos | Servico Social             |  15 |  -0.254 |    0.188 |     0.042 |      0.154 |   0.290 |    0.156 |
+
+| .y.        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.368 |   -0.110 |     0.847 | 0.241 |     1.525 | 0.130 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.076 |   -0.409 |     0.560 | 0.245 |     0.309 | 0.758 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Historia            |    0.203 |   -0.321 |     0.726 | 0.264 |     0.768 | 0.444 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Letras              |    0.189 |   -0.329 |     0.707 | 0.261 |     0.722 | 0.472 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Matematica          |    0.102 |   -0.344 |     0.548 | 0.225 |     0.453 | 0.651 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Nutricao            |    0.541 |    0.011 |     1.072 | 0.268 |     2.021 | 0.046 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Pedagogia           |    0.117 |   -0.400 |     0.635 | 0.261 |     0.449 | 0.654 | 1.000 | ns           |
+| tri.TV.pos | Arquitetura e Urbanismo | Servico Social      |   -0.013 |   -0.505 |     0.480 | 0.249 |    -0.050 | 0.960 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Comunicacao Social  |   -0.293 |   -0.718 |     0.133 | 0.215 |    -1.363 | 0.176 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Historia            |   -0.165 |   -0.631 |     0.301 | 0.235 |    -0.703 | 0.483 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Letras              |   -0.180 |   -0.643 |     0.284 | 0.234 |    -0.767 | 0.445 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Matematica          |   -0.266 |   -0.646 |     0.113 | 0.192 |    -1.390 | 0.167 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Nutricao            |    0.173 |   -0.304 |     0.650 | 0.241 |     0.719 | 0.474 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Pedagogia           |   -0.251 |   -0.715 |     0.213 | 0.234 |    -1.072 | 0.286 | 1.000 | ns           |
+| tri.TV.pos | Ciencias Biologicas     | Servico Social      |   -0.381 |   -0.811 |     0.049 | 0.217 |    -1.754 | 0.082 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Historia            |    0.127 |   -0.344 |     0.599 | 0.238 |     0.535 | 0.594 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Letras              |    0.113 |   -0.357 |     0.583 | 0.237 |     0.477 | 0.634 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Matematica          |    0.026 |   -0.360 |     0.413 | 0.195 |     0.136 | 0.892 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Nutricao            |    0.466 |   -0.017 |     0.949 | 0.244 |     1.910 | 0.059 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Pedagogia           |    0.042 |   -0.429 |     0.512 | 0.237 |     0.175 | 0.861 | 1.000 | ns           |
+| tri.TV.pos | Comunicacao Social      | Servico Social      |   -0.088 |   -0.524 |     0.348 | 0.220 |    -0.400 | 0.690 | 1.000 | ns           |
+| tri.TV.pos | Historia                | Letras              |   -0.014 |   -0.522 |     0.493 | 0.256 |    -0.055 | 0.956 | 1.000 | ns           |
+| tri.TV.pos | Historia                | Matematica          |   -0.101 |   -0.530 |     0.328 | 0.217 |    -0.465 | 0.643 | 1.000 | ns           |
+| tri.TV.pos | Historia                | Nutricao            |    0.339 |   -0.180 |     0.858 | 0.262 |     1.293 | 0.199 | 1.000 | ns           |
+| tri.TV.pos | Historia                | Pedagogia           |   -0.086 |   -0.594 |     0.423 | 0.257 |    -0.333 | 0.739 | 1.000 | ns           |
+| tri.TV.pos | Historia                | Servico Social      |   -0.215 |   -0.686 |     0.255 | 0.237 |    -0.907 | 0.366 | 1.000 | ns           |
+| tri.TV.pos | Letras                  | Lingua Portuguesa   |   -0.087 |   -0.516 |     0.342 | 0.217 |    -0.400 | 0.690 | 1.000 | ns           |
+| tri.TV.pos | Letras                  | Lingua Portuguesa   |    0.353 |   -0.165 |     0.870 | 0.261 |     1.351 | 0.179 | 1.000 | ns           |
+| tri.TV.pos | Letras                  | Lingua Portuguesa   |   -0.072 |   -0.576 |     0.433 | 0.255 |    -0.281 | 0.780 | 1.000 | ns           |
+| tri.TV.pos | Letras                  | Lingua Portuguesa   |   -0.201 |   -0.676 |     0.274 | 0.240 |    -0.839 | 0.403 | 1.000 | ns           |
+| tri.TV.pos | Matematica              | Nutricao            |    0.439 |   -0.004 |     0.883 | 0.224 |     1.965 | 0.052 | 1.000 | ns           |
+| tri.TV.pos | Matematica              | Pedagogia           |    0.015 |   -0.414 |     0.445 | 0.217 |     0.070 | 0.944 | 1.000 | ns           |
+| tri.TV.pos | Matematica              | Servico Social      |   -0.115 |   -0.504 |     0.275 | 0.196 |    -0.583 | 0.561 | 1.000 | ns           |
+| tri.TV.pos | Nutricao                | Pedagogia           |   -0.424 |   -0.942 |     0.093 | 0.261 |    -1.624 | 0.107 | 1.000 | ns           |
+| tri.TV.pos | Nutricao                | Servico Social      |   -0.554 |   -1.041 |    -0.067 | 0.246 |    -2.254 | 0.026 | 0.939 | ns           |
+| tri.TV.pos | Pedagogia               | Servico Social      |   -0.130 |   -0.606 |     0.347 | 0.241 |    -0.539 | 0.591 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.242 |   -0.405 |     0.890 | 0.327 |     0.741 | 0.460 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.298 |   -0.357 |     0.954 | 0.331 |     0.901 | 0.369 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Historia            |    0.591 |   -0.111 |     1.293 | 0.354 |     1.668 | 0.098 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Letras              |    0.199 |   -0.503 |     0.901 | 0.354 |     0.561 | 0.576 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Matematica          |    0.380 |   -0.221 |     0.981 | 0.304 |     1.251 | 0.213 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Nutricao            |    0.280 |   -0.439 |     0.998 | 0.363 |     0.771 | 0.442 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Pedagogia           |    0.128 |   -0.574 |     0.830 | 0.354 |     0.361 | 0.719 | 1.000 | ns           |
+| tri.TV.pre | Arquitetura e Urbanismo | Servico Social      |    0.711 |    0.055 |     1.367 | 0.331 |     2.148 | 0.034 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Comunicacao Social  |    0.056 |   -0.521 |     0.634 | 0.292 |     0.193 | 0.847 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Historia            |    0.349 |   -0.281 |     0.978 | 0.318 |     1.098 | 0.275 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Letras              |   -0.044 |   -0.673 |     0.586 | 0.318 |    -0.137 | 0.891 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Matematica          |    0.138 |   -0.377 |     0.652 | 0.260 |     0.530 | 0.597 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Nutricao            |    0.037 |   -0.610 |     0.685 | 0.327 |     0.114 | 0.909 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Pedagogia           |   -0.114 |   -0.744 |     0.515 | 0.318 |    -0.359 | 0.720 | 1.000 | ns           |
+| tri.TV.pre | Ciencias Biologicas     | Servico Social      |    0.469 |   -0.108 |     1.047 | 0.292 |     1.609 | 0.110 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Historia            |    0.293 |   -0.345 |     0.930 | 0.322 |     0.908 | 0.366 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Letras              |   -0.100 |   -0.738 |     0.538 | 0.322 |    -0.310 | 0.757 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Matematica          |    0.081 |   -0.443 |     0.606 | 0.265 |     0.307 | 0.760 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Nutricao            |   -0.019 |   -0.675 |     0.637 | 0.331 |    -0.057 | 0.955 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Pedagogia           |   -0.170 |   -0.808 |     0.467 | 0.322 |    -0.529 | 0.598 | 1.000 | ns           |
+| tri.TV.pre | Comunicacao Social      | Servico Social      |    0.413 |   -0.174 |     1.000 | 0.296 |     1.394 | 0.166 | 1.000 | ns           |
+| tri.TV.pre | Historia                | Letras              |   -0.392 |   -1.077 |     0.293 | 0.346 |    -1.134 | 0.259 | 1.000 | ns           |
+| tri.TV.pre | Historia                | Matematica          |   -0.211 |   -0.793 |     0.370 | 0.293 |    -0.720 | 0.473 | 1.000 | ns           |
+| tri.TV.pre | Historia                | Nutricao            |   -0.311 |   -1.013 |     0.391 | 0.354 |    -0.879 | 0.381 | 1.000 | ns           |
+| tri.TV.pre | Historia                | Pedagogia           |   -0.463 |   -1.148 |     0.222 | 0.346 |    -1.339 | 0.183 | 1.000 | ns           |
+| tri.TV.pre | Historia                | Servico Social      |    0.120 |   -0.518 |     0.758 | 0.322 |     0.374 | 0.709 | 1.000 | ns           |
+| tri.TV.pre | Letras                  | Lingua Portuguesa   |    0.181 |   -0.400 |     0.762 | 0.293 |     0.617 | 0.538 | 1.000 | ns           |
+| tri.TV.pre | Letras                  | Lingua Portuguesa   |    0.081 |   -0.621 |     0.783 | 0.354 |     0.228 | 0.820 | 1.000 | ns           |
+| tri.TV.pre | Letras                  | Lingua Portuguesa   |   -0.071 |   -0.756 |     0.615 | 0.346 |    -0.204 | 0.839 | 1.000 | ns           |
+| tri.TV.pre | Letras                  | Lingua Portuguesa   |    0.513 |   -0.125 |     1.150 | 0.322 |     1.592 | 0.114 | 1.000 | ns           |
+| tri.TV.pre | Matematica              | Nutricao            |   -0.100 |   -0.701 |     0.501 | 0.304 |    -0.330 | 0.742 | 1.000 | ns           |
+| tri.TV.pre | Matematica              | Pedagogia           |   -0.252 |   -0.833 |     0.330 | 0.293 |    -0.858 | 0.393 | 1.000 | ns           |
+| tri.TV.pre | Matematica              | Servico Social      |    0.332 |   -0.193 |     0.856 | 0.265 |     1.251 | 0.213 | 1.000 | ns           |
+| tri.TV.pre | Nutricao                | Pedagogia           |   -0.152 |   -0.854 |     0.551 | 0.354 |    -0.428 | 0.670 | 1.000 | ns           |
+| tri.TV.pre | Nutricao                | Servico Social      |    0.432 |   -0.224 |     1.088 | 0.331 |     1.304 | 0.195 | 1.000 | ns           |
+| tri.TV.pre | Pedagogia               | Servico Social      |    0.583 |   -0.055 |     1.221 | 0.322 |     1.811 | 0.073 | 1.000 | ns           |
+
+| .y.    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | Arquitetura e Urbanismo    | pre    | pos    |    0.016 |   -0.650 |     0.683 | 0.338 |     0.048 | 0.962 | 0.962 | ns           |
+| tri.TV | Ciencias Biologicas        | pre    | pos    |    0.246 |   -0.304 |     0.796 | 0.279 |     0.880 | 0.380 | 0.380 | ns           |
+| tri.TV | Comunicacao Social         | pre    | pos    |   -0.032 |   -0.591 |     0.528 | 0.284 |    -0.111 | 0.912 | 0.912 | ns           |
+| tri.TV | Historia                   | pre    | pos    |   -0.039 |   -0.703 |     0.625 | 0.337 |    -0.116 | 0.908 | 0.908 | ns           |
+| tri.TV | Letras - Lingua Portuguesa | pre    | pos    |    0.119 |   -0.508 |     0.747 | 0.318 |     0.375 | 0.708 | 0.708 | ns           |
+| tri.TV | Matematica                 | pre    | pos    |   -0.109 |   -0.540 |     0.323 | 0.219 |    -0.495 | 0.621 | 0.621 | ns           |
+| tri.TV | Nutricao                   | pre    | pos    |    0.508 |   -0.137 |     1.152 | 0.327 |     1.551 | 0.122 | 0.122 | ns           |
+| tri.TV | Pedagogia                  | pre    | pos    |    0.134 |   -0.504 |     0.772 | 0.324 |     0.414 | 0.679 | 0.679 | ns           |
+| tri.TV | Servico Social             | pre    | pos    |   -0.240 |   -0.800 |     0.319 | 0.284 |    -0.846 | 0.398 | 0.398 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2823-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2825-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2827-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2829-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2831-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -6149,15 +11996,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1425-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2839-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1427-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2841-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1429-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2843-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1431-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2845-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1433-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2847-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | Arquitetura e Urbanismo    |  10 |   0.496 |    0.224 |     0.566 |      0.243 |   0.337 |    0.178 |
+| tri.TF.pos | Ciencias Biologicas        |  16 |   0.241 |    0.235 |     0.113 |      0.215 |   0.059 |    0.140 |
+| tri.TF.pos | Comunicacao Social         |  15 |   0.363 |    0.231 |     0.352 |      0.174 |   0.215 |    0.145 |
+| tri.TF.pos | Historia                   |  11 |   0.019 |    0.280 |    -0.030 |      0.237 |   0.069 |    0.169 |
+| tri.TF.pos | Letras - Lingua Portuguesa |  11 |   0.316 |    0.370 |     0.436 |      0.271 |   0.331 |    0.169 |
+| tri.TF.pos | Matematica                 |  25 |  -0.056 |    0.165 |     0.123 |      0.170 |   0.273 |    0.113 |
+| tri.TF.pos | Nutricao                   |  10 |   0.084 |    0.167 |    -0.025 |      0.259 |   0.029 |    0.177 |
+| tri.TF.pos | Pedagogia                  |  11 |   0.486 |    0.164 |     0.113 |      0.225 |  -0.109 |    0.170 |
+| tri.TF.pos | Servico Social             |  15 |  -0.170 |    0.210 |    -0.145 |      0.209 |   0.083 |    0.146 |
+
+| .y.        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.278 |   -0.170 |     0.726 | 0.226 |     1.229 | 0.222 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.122 |   -0.330 |     0.575 | 0.229 |     0.536 | 0.593 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Historia            |    0.268 |   -0.219 |     0.756 | 0.246 |     1.090 | 0.278 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Letras              |    0.006 |   -0.478 |     0.491 | 0.245 |     0.026 | 0.979 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Matematica          |    0.064 |   -0.356 |     0.484 | 0.212 |     0.304 | 0.762 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Nutricao            |    0.308 |   -0.190 |     0.806 | 0.251 |     1.225 | 0.223 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Pedagogia           |    0.446 |   -0.039 |     0.930 | 0.244 |     1.823 | 0.071 |     1 | ns           |
+| tri.TF.pos | Arquitetura e Urbanismo | Servico Social      |    0.254 |   -0.206 |     0.713 | 0.232 |     1.094 | 0.276 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Comunicacao Social  |   -0.155 |   -0.554 |     0.243 | 0.201 |    -0.772 | 0.442 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Historia            |   -0.010 |   -0.444 |     0.425 | 0.220 |    -0.043 | 0.966 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Letras              |   -0.271 |   -0.705 |     0.163 | 0.219 |    -1.238 | 0.218 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Matematica          |   -0.213 |   -0.570 |     0.143 | 0.180 |    -1.185 | 0.238 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Nutricao            |    0.030 |   -0.417 |     0.477 | 0.226 |     0.134 | 0.893 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Pedagogia           |    0.168 |   -0.267 |     0.603 | 0.220 |     0.764 | 0.446 |     1 | ns           |
+| tri.TF.pos | Ciencias Biologicas     | Servico Social      |   -0.024 |   -0.425 |     0.377 | 0.203 |    -0.118 | 0.906 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Historia            |    0.146 |   -0.296 |     0.588 | 0.223 |     0.654 | 0.515 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Letras              |   -0.116 |   -0.556 |     0.324 | 0.222 |    -0.522 | 0.602 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Matematica          |   -0.058 |   -0.424 |     0.307 | 0.184 |    -0.315 | 0.753 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Nutricao            |    0.186 |   -0.268 |     0.639 | 0.229 |     0.810 | 0.419 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Pedagogia           |    0.323 |   -0.117 |     0.763 | 0.222 |     1.454 | 0.149 |     1 | ns           |
+| tri.TF.pos | Comunicacao Social      | Servico Social      |    0.131 |   -0.278 |     0.541 | 0.207 |     0.635 | 0.527 |     1 | ns           |
+| tri.TF.pos | Historia                | Letras              |   -0.262 |   -0.736 |     0.212 | 0.239 |    -1.094 | 0.276 |     1 | ns           |
+| tri.TF.pos | Historia                | Matematica          |   -0.204 |   -0.605 |     0.197 | 0.202 |    -1.007 | 0.316 |     1 | ns           |
+| tri.TF.pos | Historia                | Nutricao            |    0.040 |   -0.444 |     0.524 | 0.244 |     0.163 | 0.871 |     1 | ns           |
+| tri.TF.pos | Historia                | Pedagogia           |    0.177 |   -0.299 |     0.653 | 0.240 |     0.738 | 0.462 |     1 | ns           |
+| tri.TF.pos | Historia                | Servico Social      |   -0.014 |   -0.455 |     0.426 | 0.222 |    -0.065 | 0.948 |     1 | ns           |
+| tri.TF.pos | Letras                  | Lingua Portuguesa   |    0.058 |   -0.346 |     0.461 | 0.204 |     0.284 | 0.777 |     1 | ns           |
+| tri.TF.pos | Letras                  | Lingua Portuguesa   |    0.302 |   -0.183 |     0.787 | 0.245 |     1.232 | 0.221 |     1 | ns           |
+| tri.TF.pos | Letras                  | Lingua Portuguesa   |    0.439 |   -0.034 |     0.912 | 0.239 |     1.839 | 0.069 |     1 | ns           |
+| tri.TF.pos | Letras                  | Lingua Portuguesa   |    0.247 |   -0.197 |     0.691 | 0.224 |     1.104 | 0.272 |     1 | ns           |
+| tri.TF.pos | Matematica              | Nutricao            |    0.244 |   -0.171 |     0.659 | 0.209 |     1.163 | 0.247 |     1 | ns           |
+| tri.TF.pos | Matematica              | Pedagogia           |    0.381 |   -0.025 |     0.787 | 0.205 |     1.859 | 0.066 |     1 | ns           |
+| tri.TF.pos | Matematica              | Servico Social      |    0.189 |   -0.173 |     0.552 | 0.183 |     1.036 | 0.302 |     1 | ns           |
+| tri.TF.pos | Nutricao                | Pedagogia           |    0.138 |   -0.349 |     0.624 | 0.246 |     0.560 | 0.577 |     1 | ns           |
+| tri.TF.pos | Nutricao                | Servico Social      |   -0.054 |   -0.508 |     0.399 | 0.229 |    -0.237 | 0.813 |     1 | ns           |
+| tri.TF.pos | Pedagogia               | Servico Social      |   -0.192 |   -0.639 |     0.255 | 0.226 |    -0.850 | 0.397 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.255 |   -0.427 |     0.936 | 0.344 |     0.740 | 0.461 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.133 |   -0.557 |     0.823 | 0.348 |     0.382 | 0.703 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Historia            |    0.477 |   -0.262 |     1.215 | 0.373 |     1.278 | 0.204 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Letras              |    0.180 |   -0.559 |     0.918 | 0.373 |     0.482 | 0.631 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Matematica          |    0.551 |   -0.081 |     1.184 | 0.319 |     1.726 | 0.087 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Nutricao            |    0.412 |   -0.344 |     1.168 | 0.382 |     1.080 | 0.282 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Pedagogia           |    0.010 |   -0.729 |     0.748 | 0.373 |     0.026 | 0.979 |     1 | ns           |
+| tri.TF.pre | Arquitetura e Urbanismo | Servico Social      |    0.666 |   -0.024 |     1.356 | 0.348 |     1.911 | 0.058 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Comunicacao Social  |   -0.121 |   -0.729 |     0.486 | 0.307 |    -0.396 | 0.693 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Historia            |    0.222 |   -0.440 |     0.884 | 0.334 |     0.664 | 0.508 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Letras              |   -0.075 |   -0.737 |     0.587 | 0.334 |    -0.224 | 0.823 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Matematica          |    0.297 |   -0.244 |     0.838 | 0.273 |     1.086 | 0.280 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Nutricao            |    0.158 |   -0.524 |     0.839 | 0.344 |     0.458 | 0.648 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Pedagogia           |   -0.245 |   -0.907 |     0.417 | 0.334 |    -0.732 | 0.465 |     1 | ns           |
+| tri.TF.pre | Ciencias Biologicas     | Servico Social      |    0.412 |   -0.196 |     1.019 | 0.307 |     1.342 | 0.182 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Historia            |    0.343 |   -0.328 |     1.015 | 0.339 |     1.014 | 0.313 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Letras              |    0.047 |   -0.625 |     0.718 | 0.339 |     0.137 | 0.891 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Matematica          |    0.418 |   -0.134 |     0.970 | 0.279 |     1.500 | 0.136 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Nutricao            |    0.279 |   -0.411 |     0.969 | 0.348 |     0.801 | 0.425 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Pedagogia           |   -0.123 |   -0.795 |     0.548 | 0.339 |    -0.364 | 0.716 |     1 | ns           |
+| tri.TF.pre | Comunicacao Social      | Servico Social      |    0.533 |   -0.084 |     1.150 | 0.312 |     1.710 | 0.090 |     1 | ns           |
+| tri.TF.pre | Historia                | Letras              |   -0.297 |   -1.018 |     0.424 | 0.364 |    -0.816 | 0.416 |     1 | ns           |
+| tri.TF.pre | Historia                | Matematica          |    0.075 |   -0.537 |     0.687 | 0.309 |     0.242 | 0.809 |     1 | ns           |
+| tri.TF.pre | Historia                | Nutricao            |   -0.064 |   -0.803 |     0.674 | 0.373 |    -0.172 | 0.863 |     1 | ns           |
+| tri.TF.pre | Historia                | Pedagogia           |   -0.467 |   -1.188 |     0.254 | 0.364 |    -1.283 | 0.202 |     1 | ns           |
+| tri.TF.pre | Historia                | Servico Social      |    0.190 |   -0.482 |     0.861 | 0.339 |     0.559 | 0.577 |     1 | ns           |
+| tri.TF.pre | Letras                  | Lingua Portuguesa   |    0.372 |   -0.240 |     0.983 | 0.309 |     1.204 | 0.231 |     1 | ns           |
+| tri.TF.pre | Letras                  | Lingua Portuguesa   |    0.232 |   -0.506 |     0.971 | 0.373 |     0.623 | 0.534 |     1 | ns           |
+| tri.TF.pre | Letras                  | Lingua Portuguesa   |   -0.170 |   -0.891 |     0.551 | 0.364 |    -0.467 | 0.641 |     1 | ns           |
+| tri.TF.pre | Letras                  | Lingua Portuguesa   |    0.486 |   -0.185 |     1.158 | 0.339 |     1.436 | 0.154 |     1 | ns           |
+| tri.TF.pre | Matematica              | Nutricao            |   -0.139 |   -0.772 |     0.493 | 0.319 |    -0.436 | 0.664 |     1 | ns           |
+| tri.TF.pre | Matematica              | Pedagogia           |   -0.542 |   -1.153 |     0.070 | 0.309 |    -1.754 | 0.082 |     1 | ns           |
+| tri.TF.pre | Matematica              | Servico Social      |    0.115 |   -0.437 |     0.667 | 0.279 |     0.411 | 0.682 |     1 | ns           |
+| tri.TF.pre | Nutricao                | Pedagogia           |   -0.403 |   -1.141 |     0.336 | 0.373 |    -1.079 | 0.283 |     1 | ns           |
+| tri.TF.pre | Nutricao                | Servico Social      |    0.254 |   -0.436 |     0.944 | 0.348 |     0.729 | 0.468 |     1 | ns           |
+| tri.TF.pre | Pedagogia               | Servico Social      |    0.656 |   -0.015 |     1.328 | 0.339 |     1.937 | 0.055 |     1 | ns           |
+
+| .y.    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | Arquitetura e Urbanismo    | pre    | pos    |   -0.005 |   -0.703 |     0.692 | 0.354 |    -0.015 | 0.988 | 0.988 | ns           |
+| tri.TF | Ciencias Biologicas        | pre    | pos    |    0.128 |   -0.448 |     0.704 | 0.292 |     0.438 | 0.661 | 0.661 | ns           |
+| tri.TF | Comunicacao Social         | pre    | pos    |    0.063 |   -0.522 |     0.649 | 0.297 |     0.212 | 0.832 | 0.832 | ns           |
+| tri.TF | Historia                   | pre    | pos    |    0.049 |   -0.646 |     0.744 | 0.353 |     0.139 | 0.889 | 0.889 | ns           |
+| tri.TF | Letras - Lingua Portuguesa | pre    | pos    |   -0.185 |   -0.842 |     0.471 | 0.333 |    -0.556 | 0.578 | 0.578 | ns           |
+| tri.TF | Matematica                 | pre    | pos    |   -0.164 |   -0.616 |     0.288 | 0.229 |    -0.716 | 0.475 | 0.475 | ns           |
+| tri.TF | Nutricao                   | pre    | pos    |    0.299 |   -0.376 |     0.973 | 0.342 |     0.872 | 0.384 | 0.384 | ns           |
+| tri.TF | Pedagogia                  | pre    | pos    |    0.256 |   -0.411 |     0.924 | 0.339 |     0.757 | 0.450 | 0.450 | ns           |
+| tri.TF | Servico Social             | pre    | pos    |   -0.045 |   -0.630 |     0.541 | 0.297 |    -0.151 | 0.880 | 0.880 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2855-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2857-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2859-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2861-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2863-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -6263,15 +12224,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1441-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2871-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1443-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2873-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1445-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2875-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1447-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2877-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1449-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2879-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | Arquitetura e Urbanismo    |  10 |   0.421 |    0.297 |     0.635 |      0.335 |   0.349 |    0.187 |
+| tri.TO.pos | Ciencias Biologicas        |  16 |   0.116 |    0.245 |     0.033 |      0.253 |  -0.022 |    0.147 |
+| tri.TO.pos | Comunicacao Social         |  15 |   0.081 |    0.239 |     0.034 |      0.258 |   0.006 |    0.152 |
+| tri.TO.pos | Historia                   |  11 |  -0.293 |    0.263 |     0.122 |      0.279 |   0.379 |    0.178 |
+| tri.TO.pos | Letras - Lingua Portuguesa |  11 |   0.279 |    0.349 |     0.809 |      0.240 |   0.630 |    0.178 |
+| tri.TO.pos | Matematica                 |  25 |   0.298 |    0.193 |     0.486 |      0.179 |   0.293 |    0.119 |
+| tri.TO.pos | Nutricao                   |  10 |  -0.486 |    0.184 |    -0.591 |      0.318 |  -0.188 |    0.189 |
+| tri.TO.pos | Pedagogia                  |  11 |  -0.064 |    0.218 |     0.282 |      0.215 |   0.364 |    0.177 |
+| tri.TO.pos | Servico Social             |  15 |  -0.236 |    0.198 |    -0.258 |      0.174 |  -0.046 |    0.153 |
+
+| .y.        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.371 |   -0.100 |     0.842 | 0.238 |     1.562 | 0.121 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.343 |   -0.134 |     0.820 | 0.241 |     1.424 | 0.157 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Historia            |   -0.030 |   -0.545 |     0.486 | 0.260 |    -0.113 | 0.910 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Letras              |   -0.281 |   -0.790 |     0.228 | 0.257 |    -1.095 | 0.276 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Matematica          |    0.056 |   -0.380 |     0.492 | 0.220 |     0.254 | 0.800 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Nutricao            |    0.537 |    0.005 |     1.069 | 0.269 |     1.998 | 0.048 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Pedagogia           |   -0.015 |   -0.527 |     0.497 | 0.258 |    -0.058 | 0.954 | 1.000 | ns           |
+| tri.TO.pos | Arquitetura e Urbanismo | Servico Social      |    0.395 |   -0.087 |     0.876 | 0.243 |     1.622 | 0.108 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Comunicacao Social  |   -0.028 |   -0.447 |     0.390 | 0.211 |    -0.133 | 0.894 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Historia            |   -0.401 |   -0.859 |     0.058 | 0.232 |    -1.730 | 0.086 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Letras              |   -0.652 |   -1.109 |    -0.196 | 0.230 |    -2.831 | 0.005 | 0.197 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Matematica          |   -0.315 |   -0.688 |     0.058 | 0.188 |    -1.672 | 0.097 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Nutricao            |    0.166 |   -0.309 |     0.640 | 0.240 |     0.690 | 0.491 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Pedagogia           |   -0.386 |   -0.843 |     0.070 | 0.230 |    -1.675 | 0.097 | 1.000 | ns           |
+| tri.TO.pos | Ciencias Biologicas     | Servico Social      |    0.023 |   -0.397 |     0.444 | 0.212 |     0.110 | 0.912 | 1.000 | ns           |
+| tri.TO.pos | Comunicacao Social      | Historia            |   -0.373 |   -0.837 |     0.092 | 0.234 |    -1.589 | 0.115 | 1.000 | ns           |
+| tri.TO.pos | Comunicacao Social      | Letras              |   -0.624 |   -1.087 |    -0.161 | 0.234 |    -2.672 | 0.009 | 0.311 | ns           |
+| tri.TO.pos | Comunicacao Social      | Matematica          |   -0.287 |   -0.668 |     0.094 | 0.192 |    -1.492 | 0.139 | 1.000 | ns           |
+| tri.TO.pos | Comunicacao Social      | Nutricao            |    0.194 |   -0.287 |     0.674 | 0.242 |     0.799 | 0.426 | 1.000 | ns           |
+| tri.TO.pos | Comunicacao Social      | Pedagogia           |   -0.358 |   -0.820 |     0.105 | 0.233 |    -1.533 | 0.128 | 1.000 | ns           |
+| tri.TO.pos | Comunicacao Social      | Servico Social      |    0.052 |   -0.375 |     0.478 | 0.215 |     0.239 | 0.811 | 1.000 | ns           |
+| tri.TO.pos | Historia                | Letras              |   -0.252 |   -0.753 |     0.249 | 0.253 |    -0.995 | 0.322 | 1.000 | ns           |
+| tri.TO.pos | Historia                | Matematica          |    0.086 |   -0.342 |     0.513 | 0.216 |     0.397 | 0.692 | 1.000 | ns           |
+| tri.TO.pos | Historia                | Nutricao            |    0.566 |    0.057 |     1.075 | 0.257 |     2.202 | 0.030 | 1.000 | ns           |
+| tri.TO.pos | Historia                | Pedagogia           |    0.015 |   -0.483 |     0.512 | 0.251 |     0.058 | 0.954 | 1.000 | ns           |
+| tri.TO.pos | Historia                | Servico Social      |    0.424 |   -0.038 |     0.886 | 0.233 |     1.817 | 0.072 | 1.000 | ns           |
+| tri.TO.pos | Letras                  | Lingua Portuguesa   |    0.337 |   -0.084 |     0.758 | 0.213 |     1.586 | 0.116 | 1.000 | ns           |
+| tri.TO.pos | Letras                  | Lingua Portuguesa   |    0.818 |    0.301 |     1.335 | 0.261 |     3.134 | 0.002 | 0.079 | ns           |
+| tri.TO.pos | Letras                  | Lingua Portuguesa   |    0.266 |   -0.232 |     0.764 | 0.251 |     1.059 | 0.292 | 1.000 | ns           |
+| tri.TO.pos | Letras                  | Lingua Portuguesa   |    0.676 |    0.209 |     1.142 | 0.235 |     2.871 | 0.005 | 0.176 | ns           |
+| tri.TO.pos | Matematica              | Nutricao            |    0.481 |    0.035 |     0.926 | 0.225 |     2.136 | 0.035 | 1.000 | ns           |
+| tri.TO.pos | Matematica              | Pedagogia           |   -0.071 |   -0.494 |     0.353 | 0.214 |    -0.332 | 0.741 | 1.000 | ns           |
+| tri.TO.pos | Matematica              | Servico Social      |    0.339 |   -0.047 |     0.724 | 0.195 |     1.739 | 0.085 | 1.000 | ns           |
+| tri.TO.pos | Nutricao                | Pedagogia           |   -0.552 |   -1.063 |    -0.040 | 0.258 |    -2.137 | 0.035 | 1.000 | ns           |
+| tri.TO.pos | Nutricao                | Servico Social      |   -0.142 |   -0.618 |     0.334 | 0.240 |    -0.591 | 0.556 | 1.000 | ns           |
+| tri.TO.pos | Pedagogia               | Servico Social      |    0.409 |   -0.053 |     0.872 | 0.234 |     1.753 | 0.082 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.304 |   -0.418 |     1.027 | 0.365 |     0.834 | 0.406 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.340 |   -0.392 |     1.072 | 0.370 |     0.920 | 0.360 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Historia            |    0.714 |   -0.070 |     1.497 | 0.396 |     1.804 | 0.074 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Letras              |    0.141 |   -0.642 |     0.925 | 0.396 |     0.357 | 0.722 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Matematica          |    0.122 |   -0.549 |     0.793 | 0.339 |     0.361 | 0.718 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Nutricao            |    0.907 |    0.105 |     1.709 | 0.405 |     2.240 | 0.027 | 0.972 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Pedagogia           |    0.485 |   -0.299 |     1.268 | 0.396 |     1.225 | 0.223 | 1.000 | ns           |
+| tri.TO.pre | Arquitetura e Urbanismo | Servico Social      |    0.656 |   -0.076 |     1.388 | 0.370 |     1.776 | 0.078 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Comunicacao Social  |    0.035 |   -0.609 |     0.680 | 0.325 |     0.109 | 0.914 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Historia            |    0.409 |   -0.293 |     1.111 | 0.355 |     1.154 | 0.251 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Letras              |   -0.163 |   -0.866 |     0.539 | 0.355 |    -0.460 | 0.646 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Matematica          |   -0.182 |   -0.756 |     0.392 | 0.290 |    -0.628 | 0.531 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Nutricao            |    0.603 |   -0.120 |     1.325 | 0.365 |     1.651 | 0.101 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Pedagogia           |    0.180 |   -0.522 |     0.883 | 0.355 |     0.508 | 0.612 | 1.000 | ns           |
+| tri.TO.pre | Ciencias Biologicas     | Servico Social      |    0.352 |   -0.293 |     0.996 | 0.325 |     1.081 | 0.282 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Historia            |    0.374 |   -0.338 |     1.086 | 0.359 |     1.040 | 0.301 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Letras              |   -0.199 |   -0.911 |     0.513 | 0.359 |    -0.553 | 0.581 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Matematica          |   -0.217 |   -0.803 |     0.368 | 0.296 |    -0.735 | 0.464 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Nutricao            |    0.567 |   -0.165 |     1.299 | 0.370 |     1.534 | 0.128 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Pedagogia           |    0.145 |   -0.567 |     0.857 | 0.359 |     0.403 | 0.688 | 1.000 | ns           |
+| tri.TO.pre | Comunicacao Social      | Servico Social      |    0.316 |   -0.338 |     0.971 | 0.331 |     0.957 | 0.340 | 1.000 | ns           |
+| tri.TO.pre | Historia                | Letras              |   -0.572 |   -1.337 |     0.192 | 0.386 |    -1.483 | 0.141 | 1.000 | ns           |
+| tri.TO.pre | Historia                | Matematica          |   -0.591 |   -1.240 |     0.058 | 0.328 |    -1.805 | 0.074 | 1.000 | ns           |
+| tri.TO.pre | Historia                | Nutricao            |    0.193 |   -0.590 |     0.977 | 0.396 |     0.489 | 0.626 | 1.000 | ns           |
+| tri.TO.pre | Historia                | Pedagogia           |   -0.229 |   -0.994 |     0.536 | 0.386 |    -0.593 | 0.554 | 1.000 | ns           |
+| tri.TO.pre | Historia                | Servico Social      |   -0.057 |   -0.769 |     0.655 | 0.359 |    -0.159 | 0.874 | 1.000 | ns           |
+| tri.TO.pre | Letras                  | Lingua Portuguesa   |   -0.019 |   -0.668 |     0.630 | 0.328 |    -0.057 | 0.954 | 1.000 | ns           |
+| tri.TO.pre | Letras                  | Lingua Portuguesa   |    0.766 |   -0.018 |     1.549 | 0.396 |     1.936 | 0.055 | 1.000 | ns           |
+| tri.TO.pre | Letras                  | Lingua Portuguesa   |    0.344 |   -0.421 |     1.108 | 0.386 |     0.890 | 0.375 | 1.000 | ns           |
+| tri.TO.pre | Letras                  | Lingua Portuguesa   |    0.515 |   -0.197 |     1.227 | 0.359 |     1.433 | 0.154 | 1.000 | ns           |
+| tri.TO.pre | Matematica              | Nutricao            |    0.785 |    0.114 |     1.456 | 0.339 |     2.316 | 0.022 | 0.804 | ns           |
+| tri.TO.pre | Matematica              | Pedagogia           |    0.362 |   -0.287 |     1.011 | 0.328 |     1.106 | 0.271 | 1.000 | ns           |
+| tri.TO.pre | Matematica              | Servico Social      |    0.534 |   -0.052 |     1.120 | 0.296 |     1.806 | 0.074 | 1.000 | ns           |
+| tri.TO.pre | Nutricao                | Pedagogia           |   -0.422 |   -1.206 |     0.361 | 0.396 |    -1.068 | 0.288 | 1.000 | ns           |
+| tri.TO.pre | Nutricao                | Servico Social      |   -0.251 |   -0.983 |     0.481 | 0.370 |    -0.678 | 0.499 | 1.000 | ns           |
+| tri.TO.pre | Pedagogia               | Servico Social      |    0.172 |   -0.540 |     0.883 | 0.359 |     0.477 | 0.634 | 1.000 | ns           |
+
+| .y.    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | Arquitetura e Urbanismo    | pre    | pos    |   -0.394 |   -1.150 |     0.361 | 0.383 |    -1.029 | 0.305 | 0.305 | ns           |
+| tri.TO | Ciencias Biologicas        | pre    | pos    |    0.083 |   -0.540 |     0.707 | 0.317 |     0.264 | 0.792 | 0.792 | ns           |
+| tri.TO | Comunicacao Social         | pre    | pos    |    0.026 |   -0.608 |     0.660 | 0.322 |     0.082 | 0.935 | 0.935 | ns           |
+| tri.TO | Historia                   | pre    | pos    |   -0.415 |   -1.167 |     0.337 | 0.382 |    -1.087 | 0.278 | 0.278 | ns           |
+| tri.TO | Letras - Lingua Portuguesa | pre    | pos    |   -0.461 |   -1.172 |     0.250 | 0.361 |    -1.278 | 0.202 | 0.202 | ns           |
+| tri.TO | Matematica                 | pre    | pos    |   -0.177 |   -0.666 |     0.312 | 0.248 |    -0.713 | 0.476 | 0.476 | ns           |
+| tri.TO | Nutricao                   | pre    | pos    |    0.301 |   -0.429 |     1.032 | 0.371 |     0.813 | 0.417 | 0.417 | ns           |
+| tri.TO | Pedagogia                  | pre    | pos    |   -0.455 |   -1.178 |     0.268 | 0.367 |    -1.240 | 0.216 | 0.216 | ns           |
+| tri.TO | Servico Social             | pre    | pos    |    0.011 |   -0.623 |     0.645 | 0.322 |     0.033 | 0.973 | 0.973 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2887-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2889-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2891-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2893-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2895-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -6301,15 +12376,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1457-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2903-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1459-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2905-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1461-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2907-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1463-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2909-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1465-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2911-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | ensino medio     |  87 |  70.333 |    1.471 |    71.057 |      1.505 |  71.936 |    1.145 |
+| tri.CLPP.pos | especializacao   |  15 |  74.200 |    3.236 |    75.333 |      2.489 |  73.714 |    2.754 |
+| tri.CLPP.pos | graduacao        |  22 |  75.364 |    2.133 |    74.773 |      2.899 |  72.401 |    2.285 |
+
+| .y.          | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | ensino medio   | especializacao |   -1.778 |   -7.695 |     4.140 | 2.989 |    -0.595 | 0.553 | 1.000 | ns           |
+| tri.CLPP.pos | ensino medio   | graduacao      |   -0.465 |   -5.547 |     4.617 | 2.567 |    -0.181 | 0.857 | 1.000 | ns           |
+| tri.CLPP.pos | especializacao | graduacao      |    1.312 |   -5.745 |     8.370 | 3.564 |     0.368 | 0.713 | 1.000 | ns           |
+| tri.CLPP.pre | ensino medio   | especializacao |   -3.867 |  -11.068 |     3.335 | 3.637 |    -1.063 | 0.290 | 0.870 | ns           |
+| tri.CLPP.pre | ensino medio   | graduacao      |   -5.030 |  -11.177 |     1.117 | 3.105 |    -1.620 | 0.108 | 0.323 | ns           |
+| tri.CLPP.pre | especializacao | graduacao      |   -1.164 |   -9.789 |     7.461 | 4.357 |    -0.267 | 0.790 | 1.000 | ns           |
+
+| .y.      | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | ensino medio     | pre    | pos    |   -0.046 |   -0.308 |     0.217 | 0.133 |    -0.343 | 0.732 | 0.732 | ns           |
+| tri.CLPP | especializacao   | pre    | pos    |   -0.203 |   -0.845 |     0.440 | 0.326 |    -0.621 | 0.535 | 0.535 | ns           |
+| tri.CLPP | graduacao        | pre    | pos    |   -0.080 |   -0.608 |     0.448 | 0.268 |    -0.299 | 0.766 | 0.766 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2919-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2921-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2923-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2925-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2927-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -6337,15 +12448,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1473-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2935-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1475-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2937-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1477-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2939-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1479-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2941-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1481-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2943-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | ensino medio     |  87 |   0.129 |    0.089 |     0.213 |      0.082 |   0.268 |    0.059 |
+| tri.CR.pos | especializacao   |  15 |   0.505 |    0.202 |     0.420 |      0.150 |   0.238 |    0.143 |
+| tri.CR.pos | graduacao        |  22 |   0.361 |    0.141 |    -0.004 |      0.160 |  -0.095 |    0.117 |
+
+| .y.        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | ensino medio   | especializacao |    0.030 |   -0.277 |     0.338 | 0.155 |     0.194 | 0.847 | 1.000 | ns           |
+| tri.CR.pos | ensino medio   | graduacao      |    0.363 |    0.102 |     0.624 | 0.132 |     2.754 | 0.007 | 0.020 | \*           |
+| tri.CR.pos | especializacao | graduacao      |    0.333 |   -0.031 |     0.697 | 0.184 |     1.809 | 0.073 | 0.219 | ns           |
+| tri.CR.pre | ensino medio   | especializacao |   -0.376 |   -0.818 |     0.066 | 0.223 |    -1.683 | 0.095 | 0.285 | ns           |
+| tri.CR.pre | ensino medio   | graduacao      |   -0.232 |   -0.609 |     0.146 | 0.191 |    -1.216 | 0.227 | 0.680 | ns           |
+| tri.CR.pre | especializacao | graduacao      |    0.144 |   -0.386 |     0.674 | 0.268 |     0.539 | 0.591 | 1.000 | ns           |
+
+| .y.    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | ensino medio     | pre    | pos    |   -0.044 |   -0.266 |     0.178 | 0.113 |    -0.388 | 0.699 | 0.699 | ns           |
+| tri.CR | especializacao   | pre    | pos    |    0.097 |   -0.446 |     0.640 | 0.276 |     0.352 | 0.725 | 0.725 | ns           |
+| tri.CR | graduacao        | pre    | pos    |    0.326 |   -0.120 |     0.772 | 0.227 |     1.439 | 0.151 | 0.151 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2951-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2953-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2955-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2957-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2959-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -6373,15 +12520,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1489-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2967-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1491-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2969-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1493-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2971-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1495-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2973-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1497-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2975-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | ensino medio     |  87 |   0.078 |    0.088 |     0.274 |      0.092 |   0.285 |    0.061 |
+| tri.CI.pos | especializacao   |  15 |   0.039 |    0.216 |     0.308 |      0.179 |   0.347 |    0.148 |
+| tri.CI.pos | graduacao        |  22 |   0.186 |    0.207 |     0.329 |      0.185 |   0.260 |    0.122 |
+
+| .y.        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | ensino medio   | especializacao |   -0.062 |   -0.380 |     0.255 | 0.160 |    -0.390 | 0.698 |     1 | ns           |
+| tri.CI.pos | ensino medio   | graduacao      |    0.025 |   -0.247 |     0.296 | 0.137 |     0.179 | 0.858 |     1 | ns           |
+| tri.CI.pos | especializacao | graduacao      |    0.087 |   -0.293 |     0.467 | 0.192 |     0.453 | 0.652 |     1 | ns           |
+| tri.CI.pre | ensino medio   | especializacao |    0.039 |   -0.432 |     0.510 | 0.238 |     0.163 | 0.871 |     1 | ns           |
+| tri.CI.pre | ensino medio   | graduacao      |   -0.108 |   -0.510 |     0.294 | 0.203 |    -0.532 | 0.596 |     1 | ns           |
+| tri.CI.pre | especializacao | graduacao      |   -0.147 |   -0.711 |     0.417 | 0.285 |    -0.515 | 0.607 |     1 | ns           |
+
+| .y.    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | ensino medio     | pre    | pos    |   -0.192 |   -0.433 |     0.050 | 0.122 |    -1.564 | 0.119 | 0.119 | ns           |
+| tri.CI | especializacao   | pre    | pos    |   -0.306 |   -0.897 |     0.284 | 0.300 |    -1.022 | 0.308 | 0.308 | ns           |
+| tri.CI | graduacao        | pre    | pos    |   -0.169 |   -0.653 |     0.316 | 0.246 |    -0.684 | 0.494 | 0.494 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2983-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2985-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2987-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2989-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2991-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -6409,15 +12592,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1505-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-2999-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1507-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3001-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1509-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3003-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1511-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3005-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1513-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3007-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | ensino medio     |  87 |   0.065 |    0.090 |     0.020 |      0.088 |   0.057 |    0.064 |
+| tri.TV.pos | especializacao   |  15 |   0.159 |    0.239 |     0.225 |      0.191 |   0.202 |    0.154 |
+| tri.TV.pos | graduacao        |  22 |   0.330 |    0.126 |     0.403 |      0.140 |   0.272 |    0.128 |
+
+| .y.        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | ensino medio   | especializacao |   -0.146 |   -0.477 |     0.185 | 0.167 |    -0.871 | 0.386 | 1.000 | ns           |
+| tri.TV.pos | ensino medio   | graduacao      |   -0.215 |   -0.500 |     0.069 | 0.144 |    -1.498 | 0.137 | 0.410 | ns           |
+| tri.TV.pos | especializacao | graduacao      |   -0.070 |   -0.466 |     0.327 | 0.200 |    -0.348 | 0.729 | 1.000 | ns           |
+| tri.TV.pre | ensino medio   | especializacao |   -0.094 |   -0.542 |     0.354 | 0.226 |    -0.415 | 0.679 | 1.000 | ns           |
+| tri.TV.pre | ensino medio   | graduacao      |   -0.265 |   -0.648 |     0.117 | 0.193 |    -1.374 | 0.172 | 0.516 | ns           |
+| tri.TV.pre | especializacao | graduacao      |   -0.172 |   -0.708 |     0.365 | 0.271 |    -0.633 | 0.528 | 1.000 | ns           |
+
+| .y.    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | ensino medio     | pre    | pos    |    0.084 |   -0.144 |     0.311 | 0.116 |     0.722 | 0.471 | 0.471 | ns           |
+| tri.TV | especializacao   | pre    | pos    |   -0.032 |   -0.589 |     0.526 | 0.283 |    -0.111 | 0.911 | 0.911 | ns           |
+| tri.TV | graduacao        | pre    | pos    |   -0.019 |   -0.476 |     0.439 | 0.232 |    -0.081 | 0.936 | 0.936 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3015-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3017-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3019-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3021-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3023-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -6445,15 +12664,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1521-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3031-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1523-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3033-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1525-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3035-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1527-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3037-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1529-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3039-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | ensino medio     |  87 |   0.087 |    0.095 |     0.094 |      0.090 |   0.146 |    0.060 |
+| tri.TF.pos | especializacao   |  15 |   0.363 |    0.231 |     0.352 |      0.174 |   0.215 |    0.146 |
+| tri.TF.pos | graduacao        |  22 |   0.327 |    0.142 |     0.258 |      0.160 |   0.146 |    0.120 |
+
+| .y.        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | ensino medio   | especializacao |   -0.070 |   -0.382 |     0.243 | 0.158 |    -0.440 | 0.661 | 1.000 | ns           |
+| tri.TF.pos | ensino medio   | graduacao      |    0.000 |   -0.267 |     0.267 | 0.135 |     0.000 | 1.000 | 1.000 | ns           |
+| tri.TF.pos | especializacao | graduacao      |    0.070 |   -0.303 |     0.442 | 0.188 |     0.370 | 0.712 | 1.000 | ns           |
+| tri.TF.pre | ensino medio   | especializacao |   -0.276 |   -0.749 |     0.197 | 0.239 |    -1.155 | 0.251 | 0.752 | ns           |
+| tri.TF.pre | ensino medio   | graduacao      |   -0.241 |   -0.645 |     0.163 | 0.204 |    -1.180 | 0.241 | 0.722 | ns           |
+| tri.TF.pre | especializacao | graduacao      |    0.035 |   -0.531 |     0.602 | 0.286 |     0.123 | 0.902 | 1.000 | ns           |
+
+| .y.    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF | ensino medio     | pre    | pos    |    0.031 |   -0.210 |     0.271 | 0.122 |     0.251 | 0.802 | 0.802 | ns           |
+| tri.TF | especializacao   | pre    | pos    |    0.063 |   -0.525 |     0.651 | 0.299 |     0.211 | 0.833 | 0.833 | ns           |
+| tri.TF | graduacao        | pre    | pos    |    0.020 |   -0.464 |     0.503 | 0.245 |     0.080 | 0.937 | 0.937 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3047-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3049-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3051-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3053-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3055-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -6481,15 +12736,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1537-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3063-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1539-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3065-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1541-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3067-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1543-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3069-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1545-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3071-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | ensino medio     |  87 |   0.024 |    0.099 |     0.141 |      0.103 |   0.157 |    0.065 |
+| tri.TO.pos | especializacao   |  15 |   0.081 |    0.239 |     0.034 |      0.258 |   0.005 |    0.157 |
+| tri.TO.pos | graduacao        |  22 |   0.099 |    0.195 |     0.470 |      0.187 |   0.426 |    0.129 |
+
+| .y.        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | ensino medio   | especializacao |    0.152 |   -0.184 |     0.488 | 0.170 |     0.897 | 0.372 | 1.000 | ns           |
+| tri.TO.pos | ensino medio   | graduacao      |   -0.269 |   -0.556 |     0.018 | 0.145 |    -1.858 | 0.066 | 0.197 | ns           |
+| tri.TO.pos | especializacao | graduacao      |   -0.422 |   -0.824 |    -0.019 | 0.203 |    -2.074 | 0.040 | 0.121 | ns           |
+| tri.TO.pre | ensino medio   | especializacao |   -0.057 |   -0.568 |     0.455 | 0.258 |    -0.220 | 0.826 | 1.000 | ns           |
+| tri.TO.pre | ensino medio   | graduacao      |   -0.075 |   -0.512 |     0.361 | 0.220 |    -0.341 | 0.734 | 1.000 | ns           |
+| tri.TO.pre | especializacao | graduacao      |   -0.018 |   -0.631 |     0.594 | 0.309 |    -0.059 | 0.953 | 1.000 | ns           |
+
+| .y.    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | ensino medio     | pre    | pos    |   -0.108 |   -0.376 |     0.160 | 0.136 |    -0.795 | 0.427 | 0.427 | ns           |
+| tri.TO | especializacao   | pre    | pos    |    0.026 |   -0.630 |     0.682 | 0.333 |     0.079 | 0.937 | 0.937 | ns           |
+| tri.TO | graduacao        | pre    | pos    |   -0.444 |   -0.982 |     0.095 | 0.274 |    -1.622 | 0.106 | 0.106 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3079-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3081-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3083-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3085-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3087-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -6513,15 +12804,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1553-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3095-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1555-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3097-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1557-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3099-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1559-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3101-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1561-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3103-1.png)<!-- -->
+
+### Leitura de Pseudo-Palavras (TRI)
+
+| var          | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CLPP.pos | maior 01 ano        |  89 |  71.787 |    1.508 |    72.596 |      1.388 |  72.535 |    1.124 |
+| tri.CLPP.pos | menor 01 ano        |  35 |  71.457 |    1.648 |    71.314 |      2.496 |  71.468 |    1.792 |
+
+| .y.          | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP.pos | maior 01 ano | menor 01 ano |    1.067 |   -3.121 |     5.255 | 2.115 |     0.504 | 0.615 | 0.615 | ns           |
+| tri.CLPP.pre | maior 01 ano | menor 01 ano |    0.329 |   -4.856 |     5.515 | 2.620 |     0.126 | 0.900 | 0.900 | ns           |
+
+| .y.      | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CLPP | maior 01 ano        | pre    | pos    |   -0.103 |   -0.366 |     0.159 | 0.133 |    -0.776 | 0.438 | 0.438 | ns           |
+| tri.CLPP | menor 01 ano        | pre    | pos    |    0.011 |   -0.398 |     0.420 | 0.208 |     0.055 | 0.957 | 0.957 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3111-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3113-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3115-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3117-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3119-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -6543,15 +12864,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1569-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3127-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1571-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3129-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1573-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3131-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1575-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3133-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1577-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3135-1.png)<!-- -->
+
+### Correta Regular (TRI)
+
+| var        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CR.pos | maior 01 ano        |  89 |   0.216 |    0.091 |     0.179 |      0.080 |   0.179 |    0.060 |
+| tri.CR.pos | menor 01 ano        |  35 |   0.216 |    0.109 |     0.253 |      0.122 |   0.253 |    0.095 |
+
+| .y.        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR.pos | maior 01 ano | menor 01 ano |   -0.074 |   -0.296 |     0.148 | 0.112 |    -0.659 | 0.511 | 0.511 | ns           |
+| tri.CR.pre | maior 01 ano | menor 01 ano |    0.000 |   -0.319 |     0.319 | 0.161 |     0.001 | 1.000 | 1.000 | ns           |
+
+| .y.    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CR | maior 01 ano        | pre    | pos    |    0.041 |   -0.183 |     0.264 | 0.113 |     0.358 | 0.721 | 0.721 | ns           |
+| tri.CR | menor 01 ano        | pre    | pos    |    0.008 |   -0.340 |     0.357 | 0.177 |     0.048 | 0.962 | 0.962 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3143-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3145-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3147-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3149-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3151-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -6573,15 +12924,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1585-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3159-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1587-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3161-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1589-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3163-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1591-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3165-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1593-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3167-1.png)<!-- -->
+
+### Correta Irregular (TRI)
+
+| var        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.CI.pos | maior 01 ano        |  89 |   0.134 |    0.092 |     0.311 |      0.088 |   0.280 |    0.061 |
+| tri.CI.pos | menor 01 ano        |  35 |  -0.013 |    0.131 |     0.231 |      0.145 |   0.308 |    0.097 |
+
+| .y.        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI.pos | maior 01 ano | menor 01 ano |   -0.028 |   -0.255 |     0.198 | 0.114 |    -0.247 | 0.805 | 0.805 | ns           |
+| tri.CI.pre | maior 01 ano | menor 01 ano |    0.147 |   -0.187 |     0.481 | 0.169 |     0.871 | 0.385 | 0.385 | ns           |
+
+| .y.    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.CI | maior 01 ano        | pre    | pos    |   -0.187 |   -0.426 |     0.053 | 0.122 |    -1.533 | 0.127 | 0.127 | ns           |
+| tri.CI | menor 01 ano        | pre    | pos    |   -0.226 |   -0.600 |     0.148 | 0.190 |    -1.192 | 0.234 | 0.234 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3175-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3177-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3179-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3181-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3183-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -6603,15 +12984,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1601-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3191-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1603-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3193-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1605-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3195-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1607-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3197-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1609-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3199-1.png)<!-- -->
+
+### Trocas Visuais (TRI)
+
+| var        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TV.pos | maior 01 ano        |  89 |   0.143 |    0.089 |     0.120 |      0.087 |   0.107 |    0.064 |
+| tri.TV.pos | menor 01 ano        |  35 |   0.073 |    0.124 |     0.094 |      0.125 |   0.127 |    0.102 |
+
+| .y.        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV.pos | maior 01 ano | menor 01 ano |   -0.020 |   -0.258 |     0.217 | 0.120 |    -0.170 | 0.865 | 0.865 | ns           |
+| tri.TV.pre | maior 01 ano | menor 01 ano |    0.071 |   -0.250 |     0.391 | 0.162 |     0.437 | 0.663 | 0.663 | ns           |
+
+| .y.    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TV | maior 01 ano        | pre    | pos    |    0.043 |   -0.186 |     0.272 | 0.117 |     0.369 | 0.713 | 0.713 | ns           |
+| tri.TV | menor 01 ano        | pre    | pos    |    0.069 |   -0.289 |     0.427 | 0.182 |     0.382 | 0.703 | 0.703 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3207-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3209-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3211-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3213-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3215-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -6633,15 +13044,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1617-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3223-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1619-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3225-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1621-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3227-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1623-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3229-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1625-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3231-1.png)<!-- -->
+
+### Trocas Fonologicas (TRI)
+
+| var        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TF.pos | maior 01 ano        |  89 |   0.190 |    0.095 |     0.178 |      0.085 |   0.159 |    0.059 |
+| tri.TF.pos | menor 01 ano        |  35 |   0.093 |    0.126 |     0.092 |      0.141 |   0.140 |    0.095 |
+
+| .y.        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TF.pos | maior 01 ano | menor 01 ano |    0.019 |   -0.202 |     0.241 | 0.112 |     0.171 | 0.864 | 0.864 | ns           |
+| tri.TF.pre | maior 01 ano | menor 01 ano |    0.098 |   -0.241 |     0.437 | 0.171 |     0.571 | 0.569 | 0.569 | ns           |
+
+| .y.    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |    p | p.adj | p.adj.signif |
+|:-------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|-----:|------:|:-------------|
+| tri.TF | maior 01 ano        | pre    | pos    |    0.006 |   -0.234 |     0.246 | 0.122 |     0.050 | 0.96 |  0.96 | ns           |
+| tri.TF | menor 01 ano        | pre    | pos    |    0.087 |   -0.288 |     0.462 | 0.190 |     0.455 | 0.65 |  0.65 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3239-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3241-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3243-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3245-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3247-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -6663,12 +13104,42 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1633-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3255-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1635-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3257-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1637-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3259-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1639-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3261-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1641-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3263-1.png)<!-- -->
+
+### Trocas Orograficas (TRI)
+
+| var        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.TO.pos | maior 01 ano        |  89 |   0.109 |    0.100 |     0.298 |      0.098 |   0.247 |    0.065 |
+| tri.TO.pos | menor 01 ano        |  35 |  -0.120 |    0.141 |    -0.098 |      0.168 |   0.031 |    0.103 |
+
+| .y.        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO.pos | maior 01 ano | menor 01 ano |    0.216 |   -0.026 |     0.458 | 0.122 |     1.766 | 0.080 | 0.080 | ns           |
+| tri.TO.pre | maior 01 ano | menor 01 ano |    0.228 |   -0.133 |     0.590 | 0.182 |     1.252 | 0.213 | 0.213 | ns           |
+
+| .y.    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.TO | maior 01 ano        | pre    | pos    |   -0.190 |   -0.455 |     0.075 | 0.134 |    -1.414 | 0.158 | 0.158 | ns           |
+| tri.TO | menor 01 ano        | pre    | pos    |   -0.024 |   -0.437 |     0.389 | 0.210 |    -0.114 | 0.909 | 0.909 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3271-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3273-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3275-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3277-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-3279-1.png)<!-- -->

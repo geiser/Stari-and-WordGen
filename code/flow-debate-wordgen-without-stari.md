@@ -226,6 +226,10 @@ Geiser C. Challco <geiser@alumni.usp.br>
 
 ![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+
 ### factor: **genero**
 
 | var        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
@@ -246,11 +250,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
-
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-36-1.png)<!-- -->
-
 ![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-38-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-40-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-44-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
 
 ### factor: **idade**
 
@@ -286,11 +294,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-54-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-56-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-60-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
 
 ### factor: **zona.participante**
 
@@ -312,11 +324,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-60-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-78-1.png)<!-- -->
 
 ### factor: **escola**
 
@@ -374,11 +390,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-86-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-88-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-90-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
 
 ### factor: **zona.escola**
 
@@ -400,11 +420,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-82-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-102-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-84-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-104-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-86-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-106-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-108-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-110-1.png)<!-- -->
 
 ## Pairwise comparisons for two factors
 
@@ -438,16 +462,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-118-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-127-1.png)<!-- -->
 
 ### factores: **grupo:idade**
 
@@ -511,16 +539,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-108-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-136-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-110-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-138-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-112-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-140-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-142-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-144-1.png)<!-- -->
 
 ### factores: **grupo:zona.participante**
 
@@ -552,16 +584,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-120-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-152-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-153-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
 
 ### factores: **grupo:escola**
 
@@ -673,16 +709,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-134-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-170-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-136-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-172-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-138-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-174-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-176-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-178-1.png)<!-- -->
 
 ### factores: **grupo:zona.escola**
 
@@ -714,16 +754,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-146-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-186-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-189-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
 
 ## Pairwise comparisons for grupo=“Experimental”
 
@@ -851,11 +895,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-205-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-209-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
 
 ### factores: **grupo=“Experimental”:monitor.genero**
 
@@ -877,11 +925,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-173-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-221-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-175-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-223-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-225-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
 
 ### factores: **grupo=“Experimental”:monitor.area**
 
@@ -987,11 +1039,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-237-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
 
 ### factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -1019,11 +1075,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-257-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
 
 ### factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -1045,8 +1105,12 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-209-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-269-1.png)<!-- -->
 
-![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-271-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-273-1.png)<!-- -->
+
+![](flow-debate-wordgen-without-stari_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->

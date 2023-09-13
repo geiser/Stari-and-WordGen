@@ -8,86 +8,108 @@ Geiser C. Challco <geiser@alumni.usp.br>
   Data](#descriptive-statistics-of-initial-data)
   - [Quant. Palavras Lidas](#quant-palavras-lidas)
   - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos)
+  - [Compreensao Leitora (TRI)](#compreensao-leitora-tri)
 - [Checking of Assumptions](#checking-of-assumptions)
   - [Assumption: Normality
     distribution](#assumption-normality-distribution)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-1)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-1)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-1)
   - [Assumption: Homogeneity](#assumption-homogeneity)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-2)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-2)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-2)
 - [Computation of ANCOVA test and Pairwise
   Comparison](#computation-of-ancova-test-and-pairwise-comparison)
   - [ANCOVA tests for one factor](#ancova-tests-for-one-factor)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-3)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-3)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-3)
   - [ANCOVA tests for two factors](#ancova-tests-for-two-factors)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-4)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-4)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-4)
   - [ANCOVA tests for
     grupo=“Experimental”](#ancova-tests-for-grupoexperimental)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-5)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-5)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-5)
 - [Pairwise comparisons for one
   factor](#pairwise-comparisons-for-one-factor)
   - [factor: **grupo**](#factor-grupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-6)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-6)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-6)
   - [factor: **genero**](#factor-genero)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-7)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-7)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-7)
   - [factor: **idade**](#factor-idade)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-8)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-8)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-8)
   - [factor: **zona.participante**](#factor-zonaparticipante)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-9)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-9)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-9)
   - [factor: **escola**](#factor-escola)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-10)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-10)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-10)
   - [factor: **zona.escola**](#factor-zonaescola)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-11)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-11)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-11)
 - [Pairwise comparisons for two
   factors](#pairwise-comparisons-for-two-factors)
   - [factores: **genero:grupo**](#factores-generogrupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-12)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-12)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-12)
   - [factores: **idade:grupo**](#factores-idadegrupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-13)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-13)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-13)
   - [factores:
     **zona.participante:grupo**](#factores-zonaparticipantegrupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-14)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-14)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-14)
   - [factores: **escola:grupo**](#factores-escolagrupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-15)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-15)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-15)
   - [factores: **zona.escola:grupo**](#factores-zonaescolagrupo)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-16)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-16)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-16)
 - [Pairwise comparisons for
   grupo=“Experimental”](#pairwise-comparisons-for-grupoexperimental)
   - [factores:
     **grupo=“Experimental”:monitor**](#factores-grupoexperimentalmonitor)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-17)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-17)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-17)
   - [factores:
     **grupo=“Experimental”:monitor.genero**](#factores-grupoexperimentalmonitorgenero)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-18)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-18)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-18)
   - [factores:
     **grupo=“Experimental”:monitor.area**](#factores-grupoexperimentalmonitorarea)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-19)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-19)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-19)
   - [factores:
     **grupo=“Experimental”:monitor.formacao**](#factores-grupoexperimentalmonitorformacao)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-20)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-20)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-20)
   - [factores:
     **grupo=“Experimental”:monitor.experiencia**](#factores-grupoexperimentalmonitorexperiencia)
     - [Quant. Palavras Lidas](#quant-palavras-lidas-21)
     - [Compreensao Leitora (Acertos)](#compreensao-leitora-acertos-21)
+    - [Compreensao Leitora (TRI)](#compreensao-leitora-tri-21)
 
 **NOTE**
 
@@ -262,6 +284,87 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | WordGen  |        |       |                   |        | Urbana      | score.compreensao.pre |  80 | 5.213 |    5.0 |   1 |  10 | 2.750 | 0.307 |  0.612 | 4.50 |
 | WordGen  |        |       |                   |        | Rural       | score.compreensao.pre |  35 | 6.229 |    6.0 |   1 |  10 | 2.734 | 0.462 |  0.939 | 4.00 |
 
+## Compreensao Leitora (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable            |   n |   mean | median |    min |    max |    sd |    se |    ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:--------------------|----:|-------:|-------:|-------:|-------:|------:|------:|------:|------:|
+| Controle | F      |       |                   |        |             | tri.compreensao.pos |  79 |  0.125 |  0.062 | -1.006 |  1.791 | 0.838 | 0.094 | 0.188 | 1.204 |
+| Controle | M      |       |                   |        |             | tri.compreensao.pos |  75 | -0.120 | -0.511 | -1.035 |  1.791 | 0.867 | 0.100 | 0.200 | 1.388 |
+| WordGen  | F      |       |                   |        |             | tri.compreensao.pos |  55 |  0.329 |  0.457 | -1.033 |  1.791 | 0.933 | 0.126 | 0.252 | 1.545 |
+| WordGen  | M      |       |                   |        |             | tri.compreensao.pos |  60 | -0.103 | -0.359 | -1.034 |  1.791 | 0.700 | 0.090 | 0.181 | 1.147 |
+| Controle | F      |       |                   |        |             | tri.compreensao.pre |  79 |  0.159 | -0.014 | -1.035 |  1.791 | 0.863 | 0.097 | 0.193 | 1.283 |
+| Controle | M      |       |                   |        |             | tri.compreensao.pre |  75 | -0.016 | -0.211 | -1.032 |  1.791 | 0.745 | 0.086 | 0.171 | 1.045 |
+| WordGen  | F      |       |                   |        |             | tri.compreensao.pre |  55 |  0.487 |  0.426 | -0.992 |  1.791 | 0.869 | 0.117 | 0.235 | 1.196 |
+| WordGen  | M      |       |                   |        |             | tri.compreensao.pre |  60 |  0.030 | -0.118 | -0.993 |  1.791 | 0.810 | 0.105 | 0.209 | 1.296 |
+| Controle |        | 10y   |                   |        |             | tri.compreensao.pos |  28 |  0.083 | -0.038 | -0.898 |  1.791 | 0.826 | 0.156 | 0.320 | 1.204 |
+| Controle |        | 11y   |                   |        |             | tri.compreensao.pos |  86 |  0.109 | -0.035 | -1.033 |  1.791 | 0.912 | 0.098 | 0.195 | 1.470 |
+| Controle |        | 12y   |                   |        |             | tri.compreensao.pos |  22 | -0.135 | -0.494 | -1.035 |  1.256 | 0.796 | 0.170 | 0.353 | 1.272 |
+| Controle |        | 13y   |                   |        |             | tri.compreensao.pos |  10 | -0.394 | -0.488 | -0.979 |  0.537 | 0.513 | 0.162 | 0.367 | 0.721 |
+| Controle |        | 14y   |                   |        |             | tri.compreensao.pos |   2 | -0.154 | -0.154 | -0.804 |  0.497 | 0.920 | 0.650 | 8.264 | 0.650 |
+| Controle |        | 15y   |                   |        |             | tri.compreensao.pos |   1 | -0.943 | -0.943 | -0.943 | -0.943 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.compreensao.pos |   5 | -0.546 | -0.870 | -1.033 |  0.376 | 0.617 | 0.276 | 0.766 | 0.807 |
+| WordGen  |        | 10y   |                   |        |             | tri.compreensao.pos |  22 | -0.003 |  0.011 | -1.033 |  1.060 | 0.763 | 0.163 | 0.338 | 1.420 |
+| WordGen  |        | 11y   |                   |        |             | tri.compreensao.pos |  68 |  0.260 |  0.042 | -1.034 |  1.791 | 0.890 | 0.108 | 0.215 | 1.330 |
+| WordGen  |        | 12y   |                   |        |             | tri.compreensao.pos |  16 | -0.128 | -0.373 | -0.993 |  1.412 | 0.796 | 0.199 | 0.424 | 0.856 |
+| WordGen  |        | 13y   |                   |        |             | tri.compreensao.pos |   6 | -0.461 | -0.464 | -0.770 |  0.022 | 0.282 | 0.115 | 0.296 | 0.263 |
+| WordGen  |        |       |                   |        |             | tri.compreensao.pos |   3 | -0.286 | -0.617 | -0.762 |  0.522 | 0.703 | 0.406 | 1.747 | 0.642 |
+| Controle |        | 10y   |                   |        |             | tri.compreensao.pre |  28 |  0.153 | -0.013 | -1.003 |  1.791 | 0.773 | 0.146 | 0.300 | 0.990 |
+| Controle |        | 11y   |                   |        |             | tri.compreensao.pre |  86 |  0.128 | -0.052 | -1.035 |  1.791 | 0.859 | 0.093 | 0.184 | 1.247 |
+| Controle |        | 12y   |                   |        |             | tri.compreensao.pre |  22 |  0.077 |  0.139 | -1.003 |  1.791 | 0.703 | 0.150 | 0.312 | 0.983 |
+| Controle |        | 13y   |                   |        |             | tri.compreensao.pre |  10 | -0.414 | -0.670 | -1.035 |  0.841 | 0.627 | 0.198 | 0.449 | 0.820 |
+| Controle |        | 14y   |                   |        |             | tri.compreensao.pre |   2 | -0.182 | -0.182 | -0.617 |  0.253 | 0.615 | 0.435 | 5.528 | 0.435 |
+| Controle |        | 15y   |                   |        |             | tri.compreensao.pre |   1 | -0.617 | -0.617 | -0.617 | -0.617 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.compreensao.pre |   5 | -0.095 | -0.675 | -0.922 |  1.246 | 0.955 | 0.427 | 1.186 | 1.286 |
+| WordGen  |        | 10y   |                   |        |             | tri.compreensao.pre |  22 |  0.078 |  0.080 | -0.943 |  1.791 | 0.927 | 0.198 | 0.411 | 1.388 |
+| WordGen  |        | 11y   |                   |        |             | tri.compreensao.pre |  68 |  0.467 |  0.471 | -0.983 |  1.791 | 0.867 | 0.105 | 0.210 | 1.349 |
+| WordGen  |        | 12y   |                   |        |             | tri.compreensao.pre |  16 | -0.049 | -0.119 | -0.993 |  0.784 | 0.554 | 0.138 | 0.295 | 0.825 |
+| WordGen  |        | 13y   |                   |        |             | tri.compreensao.pre |   6 | -0.297 | -0.265 | -0.939 |  0.740 | 0.627 | 0.256 | 0.658 | 0.683 |
+| WordGen  |        |       |                   |        |             | tri.compreensao.pre |   3 | -0.784 | -0.880 | -0.992 | -0.480 | 0.269 | 0.155 | 0.669 | 0.256 |
+| Controle |        |       | Urbana            |        |             | tri.compreensao.pos |  68 |  0.090 |  0.028 | -1.035 |  1.791 | 0.852 | 0.103 | 0.206 | 1.348 |
+| Controle |        |       | Rural             |        |             | tri.compreensao.pos |  51 | -0.103 | -0.375 | -1.033 |  1.791 | 0.848 | 0.119 | 0.238 | 1.029 |
+| Controle |        |       |                   |        |             | tri.compreensao.pos |  35 | -0.001 | -0.371 | -1.033 |  1.791 | 0.892 | 0.151 | 0.306 | 1.594 |
+| WordGen  |        |       | Urbana            |        |             | tri.compreensao.pos |  43 |  0.168 | -0.042 | -1.022 |  1.791 | 0.840 | 0.128 | 0.259 | 1.281 |
+| WordGen  |        |       | Rural             |        |             | tri.compreensao.pos |  46 |  0.120 |  0.034 | -1.034 |  1.791 | 0.836 | 0.123 | 0.248 | 1.311 |
+| WordGen  |        |       |                   |        |             | tri.compreensao.pos |  26 | -0.031 | -0.377 | -1.033 |  1.791 | 0.884 | 0.173 | 0.357 | 1.259 |
+| Controle |        |       | Urbana            |        |             | tri.compreensao.pre |  68 |  0.074 | -0.016 | -1.035 |  1.791 | 0.789 | 0.096 | 0.191 | 1.202 |
+| Controle |        |       | Rural             |        |             | tri.compreensao.pre |  51 | -0.051 | -0.228 | -1.032 |  1.791 | 0.760 | 0.106 | 0.214 | 1.083 |
+| Controle |        |       |                   |        |             | tri.compreensao.pre |  35 |  0.255 |  0.118 | -1.035 |  1.791 | 0.905 | 0.153 | 0.311 | 1.355 |
+| WordGen  |        |       | Urbana            |        |             | tri.compreensao.pre |  43 |  0.184 |  0.223 | -0.993 |  1.791 | 0.838 | 0.128 | 0.258 | 1.254 |
+| WordGen  |        |       | Rural             |        |             | tri.compreensao.pre |  46 |  0.239 |  0.251 | -0.983 |  1.791 | 0.832 | 0.123 | 0.247 | 1.267 |
+| WordGen  |        |       |                   |        |             | tri.compreensao.pre |  26 |  0.373 |  0.187 | -0.992 |  1.791 | 0.984 | 0.193 | 0.398 | 1.824 |
+| Controle |        |       |                   | E1     |             | tri.compreensao.pos |  13 |  0.284 |  0.261 | -0.943 |  1.791 | 0.819 | 0.227 | 0.495 | 0.778 |
+| Controle |        |       |                   | E2     |             | tri.compreensao.pos |  29 |  0.034 | -0.428 | -1.006 |  1.791 | 0.891 | 0.165 | 0.339 | 1.507 |
+| Controle |        |       |                   | E3     |             | tri.compreensao.pos |  19 | -0.014 |  0.046 | -1.033 |  1.791 | 0.845 | 0.194 | 0.407 | 1.224 |
+| Controle |        |       |                   | E4     |             | tri.compreensao.pos |  19 |  0.195 | -0.137 | -0.846 |  1.791 | 0.857 | 0.197 | 0.413 | 1.091 |
+| Controle |        |       |                   | E5     |             | tri.compreensao.pos |  60 | -0.147 | -0.426 | -1.035 |  1.791 | 0.838 | 0.108 | 0.217 | 1.152 |
+| Controle |        |       |                   | E6     |             | tri.compreensao.pos |  14 |  0.109 | -0.283 | -1.033 |  1.791 | 0.945 | 0.253 | 0.546 | 1.639 |
+| WordGen  |        |       |                   | E1     |             | tri.compreensao.pos |   8 |  0.423 |  0.375 | -0.700 |  1.791 | 1.050 | 0.371 | 0.878 | 1.702 |
+| WordGen  |        |       |                   | E2     |             | tri.compreensao.pos |  22 | -0.368 | -0.463 | -1.034 |  0.971 | 0.560 | 0.119 | 0.249 | 0.778 |
+| WordGen  |        |       |                   | E3     |             | tri.compreensao.pos |  14 |  0.195 |  0.257 | -0.983 |  1.791 | 0.903 | 0.241 | 0.521 | 1.513 |
+| WordGen  |        |       |                   | E4     |             | tri.compreensao.pos |  10 |  0.306 |  0.189 | -0.979 |  1.791 | 0.986 | 0.312 | 0.706 | 1.532 |
+| WordGen  |        |       |                   | E5     |             | tri.compreensao.pos |  50 |  0.221 |  0.049 | -0.940 |  1.791 | 0.781 | 0.111 | 0.222 | 1.083 |
+| WordGen  |        |       |                   | E6     |             | tri.compreensao.pos |  11 | -0.016 | -0.543 | -1.033 |  1.791 | 1.032 | 0.311 | 0.693 | 1.191 |
+| Controle |        |       |                   | E1     |             | tri.compreensao.pre |  13 |  0.219 | -0.019 | -0.617 |  1.791 | 0.688 | 0.191 | 0.416 | 1.064 |
+| Controle |        |       |                   | E2     |             | tri.compreensao.pre |  29 | -0.144 | -0.518 | -1.035 |  1.791 | 0.845 | 0.157 | 0.321 | 1.256 |
+| Controle |        |       |                   | E3     |             | tri.compreensao.pre |  19 |  0.026 | -0.119 | -1.003 |  1.791 | 0.745 | 0.171 | 0.359 | 1.133 |
+| Controle |        |       |                   | E4     |             | tri.compreensao.pre |  19 |  0.343 |  0.253 | -0.611 |  1.791 | 0.674 | 0.155 | 0.325 | 0.822 |
+| Controle |        |       |                   | E5     |             | tri.compreensao.pre |  60 | -0.013 | -0.223 | -1.035 |  1.791 | 0.829 | 0.107 | 0.214 | 1.111 |
+| Controle |        |       |                   | E6     |             | tri.compreensao.pre |  14 |  0.465 |  0.631 | -1.025 |  1.791 | 0.890 | 0.238 | 0.514 | 1.252 |
+| WordGen  |        |       |                   | E1     |             | tri.compreensao.pre |   8 |  0.282 |  0.231 | -0.932 |  1.791 | 0.929 | 0.328 | 0.776 | 1.054 |
+| WordGen  |        |       |                   | E2     |             | tri.compreensao.pre |  22 | -0.148 | -0.479 | -0.993 |  1.381 | 0.810 | 0.173 | 0.359 | 1.490 |
+| WordGen  |        |       |                   | E3     |             | tri.compreensao.pre |  14 |  0.340 |  0.499 | -0.842 |  1.791 | 0.820 | 0.219 | 0.474 | 0.984 |
+| WordGen  |        |       |                   | E4     |             | tri.compreensao.pre |  10 |  0.662 |  0.630 | -0.898 |  1.791 | 0.847 | 0.268 | 0.606 | 0.838 |
+| WordGen  |        |       |                   | E5     |             | tri.compreensao.pre |  50 |  0.267 |  0.322 | -0.992 |  1.791 | 0.835 | 0.118 | 0.237 | 1.191 |
+| WordGen  |        |       |                   | E6     |             | tri.compreensao.pre |  11 |  0.442 | -0.004 | -0.585 |  1.791 | 1.029 | 0.310 | 0.691 | 2.034 |
+| Controle |        |       |                   |        | Urbana      | tri.compreensao.pos | 102 | -0.041 | -0.295 | -1.035 |  1.791 | 0.856 | 0.085 | 0.168 | 1.297 |
+| Controle |        |       |                   |        | Rural       | tri.compreensao.pos |  52 |  0.096 | -0.157 | -1.033 |  1.791 | 0.864 | 0.120 | 0.241 | 1.392 |
+| WordGen  |        |       |                   |        | Urbana      | tri.compreensao.pos |  80 |  0.079 | -0.042 | -1.034 |  1.791 | 0.800 | 0.089 | 0.178 | 1.248 |
+| WordGen  |        |       |                   |        | Rural       | tri.compreensao.pos |  35 |  0.160 |  0.022 | -1.033 |  1.791 | 0.948 | 0.160 | 0.326 | 1.507 |
+| Controle |        |       |                   |        | Urbana      | tri.compreensao.pre | 102 | -0.021 | -0.267 | -1.035 |  1.791 | 0.817 | 0.081 | 0.160 | 1.166 |
+| Controle |        |       |                   |        | Rural       | tri.compreensao.pre |  52 |  0.260 |  0.191 | -1.025 |  1.791 | 0.770 | 0.107 | 0.214 | 1.066 |
+| WordGen  |        |       |                   |        | Urbana      | tri.compreensao.pre |  80 |  0.154 |  0.042 | -0.993 |  1.791 | 0.847 | 0.095 | 0.189 | 1.339 |
+| WordGen  |        |       |                   |        | Rural       | tri.compreensao.pre |  35 |  0.464 |  0.464 | -0.898 |  1.791 | 0.881 | 0.149 | 0.303 | 1.467 |
+
 # Checking of Assumptions
 
 ## Assumption: Normality distribution
@@ -285,6 +388,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.compreensao.pos | 207 |  0.0614264 | -0.1396210 | YES      | 0.1562787 | D’Agostino | 0.9248355 | ns       | \-        |
 | score.compreensao.pos | 268 |  0.0141077 | -0.2161293 | YES      | 0.2922101 | D’Agostino | 0.8640669 | ns       | \-        |
 | score.compreensao.pos | 268 |  0.0278047 | -0.1533043 | YES      | 0.1123412 | D’Agostino | 0.9453778 | ns       | \-        |
+
+### Compreensao Leitora (TRI)
+
+| var                 |   n |  skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:--------------------|----:|----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.compreensao.pos | 269 | 0.2261157 | 0.3378049 | YES      |  4.052585 | D’Agostino | 0.1318233 | ns       | \-        |
+| tri.compreensao.pos | 261 | 0.1843415 | 0.2320838 | YES      |  2.552931 | D’Agostino | 0.2790218 | ns       | \-        |
+| tri.compreensao.pos | 208 | 0.2738572 | 0.3433623 | YES      |  4.230145 | D’Agostino | 0.1206246 | ns       | \-        |
+| tri.compreensao.pos | 269 | 0.1800704 | 0.3434831 | YES      |  3.230993 | D’Agostino | 0.1987920 | ns       | \-        |
+| tri.compreensao.pos | 269 | 0.2081442 | 0.3802386 | YES      |  3.986821 | D’Agostino | 0.1362300 | ns       | \-        |
 
 ## Assumption: Homogeneity
 
@@ -318,6 +431,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 268 |       3 |     264 | 0.2711527 | 0.8461772 | ns       |
 | score.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 268 |       3 |     260 | 1.6430000 | 0.1800000 | ns       |
 
+### Compreensao Leitora (TRI)
+
+| var                 | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:--------------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 269 |       3 |     265 | 0.6032317 | 0.6134260 | ns       |
+| tri.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 269 |       3 |     261 | 2.0830000 | 0.1030000 | ns       |
+| tri.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 261 |       9 |     251 | 1.0901398 | 0.3704588 | ns       |
+| tri.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 261 |       8 |     242 | 0.6690000 | 0.7190000 | ns       |
+| tri.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 208 |       3 |     204 | 0.4524125 | 0.7158685 | ns       |
+| tri.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 208 |       3 |     200 | 0.5130000 | 0.6740000 | ns       |
+| tri.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 269 |      11 |     257 | 0.3180864 | 0.9815857 | ns       |
+| tri.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 269 |      11 |     245 | 0.9560000 | 0.4870000 | ns       |
+| tri.compreensao.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 269 |       3 |     265 | 0.0902488 | 0.9653656 | ns       |
+| tri.compreensao.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 269 |       3 |     261 | 1.4310000 | 0.2340000 | ns       |
+
 # Computation of ANCOVA test and Pairwise Comparison
 
 ## ANCOVA tests for one factor
@@ -346,6 +474,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola                |   5 | 261 |  13.479 | 903.371 |   0.779 | 0.566   | 0.015 |        |
 | 12  | zona.escola           |   1 | 265 |   2.271 | 914.580 |   0.658 | 0.418   | 0.002 |        |
 
+### Compreensao Leitora (TRI)
+
+|     | Effect              | DFn | DFd |     SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|--------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.compreensao.pre |   1 | 266 | 102.876 | 91.133 | 300.277 | \<0.001 | 0.530 | \*     |
+| 2   | grupo               |   1 | 266 |   0.065 | 91.133 |   0.189 | 0.664   | 0.001 |        |
+| 4   | genero              |   1 | 266 |   0.790 | 90.407 |   2.324 | 0.129   | 0.009 |        |
+| 6   | idade               |   5 | 254 |   0.765 | 88.538 |   0.439 | 0.821   | 0.009 |        |
+| 8   | zona.participante   |   1 | 205 |   0.468 | 71.519 |   1.341 | 0.248   | 0.006 |        |
+| 10  | escola              |   5 | 262 |   2.369 | 88.828 |   1.397 | 0.226   | 0.026 |        |
+| 12  | zona.escola         |   1 | 266 |   0.634 | 90.563 |   1.862 | 0.174   | 0.007 |        |
+
 ## ANCOVA tests for two factors
 
 ### Quant. Palavras Lidas
@@ -369,6 +509,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 12  | grupo:zona.participante |   1 | 202 |   0.284 | 712.047 |   0.081 | 0.777   | 0.000 |        |
 | 16  | grupo:escola            |   5 | 255 |  12.865 | 890.369 |   0.737 | 0.596   | 0.014 |        |
 | 20  | grupo:zona.escola       |   1 | 263 |   0.586 | 913.951 |   0.169 | 0.682   | 0.001 |        |
+
+### Compreensao Leitora (TRI)
+
+|     | Effect                  | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.compreensao.pre     |   1 | 264 | 95.974 | 90.358 | 280.408 | \<0.001 | 0.515 | \*     |
+| 4   | grupo:genero            |   1 | 264 |  0.006 | 90.358 |   0.018 | 0.892   | 0.000 |        |
+| 8   | grupo:idade             |   3 | 250 |  0.347 | 87.963 |   0.328 | 0.805   | 0.004 |        |
+| 12  | grupo:zona.participante |   1 | 203 |  0.001 | 71.518 |   0.003 | 0.958   | 0.000 |        |
+| 16  | grupo:escola            |   5 | 256 |  2.829 | 85.937 |   1.685 | 0.139   | 0.032 |        |
+| 20  | grupo:zona.escola       |   1 | 264 |  0.084 | 90.391 |   0.246 | 0.62    | 0.001 |        |
 
 ## ANCOVA tests for grupo=“Experimental”
 
@@ -394,6 +545,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao      |   2 | 105 |   3.967 | 341.608 |   0.610 | 0.545   | 0.011 |        |
 | 10  | monitor.experiencia   |   1 | 106 |   7.813 | 337.763 |   2.452 | 0.12    | 0.023 |        |
 
+### Compreensao Leitora (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.compreensao.pre |   1 |  98 | 39.117 | 28.421 | 134.883 | \<0.001 | 0.579 | \*     |
+| 2   | monitor             |   9 |  98 |  8.020 | 28.421 |   3.073 | 0.003   | 0.220 | \*     |
+| 4   | monitor.genero      |   1 | 106 |  2.721 | 33.720 |   8.553 | 0.004   | 0.075 | \*     |
+| 6   | monitor.area        |   8 |  99 |  8.015 | 28.425 |   3.490 | 0.001   | 0.220 | \*     |
+| 8   | monitor.formacao    |   2 | 105 |  0.944 | 35.497 |   1.397 | 0.252   | 0.026 |        |
+| 10  | monitor.experiencia |   1 | 106 |  0.598 | 35.843 |   1.770 | 0.186   | 0.016 |        |
+
 # Pairwise comparisons for one factor
 
 ## factor: **grupo**
@@ -418,11 +580,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-35-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-37-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-39-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-51-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-53-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-55-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -444,11 +610,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-63-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-65-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-51-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Controle | 154 |   0.074 |    0.065 |     0.005 |      0.069 |   0.061 |    0.047 |
+| tri.compreensao.pos | WordGen  | 115 |   0.248 |    0.081 |     0.104 |      0.079 |   0.029 |    0.055 |
+
+| .y.                 | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle | WordGen |    0.031 |   -0.111 |     0.174 | 0.073 |     0.434 | 0.664 | 0.664 | ns           |
+| tri.compreensao.pre | Controle | WordGen |   -0.174 |   -0.377 |     0.028 | 0.103 |    -1.697 | 0.091 | 0.091 | ns           |
+
+| .y.             | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | Controle | pre    | pos    |    0.110 |   -0.072 |     0.293 | 0.093 |     1.190 | 0.235 | 0.235 | ns           |
+| tri.compreensao | WordGen  | pre    | pos    |    0.088 |   -0.122 |     0.298 | 0.107 |     0.823 | 0.411 | 0.411 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-79-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-81-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
 
 ## factor: **genero**
 
@@ -472,11 +672,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-59-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-61-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-63-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-103-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -498,11 +702,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-111-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-113-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-115-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | F      | 134 |   0.294 |    0.076 |     0.209 |      0.076 |   0.103 |    0.051 |
+| tri.compreensao.pos | M      | 135 |   0.004 |    0.066 |    -0.113 |      0.068 |  -0.007 |    0.051 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | F      | M      |    0.110 |   -0.032 |     0.252 | 0.072 |     1.524 | 0.129 | 0.129 | ns           |
+| tri.compreensao.pre | F      | M      |    0.289 |    0.091 |     0.488 | 0.101 |     2.873 | 0.004 | 0.004 | \*\*         |
+
+| .y.             | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | F      | pre    | pos    |    0.098 |   -0.096 |     0.292 | 0.099 |     0.990 | 0.323 | 0.323 | ns           |
+| tri.compreensao | M      | pre    | pos    |    0.107 |   -0.082 |     0.295 | 0.096 |     1.112 | 0.267 | 0.267 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-127-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-129-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
 
 ## factor: **idade**
 
@@ -540,11 +778,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-143-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-145-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -580,11 +822,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | 10y   |  50 |   0.120 |    0.118 |     0.045 |      0.112 |   0.082 |    0.084 |
+| tri.compreensao.pos | 11y   | 154 |   0.278 |    0.071 |     0.176 |      0.073 |   0.097 |    0.048 |
+| tri.compreensao.pos | 12y   |  38 |   0.024 |    0.104 |    -0.132 |      0.127 |  -0.026 |    0.096 |
+| tri.compreensao.pos | 13y   |  16 |  -0.370 |    0.152 |    -0.419 |      0.108 |  -0.024 |    0.150 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | 10y    | 11y    |   -0.015 |   -0.205 |     0.175 | 0.096 |    -0.157 | 0.876 | 1.000 | ns           |
+| tri.compreensao.pos | 10y    | 12y    |    0.107 |   -0.143 |     0.358 | 0.127 |     0.844 | 0.400 | 1.000 | ns           |
+| tri.compreensao.pos | 10y    | 13y    |    0.105 |   -0.232 |     0.442 | 0.171 |     0.615 | 0.539 | 1.000 | ns           |
+| tri.compreensao.pos | 11y    | 12y    |    0.122 |   -0.089 |     0.334 | 0.108 |     1.138 | 0.256 | 1.000 | ns           |
+| tri.compreensao.pos | 11y    | 13y    |    0.120 |   -0.191 |     0.431 | 0.158 |     0.763 | 0.446 | 1.000 | ns           |
+| tri.compreensao.pos | 12y    | 13y    |   -0.002 |   -0.351 |     0.346 | 0.177 |    -0.012 | 0.991 | 1.000 | ns           |
+| tri.compreensao.pre | 10y    | 11y    |   -0.158 |   -0.422 |     0.106 | 0.134 |    -1.176 | 0.241 | 1.000 | ns           |
+| tri.compreensao.pre | 10y    | 12y    |    0.096 |   -0.254 |     0.445 | 0.177 |     0.539 | 0.590 | 1.000 | ns           |
+| tri.compreensao.pre | 10y    | 13y    |    0.490 |    0.024 |     0.956 | 0.237 |     2.070 | 0.039 | 0.237 | ns           |
+| tri.compreensao.pre | 11y    | 12y    |    0.253 |   -0.041 |     0.547 | 0.149 |     1.698 | 0.091 | 0.545 | ns           |
+| tri.compreensao.pre | 11y    | 13y    |    0.648 |    0.221 |     1.074 | 0.216 |     2.992 | 0.003 | 0.018 | \*           |
+| tri.compreensao.pre | 12y    | 13y    |    0.394 |   -0.089 |     0.878 | 0.246 |     1.605 | 0.110 | 0.658 | ns           |
+
+| .y.             | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | 10y   | pre    | pos    |    0.072 |   -0.245 |     0.389 | 0.161 |     0.444 | 0.657 | 0.657 | ns           |
+| tri.compreensao | 11y   | pre    | pos    |    0.106 |   -0.075 |     0.286 | 0.092 |     1.150 | 0.251 | 0.251 | ns           |
+| tri.compreensao | 12y   | pre    | pos    |    0.198 |   -0.163 |     0.559 | 0.184 |     1.079 | 0.281 | 0.281 | ns           |
+| tri.compreensao | 13y   | pre    | pos    |    0.018 |   -0.548 |     0.583 | 0.288 |     0.061 | 0.951 | 0.951 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-175-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-177-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
 
 ## factor: **zona.participante**
 
@@ -608,11 +898,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-109-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-111-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -634,11 +928,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-209-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Rural             |  97 |   0.087 |    0.082 |     0.003 |      0.086 |   0.015 |    0.060 |
+| tri.compreensao.pos | Urbana            | 111 |   0.117 |    0.077 |     0.120 |      0.080 |   0.110 |    0.056 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Urbana | Rural  |    0.095 |   -0.067 |     0.257 | 0.082 |     1.158 | 0.248 | 0.248 | ns           |
+| tri.compreensao.pre | Urbana | Rural  |    0.030 |   -0.191 |     0.251 | 0.112 |     0.268 | 0.789 | 0.789 | ns           |
+
+| .y.             | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | Urbana            | pre    | pos    |    0.007 |   -0.204 |     0.218 | 0.107 |     0.069 | 0.945 | 0.945 | ns           |
+| tri.compreensao | Rural             | pre    | pos    |    0.080 |   -0.146 |     0.306 | 0.115 |     0.698 | 0.485 | 0.485 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-223-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-225-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
 
 ## factor: **escola**
 
@@ -698,11 +1026,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -760,11 +1092,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-143-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-145-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-257-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-261-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | E1     |  21 |   0.243 |    0.167 |     0.337 |      0.194 |   0.266 |    0.127 |
+| tri.compreensao.pos | E2     |  51 |  -0.145 |    0.115 |    -0.139 |      0.110 |   0.082 |    0.083 |
+| tri.compreensao.pos | E3     |  33 |   0.159 |    0.136 |     0.075 |      0.150 |   0.067 |    0.101 |
+| tri.compreensao.pos | E4     |  29 |   0.453 |    0.137 |     0.233 |      0.165 |   0.004 |    0.109 |
+| tri.compreensao.pos | E5     | 110 |   0.114 |    0.080 |     0.020 |      0.079 |   0.046 |    0.056 |
+| tri.compreensao.pos | E6     |  25 |   0.455 |    0.187 |     0.054 |      0.193 |  -0.177 |    0.117 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | E1     | E2     |    0.184 |   -0.115 |     0.483 | 0.152 |     1.210 | 0.227 | 1.000 | ns           |
+| tri.compreensao.pos | E1     | E3     |    0.199 |   -0.121 |     0.519 | 0.163 |     1.224 | 0.222 | 1.000 | ns           |
+| tri.compreensao.pos | E1     | E4     |    0.262 |   -0.067 |     0.591 | 0.167 |     1.568 | 0.118 | 1.000 | ns           |
+| tri.compreensao.pos | E1     | E5     |    0.220 |   -0.053 |     0.493 | 0.139 |     1.585 | 0.114 | 1.000 | ns           |
+| tri.compreensao.pos | E1     | E6     |    0.443 |    0.103 |     0.783 | 0.173 |     2.568 | 0.011 | 0.162 | ns           |
+| tri.compreensao.pos | E2     | E3     |    0.015 |   -0.242 |     0.273 | 0.131 |     0.117 | 0.907 | 1.000 | ns           |
+| tri.compreensao.pos | E2     | E4     |    0.078 |   -0.193 |     0.350 | 0.138 |     0.566 | 0.572 | 1.000 | ns           |
+| tri.compreensao.pos | E2     | E5     |    0.036 |   -0.159 |     0.232 | 0.099 |     0.364 | 0.716 | 1.000 | ns           |
+| tri.compreensao.pos | E2     | E6     |    0.259 |   -0.025 |     0.544 | 0.145 |     1.795 | 0.074 | 1.000 | ns           |
+| tri.compreensao.pos | E3     | E4     |    0.063 |   -0.230 |     0.356 | 0.149 |     0.422 | 0.673 | 1.000 | ns           |
+| tri.compreensao.pos | E3     | E5     |    0.021 |   -0.207 |     0.248 | 0.116 |     0.181 | 0.857 | 1.000 | ns           |
+| tri.compreensao.pos | E3     | E6     |    0.244 |   -0.061 |     0.549 | 0.155 |     1.576 | 0.116 | 1.000 | ns           |
+| tri.compreensao.pos | E4     | E5     |   -0.042 |   -0.283 |     0.199 | 0.122 |    -0.343 | 0.732 | 1.000 | ns           |
+| tri.compreensao.pos | E4     | E6     |    0.181 |   -0.132 |     0.494 | 0.159 |     1.141 | 0.255 | 1.000 | ns           |
+| tri.compreensao.pos | E5     | E6     |    0.223 |   -0.032 |     0.479 | 0.130 |     1.719 | 0.087 | 1.000 | ns           |
+| tri.compreensao.pre | E1     | E2     |    0.388 |   -0.032 |     0.808 | 0.213 |     1.820 | 0.070 | 1.000 | ns           |
+| tri.compreensao.pre | E1     | E3     |    0.084 |   -0.368 |     0.536 | 0.230 |     0.365 | 0.715 | 1.000 | ns           |
+| tri.compreensao.pre | E1     | E4     |   -0.210 |   -0.674 |     0.254 | 0.236 |    -0.890 | 0.374 | 1.000 | ns           |
+| tri.compreensao.pre | E1     | E5     |    0.129 |   -0.257 |     0.515 | 0.196 |     0.657 | 0.512 | 1.000 | ns           |
+| tri.compreensao.pre | E1     | E6     |   -0.212 |   -0.692 |     0.268 | 0.244 |    -0.870 | 0.385 | 1.000 | ns           |
+| tri.compreensao.pre | E2     | E3     |   -0.304 |   -0.666 |     0.058 | 0.184 |    -1.656 | 0.099 | 1.000 | ns           |
+| tri.compreensao.pre | E2     | E4     |   -0.598 |   -0.975 |    -0.221 | 0.191 |    -3.125 | 0.002 | 0.030 | \*           |
+| tri.compreensao.pre | E2     | E5     |   -0.259 |   -0.534 |     0.015 | 0.139 |    -1.861 | 0.064 | 0.957 | ns           |
+| tri.compreensao.pre | E2     | E6     |   -0.600 |   -0.996 |    -0.205 | 0.201 |    -2.988 | 0.003 | 0.046 | \*           |
+| tri.compreensao.pre | E3     | E4     |   -0.294 |   -0.706 |     0.119 | 0.209 |    -1.402 | 0.162 | 1.000 | ns           |
+| tri.compreensao.pre | E3     | E5     |    0.045 |   -0.277 |     0.367 | 0.163 |     0.275 | 0.783 | 1.000 | ns           |
+| tri.compreensao.pre | E3     | E6     |   -0.296 |   -0.725 |     0.134 | 0.218 |    -1.356 | 0.176 | 1.000 | ns           |
+| tri.compreensao.pre | E4     | E5     |    0.339 |    0.000 |     0.677 | 0.172 |     1.972 | 0.050 | 0.745 | ns           |
+| tri.compreensao.pre | E4     | E6     |   -0.002 |   -0.444 |     0.440 | 0.225 |    -0.009 | 0.993 | 1.000 | ns           |
+| tri.compreensao.pre | E5     | E6     |   -0.341 |   -0.700 |     0.018 | 0.182 |    -1.869 | 0.063 | 0.941 | ns           |
+
+| .y.             | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | E1     | pre    | pos    |   -0.245 |   -0.718 |     0.229 | 0.241 |    -1.014 | 0.311 | 0.311 | ns           |
+| tri.compreensao | E2     | pre    | pos    |    0.016 |   -0.295 |     0.328 | 0.159 |     0.104 | 0.918 | 0.918 | ns           |
+| tri.compreensao | E3     | pre    | pos    |    0.132 |   -0.257 |     0.522 | 0.198 |     0.667 | 0.505 | 0.505 | ns           |
+| tri.compreensao | E4     | pre    | pos    |    0.176 |   -0.251 |     0.603 | 0.217 |     0.809 | 0.419 | 0.419 | ns           |
+| tri.compreensao | E5     | pre    | pos    |    0.133 |   -0.083 |     0.348 | 0.110 |     1.209 | 0.227 | 0.227 | ns           |
+| tri.compreensao | E6     | pre    | pos    |    0.308 |   -0.135 |     0.751 | 0.226 |     1.366 | 0.173 | 0.173 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-271-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-273-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
 
 ## factor: **zona.escola**
 
@@ -788,11 +1190,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-287-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-289-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-293-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-295-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -814,11 +1220,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-303-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-305-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Rural       |  87 |   0.342 |    0.088 |     0.122 |      0.096 |  -0.024 |    0.063 |
+| tri.compreensao.pos | Urbana      | 182 |   0.056 |    0.062 |     0.012 |      0.062 |   0.081 |    0.043 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Urbana | Rural  |    0.105 |   -0.047 |     0.257 | 0.077 |     1.364 | 0.174 | 0.174 | ns           |
+| tri.compreensao.pre | Urbana | Rural  |   -0.286 |   -0.498 |    -0.073 | 0.108 |    -2.648 | 0.009 | 0.009 | \*\*         |
+
+| .y.             | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | Urbana      | pre    | pos    |    0.059 |   -0.108 |     0.226 | 0.085 |     0.697 | 0.486 | 0.486 | ns           |
+| tri.compreensao | Rural       | pre    | pos    |    0.200 |   -0.043 |     0.442 | 0.123 |     1.619 | 0.106 | 0.106 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-319-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-321-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
 
 # Pairwise comparisons for two factors
 
@@ -854,16 +1294,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-335-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-180-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-336-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-182-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-338-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-184-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-340-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-342-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-344-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -895,16 +1339,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-192-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-352-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-353-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | F      | Controle |  79 |   0.159 |    0.097 |     0.125 |      0.094 |   0.117 |    0.066 |
+| tri.compreensao.pos | F      | WordGen  |  55 |   0.487 |    0.117 |     0.329 |      0.126 |   0.081 |    0.080 |
+| tri.compreensao.pos | M      | Controle |  75 |  -0.016 |    0.086 |    -0.120 |      0.100 |   0.000 |    0.068 |
+| tri.compreensao.pos | M      | WordGen  |  60 |   0.030 |    0.105 |    -0.103 |      0.090 |  -0.016 |    0.076 |
+
+| .y.                 | grupo    | genero | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle |        | F        | M       |    0.117 |   -0.069 |     0.303 | 0.095 |     1.236 | 0.218 | 0.218 | ns           |
+| tri.compreensao.pos | WordGen  |        | F        | M       |    0.097 |   -0.121 |     0.316 | 0.111 |     0.876 | 0.382 | 0.382 | ns           |
+| tri.compreensao.pre | Controle |        | F        | M       |    0.175 |   -0.085 |     0.436 | 0.132 |     1.325 | 0.186 | 0.186 | ns           |
+| tri.compreensao.pre | WordGen  |        | F        | M       |    0.457 |    0.155 |     0.759 | 0.153 |     2.981 | 0.003 | 0.003 | \*\*         |
+| tri.compreensao.pos |          | F      | Controle | WordGen |    0.036 |   -0.168 |     0.240 | 0.104 |     0.345 | 0.731 | 0.731 | ns           |
+| tri.compreensao.pos |          | M      | Controle | WordGen |    0.016 |   -0.183 |     0.216 | 0.101 |     0.159 | 0.874 | 0.874 | ns           |
+| tri.compreensao.pre |          | F      | Controle | WordGen |   -0.327 |   -0.611 |    -0.044 | 0.144 |    -2.271 | 0.024 | 0.024 | \*           |
+| tri.compreensao.pre |          | M      | Controle | WordGen |   -0.046 |   -0.326 |     0.234 | 0.142 |    -0.323 | 0.747 | 0.747 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |    0.083 |   -0.168 |     0.335 | 0.128 |     0.649 | 0.516 | 0.516 | ns           |
+| Controle | M      | pre    | pos    |    0.143 |   -0.111 |     0.397 | 0.129 |     1.105 | 0.270 | 0.270 | ns           |
+| WordGen  | F      | pre    | pos    |    0.124 |   -0.181 |     0.428 | 0.155 |     0.798 | 0.425 | 0.425 | ns           |
+| WordGen  | M      | pre    | pos    |    0.062 |   -0.218 |     0.343 | 0.143 |     0.437 | 0.662 | 0.662 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-369-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-370-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-372-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-374-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-376-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-378-1.png)<!-- -->
 
 ## factores: **idade:grupo**
 
@@ -961,11 +1454,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-206-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-208-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-389-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-210-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-391-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1029,16 +1526,97 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-218-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-404-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-221-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-406-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-223-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-408-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-410-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-412-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | 10y   | Controle |  28 |   0.153 |    0.146 |     0.083 |      0.156 |   0.095 |    0.112 |
+| tri.compreensao.pos | 10y   | WordGen  |  22 |   0.078 |    0.198 |    -0.003 |      0.163 |   0.065 |    0.127 |
+| tri.compreensao.pos | 11y   | Controle |  86 |   0.128 |    0.093 |     0.109 |      0.098 |   0.140 |    0.064 |
+| tri.compreensao.pos | 11y   | WordGen  |  68 |   0.467 |    0.105 |     0.260 |      0.108 |   0.039 |    0.073 |
+| tri.compreensao.pos | 12y   | Controle |  22 |   0.077 |    0.150 |    -0.135 |      0.170 |  -0.067 |    0.127 |
+| tri.compreensao.pos | 12y   | WordGen  |  16 |  -0.049 |    0.138 |    -0.128 |      0.199 |   0.034 |    0.149 |
+| tri.compreensao.pos | 13y   | Controle |  10 |  -0.414 |    0.198 |    -0.394 |      0.162 |   0.039 |    0.190 |
+| tri.compreensao.pos | 13y   | WordGen  |   6 |  -0.297 |    0.256 |    -0.461 |      0.115 |  -0.116 |    0.243 |
+
+| .y.                 | grupo    | idade | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle |       | 10y      | 11y     |   -0.045 |   -0.300 |     0.209 | 0.129 |    -0.352 | 0.725 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |       | 10y      | 12y     |    0.162 |   -0.171 |     0.495 | 0.169 |     0.957 | 0.340 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |       | 10y      | 13y     |    0.056 |   -0.377 |     0.490 | 0.220 |     0.256 | 0.798 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |       | 11y      | 12y     |    0.207 |   -0.072 |     0.487 | 0.142 |     1.461 | 0.145 | 0.871 | ns           |
+| tri.compreensao.pos | Controle |       | 11y      | 13y     |    0.102 |   -0.292 |     0.495 | 0.200 |     0.509 | 0.611 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |       | 12y      | 13y     |   -0.105 |   -0.554 |     0.343 | 0.228 |    -0.464 | 0.643 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 10y      | 11y     |    0.026 |   -0.263 |     0.315 | 0.147 |     0.178 | 0.859 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 10y      | 12y     |    0.032 |   -0.353 |     0.416 | 0.195 |     0.163 | 0.871 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 10y      | 13y     |    0.181 |   -0.359 |     0.721 | 0.274 |     0.661 | 0.509 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 11y      | 12y     |    0.006 |   -0.323 |     0.334 | 0.167 |     0.034 | 0.973 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 11y      | 13y     |    0.155 |   -0.348 |     0.657 | 0.255 |     0.607 | 0.545 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |       | 12y      | 13y     |    0.149 |   -0.411 |     0.709 | 0.284 |     0.524 | 0.600 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |       | 10y      | 11y     |    0.025 |   -0.326 |     0.376 | 0.178 |     0.142 | 0.887 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |       | 10y      | 12y     |    0.076 |   -0.384 |     0.535 | 0.233 |     0.325 | 0.746 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |       | 10y      | 13y     |    0.567 |   -0.028 |     1.161 | 0.302 |     1.878 | 0.061 | 0.369 | ns           |
+| tri.compreensao.pre | Controle |       | 11y      | 12y     |    0.050 |   -0.335 |     0.436 | 0.196 |     0.258 | 0.797 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |       | 11y      | 13y     |    0.542 |    0.002 |     1.081 | 0.274 |     1.979 | 0.049 | 0.294 | ns           |
+| tri.compreensao.pre | Controle |       | 12y      | 13y     |    0.491 |   -0.124 |     1.107 | 0.312 |     1.572 | 0.117 | 0.703 | ns           |
+| tri.compreensao.pre | WordGen  |       | 10y      | 11y     |   -0.389 |   -0.785 |     0.006 | 0.201 |    -1.938 | 0.054 | 0.322 | ns           |
+| tri.compreensao.pre | WordGen  |       | 10y      | 12y     |    0.126 |   -0.404 |     0.657 | 0.269 |     0.469 | 0.639 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |       | 10y      | 13y     |    0.374 |   -0.369 |     1.118 | 0.377 |     0.992 | 0.322 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |       | 11y      | 12y     |    0.516 |    0.068 |     0.964 | 0.228 |     2.266 | 0.024 | 0.146 | ns           |
+| tri.compreensao.pre | WordGen  |       | 11y      | 13y     |    0.764 |    0.077 |     1.451 | 0.349 |     2.190 | 0.029 | 0.177 | ns           |
+| tri.compreensao.pre | WordGen  |       | 12y      | 13y     |    0.248 |   -0.524 |     1.020 | 0.392 |     0.633 | 0.528 | 1.000 | ns           |
+| tri.compreensao.pos |          | 10y   | Controle | WordGen |    0.030 |   -0.304 |     0.363 | 0.169 |     0.175 | 0.861 | 0.861 | ns           |
+| tri.compreensao.pos |          | 11y   | Controle | WordGen |    0.101 |   -0.091 |     0.293 | 0.098 |     1.037 | 0.301 | 0.301 | ns           |
+| tri.compreensao.pos |          | 12y   | Controle | WordGen |   -0.100 |   -0.485 |     0.284 | 0.195 |    -0.515 | 0.607 | 0.607 | ns           |
+| tri.compreensao.pos |          | 13y   | Controle | WordGen |    0.154 |   -0.450 |     0.758 | 0.307 |     0.503 | 0.615 | 0.615 | ns           |
+| tri.compreensao.pre |          | 10y   | Controle | WordGen |    0.075 |   -0.384 |     0.535 | 0.233 |     0.323 | 0.747 | 0.747 | ns           |
+| tri.compreensao.pre |          | 11y   | Controle | WordGen |   -0.339 |   -0.601 |    -0.078 | 0.133 |    -2.553 | 0.011 | 0.011 | \*           |
+| tri.compreensao.pre |          | 12y   | Controle | WordGen |    0.126 |   -0.404 |     0.656 | 0.269 |     0.468 | 0.640 | 0.640 | ns           |
+| tri.compreensao.pre |          | 13y   | Controle | WordGen |   -0.117 |   -0.950 |     0.716 | 0.423 |    -0.277 | 0.782 | 0.782 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |    0.069 |   -0.352 |     0.490 | 0.214 |     0.320 | 0.749 | 0.749 | ns           |
+| Controle | 11y   | pre    | pos    |    0.059 |   -0.185 |     0.303 | 0.124 |     0.475 | 0.635 | 0.635 | ns           |
+| Controle | 12y   | pre    | pos    |    0.264 |   -0.207 |     0.735 | 0.240 |     1.103 | 0.271 | 0.271 | ns           |
+| Controle | 13y   | pre    | pos    |   -0.020 |   -0.749 |     0.709 | 0.371 |    -0.054 | 0.957 | 0.957 | ns           |
+| WordGen  | 10y   | pre    | pos    |    0.075 |   -0.411 |     0.561 | 0.247 |     0.301 | 0.763 | 0.763 | ns           |
+| WordGen  | 11y   | pre    | pos    |    0.161 |   -0.108 |     0.431 | 0.137 |     1.175 | 0.240 | 0.240 | ns           |
+| WordGen  | 12y   | pre    | pos    |    0.101 |   -0.466 |     0.669 | 0.289 |     0.351 | 0.726 | 0.726 | ns           |
+| WordGen  | 13y   | pre    | pos    |    0.077 |   -0.829 |     0.984 | 0.462 |     0.167 | 0.867 | 0.867 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-420-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-425-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-429-1.png)<!-- -->
 
 ## factores: **zona.participante:grupo**
 
@@ -1072,16 +1650,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-232-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-438-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-234-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-440-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-236-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-442-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-444-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-446-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1113,16 +1695,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-244-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-454-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-249-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-461-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-463-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Rural             | Controle |  51 |  -0.051 |    0.106 |    -0.103 |      0.119 |   0.012 |    0.083 |
+| tri.compreensao.pos | Rural             | WordGen  |  46 |   0.239 |    0.123 |     0.120 |      0.123 |   0.017 |    0.088 |
+| tri.compreensao.pos | Urbana            | Controle |  68 |   0.074 |    0.096 |     0.090 |      0.103 |   0.111 |    0.072 |
+| tri.compreensao.pos | Urbana            | WordGen  |  43 |   0.184 |    0.128 |     0.168 |      0.128 |   0.107 |    0.091 |
+
+| .y.                 | grupo    | zona.participante | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle |                   | Urbana   | Rural   |    0.099 |   -0.118 |     0.316 | 0.110 |     0.898 | 0.370 | 0.370 | ns           |
+| tri.compreensao.pos | WordGen  |                   | Urbana   | Rural   |    0.090 |   -0.158 |     0.338 | 0.126 |     0.716 | 0.475 | 0.475 | ns           |
+| tri.compreensao.pre | Controle |                   | Urbana   | Rural   |    0.125 |   -0.168 |     0.418 | 0.149 |     0.840 | 0.402 | 0.402 | ns           |
+| tri.compreensao.pre | WordGen  |                   | Urbana   | Rural   |   -0.055 |   -0.391 |     0.280 | 0.170 |    -0.324 | 0.746 | 0.746 | ns           |
+| tri.compreensao.pos |          | Urbana            | Controle | WordGen |    0.004 |   -0.224 |     0.232 | 0.116 |     0.034 | 0.973 | 0.973 | ns           |
+| tri.compreensao.pos |          | Rural             | Controle | WordGen |   -0.005 |   -0.245 |     0.235 | 0.122 |    -0.040 | 0.968 | 0.968 | ns           |
+| tri.compreensao.pre |          | Urbana            | Controle | WordGen |   -0.109 |   -0.417 |     0.199 | 0.156 |    -0.699 | 0.485 | 0.485 | ns           |
+| tri.compreensao.pre |          | Rural             | Controle | WordGen |   -0.289 |   -0.611 |     0.032 | 0.163 |    -1.774 | 0.078 | 0.078 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |    0.043 |   -0.225 |     0.312 | 0.137 |     0.318 | 0.751 | 0.751 | ns           |
+| Controle | Rural             | pre    | pos    |    0.067 |   -0.246 |     0.379 | 0.159 |     0.420 | 0.675 | 0.675 | ns           |
+| WordGen  | Urbana            | pre    | pos    |   -0.051 |   -0.392 |     0.290 | 0.173 |    -0.296 | 0.767 | 0.767 | ns           |
+| WordGen  | Rural             | pre    | pos    |    0.097 |   -0.229 |     0.424 | 0.166 |     0.585 | 0.559 | 0.559 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-472-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-474-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-476-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-478-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-480-1.png)<!-- -->
 
 ## factores: **escola:grupo**
 
@@ -1236,16 +1867,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-257-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-488-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-258-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-489-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-260-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-262-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-493-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-495-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-497-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1357,16 +1992,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-270-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-271-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-506-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-273-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-508-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-510-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-512-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-514-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | E1     | Controle |  13 |   0.219 |    0.191 |     0.284 |      0.227 |   0.232 |    0.161 |
+| tri.compreensao.pos | E1     | WordGen  |   8 |   0.282 |    0.328 |     0.423 |      0.371 |   0.323 |    0.205 |
+| tri.compreensao.pos | E2     | Controle |  29 |  -0.144 |    0.157 |     0.034 |      0.165 |   0.253 |    0.108 |
+| tri.compreensao.pos | E2     | WordGen  |  22 |  -0.148 |    0.173 |    -0.368 |      0.119 |  -0.146 |    0.124 |
+| tri.compreensao.pos | E3     | Controle |  19 |   0.026 |    0.171 |    -0.014 |      0.194 |   0.078 |    0.133 |
+| tri.compreensao.pos | E3     | WordGen  |  14 |   0.340 |    0.219 |     0.195 |      0.241 |   0.052 |    0.155 |
+| tri.compreensao.pos | E4     | Controle |  19 |   0.343 |    0.155 |     0.195 |      0.197 |   0.050 |    0.133 |
+| tri.compreensao.pos | E4     | WordGen  |  10 |   0.662 |    0.268 |     0.306 |      0.312 |  -0.079 |    0.185 |
+| tri.compreensao.pos | E5     | Controle |  60 |  -0.013 |    0.107 |    -0.147 |      0.108 |  -0.026 |    0.075 |
+| tri.compreensao.pos | E5     | WordGen  |  50 |   0.267 |    0.118 |     0.221 |      0.111 |   0.132 |    0.082 |
+| tri.compreensao.pos | E6     | Controle |  14 |   0.465 |    0.238 |     0.109 |      0.253 |  -0.128 |    0.155 |
+| tri.compreensao.pos | E6     | WordGen  |  11 |   0.442 |    0.310 |    -0.016 |      0.311 |  -0.236 |    0.175 |
+
+| .y.                 | grupo    | escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle |        | E1       | E2      |   -0.021 |   -0.403 |     0.361 | 0.194 |    -0.108 | 0.914 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E1       | E3      |    0.154 |   -0.257 |     0.565 | 0.209 |     0.737 | 0.462 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E1       | E4      |    0.182 |   -0.229 |     0.592 | 0.209 |     0.870 | 0.385 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E1       | E5      |    0.258 |   -0.092 |     0.607 | 0.178 |     1.451 | 0.148 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E1       | E6      |    0.360 |   -0.080 |     0.800 | 0.223 |     1.610 | 0.109 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E2       | E3      |    0.175 |   -0.162 |     0.512 | 0.171 |     1.021 | 0.308 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E2       | E4      |    0.203 |   -0.137 |     0.542 | 0.172 |     1.175 | 0.241 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E2       | E5      |    0.279 |    0.020 |     0.537 | 0.131 |     2.124 | 0.035 | 0.520 | ns           |
+| tri.compreensao.pos | Controle |        | E2       | E6      |    0.381 |    0.006 |     0.756 | 0.190 |     1.999 | 0.047 | 0.700 | ns           |
+| tri.compreensao.pos | Controle |        | E3       | E4      |    0.028 |   -0.343 |     0.399 | 0.188 |     0.147 | 0.883 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E3       | E5      |    0.104 |   -0.197 |     0.404 | 0.153 |     0.680 | 0.497 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E3       | E6      |    0.206 |   -0.198 |     0.610 | 0.205 |     1.004 | 0.316 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E4       | E5      |    0.076 |   -0.226 |     0.378 | 0.153 |     0.496 | 0.620 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E4       | E6      |    0.178 |   -0.224 |     0.580 | 0.204 |     0.873 | 0.384 | 1.000 | ns           |
+| tri.compreensao.pos | Controle |        | E5       | E6      |    0.102 |   -0.239 |     0.443 | 0.173 |     0.589 | 0.556 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E1       | E2      |    0.469 |   -0.003 |     0.942 | 0.240 |     1.955 | 0.052 | 0.775 | ns           |
+| tri.compreensao.pos | WordGen  |        | E1       | E3      |    0.271 |   -0.235 |     0.777 | 0.257 |     1.055 | 0.292 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E1       | E4      |    0.402 |   -0.140 |     0.944 | 0.275 |     1.459 | 0.146 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E1       | E5      |    0.191 |   -0.243 |     0.626 | 0.221 |     0.866 | 0.387 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E1       | E6      |    0.559 |    0.029 |     1.090 | 0.269 |     2.077 | 0.039 | 0.582 | ns           |
+| tri.compreensao.pos | WordGen  |        | E2       | E3      |   -0.198 |   -0.591 |     0.194 | 0.199 |    -0.995 | 0.321 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E2       | E4      |   -0.067 |   -0.508 |     0.373 | 0.224 |    -0.301 | 0.764 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E2       | E5      |   -0.278 |   -0.572 |     0.016 | 0.149 |    -1.862 | 0.064 | 0.957 | ns           |
+| tri.compreensao.pos | WordGen  |        | E2       | E6      |    0.090 |   -0.334 |     0.515 | 0.216 |     0.419 | 0.676 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E3       | E4      |    0.131 |   -0.342 |     0.604 | 0.240 |     0.545 | 0.586 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E3       | E5      |   -0.080 |   -0.425 |     0.265 | 0.175 |    -0.455 | 0.649 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E3       | E6      |    0.288 |   -0.171 |     0.748 | 0.233 |     1.235 | 0.218 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E4       | E5      |   -0.211 |   -0.607 |     0.186 | 0.201 |    -1.046 | 0.296 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E4       | E6      |    0.158 |   -0.341 |     0.656 | 0.253 |     0.622 | 0.535 | 1.000 | ns           |
+| tri.compreensao.pos | WordGen  |        | E5       | E6      |    0.368 |   -0.012 |     0.749 | 0.193 |     1.907 | 0.058 | 0.865 | ns           |
+| tri.compreensao.pre | Controle |        | E1       | E2      |    0.363 |   -0.179 |     0.904 | 0.275 |     1.318 | 0.189 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E1       | E3      |    0.193 |   -0.391 |     0.777 | 0.297 |     0.651 | 0.516 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E1       | E4      |   -0.124 |   -0.708 |     0.460 | 0.297 |    -0.417 | 0.677 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E1       | E5      |    0.232 |   -0.264 |     0.728 | 0.252 |     0.921 | 0.358 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E1       | E6      |   -0.246 |   -0.871 |     0.379 | 0.317 |    -0.774 | 0.439 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E2       | E3      |   -0.170 |   -0.648 |     0.309 | 0.243 |    -0.697 | 0.486 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E2       | E4      |   -0.486 |   -0.965 |    -0.007 | 0.243 |    -1.999 | 0.047 | 0.699 | ns           |
+| tri.compreensao.pre | Controle |        | E2       | E5      |   -0.130 |   -0.497 |     0.236 | 0.186 |    -0.700 | 0.484 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E2       | E6      |   -0.608 |   -1.136 |    -0.080 | 0.268 |    -2.269 | 0.024 | 0.362 | ns           |
+| tri.compreensao.pre | Controle |        | E3       | E4      |   -0.317 |   -0.843 |     0.210 | 0.267 |    -1.185 | 0.237 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E3       | E5      |    0.039 |   -0.388 |     0.466 | 0.217 |     0.180 | 0.857 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E3       | E6      |   -0.439 |   -1.010 |     0.133 | 0.290 |    -1.512 | 0.132 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E4       | E5      |    0.356 |   -0.071 |     0.783 | 0.217 |     1.640 | 0.102 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E4       | E6      |   -0.122 |   -0.694 |     0.449 | 0.290 |    -0.421 | 0.674 | 1.000 | ns           |
+| tri.compreensao.pre | Controle |        | E5       | E6      |   -0.478 |   -0.959 |     0.004 | 0.245 |    -1.954 | 0.052 | 0.777 | ns           |
+| tri.compreensao.pre | WordGen  |        | E1       | E2      |    0.429 |   -0.240 |     1.099 | 0.340 |     1.263 | 0.208 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E1       | E3      |   -0.058 |   -0.777 |     0.661 | 0.365 |    -0.159 | 0.874 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E1       | E4      |   -0.380 |   -1.150 |     0.389 | 0.391 |    -0.973 | 0.331 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E1       | E5      |    0.015 |   -0.603 |     0.633 | 0.314 |     0.048 | 0.962 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E1       | E6      |   -0.161 |   -0.914 |     0.593 | 0.383 |    -0.419 | 0.675 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E2       | E3      |   -0.487 |   -1.042 |     0.067 | 0.282 |    -1.730 | 0.085 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E2       | E4      |   -0.810 |   -1.428 |    -0.191 | 0.314 |    -2.577 | 0.011 | 0.158 | ns           |
+| tri.compreensao.pre | WordGen  |        | E2       | E5      |   -0.414 |   -0.829 |     0.001 | 0.211 |    -1.966 | 0.050 | 0.755 | ns           |
+| tri.compreensao.pre | WordGen  |        | E2       | E6      |   -0.590 |   -1.189 |     0.009 | 0.304 |    -1.939 | 0.054 | 0.804 | ns           |
+| tri.compreensao.pre | WordGen  |        | E3       | E4      |   -0.322 |   -0.994 |     0.349 | 0.341 |    -0.945 | 0.346 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E3       | E5      |    0.073 |   -0.418 |     0.563 | 0.249 |     0.293 | 0.770 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E3       | E6      |   -0.103 |   -0.756 |     0.551 | 0.332 |    -0.309 | 0.757 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E4       | E5      |    0.395 |   -0.167 |     0.957 | 0.285 |     1.385 | 0.167 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E4       | E6      |    0.220 |   -0.489 |     0.929 | 0.360 |     0.610 | 0.542 | 1.000 | ns           |
+| tri.compreensao.pre | WordGen  |        | E5       | E6      |   -0.176 |   -0.716 |     0.365 | 0.274 |    -0.640 | 0.523 | 1.000 | ns           |
+| tri.compreensao.pos |          | E1     | Controle | WordGen |   -0.092 |   -0.604 |     0.421 | 0.260 |    -0.351 | 0.726 | 0.726 | ns           |
+| tri.compreensao.pos |          | E2     | Controle | WordGen |    0.399 |    0.076 |     0.721 | 0.164 |     2.433 | 0.016 | 0.016 | \*           |
+| tri.compreensao.pos |          | E3     | Controle | WordGen |    0.026 |   -0.377 |     0.428 | 0.205 |     0.125 | 0.901 | 0.901 | ns           |
+| tri.compreensao.pos |          | E4     | Controle | WordGen |    0.129 |   -0.318 |     0.575 | 0.227 |     0.568 | 0.571 | 0.571 | ns           |
+| tri.compreensao.pos |          | E5     | Controle | WordGen |   -0.158 |   -0.378 |     0.062 | 0.112 |    -1.415 | 0.158 | 0.158 | ns           |
+| tri.compreensao.pos |          | E6     | Controle | WordGen |    0.108 |   -0.352 |     0.568 | 0.233 |     0.463 | 0.644 | 0.644 | ns           |
+| tri.compreensao.pre |          | E1     | Controle | WordGen |   -0.063 |   -0.792 |     0.666 | 0.370 |    -0.169 | 0.866 | 0.866 | ns           |
+| tri.compreensao.pre |          | E2     | Controle | WordGen |    0.004 |   -0.455 |     0.463 | 0.233 |     0.018 | 0.986 | 0.986 | ns           |
+| tri.compreensao.pre |          | E3     | Controle | WordGen |   -0.314 |   -0.885 |     0.258 | 0.290 |    -1.081 | 0.281 | 0.281 | ns           |
+| tri.compreensao.pre |          | E4     | Controle | WordGen |   -0.319 |   -0.953 |     0.314 | 0.322 |    -0.992 | 0.322 | 0.322 | ns           |
+| tri.compreensao.pre |          | E5     | Controle | WordGen |   -0.280 |   -0.590 |     0.031 | 0.158 |    -1.774 | 0.077 | 0.077 | ns           |
+| tri.compreensao.pre |          | E6     | Controle | WordGen |    0.022 |   -0.631 |     0.676 | 0.332 |     0.068 | 0.946 | 0.946 | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |   -0.045 |   -0.665 |     0.576 | 0.316 |    -0.141 | 0.888 | 0.888 | ns           |
+| Controle | E2     | pre    | pos    |   -0.149 |   -0.562 |     0.264 | 0.210 |    -0.710 | 0.478 | 0.478 | ns           |
+| Controle | E3     | pre    | pos    |    0.129 |   -0.383 |     0.641 | 0.261 |     0.495 | 0.621 | 0.621 | ns           |
+| Controle | E4     | pre    | pos    |    0.088 |   -0.437 |     0.612 | 0.267 |     0.328 | 0.743 | 0.743 | ns           |
+| Controle | E5     | pre    | pos    |    0.207 |   -0.083 |     0.497 | 0.148 |     1.400 | 0.162 | 0.162 | ns           |
+| Controle | E6     | pre    | pos    |    0.404 |   -0.194 |     1.003 | 0.305 |     1.328 | 0.185 | 0.185 | ns           |
+| WordGen  | E1     | pre    | pos    |   -0.500 |   -1.236 |     0.236 | 0.375 |    -1.335 | 0.183 | 0.183 | ns           |
+| WordGen  | E2     | pre    | pos    |    0.238 |   -0.236 |     0.711 | 0.241 |     0.987 | 0.324 | 0.324 | ns           |
+| WordGen  | E3     | pre    | pos    |    0.131 |   -0.468 |     0.729 | 0.305 |     0.429 | 0.668 | 0.668 | ns           |
+| WordGen  | E4     | pre    | pos    |    0.356 |   -0.376 |     1.089 | 0.373 |     0.955 | 0.340 | 0.340 | ns           |
+| WordGen  | E5     | pre    | pos    |    0.055 |   -0.266 |     0.376 | 0.164 |     0.337 | 0.736 | 0.736 | ns           |
+| WordGen  | E6     | pre    | pos    |    0.212 |   -0.448 |     0.872 | 0.336 |     0.631 | 0.528 | 0.528 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-522-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-525-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-527-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-529-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
 
 ## factores: **zona.escola:grupo**
 
@@ -1400,16 +2164,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-284-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-540-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-286-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-542-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-288-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-544-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-546-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-548-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1441,16 +2209,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-296-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-556-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-557-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-559-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-301-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-561-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-565-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Rural       | Controle |  52 |   0.260 |    0.107 |     0.096 |      0.120 |   0.012 |    0.081 |
+| tri.compreensao.pos | Rural       | WordGen  |  35 |   0.464 |    0.149 |     0.160 |      0.160 |  -0.077 |    0.100 |
+| tri.compreensao.pos | Urbana      | Controle | 102 |  -0.021 |    0.081 |    -0.041 |      0.085 |   0.087 |    0.058 |
+| tri.compreensao.pos | Urbana      | WordGen  |  80 |   0.154 |    0.095 |     0.079 |      0.089 |   0.075 |    0.065 |
+
+| .y.                 | grupo    | zona.escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------|:------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | Controle |             | Urbana   | Rural   |    0.075 |   -0.122 |     0.273 | 0.100 |     0.751 | 0.454 | 0.454 | ns           |
+| tri.compreensao.pos | WordGen  |             | Urbana   | Rural   |    0.152 |   -0.083 |     0.387 | 0.119 |     1.276 | 0.203 | 0.203 | ns           |
+| tri.compreensao.pre | Controle |             | Urbana   | Rural   |   -0.280 |   -0.558 |    -0.003 | 0.141 |    -1.993 | 0.047 | 0.047 | \*           |
+| tri.compreensao.pre | WordGen  |             | Urbana   | Rural   |   -0.310 |   -0.639 |     0.020 | 0.167 |    -1.850 | 0.065 | 0.065 | ns           |
+| tri.compreensao.pos |          | Urbana      | Controle | WordGen |    0.012 |   -0.160 |     0.185 | 0.088 |     0.141 | 0.888 | 0.888 | ns           |
+| tri.compreensao.pos |          | Rural       | Controle | WordGen |    0.089 |   -0.163 |     0.342 | 0.128 |     0.696 | 0.487 | 0.487 | ns           |
+| tri.compreensao.pre |          | Urbana      | Controle | WordGen |   -0.175 |   -0.418 |     0.068 | 0.123 |    -1.418 | 0.157 | 0.157 | ns           |
+| tri.compreensao.pre |          | Rural       | Controle | WordGen |   -0.204 |   -0.560 |     0.151 | 0.181 |    -1.131 | 0.259 | 0.259 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |    0.075 |   -0.148 |     0.298 | 0.114 |     0.660 | 0.510 | 0.510 | ns           |
+| Controle | Rural       | pre    | pos    |    0.193 |   -0.121 |     0.508 | 0.160 |     1.207 | 0.228 | 0.228 | ns           |
+| WordGen  | Urbana      | pre    | pos    |    0.039 |   -0.212 |     0.290 | 0.128 |     0.303 | 0.762 | 0.762 | ns           |
+| WordGen  | Rural       | pre    | pos    |    0.204 |   -0.177 |     0.586 | 0.194 |     1.053 | 0.293 | 0.293 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-573-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-574-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-576-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-578-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-580-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-582-1.png)<!-- -->
 
 # Pairwise comparisons for grupo=“Experimental”
 
@@ -1560,11 +2377,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-590-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-592-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-594-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-596-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-598-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1690,11 +2511,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-321-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-606-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-608-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-610-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-612-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-614-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | AC      |  10 |   0.163 |    0.270 |    -0.337 |      0.193 |  -0.265 |    0.170 |
+| tri.compreensao.pos | CE      |  10 |   0.662 |    0.268 |     0.306 |      0.312 |   0.014 |    0.172 |
+| tri.compreensao.pos | EA      |  10 |   0.475 |    0.262 |     0.345 |      0.267 |   0.190 |    0.171 |
+| tri.compreensao.pos | GR      |  16 |   0.033 |    0.167 |    -0.005 |      0.156 |   0.163 |    0.135 |
+| tri.compreensao.pos | JC      |   9 |   0.267 |    0.338 |     0.838 |      0.220 |   0.834 |    0.180 |
+| tri.compreensao.pos | MF      |  11 |   0.540 |    0.293 |     0.155 |      0.261 |  -0.048 |    0.163 |
+| tri.compreensao.pos | ML      |  14 |   0.340 |    0.219 |     0.195 |      0.241 |   0.139 |    0.144 |
+| tri.compreensao.pos | MM      |  10 |  -0.514 |    0.227 |    -0.394 |      0.189 |   0.172 |    0.177 |
+| tri.compreensao.pos | PR      |   8 |   0.282 |    0.328 |     0.423 |      0.371 |   0.409 |    0.190 |
+| tri.compreensao.pos | VL      |  11 |   0.442 |    0.310 |    -0.016 |      0.311 |  -0.147 |    0.163 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.compreensao.pos | AC     | CE     |   -0.279 |   -0.761 |     0.203 | 0.243 |    -1.150 | 0.253   | 1.000 | ns           |
+| tri.compreensao.pos | AC     | EA     |   -0.455 |   -0.935 |     0.024 | 0.242 |    -1.884 | 0.063   | 1.000 | ns           |
+| tri.compreensao.pos | AC     | GR     |   -0.428 |   -0.859 |     0.004 | 0.217 |    -1.968 | 0.052   | 1.000 | ns           |
+| tri.compreensao.pos | AC     | JC     |   -1.099 |   -1.590 |    -0.608 | 0.248 |    -4.440 | \<0.001 | 0.001 | \*\*         |
+| tri.compreensao.pos | AC     | MF     |   -0.217 |   -0.687 |     0.252 | 0.236 |    -0.919 | 0.36    | 1.000 | ns           |
+| tri.compreensao.pos | AC     | ML     |   -0.404 |   -0.847 |     0.039 | 0.223 |    -1.809 | 0.073   | 1.000 | ns           |
+| tri.compreensao.pos | AC     | MM     |   -0.437 |   -0.922 |     0.048 | 0.245 |    -1.786 | 0.077   | 1.000 | ns           |
+| tri.compreensao.pos | AC     | PR     |   -0.674 |   -1.181 |    -0.167 | 0.256 |    -2.636 | 0.01    | 0.438 | ns           |
+| tri.compreensao.pos | AC     | VL     |   -0.117 |   -0.586 |     0.351 | 0.236 |    -0.498 | 0.62    | 1.000 | ns           |
+| tri.compreensao.pos | CE     | EA     |   -0.176 |   -0.654 |     0.303 | 0.241 |    -0.730 | 0.467   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | GR     |   -0.148 |   -0.586 |     0.290 | 0.221 |    -0.672 | 0.503   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | JC     |   -0.820 |   -1.313 |    -0.326 | 0.249 |    -3.297 | 0.001   | 0.061 | ns           |
+| tri.compreensao.pos | CE     | MF     |    0.062 |   -0.405 |     0.529 | 0.235 |     0.263 | 0.793   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | ML     |   -0.125 |   -0.569 |     0.320 | 0.224 |    -0.557 | 0.579   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | MM     |   -0.158 |   -0.658 |     0.342 | 0.252 |    -0.626 | 0.533   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | PR     |   -0.395 |   -0.904 |     0.115 | 0.257 |    -1.538 | 0.127   | 1.000 | ns           |
+| tri.compreensao.pos | CE     | VL     |    0.162 |   -0.306 |     0.629 | 0.236 |     0.686 | 0.494   | 1.000 | ns           |
+| tri.compreensao.pos | EA     | GR     |    0.028 |   -0.407 |     0.462 | 0.219 |     0.126 | 0.9     | 1.000 | ns           |
+| tri.compreensao.pos | EA     | JC     |   -0.644 |   -1.136 |    -0.152 | 0.248 |    -2.599 | 0.011   | 0.486 | ns           |
+| tri.compreensao.pos | EA     | MF     |    0.238 |   -0.229 |     0.705 | 0.235 |     1.011 | 0.315   | 1.000 | ns           |
+| tri.compreensao.pos | EA     | ML     |    0.051 |   -0.392 |     0.494 | 0.223 |     0.229 | 0.819   | 1.000 | ns           |
+| tri.compreensao.pos | EA     | MM     |    0.018 |   -0.475 |     0.512 | 0.249 |     0.073 | 0.942   | 1.000 | ns           |
+| tri.compreensao.pos | EA     | PR     |   -0.219 |   -0.726 |     0.289 | 0.256 |    -0.855 | 0.395   | 1.000 | ns           |
+| tri.compreensao.pos | EA     | VL     |    0.338 |   -0.129 |     0.805 | 0.235 |     1.435 | 0.154   | 1.000 | ns           |
+| tri.compreensao.pos | GR     | JC     |   -0.671 |   -1.118 |    -0.225 | 0.225 |    -2.986 | 0.004   | 0.161 | ns           |
+| tri.compreensao.pos | GR     | MF     |    0.210 |   -0.213 |     0.634 | 0.213 |     0.986 | 0.327   | 1.000 | ns           |
+| tri.compreensao.pos | GR     | ML     |    0.024 |   -0.369 |     0.417 | 0.198 |     0.119 | 0.905   | 1.000 | ns           |
+| tri.compreensao.pos | GR     | MM     |   -0.009 |   -0.445 |     0.427 | 0.220 |    -0.042 | 0.966   | 1.000 | ns           |
+| tri.compreensao.pos | GR     | PR     |   -0.246 |   -0.710 |     0.218 | 0.234 |    -1.053 | 0.295   | 1.000 | ns           |
+| tri.compreensao.pos | GR     | VL     |    0.310 |   -0.112 |     0.732 | 0.212 |     1.460 | 0.148   | 1.000 | ns           |
+| tri.compreensao.pos | JC     | MF     |    0.882 |    0.400 |     1.363 | 0.243 |     3.634 | \<0.001 | 0.020 | \*           |
+| tri.compreensao.pos | JC     | ML     |    0.695 |    0.238 |     1.152 | 0.230 |     3.021 | 0.003   | 0.145 | ns           |
+| tri.compreensao.pos | JC     | MM     |    0.662 |    0.162 |     1.163 | 0.252 |     2.625 | 0.01    | 0.452 | ns           |
+| tri.compreensao.pos | JC     | PR     |    0.425 |   -0.094 |     0.945 | 0.262 |     1.625 | 0.107   | 1.000 | ns           |
+| tri.compreensao.pos | JC     | VL     |    0.982 |    0.501 |     1.462 | 0.242 |     4.051 | \<0.001 | 0.005 | \*\*         |
+| tri.compreensao.pos | MF     | ML     |   -0.187 |   -0.618 |     0.245 | 0.217 |    -0.859 | 0.393   | 1.000 | ns           |
+| tri.compreensao.pos | MF     | MM     |   -0.220 |   -0.705 |     0.265 | 0.244 |    -0.898 | 0.371   | 1.000 | ns           |
+| tri.compreensao.pos | MF     | PR     |   -0.456 |   -0.954 |     0.041 | 0.251 |    -1.820 | 0.072   | 1.000 | ns           |
+| tri.compreensao.pos | MF     | VL     |    0.100 |   -0.356 |     0.556 | 0.230 |     0.435 | 0.665   | 1.000 | ns           |
+| tri.compreensao.pos | ML     | MM     |   -0.033 |   -0.488 |     0.422 | 0.229 |    -0.144 | 0.886   | 1.000 | ns           |
+| tri.compreensao.pos | ML     | PR     |   -0.270 |   -0.743 |     0.204 | 0.239 |    -1.130 | 0.261   | 1.000 | ns           |
+| tri.compreensao.pos | ML     | VL     |    0.286 |   -0.144 |     0.717 | 0.217 |     1.320 | 0.19    | 1.000 | ns           |
+| tri.compreensao.pos | MM     | PR     |   -0.237 |   -0.753 |     0.280 | 0.260 |    -0.910 | 0.365   | 1.000 | ns           |
+| tri.compreensao.pos | MM     | VL     |    0.319 |   -0.163 |     0.801 | 0.243 |     1.315 | 0.191   | 1.000 | ns           |
+| tri.compreensao.pos | PR     | VL     |    0.556 |    0.059 |     1.053 | 0.250 |     2.221 | 0.029   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | CE     |   -0.499 |   -1.263 |     0.266 | 0.385 |    -1.293 | 0.199   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | EA     |   -0.311 |   -1.076 |     0.454 | 0.385 |    -0.807 | 0.421   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | GR     |    0.130 |   -0.559 |     0.820 | 0.347 |     0.375 | 0.709   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | JC     |   -0.104 |   -0.890 |     0.682 | 0.396 |    -0.262 | 0.794   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | MF     |   -0.377 |   -1.124 |     0.371 | 0.377 |    -1.000 | 0.32    | 1.000 | ns           |
+| tri.compreensao.pre | AC     | ML     |   -0.176 |   -0.884 |     0.532 | 0.357 |    -0.494 | 0.623   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | MM     |    0.677 |   -0.088 |     1.442 | 0.385 |     1.756 | 0.082   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | PR     |   -0.118 |   -0.930 |     0.693 | 0.409 |    -0.289 | 0.773   | 1.000 | ns           |
+| tri.compreensao.pre | AC     | VL     |   -0.279 |   -1.026 |     0.468 | 0.377 |    -0.740 | 0.461   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | EA     |    0.187 |   -0.578 |     0.952 | 0.385 |     0.486 | 0.628   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | GR     |    0.629 |   -0.061 |     1.318 | 0.347 |     1.810 | 0.073   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | JC     |    0.395 |   -0.391 |     1.181 | 0.396 |     0.997 | 0.321   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | MF     |    0.122 |   -0.625 |     0.869 | 0.377 |     0.324 | 0.747   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | ML     |    0.322 |   -0.386 |     1.031 | 0.357 |     0.903 | 0.369   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | MM     |    1.176 |    0.411 |     1.941 | 0.385 |     3.050 | 0.003   | 0.132 | ns           |
+| tri.compreensao.pre | CE     | PR     |    0.380 |   -0.431 |     1.192 | 0.409 |     0.930 | 0.355   | 1.000 | ns           |
+| tri.compreensao.pre | CE     | VL     |    0.220 |   -0.528 |     0.967 | 0.377 |     0.583 | 0.561   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | GR     |    0.441 |   -0.248 |     1.131 | 0.347 |     1.271 | 0.207   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | JC     |    0.207 |   -0.578 |     0.993 | 0.396 |     0.524 | 0.602   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | MF     |   -0.065 |   -0.813 |     0.682 | 0.377 |    -0.174 | 0.862   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | ML     |    0.135 |   -0.573 |     0.843 | 0.357 |     0.378 | 0.706   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | MM     |    0.988 |    0.223 |     1.753 | 0.385 |     2.564 | 0.012   | 0.534 | ns           |
+| tri.compreensao.pre | EA     | PR     |    0.193 |   -0.618 |     1.004 | 0.409 |     0.472 | 0.638   | 1.000 | ns           |
+| tri.compreensao.pre | EA     | VL     |    0.032 |   -0.715 |     0.780 | 0.377 |     0.086 | 0.932   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | JC     |   -0.234 |   -0.947 |     0.479 | 0.359 |    -0.652 | 0.516   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | MF     |   -0.507 |   -1.177 |     0.163 | 0.338 |    -1.502 | 0.136   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | ML     |   -0.307 |   -0.932 |     0.319 | 0.315 |    -0.972 | 0.334   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | MM     |    0.547 |   -0.143 |     1.236 | 0.347 |     1.574 | 0.119   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | PR     |   -0.249 |   -0.989 |     0.492 | 0.373 |    -0.666 | 0.507   | 1.000 | ns           |
+| tri.compreensao.pre | GR     | VL     |   -0.409 |   -1.079 |     0.261 | 0.338 |    -1.212 | 0.228   | 1.000 | ns           |
+| tri.compreensao.pre | JC     | MF     |   -0.273 |   -1.042 |     0.496 | 0.387 |    -0.704 | 0.483   | 1.000 | ns           |
+| tri.compreensao.pre | JC     | ML     |   -0.072 |   -0.803 |     0.658 | 0.368 |    -0.197 | 0.844   | 1.000 | ns           |
+| tri.compreensao.pre | JC     | MM     |    0.781 |   -0.005 |     1.567 | 0.396 |     1.972 | 0.051   | 1.000 | ns           |
+| tri.compreensao.pre | JC     | PR     |   -0.015 |   -0.846 |     0.817 | 0.419 |    -0.035 | 0.972   | 1.000 | ns           |
+| tri.compreensao.pre | JC     | VL     |   -0.175 |   -0.944 |     0.594 | 0.387 |    -0.452 | 0.652   | 1.000 | ns           |
+| tri.compreensao.pre | MF     | ML     |    0.200 |   -0.489 |     0.890 | 0.347 |     0.577 | 0.565   | 1.000 | ns           |
+| tri.compreensao.pre | MF     | MM     |    1.054 |    0.306 |     1.801 | 0.377 |     2.798 | 0.006   | 0.278 | ns           |
+| tri.compreensao.pre | MF     | PR     |    0.258 |   -0.536 |     1.053 | 0.401 |     0.645 | 0.52    | 1.000 | ns           |
+| tri.compreensao.pre | MF     | VL     |    0.098 |   -0.631 |     0.827 | 0.368 |     0.266 | 0.791   | 1.000 | ns           |
+| tri.compreensao.pre | ML     | MM     |    0.853 |    0.145 |     1.561 | 0.357 |     2.391 | 0.019   | 0.841 | ns           |
+| tri.compreensao.pre | ML     | PR     |    0.058 |   -0.700 |     0.816 | 0.382 |     0.152 | 0.88    | 1.000 | ns           |
+| tri.compreensao.pre | ML     | VL     |   -0.103 |   -0.792 |     0.587 | 0.347 |    -0.296 | 0.768   | 1.000 | ns           |
+| tri.compreensao.pre | MM     | PR     |   -0.795 |   -1.607 |     0.016 | 0.409 |    -1.945 | 0.055   | 1.000 | ns           |
+| tri.compreensao.pre | MM     | VL     |   -0.956 |   -1.703 |    -0.209 | 0.377 |    -2.538 | 0.013   | 0.572 | ns           |
+| tri.compreensao.pre | PR     | VL     |   -0.161 |   -0.955 |     0.634 | 0.401 |    -0.401 | 0.689   | 1.000 | ns           |
+
+| .y.             | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | AC      | pre    | pos    |    0.449 |   -0.243 |     1.142 | 0.351 |     1.278 | 0.203 | 0.203 | ns           |
+| tri.compreensao | CE      | pre    | pos    |    0.356 |   -0.386 |     1.099 | 0.377 |     0.946 | 0.345 | 0.345 | ns           |
+| tri.compreensao | EA      | pre    | pos    |    0.130 |   -0.613 |     0.872 | 0.377 |     0.344 | 0.731 | 0.731 | ns           |
+| tri.compreensao | GR      | pre    | pos    |    0.038 |   -0.549 |     0.624 | 0.298 |     0.126 | 0.900 | 0.900 | ns           |
+| tri.compreensao | JC      | pre    | pos    |   -0.498 |   -1.240 |     0.245 | 0.377 |    -1.321 | 0.188 | 0.188 | ns           |
+| tri.compreensao | MF      | pre    | pos    |    0.370 |   -0.310 |     1.050 | 0.345 |     1.073 | 0.285 | 0.285 | ns           |
+| tri.compreensao | ML      | pre    | pos    |    0.131 |   -0.475 |     0.737 | 0.307 |     0.425 | 0.671 | 0.671 | ns           |
+| tri.compreensao | MM      | pre    | pos    |   -0.044 |   -0.769 |     0.682 | 0.368 |    -0.119 | 0.906 | 0.906 | ns           |
+| tri.compreensao | PR      | pre    | pos    |   -0.500 |   -1.246 |     0.246 | 0.378 |    -1.322 | 0.188 | 0.188 | ns           |
+| tri.compreensao | VL      | pre    | pos    |    0.212 |   -0.457 |     0.881 | 0.339 |     0.625 | 0.533 | 0.533 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-622-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-624-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-626-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-628-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-630-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.genero**
 
@@ -1718,11 +2677,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-333-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-638-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-335-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-640-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-337-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-642-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-644-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-646-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1744,11 +2707,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-345-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-654-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-656-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-349-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-658-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-660-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-662-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | F              |  72 |   0.175 |    0.103 |    -0.043 |      0.093 |   0.017 |    0.067 |
+| tri.compreensao.pos | M              |  37 |   0.433 |    0.145 |     0.471 |      0.145 |   0.354 |    0.093 |
+
+| .y.                 | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | F      | M      |   -0.337 |   -0.565 |    -0.109 | 0.115 |    -2.925 | 0.004 | 0.004 | \*\*         |
+| tri.compreensao.pre | F      | M      |   -0.258 |   -0.610 |     0.093 | 0.177 |    -1.456 | 0.148 | 0.148 | ns           |
+
+| .y.             | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | F              | pre    | pos    |    0.187 |   -0.083 |     0.456 | 0.137 |     1.366 | 0.173 | 0.173 | ns           |
+| tri.compreensao | M              | pre    | pos    |   -0.158 |   -0.530 |     0.215 | 0.189 |    -0.833 | 0.406 | 0.406 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-670-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-672-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-674-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-678-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.area**
 
@@ -1838,11 +2835,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-686-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-688-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-690-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-692-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-694-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -1948,11 +2949,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-369-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-704-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-706-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-708-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | Arquitetura e Urbanismo    |   9 |   0.267 |    0.338 |     0.838 |      0.220 |   0.834 |    0.179 |
+| tri.compreensao.pos | Ciencias Biologicas        |  14 |   0.340 |    0.219 |     0.195 |      0.241 |   0.139 |    0.143 |
+| tri.compreensao.pos | Comunicacao Social         |  10 |   0.662 |    0.268 |     0.306 |      0.312 |   0.014 |    0.171 |
+| tri.compreensao.pos | Historia                   |   8 |   0.282 |    0.328 |     0.423 |      0.371 |   0.409 |    0.189 |
+| tri.compreensao.pos | Letras - Lingua Portuguesa |  11 |   0.540 |    0.293 |     0.155 |      0.261 |  -0.048 |    0.162 |
+| tri.compreensao.pos | Matematica                 |  26 |   0.203 |    0.147 |     0.130 |      0.142 |   0.173 |    0.105 |
+| tri.compreensao.pos | Nutricao                   |  10 |  -0.514 |    0.227 |    -0.394 |      0.189 |   0.173 |    0.176 |
+| tri.compreensao.pos | Pedagogia                  |  10 |   0.163 |    0.270 |    -0.337 |      0.193 |  -0.265 |    0.170 |
+| tri.compreensao.pos | Servico Social             |  11 |   0.442 |    0.310 |    -0.016 |      0.311 |  -0.148 |    0.162 |
+
+| .y.                 | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:--------------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.compreensao.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.695 |    0.241 |     1.150 | 0.229 |     3.036 | 0.003   | 0.11    | ns           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.820 |    0.329 |     1.311 | 0.247 |     3.315 | 0.001   | 0.046   | \*           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Historia            |    0.425 |   -0.091 |     0.942 | 0.260 |     1.634 | 0.106   | 1       | ns           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Letras              |    0.882 |    0.403 |     1.361 | 0.241 |     3.653 | \<0.001 | 0.015   | \*           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Matematica          |    0.661 |    0.250 |     1.072 | 0.207 |     3.188 | 0.002   | 0.069   | ns           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Nutricao            |    0.661 |    0.164 |     1.159 | 0.251 |     2.636 | 0.01    | 0.351   | ns           |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Pedagogia           |    1.099 |    0.610 |     1.588 | 0.246 |     4.462 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.compreensao.pos | Arquitetura e Urbanismo | Servico Social      |    0.982 |    0.503 |     1.460 | 0.241 |     4.072 | \<0.001 | 0.003   | \*\*         |
+| tri.compreensao.pos | Ciencias Biologicas     | Comunicacao Social  |    0.125 |   -0.317 |     0.567 | 0.223 |     0.561 | 0.576   | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Historia            |   -0.270 |   -0.741 |     0.201 | 0.238 |    -1.136 | 0.259   | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Letras              |    0.187 |   -0.242 |     0.616 | 0.216 |     0.864 | 0.39    | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Matematica          |   -0.034 |   -0.387 |     0.318 | 0.178 |    -0.193 | 0.847   | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Nutricao            |   -0.034 |   -0.486 |     0.419 | 0.228 |    -0.148 | 0.883   | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Pedagogia           |    0.404 |   -0.037 |     0.845 | 0.222 |     1.818 | 0.072   | 1       | ns           |
+| tri.compreensao.pos | Ciencias Biologicas     | Servico Social      |    0.287 |   -0.142 |     0.715 | 0.216 |     1.327 | 0.188   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Historia            |   -0.395 |   -0.901 |     0.112 | 0.255 |    -1.547 | 0.125   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Letras              |    0.062 |   -0.403 |     0.527 | 0.234 |     0.264 | 0.792   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Matematica          |   -0.159 |   -0.559 |     0.240 | 0.201 |    -0.792 | 0.431   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Nutricao            |   -0.159 |   -0.656 |     0.338 | 0.250 |    -0.634 | 0.527   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Pedagogia           |    0.279 |   -0.201 |     0.758 | 0.242 |     1.154 | 0.251   | 1       | ns           |
+| tri.compreensao.pos | Comunicacao Social      | Servico Social      |    0.162 |   -0.304 |     0.627 | 0.235 |     0.689 | 0.493   | 1       | ns           |
+| tri.compreensao.pos | Historia                | Letras              |    0.457 |   -0.038 |     0.952 | 0.249 |     1.831 | 0.07    | 1       | ns           |
+| tri.compreensao.pos | Historia                | Matematica          |    0.235 |   -0.195 |     0.665 | 0.217 |     1.087 | 0.28    | 1       | ns           |
+| tri.compreensao.pos | Historia                | Nutricao            |    0.236 |   -0.278 |     0.750 | 0.259 |     0.912 | 0.364   | 1       | ns           |
+| tri.compreensao.pos | Historia                | Pedagogia           |    0.674 |    0.169 |     1.178 | 0.254 |     2.649 | 0.009   | 0.338   | ns           |
+| tri.compreensao.pos | Historia                | Servico Social      |    0.556 |    0.062 |     1.051 | 0.249 |     2.233 | 0.028   | 1       | ns           |
+| tri.compreensao.pos | Letras                  | Lingua Portuguesa   |   -0.221 |   -0.606 |     0.163 | 0.194 |    -1.141 | 0.257   | 1       | ns           |
+| tri.compreensao.pos | Letras                  | Lingua Portuguesa   |   -0.221 |   -0.703 |     0.262 | 0.243 |    -0.908 | 0.366   | 1       | ns           |
+| tri.compreensao.pos | Letras                  | Lingua Portuguesa   |    0.217 |   -0.250 |     0.684 | 0.235 |     0.922 | 0.359   | 1       | ns           |
+| tri.compreensao.pos | Letras                  | Lingua Portuguesa   |    0.100 |   -0.354 |     0.553 | 0.229 |     0.436 | 0.664   | 1       | ns           |
+| tri.compreensao.pos | Matematica              | Nutricao            |    0.001 |   -0.405 |     0.406 | 0.204 |     0.003 | 0.998   | 1       | ns           |
+| tri.compreensao.pos | Matematica              | Pedagogia           |    0.438 |    0.042 |     0.834 | 0.199 |     2.197 | 0.03    | 1       | ns           |
+| tri.compreensao.pos | Matematica              | Servico Social      |    0.321 |   -0.063 |     0.705 | 0.193 |     1.660 | 0.1     | 1       | ns           |
+| tri.compreensao.pos | Nutricao                | Pedagogia           |    0.438 |   -0.045 |     0.920 | 0.243 |     1.798 | 0.075   | 1       | ns           |
+| tri.compreensao.pos | Nutricao                | Servico Social      |    0.320 |   -0.159 |     0.800 | 0.242 |     1.326 | 0.188   | 1       | ns           |
+| tri.compreensao.pos | Pedagogia               | Servico Social      |   -0.117 |   -0.583 |     0.349 | 0.235 |    -0.499 | 0.619   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Ciencias Biologicas |   -0.072 |   -0.805 |     0.660 | 0.369 |    -0.196 | 0.845   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Comunicacao Social  |   -0.395 |   -1.183 |     0.393 | 0.397 |    -0.994 | 0.323   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Historia            |   -0.015 |   -0.848 |     0.819 | 0.420 |    -0.035 | 0.972   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Letras              |   -0.273 |   -1.044 |     0.498 | 0.389 |    -0.702 | 0.484   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Matematica          |    0.064 |   -0.599 |     0.728 | 0.334 |     0.192 | 0.848   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Nutricao            |    0.781 |   -0.007 |     1.569 | 0.397 |     1.966 | 0.052   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Pedagogia           |    0.104 |   -0.684 |     0.892 | 0.397 |     0.261 | 0.794   | 1       | ns           |
+| tri.compreensao.pre | Arquitetura e Urbanismo | Servico Social      |   -0.175 |   -0.946 |     0.596 | 0.389 |    -0.451 | 0.653   | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Comunicacao Social  |   -0.322 |   -1.033 |     0.388 | 0.358 |    -0.900 | 0.37    | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Historia            |    0.058 |   -0.702 |     0.818 | 0.383 |     0.151 | 0.88    | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Letras              |   -0.200 |   -0.892 |     0.491 | 0.348 |    -0.575 | 0.566   | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Matematica          |    0.137 |   -0.432 |     0.705 | 0.287 |     0.477 | 0.634   | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Nutricao            |    0.853 |    0.143 |     1.564 | 0.358 |     2.384 | 0.019   | 0.685   | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Pedagogia           |    0.176 |   -0.534 |     0.886 | 0.358 |     0.492 | 0.624   | 1       | ns           |
+| tri.compreensao.pre | Ciencias Biologicas     | Servico Social      |   -0.103 |   -0.794 |     0.589 | 0.348 |    -0.295 | 0.769   | 1       | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Historia            |    0.380 |   -0.433 |     1.194 | 0.410 |     0.927 | 0.356   | 1       | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Letras              |    0.122 |   -0.628 |     0.871 | 0.378 |     0.323 | 0.748   | 1       | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Matematica          |    0.459 |   -0.179 |     1.097 | 0.322 |     1.427 | 0.157   | 1       | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Nutricao            |    1.176 |    0.409 |     1.943 | 0.387 |     3.040 | 0.003   | 0.109   | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Pedagogia           |    0.499 |   -0.269 |     1.266 | 0.387 |     1.289 | 0.2     | 1       | ns           |
+| tri.compreensao.pre | Comunicacao Social      | Servico Social      |    0.220 |   -0.530 |     0.969 | 0.378 |     0.582 | 0.562   | 1       | ns           |
+| tri.compreensao.pre | Historia                | Letras              |   -0.258 |   -1.055 |     0.539 | 0.402 |    -0.643 | 0.522   | 1       | ns           |
+| tri.compreensao.pre | Historia                | Matematica          |    0.079 |   -0.615 |     0.772 | 0.350 |     0.225 | 0.822   | 1       | ns           |
+| tri.compreensao.pre | Historia                | Nutricao            |    0.795 |   -0.018 |     1.609 | 0.410 |     1.939 | 0.055   | 1       | ns           |
+| tri.compreensao.pre | Historia                | Pedagogia           |    0.118 |   -0.695 |     0.932 | 0.410 |     0.289 | 0.774   | 1       | ns           |
+| tri.compreensao.pre | Historia                | Servico Social      |   -0.161 |   -0.958 |     0.637 | 0.402 |    -0.400 | 0.69    | 1       | ns           |
+| tri.compreensao.pre | Letras                  | Lingua Portuguesa   |    0.337 |   -0.280 |     0.954 | 0.311 |     1.084 | 0.281   | 1       | ns           |
+| tri.compreensao.pre | Letras                  | Lingua Portuguesa   |    1.054 |    0.304 |     1.803 | 0.378 |     2.789 | 0.006   | 0.228   | ns           |
+| tri.compreensao.pre | Letras                  | Lingua Portuguesa   |    0.377 |   -0.373 |     1.126 | 0.378 |     0.997 | 0.321   | 1       | ns           |
+| tri.compreensao.pre | Letras                  | Lingua Portuguesa   |    0.098 |   -0.634 |     0.829 | 0.369 |     0.265 | 0.791   | 1       | ns           |
+| tri.compreensao.pre | Matematica              | Nutricao            |    0.717 |    0.078 |     1.355 | 0.322 |     2.227 | 0.028   | 1       | ns           |
+| tri.compreensao.pre | Matematica              | Pedagogia           |    0.040 |   -0.599 |     0.678 | 0.322 |     0.123 | 0.902   | 1       | ns           |
+| tri.compreensao.pre | Matematica              | Servico Social      |   -0.239 |   -0.856 |     0.378 | 0.311 |    -0.770 | 0.443   | 1       | ns           |
+| tri.compreensao.pre | Nutricao                | Pedagogia           |   -0.677 |   -1.444 |     0.090 | 0.387 |    -1.751 | 0.083   | 1       | ns           |
+| tri.compreensao.pre | Nutricao                | Servico Social      |   -0.956 |   -1.705 |    -0.206 | 0.378 |    -2.530 | 0.013   | 0.466   | ns           |
+| tri.compreensao.pre | Pedagogia               | Servico Social      |   -0.279 |   -1.028 |     0.471 | 0.378 |    -0.738 | 0.462   | 1       | ns           |
+
+| .y.             | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | Arquitetura e Urbanismo    | pre    | pos    |   -0.498 |   -1.241 |     0.246 | 0.377 |    -1.319 | 0.189 | 0.189 | ns           |
+| tri.compreensao | Ciencias Biologicas        | pre    | pos    |    0.131 |   -0.476 |     0.738 | 0.308 |     0.424 | 0.672 | 0.672 | ns           |
+| tri.compreensao | Comunicacao Social         | pre    | pos    |    0.356 |   -0.387 |     1.100 | 0.377 |     0.944 | 0.346 | 0.346 | ns           |
+| tri.compreensao | Historia                   | pre    | pos    |   -0.500 |   -1.247 |     0.247 | 0.379 |    -1.320 | 0.188 | 0.188 | ns           |
+| tri.compreensao | Letras - Lingua Portuguesa | pre    | pos    |    0.370 |   -0.311 |     1.051 | 0.346 |     1.071 | 0.285 | 0.285 | ns           |
+| tri.compreensao | Matematica                 | pre    | pos    |    0.073 |   -0.388 |     0.534 | 0.234 |     0.312 | 0.755 | 0.755 | ns           |
+| tri.compreensao | Nutricao                   | pre    | pos    |   -0.044 |   -0.770 |     0.683 | 0.369 |    -0.118 | 0.906 | 0.906 | ns           |
+| tri.compreensao | Pedagogia                  | pre    | pos    |    0.449 |   -0.245 |     1.143 | 0.352 |     1.276 | 0.203 | 0.203 | ns           |
+| tri.compreensao | Servico Social             | pre    | pos    |    0.212 |   -0.458 |     0.882 | 0.340 |     0.624 | 0.533 | 0.533 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-718-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-720-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-722-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-724-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-726-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -1982,11 +3101,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-381-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-734-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-383-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-385-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-738-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-740-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-742-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -2014,11 +3137,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-750-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-752-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-397-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-754-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-756-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-758-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | ensino medio     |  79 |   0.198 |    0.100 |     0.141 |      0.097 |   0.188 |    0.066 |
+| tri.compreensao.pos | especializacao   |  10 |   0.662 |    0.268 |     0.306 |      0.312 |   0.017 |    0.186 |
+| tri.compreensao.pos | graduacao        |  20 |   0.319 |    0.186 |     0.004 |      0.178 |  -0.037 |    0.130 |
+
+| .y.                 | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | ensino medio   | especializacao |    0.172 |   -0.220 |     0.563 | 0.197 |     0.870 | 0.386 | 1.000 | ns           |
+| tri.compreensao.pos | ensino medio   | graduacao      |    0.225 |   -0.064 |     0.514 | 0.146 |     1.546 | 0.125 | 0.375 | ns           |
+| tri.compreensao.pos | especializacao | graduacao      |    0.054 |   -0.395 |     0.502 | 0.226 |     0.237 | 0.813 | 1.000 | ns           |
+| tri.compreensao.pre | ensino medio   | especializacao |   -0.464 |   -1.049 |     0.120 | 0.295 |    -1.574 | 0.118 | 0.355 | ns           |
+| tri.compreensao.pre | ensino medio   | graduacao      |   -0.121 |   -0.558 |     0.315 | 0.220 |    -0.552 | 0.582 | 1.000 | ns           |
+| tri.compreensao.pre | especializacao | graduacao      |    0.343 |   -0.332 |     1.018 | 0.340 |     1.008 | 0.316 | 0.948 | ns           |
+
+| .y.             | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | ensino medio     | pre    | pos    |   -0.012 |   -0.271 |     0.246 | 0.131 |    -0.093 | 0.926 | 0.926 | ns           |
+| tri.compreensao | especializacao   | pre    | pos    |    0.356 |   -0.403 |     1.115 | 0.385 |     0.925 | 0.356 | 0.356 | ns           |
+| tri.compreensao | graduacao        | pre    | pos    |    0.290 |   -0.228 |     0.808 | 0.263 |     1.103 | 0.271 | 0.271 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-766-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-768-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-770-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-772-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-774-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -2042,11 +3205,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-405-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-782-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-784-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-786-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-788-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-790-1.png)<!-- -->
 
 ### Compreensao Leitora (Acertos)
 
@@ -2068,8 +3235,42 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-417-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-798-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-800-1.png)<!-- -->
 
-![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-806-1.png)<!-- -->
+
+### Compreensao Leitora (TRI)
+
+| var                 | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.compreensao.pos | maior 01 ano        |  79 |   0.335 |    0.093 |     0.138 |      0.094 |   0.085 |    0.066 |
+| tri.compreensao.pos | menor 01 ano        |  30 |   0.071 |    0.182 |     0.114 |      0.169 |   0.253 |    0.107 |
+
+| .y.                 | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao.pos | maior 01 ano | menor 01 ano |   -0.167 |   -0.417 |     0.082 | 0.126 |    -1.330 | 0.186 | 0.186 | ns           |
+| tri.compreensao.pre | maior 01 ano | menor 01 ano |    0.264 |   -0.109 |     0.637 | 0.188 |     1.404 | 0.163 | 0.163 | ns           |
+
+| .y.             | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.compreensao | maior 01 ano        | pre    | pos    |    0.137 |   -0.124 |     0.397 | 0.132 |     1.032 | 0.303 | 0.303 | ns           |
+| tri.compreensao | menor 01 ano        | pre    | pos    |   -0.096 |   -0.515 |     0.323 | 0.213 |    -0.450 | 0.653 | 0.653 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-814-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-816-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-818-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-820-1.png)<!-- -->
+
+![](triagem-stari-without-wordgen_files/figure-gfm/unnamed-chunk-822-1.png)<!-- -->

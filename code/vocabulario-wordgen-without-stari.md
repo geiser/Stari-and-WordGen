@@ -5,131 +5,197 @@ Geiser C. Challco <geiser@alumni.usp.br>
 - [Descriptive Statistics of Initial
   Data](#descriptive-statistics-of-initial-data)
   - [Vocabulario (Acertos)](#vocabulario-acertos)
+  - [Vocabulario (TRI)](#vocabulario-tri)
   - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos)
+  - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri)
   - [Vocabulario Nao Ensinado
     (Acertos)](#vocabulario-nao-ensinado-acertos)
+  - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri)
 - [Checking of Assumptions](#checking-of-assumptions)
   - [Assumption: Normality
     distribution](#assumption-normality-distribution)
     - [Vocabulario (Acertos)](#vocabulario-acertos-1)
+    - [Vocabulario (TRI)](#vocabulario-tri-1)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-1)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-1)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-1)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-1)
   - [Assumption: Homogeneity](#assumption-homogeneity)
     - [Vocabulario (Acertos)](#vocabulario-acertos-2)
+    - [Vocabulario (TRI)](#vocabulario-tri-2)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-2)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-2)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-2)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-2)
 - [Computation of ANCOVA test and Pairwise
   Comparison](#computation-of-ancova-test-and-pairwise-comparison)
   - [ANCOVA tests for one factor](#ancova-tests-for-one-factor)
     - [Vocabulario (Acertos)](#vocabulario-acertos-3)
+    - [Vocabulario (TRI)](#vocabulario-tri-3)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-3)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-3)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-3)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-3)
   - [ANCOVA tests for two factors](#ancova-tests-for-two-factors)
     - [Vocabulario (Acertos)](#vocabulario-acertos-4)
+    - [Vocabulario (TRI)](#vocabulario-tri-4)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-4)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-4)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-4)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-4)
   - [ANCOVA tests for
     grupo=“Experimental”](#ancova-tests-for-grupoexperimental)
     - [Vocabulario (Acertos)](#vocabulario-acertos-5)
+    - [Vocabulario (TRI)](#vocabulario-tri-5)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-5)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-5)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-5)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-5)
 - [Pairwise comparisons for one
   factor](#pairwise-comparisons-for-one-factor)
   - [factor: **grupo**](#factor-grupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-6)
+    - [Vocabulario (TRI)](#vocabulario-tri-6)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-6)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-6)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-6)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-6)
   - [factor: **genero**](#factor-genero)
     - [Vocabulario (Acertos)](#vocabulario-acertos-7)
+    - [Vocabulario (TRI)](#vocabulario-tri-7)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-7)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-7)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-7)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-7)
   - [factor: **idade**](#factor-idade)
     - [Vocabulario (Acertos)](#vocabulario-acertos-8)
+    - [Vocabulario (TRI)](#vocabulario-tri-8)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-8)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-8)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-8)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-8)
   - [factor: **zona.participante**](#factor-zonaparticipante)
     - [Vocabulario (Acertos)](#vocabulario-acertos-9)
+    - [Vocabulario (TRI)](#vocabulario-tri-9)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-9)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-9)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-9)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-9)
   - [factor: **escola**](#factor-escola)
     - [Vocabulario (Acertos)](#vocabulario-acertos-10)
+    - [Vocabulario (TRI)](#vocabulario-tri-10)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-10)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-10)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-10)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-10)
   - [factor: **zona.escola**](#factor-zonaescola)
     - [Vocabulario (Acertos)](#vocabulario-acertos-11)
+    - [Vocabulario (TRI)](#vocabulario-tri-11)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-11)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-11)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-11)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-11)
 - [Pairwise comparisons for two
   factors](#pairwise-comparisons-for-two-factors)
   - [factores: **genero:grupo**](#factores-generogrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-12)
+    - [Vocabulario (TRI)](#vocabulario-tri-12)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-12)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-12)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-12)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-12)
   - [factores: **idade:grupo**](#factores-idadegrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-13)
+    - [Vocabulario (TRI)](#vocabulario-tri-13)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-13)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-13)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-13)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-13)
   - [factores:
     **zona.participante:grupo**](#factores-zonaparticipantegrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-14)
+    - [Vocabulario (TRI)](#vocabulario-tri-14)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-14)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-14)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-14)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-14)
   - [factores: **escola:grupo**](#factores-escolagrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-15)
+    - [Vocabulario (TRI)](#vocabulario-tri-15)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-15)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-15)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-15)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-15)
   - [factores: **zona.escola:grupo**](#factores-zonaescolagrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-16)
+    - [Vocabulario (TRI)](#vocabulario-tri-16)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-16)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-16)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-16)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-16)
 - [Pairwise comparisons for
   grupo=“Experimental”](#pairwise-comparisons-for-grupoexperimental)
   - [factores:
     **grupo=“Experimental”:monitor**](#factores-grupoexperimentalmonitor)
     - [Vocabulario (Acertos)](#vocabulario-acertos-17)
+    - [Vocabulario (TRI)](#vocabulario-tri-17)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-17)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-17)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-17)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-17)
   - [factores:
     **grupo=“Experimental”:monitor.genero**](#factores-grupoexperimentalmonitorgenero)
     - [Vocabulario (Acertos)](#vocabulario-acertos-18)
+    - [Vocabulario (TRI)](#vocabulario-tri-18)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-18)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-18)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-18)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-18)
   - [factores:
     **grupo=“Experimental”:monitor.area**](#factores-grupoexperimentalmonitorarea)
     - [Vocabulario (Acertos)](#vocabulario-acertos-19)
+    - [Vocabulario (TRI)](#vocabulario-tri-19)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-19)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-19)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-19)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-19)
   - [factores:
     **grupo=“Experimental”:monitor.formacao**](#factores-grupoexperimentalmonitorformacao)
     - [Vocabulario (Acertos)](#vocabulario-acertos-20)
+    - [Vocabulario (TRI)](#vocabulario-tri-20)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-20)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-20)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-20)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-20)
   - [factores:
     **grupo=“Experimental”:monitor.experiencia**](#factores-grupoexperimentalmonitorexperiencia)
     - [Vocabulario (Acertos)](#vocabulario-acertos-21)
+    - [Vocabulario (TRI)](#vocabulario-tri-21)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-21)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-21)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-21)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-21)
 
 **NOTE**
 
@@ -223,6 +289,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | WordGen  |        |       |                   |        | Urbana      | score.vocab.pre |  84 | 21.690 |   21.5 |   5 |  38 |  8.339 | 0.910 |   1.810 | 13.25 |
 | WordGen  |        |       |                   |        | Rural       | score.vocab.pre |  38 | 21.816 |   20.0 |   8 |  40 |  8.491 | 1.377 |   2.791 |  9.75 |
 
+## Vocabulario (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable      |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:--------------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.pos |  80 |  0.225 |  0.414 | -2.207 |  2.106 | 0.921 | 0.103 |  0.205 | 1.285 |
+| Controle | M      |       |                   |        |             | tri.vocab.pos |  79 |  0.019 |  0.114 | -1.851 |  1.984 | 1.020 | 0.115 |  0.228 | 1.586 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.pos |  53 |  0.580 |  0.743 | -1.885 |  2.090 | 0.901 | 0.124 |  0.248 | 1.260 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.pos |  69 |  0.034 |  0.089 | -1.415 |  1.800 | 0.873 | 0.105 |  0.210 | 1.519 |
+| Controle | F      |       |                   |        |             | tri.vocab.pre |  80 |  0.171 |  0.301 | -1.939 |  1.829 | 0.809 | 0.090 |  0.180 | 1.173 |
+| Controle | M      |       |                   |        |             | tri.vocab.pre |  79 |  0.018 |  0.000 | -1.612 |  1.918 | 0.927 | 0.104 |  0.208 | 1.505 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.pre |  53 |  0.412 |  0.547 | -1.988 |  1.903 | 0.874 | 0.120 |  0.241 | 0.939 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.pre |  69 | -0.092 | -0.057 | -2.194 |  1.915 | 0.907 | 0.109 |  0.218 | 1.459 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.pos |  28 |  0.201 |  0.383 | -1.614 |  2.029 | 0.943 | 0.178 |  0.366 | 1.031 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.pos |  90 |  0.260 |  0.455 | -1.851 |  2.106 | 0.977 | 0.103 |  0.205 | 1.471 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.pos |  23 | -0.178 | -0.161 | -1.584 |  1.832 | 0.863 | 0.180 |  0.373 | 0.959 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.pos |   8 | -0.108 |  0.049 | -1.198 |  0.886 | 0.839 | 0.297 |  0.702 | 1.588 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.pos |   2 | -0.680 | -0.680 | -1.835 |  0.475 | 1.633 | 1.155 | 14.674 | 1.155 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.pos |   1 | -0.989 | -0.989 | -0.989 | -0.989 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.pos |   7 | -0.312 | -0.183 | -2.207 |  1.153 | 1.196 | 0.452 |  1.106 | 1.518 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.pos |  23 |  0.210 |  0.381 | -1.158 |  1.176 | 0.658 | 0.137 |  0.284 | 0.917 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.pos |  76 |  0.420 |  0.545 | -1.415 |  1.801 | 0.897 | 0.103 |  0.205 | 1.462 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.pos |  14 |  0.246 |  0.219 | -1.885 |  2.090 | 1.130 | 0.302 |  0.653 | 1.358 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.pos |   5 | -1.153 | -1.129 | -1.345 | -0.921 | 0.164 | 0.073 |  0.203 | 0.168 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.pos |   2 | -1.029 | -1.029 | -1.258 | -0.800 | 0.324 | 0.229 |  2.909 | 0.229 |
+| WordGen  |        |       |                   |        |             | tri.vocab.pos |   2 |  0.344 |  0.344 | -0.374 |  1.061 | 1.015 | 0.717 |  9.115 | 0.717 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.pre |  28 |  0.310 |  0.405 | -1.051 |  1.829 | 0.733 | 0.138 |  0.284 | 1.016 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.pre |  90 |  0.152 |  0.217 | -1.939 |  1.918 | 0.899 | 0.095 |  0.188 | 1.469 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.pre |  23 | -0.195 | -0.304 | -1.524 |  1.488 | 0.952 | 0.198 |  0.411 | 1.450 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.pre |   8 | -0.186 | -0.144 | -1.082 |  0.725 | 0.809 | 0.286 |  0.677 | 1.540 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.pre |   2 | -0.148 | -0.148 | -0.582 |  0.286 | 0.614 | 0.434 |  5.519 | 0.434 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.pre |   1 | -0.357 | -0.357 | -0.357 | -0.357 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.pre |   7 | -0.105 | -0.072 | -1.348 |  0.765 | 0.761 | 0.288 |  0.704 | 0.971 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.pre |  23 |  0.136 |  0.324 | -1.640 |  1.809 | 0.838 | 0.175 |  0.362 | 1.129 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.pre |  76 |  0.238 |  0.337 | -2.194 |  1.915 | 0.886 | 0.102 |  0.202 | 1.322 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.pre |  14 |  0.085 | -0.048 | -2.038 |  1.903 | 1.084 | 0.290 |  0.626 | 0.596 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.pre |   5 | -0.642 | -0.761 | -1.468 |  0.484 | 0.710 | 0.317 |  0.881 | 0.261 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.pre |   2 | -1.229 | -1.229 | -1.241 | -1.218 | 0.016 | 0.012 |  0.148 | 0.012 |
+| WordGen  |        |       |                   |        |             | tri.vocab.pre |   2 | -0.608 | -0.608 | -1.833 |  0.616 | 1.731 | 1.224 | 15.557 | 1.224 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.pos |  69 |  0.257 |  0.465 | -1.646 |  2.029 | 0.999 | 0.120 |  0.240 | 1.463 |
+| Controle |        |       | Rural             |        |             | tri.vocab.pos |  53 |  0.024 |  0.070 | -2.207 |  2.106 | 0.937 | 0.129 |  0.258 | 1.139 |
+| Controle |        |       |                   |        |             | tri.vocab.pos |  37 |  0.015 |  0.053 | -1.835 |  1.832 | 0.973 | 0.160 |  0.324 | 1.555 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.pos |  45 |  0.270 |  0.381 | -1.885 |  1.800 | 1.008 | 0.150 |  0.303 | 1.759 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.pos |  51 |  0.317 |  0.390 | -1.412 |  2.090 | 0.874 | 0.122 |  0.246 | 1.197 |
+| WordGen  |        |       |                   |        |             | tri.vocab.pos |  26 |  0.182 |  0.146 | -1.345 |  1.784 | 0.888 | 0.174 |  0.359 | 1.260 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.pre |  69 |  0.177 |  0.303 | -1.939 |  1.918 | 0.850 | 0.102 |  0.204 | 1.213 |
+| Controle |        |       | Rural             |        |             | tri.vocab.pre |  53 |  0.037 |  0.062 | -1.493 |  1.829 | 0.857 | 0.118 |  0.236 | 1.283 |
+| Controle |        |       |                   |        |             | tri.vocab.pre |  37 |  0.023 | -0.072 | -1.612 |  1.721 | 0.934 | 0.154 |  0.311 | 1.450 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.pre |  45 |  0.198 |  0.404 | -2.038 |  1.915 | 0.962 | 0.143 |  0.289 | 1.540 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.pre |  51 |  0.049 |  0.063 | -2.194 |  1.903 | 0.938 | 0.131 |  0.264 | 1.249 |
+| WordGen  |        |       |                   |        |             | tri.vocab.pre |  26 |  0.158 |  0.068 | -1.833 |  1.834 | 0.849 | 0.167 |  0.343 | 0.919 |
+| Controle |        |       |                   | E1     |             | tri.vocab.pos |  11 |  0.483 |  0.518 | -0.744 |  1.423 | 0.636 | 0.192 |  0.427 | 0.749 |
+| Controle |        |       |                   | E2     |             | tri.vocab.pos |  34 | -0.053 | -0.105 | -1.851 |  2.029 | 1.130 | 0.194 |  0.394 | 1.783 |
+| Controle |        |       |                   | E3     |             | tri.vocab.pos |  21 |  0.006 |  0.070 | -1.584 |  2.016 | 0.861 | 0.188 |  0.392 | 1.120 |
+| Controle |        |       |                   | E4     |             | tri.vocab.pos |  20 |  0.111 |  0.460 | -1.614 |  1.984 | 0.927 | 0.207 |  0.434 | 1.242 |
+| Controle |        |       |                   | E5     |             | tri.vocab.pos |  59 |  0.196 |  0.351 | -2.207 |  2.106 | 1.015 | 0.132 |  0.264 | 1.525 |
+| Controle |        |       |                   | E6     |             | tri.vocab.pos |  14 |  0.150 |  0.227 | -1.671 |  1.397 | 0.861 | 0.230 |  0.497 | 1.057 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.pos |  12 | -0.099 | -0.551 | -1.415 |  1.727 | 1.161 | 0.335 |  0.738 | 1.795 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.pos |  22 |  0.146 |  0.188 | -1.345 |  1.703 | 0.909 | 0.194 |  0.403 | 1.436 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.pos |  16 |  0.494 |  0.428 | -0.921 |  2.090 | 0.896 | 0.224 |  0.478 | 1.095 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.pos |   9 |  0.104 | -0.163 | -1.123 |  1.419 | 0.850 | 0.283 |  0.653 | 0.634 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.pos |  50 |  0.479 |  0.654 | -1.885 |  1.843 | 0.867 | 0.123 |  0.246 | 1.005 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.pos |  13 | -0.137 | -0.254 | -1.102 |  1.656 | 0.855 | 0.237 |  0.516 | 0.916 |
+| Controle |        |       |                   | E1     |             | tri.vocab.pre |  11 |  0.341 |  0.351 | -0.581 |  1.336 | 0.610 | 0.184 |  0.410 | 0.816 |
+| Controle |        |       |                   | E2     |             | tri.vocab.pre |  34 |  0.039 | -0.193 | -1.939 |  1.829 | 1.016 | 0.174 |  0.354 | 1.608 |
+| Controle |        |       |                   | E3     |             | tri.vocab.pre |  21 | -0.076 | -0.003 | -1.492 |  1.720 | 0.795 | 0.173 |  0.362 | 1.121 |
+| Controle |        |       |                   | E4     |             | tri.vocab.pre |  20 |  0.217 |  0.293 | -1.250 |  1.918 | 0.808 | 0.181 |  0.378 | 0.662 |
+| Controle |        |       |                   | E5     |             | tri.vocab.pre |  59 |  0.074 |  0.033 | -1.493 |  1.721 | 0.883 | 0.115 |  0.230 | 1.447 |
+| Controle |        |       |                   | E6     |             | tri.vocab.pre |  14 |  0.204 |  0.448 | -1.612 |  1.274 | 0.864 | 0.231 |  0.499 | 0.980 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.pre |  12 | -0.445 | -0.821 | -2.194 |  1.404 | 1.147 | 0.331 |  0.729 | 1.610 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.pre |  22 | -0.035 |  0.022 | -1.988 |  1.915 | 0.921 | 0.196 |  0.408 | 1.190 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.pre |  16 |  0.224 |  0.223 | -1.640 |  1.903 | 1.047 | 0.262 |  0.558 | 1.632 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.pre |   9 |  0.165 |  0.001 | -1.055 |  0.918 | 0.644 | 0.215 |  0.495 | 0.840 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.pre |  50 |  0.332 |  0.553 | -2.038 |  1.834 | 0.864 | 0.122 |  0.246 | 1.029 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.pre |  13 | -0.003 | -0.047 | -1.230 |  1.626 | 0.798 | 0.221 |  0.482 | 0.943 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.pos | 104 |  0.145 |  0.290 | -2.207 |  2.106 | 1.027 | 0.101 |  0.200 | 1.665 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.pos |  55 |  0.081 |  0.144 | -1.671 |  2.016 | 0.872 | 0.118 |  0.236 | 1.217 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.pos |  84 |  0.310 |  0.545 | -1.885 |  1.843 | 0.938 | 0.102 |  0.204 | 1.309 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.pos |  38 |  0.186 |  0.146 | -1.123 |  2.090 | 0.893 | 0.145 |  0.294 | 1.280 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.pre | 104 |  0.091 |  0.051 | -1.939 |  1.829 | 0.902 | 0.088 |  0.175 | 1.436 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.pre |  55 |  0.102 |  0.223 | -1.612 |  1.918 | 0.814 | 0.110 |  0.220 | 1.148 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.pre |  84 |  0.125 |  0.279 | -2.194 |  1.915 | 0.954 | 0.104 |  0.207 | 1.413 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.pre |  38 |  0.133 | -0.002 | -1.640 |  1.903 | 0.867 | 0.141 |  0.285 | 1.166 |
+
 ## Vocabulario Ensinado (Acertos)
 
 | grupo    | genero | idade | zona.participante | escola | zona.escola | variable                 |   n |  mean | median | min | max |    sd |    se |     ci |  iqr |
@@ -309,6 +458,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Controle |        |       |                   |        | Rural       | score.vocab.ensinado.pre |  58 | 3.897 |    4.0 |   0 |   9 | 2.330 | 0.306 |  0.613 | 2.75 |
 | WordGen  |        |       |                   |        | Urbana      | score.vocab.ensinado.pre |  95 | 4.000 |    4.0 |   0 |  10 | 2.037 | 0.209 |  0.415 | 2.00 |
 | WordGen  |        |       |                   |        | Rural       | score.vocab.ensinado.pre |  40 | 4.350 |    4.5 |   0 |  10 | 2.497 | 0.395 |  0.798 | 3.25 |
+
+## Vocabulario Ensinado (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable               |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:-----------------------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.ensinado.pos |  80 |  0.103 |  0.173 | -1.451 |  1.741 | 0.875 | 0.098 |  0.195 | 1.499 |
+| Controle | M      |       |                   |        |             | tri.vocab.ensinado.pos |  79 | -0.017 |  0.025 | -1.409 |  1.474 | 0.811 | 0.091 |  0.182 | 1.289 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.ensinado.pos |  53 |  0.446 |  0.682 | -1.232 |  1.688 | 0.743 | 0.102 |  0.205 | 0.958 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.ensinado.pos |  69 | -0.038 | -0.035 | -1.396 |  1.474 | 0.791 | 0.095 |  0.190 | 1.080 |
+| Controle | F      |       |                   |        |             | tri.vocab.ensinado.pre |  80 |  0.133 |  0.119 | -1.359 |  1.617 | 0.855 | 0.096 |  0.190 | 1.266 |
+| Controle | M      |       |                   |        |             | tri.vocab.ensinado.pre |  79 | -0.004 |  0.009 | -1.451 |  1.527 | 0.760 | 0.086 |  0.170 | 1.193 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.ensinado.pre |  53 |  0.331 |  0.393 | -1.451 |  1.741 | 0.767 | 0.105 |  0.211 | 1.220 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.ensinado.pre |  69 | -0.126 | -0.120 | -1.451 |  1.280 | 0.725 | 0.087 |  0.174 | 0.970 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.ensinado.pos |  28 |  0.271 |  0.620 | -1.451 |  1.741 | 0.903 | 0.171 |  0.350 | 1.481 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.ensinado.pos |  90 |  0.061 |  0.155 | -1.409 |  1.474 | 0.869 | 0.092 |  0.182 | 1.542 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.ensinado.pos |  23 | -0.043 |  0.093 | -1.262 |  1.313 | 0.713 | 0.149 |  0.309 | 0.915 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.ensinado.pos |   8 | -0.173 | -0.036 | -1.063 |  0.462 | 0.481 | 0.170 |  0.402 | 0.568 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.ensinado.pos |   2 |  0.086 |  0.086 | -0.983 |  1.156 | 1.512 | 1.069 | 13.589 | 1.069 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.ensinado.pos |   1 | -0.675 | -0.675 | -0.675 | -0.675 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pos |   7 | -0.474 | -0.635 | -1.232 |  0.940 | 0.773 | 0.292 |  0.715 | 0.785 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.ensinado.pos |  23 |  0.195 |  0.214 | -0.958 |  1.058 | 0.575 | 0.120 |  0.248 | 0.926 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.ensinado.pos |  76 |  0.284 |  0.427 | -1.224 |  1.688 | 0.790 | 0.091 |  0.180 | 1.230 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.ensinado.pos |  14 |  0.112 |  0.031 | -1.232 |  1.566 | 0.878 | 0.235 |  0.507 | 1.217 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.ensinado.pos |   5 | -0.938 | -1.194 | -1.348 |  0.156 | 0.619 | 0.277 |  0.769 | 0.144 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.ensinado.pos |   2 | -0.916 | -0.916 | -1.396 | -0.437 | 0.678 | 0.480 |  6.095 | 0.480 |
+| WordGen  |        |       |                   |        |             | tri.vocab.ensinado.pos |   2 | -0.084 | -0.084 | -1.194 |  1.027 | 1.570 | 1.110 | 14.109 | 1.110 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.ensinado.pre |  28 |  0.188 |  0.286 | -1.451 |  1.550 | 0.842 | 0.159 |  0.327 | 1.315 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.ensinado.pre |  90 |  0.115 |  0.119 | -1.396 |  1.617 | 0.822 | 0.087 |  0.172 | 1.277 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.ensinado.pre |  23 | -0.075 | -0.042 | -1.192 |  1.477 | 0.810 | 0.169 |  0.350 | 1.528 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.ensinado.pre |   8 | -0.071 |  0.189 | -1.072 |  0.662 | 0.682 | 0.241 |  0.570 | 0.971 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.ensinado.pre |   2 | -0.318 | -0.318 | -1.051 |  0.414 | 1.036 | 0.732 |  9.305 | 0.732 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.ensinado.pre |   1 | -0.107 | -0.107 | -0.107 | -0.107 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pre |   7 | -0.323 | -0.456 | -1.355 |  0.864 | 0.691 | 0.261 |  0.639 | 0.548 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.ensinado.pre |  23 |  0.033 |  0.058 | -1.409 |  1.176 | 0.779 | 0.162 |  0.337 | 1.268 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.ensinado.pre |  76 |  0.142 |  0.117 | -1.451 |  1.375 | 0.707 | 0.081 |  0.162 | 1.191 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.ensinado.pre |  14 |  0.095 |  0.127 | -1.396 |  1.741 | 1.010 | 0.270 |  0.583 | 1.605 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.ensinado.pre |   5 | -0.381 |  0.025 | -1.282 |  0.145 | 0.656 | 0.293 |  0.814 | 0.967 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.ensinado.pre |   2 | -0.888 | -0.888 | -1.063 | -0.713 | 0.247 | 0.175 |  2.221 | 0.175 |
+| WordGen  |        |       |                   |        |             | tri.vocab.ensinado.pre |   2 | -0.170 | -0.170 | -1.451 |  1.112 | 1.812 | 1.281 | 16.281 | 1.281 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.ensinado.pos |  69 |  0.135 |  0.377 | -1.451 |  1.741 | 0.893 | 0.108 |  0.215 | 1.539 |
+| Controle |        |       | Rural             |        |             | tri.vocab.ensinado.pos |  53 | -0.001 |  0.015 | -1.409 |  1.566 | 0.815 | 0.112 |  0.225 | 1.331 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pos |  37 | -0.064 | -0.047 | -1.355 |  1.316 | 0.790 | 0.130 |  0.263 | 1.455 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.ensinado.pos |  45 |  0.290 |  0.368 | -1.396 |  1.411 | 0.748 | 0.112 |  0.225 | 1.115 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.ensinado.pos |  51 |  0.134 |  0.130 | -1.224 |  1.688 | 0.815 | 0.114 |  0.229 | 1.215 |
+| WordGen  |        |       |                   |        |             | tri.vocab.ensinado.pos |  26 |  0.041 |  0.086 | -1.348 |  1.620 | 0.877 | 0.172 |  0.354 | 1.229 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.ensinado.pre |  69 |  0.082 |  0.119 | -1.451 |  1.414 | 0.804 | 0.097 |  0.193 | 1.212 |
+| Controle |        |       | Rural             |        |             | tri.vocab.ensinado.pre |  53 |  0.067 | -0.028 | -1.396 |  1.617 | 0.805 | 0.111 |  0.222 | 1.244 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pre |  37 |  0.029 | -0.085 | -1.192 |  1.527 | 0.847 | 0.139 |  0.282 | 1.356 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.ensinado.pre |  45 |  0.140 |  0.084 | -1.396 |  1.230 | 0.749 | 0.112 |  0.225 | 1.289 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.ensinado.pre |  51 |  0.015 | -0.013 | -1.451 |  1.741 | 0.771 | 0.108 |  0.217 | 1.262 |
+| WordGen  |        |       |                   |        |             | tri.vocab.ensinado.pre |  26 |  0.068 |  0.109 | -1.451 |  1.375 | 0.844 | 0.166 |  0.341 | 1.215 |
+| Controle |        |       |                   | E1     |             | tri.vocab.ensinado.pos |  11 |  0.208 |  0.432 | -1.232 |  1.033 | 0.923 | 0.278 |  0.620 | 1.303 |
+| Controle |        |       |                   | E2     |             | tri.vocab.ensinado.pos |  34 | -0.081 | -0.121 | -1.451 |  1.741 | 0.899 | 0.154 |  0.314 | 1.254 |
+| Controle |        |       |                   | E3     |             | tri.vocab.ensinado.pos |  21 | -0.151 | -0.353 | -1.262 |  1.235 | 0.766 | 0.167 |  0.349 | 1.298 |
+| Controle |        |       |                   | E4     |             | tri.vocab.ensinado.pos |  20 |  0.183 |  0.293 | -1.194 |  1.412 | 0.886 | 0.198 |  0.415 | 1.572 |
+| Controle |        |       |                   | E5     |             | tri.vocab.ensinado.pos |  59 |  0.115 |  0.220 | -1.409 |  1.566 | 0.823 | 0.107 |  0.215 | 1.474 |
+| Controle |        |       |                   | E6     |             | tri.vocab.ensinado.pos |  14 |  0.007 | -0.011 | -1.212 |  1.316 | 0.828 | 0.221 |  0.478 | 1.338 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.ensinado.pos |  12 | -0.196 | -0.447 | -1.396 |  1.688 | 0.942 | 0.272 |  0.599 | 1.223 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.ensinado.pos |  22 |  0.169 |  0.447 | -1.232 |  1.411 | 0.805 | 0.172 |  0.357 | 1.127 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.ensinado.pos |  16 |  0.184 |  0.130 | -1.194 |  1.501 | 0.824 | 0.206 |  0.439 | 0.837 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.ensinado.pos |   9 | -0.090 | -0.035 | -1.224 |  1.316 | 0.805 | 0.268 |  0.619 | 0.757 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.ensinado.pos |  50 |  0.391 |  0.468 | -1.194 |  1.566 | 0.693 | 0.098 |  0.197 | 1.101 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.ensinado.pos |  13 | -0.159 | -0.517 | -1.348 |  1.620 | 0.906 | 0.251 |  0.547 | 1.401 |
+| Controle |        |       |                   | E1     |             | tri.vocab.ensinado.pre |  11 |  0.467 |  0.637 | -0.408 |  1.101 | 0.561 | 0.169 |  0.377 | 0.877 |
+| Controle |        |       |                   | E2     |             | tri.vocab.ensinado.pre |  34 | -0.036 | -0.034 | -1.262 |  1.550 | 0.852 | 0.146 |  0.297 | 1.304 |
+| Controle |        |       |                   | E3     |             | tri.vocab.ensinado.pre |  21 | -0.021 | -0.028 | -1.192 |  1.477 | 0.676 | 0.148 |  0.308 | 1.092 |
+| Controle |        |       |                   | E4     |             | tri.vocab.ensinado.pre |  20 |  0.092 |  0.262 | -1.212 |  1.617 | 0.827 | 0.185 |  0.387 | 1.234 |
+| Controle |        |       |                   | E5     |             | tri.vocab.ensinado.pre |  59 |  0.056 |  0.084 | -1.451 |  1.617 | 0.857 | 0.112 |  0.223 | 1.271 |
+| Controle |        |       |                   | E6     |             | tri.vocab.ensinado.pre |  14 |  0.120 |  0.052 | -1.072 |  1.527 | 0.850 | 0.227 |  0.491 | 1.379 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.ensinado.pre |  12 | -0.142 | -0.145 | -1.451 |  0.994 | 0.757 | 0.218 |  0.481 | 0.910 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.ensinado.pre |  22 | -0.190 | -0.280 | -1.409 |  1.230 | 0.798 | 0.170 |  0.354 | 0.944 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.ensinado.pre |  16 |  0.065 |  0.013 | -1.355 |  1.741 | 0.937 | 0.234 |  0.499 | 1.430 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.ensinado.pre |   9 | -0.073 |  0.150 | -1.212 |  1.058 | 0.716 | 0.239 |  0.550 | 0.984 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.ensinado.pre |  50 |  0.267 |  0.219 | -1.451 |  1.280 | 0.662 | 0.094 |  0.188 | 0.954 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.ensinado.pre |  13 |  0.080 |  0.311 | -1.282 |  1.375 | 0.916 | 0.254 |  0.553 | 1.543 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.ensinado.pos | 104 |  0.061 |  0.180 | -1.451 |  1.741 | 0.857 | 0.084 |  0.167 | 1.483 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.ensinado.pos |  55 |  0.011 | -0.025 | -1.262 |  1.412 | 0.825 | 0.111 |  0.223 | 1.478 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.ensinado.pos |  84 |  0.249 |  0.395 | -1.396 |  1.688 | 0.780 | 0.085 |  0.169 | 1.210 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.ensinado.pos |  38 |  0.002 |  0.054 | -1.348 |  1.620 | 0.841 | 0.136 |  0.276 | 1.298 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.ensinado.pre | 104 |  0.070 |  0.080 | -1.451 |  1.617 | 0.835 | 0.082 |  0.162 | 1.257 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.ensinado.pre |  55 |  0.056 |  0.025 | -1.212 |  1.617 | 0.767 | 0.103 |  0.207 | 1.174 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.ensinado.pre |  84 |  0.089 |  0.059 | -1.451 |  1.280 | 0.737 | 0.080 |  0.160 | 1.191 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.ensinado.pre |  38 |  0.037 |  0.147 | -1.355 |  1.741 | 0.862 | 0.140 |  0.283 | 1.374 |
 
 ## Vocabulario Nao Ensinado (Acertos)
 
@@ -397,6 +629,89 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | WordGen  |        |       |                   |        | Urbana      | score.vocab.nao.ensinado.pre |  95 | 17.568 |   18.0 |   0 |  31 |  7.365 | 0.756 |  1.500 | 11.00 |
 | WordGen  |        |       |                   |        | Rural       | score.vocab.nao.ensinado.pre |  40 | 16.775 |   16.0 |   0 |  30 |  7.029 | 1.111 |  2.248 |  8.00 |
 
+## Vocabulario Nao Ensinado (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable                   |   n |   mean | median |    min |    max |    sd |    se |     ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:---------------------------|----:|-------:|-------:|-------:|-------:|------:|------:|-------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  80 |  0.271 |  0.205 | -1.289 |  2.382 | 0.865 | 0.097 |  0.193 | 1.151 |
+| Controle | M      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  79 |  0.056 |  0.051 | -1.423 |  2.203 | 0.996 | 0.112 |  0.223 | 1.536 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  53 |  0.611 |  0.661 | -1.393 |  2.337 | 1.005 | 0.138 |  0.277 | 1.632 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  69 |  0.008 |  0.039 | -1.424 |  2.023 | 0.873 | 0.105 |  0.210 | 1.391 |
+| Controle | F      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  80 |  0.142 |  0.120 | -1.424 |  1.806 | 0.828 | 0.093 |  0.184 | 1.267 |
+| Controle | M      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  79 | -0.014 | -0.144 | -2.007 |  2.190 | 0.968 | 0.109 |  0.217 | 1.516 |
+| WordGen  | F      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  53 |  0.393 |  0.473 | -1.478 |  2.222 | 0.884 | 0.121 |  0.244 | 1.189 |
+| WordGen  | M      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  69 | -0.085 | -0.153 | -1.671 |  1.946 | 0.849 | 0.102 |  0.204 | 1.373 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pos |  28 |  0.182 |  0.235 | -1.423 |  2.382 | 0.903 | 0.171 |  0.350 | 1.018 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pos |  90 |  0.325 |  0.406 | -1.304 |  2.363 | 0.954 | 0.101 |  0.200 | 1.498 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pos |  23 | -0.190 | -0.355 | -1.378 |  2.203 | 0.853 | 0.178 |  0.369 | 0.841 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pos |   8 | -0.125 | -0.036 | -1.207 |  0.989 | 0.805 | 0.284 |  0.673 | 1.300 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pos |   2 | -0.574 | -0.574 | -1.293 |  0.144 | 1.017 | 0.719 |  9.135 | 0.719 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.nao.ensinado.pos |   1 | -0.822 | -0.822 | -0.822 | -0.822 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |   7 | -0.139 | -0.153 | -1.099 |  1.220 | 0.927 | 0.350 |  0.857 | 1.467 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pos |  23 |  0.142 |  0.204 | -1.014 |  1.456 | 0.654 | 0.136 |  0.283 | 0.832 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pos |  76 |  0.426 |  0.425 | -1.393 |  2.337 | 0.986 | 0.113 |  0.225 | 1.718 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pos |  14 |  0.297 |  0.107 | -1.308 |  2.275 | 1.135 | 0.303 |  0.655 | 1.441 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pos |   5 | -1.084 | -1.111 | -1.254 | -0.847 | 0.155 | 0.069 |  0.192 | 0.135 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pos |   2 | -1.073 | -1.073 | -1.424 | -0.723 | 0.495 | 0.350 |  4.450 | 0.350 |
+| WordGen  |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |   2 |  0.349 |  0.349 | -0.280 |  0.977 | 0.889 | 0.628 |  7.985 | 0.628 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pre |  28 |  0.237 |  0.180 | -0.825 |  1.684 | 0.732 | 0.138 |  0.284 | 1.230 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pre |  90 |  0.117 |  0.046 | -2.007 |  2.190 | 0.952 | 0.100 |  0.199 | 1.590 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pre |  23 | -0.147 | -0.445 | -1.346 |  1.806 | 0.987 | 0.206 |  0.427 | 1.445 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pre |   8 | -0.248 | -0.132 | -1.112 |  0.498 | 0.736 | 0.260 |  0.615 | 1.373 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pre |   2 | -0.305 | -0.305 | -0.722 |  0.112 | 0.590 | 0.417 |  5.298 | 0.417 |
+| Controle |        | 16y   |                   |        |             | tri.vocab.nao.ensinado.pre |   1 | -0.558 | -0.558 | -0.558 | -0.558 |       |       |        | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |   7 | -0.054 | -0.249 | -1.226 |  0.906 | 0.798 | 0.301 |  0.738 | 1.150 |
+| WordGen  |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pre |  23 |  0.106 |  0.055 | -1.256 |  1.913 | 0.807 | 0.168 |  0.349 | 1.025 |
+| WordGen  |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pre |  76 |  0.245 |  0.254 | -1.417 |  2.143 | 0.872 | 0.100 |  0.199 | 1.458 |
+| WordGen  |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pre |  14 |  0.013 | -0.086 | -1.526 |  2.222 | 1.041 | 0.278 |  0.601 | 0.590 |
+| WordGen  |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pre |   5 | -0.663 | -0.740 | -1.671 |  0.435 | 0.753 | 0.337 |  0.935 | 0.281 |
+| WordGen  |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pre |   2 | -0.856 | -0.856 | -0.890 | -0.823 | 0.047 | 0.033 |  0.424 | 0.033 |
+| WordGen  |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |   2 | -0.651 | -0.651 | -1.478 |  0.176 | 1.170 | 0.827 | 10.508 | 0.827 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pos |  69 |  0.325 |  0.281 | -1.423 |  2.382 | 0.972 | 0.117 |  0.233 | 1.458 |
+| Controle |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pos |  53 |  0.047 |  0.051 | -1.378 |  2.363 | 0.855 | 0.118 |  0.236 | 1.328 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |  37 |  0.030 | -0.058 | -1.304 |  2.203 | 0.958 | 0.157 |  0.319 | 1.596 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pos |  45 |  0.278 |  0.314 | -1.424 |  2.042 | 1.039 | 0.155 |  0.312 | 1.559 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pos |  51 |  0.330 |  0.188 | -1.154 |  2.337 | 0.948 | 0.133 |  0.267 | 1.397 |
+| WordGen  |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |  26 |  0.136 | -0.131 | -1.254 |  1.883 | 0.942 | 0.185 |  0.381 | 1.367 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pre |  69 |  0.171 |  0.032 | -1.424 |  2.190 | 0.877 | 0.106 |  0.211 | 1.323 |
+| Controle |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pre |  53 | -0.028 | -0.082 | -1.554 |  1.684 | 0.843 | 0.116 |  0.232 | 1.479 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |  37 | -0.002 | -0.265 | -2.007 |  1.806 | 1.022 | 0.168 |  0.341 | 1.688 |
+| WordGen  |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pre |  45 |  0.260 |  0.574 | -1.526 |  2.143 | 0.918 | 0.137 |  0.276 | 1.505 |
+| WordGen  |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pre |  51 |  0.013 | -0.029 | -1.671 |  2.222 | 0.890 | 0.125 |  0.250 | 1.175 |
+| WordGen  |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |  26 |  0.099 | -0.053 | -1.478 |  2.059 | 0.858 | 0.168 |  0.346 | 0.980 |
+| Controle |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pos |  11 |  0.439 |  0.462 | -0.697 |  1.768 | 0.671 | 0.202 |  0.451 | 0.763 |
+| Controle |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pos |  34 |  0.076 | -0.288 | -1.298 |  2.382 | 1.116 | 0.191 |  0.389 | 1.749 |
+| Controle |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pos |  21 |  0.011 |  0.016 | -1.378 |  2.041 | 0.830 | 0.181 |  0.378 | 0.951 |
+| Controle |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pos |  20 |  0.068 |  0.154 | -1.423 |  2.171 | 0.844 | 0.189 |  0.395 | 1.048 |
+| Controle |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pos |  59 |  0.259 |  0.244 | -1.304 |  2.363 | 0.962 | 0.125 |  0.251 | 1.733 |
+| Controle |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pos |  14 |  0.124 |  0.105 | -1.298 |  1.419 | 0.857 | 0.229 |  0.495 | 1.097 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pos |  12 | -0.065 | -0.620 | -1.424 |  1.742 | 1.223 | 0.353 |  0.777 | 2.041 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pos |  22 |  0.171 | -0.075 | -1.254 |  2.023 | 0.943 | 0.201 |  0.418 | 1.405 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pos |  16 |  0.507 |  0.341 | -1.111 |  2.337 | 1.059 | 0.265 |  0.564 | 1.205 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pos |   9 |  0.050 | -0.161 | -0.961 |  1.638 | 0.877 | 0.292 |  0.674 | 0.710 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pos |  50 |  0.473 |  0.594 | -1.393 |  2.226 | 0.885 | 0.125 |  0.252 | 1.051 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pos |  13 | -0.174 | -0.451 | -1.104 |  1.883 | 0.970 | 0.269 |  0.586 | 0.751 |
+| Controle |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pre |  11 |  0.197 | -0.016 | -0.660 |  1.631 | 0.718 | 0.217 |  0.483 | 0.935 |
+| Controle |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pre |  34 |  0.033 | -0.311 | -1.554 |  2.102 | 1.066 | 0.183 |  0.372 | 1.772 |
+| Controle |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pre |  21 | -0.143 | -0.252 | -1.206 |  1.662 | 0.795 | 0.173 |  0.362 | 1.204 |
+| Controle |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pre |  20 |  0.224 |  0.399 | -1.005 |  2.190 | 0.789 | 0.176 |  0.369 | 0.805 |
+| Controle |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pre |  59 |  0.049 | -0.050 | -1.372 |  1.806 | 0.894 | 0.116 |  0.233 | 1.546 |
+| Controle |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pre |  14 |  0.184 |  0.409 | -2.007 |  1.554 | 0.993 | 0.265 |  0.573 | 1.334 |
+| WordGen  |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pre |  12 | -0.352 | -0.856 | -1.417 |  1.343 | 0.935 | 0.270 |  0.594 | 1.158 |
+| WordGen  |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pre |  22 | -0.002 |  0.032 | -1.671 |  1.946 | 0.864 | 0.184 |  0.383 | 1.236 |
+| WordGen  |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pre |  16 |  0.179 | -0.013 | -1.249 |  1.913 | 0.983 | 0.246 |  0.524 | 1.713 |
+| WordGen  |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pre |   9 |  0.103 | -0.062 | -0.790 |  1.132 | 0.662 | 0.221 |  0.509 | 0.817 |
+| WordGen  |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pre |  50 |  0.328 |  0.566 | -1.526 |  2.222 | 0.877 | 0.124 |  0.249 | 1.192 |
+| WordGen  |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pre |  13 | -0.076 | -0.162 | -1.256 |  2.059 | 0.904 | 0.251 |  0.547 | 0.701 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pos | 104 |  0.218 |  0.159 | -1.304 |  2.382 | 0.988 | 0.097 |  0.192 | 1.691 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pos |  55 |  0.061 |  0.120 | -1.423 |  2.171 | 0.827 | 0.112 |  0.224 | 1.090 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pos |  84 |  0.317 |  0.378 | -1.424 |  2.226 | 0.963 | 0.105 |  0.209 | 1.428 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pos |  38 |  0.166 | -0.016 | -1.111 |  2.337 | 1.010 | 0.164 |  0.332 | 1.172 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pre | 104 |  0.059 | -0.084 | -1.554 |  2.102 | 0.931 | 0.091 |  0.181 | 1.602 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pre |  55 |  0.074 |  0.138 | -2.007 |  2.190 | 0.848 | 0.114 |  0.229 | 1.385 |
+| WordGen  |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pre |  84 |  0.144 |  0.174 | -1.671 |  2.222 | 0.906 | 0.099 |  0.197 | 1.439 |
+| WordGen  |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pre |  38 |  0.074 | -0.066 | -1.256 |  2.059 | 0.874 | 0.142 |  0.287 | 1.001 |
+
 # Checking of Assumptions
 
 ## Assumption: Normality distribution
@@ -411,6 +726,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.pos | 281 | 0.2396232 | 1.803559 | YES      |  17.79109 | D’Agostino | 1.37e-04 | \*\*     | \-        |
 | score.vocab.pos | 281 | 0.4333917 | 2.292222 | YES      |  28.01984 | D’Agostino | 8.00e-07 | \*\*\*\* | \-        |
 
+### Vocabulario (TRI)
+
+| var           |   n |  skewness | kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:--------------|----:|----------:|---------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.vocab.pos | 281 | 0.2714153 | 1.727077 | YES      |  17.84419 | D’Agostino | 0.0001334 | \*\*     | \-        |
+| tri.vocab.pos | 272 | 0.3560207 | 1.866648 | YES      |  20.98931 | D’Agostino | 0.0000277 | \*\*\*   | \-        |
+| tri.vocab.pos | 218 | 0.2495529 | 1.662276 | YES      |  13.72961 | D’Agostino | 0.0010439 | \*       | \-        |
+| tri.vocab.pos | 281 | 0.2345223 | 1.630997 | YES      |  16.06994 | D’Agostino | 0.0003239 | \*\*     | \-        |
+| tri.vocab.pos | 281 | 0.3057817 | 2.155415 | YES      |  22.65617 | D’Agostino | 0.0000120 | \*\*\*   | \-        |
+
 ### Vocabulario Ensinado (Acertos)
 
 | var                      |   n |   skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
@@ -421,6 +746,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.ensinado.pos | 311 |  0.0040738 | -0.0767241 | YES      | 0.0014387 | D’Agostino | 0.9992809 | ns       | \-        |
 | score.vocab.ensinado.pos | 311 | -0.0312613 | -0.0767263 | YES      | 0.0540149 | D’Agostino | 0.9733540 | ns       | \-        |
 
+### Vocabulario Ensinado (TRI)
+
+| var                    |   n |   skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------------------|----:|-----------:|-----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.vocab.ensinado.pos | 281 | -0.0293596 | -0.0235038 | YES      | 0.0824123 | D’Agostino | 0.9596313 | ns       | \-        |
+| tri.vocab.ensinado.pos | 272 | -0.0405523 | -0.1161849 | YES      | 0.0977135 | D’Agostino | 0.9523175 | ns       | \-        |
+| tri.vocab.ensinado.pos | 218 | -0.0618718 |  0.0282043 | YES      | 0.3125756 | D’Agostino | 0.8553130 | ns       | \-        |
+| tri.vocab.ensinado.pos | 281 | -0.0743785 |  0.0231588 | YES      | 0.4054226 | D’Agostino | 0.8165140 | ns       | \-        |
+| tri.vocab.ensinado.pos | 281 | -0.0140650 |  0.0304577 | YES      | 0.1593857 | D’Agostino | 0.9233999 | ns       | \-        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 | var                          |   n |   skewness | kurtosis | symmetry | statistic | method     |   p | p.signif | normality |
@@ -430,6 +765,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.nao.ensinado.pos | 234 | -0.7361458 | 3.025671 | NO       |  40.72105 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.vocab.nao.ensinado.pos | 311 | -0.8802151 | 2.514109 | NO       |  55.43535 | D’Agostino |   0 | \*\*\*\* | \-        |
 | score.vocab.nao.ensinado.pos | 311 | -0.8870552 | 2.524885 | NO       |  55.93266 | D’Agostino |   0 | \*\*\*\* | \-        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        |   n |  skewness | kurtosis | symmetry | statistic | method     |     p | p.signif | normality |
+|:---------------------------|----:|----------:|---------:|:---------|----------:|:-----------|------:|:---------|:----------|
+| tri.vocab.nao.ensinado.pos | 281 | 0.5475498 | 2.325935 | NO       |  32.88580 | D’Agostino | 1e-07 | \*\*\*\* | \-        |
+| tri.vocab.nao.ensinado.pos | 272 | 0.7258540 | 2.943415 | NO       |  45.06233 | D’Agostino | 0e+00 | \*\*\*\* | \-        |
+| tri.vocab.nao.ensinado.pos | 218 | 0.5282714 | 2.693818 | NO       |  28.59140 | D’Agostino | 6e-07 | \*\*\*\* | \-        |
+| tri.vocab.nao.ensinado.pos | 281 | 0.4493490 | 2.547680 | YES      |  30.80411 | D’Agostino | 2e-07 | \*\*\*\* | \-        |
+| tri.vocab.nao.ensinado.pos | 281 | 0.5995626 | 3.118388 | NO       |  41.69496 | D’Agostino | 0e+00 | \*\*\*\* | \-        |
 
 ## Assumption: Homogeneity
 
@@ -448,6 +793,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     277 |  1.583612 | 0.1935655 | ns       |
 | score.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     273 |  1.490000 | 0.2180000 | ns       |
 
+### Vocabulario (TRI)
+
+| var           | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:--------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 281 |       3 |     277 |  1.695653 | 0.1681806 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 281 |       3 |     273 |  3.398000 | 0.0180000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 272 |      10 |     261 |  1.387204 | 0.1860817 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 272 |       9 |     251 |  2.436000 | 0.0110000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     214 |  1.119437 | 0.3421151 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     210 |  4.510000 | 0.0040000 | \*       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 281 |      11 |     269 |  1.594044 | 0.1001881 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 281 |      11 |     257 |  1.587000 | 0.1020000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     277 |  2.808645 | 0.0399266 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     273 |  3.341000 | 0.0200000 | ns       |
+
 ### Vocabulario Ensinado (Acertos)
 
 | var                      | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -463,6 +823,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 311 |       3 |     307 | 1.5984477 | 0.1897554 | ns       |
 | score.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 311 |       3 |     303 | 0.5560000 | 0.6450000 | ns       |
 
+### Vocabulario Ensinado (TRI)
+
+| var                    | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 281 |       3 |     277 | 0.2967247 | 0.8277564 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 281 |       3 |     273 | 0.8230000 | 0.4820000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 272 |      10 |     261 | 1.3821722 | 0.1884405 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 272 |       9 |     251 | 1.4070000 | 0.1850000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     214 | 0.5596429 | 0.6422214 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     210 | 0.4240000 | 0.7360000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 281 |      11 |     269 | 0.5578548 | 0.8618974 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 281 |      11 |     257 | 1.1610000 | 0.3140000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     277 | 0.1130621 | 0.9524186 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     273 | 0.5050000 | 0.6790000 | ns       |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 | var                          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -477,6 +852,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 311 |      11 |     287 | 1.9430000 | 0.0340000 | ns       |
 | score.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 311 |       3 |     307 | 2.0174835 | 0.1114501 | ns       |
 | score.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 311 |       3 |     303 | 1.2410000 | 0.2950000 | ns       |
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:---------------------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`genero`            | 281 |       3 |     277 | 1.7744649 | 0.1522500 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            | 281 |       3 |     273 | 0.5970000 | 0.6180000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`idade`             | 272 |      10 |     261 | 0.9348042 | 0.5016236 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             | 272 |       9 |     251 | 1.9380000 | 0.0470000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     214 | 1.6590643 | 0.1768713 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` | 218 |       3 |     210 | 2.4420000 | 0.0650000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`escola`            | 281 |      11 |     269 | 2.3294438 | 0.0094908 | \*       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            | 281 |      11 |     257 | 1.3640000 | 0.1900000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     277 | 4.1314772 | 0.0068965 | \*       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       | 281 |       3 |     273 | 0.8920000 | 0.4460000 | ns       |
 
 # Computation of ANCOVA test and Pairwise Comparison
 
@@ -494,6 +884,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola            |   5 | 274 |   336.097 | 7531.058 |   2.446 | 0.034   | 0.043 | \*     |
 | 12  | zona.escola       |   1 | 278 |   101.327 | 7765.828 |   3.627 | 0.058   | 0.013 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect            | DFn | DFd |     SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|--------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.pre     |   1 | 278 | 162.985 | 89.799 | 504.570 | \<0.001 | 0.645 | \*     |
+| 2   | grupo             |   1 | 278 |   0.996 | 89.799 |   3.084 | 0.08    | 0.011 |        |
+| 4   | genero            |   1 | 278 |   0.500 | 90.295 |   1.541 | 0.216   | 0.006 |        |
+| 6   | idade             |   5 | 265 |   3.748 | 82.962 |   2.394 | 0.038   | 0.043 | \*     |
+| 8   | zona.participante |   1 | 215 |   0.036 | 76.734 |   0.100 | 0.752   | 0.000 |        |
+| 10  | escola            |   5 | 274 |   3.036 | 87.759 |   1.896 | 0.095   | 0.033 |        |
+| 12  | zona.escola       |   1 | 278 |   0.651 | 90.144 |   2.009 | 0.158   | 0.007 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |     SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -506,6 +908,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola                   |   5 | 304 |  31.679 | 1354.255 |  1.422 | 0.216   | 0.023 |        |
 | 12  | zona.escola              |   1 | 308 |   1.808 | 1384.125 |  0.402 | 0.526   | 0.001 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                 | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:-----------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.ensinado.pre |   1 | 278 | 69.678 | 120.912 | 160.202 | \<0.001 | 0.366 | \*     |
+| 2   | grupo                  |   1 | 278 |  1.051 | 120.912 |   2.417 | 0.121   | 0.009 |        |
+| 4   | genero                 |   1 | 278 |  0.647 | 121.316 |   1.483 | 0.224   | 0.005 |        |
+| 6   | idade                  |   5 | 265 |  3.410 | 115.850 |   1.560 | 0.172   | 0.029 |        |
+| 8   | zona.participante      |   1 | 215 |  0.455 |  97.427 |   1.004 | 0.317   | 0.005 |        |
+| 10  | escola                 |   5 | 274 |  2.637 | 119.326 |   1.211 | 0.304   | 0.022 |        |
+| 12  | zona.escola            |   1 | 278 |  0.881 | 121.082 |   2.024 | 0.156   | 0.007 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |      SSn |       SSd |       F | p       |   ges | p\<.05 |
@@ -517,6 +931,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | zona.participante            |   1 | 231 |  205.415 |  8089.781 |   5.866 | 0.016   | 0.025 | \*     |
 | 10  | escola                       |   5 | 304 |  253.648 | 13055.536 |   1.181 | 0.318   | 0.019 |        |
 | 12  | zona.escola                  |   1 | 308 |   24.019 | 13285.165 |   0.557 | 0.456   | 0.002 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |     SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|--------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 | 278 | 160.739 | 92.965 | 480.672 | \<0.001 | 0.634 | \*     |
+| 2   | grupo                      |   1 | 278 |   0.222 | 92.965 |   0.665 | 0.416   | 0.002 |        |
+| 4   | genero                     |   1 | 278 |   1.172 | 92.015 |   3.540 | 0.061   | 0.013 |        |
+| 6   | idade                      |   5 | 265 |   4.441 | 86.129 |   2.733 | 0.02    | 0.049 | \*     |
+| 8   | zona.participante          |   1 | 215 |   0.193 | 79.001 |   0.526 | 0.469   | 0.002 |        |
+| 10  | escola                     |   5 | 274 |   3.949 | 89.238 |   2.425 | 0.036   | 0.042 | \*     |
+| 12  | zona.escola                |   1 | 278 |   1.195 | 91.992 |   3.612 | 0.058   | 0.013 |        |
 
 ## ANCOVA tests for two factors
 
@@ -531,6 +957,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola            |   5 | 268 |   120.672 | 7373.761 |   0.877 | 0.497   | 0.016 |        |
 | 20  | grupo:zona.escola       |   1 | 276 |    14.972 | 7709.721 |   0.536 | 0.465   | 0.002 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect                  | DFn | DFd |     SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|--------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.pre           |   1 | 276 | 152.997 | 89.157 | 473.628 | \<0.001 | 0.632 | \*     |
+| 4   | grupo:genero            |   1 | 276 |   0.031 | 89.157 |   0.096 | 0.757   | 0.000 |        |
+| 8   | grupo:idade             |   4 | 260 |   2.117 | 80.347 |   1.712 | 0.148   | 0.026 |        |
+| 12  | grupo:zona.participante |   1 | 213 |   1.098 | 74.654 |   3.133 | 0.078   | 0.014 |        |
+| 16  | grupo:escola            |   5 | 268 |   0.863 | 86.114 |   0.537 | 0.748   | 0.010 |        |
+| 20  | grupo:zona.escola       |   1 | 276 |   0.049 | 89.155 |   0.151 | 0.698   | 0.001 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |     SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -542,6 +979,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola             |   5 | 298 |  10.246 | 1335.903 |  0.457 | 0.808   | 0.008 |        |
 | 20  | grupo:zona.escola        |   1 | 306 |   2.043 | 1375.324 |  0.455 | 0.501   | 0.001 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                  | DFn | DFd |    SSn |     SSd |       F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|-------:|--------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.ensinado.pre  |   1 | 276 | 63.336 | 119.659 | 146.088 | \<0.001 | 0.346 | \*     |
+| 4   | grupo:genero            |   1 | 276 |  0.481 | 119.659 |   1.110 | 0.293   | 0.004 |        |
+| 8   | grupo:idade             |   4 | 260 |  2.579 | 112.589 |   1.489 | 0.206   | 0.022 |        |
+| 12  | grupo:zona.participante |   1 | 213 |  0.030 |  96.317 |   0.067 | 0.795   | 0.000 |        |
+| 16  | grupo:escola            |   5 | 268 |  2.023 | 116.131 |   0.934 | 0.459   | 0.017 |        |
+| 20  | grupo:zona.escola       |   1 | 276 |  0.455 | 119.642 |   1.050 | 0.306   | 0.004 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |      SSn |       SSd |       F | p       |   ges | p\<.05 |
@@ -552,6 +1000,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 12  | grupo:zona.participante      |   1 | 229 |   76.641 |  8007.355 |   2.192 | 0.14    | 0.009 |        |
 | 16  | grupo:escola                 |   5 | 298 |   77.073 | 12978.380 |   0.354 | 0.88    | 0.006 |        |
 | 20  | grupo:zona.escola            |   1 | 306 |    1.668 | 13283.299 |   0.038 | 0.845   | 0.000 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |     SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|--------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 | 276 | 149.515 | 91.462 | 451.183 | \<0.001 | 0.620 | \*     |
+| 4   | grupo:genero               |   1 | 276 |   0.247 | 91.462 |   0.745 | 0.389   | 0.003 |        |
+| 8   | grupo:idade                |   4 | 260 |   2.287 | 83.795 |   1.774 | 0.134   | 0.027 |        |
+| 12  | grupo:zona.participante    |   1 | 213 |   1.817 | 76.998 |   5.027 | 0.026   | 0.023 | \*     |
+| 16  | grupo:escola               |   5 | 268 |   0.652 | 88.468 |   0.395 | 0.852   | 0.007 |        |
+| 20  | grupo:zona.escola          |   1 | 276 |   0.094 | 91.710 |   0.284 | 0.595   | 0.001 |        |
 
 ## ANCOVA tests for grupo=“Experimental”
 
@@ -566,6 +1025,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao    |   2 | 112 |  145.379 | 4004.670 |   2.033 | 0.136   | 0.035 |        |
 | 10  | monitor.experiencia |   1 | 113 |   20.093 | 4129.956 |   0.550 | 0.46    | 0.005 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect              | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.pre       |   1 | 105 | 40.280 | 39.549 | 106.939 | \<0.001 | 0.505 | \*     |
+| 2   | monitor             |   9 | 105 |  3.990 | 39.549 |   1.177 | 0.317   | 0.092 |        |
+| 4   | monitor.genero      |   1 | 113 |  0.026 | 43.513 |   0.068 | 0.795   | 0.001 |        |
+| 6   | monitor.area        |   8 | 106 |  3.951 | 39.588 |   1.322 | 0.24    | 0.091 |        |
+| 8   | monitor.formacao    |   2 | 112 |  0.509 | 43.030 |   0.662 | 0.518   | 0.012 |        |
+| 10  | monitor.experiencia |   1 | 113 |  0.236 | 43.303 |   0.615 | 0.435   | 0.005 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |    SSn |     SSd |      F | p       |   ges | p\<.05 |
@@ -577,6 +1047,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao         |   2 | 125 | 12.966 | 652.312 |  1.242 | 0.292   | 0.019 |        |
 | 10  | monitor.experiencia      |   1 | 126 |  6.213 | 659.065 |  1.188 | 0.278   | 0.009 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                 | DFn | DFd |    SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:-----------------------|----:|----:|-------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.vocab.ensinado.pre |   1 | 105 | 19.413 | 41.311 | 49.341 | \<0.001 | 0.320 | \*     |
+| 2   | monitor                |   9 | 105 |  6.539 | 41.311 |  1.847 | 0.068   | 0.137 |        |
+| 4   | monitor.genero         |   1 | 113 |  0.122 | 47.728 |  0.290 | 0.592   | 0.003 |        |
+| 6   | monitor.area           |   8 | 106 |  6.535 | 41.315 |  2.096 | 0.042   | 0.137 | \*     |
+| 8   | monitor.formacao       |   2 | 112 |  1.827 | 46.023 |  2.223 | 0.113   | 0.038 |        |
+| 10  | monitor.experiencia    |   1 | 113 |  0.010 | 47.840 |  0.023 | 0.881   | 0.000 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |      SSn |      SSd |      F | p       |   ges | p\<.05 |
@@ -587,6 +1068,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 6   | monitor.area                 |   8 | 119 |  969.773 | 6335.972 |  2.277 | 0.027   | 0.133 | \*     |
 | 8   | monitor.formacao             |   2 | 125 |   41.643 | 7264.102 |  0.358 | 0.7     | 0.006 |        |
 | 10  | monitor.experiencia          |   1 | 126 |  177.652 | 7128.093 |  3.140 | 0.079   | 0.024 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |    SSn |    SSd |       F | p       |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|-------:|-------:|--------:|:--------|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 | 105 | 47.713 | 46.068 | 108.750 | \<0.001 | 0.509 | \*     |
+| 2   | monitor                    |   9 | 105 |  3.463 | 46.068 |   0.877 | 0.548   | 0.070 |        |
+| 4   | monitor.genero             |   1 | 113 |  0.008 | 49.524 |   0.018 | 0.893   | 0.000 |        |
+| 6   | monitor.area               |   8 | 106 |  3.437 | 46.095 |   0.988 | 0.45    | 0.069 |        |
+| 8   | monitor.formacao           |   2 | 112 |  0.532 | 48.999 |   0.608 | 0.546   | 0.011 |        |
+| 10  | monitor.experiencia        |   1 | 113 |  0.400 | 49.132 |   0.920 | 0.34    | 0.008 |        |
 
 # Pairwise comparisons for one factor
 
@@ -612,11 +1104,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-51-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-89-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Controle | 159 |   0.095 |    0.069 |     0.123 |      0.077 |   0.135 |    0.045 |
+| tri.vocab.pos | WordGen  | 122 |   0.127 |    0.084 |     0.271 |      0.084 |   0.255 |    0.051 |
+
+| .y.           | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle | WordGen |   -0.120 |   -0.255 |     0.015 | 0.068 |    -1.756 | 0.080 | 0.080 | ns           |
+| tri.vocab.pre | Controle | WordGen |   -0.033 |   -0.244 |     0.179 | 0.108 |    -0.303 | 0.762 | 0.762 | ns           |
+
+| .y.       | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Controle | pre    | pos    |   -0.017 |   -0.216 |     0.183 | 0.102 |    -0.164 | 0.870 | 0.870 | ns           |
+| tri.vocab | WordGen  | pre    | pos    |   -0.126 |   -0.354 |     0.102 | 0.116 |    -1.088 | 0.277 | 0.277 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-103-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-105-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -638,11 +1164,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-59-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-115-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-61-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-63-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Controle | 159 |   0.065 |    0.064 |     0.043 |      0.067 |   0.046 |    0.052 |
+| tri.vocab.ensinado.pos | WordGen  | 122 |   0.073 |    0.070 |     0.172 |      0.073 |   0.169 |    0.060 |
+
+| .y.                    | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle | WordGen |   -0.123 |   -0.280 |     0.033 | 0.079 |    -1.555 | 0.121 | 0.121 | ns           |
+| tri.vocab.ensinado.pre | Controle | WordGen |   -0.008 |   -0.196 |     0.180 | 0.096 |    -0.083 | 0.934 | 0.934 | ns           |
+
+| .y.                | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Controle | pre    | pos    |    0.008 |   -0.167 |     0.182 | 0.089 |     0.084 | 0.933 | 0.933 | ns           |
+| tri.vocab.ensinado | WordGen  | pre    | pos    |   -0.079 |   -0.278 |     0.121 | 0.102 |    -0.776 | 0.438 | 0.438 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-137-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-139-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -664,11 +1224,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-153-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Controle | 159 |   0.064 |    0.071 |     0.164 |      0.074 |   0.185 |    0.046 |
+| tri.vocab.nao.ensinado.pos | WordGen  | 122 |   0.122 |    0.081 |     0.270 |      0.088 |   0.242 |    0.052 |
+
+| .y.                        | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle | WordGen |   -0.057 |   -0.194 |     0.080 | 0.070 |    -0.815 | 0.416 | 0.416 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle | WordGen |   -0.058 |   -0.271 |     0.155 | 0.108 |    -0.537 | 0.592 | 0.592 | ns           |
+
+| .y.                    | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Controle | pre    | pos    |   -0.085 |   -0.284 |     0.115 | 0.101 |    -0.835 | 0.404 | 0.404 | ns           |
+| tri.vocab.nao.ensinado | WordGen  | pre    | pos    |   -0.133 |   -0.361 |     0.094 | 0.116 |    -1.151 | 0.250 | 0.250 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
 
 ## factor: **genero**
 
@@ -692,11 +1286,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F      | 133 |   0.267 |    0.073 |     0.367 |      0.080 |   0.232 |    0.050 |
+| tri.vocab.pos | M      | 148 |  -0.034 |    0.075 |     0.026 |      0.078 |   0.147 |    0.047 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | F      | M      |    0.086 |   -0.050 |     0.222 | 0.069 |     1.241 | 0.216 | 0.216 | ns           |
+| tri.vocab.pre | F      | M      |    0.300 |    0.093 |     0.508 | 0.105 |     2.855 | 0.005 | 0.005 | \*\*         |
+
+| .y.       | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | F      | pre    | pos    |   -0.101 |   -0.316 |     0.114 | 0.110 |    -0.925 | 0.356 | 0.356 | ns           |
+| tri.vocab | M      | pre    | pos    |   -0.042 |   -0.246 |     0.161 | 0.104 |    -0.408 | 0.684 | 0.684 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-201-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -718,11 +1346,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F      | 133 |   0.212 |    0.071 |     0.239 |      0.073 |   0.151 |    0.058 |
+| tri.vocab.ensinado.pos | M      | 148 |  -0.061 |    0.061 |    -0.027 |      0.066 |   0.053 |    0.055 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | F      | M      |    0.098 |   -0.060 |     0.255 | 0.080 |     1.218 | 0.224 | 0.224 | ns           |
+| tri.vocab.ensinado.pre | F      | M      |    0.273 |    0.088 |     0.457 | 0.094 |     2.914 | 0.004 | 0.004 | \*\*         |
+
+| .y.                | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | F      | pre    | pos    |   -0.037 |   -0.226 |     0.152 | 0.096 |    -0.384 | 0.701 | 0.701 | ns           |
+| tri.vocab.ensinado | M      | pre    | pos    |   -0.033 |   -0.211 |     0.146 | 0.091 |    -0.357 | 0.721 | 0.721 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-233-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -744,11 +1406,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-109-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-111-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-249-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F      | 133 |   0.242 |    0.074 |     0.406 |      0.081 |   0.279 |    0.050 |
+| tri.vocab.nao.ensinado.pos | M      | 148 |  -0.047 |    0.075 |     0.033 |      0.077 |   0.148 |    0.048 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | F      | M      |    0.131 |   -0.006 |     0.268 | 0.070 |     1.881 | 0.061 | 0.061 | ns           |
+| tri.vocab.nao.ensinado.pre | F      | M      |    0.289 |    0.081 |     0.498 | 0.106 |     2.734 | 0.007 | 0.007 | \*\*         |
+
+| .y.                    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | F      | pre    | pos    |   -0.166 |   -0.381 |     0.049 | 0.109 |    -1.520 | 0.129 | 0.129 | ns           |
+| tri.vocab.nao.ensinado | M      | pre    | pos    |   -0.060 |   -0.264 |     0.143 | 0.104 |    -0.582 | 0.561 | 0.561 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-261-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-265-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
 
 ## factor: **idade**
 
@@ -787,11 +1483,60 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | 10y   |  51 |   0.232 |    0.109 |     0.205 |      0.115 |   0.123 |    0.078 |
+| tri.vocab.pos | 11y   | 166 |   0.191 |    0.069 |     0.333 |      0.073 |   0.285 |    0.043 |
+| tri.vocab.pos | 12y   |  37 |  -0.089 |    0.164 |    -0.018 |      0.161 |   0.167 |    0.092 |
+| tri.vocab.pos | 13y   |  13 |  -0.361 |    0.215 |    -0.510 |      0.232 |  -0.098 |    0.156 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | 10y    | 11y    |   -0.162 |   -0.338 |     0.013 | 0.089 |    -1.821 | 0.070 | 0.419 | ns           |
+| tri.vocab.pos | 10y    | 12y    |   -0.045 |   -0.283 |     0.194 | 0.121 |    -0.368 | 0.713 | 1.000 | ns           |
+| tri.vocab.pos | 10y    | 13y    |    0.221 |   -0.123 |     0.565 | 0.175 |     1.266 | 0.206 | 1.000 | ns           |
+| tri.vocab.pos | 11y    | 12y    |    0.118 |   -0.083 |     0.318 | 0.102 |     1.157 | 0.248 | 1.000 | ns           |
+| tri.vocab.pos | 11y    | 13y    |    0.384 |    0.065 |     0.702 | 0.162 |     2.369 | 0.019 | 0.111 | ns           |
+| tri.vocab.pos | 12y    | 13y    |    0.266 |   -0.089 |     0.620 | 0.180 |     1.477 | 0.141 | 0.846 | ns           |
+| tri.vocab.pre | 10y    | 11y    |    0.041 |   -0.237 |     0.319 | 0.141 |     0.287 | 0.774 | 1.000 | ns           |
+| tri.vocab.pre | 10y    | 12y    |    0.321 |   -0.054 |     0.696 | 0.190 |     1.685 | 0.093 | 0.559 | ns           |
+| tri.vocab.pre | 10y    | 13y    |    0.593 |    0.054 |     1.133 | 0.274 |     2.165 | 0.031 | 0.188 | ns           |
+| tri.vocab.pre | 11y    | 12y    |    0.280 |   -0.035 |     0.596 | 0.160 |     1.749 | 0.081 | 0.489 | ns           |
+| tri.vocab.pre | 11y    | 13y    |    0.553 |    0.052 |     1.053 | 0.254 |     2.176 | 0.030 | 0.183 | ns           |
+| tri.vocab.pre | 12y    | 13y    |    0.272 |   -0.288 |     0.832 | 0.284 |     0.957 | 0.339 | 1.000 | ns           |
+
+| .y.       | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | 10y   | pre    | pos    |    0.002 |   -0.344 |     0.347 | 0.176 |     0.011 | 0.991 | 0.991 | ns           |
+| tri.vocab | 11y   | pre    | pos    |   -0.125 |   -0.319 |     0.068 | 0.099 |    -1.271 | 0.204 | 0.204 | ns           |
+| tri.vocab | 12y   | pre    | pos    |    0.006 |   -0.392 |     0.404 | 0.203 |     0.030 | 0.976 | 0.976 | ns           |
+| tri.vocab | 13y   | pre    | pos    |    0.264 |   -0.375 |     0.903 | 0.325 |     0.812 | 0.417 | 0.417 | ns           |
+| tri.vocab | 14y   | pre    | pos    |    0.222 |   -0.902 |     1.347 | 0.573 |     0.388 | 0.698 | 0.698 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-293-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-295-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -837,11 +1582,60 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | 10y   |  51 |   0.118 |    0.113 |     0.237 |      0.107 |   0.221 |    0.092 |
+| tri.vocab.ensinado.pos | 11y   | 166 |   0.127 |    0.060 |     0.163 |      0.065 |   0.142 |    0.051 |
+| tri.vocab.ensinado.pos | 12y   |  37 |  -0.011 |    0.145 |     0.016 |      0.127 |   0.076 |    0.109 |
+| tri.vocab.ensinado.pos | 13y   |  13 |  -0.190 |    0.184 |    -0.467 |      0.178 |  -0.300 |    0.183 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | 10y    | 11y    |    0.079 |   -0.129 |     0.287 | 0.106 |     0.748 | 0.455 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 10y    | 12y    |    0.145 |   -0.136 |     0.425 | 0.143 |     1.014 | 0.312 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 10y    | 13y    |    0.521 |    0.116 |     0.925 | 0.205 |     2.534 | 0.012 | 0.071 | ns           |
+| tri.vocab.ensinado.pos | 11y    | 12y    |    0.066 |   -0.171 |     0.302 | 0.120 |     0.546 | 0.586 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 11y    | 13y    |    0.442 |    0.066 |     0.817 | 0.191 |     2.317 | 0.021 | 0.128 | ns           |
+| tri.vocab.ensinado.pos | 12y    | 13y    |    0.376 |   -0.043 |     0.795 | 0.213 |     1.767 | 0.078 | 0.470 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 11y    |   -0.010 |   -0.258 |     0.239 | 0.126 |    -0.076 | 0.940 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 12y    |    0.129 |   -0.207 |     0.464 | 0.170 |     0.756 | 0.450 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 13y    |    0.308 |   -0.175 |     0.791 | 0.245 |     1.257 | 0.210 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 11y    | 12y    |    0.138 |   -0.144 |     0.421 | 0.143 |     0.965 | 0.335 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 11y    | 13y    |    0.318 |   -0.130 |     0.765 | 0.227 |     1.398 | 0.163 | 0.979 | ns           |
+| tri.vocab.ensinado.pre | 12y    | 13y    |    0.179 |   -0.322 |     0.680 | 0.254 |     0.705 | 0.481 | 1.000 | ns           |
+
+| .y.                | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | 10y   | pre    | pos    |   -0.176 |   -0.481 |     0.130 | 0.156 |    -1.129 | 0.259 | 0.259 | ns           |
+| tri.vocab.ensinado | 11y   | pre    | pos    |   -0.025 |   -0.197 |     0.146 | 0.087 |    -0.289 | 0.773 | 0.773 | ns           |
+| tri.vocab.ensinado | 12y   | pre    | pos    |    0.002 |   -0.351 |     0.354 | 0.179 |     0.009 | 0.993 | 0.993 | ns           |
+| tri.vocab.ensinado | 13y   | pre    | pos    |    0.406 |   -0.159 |     0.971 | 0.288 |     1.410 | 0.159 | 0.159 | ns           |
+| tri.vocab.ensinado | 14y   | pre    | pos    |   -0.119 |   -1.114 |     0.876 | 0.507 |    -0.236 | 0.814 | 0.814 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -887,11 +1681,60 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-143-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-145-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-343-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-345-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | 10y   |  51 |   0.178 |    0.107 |     0.164 |      0.111 |   0.109 |    0.080 |
+| tri.vocab.nao.ensinado.pos | 11y   | 166 |   0.176 |    0.071 |     0.371 |      0.075 |   0.318 |    0.044 |
+| tri.vocab.nao.ensinado.pos | 12y   |  37 |  -0.086 |    0.164 |    -0.006 |      0.162 |   0.157 |    0.094 |
+| tri.vocab.nao.ensinado.pos | 13y   |  13 |  -0.407 |    0.205 |    -0.494 |      0.219 |  -0.066 |    0.160 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | 10y    | 11y    |   -0.209 |   -0.389 |    -0.029 | 0.091 |    -2.287 | 0.023 | 0.138 | ns           |
+| tri.vocab.nao.ensinado.pos | 10y    | 12y    |   -0.048 |   -0.292 |     0.195 | 0.124 |    -0.391 | 0.696 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | 10y    | 13y    |    0.175 |   -0.177 |     0.528 | 0.179 |     0.979 | 0.328 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | 11y    | 12y    |    0.161 |   -0.045 |     0.366 | 0.104 |     1.540 | 0.125 | 0.748 | ns           |
+| tri.vocab.nao.ensinado.pos | 11y    | 13y    |    0.385 |    0.057 |     0.712 | 0.166 |     2.314 | 0.021 | 0.129 | ns           |
+| tri.vocab.nao.ensinado.pos | 12y    | 13y    |    0.224 |   -0.140 |     0.587 | 0.185 |     1.211 | 0.227 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 11y    |    0.002 |   -0.279 |     0.284 | 0.143 |     0.017 | 0.987 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 12y    |    0.264 |   -0.115 |     0.644 | 0.193 |     1.371 | 0.171 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 13y    |    0.585 |    0.039 |     1.131 | 0.277 |     2.110 | 0.036 | 0.215 | ns           |
+| tri.vocab.nao.ensinado.pre | 11y    | 12y    |    0.262 |   -0.058 |     0.582 | 0.162 |     1.614 | 0.108 | 0.646 | ns           |
+| tri.vocab.nao.ensinado.pre | 11y    | 13y    |    0.583 |    0.077 |     1.089 | 0.257 |     2.267 | 0.024 | 0.145 | ns           |
+| tri.vocab.nao.ensinado.pre | 12y    | 13y    |    0.321 |   -0.246 |     0.888 | 0.288 |     1.115 | 0.266 | 1.000 | ns           |
+
+| .y.                    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | 10y   | pre    | pos    |   -0.007 |   -0.354 |     0.341 | 0.177 |    -0.039 | 0.969 | 0.969 | ns           |
+| tri.vocab.nao.ensinado | 11y   | pre    | pos    |   -0.183 |   -0.378 |     0.012 | 0.099 |    -1.847 | 0.065 | 0.065 | ns           |
+| tri.vocab.nao.ensinado | 12y   | pre    | pos    |   -0.018 |   -0.419 |     0.382 | 0.204 |    -0.089 | 0.929 | 0.929 | ns           |
+| tri.vocab.nao.ensinado | 13y   | pre    | pos    |    0.228 |   -0.415 |     0.871 | 0.327 |     0.696 | 0.487 | 0.487 | ns           |
+| tri.vocab.nao.ensinado | 14y   | pre    | pos    |    0.333 |   -0.798 |     1.465 | 0.576 |     0.579 | 0.563 | 0.563 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
 
 ## factor: **zona.participante**
 
@@ -915,11 +1758,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-375-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-377-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-379-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural             | 104 |   0.043 |    0.088 |     0.168 |      0.090 |   0.231 |    0.059 |
+| tri.vocab.pos | Urbana            | 114 |   0.185 |    0.084 |     0.262 |      0.094 |   0.205 |    0.056 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Urbana | Rural  |   -0.026 |   -0.186 |     0.134 | 0.081 |    -0.317 | 0.752 | 0.752 | ns           |
+| tri.vocab.pre | Urbana | Rural  |    0.143 |   -0.096 |     0.381 | 0.121 |     1.178 | 0.240 | 0.240 | ns           |
+
+| .y.       | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Urbana            | pre    | pos    |   -0.048 |   -0.286 |     0.191 | 0.121 |    -0.392 | 0.695 | 0.695 | ns           |
+| tri.vocab | Rural             | pre    | pos    |   -0.116 |   -0.368 |     0.137 | 0.128 |    -0.900 | 0.369 | 0.369 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-389-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-391-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -941,11 +1818,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-405-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural             | 104 |   0.042 |    0.077 |     0.066 |      0.080 |   0.086 |    0.066 |
+| tri.vocab.ensinado.pos | Urbana            | 114 |   0.105 |    0.073 |     0.196 |      0.079 |   0.178 |    0.063 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Urbana | Rural  |    0.092 |   -0.089 |     0.272 | 0.091 |     1.002 | 0.317 | 0.317 | ns           |
+| tri.vocab.ensinado.pre | Urbana | Rural  |    0.064 |   -0.145 |     0.273 | 0.106 |     0.600 | 0.549 | 0.549 | ns           |
+
+| .y.                | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Urbana            | pre    | pos    |   -0.083 |   -0.290 |     0.124 | 0.105 |    -0.787 | 0.431 | 0.431 | ns           |
+| tri.vocab.ensinado | Rural             | pre    | pos    |   -0.030 |   -0.249 |     0.190 | 0.112 |    -0.266 | 0.790 | 0.790 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-425-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -967,11 +1878,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-439-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-441-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural             | 104 |  -0.008 |    0.085 |     0.186 |      0.089 |   0.281 |    0.060 |
+| tri.vocab.nao.ensinado.pos | Urbana            | 114 |   0.206 |    0.083 |     0.307 |      0.093 |   0.220 |    0.057 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Urbana | Rural  |   -0.060 |   -0.223 |     0.103 | 0.083 |    -0.725 | 0.469 | 0.469 | ns           |
+| tri.vocab.nao.ensinado.pre | Urbana | Rural  |    0.214 |   -0.020 |     0.449 | 0.119 |     1.802 | 0.073 | 0.073 | ns           |
+
+| .y.                    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Urbana            | pre    | pos    |   -0.068 |   -0.303 |     0.167 | 0.120 |    -0.566 | 0.572 | 0.572 | ns           |
+| tri.vocab.nao.ensinado | Rural             | pre    | pos    |   -0.180 |   -0.430 |     0.069 | 0.127 |    -1.422 | 0.156 | 0.156 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-451-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-453-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
 
 ## factor: **escola**
 
@@ -1031,11 +1976,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-469-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-473-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-475-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | E1     |  23 |  -0.069 |    0.207 |     0.179 |      0.203 |   0.332 |    0.118 |
+| tri.vocab.pos | E2     |  56 |   0.010 |    0.130 |     0.026 |      0.140 |   0.110 |    0.076 |
+| tri.vocab.pos | E3     |  37 |   0.054 |    0.150 |     0.217 |      0.148 |   0.264 |    0.093 |
+| tri.vocab.pos | E4     |  29 |   0.201 |    0.139 |     0.109 |      0.165 |   0.029 |    0.105 |
+| tri.vocab.pos | E5     | 109 |   0.192 |    0.084 |     0.326 |      0.092 |   0.255 |    0.054 |
+| tri.vocab.pos | E6     |  27 |   0.104 |    0.158 |     0.012 |      0.164 |   0.016 |    0.109 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | E1     | E2     |    0.221 |   -0.055 |     0.497 | 0.140 |     1.578 | 0.116 | 1.000 | ns           |
+| tri.vocab.pos | E1     | E3     |    0.068 |   -0.228 |     0.364 | 0.150 |     0.451 | 0.652 | 1.000 | ns           |
+| tri.vocab.pos | E1     | E4     |    0.302 |   -0.009 |     0.614 | 0.158 |     1.909 | 0.057 | 0.859 | ns           |
+| tri.vocab.pos | E1     | E5     |    0.077 |   -0.179 |     0.333 | 0.130 |     0.592 | 0.554 | 1.000 | ns           |
+| tri.vocab.pos | E1     | E6     |    0.316 |   -0.001 |     0.632 | 0.161 |     1.964 | 0.051 | 0.758 | ns           |
+| tri.vocab.pos | E2     | E3     |   -0.153 |   -0.389 |     0.083 | 0.120 |    -1.279 | 0.202 | 1.000 | ns           |
+| tri.vocab.pos | E2     | E4     |    0.081 |   -0.174 |     0.336 | 0.130 |     0.625 | 0.532 | 1.000 | ns           |
+| tri.vocab.pos | E2     | E5     |   -0.144 |   -0.328 |     0.040 | 0.093 |    -1.545 | 0.123 | 1.000 | ns           |
+| tri.vocab.pos | E2     | E6     |    0.094 |   -0.167 |     0.356 | 0.133 |     0.712 | 0.477 | 1.000 | ns           |
+| tri.vocab.pos | E3     | E4     |    0.235 |   -0.042 |     0.511 | 0.140 |     1.669 | 0.096 | 1.000 | ns           |
+| tri.vocab.pos | E3     | E5     |    0.009 |   -0.203 |     0.221 | 0.108 |     0.086 | 0.932 | 1.000 | ns           |
+| tri.vocab.pos | E3     | E6     |    0.248 |   -0.034 |     0.530 | 0.143 |     1.730 | 0.085 | 1.000 | ns           |
+| tri.vocab.pos | E4     | E5     |   -0.225 |   -0.458 |     0.008 | 0.118 |    -1.905 | 0.058 | 0.867 | ns           |
+| tri.vocab.pos | E4     | E6     |    0.013 |   -0.285 |     0.311 | 0.151 |     0.088 | 0.930 | 1.000 | ns           |
+| tri.vocab.pos | E5     | E6     |    0.239 |   -0.001 |     0.478 | 0.122 |     1.960 | 0.051 | 0.765 | ns           |
+| tri.vocab.pre | E1     | E2     |   -0.079 |   -0.515 |     0.358 | 0.222 |    -0.354 | 0.723 | 1.000 | ns           |
+| tri.vocab.pre | E1     | E3     |   -0.123 |   -0.591 |     0.345 | 0.238 |    -0.516 | 0.606 | 1.000 | ns           |
+| tri.vocab.pre | E1     | E4     |   -0.270 |   -0.762 |     0.222 | 0.250 |    -1.081 | 0.281 | 1.000 | ns           |
+| tri.vocab.pre | E1     | E5     |   -0.261 |   -0.666 |     0.143 | 0.205 |    -1.272 | 0.205 | 1.000 | ns           |
+| tri.vocab.pre | E1     | E6     |   -0.173 |   -0.673 |     0.327 | 0.254 |    -0.681 | 0.496 | 1.000 | ns           |
+| tri.vocab.pre | E2     | E3     |   -0.044 |   -0.418 |     0.329 | 0.190 |    -0.233 | 0.816 | 1.000 | ns           |
+| tri.vocab.pre | E2     | E4     |   -0.192 |   -0.595 |     0.212 | 0.205 |    -0.935 | 0.350 | 1.000 | ns           |
+| tri.vocab.pre | E2     | E5     |   -0.183 |   -0.473 |     0.107 | 0.147 |    -1.241 | 0.216 | 1.000 | ns           |
+| tri.vocab.pre | E2     | E6     |   -0.094 |   -0.507 |     0.319 | 0.210 |    -0.450 | 0.653 | 1.000 | ns           |
+| tri.vocab.pre | E3     | E4     |   -0.147 |   -0.585 |     0.290 | 0.222 |    -0.664 | 0.507 | 1.000 | ns           |
+| tri.vocab.pre | E3     | E5     |   -0.139 |   -0.474 |     0.197 | 0.170 |    -0.813 | 0.417 | 1.000 | ns           |
+| tri.vocab.pre | E3     | E6     |   -0.050 |   -0.497 |     0.396 | 0.227 |    -0.222 | 0.824 | 1.000 | ns           |
+| tri.vocab.pre | E4     | E5     |    0.009 |   -0.359 |     0.377 | 0.187 |     0.048 | 0.962 | 1.000 | ns           |
+| tri.vocab.pre | E4     | E6     |    0.097 |   -0.374 |     0.569 | 0.239 |     0.406 | 0.685 | 1.000 | ns           |
+| tri.vocab.pre | E5     | E6     |    0.088 |   -0.291 |     0.467 | 0.192 |     0.458 | 0.647 | 1.000 | ns           |
+
+| .y.       | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | E1     | pre    | pos    |   -0.250 |   -0.771 |     0.271 | 0.265 |    -0.941 | 0.347 | 0.347 | ns           |
+| tri.vocab | E2     | pre    | pos    |    0.011 |   -0.323 |     0.346 | 0.170 |     0.067 | 0.946 | 0.946 | ns           |
+| tri.vocab | E3     | pre    | pos    |   -0.174 |   -0.596 |     0.247 | 0.214 |    -0.813 | 0.416 | 0.416 | ns           |
+| tri.vocab | E4     | pre    | pos    |    0.058 |   -0.417 |     0.533 | 0.242 |     0.241 | 0.810 | 0.810 | ns           |
+| tri.vocab | E5     | pre    | pos    |   -0.097 |   -0.338 |     0.143 | 0.122 |    -0.795 | 0.427 | 0.427 | ns           |
+| tri.vocab | E6     | pre    | pos    |    0.108 |   -0.375 |     0.591 | 0.246 |     0.440 | 0.660 | 0.660 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-485-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-487-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-489-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1093,11 +2108,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-499-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-205-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-501-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-503-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | E1     |  23 |   0.149 |    0.151 |    -0.003 |      0.195 |  -0.053 |    0.138 |
+| tri.vocab.ensinado.pos | E2     |  56 |  -0.096 |    0.111 |     0.017 |      0.116 |   0.120 |    0.089 |
+| tri.vocab.ensinado.pos | E3     |  37 |   0.016 |    0.130 |    -0.007 |      0.131 |   0.026 |    0.109 |
+| tri.vocab.ensinado.pos | E4     |  29 |   0.040 |    0.146 |     0.098 |      0.159 |   0.116 |    0.123 |
+| tri.vocab.ensinado.pos | E5     | 109 |   0.153 |    0.074 |     0.242 |      0.074 |   0.189 |    0.063 |
+| tri.vocab.ensinado.pos | E6     |  27 |   0.101 |    0.167 |    -0.073 |      0.164 |  -0.093 |    0.127 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | E1     | E2     |   -0.174 |   -0.496 |     0.149 | 0.164 |    -1.060 | 0.290 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E3     |   -0.080 |   -0.425 |     0.265 | 0.175 |    -0.456 | 0.649 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E4     |   -0.169 |   -0.532 |     0.193 | 0.184 |    -0.919 | 0.359 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E5     |   -0.242 |   -0.540 |     0.056 | 0.151 |    -1.599 | 0.111 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E6     |    0.040 |   -0.329 |     0.409 | 0.187 |     0.213 | 0.832 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E3     |    0.094 |   -0.182 |     0.369 | 0.140 |     0.671 | 0.503 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E4     |    0.004 |   -0.293 |     0.302 | 0.151 |     0.028 | 0.977 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E5     |   -0.068 |   -0.283 |     0.147 | 0.109 |    -0.626 | 0.532 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E6     |    0.214 |   -0.091 |     0.519 | 0.155 |     1.379 | 0.169 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E3     | E4     |   -0.090 |   -0.412 |     0.233 | 0.164 |    -0.547 | 0.585 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E3     | E5     |   -0.162 |   -0.410 |     0.085 | 0.126 |    -1.290 | 0.198 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E3     | E6     |    0.120 |   -0.209 |     0.449 | 0.167 |     0.717 | 0.474 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E4     | E5     |   -0.073 |   -0.344 |     0.199 | 0.138 |    -0.526 | 0.599 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E4     | E6     |    0.209 |   -0.138 |     0.557 | 0.177 |     1.186 | 0.237 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E5     | E6     |    0.282 |    0.003 |     0.561 | 0.142 |     1.987 | 0.048 | 0.718 | ns           |
+| tri.vocab.ensinado.pre | E1     | E2     |    0.246 |   -0.142 |     0.633 | 0.197 |     1.248 | 0.213 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E3     |    0.133 |   -0.282 |     0.549 | 0.211 |     0.633 | 0.527 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E4     |    0.109 |   -0.328 |     0.546 | 0.222 |     0.491 | 0.624 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E5     |   -0.004 |   -0.362 |     0.355 | 0.182 |    -0.020 | 0.984 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E6     |    0.048 |   -0.396 |     0.492 | 0.225 |     0.214 | 0.831 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E2     | E3     |   -0.112 |   -0.443 |     0.219 | 0.168 |    -0.666 | 0.506 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E2     | E4     |   -0.137 |   -0.495 |     0.221 | 0.182 |    -0.752 | 0.453 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E2     | E5     |   -0.249 |   -0.506 |     0.008 | 0.131 |    -1.907 | 0.058 | 0.863 | ns           |
+| tri.vocab.ensinado.pre | E2     | E6     |   -0.197 |   -0.564 |     0.169 | 0.186 |    -1.060 | 0.290 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E3     | E4     |   -0.025 |   -0.413 |     0.363 | 0.197 |    -0.125 | 0.901 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E3     | E5     |   -0.137 |   -0.435 |     0.161 | 0.151 |    -0.907 | 0.365 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E3     | E6     |   -0.085 |   -0.481 |     0.311 | 0.201 |    -0.424 | 0.672 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E4     | E5     |   -0.112 |   -0.439 |     0.214 | 0.166 |    -0.677 | 0.499 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E4     | E6     |   -0.061 |   -0.479 |     0.358 | 0.212 |    -0.286 | 0.775 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E5     | E6     |    0.052 |   -0.284 |     0.388 | 0.171 |     0.303 | 0.762 | 1.000 | ns           |
+
+| .y.                | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | E1     | pre    | pos    |    0.141 |   -0.316 |     0.597 | 0.232 |     0.606 | 0.545 | 0.545 | ns           |
+| tri.vocab.ensinado | E2     | pre    | pos    |   -0.080 |   -0.373 |     0.213 | 0.149 |    -0.537 | 0.591 | 0.591 | ns           |
+| tri.vocab.ensinado | E3     | pre    | pos    |   -0.017 |   -0.386 |     0.352 | 0.188 |    -0.089 | 0.929 | 0.929 | ns           |
+| tri.vocab.ensinado | E4     | pre    | pos    |   -0.089 |   -0.505 |     0.327 | 0.212 |    -0.420 | 0.674 | 0.674 | ns           |
+| tri.vocab.ensinado | E5     | pre    | pos    |   -0.070 |   -0.281 |     0.140 | 0.107 |    -0.655 | 0.513 | 0.513 | ns           |
+| tri.vocab.ensinado | E6     | pre    | pos    |    0.142 |   -0.281 |     0.565 | 0.215 |     0.661 | 0.509 | 0.509 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-517-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-519-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-521-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1155,11 +2240,81 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-533-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-535-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-537-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | E1     |  23 |  -0.089 |    0.181 |     0.176 |      0.210 |   0.328 |    0.119 |
+| tri.vocab.nao.ensinado.pos | E2     |  56 |   0.019 |    0.131 |     0.113 |      0.139 |   0.173 |    0.076 |
+| tri.vocab.nao.ensinado.pos | E3     |  37 |  -0.004 |    0.145 |     0.226 |      0.157 |   0.305 |    0.094 |
+| tri.vocab.nao.ensinado.pos | E4     |  29 |   0.187 |    0.138 |     0.063 |      0.156 |  -0.020 |    0.106 |
+| tri.vocab.nao.ensinado.pos | E5     | 109 |   0.177 |    0.086 |     0.357 |      0.089 |   0.283 |    0.055 |
+| tri.vocab.nao.ensinado.pos | E6     |  27 |   0.059 |    0.181 |    -0.019 |      0.175 |   0.007 |    0.110 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | E1     | E2     |    0.155 |   -0.123 |     0.433 | 0.141 |     1.096 | 0.274 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E1     | E3     |    0.023 |   -0.275 |     0.322 | 0.152 |     0.154 | 0.878 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E1     | E4     |    0.348 |    0.033 |     0.662 | 0.160 |     2.177 | 0.030 | 0.455 | ns           |
+| tri.vocab.nao.ensinado.pos | E1     | E5     |    0.045 |   -0.213 |     0.304 | 0.131 |     0.345 | 0.731 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E1     | E6     |    0.321 |    0.002 |     0.640 | 0.162 |     1.982 | 0.048 | 0.727 | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E3     |   -0.132 |   -0.370 |     0.106 | 0.121 |    -1.089 | 0.277 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E4     |    0.193 |   -0.065 |     0.450 | 0.131 |     1.475 | 0.141 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E5     |   -0.110 |   -0.295 |     0.075 | 0.094 |    -1.166 | 0.245 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E6     |    0.166 |   -0.097 |     0.430 | 0.134 |     1.244 | 0.215 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E3     | E4     |    0.324 |    0.045 |     0.603 | 0.142 |     2.289 | 0.023 | 0.343 | ns           |
+| tri.vocab.nao.ensinado.pos | E3     | E5     |    0.022 |   -0.192 |     0.236 | 0.109 |     0.202 | 0.840 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E3     | E6     |    0.298 |    0.014 |     0.582 | 0.144 |     2.062 | 0.040 | 0.602 | ns           |
+| tri.vocab.nao.ensinado.pos | E4     | E5     |   -0.302 |   -0.537 |    -0.068 | 0.119 |    -2.536 | 0.012 | 0.176 | ns           |
+| tri.vocab.nao.ensinado.pos | E4     | E6     |   -0.026 |   -0.327 |     0.274 | 0.153 |    -0.173 | 0.862 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | E5     | E6     |    0.276 |    0.034 |     0.518 | 0.123 |     2.248 | 0.025 | 0.381 | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E2     |   -0.108 |   -0.547 |     0.330 | 0.223 |    -0.486 | 0.627 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E3     |   -0.086 |   -0.556 |     0.384 | 0.239 |    -0.359 | 0.720 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E4     |   -0.276 |   -0.770 |     0.218 | 0.251 |    -1.099 | 0.273 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E5     |   -0.267 |   -0.673 |     0.140 | 0.206 |    -1.292 | 0.197 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E6     |   -0.148 |   -0.651 |     0.354 | 0.255 |    -0.580 | 0.562 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E3     |    0.023 |   -0.353 |     0.398 | 0.191 |     0.118 | 0.906 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E4     |   -0.168 |   -0.573 |     0.237 | 0.206 |    -0.815 | 0.416 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E5     |   -0.158 |   -0.449 |     0.133 | 0.148 |    -1.071 | 0.285 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E6     |   -0.040 |   -0.455 |     0.375 | 0.211 |    -0.189 | 0.850 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E3     | E4     |   -0.190 |   -0.629 |     0.249 | 0.223 |    -0.853 | 0.394 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E3     | E5     |   -0.181 |   -0.518 |     0.156 | 0.171 |    -1.057 | 0.291 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E3     | E6     |   -0.062 |   -0.511 |     0.386 | 0.228 |    -0.274 | 0.784 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E4     | E5     |    0.009 |   -0.361 |     0.379 | 0.188 |     0.050 | 0.960 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E4     | E6     |    0.128 |   -0.346 |     0.601 | 0.241 |     0.532 | 0.595 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | E5     | E6     |    0.119 |   -0.262 |     0.499 | 0.193 |     0.613 | 0.540 | 1.000 | ns           |
+
+| .y.                    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | E1     | pre    | pos    |   -0.249 |   -0.769 |     0.271 | 0.265 |    -0.941 | 0.347 | 0.347 | ns           |
+| tri.vocab.nao.ensinado | E2     | pre    | pos    |   -0.072 |   -0.406 |     0.262 | 0.170 |    -0.423 | 0.673 | 0.673 | ns           |
+| tri.vocab.nao.ensinado | E3     | pre    | pos    |   -0.235 |   -0.655 |     0.186 | 0.214 |    -1.097 | 0.273 | 0.273 | ns           |
+| tri.vocab.nao.ensinado | E4     | pre    | pos    |    0.091 |   -0.383 |     0.565 | 0.241 |     0.376 | 0.707 | 0.707 | ns           |
+| tri.vocab.nao.ensinado | E5     | pre    | pos    |   -0.146 |   -0.386 |     0.094 | 0.122 |    -1.192 | 0.234 | 0.234 | ns           |
+| tri.vocab.nao.ensinado | E6     | pre    | pos    |    0.082 |   -0.400 |     0.564 | 0.246 |     0.334 | 0.738 | 0.738 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-547-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-549-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-551-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-553-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
 
 ## factor: **zona.escola**
 
@@ -1183,11 +2338,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-565-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-567-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-569-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-571-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural       |  93 |   0.114 |    0.086 |     0.124 |      0.091 |   0.119 |    0.059 |
+| tri.vocab.pos | Urbana      | 188 |   0.106 |    0.067 |     0.219 |      0.072 |   0.221 |    0.042 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Urbana | Rural  |    0.102 |   -0.040 |     0.244 | 0.072 |     1.417 | 0.158 | 0.158 | ns           |
+| tri.vocab.pre | Urbana | Rural  |   -0.008 |   -0.231 |     0.215 | 0.113 |    -0.074 | 0.941 | 0.941 | ns           |
+
+| .y.       | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Urbana      | pre    | pos    |   -0.085 |   -0.267 |     0.098 | 0.093 |    -0.908 | 0.364 | 0.364 | ns           |
+| tri.vocab | Rural       | pre    | pos    |   -0.020 |   -0.284 |     0.244 | 0.134 |    -0.149 | 0.882 | 0.882 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-579-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-581-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-583-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-585-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-587-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1209,11 +2398,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-595-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-597-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-599-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-601-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-603-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural       |  93 |   0.048 |    0.083 |     0.007 |      0.086 |   0.020 |    0.068 |
+| tri.vocab.ensinado.pos | Urbana      | 188 |   0.078 |    0.058 |     0.145 |      0.060 |   0.139 |    0.048 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Urbana | Rural  |    0.119 |   -0.046 |     0.284 | 0.084 |     1.423 | 0.156 | 0.156 | ns           |
+| tri.vocab.ensinado.pre | Urbana | Rural  |    0.030 |   -0.168 |     0.228 | 0.101 |     0.298 | 0.766 | 0.766 | ns           |
+
+| .y.                | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Urbana      | pre    | pos    |   -0.048 |   -0.208 |     0.112 | 0.082 |    -0.592 | 0.554 | 0.554 | ns           |
+| tri.vocab.ensinado | Rural       | pre    | pos    |    0.008 |   -0.223 |     0.239 | 0.118 |     0.065 | 0.948 | 0.948 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-613-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-615-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-617-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-619-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1235,11 +2458,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-627-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-629-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-631-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-633-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural       |  93 |   0.074 |    0.089 |     0.104 |      0.094 |   0.117 |    0.060 |
+| tri.vocab.nao.ensinado.pos | Urbana      | 188 |   0.097 |    0.067 |     0.262 |      0.071 |   0.256 |    0.042 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Urbana | Rural  |    0.139 |   -0.005 |     0.282 | 0.073 |     1.900 | 0.058 | 0.058 | ns           |
+| tri.vocab.nao.ensinado.pre | Urbana | Rural  |    0.024 |   -0.200 |     0.248 | 0.114 |     0.208 | 0.835 | 0.835 | ns           |
+
+| .y.                    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Urbana      | pre    | pos    |   -0.137 |   -0.320 |     0.045 | 0.093 |    -1.476 | 0.141 | 0.141 | ns           |
+| tri.vocab.nao.ensinado | Rural       | pre    | pos    |   -0.042 |   -0.305 |     0.221 | 0.134 |    -0.311 | 0.756 | 0.756 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-643-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-645-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-647-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-649-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-651-1.png)<!-- -->
 
 # Pairwise comparisons for two factors
 
@@ -1275,16 +2532,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-264-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-660-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-266-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-662-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-268-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-664-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-666-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-668-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F      | Controle |  80 |   0.171 |    0.090 |     0.225 |      0.103 |   0.173 |    0.064 |
+| tri.vocab.pos | F      | WordGen  |  53 |   0.412 |    0.120 |     0.580 |      0.124 |   0.323 |    0.079 |
+| tri.vocab.pos | M      | Controle |  79 |   0.018 |    0.104 |     0.019 |      0.115 |   0.096 |    0.064 |
+| tri.vocab.pos | M      | WordGen  |  69 |  -0.092 |    0.109 |     0.034 |      0.105 |   0.203 |    0.069 |
+
+| .y.           | grupo    | genero | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |        | F        | M       |    0.077 |   -0.101 |     0.255 | 0.090 |     0.851 | 0.395 | 0.395 | ns           |
+| tri.vocab.pos | WordGen  |        | F        | M       |    0.120 |   -0.088 |     0.328 | 0.106 |     1.134 | 0.258 | 0.258 | ns           |
+| tri.vocab.pre | Controle |        | F        | M       |    0.153 |   -0.122 |     0.428 | 0.140 |     1.097 | 0.274 | 0.274 | ns           |
+| tri.vocab.pre | WordGen  |        | F        | M       |    0.505 |    0.188 |     0.821 | 0.161 |     3.141 | 0.002 | 0.002 | \*\*         |
+| tri.vocab.pos |          | F      | Controle | WordGen |   -0.150 |   -0.349 |     0.049 | 0.101 |    -1.484 | 0.139 | 0.139 | ns           |
+| tri.vocab.pos |          | M      | Controle | WordGen |   -0.107 |   -0.292 |     0.077 | 0.094 |    -1.143 | 0.254 | 0.254 | ns           |
+| tri.vocab.pre |          | F      | Controle | WordGen |   -0.242 |   -0.549 |     0.065 | 0.156 |    -1.553 | 0.122 | 0.122 | ns           |
+| tri.vocab.pre |          | M      | Controle | WordGen |    0.110 |   -0.176 |     0.395 | 0.145 |     0.757 | 0.450 | 0.450 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |   -0.052 |   -0.329 |     0.225 | 0.141 |    -0.369 | 0.712 | 0.712 | ns           |
+| Controle | M      | pre    | pos    |    0.020 |   -0.258 |     0.298 | 0.141 |     0.142 | 0.887 | 0.887 | ns           |
+| WordGen  | F      | pre    | pos    |   -0.189 |   -0.529 |     0.151 | 0.173 |    -1.093 | 0.275 | 0.275 | ns           |
+| WordGen  | M      | pre    | pos    |   -0.114 |   -0.412 |     0.184 | 0.152 |    -0.753 | 0.452 | 0.452 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-677-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-679-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-681-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-683-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1316,16 +2622,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-276-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-693-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-694-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-696-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-698-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-700-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F      | Controle |  80 |   0.133 |    0.096 |     0.103 |      0.098 |   0.063 |    0.074 |
+| tri.vocab.ensinado.pos | F      | WordGen  |  53 |   0.331 |    0.105 |     0.446 |      0.102 |   0.285 |    0.091 |
+| tri.vocab.ensinado.pos | M      | Controle |  79 |  -0.004 |    0.086 |    -0.017 |      0.091 |   0.028 |    0.074 |
+| tri.vocab.ensinado.pos | M      | WordGen  |  69 |  -0.126 |    0.087 |    -0.038 |      0.095 |   0.080 |    0.080 |
+
+| .y.                    | grupo    | genero | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |        | F        | M       |    0.036 |   -0.170 |     0.242 | 0.105 |     0.342 | 0.733 | 0.733 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | F        | M       |    0.204 |   -0.037 |     0.446 | 0.122 |     1.670 | 0.096 | 0.096 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | F        | M       |    0.137 |   -0.108 |     0.381 | 0.124 |     1.101 | 0.272 | 0.272 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | F        | M       |    0.457 |    0.176 |     0.738 | 0.143 |     3.203 | 0.002 | 0.002 | \*\*         |
+| tri.vocab.ensinado.pos |          | F      | Controle | WordGen |   -0.221 |   -0.452 |     0.009 | 0.117 |    -1.892 | 0.060 | 0.060 | ns           |
+| tri.vocab.ensinado.pos |          | M      | Controle | WordGen |   -0.053 |   -0.267 |     0.161 | 0.109 |    -0.485 | 0.628 | 0.628 | ns           |
+| tri.vocab.ensinado.pre |          | F      | Controle | WordGen |   -0.199 |   -0.471 |     0.074 | 0.138 |    -1.436 | 0.152 | 0.152 | ns           |
+| tri.vocab.ensinado.pre |          | M      | Controle | WordGen |    0.122 |   -0.132 |     0.375 | 0.129 |     0.947 | 0.344 | 0.344 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |    0.010 |   -0.233 |     0.252 | 0.124 |     0.078 | 0.938 | 0.938 | ns           |
+| Controle | M      | pre    | pos    |    0.006 |   -0.237 |     0.250 | 0.124 |     0.050 | 0.960 | 0.960 | ns           |
+| WordGen  | F      | pre    | pos    |   -0.120 |   -0.418 |     0.179 | 0.152 |    -0.787 | 0.431 | 0.431 | ns           |
+| WordGen  | M      | pre    | pos    |   -0.077 |   -0.339 |     0.184 | 0.133 |    -0.579 | 0.563 | 0.563 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-711-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-713-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-717-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-719-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1357,16 +2712,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-289-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-727-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-290-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-728-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-292-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-730-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-294-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-732-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-734-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F      | Controle |  80 |   0.142 |    0.093 |     0.271 |      0.097 |   0.227 |    0.064 |
+| tri.vocab.nao.ensinado.pos | F      | WordGen  |  53 |   0.393 |    0.121 |     0.611 |      0.138 |   0.359 |    0.080 |
+| tri.vocab.nao.ensinado.pos | M      | Controle |  79 |  -0.014 |    0.109 |     0.056 |      0.112 |   0.142 |    0.065 |
+| tri.vocab.nao.ensinado.pos | M      | WordGen  |  69 |  -0.085 |    0.102 |     0.008 |      0.105 |   0.153 |    0.070 |
+
+| .y.                        | grupo    | genero | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |        | F        | M       |    0.085 |   -0.095 |     0.265 | 0.092 |     0.929 | 0.354 | 0.354 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | F        | M       |    0.206 |   -0.004 |     0.416 | 0.107 |     1.927 | 0.055 | 0.055 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | F        | M       |    0.156 |   -0.120 |     0.433 | 0.140 |     1.114 | 0.266 | 0.266 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | F        | M       |    0.478 |    0.160 |     0.796 | 0.162 |     2.959 | 0.003 | 0.003 | \*\*         |
+| tri.vocab.nao.ensinado.pos |          | F      | Controle | WordGen |   -0.132 |   -0.333 |     0.070 | 0.102 |    -1.287 | 0.199 | 0.199 | ns           |
+| tri.vocab.nao.ensinado.pos |          | M      | Controle | WordGen |   -0.011 |   -0.198 |     0.176 | 0.095 |    -0.117 | 0.907 | 0.907 | ns           |
+| tri.vocab.nao.ensinado.pre |          | F      | Controle | WordGen |   -0.251 |   -0.559 |     0.058 | 0.157 |    -1.600 | 0.111 | 0.111 | ns           |
+| tri.vocab.nao.ensinado.pre |          | M      | Controle | WordGen |    0.071 |   -0.216 |     0.358 | 0.146 |     0.487 | 0.626 | 0.626 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |   -0.128 |   -0.405 |     0.148 | 0.141 |    -0.910 | 0.363 | 0.363 | ns           |
+| Controle | M      | pre    | pos    |   -0.040 |   -0.317 |     0.237 | 0.141 |    -0.283 | 0.778 | 0.778 | ns           |
+| WordGen  | F      | pre    | pos    |   -0.238 |   -0.577 |     0.102 | 0.173 |    -1.375 | 0.170 | 0.170 | ns           |
+| WordGen  | M      | pre    | pos    |   -0.084 |   -0.382 |     0.214 | 0.152 |    -0.553 | 0.580 | 0.580 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-744-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-745-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-747-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-751-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-753-1.png)<!-- -->
 
 ## factores: **idade:grupo**
 
@@ -1432,16 +2836,97 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-302-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-761-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-303-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-762-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-305-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-764-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-766-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-768-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-770-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | 10y   | Controle |  28 |   0.310 |    0.138 |     0.201 |      0.178 |   0.055 |    0.105 |
+| tri.vocab.pos | 10y   | WordGen  |  23 |   0.136 |    0.175 |     0.210 |      0.137 |   0.207 |    0.115 |
+| tri.vocab.pos | 11y   | Controle |  90 |   0.152 |    0.095 |     0.260 |      0.103 |   0.245 |    0.058 |
+| tri.vocab.pos | 11y   | WordGen  |  76 |   0.238 |    0.102 |     0.420 |      0.103 |   0.334 |    0.064 |
+| tri.vocab.pos | 12y   | Controle |  23 |  -0.195 |    0.198 |    -0.178 |      0.180 |   0.092 |    0.116 |
+| tri.vocab.pos | 12y   | WordGen  |  14 |   0.085 |    0.290 |     0.246 |      0.302 |   0.286 |    0.148 |
+| tri.vocab.pos | 13y   | Controle |   8 |  -0.186 |    0.286 |    -0.108 |      0.297 |   0.156 |    0.196 |
+| tri.vocab.pos | 13y   | WordGen  |   5 |  -0.642 |    0.317 |    -1.153 |      0.073 |  -0.514 |    0.249 |
+
+| .y.           | grupo    | idade | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |       | 10y      | 11y     |   -0.190 |   -0.426 |     0.046 | 0.120 |    -1.585 | 0.114 | 0.686 | ns           |
+| tri.vocab.pos | Controle |       | 10y      | 12y     |   -0.038 |   -0.347 |     0.271 | 0.157 |    -0.240 | 0.810 | 1.000 | ns           |
+| tri.vocab.pos | Controle |       | 10y      | 13y     |   -0.101 |   -0.540 |     0.337 | 0.223 |    -0.454 | 0.650 | 1.000 | ns           |
+| tri.vocab.pos | Controle |       | 11y      | 12y     |    0.152 |   -0.104 |     0.408 | 0.130 |     1.172 | 0.242 | 1.000 | ns           |
+| tri.vocab.pos | Controle |       | 11y      | 13y     |    0.089 |   -0.314 |     0.492 | 0.205 |     0.435 | 0.664 | 1.000 | ns           |
+| tri.vocab.pos | Controle |       | 12y      | 13y     |   -0.063 |   -0.511 |     0.384 | 0.227 |    -0.279 | 0.780 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |       | 10y      | 11y     |   -0.127 |   -0.386 |     0.133 | 0.132 |    -0.963 | 0.336 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |       | 10y      | 12y     |   -0.079 |   -0.449 |     0.290 | 0.188 |    -0.423 | 0.673 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |       | 10y      | 13y     |    0.721 |    0.180 |     1.262 | 0.275 |     2.624 | 0.009 | 0.055 | ns           |
+| tri.vocab.pos | WordGen  |       | 11y      | 12y     |    0.048 |   -0.270 |     0.365 | 0.161 |     0.296 | 0.768 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |       | 11y      | 13y     |    0.848 |    0.340 |     1.355 | 0.258 |     3.289 | 0.001 | 0.007 | \*\*         |
+| tri.vocab.pos | WordGen  |       | 12y      | 13y     |    0.800 |    0.230 |     1.371 | 0.290 |     2.763 | 0.006 | 0.037 | \*           |
+| tri.vocab.pre | Controle |       | 10y      | 11y     |    0.158 |   -0.219 |     0.535 | 0.191 |     0.826 | 0.410 | 1.000 | ns           |
+| tri.vocab.pre | Controle |       | 10y      | 12y     |    0.505 |    0.015 |     0.995 | 0.249 |     2.030 | 0.043 | 0.260 | ns           |
+| tri.vocab.pre | Controle |       | 10y      | 13y     |    0.496 |   -0.202 |     1.194 | 0.355 |     1.400 | 0.163 | 0.977 | ns           |
+| tri.vocab.pre | Controle |       | 11y      | 12y     |    0.347 |   -0.060 |     0.754 | 0.207 |     1.680 | 0.094 | 0.565 | ns           |
+| tri.vocab.pre | Controle |       | 11y      | 13y     |    0.338 |   -0.304 |     0.981 | 0.326 |     1.036 | 0.301 | 1.000 | ns           |
+| tri.vocab.pre | Controle |       | 12y      | 13y     |   -0.009 |   -0.724 |     0.706 | 0.363 |    -0.025 | 0.980 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |       | 10y      | 11y     |   -0.101 |   -0.516 |     0.313 | 0.210 |    -0.481 | 0.631 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |       | 10y      | 12y     |    0.051 |   -0.539 |     0.642 | 0.300 |     0.172 | 0.864 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |       | 10y      | 13y     |    0.778 |   -0.081 |     1.638 | 0.436 |     1.784 | 0.076 | 0.454 | ns           |
+| tri.vocab.pre | WordGen  |       | 11y      | 12y     |    0.153 |   -0.354 |     0.659 | 0.257 |     0.594 | 0.553 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |       | 11y      | 13y     |    0.880 |    0.076 |     1.683 | 0.408 |     2.154 | 0.032 | 0.193 | ns           |
+| tri.vocab.pre | WordGen  |       | 12y      | 13y     |    0.727 |   -0.180 |     1.634 | 0.461 |     1.577 | 0.116 | 0.695 | ns           |
+| tri.vocab.pos |          | 10y   | Controle | WordGen |   -0.152 |   -0.459 |     0.155 | 0.156 |    -0.977 | 0.329 | 0.329 | ns           |
+| tri.vocab.pos |          | 11y   | Controle | WordGen |   -0.089 |   -0.259 |     0.081 | 0.086 |    -1.035 | 0.302 | 0.302 | ns           |
+| tri.vocab.pos |          | 12y   | Controle | WordGen |   -0.194 |   -0.564 |     0.176 | 0.188 |    -1.032 | 0.303 | 0.303 | ns           |
+| tri.vocab.pos |          | 13y   | Controle | WordGen |    0.670 |    0.048 |     1.292 | 0.316 |     2.120 | 0.035 | 0.035 | \*           |
+| tri.vocab.pre |          | 10y   | Controle | WordGen |    0.174 |   -0.316 |     0.664 | 0.249 |     0.699 | 0.485 | 0.485 | ns           |
+| tri.vocab.pre |          | 11y   | Controle | WordGen |   -0.085 |   -0.357 |     0.186 | 0.138 |    -0.620 | 0.536 | 0.536 | ns           |
+| tri.vocab.pre |          | 12y   | Controle | WordGen |   -0.280 |   -0.870 |     0.310 | 0.300 |    -0.934 | 0.351 | 0.351 | ns           |
+| tri.vocab.pre |          | 13y   | Controle | WordGen |    0.456 |   -0.537 |     1.449 | 0.504 |     0.904 | 0.367 | 0.367 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |    0.057 |   -0.399 |     0.514 | 0.233 |     0.247 | 0.805 | 0.805 | ns           |
+| Controle | 11y   | pre    | pos    |   -0.089 |   -0.352 |     0.173 | 0.133 |    -0.670 | 0.503 | 0.503 | ns           |
+| Controle | 12y   | pre    | pos    |    0.027 |   -0.479 |     0.532 | 0.257 |     0.103 | 0.918 | 0.918 | ns           |
+| Controle | 13y   | pre    | pos    |    0.113 |   -0.726 |     0.952 | 0.427 |     0.264 | 0.792 | 0.792 | ns           |
+| WordGen  | 10y   | pre    | pos    |   -0.073 |   -0.595 |     0.448 | 0.265 |    -0.276 | 0.783 | 0.783 | ns           |
+| WordGen  | 11y   | pre    | pos    |   -0.167 |   -0.451 |     0.117 | 0.145 |    -1.155 | 0.249 | 0.249 | ns           |
+| WordGen  | 12y   | pre    | pos    |   -0.066 |   -0.705 |     0.572 | 0.325 |    -0.204 | 0.838 | 0.838 | ns           |
+| WordGen  | 13y   | pre    | pos    |    0.700 |   -0.308 |     1.708 | 0.513 |     1.365 | 0.173 | 0.173 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-778-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-779-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-781-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-783-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-785-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-787-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1515,11 +3000,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-316-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-796-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-318-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-798-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-320-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-800-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | 10y   | Controle |  28 |   0.188 |    0.159 |     0.271 |      0.171 |   0.214 |    0.124 |
+| tri.vocab.ensinado.pos | 10y   | WordGen  |  23 |   0.033 |    0.162 |     0.195 |      0.120 |   0.229 |    0.137 |
+| tri.vocab.ensinado.pos | 11y   | Controle |  90 |   0.115 |    0.087 |     0.061 |      0.092 |   0.047 |    0.069 |
+| tri.vocab.ensinado.pos | 11y   | WordGen  |  76 |   0.142 |    0.081 |     0.284 |      0.091 |   0.254 |    0.075 |
+| tri.vocab.ensinado.pos | 12y   | Controle |  23 |  -0.075 |    0.169 |    -0.043 |      0.149 |   0.055 |    0.137 |
+| tri.vocab.ensinado.pos | 12y   | WordGen  |  14 |   0.095 |    0.270 |     0.112 |      0.235 |   0.109 |    0.175 |
+| tri.vocab.ensinado.pos | 13y   | Controle |   8 |  -0.071 |    0.241 |    -0.173 |      0.170 |  -0.078 |    0.232 |
+| tri.vocab.ensinado.pos | 13y   | WordGen  |   5 |  -0.381 |    0.293 |    -0.938 |      0.277 |  -0.660 |    0.294 |
+
+| .y.                    | grupo    | idade | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |       | 10y      | 11y     |    0.167 |   -0.113 |     0.447 | 0.142 |     1.175 | 0.241 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 10y      | 12y     |    0.159 |   -0.206 |     0.524 | 0.185 |     0.858 | 0.392 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 10y      | 13y     |    0.292 |   -0.227 |     0.810 | 0.263 |     1.107 | 0.269 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 11y      | 12y     |   -0.008 |   -0.311 |     0.295 | 0.154 |    -0.052 | 0.959 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 11y      | 13y     |    0.125 |   -0.352 |     0.602 | 0.242 |     0.515 | 0.607 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 12y      | 13y     |    0.133 |   -0.398 |     0.663 | 0.269 |     0.493 | 0.623 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |       | 10y      | 11y     |   -0.025 |   -0.333 |     0.283 | 0.156 |    -0.160 | 0.873 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |       | 10y      | 12y     |    0.120 |   -0.318 |     0.558 | 0.222 |     0.539 | 0.591 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |       | 10y      | 13y     |    0.889 |    0.250 |     1.528 | 0.324 |     2.739 | 0.007 | 0.040 | \*           |
+| tri.vocab.ensinado.pos | WordGen  |       | 11y      | 12y     |    0.145 |   -0.231 |     0.521 | 0.191 |     0.759 | 0.449 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |       | 11y      | 13y     |    0.914 |    0.315 |     1.513 | 0.304 |     3.004 | 0.003 | 0.018 | \*           |
+| tri.vocab.ensinado.pos | WordGen  |       | 12y      | 13y     |    0.769 |    0.094 |     1.444 | 0.343 |     2.243 | 0.026 | 0.154 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 10y      | 11y     |    0.073 |   -0.265 |     0.411 | 0.172 |     0.426 | 0.671 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 10y      | 12y     |    0.263 |   -0.176 |     0.703 | 0.223 |     1.181 | 0.239 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 10y      | 13y     |    0.259 |   -0.367 |     0.885 | 0.318 |     0.815 | 0.416 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 11y      | 12y     |    0.190 |   -0.174 |     0.555 | 0.185 |     1.028 | 0.305 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 11y      | 13y     |    0.186 |   -0.390 |     0.762 | 0.293 |     0.636 | 0.525 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 12y      | 13y     |   -0.004 |   -0.645 |     0.637 | 0.325 |    -0.013 | 0.989 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 10y      | 11y     |   -0.110 |   -0.481 |     0.262 | 0.189 |    -0.582 | 0.561 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 10y      | 12y     |   -0.063 |   -0.592 |     0.467 | 0.269 |    -0.233 | 0.816 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 10y      | 13y     |    0.413 |   -0.357 |     1.184 | 0.391 |     1.057 | 0.292 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 11y      | 12y     |    0.047 |   -0.407 |     0.501 | 0.231 |     0.205 | 0.838 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 11y      | 13y     |    0.523 |   -0.198 |     1.244 | 0.366 |     1.429 | 0.154 | 0.925 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |       | 12y      | 13y     |    0.476 |   -0.338 |     1.289 | 0.413 |     1.152 | 0.250 | 1.000 | ns           |
+| tri.vocab.ensinado.pos |          | 10y   | Controle | WordGen |   -0.015 |   -0.379 |     0.349 | 0.185 |    -0.082 | 0.935 | 0.935 | ns           |
+| tri.vocab.ensinado.pos |          | 11y   | Controle | WordGen |   -0.207 |   -0.408 |    -0.006 | 0.102 |    -2.025 | 0.044 | 0.044 | \*           |
+| tri.vocab.ensinado.pos |          | 12y   | Controle | WordGen |   -0.054 |   -0.493 |     0.384 | 0.223 |    -0.244 | 0.808 | 0.808 | ns           |
+| tri.vocab.ensinado.pos |          | 13y   | Controle | WordGen |    0.582 |   -0.155 |     1.319 | 0.374 |     1.554 | 0.121 | 0.121 | ns           |
+| tri.vocab.ensinado.pre |          | 10y   | Controle | WordGen |    0.155 |   -0.284 |     0.595 | 0.223 |     0.697 | 0.487 | 0.487 | ns           |
+| tri.vocab.ensinado.pre |          | 11y   | Controle | WordGen |   -0.027 |   -0.271 |     0.216 | 0.124 |    -0.222 | 0.825 | 0.825 | ns           |
+| tri.vocab.ensinado.pre |          | 12y   | Controle | WordGen |   -0.171 |   -0.700 |     0.359 | 0.269 |    -0.634 | 0.526 | 0.526 | ns           |
+| tri.vocab.ensinado.pre |          | 13y   | Controle | WordGen |    0.310 |   -0.581 |     1.200 | 0.452 |     0.685 | 0.494 | 0.494 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |   -0.189 |   -0.594 |     0.216 | 0.206 |    -0.917 | 0.359 | 0.359 | ns           |
+| Controle | 11y   | pre    | pos    |    0.065 |   -0.168 |     0.297 | 0.118 |     0.546 | 0.585 | 0.585 | ns           |
+| Controle | 12y   | pre    | pos    |   -0.036 |   -0.484 |     0.412 | 0.228 |    -0.158 | 0.875 | 0.875 | ns           |
+| Controle | 13y   | pre    | pos    |    0.228 |   -0.515 |     0.971 | 0.378 |     0.603 | 0.547 | 0.547 | ns           |
+| WordGen  | 10y   | pre    | pos    |   -0.162 |   -0.624 |     0.300 | 0.235 |    -0.689 | 0.491 | 0.491 | ns           |
+| WordGen  | 11y   | pre    | pos    |   -0.130 |   -0.382 |     0.122 | 0.128 |    -1.014 | 0.311 | 0.311 | ns           |
+| WordGen  | 12y   | pre    | pos    |    0.043 |   -0.522 |     0.609 | 0.288 |     0.151 | 0.880 | 0.880 | ns           |
+| WordGen  | 13y   | pre    | pos    |    0.797 |   -0.097 |     1.690 | 0.455 |     1.752 | 0.080 | 0.080 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-812-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-813-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-821-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1593,11 +3159,92 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-830-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-832-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-333-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-834-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-836-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-838-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | 10y   | Controle |  28 |   0.237 |    0.138 |     0.182 |      0.171 |   0.079 |    0.107 |
+| tri.vocab.nao.ensinado.pos | 10y   | WordGen  |  23 |   0.106 |    0.168 |     0.142 |      0.136 |   0.146 |    0.118 |
+| tri.vocab.nao.ensinado.pos | 11y   | Controle |  90 |   0.117 |    0.100 |     0.325 |      0.101 |   0.321 |    0.060 |
+| tri.vocab.nao.ensinado.pos | 11y   | WordGen  |  76 |   0.245 |    0.100 |     0.426 |      0.113 |   0.316 |    0.065 |
+| tri.vocab.nao.ensinado.pos | 12y   | Controle |  23 |  -0.147 |    0.206 |    -0.190 |      0.178 |   0.021 |    0.119 |
+| tri.vocab.nao.ensinado.pos | 12y   | WordGen  |  14 |   0.013 |    0.278 |     0.297 |      0.303 |   0.378 |    0.152 |
+| tri.vocab.nao.ensinado.pos | 13y   | Controle |   8 |  -0.248 |    0.260 |    -0.125 |      0.284 |   0.169 |    0.201 |
+| tri.vocab.nao.ensinado.pos | 13y   | WordGen  |   5 |  -0.663 |    0.337 |    -1.084 |      0.069 |  -0.450 |    0.256 |
+
+| .y.                        | grupo    | idade | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |       | 10y      | 11y     |   -0.241 |   -0.484 |     0.001 | 0.123 |    -1.963 | 0.051 | 0.304 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 10y      | 12y     |    0.058 |   -0.258 |     0.374 | 0.161 |     0.360 | 0.719 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 10y      | 13y     |   -0.090 |   -0.540 |     0.360 | 0.228 |    -0.392 | 0.695 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 11y      | 12y     |    0.299 |    0.037 |     0.561 | 0.133 |     2.248 | 0.025 | 0.152 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 11y      | 13y     |    0.152 |   -0.262 |     0.565 | 0.210 |     0.723 | 0.470 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 12y      | 13y     |   -0.147 |   -0.607 |     0.312 | 0.233 |    -0.632 | 0.528 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 10y      | 11y     |   -0.170 |   -0.436 |     0.096 | 0.135 |    -1.257 | 0.210 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 10y      | 12y     |   -0.232 |   -0.611 |     0.147 | 0.193 |    -1.204 | 0.230 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 10y      | 13y     |    0.596 |    0.041 |     1.151 | 0.282 |     2.115 | 0.035 | 0.213 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 11y      | 12y     |   -0.062 |   -0.388 |     0.264 | 0.165 |    -0.374 | 0.709 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 11y      | 13y     |    0.766 |    0.245 |     1.287 | 0.265 |     2.895 | 0.004 | 0.025 | \*           |
+| tri.vocab.nao.ensinado.pos | WordGen  |       | 12y      | 13y     |    0.828 |    0.243 |     1.413 | 0.297 |     2.787 | 0.006 | 0.034 | \*           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 10y      | 11y     |    0.120 |   -0.262 |     0.502 | 0.194 |     0.621 | 0.535 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 10y      | 12y     |    0.384 |   -0.112 |     0.881 | 0.252 |     1.524 | 0.129 | 0.773 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 10y      | 13y     |    0.485 |   -0.223 |     1.192 | 0.359 |     1.349 | 0.178 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 11y      | 12y     |    0.264 |   -0.148 |     0.676 | 0.209 |     1.260 | 0.209 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 11y      | 13y     |    0.364 |   -0.287 |     1.015 | 0.331 |     1.102 | 0.271 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 12y      | 13y     |    0.100 |   -0.624 |     0.825 | 0.368 |     0.273 | 0.785 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 10y      | 11y     |   -0.139 |   -0.559 |     0.281 | 0.213 |    -0.653 | 0.514 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 10y      | 12y     |    0.093 |   -0.506 |     0.691 | 0.304 |     0.305 | 0.761 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 10y      | 13y     |    0.769 |   -0.102 |     1.639 | 0.442 |     1.738 | 0.083 | 0.500 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 11y      | 12y     |    0.232 |   -0.281 |     0.745 | 0.261 |     0.890 | 0.374 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 11y      | 13y     |    0.908 |    0.093 |     1.723 | 0.414 |     2.194 | 0.029 | 0.175 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |       | 12y      | 13y     |    0.676 |   -0.243 |     1.595 | 0.467 |     1.448 | 0.149 | 0.893 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 10y   | Controle | WordGen |   -0.067 |   -0.382 |     0.248 | 0.160 |    -0.417 | 0.677 | 0.677 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 11y   | Controle | WordGen |    0.005 |   -0.170 |     0.179 | 0.089 |     0.053 | 0.957 | 0.957 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 12y   | Controle | WordGen |   -0.356 |   -0.736 |     0.023 | 0.193 |    -1.850 | 0.065 | 0.065 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 13y   | Controle | WordGen |    0.619 |   -0.019 |     1.257 | 0.324 |     1.909 | 0.057 | 0.057 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 10y   | Controle | WordGen |    0.131 |   -0.365 |     0.628 | 0.252 |     0.520 | 0.603 | 0.603 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 11y   | Controle | WordGen |   -0.128 |   -0.403 |     0.146 | 0.140 |    -0.920 | 0.358 | 0.358 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 12y   | Controle | WordGen |   -0.160 |   -0.759 |     0.438 | 0.304 |    -0.528 | 0.598 | 0.598 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 13y   | Controle | WordGen |    0.415 |   -0.591 |     1.421 | 0.511 |     0.813 | 0.417 | 0.417 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |    0.013 |   -0.449 |     0.475 | 0.235 |     0.055 | 0.956 | 0.956 | ns           |
+| Controle | 11y   | pre    | pos    |   -0.193 |   -0.458 |     0.072 | 0.135 |    -1.430 | 0.153 | 0.153 | ns           |
+| Controle | 12y   | pre    | pos    |    0.069 |   -0.442 |     0.580 | 0.260 |     0.265 | 0.791 | 0.791 | ns           |
+| Controle | 13y   | pre    | pos    |    0.077 |   -0.771 |     0.925 | 0.432 |     0.178 | 0.859 | 0.859 | ns           |
+| WordGen  | 10y   | pre    | pos    |   -0.036 |   -0.563 |     0.492 | 0.268 |    -0.132 | 0.895 | 0.895 | ns           |
+| WordGen  | 11y   | pre    | pos    |   -0.171 |   -0.459 |     0.116 | 0.146 |    -1.171 | 0.242 | 0.242 | ns           |
+| WordGen  | 12y   | pre    | pos    |   -0.194 |   -0.840 |     0.451 | 0.329 |    -0.592 | 0.554 | 0.554 | ns           |
+| WordGen  | 13y   | pre    | pos    |    0.632 |   -0.387 |     1.651 | 0.519 |     1.218 | 0.224 | 0.224 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-846-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-847-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-849-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-851-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-853-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-855-1.png)<!-- -->
 
 ## factores: **zona.participante:grupo**
 
@@ -1631,16 +3278,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-863-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-342-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-864-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-344-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-866-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-346-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-868-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-870-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-872-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural             | Controle |  53 |   0.037 |    0.118 |     0.024 |      0.129 |   0.092 |    0.081 |
+| tri.vocab.pos | Rural             | WordGen  |  51 |   0.049 |    0.131 |     0.317 |      0.122 |   0.375 |    0.083 |
+| tri.vocab.pos | Urbana            | Controle |  69 |   0.177 |    0.102 |     0.257 |      0.120 |   0.207 |    0.071 |
+| tri.vocab.pos | Urbana            | WordGen  |  45 |   0.198 |    0.143 |     0.270 |      0.150 |   0.202 |    0.088 |
+
+| .y.           | grupo    | zona.participante | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |                   | Urbana   | Rural   |    0.115 |   -0.099 |     0.328 | 0.108 |     1.060 | 0.290 | 0.290 | ns           |
+| tri.vocab.pos | WordGen  |                   | Urbana   | Rural   |   -0.173 |   -0.412 |     0.066 | 0.121 |    -1.423 | 0.156 | 0.156 | ns           |
+| tri.vocab.pre | Controle |                   | Urbana   | Rural   |    0.140 |   -0.183 |     0.463 | 0.164 |     0.855 | 0.394 | 0.394 | ns           |
+| tri.vocab.pre | WordGen  |                   | Urbana   | Rural   |    0.149 |   -0.212 |     0.511 | 0.183 |     0.814 | 0.416 | 0.416 | ns           |
+| tri.vocab.pos |          | Urbana            | Controle | WordGen |    0.004 |   -0.219 |     0.228 | 0.113 |     0.040 | 0.968 | 0.968 | ns           |
+| tri.vocab.pos |          | Rural             | Controle | WordGen |   -0.283 |   -0.512 |    -0.054 | 0.116 |    -2.436 | 0.016 | 0.016 | \*           |
+| tri.vocab.pre |          | Urbana            | Controle | WordGen |   -0.021 |   -0.360 |     0.318 | 0.172 |    -0.123 | 0.902 | 0.902 | ns           |
+| tri.vocab.pre |          | Rural             | Controle | WordGen |   -0.012 |   -0.358 |     0.335 | 0.176 |    -0.067 | 0.947 | 0.947 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |   -0.064 |   -0.369 |     0.242 | 0.155 |    -0.409 | 0.683 | 0.683 | ns           |
+| Controle | Rural             | pre    | pos    |    0.041 |   -0.312 |     0.393 | 0.179 |     0.227 | 0.821 | 0.821 | ns           |
+| WordGen  | Urbana            | pre    | pos    |   -0.024 |   -0.406 |     0.357 | 0.194 |    -0.125 | 0.901 | 0.901 | ns           |
+| WordGen  | Rural             | pre    | pos    |   -0.284 |   -0.646 |     0.078 | 0.184 |    -1.540 | 0.124 | 0.124 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-880-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-881-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-883-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-885-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-887-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-889-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1672,16 +3368,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-354-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-898-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-900-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-902-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-904-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-906-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural             | Controle |  53 |   0.067 |    0.111 |    -0.001 |      0.112 |   0.004 |    0.092 |
+| tri.vocab.ensinado.pos | Rural             | WordGen  |  51 |   0.015 |    0.108 |     0.134 |      0.114 |   0.171 |    0.094 |
+| tri.vocab.ensinado.pos | Urbana            | Controle |  69 |   0.082 |    0.097 |     0.135 |      0.108 |   0.131 |    0.081 |
+| tri.vocab.ensinado.pos | Urbana            | WordGen  |  45 |   0.140 |    0.112 |     0.290 |      0.112 |   0.250 |    0.100 |
+
+| .y.                    | grupo    | zona.participante | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |                   | Urbana   | Rural   |    0.126 |   -0.116 |     0.369 | 0.123 |     1.029 | 0.305 | 0.305 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |                   | Urbana   | Rural   |    0.079 |   -0.193 |     0.350 | 0.138 |     0.570 | 0.569 | 0.569 | ns           |
+| tri.vocab.ensinado.pre | Controle |                   | Urbana   | Rural   |    0.016 |   -0.267 |     0.298 | 0.144 |     0.109 | 0.914 | 0.914 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |                   | Urbana   | Rural   |    0.125 |   -0.192 |     0.442 | 0.161 |     0.778 | 0.437 | 0.437 | ns           |
+| tri.vocab.ensinado.pos |          | Urbana            | Controle | WordGen |   -0.119 |   -0.373 |     0.135 | 0.129 |    -0.923 | 0.357 | 0.357 | ns           |
+| tri.vocab.ensinado.pos |          | Rural             | Controle | WordGen |   -0.167 |   -0.427 |     0.093 | 0.132 |    -1.265 | 0.207 | 0.207 | ns           |
+| tri.vocab.ensinado.pre |          | Urbana            | Controle | WordGen |   -0.058 |   -0.355 |     0.239 | 0.151 |    -0.386 | 0.700 | 0.700 | ns           |
+| tri.vocab.ensinado.pre |          | Rural             | Controle | WordGen |    0.051 |   -0.252 |     0.355 | 0.154 |     0.333 | 0.739 | 0.739 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |   -0.070 |   -0.336 |     0.195 | 0.135 |    -0.519 | 0.604 | 0.604 | ns           |
+| Controle | Rural             | pre    | pos    |    0.070 |   -0.237 |     0.376 | 0.156 |     0.448 | 0.654 | 0.654 | ns           |
+| WordGen  | Urbana            | pre    | pos    |   -0.107 |   -0.439 |     0.225 | 0.169 |    -0.635 | 0.526 | 0.526 | ns           |
+| WordGen  | Rural             | pre    | pos    |   -0.136 |   -0.451 |     0.179 | 0.160 |    -0.848 | 0.397 | 0.397 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-914-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-915-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-917-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-919-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-921-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-923-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1713,16 +3458,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-367-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-368-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-932-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-370-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-934-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-372-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-936-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-938-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-940-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural             | Controle |  53 |  -0.028 |    0.116 |     0.047 |      0.118 |   0.159 |    0.083 |
+| tri.vocab.nao.ensinado.pos | Rural             | WordGen  |  51 |   0.013 |    0.125 |     0.330 |      0.133 |   0.407 |    0.084 |
+| tri.vocab.nao.ensinado.pos | Urbana            | Controle |  69 |   0.171 |    0.106 |     0.325 |      0.117 |   0.268 |    0.072 |
+| tri.vocab.nao.ensinado.pos | Urbana            | WordGen  |  45 |   0.260 |    0.137 |     0.278 |      0.155 |   0.147 |    0.090 |
+
+| .y.                        | grupo    | zona.participante | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |                   | Urbana   | Rural   |    0.110 |   -0.108 |     0.327 | 0.110 |     0.994 | 0.321 | 0.321 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |                   | Urbana   | Rural   |   -0.260 |   -0.504 |    -0.017 | 0.124 |    -2.106 | 0.036 | 0.036 | \*           |
+| tri.vocab.nao.ensinado.pre | Controle |                   | Urbana   | Rural   |    0.200 |   -0.117 |     0.516 | 0.161 |     1.241 | 0.216 | 0.216 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |                   | Urbana   | Rural   |    0.247 |   -0.108 |     0.602 | 0.180 |     1.371 | 0.172 | 0.172 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Urbana            | Controle | WordGen |    0.121 |   -0.106 |     0.349 | 0.115 |     1.054 | 0.293 | 0.293 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Rural             | Controle | WordGen |   -0.248 |   -0.481 |    -0.016 | 0.118 |    -2.104 | 0.037 | 0.037 | \*           |
+| tri.vocab.nao.ensinado.pre |          | Urbana            | Controle | WordGen |   -0.089 |   -0.421 |     0.244 | 0.169 |    -0.525 | 0.600 | 0.600 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Rural             | Controle | WordGen |   -0.041 |   -0.382 |     0.299 | 0.173 |    -0.239 | 0.811 | 0.811 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |   -0.128 |   -0.429 |     0.173 | 0.153 |    -0.834 | 0.405 | 0.405 | ns           |
+| Controle | Rural             | pre    | pos    |   -0.041 |   -0.388 |     0.307 | 0.177 |    -0.231 | 0.817 | 0.817 | ns           |
+| WordGen  | Urbana            | pre    | pos    |    0.024 |   -0.352 |     0.401 | 0.191 |     0.127 | 0.899 | 0.899 | ns           |
+| WordGen  | Rural             | pre    | pos    |   -0.331 |   -0.689 |     0.026 | 0.182 |    -1.822 | 0.069 | 0.069 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-948-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-949-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-951-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-953-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
 
 ## factores: **escola:grupo**
 
@@ -1836,16 +3630,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-380-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-965-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-381-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-966-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-383-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-968-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-385-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-970-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-972-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-974-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | E1     | Controle |  11 |   0.341 |    0.184 |     0.483 |      0.192 |   0.285 |    0.171 |
+| tri.vocab.pos | E1     | WordGen  |  12 |  -0.445 |    0.331 |    -0.099 |      0.335 |   0.374 |    0.165 |
+| tri.vocab.pos | E2     | Controle |  34 |   0.039 |    0.174 |    -0.053 |      0.194 |   0.007 |    0.097 |
+| tri.vocab.pos | E2     | WordGen  |  22 |  -0.035 |    0.196 |     0.146 |      0.194 |   0.269 |    0.121 |
+| tri.vocab.pos | E3     | Controle |  21 |  -0.076 |    0.173 |     0.006 |      0.188 |   0.164 |    0.124 |
+| tri.vocab.pos | E3     | WordGen  |  16 |   0.224 |    0.262 |     0.494 |      0.224 |   0.395 |    0.142 |
+| tri.vocab.pos | E4     | Controle |  20 |   0.217 |    0.181 |     0.111 |      0.207 |   0.018 |    0.127 |
+| tri.vocab.pos | E4     | WordGen  |   9 |   0.165 |    0.215 |     0.104 |      0.283 |   0.056 |    0.189 |
+| tri.vocab.pos | E5     | Controle |  59 |   0.074 |    0.115 |     0.196 |      0.132 |   0.226 |    0.074 |
+| tri.vocab.pos | E5     | WordGen  |  50 |   0.332 |    0.122 |     0.479 |      0.123 |   0.289 |    0.081 |
+| tri.vocab.pos | E6     | Controle |  14 |   0.204 |    0.231 |     0.150 |      0.230 |   0.069 |    0.152 |
+| tri.vocab.pos | E6     | WordGen  |  13 |  -0.003 |    0.221 |    -0.137 |      0.237 |  -0.041 |    0.157 |
+
+| .y.           | grupo    | escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |        | E1       | E2      |    0.277 |   -0.111 |     0.665 | 0.197 |     1.408 | 0.160 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E1       | E3      |    0.121 |   -0.296 |     0.537 | 0.212 |     0.571 | 0.569 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E1       | E4      |    0.267 |   -0.152 |     0.686 | 0.213 |     1.253 | 0.211 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E1       | E5      |    0.059 |   -0.308 |     0.426 | 0.186 |     0.315 | 0.753 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E1       | E6      |    0.215 |   -0.235 |     0.665 | 0.228 |     0.942 | 0.347 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E2       | E3      |   -0.156 |   -0.466 |     0.153 | 0.157 |    -0.994 | 0.321 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E2       | E4      |   -0.011 |   -0.325 |     0.304 | 0.160 |    -0.066 | 0.947 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E2       | E5      |   -0.219 |   -0.459 |     0.022 | 0.122 |    -1.791 | 0.074 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E2       | E6      |   -0.062 |   -0.417 |     0.293 | 0.180 |    -0.344 | 0.731 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E3       | E4      |    0.146 |   -0.203 |     0.495 | 0.177 |     0.822 | 0.412 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E3       | E5      |   -0.062 |   -0.346 |     0.222 | 0.144 |    -0.431 | 0.667 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E3       | E6      |    0.094 |   -0.291 |     0.480 | 0.196 |     0.482 | 0.630 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E4       | E5      |   -0.208 |   -0.497 |     0.081 | 0.147 |    -1.417 | 0.158 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E4       | E6      |   -0.051 |   -0.440 |     0.337 | 0.198 |    -0.261 | 0.795 | 1.000 | ns           |
+| tri.vocab.pos | Controle |        | E5       | E6      |    0.157 |   -0.175 |     0.488 | 0.169 |     0.929 | 0.354 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E1       | E2      |    0.105 |   -0.297 |     0.507 | 0.204 |     0.514 | 0.608 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E1       | E3      |   -0.021 |   -0.450 |     0.408 | 0.218 |    -0.095 | 0.924 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E1       | E4      |    0.318 |   -0.176 |     0.813 | 0.251 |     1.269 | 0.206 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E1       | E5      |    0.085 |   -0.279 |     0.449 | 0.185 |     0.461 | 0.645 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E1       | E6      |    0.415 |   -0.033 |     0.863 | 0.228 |     1.825 | 0.069 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E2       | E3      |   -0.126 |   -0.493 |     0.242 | 0.187 |    -0.674 | 0.501 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E2       | E4      |    0.214 |   -0.228 |     0.655 | 0.224 |     0.952 | 0.342 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E2       | E5      |   -0.020 |   -0.307 |     0.267 | 0.146 |    -0.135 | 0.892 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E2       | E6      |    0.311 |   -0.080 |     0.701 | 0.198 |     1.566 | 0.119 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E3       | E4      |    0.339 |   -0.126 |     0.804 | 0.236 |     1.436 | 0.152 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E3       | E5      |    0.106 |   -0.215 |     0.427 | 0.163 |     0.650 | 0.516 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E3       | E6      |    0.436 |    0.019 |     0.853 | 0.212 |     2.059 | 0.040 | 0.607 | ns           |
+| tri.vocab.pos | WordGen  |        | E4       | E5      |   -0.233 |   -0.638 |     0.171 | 0.205 |    -1.136 | 0.257 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E4       | E6      |    0.097 |   -0.387 |     0.581 | 0.246 |     0.394 | 0.694 | 1.000 | ns           |
+| tri.vocab.pos | WordGen  |        | E5       | E6      |    0.330 |   -0.018 |     0.679 | 0.177 |     1.867 | 0.063 | 0.946 | ns           |
+| tri.vocab.pre | Controle |        | E1       | E2      |    0.302 |   -0.307 |     0.911 | 0.309 |     0.977 | 0.329 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E1       | E3      |    0.417 |   -0.236 |     1.071 | 0.332 |     1.257 | 0.210 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E1       | E4      |    0.124 |   -0.536 |     0.783 | 0.335 |     0.369 | 0.712 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E1       | E5      |    0.267 |   -0.310 |     0.843 | 0.293 |     0.911 | 0.363 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E1       | E6      |    0.137 |   -0.570 |     0.845 | 0.359 |     0.382 | 0.702 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E2       | E3      |    0.115 |   -0.373 |     0.602 | 0.248 |     0.464 | 0.643 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E2       | E4      |   -0.179 |   -0.674 |     0.316 | 0.251 |    -0.711 | 0.478 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E2       | E5      |   -0.036 |   -0.414 |     0.342 | 0.192 |    -0.186 | 0.853 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E2       | E6      |   -0.165 |   -0.723 |     0.393 | 0.283 |    -0.582 | 0.561 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E3       | E4      |   -0.294 |   -0.842 |     0.255 | 0.279 |    -1.053 | 0.293 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E3       | E5      |   -0.150 |   -0.597 |     0.296 | 0.227 |    -0.664 | 0.507 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E3       | E6      |   -0.280 |   -0.886 |     0.326 | 0.308 |    -0.909 | 0.364 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E4       | E5      |    0.143 |   -0.311 |     0.597 | 0.231 |     0.620 | 0.536 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E4       | E6      |    0.014 |   -0.598 |     0.626 | 0.311 |     0.044 | 0.965 | 1.000 | ns           |
+| tri.vocab.pre | Controle |        | E5       | E6      |   -0.129 |   -0.651 |     0.393 | 0.265 |    -0.488 | 0.626 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E1       | E2      |   -0.410 |   -1.040 |     0.221 | 0.320 |    -1.280 | 0.202 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E1       | E3      |   -0.669 |   -1.340 |     0.002 | 0.341 |    -1.964 | 0.051 | 0.758 | ns           |
+| tri.vocab.pre | WordGen  |        | E1       | E4      |   -0.610 |   -1.384 |     0.164 | 0.393 |    -1.551 | 0.122 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E1       | E5      |   -0.776 |   -1.341 |    -0.212 | 0.287 |    -2.708 | 0.007 | 0.108 | ns           |
+| tri.vocab.pre | WordGen  |        | E1       | E6      |   -0.442 |   -1.145 |     0.261 | 0.357 |    -1.237 | 0.217 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E2       | E3      |   -0.259 |   -0.836 |     0.318 | 0.293 |    -0.885 | 0.377 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E2       | E4      |   -0.201 |   -0.895 |     0.494 | 0.353 |    -0.568 | 0.570 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E2       | E5      |   -0.367 |   -0.816 |     0.082 | 0.228 |    -1.608 | 0.109 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E2       | E6      |   -0.032 |   -0.646 |     0.582 | 0.312 |    -0.103 | 0.918 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E3       | E4      |    0.059 |   -0.673 |     0.791 | 0.372 |     0.158 | 0.874 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E3       | E5      |   -0.107 |   -0.612 |     0.397 | 0.256 |    -0.419 | 0.675 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E3       | E6      |    0.227 |   -0.428 |     0.883 | 0.333 |     0.682 | 0.496 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E4       | E5      |   -0.166 |   -0.802 |     0.469 | 0.323 |    -0.515 | 0.607 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E4       | E6      |    0.168 |   -0.593 |     0.930 | 0.387 |     0.435 | 0.664 | 1.000 | ns           |
+| tri.vocab.pre | WordGen  |        | E5       | E6      |    0.335 |   -0.212 |     0.881 | 0.278 |     1.205 | 0.229 | 1.000 | ns           |
+| tri.vocab.pos |          | E1     | Controle | WordGen |   -0.090 |   -0.559 |     0.380 | 0.239 |    -0.375 | 0.708 | 0.708 | ns           |
+| tri.vocab.pos |          | E2     | Controle | WordGen |   -0.262 |   -0.567 |     0.044 | 0.155 |    -1.688 | 0.093 | 0.093 | ns           |
+| tri.vocab.pos |          | E3     | Controle | WordGen |   -0.231 |   -0.602 |     0.140 | 0.188 |    -1.226 | 0.221 | 0.221 | ns           |
+| tri.vocab.pos |          | E4     | Controle | WordGen |   -0.038 |   -0.486 |     0.410 | 0.228 |    -0.166 | 0.868 | 0.868 | ns           |
+| tri.vocab.pos |          | E5     | Controle | WordGen |   -0.063 |   -0.278 |     0.152 | 0.109 |    -0.576 | 0.565 | 0.565 | ns           |
+| tri.vocab.pos |          | E6     | Controle | WordGen |    0.111 |   -0.319 |     0.541 | 0.218 |     0.507 | 0.613 | 0.613 | ns           |
+| tri.vocab.pre |          | E1     | Controle | WordGen |    0.786 |    0.053 |     1.519 | 0.372 |     2.111 | 0.036 | 0.036 | \*           |
+| tri.vocab.pre |          | E2     | Controle | WordGen |    0.074 |   -0.407 |     0.554 | 0.244 |     0.302 | 0.763 | 0.763 | ns           |
+| tri.vocab.pre |          | E3     | Controle | WordGen |   -0.300 |   -0.883 |     0.282 | 0.296 |    -1.015 | 0.311 | 0.311 | ns           |
+| tri.vocab.pre |          | E4     | Controle | WordGen |    0.052 |   -0.653 |     0.757 | 0.358 |     0.145 | 0.885 | 0.885 | ns           |
+| tri.vocab.pre |          | E5     | Controle | WordGen |   -0.257 |   -0.595 |     0.080 | 0.171 |    -1.502 | 0.134 | 0.134 | ns           |
+| tri.vocab.pre |          | E6     | Controle | WordGen |    0.207 |   -0.470 |     0.883 | 0.344 |     0.601 | 0.548 | 0.548 | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |   -0.180 |   -0.908 |     0.548 | 0.371 |    -0.485 | 0.628 | 0.628 | ns           |
+| Controle | E2     | pre    | pos    |    0.078 |   -0.360 |     0.516 | 0.223 |     0.351 | 0.725 | 0.725 | ns           |
+| Controle | E3     | pre    | pos    |   -0.111 |   -0.666 |     0.444 | 0.283 |    -0.394 | 0.694 | 0.694 | ns           |
+| Controle | E4     | pre    | pos    |    0.107 |   -0.469 |     0.682 | 0.293 |     0.364 | 0.716 | 0.716 | ns           |
+| Controle | E5     | pre    | pos    |   -0.076 |   -0.401 |     0.248 | 0.165 |    -0.463 | 0.644 | 0.644 | ns           |
+| Controle | E6     | pre    | pos    |    0.104 |   -0.560 |     0.768 | 0.338 |     0.307 | 0.759 | 0.759 | ns           |
+| WordGen  | E1     | pre    | pos    |   -0.346 |   -1.089 |     0.397 | 0.378 |    -0.915 | 0.361 | 0.361 | ns           |
+| WordGen  | E2     | pre    | pos    |   -0.092 |   -0.608 |     0.424 | 0.263 |    -0.351 | 0.726 | 0.726 | ns           |
+| WordGen  | E3     | pre    | pos    |   -0.269 |   -0.912 |     0.374 | 0.327 |    -0.823 | 0.411 | 0.411 | ns           |
+| WordGen  | E4     | pre    | pos    |   -0.042 |   -0.878 |     0.794 | 0.426 |    -0.099 | 0.921 | 0.921 | ns           |
+| WordGen  | E5     | pre    | pos    |   -0.130 |   -0.487 |     0.227 | 0.182 |    -0.715 | 0.475 | 0.475 | ns           |
+| WordGen  | E6     | pre    | pos    |    0.121 |   -0.580 |     0.821 | 0.357 |     0.338 | 0.736 | 0.736 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-982-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-983-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-985-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-987-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1957,16 +3880,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-999-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-394-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1000-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-396-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1002-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-398-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1004-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1006-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1008-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | E1     | Controle |  11 |   0.467 |    0.169 |     0.208 |      0.278 |  -0.040 |    0.199 |
+| tri.vocab.ensinado.pos | E1     | WordGen  |  12 |  -0.142 |    0.218 |    -0.196 |      0.272 |  -0.065 |    0.190 |
+| tri.vocab.ensinado.pos | E2     | Controle |  34 |  -0.036 |    0.146 |    -0.081 |      0.154 |  -0.016 |    0.113 |
+| tri.vocab.ensinado.pos | E2     | WordGen  |  22 |  -0.190 |    0.170 |     0.169 |      0.172 |   0.329 |    0.141 |
+| tri.vocab.ensinado.pos | E3     | Controle |  21 |  -0.021 |    0.148 |    -0.151 |      0.167 |  -0.095 |    0.144 |
+| tri.vocab.ensinado.pos | E3     | WordGen  |  16 |   0.065 |    0.234 |     0.184 |      0.206 |   0.186 |    0.165 |
+| tri.vocab.ensinado.pos | E4     | Controle |  20 |   0.092 |    0.185 |     0.183 |      0.198 |   0.169 |    0.147 |
+| tri.vocab.ensinado.pos | E4     | WordGen  |   9 |  -0.073 |    0.239 |    -0.090 |      0.268 |  -0.002 |    0.220 |
+| tri.vocab.ensinado.pos | E5     | Controle |  59 |   0.056 |    0.112 |     0.115 |      0.107 |   0.123 |    0.086 |
+| tri.vocab.ensinado.pos | E5     | WordGen  |  50 |   0.267 |    0.094 |     0.391 |      0.098 |   0.267 |    0.094 |
+| tri.vocab.ensinado.pos | E6     | Controle |  14 |   0.120 |    0.227 |     0.007 |      0.221 |  -0.026 |    0.176 |
+| tri.vocab.ensinado.pos | E6     | WordGen  |  13 |   0.080 |    0.254 |    -0.159 |      0.251 |  -0.166 |    0.183 |
+
+| .y.                    | grupo    | escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |        | E1       | E2      |   -0.024 |   -0.476 |     0.428 | 0.230 |    -0.105 | 0.917 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E1       | E3      |    0.055 |   -0.430 |     0.540 | 0.246 |     0.224 | 0.823 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E1       | E4      |   -0.209 |   -0.697 |     0.279 | 0.248 |    -0.843 | 0.400 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E1       | E5      |   -0.163 |   -0.590 |     0.265 | 0.217 |    -0.749 | 0.455 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E1       | E6      |   -0.014 |   -0.538 |     0.509 | 0.266 |    -0.054 | 0.957 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E2       | E3      |    0.079 |   -0.280 |     0.439 | 0.183 |     0.434 | 0.665 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E2       | E4      |   -0.185 |   -0.550 |     0.180 | 0.186 |    -0.997 | 0.320 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E2       | E5      |   -0.139 |   -0.418 |     0.141 | 0.142 |    -0.977 | 0.329 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E2       | E6      |    0.010 |   -0.402 |     0.421 | 0.209 |     0.046 | 0.963 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E3       | E4      |   -0.264 |   -0.669 |     0.141 | 0.206 |    -1.284 | 0.200 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E3       | E5      |   -0.218 |   -0.547 |     0.112 | 0.167 |    -1.302 | 0.194 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E3       | E6      |   -0.070 |   -0.517 |     0.378 | 0.227 |    -0.307 | 0.759 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E4       | E5      |    0.046 |   -0.289 |     0.382 | 0.170 |     0.272 | 0.786 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E4       | E6      |    0.195 |   -0.257 |     0.646 | 0.229 |     0.848 | 0.397 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |        | E5       | E6      |    0.148 |   -0.237 |     0.534 | 0.196 |     0.757 | 0.450 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E1       | E2      |   -0.395 |   -0.860 |     0.071 | 0.236 |    -1.670 | 0.096 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E1       | E3      |   -0.251 |   -0.746 |     0.244 | 0.252 |    -0.998 | 0.319 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E1       | E4      |   -0.063 |   -0.635 |     0.508 | 0.290 |    -0.218 | 0.828 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E1       | E5      |   -0.332 |   -0.751 |     0.086 | 0.213 |    -1.563 | 0.119 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E1       | E6      |    0.101 |   -0.419 |     0.620 | 0.264 |     0.382 | 0.703 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E2       | E3      |    0.144 |   -0.283 |     0.570 | 0.217 |     0.663 | 0.508 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E2       | E4      |    0.331 |   -0.182 |     0.844 | 0.261 |     1.272 | 0.204 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E2       | E5      |    0.062 |   -0.272 |     0.397 | 0.170 |     0.366 | 0.715 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E2       | E6      |    0.495 |    0.041 |     0.950 | 0.231 |     2.148 | 0.033 | 0.490 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E3       | E4      |    0.188 |   -0.352 |     0.728 | 0.274 |     0.684 | 0.494 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E3       | E5      |   -0.081 |   -0.454 |     0.291 | 0.189 |    -0.430 | 0.668 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E3       | E6      |    0.352 |   -0.132 |     0.836 | 0.246 |     1.431 | 0.154 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E4       | E5      |   -0.269 |   -0.740 |     0.201 | 0.239 |    -1.127 | 0.261 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E4       | E6      |    0.164 |   -0.398 |     0.726 | 0.286 |     0.574 | 0.566 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |        | E5       | E6      |    0.433 |    0.029 |     0.837 | 0.205 |     2.112 | 0.036 | 0.535 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E1       | E2      |    0.503 |   -0.040 |     1.045 | 0.276 |     1.824 | 0.069 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E1       | E3      |    0.488 |   -0.094 |     1.070 | 0.296 |     1.651 | 0.100 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E1       | E4      |    0.375 |   -0.212 |     0.962 | 0.298 |     1.258 | 0.209 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E1       | E5      |    0.410 |   -0.103 |     0.924 | 0.261 |     1.573 | 0.117 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E1       | E6      |    0.346 |   -0.284 |     0.976 | 0.320 |     1.082 | 0.280 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E2       | E3      |   -0.015 |   -0.449 |     0.420 | 0.220 |    -0.066 | 0.948 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E2       | E4      |   -0.128 |   -0.568 |     0.313 | 0.224 |    -0.570 | 0.569 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E2       | E5      |   -0.092 |   -0.429 |     0.244 | 0.171 |    -0.540 | 0.590 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E2       | E6      |   -0.156 |   -0.653 |     0.340 | 0.252 |    -0.620 | 0.536 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E3       | E4      |   -0.113 |   -0.602 |     0.376 | 0.248 |    -0.455 | 0.649 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E3       | E5      |   -0.078 |   -0.475 |     0.320 | 0.202 |    -0.386 | 0.700 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E3       | E6      |   -0.142 |   -0.682 |     0.398 | 0.274 |    -0.518 | 0.605 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E4       | E5      |    0.035 |   -0.369 |     0.440 | 0.206 |     0.171 | 0.864 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E4       | E6      |   -0.029 |   -0.574 |     0.516 | 0.277 |    -0.104 | 0.917 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | E5       | E6      |   -0.064 |   -0.529 |     0.401 | 0.236 |    -0.271 | 0.786 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E1       | E2      |    0.048 |   -0.513 |     0.609 | 0.285 |     0.168 | 0.867 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E1       | E3      |   -0.206 |   -0.804 |     0.391 | 0.303 |    -0.680 | 0.497 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E1       | E4      |   -0.068 |   -0.758 |     0.621 | 0.350 |    -0.195 | 0.845 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E1       | E5      |   -0.408 |   -0.911 |     0.094 | 0.255 |    -1.599 | 0.111 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E1       | E6      |   -0.222 |   -0.848 |     0.404 | 0.318 |    -0.698 | 0.486 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E2       | E3      |   -0.254 |   -0.768 |     0.260 | 0.261 |    -0.974 | 0.331 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E2       | E4      |   -0.116 |   -0.735 |     0.503 | 0.314 |    -0.370 | 0.712 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E2       | E5      |   -0.456 |   -0.856 |    -0.056 | 0.203 |    -2.245 | 0.026 | 0.384 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E2       | E6      |   -0.270 |   -0.817 |     0.277 | 0.278 |    -0.971 | 0.333 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E3       | E4      |    0.138 |   -0.514 |     0.790 | 0.331 |     0.417 | 0.677 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E3       | E5      |   -0.202 |   -0.651 |     0.247 | 0.228 |    -0.885 | 0.377 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E3       | E6      |   -0.015 |   -0.599 |     0.568 | 0.297 |    -0.052 | 0.958 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E4       | E5      |   -0.340 |   -0.906 |     0.226 | 0.288 |    -1.182 | 0.238 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E4       | E6      |   -0.154 |   -0.832 |     0.525 | 0.344 |    -0.446 | 0.656 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |        | E5       | E6      |    0.186 |   -0.300 |     0.673 | 0.247 |     0.754 | 0.451 | 1.000 | ns           |
+| tri.vocab.ensinado.pos |          | E1     | Controle | WordGen |    0.025 |   -0.519 |     0.569 | 0.276 |     0.090 | 0.928 | 0.928 | ns           |
+| tri.vocab.ensinado.pos |          | E2     | Controle | WordGen |   -0.346 |   -0.700 |     0.009 | 0.180 |    -1.917 | 0.056 | 0.056 | ns           |
+| tri.vocab.ensinado.pos |          | E3     | Controle | WordGen |   -0.281 |   -0.711 |     0.149 | 0.218 |    -1.287 | 0.199 | 0.199 | ns           |
+| tri.vocab.ensinado.pos |          | E4     | Controle | WordGen |    0.171 |   -0.350 |     0.691 | 0.264 |     0.646 | 0.519 | 0.519 | ns           |
+| tri.vocab.ensinado.pos |          | E5     | Controle | WordGen |   -0.145 |   -0.395 |     0.105 | 0.127 |    -1.140 | 0.255 | 0.255 | ns           |
+| tri.vocab.ensinado.pos |          | E6     | Controle | WordGen |    0.140 |   -0.359 |     0.639 | 0.254 |     0.553 | 0.581 | 0.581 | ns           |
+| tri.vocab.ensinado.pre |          | E1     | Controle | WordGen |    0.608 |   -0.044 |     1.261 | 0.332 |     1.835 | 0.068 | 0.068 | ns           |
+| tri.vocab.ensinado.pre |          | E2     | Controle | WordGen |    0.154 |   -0.274 |     0.581 | 0.217 |     0.706 | 0.480 | 0.480 | ns           |
+| tri.vocab.ensinado.pre |          | E3     | Controle | WordGen |   -0.086 |   -0.605 |     0.433 | 0.264 |    -0.327 | 0.744 | 0.744 | ns           |
+| tri.vocab.ensinado.pre |          | E4     | Controle | WordGen |    0.165 |   -0.463 |     0.793 | 0.319 |     0.517 | 0.605 | 0.605 | ns           |
+| tri.vocab.ensinado.pre |          | E5     | Controle | WordGen |   -0.210 |   -0.511 |     0.090 | 0.153 |    -1.377 | 0.170 | 0.170 | ns           |
+| tri.vocab.ensinado.pre |          | E6     | Controle | WordGen |    0.040 |   -0.562 |     0.643 | 0.306 |     0.132 | 0.895 | 0.895 | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |    0.209 |   -0.430 |     0.848 | 0.325 |     0.642 | 0.521 | 0.521 | ns           |
+| Controle | E2     | pre    | pos    |    0.029 |   -0.355 |     0.414 | 0.196 |     0.148 | 0.882 | 0.882 | ns           |
+| Controle | E3     | pre    | pos    |    0.056 |   -0.431 |     0.543 | 0.248 |     0.225 | 0.822 | 0.822 | ns           |
+| Controle | E4     | pre    | pos    |   -0.092 |   -0.597 |     0.413 | 0.257 |    -0.357 | 0.721 | 0.721 | ns           |
+| Controle | E5     | pre    | pos    |   -0.046 |   -0.331 |     0.238 | 0.145 |    -0.320 | 0.749 | 0.749 | ns           |
+| Controle | E6     | pre    | pos    |    0.066 |   -0.518 |     0.649 | 0.297 |     0.221 | 0.825 | 0.825 | ns           |
+| WordGen  | E1     | pre    | pos    |    0.054 |   -0.598 |     0.706 | 0.332 |     0.164 | 0.870 | 0.870 | ns           |
+| WordGen  | E2     | pre    | pos    |   -0.242 |   -0.695 |     0.211 | 0.231 |    -1.049 | 0.295 | 0.295 | ns           |
+| WordGen  | E3     | pre    | pos    |   -0.119 |   -0.684 |     0.446 | 0.287 |    -0.414 | 0.679 | 0.679 | ns           |
+| WordGen  | E4     | pre    | pos    |   -0.095 |   -0.828 |     0.639 | 0.374 |    -0.253 | 0.800 | 0.800 | ns           |
+| WordGen  | E5     | pre    | pos    |   -0.106 |   -0.419 |     0.208 | 0.160 |    -0.661 | 0.509 | 0.509 | ns           |
+| WordGen  | E6     | pre    | pos    |    0.231 |   -0.384 |     0.846 | 0.313 |     0.738 | 0.461 | 0.461 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1016-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1017-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1019-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1021-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1023-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2078,16 +4130,145 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-406-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1033-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1034-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1036-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1038-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1040-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1042-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | E1     | Controle |  11 |   0.197 |    0.217 |     0.439 |      0.202 |   0.348 |    0.173 |
+| tri.vocab.nao.ensinado.pos | E1     | WordGen  |  12 |  -0.352 |    0.270 |    -0.065 |      0.353 |   0.309 |    0.167 |
+| tri.vocab.nao.ensinado.pos | E2     | Controle |  34 |   0.033 |    0.183 |     0.076 |      0.191 |   0.124 |    0.099 |
+| tri.vocab.nao.ensinado.pos | E2     | WordGen  |  22 |  -0.002 |    0.184 |     0.171 |      0.201 |   0.249 |    0.123 |
+| tri.vocab.nao.ensinado.pos | E3     | Controle |  21 |  -0.143 |    0.173 |     0.011 |      0.181 |   0.208 |    0.126 |
+| tri.vocab.nao.ensinado.pos | E3     | WordGen  |  16 |   0.179 |    0.246 |     0.507 |      0.265 |   0.432 |    0.144 |
+| tri.vocab.nao.ensinado.pos | E4     | Controle |  20 |   0.224 |    0.176 |     0.068 |      0.189 |  -0.046 |    0.129 |
+| tri.vocab.nao.ensinado.pos | E4     | WordGen  |   9 |   0.103 |    0.221 |     0.050 |      0.292 |   0.039 |    0.192 |
+| tri.vocab.nao.ensinado.pos | E5     | Controle |  59 |   0.049 |    0.116 |     0.259 |      0.125 |   0.294 |    0.075 |
+| tri.vocab.nao.ensinado.pos | E5     | WordGen  |  50 |   0.328 |    0.124 |     0.473 |      0.125 |   0.271 |    0.082 |
+| tri.vocab.nao.ensinado.pos | E6     | Controle |  14 |   0.184 |    0.265 |     0.124 |      0.229 |   0.045 |    0.154 |
+| tri.vocab.nao.ensinado.pos | E6     | WordGen  |  13 |  -0.076 |    0.251 |    -0.174 |      0.269 |  -0.034 |    0.159 |
+
+| .y.                        | grupo    | escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:-------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |        | E1       | E2      |    0.224 |   -0.168 |     0.617 | 0.199 |     1.125 | 0.262 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E1       | E3      |    0.141 |   -0.281 |     0.562 | 0.214 |     0.656 | 0.512 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E1       | E4      |    0.394 |   -0.031 |     0.819 | 0.216 |     1.827 | 0.069 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E1       | E5      |    0.055 |   -0.317 |     0.426 | 0.189 |     0.290 | 0.772 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E1       | E6      |    0.304 |   -0.152 |     0.759 | 0.231 |     1.312 | 0.191 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E2       | E3      |   -0.084 |   -0.398 |     0.231 | 0.160 |    -0.524 | 0.600 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E2       | E4      |    0.170 |   -0.149 |     0.489 | 0.162 |     1.047 | 0.296 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E2       | E5      |   -0.170 |   -0.413 |     0.074 | 0.124 |    -1.370 | 0.172 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E2       | E6      |    0.079 |   -0.280 |     0.439 | 0.183 |     0.435 | 0.664 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E3       | E4      |    0.253 |   -0.101 |     0.608 | 0.180 |     1.408 | 0.160 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E3       | E5      |   -0.086 |   -0.374 |     0.202 | 0.146 |    -0.587 | 0.558 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E3       | E6      |    0.163 |   -0.228 |     0.554 | 0.199 |     0.821 | 0.412 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E4       | E5      |   -0.339 |   -0.632 |    -0.046 | 0.149 |    -2.280 | 0.023 | 0.351 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E4       | E6      |   -0.090 |   -0.485 |     0.304 | 0.200 |    -0.451 | 0.652 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |        | E5       | E6      |    0.249 |   -0.088 |     0.585 | 0.171 |     1.457 | 0.146 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E1       | E2      |    0.060 |   -0.347 |     0.467 | 0.207 |     0.290 | 0.772 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E1       | E3      |   -0.123 |   -0.557 |     0.311 | 0.220 |    -0.558 | 0.577 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E1       | E4      |    0.269 |   -0.231 |     0.769 | 0.254 |     1.060 | 0.290 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E1       | E5      |    0.038 |   -0.329 |     0.405 | 0.187 |     0.203 | 0.839 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E1       | E6      |    0.343 |   -0.111 |     0.796 | 0.230 |     1.488 | 0.138 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E2       | E3      |   -0.183 |   -0.555 |     0.189 | 0.189 |    -0.969 | 0.334 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E2       | E4      |    0.209 |   -0.238 |     0.657 | 0.227 |     0.921 | 0.358 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E2       | E5      |   -0.022 |   -0.313 |     0.268 | 0.148 |    -0.149 | 0.881 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E2       | E6      |    0.283 |   -0.113 |     0.678 | 0.201 |     1.406 | 0.161 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E3       | E4      |    0.392 |   -0.079 |     0.864 | 0.239 |     1.639 | 0.102 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E3       | E5      |    0.161 |   -0.164 |     0.486 | 0.165 |     0.975 | 0.331 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E3       | E6      |    0.466 |    0.043 |     0.888 | 0.215 |     2.168 | 0.031 | 0.466 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E4       | E5      |   -0.231 |   -0.641 |     0.179 | 0.208 |    -1.111 | 0.268 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E4       | E6      |    0.073 |   -0.417 |     0.564 | 0.249 |     0.294 | 0.769 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |        | E5       | E6      |    0.305 |   -0.049 |     0.658 | 0.180 |     1.696 | 0.091 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E1       | E2      |    0.165 |   -0.449 |     0.778 | 0.312 |     0.528 | 0.598 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E1       | E3      |    0.340 |   -0.318 |     0.999 | 0.334 |     1.018 | 0.310 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E1       | E4      |   -0.027 |   -0.691 |     0.637 | 0.337 |    -0.080 | 0.936 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E1       | E5      |    0.148 |   -0.433 |     0.729 | 0.295 |     0.502 | 0.616 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E1       | E6      |    0.014 |   -0.699 |     0.726 | 0.362 |     0.038 | 0.970 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E2       | E3      |    0.176 |   -0.315 |     0.666 | 0.249 |     0.704 | 0.482 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E2       | E4      |   -0.192 |   -0.690 |     0.307 | 0.253 |    -0.757 | 0.450 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E2       | E5      |   -0.017 |   -0.397 |     0.364 | 0.193 |    -0.085 | 0.932 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E2       | E6      |   -0.151 |   -0.713 |     0.411 | 0.285 |    -0.529 | 0.597 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E3       | E4      |   -0.367 |   -0.920 |     0.185 | 0.281 |    -1.308 | 0.192 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E3       | E5      |   -0.192 |   -0.642 |     0.257 | 0.228 |    -0.841 | 0.401 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E3       | E6      |   -0.327 |   -0.937 |     0.284 | 0.310 |    -1.053 | 0.293 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E4       | E5      |    0.175 |   -0.283 |     0.633 | 0.232 |     0.754 | 0.452 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E4       | E6      |    0.041 |   -0.576 |     0.657 | 0.313 |     0.130 | 0.897 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | E5       | E6      |   -0.134 |   -0.660 |     0.391 | 0.267 |    -0.503 | 0.615 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E1       | E2      |   -0.350 |   -0.985 |     0.285 | 0.322 |    -1.085 | 0.279 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E1       | E3      |   -0.531 |   -1.207 |     0.144 | 0.343 |    -1.549 | 0.123 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E1       | E4      |   -0.455 |   -1.235 |     0.325 | 0.396 |    -1.149 | 0.252 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E1       | E5      |   -0.681 |   -1.249 |    -0.112 | 0.289 |    -2.357 | 0.019 | 0.287 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E1       | E6      |   -0.276 |   -0.985 |     0.432 | 0.360 |    -0.769 | 0.443 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E2       | E3      |   -0.181 |   -0.763 |     0.400 | 0.295 |    -0.615 | 0.539 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E2       | E4      |   -0.105 |   -0.805 |     0.595 | 0.355 |    -0.296 | 0.768 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E2       | E5      |   -0.331 |   -0.783 |     0.122 | 0.230 |    -1.439 | 0.151 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E2       | E6      |    0.074 |   -0.545 |     0.692 | 0.314 |     0.234 | 0.815 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E3       | E4      |    0.076 |   -0.661 |     0.813 | 0.374 |     0.204 | 0.839 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E3       | E5      |   -0.149 |   -0.657 |     0.359 | 0.258 |    -0.578 | 0.563 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E3       | E6      |    0.255 |   -0.406 |     0.915 | 0.335 |     0.760 | 0.448 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E4       | E5      |   -0.226 |   -0.866 |     0.415 | 0.325 |    -0.694 | 0.489 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E4       | E6      |    0.179 |   -0.588 |     0.946 | 0.390 |     0.459 | 0.647 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |        | E5       | E6      |    0.404 |   -0.146 |     0.955 | 0.280 |     1.445 | 0.150 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E1     | Controle | WordGen |    0.040 |   -0.434 |     0.514 | 0.241 |     0.165 | 0.869 | 0.869 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E2     | Controle | WordGen |   -0.125 |   -0.434 |     0.185 | 0.157 |    -0.792 | 0.429 | 0.429 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E3     | Controle | WordGen |   -0.224 |   -0.600 |     0.152 | 0.191 |    -1.171 | 0.243 | 0.243 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E4     | Controle | WordGen |   -0.085 |   -0.539 |     0.369 | 0.231 |    -0.368 | 0.713 | 0.713 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E5     | Controle | WordGen |    0.023 |   -0.196 |     0.241 | 0.111 |     0.207 | 0.836 | 0.836 | ns           |
+| tri.vocab.nao.ensinado.pos |          | E6     | Controle | WordGen |    0.079 |   -0.358 |     0.515 | 0.222 |     0.355 | 0.723 | 0.723 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E1     | Controle | WordGen |    0.550 |   -0.189 |     1.288 | 0.375 |     1.466 | 0.144 | 0.144 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E2     | Controle | WordGen |    0.035 |   -0.449 |     0.519 | 0.246 |     0.143 | 0.887 | 0.887 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E3     | Controle | WordGen |   -0.322 |   -0.909 |     0.265 | 0.298 |    -1.080 | 0.281 | 0.281 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E4     | Controle | WordGen |    0.122 |   -0.588 |     0.832 | 0.361 |     0.337 | 0.736 | 0.736 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E5     | Controle | WordGen |   -0.279 |   -0.619 |     0.061 | 0.173 |    -1.616 | 0.107 | 0.107 | ns           |
+| tri.vocab.nao.ensinado.pre |          | E6     | Controle | WordGen |    0.260 |   -0.422 |     0.941 | 0.346 |     0.750 | 0.454 | 0.454 | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |   -0.231 |   -0.959 |     0.498 | 0.371 |    -0.622 | 0.534 | 0.534 | ns           |
+| Controle | E2     | pre    | pos    |   -0.058 |   -0.496 |     0.380 | 0.223 |    -0.261 | 0.794 | 0.794 | ns           |
+| Controle | E3     | pre    | pos    |   -0.173 |   -0.728 |     0.382 | 0.283 |    -0.613 | 0.540 | 0.540 | ns           |
+| Controle | E4     | pre    | pos    |    0.156 |   -0.419 |     0.731 | 0.293 |     0.533 | 0.594 | 0.594 | ns           |
+| Controle | E5     | pre    | pos    |   -0.166 |   -0.490 |     0.158 | 0.165 |    -1.006 | 0.315 | 0.315 | ns           |
+| Controle | E6     | pre    | pos    |    0.100 |   -0.564 |     0.765 | 0.338 |     0.296 | 0.767 | 0.767 | ns           |
+| WordGen  | E1     | pre    | pos    |   -0.287 |   -1.030 |     0.456 | 0.378 |    -0.759 | 0.448 | 0.448 | ns           |
+| WordGen  | E2     | pre    | pos    |   -0.098 |   -0.614 |     0.418 | 0.263 |    -0.374 | 0.709 | 0.709 | ns           |
+| WordGen  | E3     | pre    | pos    |   -0.328 |   -0.971 |     0.315 | 0.328 |    -1.002 | 0.317 | 0.317 | ns           |
+| WordGen  | E4     | pre    | pos    |   -0.048 |   -0.884 |     0.788 | 0.426 |    -0.113 | 0.910 | 0.910 | ns           |
+| WordGen  | E5     | pre    | pos    |   -0.128 |   -0.485 |     0.229 | 0.182 |    -0.703 | 0.483 | 0.483 | ns           |
+| WordGen  | E6     | pre    | pos    |    0.070 |   -0.631 |     0.771 | 0.357 |     0.197 | 0.844 | 0.844 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1050-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1055-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1057-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1059-1.png)<!-- -->
 
 ## factores: **zona.escola:grupo**
 
@@ -2121,16 +4302,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1067-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-420-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1068-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-422-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1070-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-424-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1072-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1074-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1076-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural       | Controle |  55 |   0.102 |    0.110 |     0.081 |      0.118 |   0.087 |    0.077 |
+| tri.vocab.pos | Rural       | WordGen  |  38 |   0.133 |    0.141 |     0.186 |      0.145 |   0.165 |    0.092 |
+| tri.vocab.pos | Urbana      | Controle | 104 |   0.091 |    0.088 |     0.145 |      0.101 |   0.161 |    0.056 |
+| tri.vocab.pos | Urbana      | WordGen  |  84 |   0.125 |    0.104 |     0.310 |      0.102 |   0.296 |    0.062 |
+
+| .y.           | grupo    | zona.escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |             | Urbana   | Rural   |    0.074 |   -0.113 |     0.261 | 0.095 |     0.781 | 0.436 | 0.436 | ns           |
+| tri.vocab.pos | WordGen  |             | Urbana   | Rural   |    0.131 |   -0.088 |     0.349 | 0.111 |     1.176 | 0.241 | 0.241 | ns           |
+| tri.vocab.pre | Controle |             | Urbana   | Rural   |   -0.011 |   -0.305 |     0.283 | 0.150 |    -0.073 | 0.942 | 0.942 | ns           |
+| tri.vocab.pre | WordGen  |             | Urbana   | Rural   |   -0.008 |   -0.353 |     0.337 | 0.175 |    -0.045 | 0.964 | 0.964 | ns           |
+| tri.vocab.pos |          | Urbana      | Controle | WordGen |   -0.135 |   -0.299 |     0.029 | 0.083 |    -1.622 | 0.106 | 0.106 | ns           |
+| tri.vocab.pos |          | Rural       | Controle | WordGen |   -0.079 |   -0.315 |     0.157 | 0.120 |    -0.655 | 0.513 | 0.513 | ns           |
+| tri.vocab.pre |          | Urbana      | Controle | WordGen |   -0.034 |   -0.293 |     0.225 | 0.132 |    -0.258 | 0.797 | 0.797 | ns           |
+| tri.vocab.pre |          | Rural       | Controle | WordGen |   -0.031 |   -0.403 |     0.342 | 0.189 |    -0.163 | 0.871 | 0.871 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |   -0.038 |   -0.285 |     0.208 | 0.125 |    -0.307 | 0.759 | 0.759 | ns           |
+| Controle | Rural       | pre    | pos    |    0.025 |   -0.319 |     0.368 | 0.175 |     0.142 | 0.887 | 0.887 | ns           |
+| WordGen  | Urbana      | pre    | pos    |   -0.146 |   -0.420 |     0.128 | 0.139 |    -1.045 | 0.296 | 0.296 | ns           |
+| WordGen  | Rural       | pre    | pos    |   -0.086 |   -0.499 |     0.327 | 0.210 |    -0.408 | 0.684 | 0.684 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1084-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1091-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1093-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2162,16 +4392,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-432-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-433-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1102-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1104-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1106-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1108-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1110-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural       | Controle |  55 |   0.056 |    0.103 |     0.011 |      0.111 |   0.019 |    0.089 |
+| tri.vocab.ensinado.pos | Rural       | WordGen  |  38 |   0.037 |    0.140 |     0.002 |      0.136 |   0.021 |    0.107 |
+| tri.vocab.ensinado.pos | Urbana      | Controle | 104 |   0.070 |    0.082 |     0.061 |      0.084 |   0.060 |    0.065 |
+| tri.vocab.ensinado.pos | Urbana      | WordGen  |  84 |   0.089 |    0.080 |     0.249 |      0.085 |   0.236 |    0.072 |
+
+| .y.                    | grupo    | zona.escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |             | Urbana   | Rural   |    0.042 |   -0.175 |     0.258 | 0.110 |     0.378 | 0.706 | 0.706 | ns           |
+| tri.vocab.ensinado.pos | WordGen  |             | Urbana   | Rural   |    0.215 |   -0.039 |     0.468 | 0.129 |     1.669 | 0.096 | 0.096 | ns           |
+| tri.vocab.ensinado.pre | Controle |             | Urbana   | Rural   |    0.014 |   -0.248 |     0.276 | 0.133 |     0.104 | 0.917 | 0.917 | ns           |
+| tri.vocab.ensinado.pre | WordGen  |             | Urbana   | Rural   |    0.052 |   -0.255 |     0.358 | 0.156 |     0.331 | 0.741 | 0.741 | ns           |
+| tri.vocab.ensinado.pos |          | Urbana      | Controle | WordGen |   -0.176 |   -0.366 |     0.014 | 0.097 |    -1.822 | 0.070 | 0.070 | ns           |
+| tri.vocab.ensinado.pos |          | Rural       | Controle | WordGen |   -0.003 |   -0.276 |     0.271 | 0.139 |    -0.019 | 0.985 | 0.985 | ns           |
+| tri.vocab.ensinado.pre |          | Urbana      | Controle | WordGen |   -0.019 |   -0.250 |     0.211 | 0.117 |    -0.165 | 0.869 | 0.869 | ns           |
+| tri.vocab.ensinado.pre |          | Rural       | Controle | WordGen |    0.019 |   -0.313 |     0.350 | 0.168 |     0.110 | 0.912 | 0.912 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |    0.007 |   -0.208 |     0.223 | 0.110 |     0.066 | 0.947 | 0.947 | ns           |
+| Controle | Rural       | pre    | pos    |    0.008 |   -0.293 |     0.308 | 0.153 |     0.051 | 0.960 | 0.960 | ns           |
+| WordGen  | Urbana      | pre    | pos    |   -0.121 |   -0.361 |     0.118 | 0.122 |    -0.994 | 0.321 | 0.321 | ns           |
+| WordGen  | Rural       | pre    | pos    |    0.008 |   -0.354 |     0.369 | 0.184 |     0.042 | 0.966 | 0.966 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1118-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1119-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1125-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1127-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2203,16 +4482,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-445-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-446-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1136-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-448-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1138-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-450-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1140-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1142-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1144-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural       | Controle |  55 |   0.074 |    0.114 |     0.061 |      0.112 |   0.074 |    0.078 |
+| tri.vocab.nao.ensinado.pos | Rural       | WordGen  |  38 |   0.074 |    0.142 |     0.166 |      0.164 |   0.179 |    0.094 |
+| tri.vocab.nao.ensinado.pos | Urbana      | Controle | 104 |   0.059 |    0.091 |     0.218 |      0.097 |   0.244 |    0.057 |
+| tri.vocab.nao.ensinado.pos | Urbana      | WordGen  |  84 |   0.144 |    0.099 |     0.317 |      0.105 |   0.270 |    0.063 |
+
+| .y.                        | grupo    | zona.escola | group1   | group2  | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------------|:---------|:--------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |             | Urbana   | Rural   |    0.170 |   -0.019 |     0.359 | 0.096 |     1.767 | 0.078 | 0.078 | ns           |
+| tri.vocab.nao.ensinado.pos | WordGen  |             | Urbana   | Rural   |    0.091 |   -0.131 |     0.313 | 0.113 |     0.807 | 0.421 | 0.421 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |             | Urbana   | Rural   |   -0.014 |   -0.310 |     0.281 | 0.150 |    -0.095 | 0.924 | 0.924 | ns           |
+| tri.vocab.nao.ensinado.pre | WordGen  |             | Urbana   | Rural   |    0.071 |   -0.276 |     0.417 | 0.176 |     0.402 | 0.688 | 0.688 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Urbana      | Controle | WordGen |   -0.026 |   -0.193 |     0.140 | 0.085 |    -0.312 | 0.756 | 0.756 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Rural       | Controle | WordGen |   -0.105 |   -0.345 |     0.134 | 0.122 |    -0.866 | 0.387 | 0.387 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Urbana      | Controle | WordGen |   -0.085 |   -0.345 |     0.175 | 0.132 |    -0.643 | 0.520 | 0.520 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Rural       | Controle | WordGen |    0.000 |   -0.374 |     0.374 | 0.190 |     0.000 | 1.000 | 1.000 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |   -0.139 |   -0.384 |     0.107 | 0.125 |    -1.110 | 0.267 | 0.267 | ns           |
+| Controle | Rural       | pre    | pos    |    0.018 |   -0.325 |     0.361 | 0.174 |     0.103 | 0.918 | 0.918 | ns           |
+| WordGen  | Urbana      | pre    | pos    |   -0.139 |   -0.412 |     0.135 | 0.139 |    -0.997 | 0.319 | 0.319 | ns           |
+| WordGen  | Rural       | pre    | pos    |   -0.129 |   -0.541 |     0.284 | 0.210 |    -0.614 | 0.540 | 0.540 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1152-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1153-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1155-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1157-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1159-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1161-1.png)<!-- -->
 
 # Pairwise comparisons for grupo=“Experimental”
 
@@ -2342,11 +4670,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-458-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-460-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-462-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1173-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1175-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1177-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | AC      |  11 |   0.500 |    0.236 |     0.740 |      0.170 |   0.503 |    0.186 |
+| tri.vocab.pos | CE      |   9 |   0.165 |    0.215 |     0.104 |      0.283 |   0.098 |    0.205 |
+| tri.vocab.pos | EA      |   9 |   0.513 |    0.184 |     0.490 |      0.318 |   0.245 |    0.206 |
+| tri.vocab.pos | GR      |  16 |   0.225 |    0.266 |     0.375 |      0.258 |   0.328 |    0.153 |
+| tri.vocab.pos | JC      |  11 |   0.442 |    0.214 |     0.831 |      0.127 |   0.634 |    0.186 |
+| tri.vocab.pos | MF      |  10 |   0.486 |    0.309 |     0.641 |      0.224 |   0.415 |    0.195 |
+| tri.vocab.pos | ML      |  16 |   0.224 |    0.262 |     0.494 |      0.224 |   0.447 |    0.153 |
+| tri.vocab.pos | MM      |   9 |  -0.548 |    0.238 |    -0.337 |      0.283 |   0.148 |    0.210 |
+| tri.vocab.pos | PR      |  12 |  -0.445 |    0.331 |    -0.099 |      0.335 |   0.315 |    0.182 |
+| tri.vocab.pos | VL      |  13 |  -0.003 |    0.221 |    -0.137 |      0.237 |  -0.027 |    0.171 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | AC     | CE     |    0.405 |   -0.144 |     0.954 | 0.277 |     1.464 | 0.146 | 1.000 | ns           |
+| tri.vocab.pos | AC     | EA     |    0.258 |   -0.289 |     0.805 | 0.276 |     0.935 | 0.352 | 1.000 | ns           |
+| tri.vocab.pos | AC     | GR     |    0.175 |   -0.303 |     0.653 | 0.241 |     0.728 | 0.468 | 1.000 | ns           |
+| tri.vocab.pos | AC     | JC     |   -0.131 |   -0.650 |     0.388 | 0.262 |    -0.501 | 0.617 | 1.000 | ns           |
+| tri.vocab.pos | AC     | MF     |    0.088 |   -0.444 |     0.620 | 0.268 |     0.329 | 0.743 | 1.000 | ns           |
+| tri.vocab.pos | AC     | ML     |    0.056 |   -0.422 |     0.534 | 0.241 |     0.232 | 0.817 | 1.000 | ns           |
+| tri.vocab.pos | AC     | MM     |    0.356 |   -0.209 |     0.920 | 0.285 |     1.250 | 0.214 | 1.000 | ns           |
+| tri.vocab.pos | AC     | PR     |    0.188 |   -0.335 |     0.711 | 0.264 |     0.714 | 0.477 | 1.000 | ns           |
+| tri.vocab.pos | AC     | VL     |    0.530 |    0.027 |     1.033 | 0.254 |     2.090 | 0.039 | 1.000 | ns           |
+| tri.vocab.pos | CE     | EA     |   -0.147 |   -0.723 |     0.428 | 0.290 |    -0.507 | 0.613 | 1.000 | ns           |
+| tri.vocab.pos | CE     | GR     |   -0.230 |   -0.737 |     0.277 | 0.256 |    -0.898 | 0.371 | 1.000 | ns           |
+| tri.vocab.pos | CE     | JC     |   -0.536 |   -1.084 |     0.012 | 0.276 |    -1.939 | 0.055 | 1.000 | ns           |
+| tri.vocab.pos | CE     | MF     |   -0.317 |   -0.878 |     0.244 | 0.283 |    -1.121 | 0.265 | 1.000 | ns           |
+| tri.vocab.pos | CE     | ML     |   -0.349 |   -0.856 |     0.158 | 0.256 |    -1.365 | 0.175 | 1.000 | ns           |
+| tri.vocab.pos | CE     | MM     |   -0.049 |   -0.631 |     0.532 | 0.293 |    -0.169 | 0.866 | 1.000 | ns           |
+| tri.vocab.pos | CE     | PR     |   -0.217 |   -0.759 |     0.326 | 0.274 |    -0.792 | 0.430 | 1.000 | ns           |
+| tri.vocab.pos | CE     | VL     |    0.125 |   -0.403 |     0.653 | 0.266 |     0.469 | 0.640 | 1.000 | ns           |
+| tri.vocab.pos | EA     | GR     |   -0.083 |   -0.591 |     0.426 | 0.256 |    -0.322 | 0.748 | 1.000 | ns           |
+| tri.vocab.pos | EA     | JC     |   -0.389 |   -0.936 |     0.158 | 0.276 |    -1.410 | 0.161 | 1.000 | ns           |
+| tri.vocab.pos | EA     | MF     |   -0.170 |   -0.729 |     0.389 | 0.282 |    -0.602 | 0.548 | 1.000 | ns           |
+| tri.vocab.pos | EA     | ML     |   -0.202 |   -0.710 |     0.307 | 0.256 |    -0.788 | 0.433 | 1.000 | ns           |
+| tri.vocab.pos | EA     | MM     |    0.098 |   -0.493 |     0.688 | 0.298 |     0.328 | 0.744 | 1.000 | ns           |
+| tri.vocab.pos | EA     | PR     |   -0.070 |   -0.621 |     0.482 | 0.278 |    -0.251 | 0.803 | 1.000 | ns           |
+| tri.vocab.pos | EA     | VL     |    0.272 |   -0.260 |     0.804 | 0.268 |     1.014 | 0.313 | 1.000 | ns           |
+| tri.vocab.pos | GR     | JC     |   -0.307 |   -0.784 |     0.171 | 0.241 |    -1.273 | 0.206 | 1.000 | ns           |
+| tri.vocab.pos | GR     | MF     |   -0.087 |   -0.579 |     0.405 | 0.248 |    -0.352 | 0.726 | 1.000 | ns           |
+| tri.vocab.pos | GR     | ML     |   -0.119 |   -0.550 |     0.311 | 0.217 |    -0.550 | 0.583 | 1.000 | ns           |
+| tri.vocab.pos | GR     | MM     |    0.180 |   -0.337 |     0.697 | 0.261 |     0.691 | 0.491 | 1.000 | ns           |
+| tri.vocab.pos | GR     | PR     |    0.013 |   -0.460 |     0.486 | 0.239 |     0.054 | 0.957 | 1.000 | ns           |
+| tri.vocab.pos | GR     | VL     |    0.355 |   -0.101 |     0.810 | 0.230 |     1.544 | 0.126 | 1.000 | ns           |
+| tri.vocab.pos | JC     | MF     |    0.219 |   -0.312 |     0.751 | 0.268 |     0.818 | 0.415 | 1.000 | ns           |
+| tri.vocab.pos | JC     | ML     |    0.187 |   -0.290 |     0.665 | 0.241 |     0.777 | 0.439 | 1.000 | ns           |
+| tri.vocab.pos | JC     | MM     |    0.487 |   -0.076 |     1.049 | 0.284 |     1.716 | 0.089 | 1.000 | ns           |
+| tri.vocab.pos | JC     | PR     |    0.319 |   -0.202 |     0.841 | 0.263 |     1.215 | 0.227 | 1.000 | ns           |
+| tri.vocab.pos | JC     | VL     |    0.661 |    0.159 |     1.163 | 0.253 |     2.612 | 0.010 | 0.465 | ns           |
+| tri.vocab.pos | MF     | ML     |   -0.032 |   -0.524 |     0.460 | 0.248 |    -0.130 | 0.897 | 1.000 | ns           |
+| tri.vocab.pos | MF     | MM     |    0.267 |   -0.308 |     0.843 | 0.290 |     0.921 | 0.359 | 1.000 | ns           |
+| tri.vocab.pos | MF     | PR     |    0.100 |   -0.435 |     0.635 | 0.270 |     0.371 | 0.712 | 1.000 | ns           |
+| tri.vocab.pos | MF     | VL     |    0.442 |   -0.074 |     0.958 | 0.260 |     1.698 | 0.092 | 1.000 | ns           |
+| tri.vocab.pos | ML     | MM     |    0.300 |   -0.218 |     0.817 | 0.261 |     1.149 | 0.253 | 1.000 | ns           |
+| tri.vocab.pos | ML     | PR     |    0.132 |   -0.341 |     0.605 | 0.239 |     0.554 | 0.581 | 1.000 | ns           |
+| tri.vocab.pos | ML     | VL     |    0.474 |    0.019 |     0.929 | 0.230 |     2.064 | 0.041 | 1.000 | ns           |
+| tri.vocab.pos | MM     | PR     |   -0.167 |   -0.704 |     0.369 | 0.271 |    -0.618 | 0.538 | 1.000 | ns           |
+| tri.vocab.pos | MM     | VL     |    0.174 |   -0.358 |     0.707 | 0.269 |     0.649 | 0.517 | 1.000 | ns           |
+| tri.vocab.pos | PR     | VL     |    0.342 |   -0.149 |     0.832 | 0.247 |     1.381 | 0.170 | 1.000 | ns           |
+| tri.vocab.pre | AC     | CE     |    0.335 |   -0.463 |     1.134 | 0.403 |     0.832 | 0.407 | 1.000 | ns           |
+| tri.vocab.pre | AC     | EA     |   -0.013 |   -0.811 |     0.786 | 0.403 |    -0.032 | 0.975 | 1.000 | ns           |
+| tri.vocab.pre | AC     | GR     |    0.275 |   -0.421 |     0.971 | 0.351 |     0.784 | 0.435 | 1.000 | ns           |
+| tri.vocab.pre | AC     | JC     |    0.058 |   -0.699 |     0.816 | 0.382 |     0.153 | 0.879 | 1.000 | ns           |
+| tri.vocab.pre | AC     | MF     |    0.015 |   -0.762 |     0.791 | 0.392 |     0.038 | 0.970 | 1.000 | ns           |
+| tri.vocab.pre | AC     | ML     |    0.276 |   -0.420 |     0.972 | 0.351 |     0.787 | 0.433 | 1.000 | ns           |
+| tri.vocab.pre | AC     | MM     |    1.048 |    0.250 |     1.847 | 0.403 |     2.603 | 0.011 | 0.476 | ns           |
+| tri.vocab.pre | AC     | PR     |    0.945 |    0.204 |     1.687 | 0.374 |     2.527 | 0.013 | 0.584 | ns           |
+| tri.vocab.pre | AC     | VL     |    0.504 |   -0.224 |     1.231 | 0.367 |     1.371 | 0.173 | 1.000 | ns           |
+| tri.vocab.pre | CE     | EA     |   -0.348 |   -1.186 |     0.490 | 0.422 |    -0.824 | 0.412 | 1.000 | ns           |
+| tri.vocab.pre | CE     | GR     |   -0.060 |   -0.800 |     0.680 | 0.373 |    -0.161 | 0.873 | 1.000 | ns           |
+| tri.vocab.pre | CE     | JC     |   -0.277 |   -1.075 |     0.522 | 0.403 |    -0.687 | 0.493 | 1.000 | ns           |
+| tri.vocab.pre | CE     | MF     |   -0.320 |   -1.137 |     0.496 | 0.412 |    -0.778 | 0.438 | 1.000 | ns           |
+| tri.vocab.pre | CE     | ML     |   -0.059 |   -0.799 |     0.681 | 0.373 |    -0.158 | 0.875 | 1.000 | ns           |
+| tri.vocab.pre | CE     | MM     |    0.713 |   -0.124 |     1.551 | 0.422 |     1.688 | 0.094 | 1.000 | ns           |
+| tri.vocab.pre | CE     | PR     |    0.610 |   -0.173 |     1.394 | 0.395 |     1.544 | 0.126 | 1.000 | ns           |
+| tri.vocab.pre | CE     | VL     |    0.168 |   -0.602 |     0.939 | 0.389 |     0.433 | 0.666 | 1.000 | ns           |
+| tri.vocab.pre | EA     | GR     |    0.288 |   -0.452 |     1.028 | 0.373 |     0.771 | 0.442 | 1.000 | ns           |
+| tri.vocab.pre | EA     | JC     |    0.071 |   -0.728 |     0.870 | 0.403 |     0.176 | 0.860 | 1.000 | ns           |
+| tri.vocab.pre | EA     | MF     |    0.027 |   -0.789 |     0.844 | 0.412 |     0.067 | 0.947 | 1.000 | ns           |
+| tri.vocab.pre | EA     | ML     |    0.289 |   -0.451 |     1.029 | 0.373 |     0.774 | 0.441 | 1.000 | ns           |
+| tri.vocab.pre | EA     | MM     |    1.061 |    0.224 |     1.899 | 0.422 |     2.512 | 0.014 | 0.608 | ns           |
+| tri.vocab.pre | EA     | PR     |    0.958 |    0.175 |     1.742 | 0.395 |     2.424 | 0.017 | 0.766 | ns           |
+| tri.vocab.pre | EA     | VL     |    0.516 |   -0.254 |     1.287 | 0.389 |     1.329 | 0.187 | 1.000 | ns           |
+| tri.vocab.pre | GR     | JC     |   -0.217 |   -0.913 |     0.479 | 0.351 |    -0.618 | 0.538 | 1.000 | ns           |
+| tri.vocab.pre | GR     | MF     |   -0.260 |   -0.977 |     0.456 | 0.361 |    -0.721 | 0.472 | 1.000 | ns           |
+| tri.vocab.pre | GR     | ML     |    0.001 |   -0.627 |     0.629 | 0.317 |     0.003 | 0.997 | 1.000 | ns           |
+| tri.vocab.pre | GR     | MM     |    0.773 |    0.033 |     1.514 | 0.373 |     2.071 | 0.041 | 1.000 | ns           |
+| tri.vocab.pre | GR     | PR     |    0.670 |   -0.008 |     1.349 | 0.342 |     1.958 | 0.053 | 1.000 | ns           |
+| tri.vocab.pre | GR     | VL     |    0.228 |   -0.435 |     0.892 | 0.335 |     0.682 | 0.496 | 1.000 | ns           |
+| tri.vocab.pre | JC     | MF     |   -0.044 |   -0.820 |     0.733 | 0.392 |    -0.111 | 0.912 | 1.000 | ns           |
+| tri.vocab.pre | JC     | ML     |    0.218 |   -0.478 |     0.914 | 0.351 |     0.621 | 0.536 | 1.000 | ns           |
+| tri.vocab.pre | JC     | MM     |    0.990 |    0.192 |     1.789 | 0.403 |     2.458 | 0.016 | 0.701 | ns           |
+| tri.vocab.pre | JC     | PR     |    0.887 |    0.145 |     1.629 | 0.374 |     2.371 | 0.020 | 0.879 | ns           |
+| tri.vocab.pre | JC     | VL     |    0.445 |   -0.283 |     1.173 | 0.367 |     1.213 | 0.228 | 1.000 | ns           |
+| tri.vocab.pre | MF     | ML     |    0.262 |   -0.455 |     0.978 | 0.361 |     0.724 | 0.471 | 1.000 | ns           |
+| tri.vocab.pre | MF     | MM     |    1.034 |    0.217 |     1.850 | 0.412 |     2.511 | 0.014 | 0.610 | ns           |
+| tri.vocab.pre | MF     | PR     |    0.931 |    0.170 |     1.691 | 0.384 |     2.425 | 0.017 | 0.765 | ns           |
+| tri.vocab.pre | MF     | VL     |    0.489 |   -0.259 |     1.236 | 0.377 |     1.297 | 0.198 | 1.000 | ns           |
+| tri.vocab.pre | ML     | MM     |    0.772 |    0.032 |     1.513 | 0.373 |     2.068 | 0.041 | 1.000 | ns           |
+| tri.vocab.pre | ML     | PR     |    0.669 |   -0.010 |     1.348 | 0.342 |     1.955 | 0.053 | 1.000 | ns           |
+| tri.vocab.pre | ML     | VL     |    0.227 |   -0.436 |     0.891 | 0.335 |     0.679 | 0.499 | 1.000 | ns           |
+| tri.vocab.pre | MM     | PR     |   -0.103 |   -0.887 |     0.680 | 0.395 |    -0.261 | 0.795 | 1.000 | ns           |
+| tri.vocab.pre | MM     | VL     |   -0.545 |   -1.315 |     0.226 | 0.389 |    -1.402 | 0.164 | 1.000 | ns           |
+| tri.vocab.pre | PR     | VL     |   -0.442 |   -1.153 |     0.270 | 0.359 |    -1.231 | 0.221 | 1.000 | ns           |
+
+| .y.       | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | AC      | pre    | pos    |   -0.182 |   -0.896 |     0.532 | 0.363 |    -0.502 | 0.616 | 0.616 | ns           |
+| tri.vocab | CE      | pre    | pos    |   -0.042 |   -0.846 |     0.762 | 0.408 |    -0.103 | 0.918 | 0.918 | ns           |
+| tri.vocab | EA      | pre    | pos    |    0.150 |   -0.654 |     0.954 | 0.408 |     0.367 | 0.714 | 0.714 | ns           |
+| tri.vocab | GR      | pre    | pos    |   -0.150 |   -0.768 |     0.469 | 0.314 |    -0.476 | 0.634 | 0.634 | ns           |
+| tri.vocab | JC      | pre    | pos    |   -0.388 |   -1.135 |     0.358 | 0.379 |    -1.026 | 0.306 | 0.306 | ns           |
+| tri.vocab | MF      | pre    | pos    |   -0.228 |   -0.964 |     0.508 | 0.374 |    -0.611 | 0.542 | 0.542 | ns           |
+| tri.vocab | ML      | pre    | pos    |   -0.269 |   -0.888 |     0.349 | 0.314 |    -0.858 | 0.392 | 0.392 | ns           |
+| tri.vocab | MM      | pre    | pos    |    0.094 |   -0.665 |     0.853 | 0.385 |     0.244 | 0.808 | 0.808 | ns           |
+| tri.vocab | PR      | pre    | pos    |   -0.346 |   -1.060 |     0.368 | 0.363 |    -0.954 | 0.341 | 0.341 | ns           |
+| tri.vocab | VL      | pre    | pos    |    0.121 |   -0.553 |     0.795 | 0.342 |     0.352 | 0.725 | 0.725 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1187-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1189-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1191-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1193-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2472,11 +4938,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-470-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1201-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-472-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1203-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-474-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1205-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1207-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1209-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | AC      |  11 |   0.079 |    0.238 |     0.656 |      0.143 |   0.656 |    0.189 |
+| tri.vocab.ensinado.pos | CE      |   9 |  -0.073 |    0.239 |    -0.090 |      0.268 |  -0.004 |    0.209 |
+| tri.vocab.ensinado.pos | EA      |   9 |   0.371 |    0.183 |     0.409 |      0.262 |   0.245 |    0.210 |
+| tri.vocab.ensinado.pos | GR      |  16 |   0.286 |    0.154 |     0.389 |      0.163 |   0.273 |    0.158 |
+| tri.vocab.ensinado.pos | JC      |  11 |   0.425 |    0.222 |     0.717 |      0.144 |   0.522 |    0.191 |
+| tri.vocab.ensinado.pos | MF      |  10 |   0.221 |    0.248 |     0.317 |      0.253 |   0.238 |    0.199 |
+| tri.vocab.ensinado.pos | ML      |  16 |   0.065 |    0.234 |     0.184 |      0.206 |   0.192 |    0.157 |
+| tri.vocab.ensinado.pos | MM      |   9 |  -0.688 |    0.179 |    -0.117 |      0.240 |   0.315 |    0.218 |
+| tri.vocab.ensinado.pos | PR      |  12 |  -0.142 |    0.218 |    -0.196 |      0.272 |  -0.072 |    0.182 |
+| tri.vocab.ensinado.pos | VL      |  13 |   0.080 |    0.254 |    -0.159 |      0.251 |  -0.159 |    0.174 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | AC     | CE     |    0.661 |    0.101 |     1.220 | 0.282 |     2.341 | 0.021 | 0.949 | ns           |
+| tri.vocab.ensinado.pos | AC     | EA     |    0.411 |   -0.150 |     0.972 | 0.283 |     1.454 | 0.149 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | GR     |    0.383 |   -0.105 |     0.871 | 0.246 |     1.556 | 0.123 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | JC     |    0.134 |   -0.399 |     0.667 | 0.269 |     0.498 | 0.620 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | MF     |    0.419 |   -0.125 |     0.963 | 0.274 |     1.526 | 0.130 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | ML     |    0.465 |   -0.023 |     0.952 | 0.246 |     1.891 | 0.061 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | MM     |    0.341 |   -0.231 |     0.913 | 0.289 |     1.182 | 0.240 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | AC     | PR     |    0.728 |    0.208 |     1.248 | 0.262 |     2.774 | 0.007 | 0.295 | ns           |
+| tri.vocab.ensinado.pos | AC     | VL     |    0.815 |    0.306 |     1.325 | 0.257 |     3.173 | 0.002 | 0.089 | ns           |
+| tri.vocab.ensinado.pos | CE     | EA     |   -0.249 |   -0.840 |     0.341 | 0.298 |    -0.837 | 0.404 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | GR     |   -0.278 |   -0.799 |     0.244 | 0.263 |    -1.056 | 0.293 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | JC     |   -0.527 |   -1.091 |     0.038 | 0.285 |    -1.850 | 0.067 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | MF     |   -0.242 |   -0.815 |     0.331 | 0.289 |    -0.837 | 0.404 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | ML     |   -0.196 |   -0.715 |     0.322 | 0.262 |    -0.750 | 0.455 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | MM     |   -0.320 |   -0.914 |     0.275 | 0.300 |    -1.066 | 0.289 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | PR     |    0.067 |   -0.481 |     0.616 | 0.277 |     0.244 | 0.808 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | CE     | VL     |    0.155 |   -0.385 |     0.694 | 0.272 |     0.568 | 0.571 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | GR     |   -0.028 |   -0.547 |     0.490 | 0.261 |    -0.108 | 0.914 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | JC     |   -0.278 |   -0.837 |     0.281 | 0.282 |    -0.985 | 0.327 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | MF     |    0.007 |   -0.565 |     0.579 | 0.288 |     0.025 | 0.980 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | ML     |    0.053 |   -0.467 |     0.574 | 0.262 |     0.202 | 0.840 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | MM     |   -0.070 |   -0.680 |     0.540 | 0.308 |    -0.229 | 0.820 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | PR     |    0.317 |   -0.238 |     0.871 | 0.280 |     1.133 | 0.260 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | EA     | VL     |    0.404 |   -0.137 |     0.945 | 0.273 |     1.480 | 0.142 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | JC     |   -0.249 |   -0.737 |     0.238 | 0.246 |    -1.014 | 0.313 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | MF     |    0.036 |   -0.466 |     0.537 | 0.253 |     0.141 | 0.888 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | ML     |    0.081 |   -0.360 |     0.523 | 0.222 |     0.366 | 0.715 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | MM     |   -0.042 |   -0.583 |     0.499 | 0.273 |    -0.154 | 0.878 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | PR     |    0.345 |   -0.135 |     0.825 | 0.242 |     1.426 | 0.157 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | GR     | VL     |    0.432 |   -0.033 |     0.898 | 0.235 |     1.841 | 0.068 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | JC     | MF     |    0.285 |   -0.260 |     0.829 | 0.275 |     1.038 | 0.302 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | JC     | ML     |    0.331 |   -0.160 |     0.821 | 0.247 |     1.337 | 0.184 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | JC     | MM     |    0.207 |   -0.379 |     0.794 | 0.296 |     0.701 | 0.485 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | JC     | PR     |    0.594 |    0.067 |     1.121 | 0.266 |     2.236 | 0.027 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | JC     | VL     |    0.682 |    0.169 |     1.194 | 0.258 |     2.637 | 0.010 | 0.434 | ns           |
+| tri.vocab.ensinado.pos | MF     | ML     |    0.046 |   -0.456 |     0.548 | 0.253 |     0.181 | 0.857 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | MF     | MM     |   -0.078 |   -0.667 |     0.512 | 0.297 |    -0.261 | 0.795 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | MF     | PR     |    0.309 |   -0.226 |     0.845 | 0.270 |     1.145 | 0.255 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | MF     | VL     |    0.397 |   -0.127 |     0.920 | 0.264 |     1.502 | 0.136 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | ML     | MM     |   -0.123 |   -0.655 |     0.408 | 0.268 |    -0.460 | 0.646 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | ML     | PR     |    0.264 |   -0.213 |     0.740 | 0.240 |     1.098 | 0.275 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | ML     | VL     |    0.351 |   -0.114 |     0.815 | 0.234 |     1.498 | 0.137 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | MM     | PR     |    0.387 |   -0.168 |     0.942 | 0.280 |     1.382 | 0.170 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | MM     | VL     |    0.474 |   -0.079 |     1.027 | 0.279 |     1.701 | 0.092 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | PR     | VL     |    0.087 |   -0.412 |     0.586 | 0.252 |     0.347 | 0.730 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | CE     |    0.152 |   -0.525 |     0.829 | 0.342 |     0.445 | 0.657 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | EA     |   -0.292 |   -0.970 |     0.385 | 0.342 |    -0.855 | 0.395 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | GR     |   -0.207 |   -0.798 |     0.383 | 0.298 |    -0.696 | 0.488 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | JC     |   -0.347 |   -0.989 |     0.296 | 0.324 |    -1.070 | 0.287 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | MF     |   -0.142 |   -0.801 |     0.516 | 0.332 |    -0.428 | 0.669 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | ML     |    0.014 |   -0.576 |     0.604 | 0.298 |     0.047 | 0.963 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | MM     |    0.767 |    0.089 |     1.444 | 0.342 |     2.244 | 0.027 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | PR     |    0.220 |   -0.409 |     0.850 | 0.317 |     0.694 | 0.489 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | AC     | VL     |   -0.001 |   -0.619 |     0.616 | 0.311 |    -0.005 | 0.996 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | EA     |   -0.444 |   -1.155 |     0.266 | 0.358 |    -1.239 | 0.218 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | GR     |   -0.359 |   -0.987 |     0.269 | 0.317 |    -1.134 | 0.259 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | JC     |   -0.499 |   -1.176 |     0.179 | 0.342 |    -1.460 | 0.147 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | MF     |   -0.294 |   -0.987 |     0.398 | 0.349 |    -0.842 | 0.402 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | ML     |   -0.138 |   -0.766 |     0.490 | 0.317 |    -0.436 | 0.664 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | MM     |    0.615 |   -0.096 |     1.325 | 0.358 |     1.715 | 0.089 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | PR     |    0.068 |   -0.596 |     0.733 | 0.335 |     0.204 | 0.839 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | CE     | VL     |   -0.154 |   -0.807 |     0.500 | 0.330 |    -0.466 | 0.642 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | GR     |    0.085 |   -0.543 |     0.713 | 0.317 |     0.268 | 0.789 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | JC     |   -0.055 |   -0.732 |     0.623 | 0.342 |    -0.160 | 0.873 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | MF     |    0.150 |   -0.543 |     0.842 | 0.349 |     0.429 | 0.669 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | ML     |    0.306 |   -0.322 |     0.934 | 0.317 |     0.966 | 0.336 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | MM     |    1.059 |    0.348 |     1.769 | 0.358 |     2.954 | 0.004 | 0.174 | ns           |
+| tri.vocab.ensinado.pre | EA     | PR     |    0.512 |   -0.152 |     1.177 | 0.335 |     1.528 | 0.129 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | EA     | VL     |    0.291 |   -0.363 |     0.944 | 0.330 |     0.881 | 0.380 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | GR     | JC     |   -0.140 |   -0.730 |     0.451 | 0.298 |    -0.469 | 0.640 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | GR     | MF     |    0.065 |   -0.543 |     0.673 | 0.306 |     0.212 | 0.832 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | GR     | ML     |    0.221 |   -0.312 |     0.754 | 0.269 |     0.823 | 0.412 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | GR     | MM     |    0.974 |    0.346 |     1.602 | 0.317 |     3.075 | 0.003 | 0.121 | ns           |
+| tri.vocab.ensinado.pre | GR     | PR     |    0.428 |   -0.148 |     1.003 | 0.290 |     1.473 | 0.144 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | GR     | VL     |    0.206 |   -0.357 |     0.768 | 0.284 |     0.725 | 0.470 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | JC     | MF     |    0.205 |   -0.454 |     0.863 | 0.332 |     0.616 | 0.539 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | JC     | ML     |    0.361 |   -0.230 |     0.951 | 0.298 |     1.211 | 0.228 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | JC     | MM     |    1.113 |    0.436 |     1.791 | 0.342 |     3.259 | 0.002 | 0.068 | ns           |
+| tri.vocab.ensinado.pre | JC     | PR     |    0.567 |   -0.062 |     1.196 | 0.317 |     1.787 | 0.077 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | JC     | VL     |    0.345 |   -0.272 |     0.963 | 0.311 |     1.108 | 0.270 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | MF     | ML     |    0.156 |   -0.451 |     0.764 | 0.306 |     0.510 | 0.611 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | MF     | MM     |    0.909 |    0.216 |     1.602 | 0.349 |     2.602 | 0.011 | 0.477 | ns           |
+| tri.vocab.ensinado.pre | MF     | PR     |    0.363 |   -0.283 |     1.008 | 0.326 |     1.114 | 0.268 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | MF     | VL     |    0.141 |   -0.493 |     0.775 | 0.320 |     0.440 | 0.661 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | ML     | MM     |    0.753 |    0.125 |     1.381 | 0.317 |     2.376 | 0.019 | 0.868 | ns           |
+| tri.vocab.ensinado.pre | ML     | PR     |    0.206 |   -0.369 |     0.782 | 0.290 |     0.711 | 0.479 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | ML     | VL     |   -0.015 |   -0.578 |     0.547 | 0.284 |    -0.055 | 0.957 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | MM     | PR     |   -0.546 |   -1.211 |     0.118 | 0.335 |    -1.630 | 0.106 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | MM     | VL     |   -0.768 |   -1.422 |    -0.115 | 0.330 |    -2.330 | 0.022 | 0.976 | ns           |
+| tri.vocab.ensinado.pre | PR     | VL     |   -0.222 |   -0.825 |     0.382 | 0.304 |    -0.729 | 0.468 | 1.000 | ns           |
+
+| .y.                | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | AC      | pre    | pos    |   -0.516 |   -1.130 |     0.098 | 0.312 |    -1.657 | 0.099 | 0.099 | ns           |
+| tri.vocab.ensinado | CE      | pre    | pos    |   -0.095 |   -0.785 |     0.596 | 0.351 |    -0.270 | 0.788 | 0.788 | ns           |
+| tri.vocab.ensinado | EA      | pre    | pos    |    0.041 |   -0.649 |     0.732 | 0.351 |     0.118 | 0.906 | 0.906 | ns           |
+| tri.vocab.ensinado | GR      | pre    | pos    |   -0.104 |   -0.635 |     0.428 | 0.270 |    -0.384 | 0.701 | 0.701 | ns           |
+| tri.vocab.ensinado | JC      | pre    | pos    |   -0.292 |   -0.933 |     0.349 | 0.325 |    -0.897 | 0.370 | 0.370 | ns           |
+| tri.vocab.ensinado | MF      | pre    | pos    |   -0.077 |   -0.709 |     0.556 | 0.321 |    -0.239 | 0.811 | 0.811 | ns           |
+| tri.vocab.ensinado | ML      | pre    | pos    |   -0.119 |   -0.651 |     0.413 | 0.270 |    -0.441 | 0.660 | 0.660 | ns           |
+| tri.vocab.ensinado | MM      | pre    | pos    |   -0.208 |   -0.860 |     0.444 | 0.331 |    -0.628 | 0.530 | 0.530 | ns           |
+| tri.vocab.ensinado | PR      | pre    | pos    |    0.054 |   -0.559 |     0.668 | 0.312 |     0.175 | 0.862 | 0.862 | ns           |
+| tri.vocab.ensinado | VL      | pre    | pos    |    0.231 |   -0.348 |     0.810 | 0.294 |     0.786 | 0.433 | 0.433 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1221-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1223-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1225-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2602,11 +5206,149 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-482-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-484-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1235-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-486-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1237-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1239-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1241-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | AC      |  11 |   0.495 |    0.242 |     0.745 |      0.216 |   0.484 |    0.201 |
+| tri.vocab.nao.ensinado.pos | CE      |   9 |   0.103 |    0.221 |     0.050 |      0.292 |   0.091 |    0.221 |
+| tri.vocab.nao.ensinado.pos | EA      |   9 |   0.437 |    0.201 |     0.492 |      0.310 |   0.276 |    0.222 |
+| tri.vocab.nao.ensinado.pos | GR      |  16 |   0.277 |    0.286 |     0.437 |      0.266 |   0.343 |    0.166 |
+| tri.vocab.nao.ensinado.pos | JC      |  11 |   0.435 |    0.214 |     0.774 |      0.163 |   0.559 |    0.201 |
+| tri.vocab.nao.ensinado.pos | MF      |  10 |   0.444 |    0.280 |     0.579 |      0.239 |   0.357 |    0.211 |
+| tri.vocab.nao.ensinado.pos | ML      |  16 |   0.179 |    0.246 |     0.507 |      0.265 |   0.489 |    0.166 |
+| tri.vocab.nao.ensinado.pos | MM      |   9 |  -0.396 |    0.176 |    -0.317 |      0.287 |   0.107 |    0.224 |
+| tri.vocab.nao.ensinado.pos | PR      |  12 |  -0.352 |    0.270 |    -0.065 |      0.353 |   0.325 |    0.195 |
+| tri.vocab.nao.ensinado.pos | VL      |  13 |  -0.076 |    0.251 |    -0.174 |      0.269 |   0.004 |    0.185 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | AC     | CE     |    0.393 |   -0.200 |     0.986 | 0.299 |     1.314 | 0.192 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | EA     |    0.208 |   -0.382 |     0.799 | 0.298 |     0.700 | 0.486 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | GR     |    0.141 |   -0.375 |     0.656 | 0.260 |     0.541 | 0.590 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | JC     |   -0.075 |   -0.635 |     0.485 | 0.282 |    -0.265 | 0.791 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | MF     |    0.127 |   -0.447 |     0.701 | 0.289 |     0.438 | 0.662 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | ML     |   -0.005 |   -0.522 |     0.511 | 0.260 |    -0.020 | 0.984 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | MM     |    0.377 |   -0.227 |     0.982 | 0.305 |     1.237 | 0.219 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | PR     |    0.159 |   -0.403 |     0.721 | 0.283 |     0.561 | 0.576 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | AC     | VL     |    0.480 |   -0.064 |     1.025 | 0.275 |     1.749 | 0.083 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | EA     |   -0.185 |   -0.806 |     0.436 | 0.313 |    -0.590 | 0.557 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | GR     |   -0.252 |   -0.800 |     0.295 | 0.276 |    -0.914 | 0.363 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | JC     |   -0.468 |   -1.060 |     0.124 | 0.299 |    -1.567 | 0.120 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | MF     |   -0.266 |   -0.872 |     0.339 | 0.305 |    -0.872 | 0.385 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | ML     |   -0.398 |   -0.946 |     0.149 | 0.276 |    -1.443 | 0.152 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | MM     |   -0.016 |   -0.639 |     0.608 | 0.314 |    -0.050 | 0.960 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | PR     |   -0.234 |   -0.817 |     0.349 | 0.294 |    -0.796 | 0.428 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | CE     | VL     |    0.087 |   -0.483 |     0.657 | 0.288 |     0.303 | 0.763 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | GR     |   -0.068 |   -0.616 |     0.480 | 0.276 |    -0.245 | 0.807 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | JC     |   -0.283 |   -0.874 |     0.307 | 0.298 |    -0.952 | 0.343 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | MF     |   -0.082 |   -0.685 |     0.522 | 0.304 |    -0.268 | 0.789 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | ML     |   -0.213 |   -0.762 |     0.335 | 0.277 |    -0.772 | 0.442 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | MM     |    0.169 |   -0.462 |     0.800 | 0.318 |     0.531 | 0.597 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | PR     |   -0.049 |   -0.640 |     0.541 | 0.298 |    -0.166 | 0.869 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | EA     | VL     |    0.272 |   -0.303 |     0.846 | 0.290 |     0.938 | 0.350 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | JC     |   -0.216 |   -0.731 |     0.299 | 0.260 |    -0.830 | 0.408 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | MF     |   -0.014 |   -0.544 |     0.516 | 0.267 |    -0.052 | 0.959 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | ML     |   -0.146 |   -0.610 |     0.319 | 0.234 |    -0.622 | 0.535 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | MM     |    0.237 |   -0.319 |     0.793 | 0.280 |     0.844 | 0.401 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | PR     |    0.018 |   -0.492 |     0.528 | 0.257 |     0.071 | 0.943 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | GR     | VL     |    0.340 |   -0.154 |     0.833 | 0.249 |     1.365 | 0.175 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | JC     | MF     |    0.202 |   -0.372 |     0.776 | 0.289 |     0.697 | 0.487 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | JC     | ML     |    0.070 |   -0.446 |     0.586 | 0.260 |     0.269 | 0.789 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | JC     | MM     |    0.452 |   -0.150 |     1.055 | 0.304 |     1.488 | 0.140 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | JC     | PR     |    0.234 |   -0.326 |     0.794 | 0.283 |     0.828 | 0.409 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | JC     | VL     |    0.555 |    0.012 |     1.098 | 0.274 |     2.026 | 0.045 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MF     | ML     |   -0.132 |   -0.663 |     0.399 | 0.268 |    -0.493 | 0.623 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MF     | MM     |    0.250 |   -0.365 |     0.866 | 0.311 |     0.806 | 0.422 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MF     | PR     |    0.032 |   -0.542 |     0.606 | 0.290 |     0.111 | 0.912 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MF     | VL     |    0.353 |   -0.204 |     0.911 | 0.281 |     1.256 | 0.212 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | ML     | MM     |    0.382 |   -0.171 |     0.936 | 0.279 |     1.369 | 0.174 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | ML     | PR     |    0.164 |   -0.343 |     0.672 | 0.256 |     0.641 | 0.523 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | ML     | VL     |    0.485 |   -0.007 |     0.977 | 0.248 |     1.956 | 0.053 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MM     | PR     |   -0.218 |   -0.797 |     0.361 | 0.292 |    -0.747 | 0.457 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | MM     | VL     |    0.103 |   -0.469 |     0.674 | 0.288 |     0.357 | 0.722 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | PR     | VL     |    0.321 |   -0.206 |     0.848 | 0.266 |     1.208 | 0.230 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | CE     |    0.392 |   -0.386 |     1.170 | 0.392 |     0.999 | 0.320 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | EA     |    0.058 |   -0.720 |     0.835 | 0.392 |     0.147 | 0.884 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | GR     |    0.218 |   -0.460 |     0.895 | 0.342 |     0.637 | 0.526 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | JC     |    0.060 |   -0.678 |     0.798 | 0.372 |     0.160 | 0.873 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | MF     |    0.050 |   -0.706 |     0.806 | 0.381 |     0.132 | 0.895 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | ML     |    0.316 |   -0.362 |     0.994 | 0.342 |     0.923 | 0.358 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | MM     |    0.890 |    0.113 |     1.668 | 0.392 |     2.269 | 0.025 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | PR     |    0.847 |    0.125 |     1.569 | 0.364 |     2.325 | 0.022 | 0.989 | ns           |
+| tri.vocab.nao.ensinado.pre | AC     | VL     |    0.571 |   -0.138 |     1.280 | 0.358 |     1.596 | 0.113 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | EA     |   -0.335 |   -1.150 |     0.481 | 0.411 |    -0.813 | 0.418 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | GR     |   -0.174 |   -0.895 |     0.547 | 0.364 |    -0.480 | 0.633 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | JC     |   -0.332 |   -1.110 |     0.446 | 0.392 |    -0.847 | 0.399 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | MF     |   -0.342 |   -1.137 |     0.453 | 0.401 |    -0.852 | 0.396 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | ML     |   -0.076 |   -0.797 |     0.645 | 0.364 |    -0.210 | 0.834 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | MM     |    0.498 |   -0.317 |     1.314 | 0.411 |     1.211 | 0.229 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | PR     |    0.455 |   -0.308 |     1.218 | 0.385 |     1.182 | 0.240 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | CE     | VL     |    0.179 |   -0.572 |     0.929 | 0.379 |     0.472 | 0.638 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | GR     |    0.160 |   -0.561 |     0.881 | 0.364 |     0.440 | 0.661 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | JC     |    0.002 |   -0.776 |     0.780 | 0.392 |     0.006 | 0.996 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | MF     |   -0.007 |   -0.802 |     0.788 | 0.401 |    -0.018 | 0.986 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | ML     |    0.258 |   -0.463 |     0.979 | 0.364 |     0.710 | 0.479 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | MM     |    0.833 |    0.017 |     1.649 | 0.411 |     2.024 | 0.045 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | PR     |    0.790 |    0.026 |     1.553 | 0.385 |     2.051 | 0.043 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | EA     | VL     |    0.513 |   -0.237 |     1.264 | 0.379 |     1.356 | 0.178 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | JC     |   -0.158 |   -0.836 |     0.520 | 0.342 |    -0.462 | 0.645 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | MF     |   -0.167 |   -0.865 |     0.530 | 0.352 |    -0.476 | 0.635 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | ML     |    0.098 |   -0.514 |     0.710 | 0.309 |     0.318 | 0.751 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | MM     |    0.673 |   -0.048 |     1.394 | 0.364 |     1.850 | 0.067 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | PR     |    0.629 |   -0.031 |     1.290 | 0.333 |     1.888 | 0.062 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | GR     | VL     |    0.353 |   -0.293 |     0.999 | 0.326 |     1.083 | 0.281 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | JC     | MF     |   -0.009 |   -0.766 |     0.747 | 0.381 |    -0.025 | 0.980 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | JC     | ML     |    0.256 |   -0.422 |     0.934 | 0.342 |     0.749 | 0.456 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | JC     | MM     |    0.831 |    0.053 |     1.608 | 0.392 |     2.117 | 0.037 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | JC     | PR     |    0.787 |    0.065 |     1.510 | 0.364 |     2.161 | 0.033 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | JC     | VL     |    0.511 |   -0.198 |     1.220 | 0.358 |     1.429 | 0.156 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MF     | ML     |    0.265 |   -0.432 |     0.963 | 0.352 |     0.754 | 0.452 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MF     | MM     |    0.840 |    0.045 |     1.635 | 0.401 |     2.095 | 0.039 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MF     | PR     |    0.797 |    0.056 |     1.538 | 0.374 |     2.132 | 0.035 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MF     | VL     |    0.520 |   -0.208 |     1.248 | 0.367 |     1.417 | 0.159 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | ML     | MM     |    0.575 |   -0.146 |     1.296 | 0.364 |     1.580 | 0.117 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | ML     | PR     |    0.531 |   -0.129 |     1.192 | 0.333 |     1.594 | 0.114 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | ML     | VL     |    0.255 |   -0.391 |     0.901 | 0.326 |     0.782 | 0.436 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MM     | PR     |   -0.043 |   -0.806 |     0.720 | 0.385 |    -0.112 | 0.911 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | MM     | VL     |   -0.320 |   -1.070 |     0.431 | 0.379 |    -0.845 | 0.400 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | PR     | VL     |   -0.276 |   -0.969 |     0.416 | 0.349 |    -0.791 | 0.431 | 1.000 | ns           |
+
+| .y.                    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | AC      | pre    | pos    |   -0.171 |   -0.899 |     0.556 | 0.369 |    -0.464 | 0.643 | 0.643 | ns           |
+| tri.vocab.nao.ensinado | CE      | pre    | pos    |   -0.048 |   -0.867 |     0.770 | 0.415 |    -0.116 | 0.908 | 0.908 | ns           |
+| tri.vocab.nao.ensinado | EA      | pre    | pos    |    0.093 |   -0.725 |     0.912 | 0.415 |     0.224 | 0.823 | 0.823 | ns           |
+| tri.vocab.nao.ensinado | GR      | pre    | pos    |   -0.160 |   -0.790 |     0.470 | 0.320 |    -0.500 | 0.618 | 0.618 | ns           |
+| tri.vocab.nao.ensinado | JC      | pre    | pos    |   -0.339 |   -1.099 |     0.421 | 0.386 |    -0.879 | 0.381 | 0.381 | ns           |
+| tri.vocab.nao.ensinado | MF      | pre    | pos    |   -0.216 |   -0.965 |     0.534 | 0.380 |    -0.567 | 0.572 | 0.572 | ns           |
+| tri.vocab.nao.ensinado | ML      | pre    | pos    |   -0.328 |   -0.958 |     0.302 | 0.320 |    -1.026 | 0.306 | 0.306 | ns           |
+| tri.vocab.nao.ensinado | MM      | pre    | pos    |    0.138 |   -0.635 |     0.911 | 0.392 |     0.352 | 0.725 | 0.725 | ns           |
+| tri.vocab.nao.ensinado | PR      | pre    | pos    |   -0.287 |   -1.014 |     0.440 | 0.369 |    -0.777 | 0.438 | 0.438 | ns           |
+| tri.vocab.nao.ensinado | VL      | pre    | pos    |    0.070 |   -0.616 |     0.756 | 0.348 |     0.202 | 0.840 | 0.840 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1249-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1251-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1253-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1255-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1257-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.genero**
 
@@ -2630,11 +5372,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-494-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1265-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-496-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1267-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-498-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1269-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1271-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1273-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F              |  75 |   0.168 |    0.110 |     0.315 |      0.104 |   0.307 |    0.072 |
+| tri.vocab.pos | M              |  41 |   0.137 |    0.139 |     0.324 |      0.147 |   0.339 |    0.097 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | F      | M      |   -0.031 |   -0.270 |     0.207 | 0.121 |    -0.260 | 0.795 | 0.795 | ns           |
+| tri.vocab.pre | F      | M      |    0.030 |   -0.328 |     0.389 | 0.181 |     0.168 | 0.867 | 0.867 | ns           |
+
+| .y.       | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | F              | pre    | pos    |   -0.132 |   -0.420 |     0.156 | 0.146 |    -0.901 | 0.368 | 0.368 | ns           |
+| tri.vocab | M              | pre    | pos    |   -0.167 |   -0.565 |     0.230 | 0.202 |    -0.828 | 0.408 | 0.408 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1281-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1283-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1285-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1287-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1289-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2656,11 +5432,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-506-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1297-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-508-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1299-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-510-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1301-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1303-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1305-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F              |  75 |   0.047 |    0.094 |     0.219 |      0.089 |   0.238 |    0.075 |
+| tri.vocab.ensinado.pos | M              |  41 |   0.138 |    0.113 |     0.205 |      0.131 |   0.170 |    0.102 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | F      | M      |    0.068 |   -0.182 |     0.318 | 0.126 |     0.538 | 0.592 | 0.592 | ns           |
+| tri.vocab.ensinado.pre | F      | M      |   -0.091 |   -0.393 |     0.211 | 0.152 |    -0.596 | 0.552 | 0.552 | ns           |
+
+| .y.                | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | F              | pre    | pos    |   -0.139 |   -0.385 |     0.106 | 0.124 |    -1.121 | 0.264 | 0.264 | ns           |
+| tri.vocab.ensinado | M              | pre    | pos    |   -0.062 |   -0.400 |     0.276 | 0.171 |    -0.362 | 0.718 | 0.718 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1313-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1315-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1317-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1319-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1321-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2682,11 +5492,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-518-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1329-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-520-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1331-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-522-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1333-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1335-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1337-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F              |  75 |   0.169 |    0.109 |     0.320 |      0.114 |   0.309 |    0.076 |
+| tri.vocab.nao.ensinado.pos | M              |  41 |   0.132 |    0.125 |     0.308 |      0.151 |   0.327 |    0.103 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | F      | M      |   -0.017 |   -0.272 |     0.238 | 0.129 |    -0.134 | 0.893 | 0.893 | ns           |
+| tri.vocab.nao.ensinado.pre | F      | M      |    0.036 |   -0.308 |     0.381 | 0.174 |     0.210 | 0.834 | 0.834 | ns           |
+
+| .y.                    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | F              | pre    | pos    |   -0.145 |   -0.436 |     0.146 | 0.148 |    -0.982 | 0.327 | 0.327 | ns           |
+| tri.vocab.nao.ensinado | M              | pre    | pos    |   -0.151 |   -0.552 |     0.251 | 0.204 |    -0.740 | 0.460 | 0.460 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1345-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1347-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1349-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1351-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1353-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.area**
 
@@ -2794,11 +5638,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-530-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1361-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-532-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1363-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-534-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1365-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1367-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1369-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Arquitetura e Urbanismo    |  11 |   0.442 |    0.214 |     0.831 |      0.127 |   0.635 |    0.185 |
+| tri.vocab.pos | Ciencias Biologicas        |  16 |   0.224 |    0.262 |     0.494 |      0.224 |   0.447 |    0.153 |
+| tri.vocab.pos | Comunicacao Social         |   9 |   0.165 |    0.215 |     0.104 |      0.283 |   0.098 |    0.204 |
+| tri.vocab.pos | Historia                   |  12 |  -0.445 |    0.331 |    -0.099 |      0.335 |   0.314 |    0.181 |
+| tri.vocab.pos | Letras - Lingua Portuguesa |  10 |   0.486 |    0.309 |     0.641 |      0.224 |   0.416 |    0.194 |
+| tri.vocab.pos | Matematica                 |  25 |   0.329 |    0.182 |     0.416 |      0.197 |   0.298 |    0.123 |
+| tri.vocab.pos | Nutricao                   |   9 |  -0.548 |    0.238 |    -0.337 |      0.283 |   0.147 |    0.209 |
+| tri.vocab.pos | Pedagogia                  |  11 |   0.500 |    0.236 |     0.740 |      0.170 |   0.504 |    0.186 |
+| tri.vocab.pos | Servico Social             |  13 |  -0.003 |    0.221 |    -0.137 |      0.237 |  -0.027 |    0.170 |
+
+| .y.           | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.187 |   -0.288 |     0.663 | 0.240 |     0.782 | 0.436 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.537 |   -0.009 |     1.082 | 0.275 |     1.949 | 0.054 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Historia            |    0.321 |   -0.198 |     0.840 | 0.262 |     1.226 | 0.223 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Letras              |    0.219 |   -0.310 |     0.749 | 0.267 |     0.821 | 0.413 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Matematica          |    0.336 |   -0.102 |     0.775 | 0.221 |     1.521 | 0.131 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Nutricao            |    0.488 |   -0.071 |     1.048 | 0.282 |     1.729 | 0.087 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Pedagogia           |    0.131 |   -0.386 |     0.648 | 0.261 |     0.503 | 0.616 | 1.000 | ns           |
+| tri.vocab.pos | Arquitetura e Urbanismo | Servico Social      |    0.662 |    0.162 |     1.162 | 0.252 |     2.626 | 0.010 | 0.357 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Comunicacao Social  |    0.349 |   -0.156 |     0.854 | 0.255 |     1.371 | 0.173 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Historia            |    0.133 |   -0.338 |     0.604 | 0.238 |     0.561 | 0.576 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Letras              |    0.032 |   -0.458 |     0.521 | 0.247 |     0.129 | 0.898 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Matematica          |    0.149 |   -0.239 |     0.537 | 0.196 |     0.761 | 0.448 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Nutricao            |    0.301 |   -0.214 |     0.816 | 0.260 |     1.159 | 0.249 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Pedagogia           |   -0.056 |   -0.532 |     0.420 | 0.240 |    -0.235 | 0.815 | 1.000 | ns           |
+| tri.vocab.pos | Ciencias Biologicas     | Servico Social      |    0.474 |    0.021 |     0.928 | 0.229 |     2.075 | 0.040 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Historia            |   -0.216 |   -0.756 |     0.324 | 0.272 |    -0.792 | 0.430 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Letras              |   -0.317 |   -0.876 |     0.241 | 0.282 |    -1.127 | 0.262 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Matematica          |   -0.200 |   -0.672 |     0.271 | 0.238 |    -0.842 | 0.402 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Nutricao            |   -0.048 |   -0.627 |     0.530 | 0.292 |    -0.166 | 0.869 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Pedagogia           |   -0.406 |   -0.952 |     0.141 | 0.276 |    -1.472 | 0.144 | 1.000 | ns           |
+| tri.vocab.pos | Comunicacao Social      | Servico Social      |    0.125 |   -0.401 |     0.651 | 0.265 |     0.472 | 0.638 | 1.000 | ns           |
+| tri.vocab.pos | Historia                | Letras              |   -0.102 |   -0.634 |     0.431 | 0.269 |    -0.378 | 0.706 | 1.000 | ns           |
+| tri.vocab.pos | Historia                | Matematica          |    0.016 |   -0.422 |     0.453 | 0.221 |     0.071 | 0.944 | 1.000 | ns           |
+| tri.vocab.pos | Historia                | Nutricao            |    0.168 |   -0.367 |     0.702 | 0.270 |     0.622 | 0.536 | 1.000 | ns           |
+| tri.vocab.pos | Historia                | Pedagogia           |   -0.190 |   -0.710 |     0.331 | 0.263 |    -0.723 | 0.472 | 1.000 | ns           |
+| tri.vocab.pos | Historia                | Servico Social      |    0.341 |   -0.147 |     0.830 | 0.246 |     1.384 | 0.169 | 1.000 | ns           |
+| tri.vocab.pos | Letras                  | Lingua Portuguesa   |    0.117 |   -0.337 |     0.571 | 0.229 |     0.512 | 0.610 | 1.000 | ns           |
+| tri.vocab.pos | Letras                  | Lingua Portuguesa   |    0.269 |   -0.304 |     0.842 | 0.289 |     0.931 | 0.354 | 1.000 | ns           |
+| tri.vocab.pos | Letras                  | Lingua Portuguesa   |   -0.088 |   -0.618 |     0.441 | 0.267 |    -0.330 | 0.742 | 1.000 | ns           |
+| tri.vocab.pos | Letras                  | Lingua Portuguesa   |    0.443 |   -0.071 |     0.956 | 0.259 |     1.709 | 0.090 | 1.000 | ns           |
+| tri.vocab.pos | Matematica              | Nutricao            |    0.152 |   -0.333 |     0.637 | 0.245 |     0.621 | 0.536 | 1.000 | ns           |
+| tri.vocab.pos | Matematica              | Pedagogia           |   -0.205 |   -0.644 |     0.234 | 0.221 |    -0.928 | 0.356 | 1.000 | ns           |
+| tri.vocab.pos | Matematica              | Servico Social      |    0.325 |   -0.091 |     0.742 | 0.210 |     1.549 | 0.124 | 1.000 | ns           |
+| tri.vocab.pos | Nutricao                | Pedagogia           |   -0.357 |   -0.919 |     0.204 | 0.283 |    -1.261 | 0.210 | 1.000 | ns           |
+| tri.vocab.pos | Nutricao                | Servico Social      |    0.174 |   -0.357 |     0.704 | 0.267 |     0.649 | 0.518 | 1.000 | ns           |
+| tri.vocab.pos | Pedagogia               | Servico Social      |    0.531 |    0.030 |     1.032 | 0.253 |     2.102 | 0.038 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.218 |   -0.477 |     0.913 | 0.350 |     0.622 | 0.535 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.277 |   -0.520 |     1.074 | 0.402 |     0.689 | 0.493 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Historia            |    0.887 |    0.147 |     1.627 | 0.373 |     2.376 | 0.019 | 0.695 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Letras              |   -0.044 |   -0.818 |     0.731 | 0.391 |    -0.112 | 0.911 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Matematica          |    0.113 |   -0.528 |     0.755 | 0.324 |     0.350 | 0.727 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Nutricao            |    0.990 |    0.193 |     1.787 | 0.402 |     2.463 | 0.015 | 0.554 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Pedagogia           |   -0.058 |   -0.814 |     0.698 | 0.381 |    -0.153 | 0.879 | 1.000 | ns           |
+| tri.vocab.pre | Arquitetura e Urbanismo | Servico Social      |    0.445 |   -0.281 |     1.172 | 0.366 |     1.215 | 0.227 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Comunicacao Social  |    0.059 |   -0.680 |     0.798 | 0.373 |     0.158 | 0.875 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Historia            |    0.669 |   -0.008 |     1.346 | 0.342 |     1.959 | 0.053 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Letras              |   -0.262 |   -0.976 |     0.453 | 0.361 |    -0.725 | 0.470 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Matematica          |   -0.105 |   -0.672 |     0.463 | 0.286 |    -0.366 | 0.715 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Nutricao            |    0.772 |    0.033 |     1.511 | 0.373 |     2.072 | 0.041 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Pedagogia           |   -0.276 |   -0.971 |     0.418 | 0.350 |    -0.789 | 0.432 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas     | Servico Social      |    0.227 |   -0.435 |     0.889 | 0.334 |     0.680 | 0.498 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Historia            |    0.610 |   -0.172 |     1.392 | 0.394 |     1.547 | 0.125 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Letras              |   -0.320 |   -1.135 |     0.494 | 0.411 |    -0.780 | 0.437 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Matematica          |   -0.164 |   -0.853 |     0.526 | 0.348 |    -0.471 | 0.639 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Nutricao            |    0.713 |   -0.123 |     1.549 | 0.422 |     1.692 | 0.094 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Pedagogia           |   -0.335 |   -1.132 |     0.462 | 0.402 |    -0.834 | 0.406 | 1.000 | ns           |
+| tri.vocab.pre | Comunicacao Social      | Servico Social      |    0.168 |   -0.601 |     0.937 | 0.388 |     0.434 | 0.665 | 1.000 | ns           |
+| tri.vocab.pre | Historia                | Letras              |   -0.931 |   -1.690 |    -0.171 | 0.383 |    -2.430 | 0.017 | 0.604 | ns           |
+| tri.vocab.pre | Historia                | Matematica          |   -0.774 |   -1.397 |    -0.151 | 0.314 |    -2.463 | 0.015 | 0.553 | ns           |
+| tri.vocab.pre | Historia                | Nutricao            |    0.103 |   -0.679 |     0.885 | 0.394 |     0.262 | 0.794 | 1.000 | ns           |
+| tri.vocab.pre | Historia                | Pedagogia           |   -0.945 |   -1.685 |    -0.205 | 0.373 |    -2.532 | 0.013 | 0.461 | ns           |
+| tri.vocab.pre | Historia                | Servico Social      |   -0.442 |   -1.152 |     0.268 | 0.358 |    -1.234 | 0.220 | 1.000 | ns           |
+| tri.vocab.pre | Letras                  | Lingua Portuguesa   |    0.157 |   -0.507 |     0.820 | 0.335 |     0.469 | 0.640 | 1.000 | ns           |
+| tri.vocab.pre | Letras                  | Lingua Portuguesa   |    1.034 |    0.219 |     1.849 | 0.411 |     2.515 | 0.013 | 0.482 | ns           |
+| tri.vocab.pre | Letras                  | Lingua Portuguesa   |   -0.015 |   -0.789 |     0.760 | 0.391 |    -0.038 | 0.970 | 1.000 | ns           |
+| tri.vocab.pre | Letras                  | Lingua Portuguesa   |    0.489 |   -0.257 |     1.235 | 0.376 |     1.299 | 0.197 | 1.000 | ns           |
+| tri.vocab.pre | Matematica              | Nutricao            |    0.877 |    0.188 |     1.566 | 0.348 |     2.522 | 0.013 | 0.473 | ns           |
+| tri.vocab.pre | Matematica              | Pedagogia           |   -0.172 |   -0.813 |     0.470 | 0.324 |    -0.530 | 0.597 | 1.000 | ns           |
+| tri.vocab.pre | Matematica              | Servico Social      |    0.332 |   -0.274 |     0.938 | 0.306 |     1.085 | 0.280 | 1.000 | ns           |
+| tri.vocab.pre | Nutricao                | Pedagogia           |   -1.048 |   -1.845 |    -0.251 | 0.402 |    -2.608 | 0.010 | 0.375 | ns           |
+| tri.vocab.pre | Nutricao                | Servico Social      |   -0.545 |   -1.314 |     0.224 | 0.388 |    -1.405 | 0.163 | 1.000 | ns           |
+| tri.vocab.pre | Pedagogia               | Servico Social      |    0.504 |   -0.223 |     1.230 | 0.366 |     1.374 | 0.172 | 1.000 | ns           |
+
+| .y.       | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Arquitetura e Urbanismo    | pre    | pos    |   -0.388 |   -1.134 |     0.357 | 0.378 |    -1.027 | 0.305 | 0.305 | ns           |
+| tri.vocab | Ciencias Biologicas        | pre    | pos    |   -0.269 |   -0.887 |     0.349 | 0.314 |    -0.859 | 0.391 | 0.391 | ns           |
+| tri.vocab | Comunicacao Social         | pre    | pos    |   -0.042 |   -0.845 |     0.761 | 0.407 |    -0.104 | 0.918 | 0.918 | ns           |
+| tri.vocab | Historia                   | pre    | pos    |   -0.346 |   -1.059 |     0.368 | 0.362 |    -0.955 | 0.340 | 0.340 | ns           |
+| tri.vocab | Letras - Lingua Portuguesa | pre    | pos    |   -0.228 |   -0.963 |     0.507 | 0.373 |    -0.612 | 0.541 | 0.541 | ns           |
+| tri.vocab | Matematica                 | pre    | pos    |   -0.032 |   -0.521 |     0.458 | 0.248 |    -0.127 | 0.899 | 0.899 | ns           |
+| tri.vocab | Nutricao                   | pre    | pos    |    0.094 |   -0.664 |     0.852 | 0.385 |     0.244 | 0.808 | 0.808 | ns           |
+| tri.vocab | Pedagogia                  | pre    | pos    |   -0.182 |   -0.895 |     0.532 | 0.362 |    -0.502 | 0.616 | 0.616 | ns           |
+| tri.vocab | Servico Social             | pre    | pos    |    0.121 |   -0.553 |     0.794 | 0.342 |     0.353 | 0.725 | 0.725 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1377-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1379-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1381-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1383-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1385-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2904,11 +5866,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-542-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1393-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-544-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1395-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-546-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1397-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1399-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1401-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo    |  11 |   0.425 |    0.222 |     0.717 |      0.144 |   0.523 |    0.190 |
+| tri.vocab.ensinado.pos | Ciencias Biologicas        |  16 |   0.065 |    0.234 |     0.184 |      0.206 |   0.192 |    0.156 |
+| tri.vocab.ensinado.pos | Comunicacao Social         |   9 |  -0.073 |    0.239 |    -0.090 |      0.268 |  -0.004 |    0.208 |
+| tri.vocab.ensinado.pos | Historia                   |  12 |  -0.142 |    0.218 |    -0.196 |      0.272 |  -0.072 |    0.181 |
+| tri.vocab.ensinado.pos | Letras - Lingua Portuguesa |  10 |   0.221 |    0.248 |     0.317 |      0.253 |   0.238 |    0.198 |
+| tri.vocab.ensinado.pos | Matematica                 |  25 |   0.316 |    0.117 |     0.397 |      0.137 |   0.263 |    0.126 |
+| tri.vocab.ensinado.pos | Nutricao                   |   9 |  -0.688 |    0.179 |    -0.117 |      0.240 |   0.315 |    0.217 |
+| tri.vocab.ensinado.pos | Pedagogia                  |  11 |   0.079 |    0.238 |     0.656 |      0.143 |   0.656 |    0.188 |
+| tri.vocab.ensinado.pos | Servico Social             |  13 |   0.080 |    0.254 |    -0.159 |      0.251 |  -0.159 |    0.173 |
+
+| .y.                    | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:-----------------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.331 |   -0.157 |     0.819 | 0.246 |     1.343 | 0.182   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.527 |   -0.035 |     1.089 | 0.283 |     1.860 | 0.066   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Historia            |    0.594 |    0.070 |     1.119 | 0.264 |     2.247 | 0.027   | 0.961 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Letras              |    0.285 |   -0.257 |     0.827 | 0.273 |     1.043 | 0.299   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Matematica          |    0.260 |   -0.189 |     0.708 | 0.226 |     1.148 | 0.254   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Nutricao            |    0.208 |   -0.376 |     0.791 | 0.294 |     0.705 | 0.482   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Pedagogia           |   -0.134 |   -0.664 |     0.397 | 0.268 |    -0.500 | 0.618   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Arquitetura e Urbanismo | Servico Social      |    0.682 |    0.172 |     1.192 | 0.257 |     2.650 | 0.009   | 0.334 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Comunicacao Social  |    0.196 |   -0.320 |     0.712 | 0.260 |     0.754 | 0.453   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Historia            |    0.264 |   -0.210 |     0.737 | 0.239 |     1.103 | 0.272   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Letras              |   -0.046 |   -0.545 |     0.454 | 0.252 |    -0.182 | 0.856   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Matematica          |   -0.071 |   -0.470 |     0.327 | 0.201 |    -0.355 | 0.723   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Nutricao            |   -0.123 |   -0.653 |     0.406 | 0.267 |    -0.462 | 0.645   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Pedagogia           |   -0.465 |   -0.949 |     0.020 | 0.245 |    -1.900 | 0.06    | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas     | Servico Social      |    0.351 |   -0.111 |     0.813 | 0.233 |     1.505 | 0.135   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Historia            |    0.067 |   -0.479 |     0.613 | 0.275 |     0.245 | 0.807   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Letras              |   -0.242 |   -0.813 |     0.329 | 0.288 |    -0.841 | 0.402   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Matematica          |   -0.268 |   -0.753 |     0.218 | 0.245 |    -1.093 | 0.277   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Nutricao            |   -0.319 |   -0.911 |     0.272 | 0.298 |    -1.071 | 0.287   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Pedagogia           |   -0.661 |   -1.218 |    -0.104 | 0.281 |    -2.353 | 0.02    | 0.738 | ns           |
+| tri.vocab.ensinado.pos | Comunicacao Social      | Servico Social      |    0.155 |   -0.383 |     0.692 | 0.271 |     0.570 | 0.57    | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Historia                | Letras              |   -0.309 |   -0.843 |     0.224 | 0.269 |    -1.151 | 0.252   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Historia                | Matematica          |   -0.335 |   -0.776 |     0.106 | 0.222 |    -1.507 | 0.135   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Historia                | Nutricao            |   -0.387 |   -0.939 |     0.166 | 0.279 |    -1.388 | 0.168   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Historia                | Pedagogia           |   -0.728 |   -1.246 |    -0.210 | 0.261 |    -2.788 | 0.006   | 0.227 | ns           |
+| tri.vocab.ensinado.pos | Historia                | Servico Social      |    0.087 |   -0.410 |     0.584 | 0.251 |     0.348 | 0.728   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Letras                  | Lingua Portuguesa   |   -0.025 |   -0.489 |     0.438 | 0.234 |    -0.109 | 0.914   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Letras                  | Lingua Portuguesa   |   -0.077 |   -0.664 |     0.509 | 0.296 |    -0.262 | 0.794   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Letras                  | Lingua Portuguesa   |   -0.419 |   -0.960 |     0.123 | 0.273 |    -1.533 | 0.128   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Letras                  | Lingua Portuguesa   |    0.397 |   -0.124 |     0.918 | 0.263 |     1.509 | 0.134   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Matematica              | Nutricao            |   -0.052 |   -0.559 |     0.455 | 0.256 |    -0.203 | 0.839   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Matematica              | Pedagogia           |   -0.393 |   -0.843 |     0.056 | 0.227 |    -1.735 | 0.086   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Matematica              | Servico Social      |    0.422 |   -0.003 |     0.847 | 0.214 |     1.970 | 0.051   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Nutricao                | Pedagogia           |   -0.341 |   -0.911 |     0.228 | 0.287 |    -1.188 | 0.237   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Nutricao                | Servico Social      |    0.474 |   -0.076 |     1.024 | 0.278 |     1.708 | 0.091   | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Pedagogia               | Servico Social      |    0.815 |    0.308 |     1.322 | 0.256 |     3.188 | 0.002   | 0.068 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.361 |   -0.227 |     0.948 | 0.296 |     1.217 | 0.226   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.499 |   -0.176 |     1.173 | 0.340 |     1.466 | 0.146   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Historia            |    0.567 |   -0.059 |     1.193 | 0.316 |     1.795 | 0.076   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Letras              |    0.205 |   -0.451 |     0.860 | 0.331 |     0.618 | 0.538   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Matematica          |    0.109 |   -0.434 |     0.652 | 0.274 |     0.398 | 0.691   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Nutricao            |    1.113 |    0.439 |     1.788 | 0.340 |     3.273 | 0.001   | 0.052 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Pedagogia           |    0.347 |   -0.293 |     0.987 | 0.323 |     1.074 | 0.285   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Arquitetura e Urbanismo | Servico Social      |    0.345 |   -0.270 |     0.960 | 0.310 |     1.113 | 0.268   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Comunicacao Social  |    0.138 |   -0.487 |     0.763 | 0.315 |     0.438 | 0.663   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Historia            |    0.206 |   -0.367 |     0.779 | 0.289 |     0.714 | 0.477   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Letras              |   -0.156 |   -0.761 |     0.449 | 0.305 |    -0.512 | 0.61    | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Matematica          |   -0.252 |   -0.732 |     0.229 | 0.242 |    -1.039 | 0.301   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Nutricao            |    0.753 |    0.128 |     1.378 | 0.315 |     2.387 | 0.019   | 0.675 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Pedagogia           |   -0.014 |   -0.602 |     0.574 | 0.296 |    -0.047 | 0.962   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas     | Servico Social      |   -0.015 |   -0.576 |     0.545 | 0.283 |    -0.055 | 0.956   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Historia            |    0.068 |   -0.593 |     0.730 | 0.334 |     0.205 | 0.838   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Letras              |   -0.294 |   -0.984 |     0.395 | 0.348 |    -0.846 | 0.399   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Matematica          |   -0.390 |   -0.973 |     0.194 | 0.294 |    -1.324 | 0.188   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Nutricao            |    0.615 |   -0.093 |     1.322 | 0.357 |     1.723 | 0.088   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Pedagogia           |   -0.152 |   -0.826 |     0.522 | 0.340 |    -0.447 | 0.656   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Comunicacao Social      | Servico Social      |   -0.154 |   -0.804 |     0.497 | 0.328 |    -0.468 | 0.641   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia                | Letras              |   -0.363 |   -1.005 |     0.280 | 0.324 |    -1.119 | 0.266   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia                | Matematica          |   -0.458 |   -0.985 |     0.069 | 0.266 |    -1.723 | 0.088   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia                | Nutricao            |    0.546 |   -0.115 |     1.208 | 0.334 |     1.637 | 0.105   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia                | Pedagogia           |   -0.220 |   -0.847 |     0.406 | 0.316 |    -0.697 | 0.487   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia                | Servico Social      |   -0.222 |   -0.823 |     0.379 | 0.303 |    -0.732 | 0.466   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Letras                  | Lingua Portuguesa   |   -0.096 |   -0.657 |     0.466 | 0.283 |    -0.337 | 0.737   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.909 |    0.219 |     1.598 | 0.348 |     2.613 | 0.01    | 0.369 | ns           |
+| tri.vocab.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.142 |   -0.513 |     0.798 | 0.331 |     0.430 | 0.668   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.141 |   -0.490 |     0.772 | 0.318 |     0.442 | 0.659   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Matematica              | Nutricao            |    1.004 |    0.421 |     1.588 | 0.294 |     3.414 | \<0.001 | 0.033 | \*           |
+| tri.vocab.ensinado.pre | Matematica              | Pedagogia           |    0.238 |   -0.305 |     0.781 | 0.274 |     0.868 | 0.387   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Matematica              | Servico Social      |    0.236 |   -0.277 |     0.749 | 0.259 |     0.913 | 0.363   | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Nutricao                | Pedagogia           |   -0.767 |   -1.441 |    -0.092 | 0.340 |    -2.254 | 0.026   | 0.945 | ns           |
+| tri.vocab.ensinado.pre | Nutricao                | Servico Social      |   -0.768 |   -1.419 |    -0.118 | 0.328 |    -2.341 | 0.021   | 0.760 | ns           |
+| tri.vocab.ensinado.pre | Pedagogia               | Servico Social      |   -0.001 |   -0.616 |     0.613 | 0.310 |    -0.005 | 0.996   | 1.000 | ns           |
+
+| .y.                | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Arquitetura e Urbanismo    | pre    | pos    |   -0.292 |   -0.931 |     0.347 | 0.324 |    -0.901 | 0.369 | 0.369 | ns           |
+| tri.vocab.ensinado | Ciencias Biologicas        | pre    | pos    |   -0.119 |   -0.649 |     0.411 | 0.269 |    -0.443 | 0.658 | 0.658 | ns           |
+| tri.vocab.ensinado | Comunicacao Social         | pre    | pos    |   -0.095 |   -0.783 |     0.594 | 0.349 |    -0.271 | 0.787 | 0.787 | ns           |
+| tri.vocab.ensinado | Historia                   | pre    | pos    |    0.054 |   -0.557 |     0.666 | 0.310 |     0.175 | 0.861 | 0.861 | ns           |
+| tri.vocab.ensinado | Letras - Lingua Portuguesa | pre    | pos    |   -0.077 |   -0.707 |     0.553 | 0.320 |    -0.240 | 0.810 | 0.810 | ns           |
+| tri.vocab.ensinado | Matematica                 | pre    | pos    |   -0.047 |   -0.467 |     0.372 | 0.213 |    -0.223 | 0.824 | 0.824 | ns           |
+| tri.vocab.ensinado | Nutricao                   | pre    | pos    |   -0.208 |   -0.857 |     0.442 | 0.330 |    -0.631 | 0.529 | 0.529 | ns           |
+| tri.vocab.ensinado | Pedagogia                  | pre    | pos    |   -0.516 |   -1.128 |     0.095 | 0.310 |    -1.663 | 0.098 | 0.098 | ns           |
+| tri.vocab.ensinado | Servico Social             | pre    | pos    |    0.231 |   -0.346 |     0.808 | 0.293 |     0.789 | 0.431 | 0.431 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1409-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1411-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1413-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1415-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1417-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -3014,11 +6094,129 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-554-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1425-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-556-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1427-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-558-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1429-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1431-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1433-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.area               |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo    |  11 |   0.435 |    0.214 |     0.774 |      0.163 |   0.559 |    0.200 |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas        |  16 |   0.179 |    0.246 |     0.507 |      0.265 |   0.489 |    0.165 |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social         |   9 |   0.103 |    0.221 |     0.050 |      0.292 |   0.091 |    0.220 |
+| tri.vocab.nao.ensinado.pos | Historia                   |  12 |  -0.352 |    0.270 |    -0.065 |      0.353 |   0.325 |    0.194 |
+| tri.vocab.nao.ensinado.pos | Letras - Lingua Portuguesa |  10 |   0.444 |    0.280 |     0.579 |      0.239 |   0.357 |    0.210 |
+| tri.vocab.nao.ensinado.pos | Matematica                 |  25 |   0.335 |    0.194 |     0.457 |      0.200 |   0.319 |    0.133 |
+| tri.vocab.nao.ensinado.pos | Nutricao                   |   9 |  -0.396 |    0.176 |    -0.317 |      0.287 |   0.106 |    0.223 |
+| tri.vocab.nao.ensinado.pos | Pedagogia                  |  11 |   0.495 |    0.242 |     0.745 |      0.216 |   0.484 |    0.200 |
+| tri.vocab.nao.ensinado.pos | Servico Social             |  13 |  -0.076 |    0.251 |    -0.174 |      0.269 |   0.004 |    0.184 |
+
+| .y.                        | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Ciencias Biologicas |    0.070 |   -0.443 |     0.583 | 0.259 |     0.270 | 0.787 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Comunicacao Social  |    0.468 |   -0.121 |     1.058 | 0.297 |     1.575 | 0.118 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Historia            |    0.235 |   -0.323 |     0.792 | 0.281 |     0.834 | 0.406 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Letras              |    0.202 |   -0.369 |     0.773 | 0.288 |     0.700 | 0.485 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Matematica          |    0.240 |   -0.233 |     0.713 | 0.239 |     1.006 | 0.317 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Nutricao            |    0.453 |   -0.147 |     1.053 | 0.303 |     1.497 | 0.137 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Pedagogia           |    0.075 |   -0.483 |     0.632 | 0.281 |     0.266 | 0.790 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Arquitetura e Urbanismo | Servico Social      |    0.556 |    0.015 |     1.096 | 0.273 |     2.037 | 0.044 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Comunicacao Social  |    0.398 |   -0.147 |     0.943 | 0.275 |     1.449 | 0.150 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Historia            |    0.165 |   -0.341 |     0.670 | 0.255 |     0.646 | 0.520 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Letras              |    0.132 |   -0.397 |     0.660 | 0.267 |     0.494 | 0.622 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Matematica          |    0.170 |   -0.249 |     0.589 | 0.211 |     0.804 | 0.423 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Nutricao            |    0.383 |   -0.168 |     0.934 | 0.278 |     1.377 | 0.171 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Pedagogia           |    0.005 |   -0.509 |     0.519 | 0.259 |     0.019 | 0.985 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas     | Servico Social      |    0.485 |   -0.004 |     0.975 | 0.247 |     1.966 | 0.052 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Historia            |   -0.234 |   -0.814 |     0.347 | 0.293 |    -0.799 | 0.426 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Letras              |   -0.267 |   -0.869 |     0.336 | 0.304 |    -0.877 | 0.383 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Matematica          |   -0.228 |   -0.738 |     0.281 | 0.257 |    -0.889 | 0.376 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Nutricao            |   -0.015 |   -0.636 |     0.605 | 0.313 |    -0.049 | 0.961 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Pedagogia           |   -0.393 |   -0.984 |     0.197 | 0.298 |    -1.321 | 0.189 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Comunicacao Social      | Servico Social      |    0.087 |   -0.480 |     0.655 | 0.286 |     0.305 | 0.761 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia                | Letras              |   -0.033 |   -0.604 |     0.539 | 0.288 |    -0.114 | 0.910 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia                | Matematica          |    0.005 |   -0.464 |     0.475 | 0.237 |     0.023 | 0.982 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia                | Nutricao            |    0.218 |   -0.358 |     0.795 | 0.291 |     0.751 | 0.454 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia                | Pedagogia           |   -0.160 |   -0.719 |     0.400 | 0.282 |    -0.566 | 0.573 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia                | Servico Social      |    0.321 |   -0.204 |     0.846 | 0.265 |     1.212 | 0.228 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Letras                  | Lingua Portuguesa   |    0.038 |   -0.451 |     0.528 | 0.247 |     0.155 | 0.877 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Letras                  | Lingua Portuguesa   |    0.251 |   -0.362 |     0.864 | 0.309 |     0.812 | 0.419 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Letras                  | Lingua Portuguesa   |   -0.127 |   -0.698 |     0.444 | 0.288 |    -0.440 | 0.661 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Letras                  | Lingua Portuguesa   |    0.354 |   -0.201 |     0.909 | 0.280 |     1.263 | 0.209 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Matematica              | Nutricao            |    0.213 |   -0.306 |     0.732 | 0.262 |     0.813 | 0.418 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Matematica              | Pedagogia           |   -0.165 |   -0.639 |     0.308 | 0.239 |    -0.691 | 0.491 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Matematica              | Servico Social      |    0.315 |   -0.136 |     0.766 | 0.227 |     1.387 | 0.168 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Nutricao                | Pedagogia           |   -0.378 |   -0.980 |     0.224 | 0.303 |    -1.245 | 0.216 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Nutricao                | Servico Social      |    0.103 |   -0.466 |     0.671 | 0.287 |     0.358 | 0.721 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Pedagogia               | Servico Social      |    0.481 |   -0.061 |     1.023 | 0.273 |     1.758 | 0.082 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Ciencias Biologicas |    0.256 |   -0.419 |     0.931 | 0.341 |     0.752 | 0.454 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Comunicacao Social  |    0.332 |   -0.442 |     1.107 | 0.391 |     0.850 | 0.397 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Historia            |    0.787 |    0.068 |     1.507 | 0.363 |     2.169 | 0.032 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Letras              |   -0.009 |   -0.763 |     0.744 | 0.380 |    -0.025 | 0.980 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Matematica          |    0.100 |   -0.523 |     0.724 | 0.315 |     0.319 | 0.751 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Nutricao            |    0.831 |    0.056 |     1.605 | 0.391 |     2.125 | 0.036 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Pedagogia           |   -0.060 |   -0.795 |     0.675 | 0.371 |    -0.161 | 0.872 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Arquitetura e Urbanismo | Servico Social      |    0.511 |   -0.195 |     1.217 | 0.356 |     1.434 | 0.154 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Comunicacao Social  |    0.076 |   -0.642 |     0.795 | 0.362 |     0.211 | 0.834 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Historia            |    0.531 |   -0.127 |     1.190 | 0.332 |     1.600 | 0.113 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Letras              |   -0.265 |   -0.960 |     0.429 | 0.351 |    -0.757 | 0.451 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Matematica          |   -0.156 |   -0.708 |     0.396 | 0.278 |    -0.559 | 0.577 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Nutricao            |    0.575 |   -0.144 |     1.293 | 0.362 |     1.586 | 0.116 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Pedagogia           |   -0.316 |   -0.991 |     0.359 | 0.341 |    -0.927 | 0.356 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas     | Servico Social      |    0.255 |   -0.389 |     0.899 | 0.325 |     0.785 | 0.434 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Historia            |    0.455 |   -0.305 |     1.215 | 0.383 |     1.187 | 0.238 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Letras              |   -0.342 |   -1.134 |     0.450 | 0.400 |    -0.855 | 0.394 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Matematica          |   -0.232 |   -0.902 |     0.438 | 0.338 |    -0.686 | 0.494 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Nutricao            |    0.498 |   -0.314 |     1.311 | 0.410 |     1.216 | 0.227 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Pedagogia           |   -0.392 |   -1.167 |     0.383 | 0.391 |    -1.003 | 0.318 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Comunicacao Social      | Servico Social      |    0.179 |   -0.569 |     0.926 | 0.377 |     0.474 | 0.637 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia                | Letras              |   -0.797 |   -1.535 |    -0.059 | 0.372 |    -2.140 | 0.035 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia                | Matematica          |   -0.687 |   -1.292 |    -0.082 | 0.305 |    -2.250 | 0.026 | 0.954 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia                | Nutricao            |    0.043 |   -0.717 |     0.803 | 0.383 |     0.113 | 0.910 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia                | Pedagogia           |   -0.847 |   -1.567 |    -0.128 | 0.363 |    -2.334 | 0.021 | 0.773 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia                | Servico Social      |   -0.276 |   -0.966 |     0.414 | 0.348 |    -0.794 | 0.429 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.110 |   -0.535 |     0.755 | 0.325 |     0.337 | 0.737 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.840 |    0.048 |     1.632 | 0.400 |     2.103 | 0.038 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Letras                  | Lingua Portuguesa   |   -0.050 |   -0.803 |     0.703 | 0.380 |    -0.132 | 0.895 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Letras                  | Lingua Portuguesa   |    0.520 |   -0.205 |     1.245 | 0.366 |     1.423 | 0.158 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Matematica              | Nutricao            |    0.730 |    0.060 |     1.400 | 0.338 |     2.161 | 0.033 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Matematica              | Pedagogia           |   -0.160 |   -0.784 |     0.464 | 0.315 |    -0.509 | 0.612 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Matematica              | Servico Social      |    0.411 |   -0.179 |     1.000 | 0.297 |     1.381 | 0.170 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Nutricao                | Pedagogia           |   -0.890 |   -1.665 |    -0.116 | 0.391 |    -2.278 | 0.025 | 0.890 | ns           |
+| tri.vocab.nao.ensinado.pre | Nutricao                | Servico Social      |   -0.320 |   -1.067 |     0.428 | 0.377 |    -0.848 | 0.398 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Pedagogia               | Servico Social      |    0.571 |   -0.136 |     1.277 | 0.356 |     1.602 | 0.112 | 1.000 | ns           |
+
+| .y.                    | monitor.area               | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Arquitetura e Urbanismo    | pre    | pos    |   -0.339 |   -1.096 |     0.419 | 0.384 |    -0.881 | 0.379 | 0.379 | ns           |
+| tri.vocab.nao.ensinado | Ciencias Biologicas        | pre    | pos    |   -0.328 |   -0.956 |     0.300 | 0.319 |    -1.029 | 0.304 | 0.304 | ns           |
+| tri.vocab.nao.ensinado | Comunicacao Social         | pre    | pos    |   -0.048 |   -0.865 |     0.768 | 0.414 |    -0.116 | 0.907 | 0.907 | ns           |
+| tri.vocab.nao.ensinado | Historia                   | pre    | pos    |   -0.287 |   -1.012 |     0.438 | 0.368 |    -0.780 | 0.436 | 0.436 | ns           |
+| tri.vocab.nao.ensinado | Letras - Lingua Portuguesa | pre    | pos    |   -0.216 |   -0.963 |     0.532 | 0.379 |    -0.568 | 0.570 | 0.570 | ns           |
+| tri.vocab.nao.ensinado | Matematica                 | pre    | pos    |   -0.061 |   -0.559 |     0.437 | 0.253 |    -0.242 | 0.809 | 0.809 | ns           |
+| tri.vocab.nao.ensinado | Nutricao                   | pre    | pos    |    0.138 |   -0.633 |     0.908 | 0.391 |     0.353 | 0.725 | 0.725 | ns           |
+| tri.vocab.nao.ensinado | Pedagogia                  | pre    | pos    |   -0.171 |   -0.897 |     0.554 | 0.368 |    -0.465 | 0.642 | 0.642 | ns           |
+| tri.vocab.nao.ensinado | Servico Social             | pre    | pos    |    0.070 |   -0.614 |     0.755 | 0.347 |     0.202 | 0.840 | 0.840 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1441-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1443-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1445-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1447-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1449-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -3048,11 +6246,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-566-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1457-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-568-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1459-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-570-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1461-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1463-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1465-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | ensino medio     |  87 |   0.076 |    0.106 |     0.269 |      0.101 |   0.328 |    0.067 |
+| tri.vocab.pos | especializacao   |   9 |   0.165 |    0.215 |     0.104 |      0.283 |   0.098 |    0.207 |
+| tri.vocab.pos | graduacao        |  20 |   0.506 |    0.150 |     0.627 |      0.168 |   0.375 |    0.140 |
+
+| .y.           | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | ensino medio   | especializacao |    0.230 |   -0.200 |     0.660 | 0.217 |     1.060 | 0.292 | 0.875 | ns           |
+| tri.vocab.pos | ensino medio   | graduacao      |   -0.047 |   -0.356 |     0.262 | 0.156 |    -0.302 | 0.763 | 1.000 | ns           |
+| tri.vocab.pos | especializacao | graduacao      |   -0.277 |   -0.772 |     0.218 | 0.250 |    -1.110 | 0.269 | 0.808 | ns           |
+| tri.vocab.pre | ensino medio   | especializacao |   -0.089 |   -0.728 |     0.549 | 0.322 |    -0.277 | 0.782 | 1.000 | ns           |
+| tri.vocab.pre | ensino medio   | graduacao      |   -0.430 |   -0.883 |     0.022 | 0.228 |    -1.884 | 0.062 | 0.186 | ns           |
+| tri.vocab.pre | especializacao | graduacao      |   -0.341 |   -1.073 |     0.391 | 0.370 |    -0.922 | 0.358 | 1.000 | ns           |
+
+| .y.       | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | ensino medio     | pre    | pos    |   -0.178 |   -0.445 |     0.089 | 0.135 |    -1.314 | 0.190 | 0.190 | ns           |
+| tri.vocab | especializacao   | pre    | pos    |   -0.042 |   -0.868 |     0.784 | 0.419 |    -0.101 | 0.920 | 0.920 | ns           |
+| tri.vocab | graduacao        | pre    | pos    |   -0.038 |   -0.586 |     0.511 | 0.278 |    -0.136 | 0.892 | 0.892 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1473-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1475-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1477-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1479-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1481-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -3080,11 +6318,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-578-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1489-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-580-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1491-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-582-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1493-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1495-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1497-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | ensino medio     |  87 |   0.065 |    0.087 |     0.170 |      0.087 |   0.178 |    0.069 |
+| tri.vocab.ensinado.pos | especializacao   |   9 |  -0.073 |    0.239 |    -0.090 |      0.268 |  -0.003 |    0.214 |
+| tri.vocab.ensinado.pos | graduacao        |  20 |   0.210 |    0.155 |     0.545 |      0.140 |   0.470 |    0.144 |
+
+| .y.                    | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | ensino medio   | especializacao |    0.181 |   -0.265 |     0.626 | 0.225 |     0.804 | 0.423 |  1.00 | ns           |
+| tri.vocab.ensinado.pos | ensino medio   | graduacao      |   -0.292 |   -0.607 |     0.024 | 0.159 |    -1.830 | 0.070 |  0.21 | ns           |
+| tri.vocab.ensinado.pos | especializacao | graduacao      |   -0.472 |   -0.984 |     0.039 | 0.258 |    -1.829 | 0.070 |  0.21 | ns           |
+| tri.vocab.ensinado.pre | ensino medio   | especializacao |    0.138 |   -0.407 |     0.683 | 0.275 |     0.502 | 0.616 |  1.00 | ns           |
+| tri.vocab.ensinado.pre | ensino medio   | graduacao      |   -0.145 |   -0.531 |     0.241 | 0.195 |    -0.745 | 0.458 |  1.00 | ns           |
+| tri.vocab.ensinado.pre | especializacao | graduacao      |   -0.283 |   -0.908 |     0.341 | 0.315 |    -0.899 | 0.371 |  1.00 | ns           |
+
+| .y.                | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | ensino medio     | pre    | pos    |   -0.080 |   -0.308 |     0.147 | 0.116 |    -0.694 | 0.488 | 0.488 | ns           |
+| tri.vocab.ensinado | especializacao   | pre    | pos    |   -0.095 |   -0.799 |     0.610 | 0.358 |    -0.264 | 0.792 | 0.792 | ns           |
+| tri.vocab.ensinado | graduacao        | pre    | pos    |   -0.269 |   -0.738 |     0.199 | 0.238 |    -1.134 | 0.258 | 0.258 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1505-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1507-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1509-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1511-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1513-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -3112,11 +6390,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-590-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1521-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-592-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1523-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-594-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1525-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1527-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1529-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | ensino medio     |  87 |   0.089 |    0.101 |     0.270 |      0.108 |   0.324 |    0.071 |
+| tri.vocab.nao.ensinado.pos | especializacao   |   9 |   0.103 |    0.221 |     0.050 |      0.292 |   0.093 |    0.221 |
+| tri.vocab.nao.ensinado.pos | graduacao        |  20 |   0.469 |    0.157 |     0.631 |      0.180 |   0.380 |    0.150 |
+
+| .y.                        | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | ensino medio   | especializacao |    0.231 |   -0.228 |     0.690 | 0.232 |     0.997 | 0.321 | 0.963 | ns           |
+| tri.vocab.nao.ensinado.pos | ensino medio   | graduacao      |   -0.056 |   -0.385 |     0.273 | 0.166 |    -0.338 | 0.736 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | especializacao | graduacao      |   -0.287 |   -0.815 |     0.242 | 0.267 |    -1.076 | 0.284 | 0.853 | ns           |
+| tri.vocab.nao.ensinado.pre | ensino medio   | especializacao |   -0.014 |   -0.629 |     0.602 | 0.311 |    -0.044 | 0.965 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | ensino medio   | graduacao      |   -0.380 |   -0.815 |     0.056 | 0.220 |    -1.727 | 0.087 | 0.261 | ns           |
+| tri.vocab.nao.ensinado.pre | especializacao | graduacao      |   -0.366 |   -1.071 |     0.339 | 0.356 |    -1.029 | 0.306 | 0.917 | ns           |
+
+| .y.                    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | ensino medio     | pre    | pos    |   -0.178 |   -0.447 |     0.092 | 0.137 |    -1.298 | 0.196 | 0.196 | ns           |
+| tri.vocab.nao.ensinado | especializacao   | pre    | pos    |   -0.048 |   -0.883 |     0.786 | 0.424 |    -0.114 | 0.909 | 0.909 | ns           |
+| tri.vocab.nao.ensinado | graduacao        | pre    | pos    |   -0.057 |   -0.612 |     0.497 | 0.281 |    -0.204 | 0.838 | 0.838 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1537-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1539-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1541-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1543-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1545-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -3140,11 +6458,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-602-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1553-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-604-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1555-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-606-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1557-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1559-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1561-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | maior 01 ano        |  83 |   0.221 |    0.106 |     0.393 |      0.101 |   0.347 |    0.068 |
+| tri.vocab.pos | menor 01 ano        |  33 |  -0.003 |    0.143 |     0.131 |      0.153 |   0.246 |    0.108 |
+
+| .y.           | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | maior 01 ano | menor 01 ano |    0.100 |   -0.153 |     0.354 | 0.128 |     0.784 | 0.435 | 0.435 | ns           |
+| tri.vocab.pre | maior 01 ano | menor 01 ano |    0.224 |   -0.153 |     0.601 | 0.190 |     1.176 | 0.242 | 0.242 | ns           |
+
+| .y.       | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | maior 01 ano        | pre    | pos    |   -0.158 |   -0.433 |     0.117 | 0.140 |    -1.131 | 0.259 | 0.259 | ns           |
+| tri.vocab | menor 01 ano        | pre    | pos    |   -0.092 |   -0.523 |     0.338 | 0.219 |    -0.422 | 0.673 | 0.673 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1569-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1571-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1573-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1575-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1577-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -3166,11 +6518,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-614-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1585-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-616-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1587-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-618-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1589-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1591-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1593-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | maior 01 ano        |  83 |   0.116 |    0.082 |     0.242 |      0.086 |    0.22 |    0.071 |
+| tri.vocab.ensinado.pos | menor 01 ano        |  33 |  -0.014 |    0.151 |     0.145 |      0.143 |    0.20 |    0.113 |
+
+| .y.                    | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | maior 01 ano | menor 01 ano |    0.020 |   -0.246 |     0.286 | 0.134 |     0.150 | 0.881 | 0.881 | ns           |
+| tri.vocab.ensinado.pre | maior 01 ano | menor 01 ano |    0.131 |   -0.189 |     0.450 | 0.161 |     0.811 | 0.419 | 0.419 | ns           |
+
+| .y.                | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | maior 01 ano        | pre    | pos    |   -0.113 |   -0.348 |     0.122 | 0.119 |    -0.950 | 0.343 | 0.343 | ns           |
+| tri.vocab.ensinado | menor 01 ano        | pre    | pos    |   -0.106 |   -0.474 |     0.262 | 0.187 |    -0.568 | 0.571 | 0.571 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1601-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1603-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1605-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1607-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1609-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -3192,8 +6578,42 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-626-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1617-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-628-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1619-1.png)<!-- -->
 
-![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-630-1.png)<!-- -->
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1621-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1623-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1625-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | maior 01 ano        |  83 |   0.215 |    0.101 |     0.400 |      0.108 |   0.353 |    0.072 |
+| tri.vocab.nao.ensinado.pos | menor 01 ano        |  33 |   0.007 |    0.140 |     0.103 |      0.162 |   0.222 |    0.115 |
+
+| .y.                        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |    p | p.adj | p.adj.signif |
+|:---------------------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|-----:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | maior 01 ano | menor 01 ano |    0.131 |   -0.139 |     0.401 | 0.136 |     0.959 | 0.34 |  0.34 | ns           |
+| tri.vocab.nao.ensinado.pre | maior 01 ano | menor 01 ano |    0.207 |   -0.155 |     0.570 | 0.183 |     1.133 | 0.26 |  0.26 | ns           |
+
+| .y.                    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | maior 01 ano        | pre    | pos    |   -0.168 |   -0.445 |     0.110 | 0.141 |    -1.192 | 0.235 | 0.235 | ns           |
+| tri.vocab.nao.ensinado | menor 01 ano        | pre    | pos    |   -0.077 |   -0.510 |     0.357 | 0.220 |    -0.347 | 0.729 | 0.729 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1633-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1635-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1637-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1639-1.png)<!-- -->
+
+![](vocabulario-wordgen-without-stari_files/figure-gfm/unnamed-chunk-1641-1.png)<!-- -->

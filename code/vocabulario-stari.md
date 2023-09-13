@@ -5,131 +5,197 @@ Geiser C. Challco <geiser@alumni.usp.br>
 - [Descriptive Statistics of Initial
   Data](#descriptive-statistics-of-initial-data)
   - [Vocabulario (Acertos)](#vocabulario-acertos)
+  - [Vocabulario (TRI)](#vocabulario-tri)
   - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos)
+  - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri)
   - [Vocabulario Nao Ensinado
     (Acertos)](#vocabulario-nao-ensinado-acertos)
+  - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri)
 - [Checking of Assumptions](#checking-of-assumptions)
   - [Assumption: Normality
     distribution](#assumption-normality-distribution)
     - [Vocabulario (Acertos)](#vocabulario-acertos-1)
+    - [Vocabulario (TRI)](#vocabulario-tri-1)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-1)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-1)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-1)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-1)
   - [Assumption: Homogeneity](#assumption-homogeneity)
     - [Vocabulario (Acertos)](#vocabulario-acertos-2)
+    - [Vocabulario (TRI)](#vocabulario-tri-2)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-2)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-2)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-2)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-2)
 - [Computation of ANCOVA test and Pairwise
   Comparison](#computation-of-ancova-test-and-pairwise-comparison)
   - [ANCOVA tests for one factor](#ancova-tests-for-one-factor)
     - [Vocabulario (Acertos)](#vocabulario-acertos-3)
+    - [Vocabulario (TRI)](#vocabulario-tri-3)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-3)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-3)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-3)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-3)
   - [ANCOVA tests for two factors](#ancova-tests-for-two-factors)
     - [Vocabulario (Acertos)](#vocabulario-acertos-4)
+    - [Vocabulario (TRI)](#vocabulario-tri-4)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-4)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-4)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-4)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-4)
   - [ANCOVA tests for
     grupo=“Experimental”](#ancova-tests-for-grupoexperimental)
     - [Vocabulario (Acertos)](#vocabulario-acertos-5)
+    - [Vocabulario (TRI)](#vocabulario-tri-5)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-5)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-5)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-5)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-5)
 - [Pairwise comparisons for one
   factor](#pairwise-comparisons-for-one-factor)
   - [factor: **grupo**](#factor-grupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-6)
+    - [Vocabulario (TRI)](#vocabulario-tri-6)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-6)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-6)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-6)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-6)
   - [factor: **genero**](#factor-genero)
     - [Vocabulario (Acertos)](#vocabulario-acertos-7)
+    - [Vocabulario (TRI)](#vocabulario-tri-7)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-7)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-7)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-7)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-7)
   - [factor: **idade**](#factor-idade)
     - [Vocabulario (Acertos)](#vocabulario-acertos-8)
+    - [Vocabulario (TRI)](#vocabulario-tri-8)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-8)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-8)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-8)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-8)
   - [factor: **zona.participante**](#factor-zonaparticipante)
     - [Vocabulario (Acertos)](#vocabulario-acertos-9)
+    - [Vocabulario (TRI)](#vocabulario-tri-9)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-9)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-9)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-9)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-9)
   - [factor: **escola**](#factor-escola)
     - [Vocabulario (Acertos)](#vocabulario-acertos-10)
+    - [Vocabulario (TRI)](#vocabulario-tri-10)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-10)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-10)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-10)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-10)
   - [factor: **zona.escola**](#factor-zonaescola)
     - [Vocabulario (Acertos)](#vocabulario-acertos-11)
+    - [Vocabulario (TRI)](#vocabulario-tri-11)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-11)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-11)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-11)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-11)
 - [Pairwise comparisons for two
   factors](#pairwise-comparisons-for-two-factors)
   - [factores: **genero:grupo**](#factores-generogrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-12)
+    - [Vocabulario (TRI)](#vocabulario-tri-12)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-12)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-12)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-12)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-12)
   - [factores: **idade:grupo**](#factores-idadegrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-13)
+    - [Vocabulario (TRI)](#vocabulario-tri-13)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-13)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-13)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-13)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-13)
   - [factores:
     **zona.participante:grupo**](#factores-zonaparticipantegrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-14)
+    - [Vocabulario (TRI)](#vocabulario-tri-14)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-14)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-14)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-14)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-14)
   - [factores: **escola:grupo**](#factores-escolagrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-15)
+    - [Vocabulario (TRI)](#vocabulario-tri-15)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-15)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-15)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-15)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-15)
   - [factores: **zona.escola:grupo**](#factores-zonaescolagrupo)
     - [Vocabulario (Acertos)](#vocabulario-acertos-16)
+    - [Vocabulario (TRI)](#vocabulario-tri-16)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-16)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-16)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-16)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-16)
 - [Pairwise comparisons for
   grupo=“Experimental”](#pairwise-comparisons-for-grupoexperimental)
   - [factores:
     **grupo=“Experimental”:monitor**](#factores-grupoexperimentalmonitor)
     - [Vocabulario (Acertos)](#vocabulario-acertos-17)
+    - [Vocabulario (TRI)](#vocabulario-tri-17)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-17)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-17)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-17)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-17)
   - [factores:
     **grupo=“Experimental”:monitor.genero**](#factores-grupoexperimentalmonitorgenero)
     - [Vocabulario (Acertos)](#vocabulario-acertos-18)
+    - [Vocabulario (TRI)](#vocabulario-tri-18)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-18)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-18)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-18)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-18)
   - [factores:
     **grupo=“Experimental”:monitor.area**](#factores-grupoexperimentalmonitorarea)
     - [Vocabulario (Acertos)](#vocabulario-acertos-19)
+    - [Vocabulario (TRI)](#vocabulario-tri-19)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-19)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-19)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-19)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-19)
   - [factores:
     **grupo=“Experimental”:monitor.formacao**](#factores-grupoexperimentalmonitorformacao)
     - [Vocabulario (Acertos)](#vocabulario-acertos-20)
+    - [Vocabulario (TRI)](#vocabulario-tri-20)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-20)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-20)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-20)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-20)
   - [factores:
     **grupo=“Experimental”:monitor.experiencia**](#factores-grupoexperimentalmonitorexperiencia)
     - [Vocabulario (Acertos)](#vocabulario-acertos-21)
+    - [Vocabulario (TRI)](#vocabulario-tri-21)
     - [Vocabulario Ensinado (Acertos)](#vocabulario-ensinado-acertos-21)
+    - [Vocabulario Ensinado (TRI)](#vocabulario-ensinado-tri-21)
     - [Vocabulario Nao Ensinado
       (Acertos)](#vocabulario-nao-ensinado-acertos-21)
+    - [Vocabulario Nao Ensinado (TRI)](#vocabulario-nao-ensinado-tri-21)
 
 **NOTE**
 
@@ -217,6 +283,83 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Stari    |        |       |                   |        | Urbana      | score.vocab.pre |  27 | 13.296 |   12.0 |   6 |  22 | 3.881 | 0.747 |  1.535 |  6.00 |
 | Stari    |        |       |                   |        | Rural       | score.vocab.pre |  12 | 13.000 |   13.5 |   9 |  16 | 2.216 | 0.640 |  1.408 |  3.25 |
 
+## Vocabulario (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable      |   n |   mean | median |    min |    max |    sd |    se |    ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:--------------|----:|-------:|-------:|-------:|-------:|------:|------:|------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.pos |  23 | -0.555 | -0.554 | -1.646 |  0.675 | 0.703 | 0.147 | 0.304 | 0.976 |
+| Controle | M      |       |                   |        |             | tri.vocab.pos |  21 | -0.742 | -0.627 | -1.835 |  0.402 | 0.602 | 0.131 | 0.274 | 0.817 |
+| Stari    | F      |       |                   |        |             | tri.vocab.pos |  17 | -0.815 | -0.802 | -2.158 |  0.650 | 0.688 | 0.167 | 0.354 | 0.947 |
+| Stari    | M      |       |                   |        |             | tri.vocab.pos |  22 | -0.623 | -0.797 | -1.416 |  1.499 | 0.675 | 0.144 | 0.299 | 0.551 |
+| Controle | F      |       |                   |        |             | tri.vocab.pre |  23 | -0.627 | -0.502 | -1.939 |  0.323 | 0.561 | 0.117 | 0.243 | 0.839 |
+| Controle | M      |       |                   |        |             | tri.vocab.pre |  21 | -0.779 | -0.676 | -1.612 |  0.351 | 0.570 | 0.124 | 0.259 | 0.776 |
+| Stari    | F      |       |                   |        |             | tri.vocab.pre |  17 | -0.905 | -1.035 | -2.057 |  0.432 | 0.600 | 0.146 | 0.309 | 0.502 |
+| Stari    | M      |       |                   |        |             | tri.vocab.pre |  22 | -0.801 | -0.753 | -1.987 |  0.393 | 0.685 | 0.146 | 0.304 | 0.901 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.pos |   8 | -0.127 |  0.065 | -1.555 |  0.675 | 0.781 | 0.276 | 0.653 | 0.789 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.pos |  26 | -0.704 | -0.598 | -1.671 |  0.543 | 0.597 | 0.117 | 0.241 | 0.863 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.pos |   5 | -0.567 | -0.569 | -1.167 |  0.019 | 0.451 | 0.202 | 0.559 | 0.465 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.pos |   3 | -1.051 | -0.979 | -1.198 | -0.975 | 0.128 | 0.074 | 0.317 | 0.112 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.pos |   1 | -1.835 | -1.835 | -1.835 | -1.835 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.pos |   1 | -1.194 | -1.194 | -1.194 | -1.194 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.pos |   7 | -0.818 | -0.839 | -1.416 |  0.185 | 0.610 | 0.231 | 0.564 | 0.898 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.pos |  21 | -0.612 | -0.690 | -1.464 |  0.653 | 0.586 | 0.128 | 0.267 | 0.626 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.pos |   9 | -0.727 | -0.793 | -2.158 |  1.499 | 0.975 | 0.325 | 0.749 | 0.496 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.pos |   2 | -1.219 | -1.219 | -1.258 | -1.181 | 0.054 | 0.039 | 0.489 | 0.039 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.pre |   8 | -0.171 | -0.177 | -0.475 |  0.323 | 0.242 | 0.085 | 0.202 | 0.146 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.pre |  26 | -0.725 | -0.670 | -1.939 |  0.351 | 0.579 | 0.114 | 0.234 | 0.632 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.pre |   5 | -1.216 | -1.445 | -1.524 | -0.369 | 0.486 | 0.217 | 0.603 | 0.243 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.pre |   3 | -1.031 | -1.064 | -1.082 | -0.946 | 0.074 | 0.043 | 0.183 | 0.068 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.pre |   1 | -0.582 | -0.582 | -0.582 | -0.582 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.pre |   1 | -0.805 | -0.805 | -0.805 | -0.805 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.pre |   7 | -1.119 | -1.138 | -1.956 | -0.275 | 0.554 | 0.209 | 0.512 | 0.519 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.pre |  21 | -0.817 | -0.753 | -2.057 |  0.432 | 0.711 | 0.155 | 0.324 | 0.843 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.pre |   9 | -0.685 | -0.923 | -1.331 |  0.365 | 0.609 | 0.203 | 0.468 | 0.775 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.pre |   2 | -0.920 | -0.920 | -1.019 | -0.821 | 0.140 | 0.099 | 1.261 | 0.099 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.pos |  22 | -0.490 | -0.395 | -1.646 |  0.675 | 0.768 | 0.164 | 0.341 | 1.287 |
+| Controle |        |       | Rural             |        |             | tri.vocab.pos |  11 | -0.640 | -0.554 | -1.273 |  0.019 | 0.421 | 0.127 | 0.283 | 0.667 |
+| Controle |        |       |                   |        |             | tri.vocab.pos |  11 | -0.956 | -0.975 | -1.835 | -0.177 | 0.525 | 0.158 | 0.353 | 0.673 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.pos |  14 | -0.513 | -0.544 | -1.438 |  1.499 | 0.798 | 0.213 | 0.461 | 0.823 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.pos |  15 | -0.646 | -0.802 | -1.464 |  0.650 | 0.616 | 0.159 | 0.341 | 0.773 |
+| Stari    |        |       |                   |        |             | tri.vocab.pos |  10 | -1.069 | -0.899 | -2.158 | -0.484 | 0.474 | 0.150 | 0.339 | 0.472 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.pre |  22 | -0.495 | -0.372 | -1.939 |  0.351 | 0.617 | 0.131 | 0.273 | 0.937 |
+| Controle |        |       | Rural             |        |             | tri.vocab.pre |  11 | -0.881 | -0.946 | -1.493 | -0.369 | 0.418 | 0.126 | 0.281 | 0.710 |
+| Controle |        |       |                   |        |             | tri.vocab.pre |  11 | -0.927 | -0.805 | -1.612 | -0.175 | 0.458 | 0.138 | 0.307 | 0.640 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.pre |  14 | -0.980 | -1.027 | -2.057 | -0.043 | 0.506 | 0.135 | 0.292 | 0.614 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.pre |  15 | -0.691 | -0.741 | -1.987 |  0.432 | 0.714 | 0.184 | 0.395 | 1.042 |
+| Stari    |        |       |                   |        |             | tri.vocab.pre |  10 | -0.890 | -0.989 | -1.956 |  0.365 | 0.718 | 0.227 | 0.514 | 0.812 |
+| Controle |        |       |                   | E1     |             | tri.vocab.pos |   6 |  0.072 |  0.126 | -0.744 |  0.675 | 0.511 | 0.208 | 0.536 | 0.534 |
+| Controle |        |       |                   | E2     |             | tri.vocab.pos |  10 | -0.921 | -0.784 | -1.835 | -0.126 | 0.555 | 0.176 | 0.397 | 0.808 |
+| Controle |        |       |                   | E3     |             | tri.vocab.pos |   6 | -0.613 | -0.561 | -1.198 |  0.019 | 0.442 | 0.181 | 0.464 | 0.502 |
+| Controle |        |       |                   | E4     |             | tri.vocab.pos |   3 | -0.425 | -0.657 | -1.167 |  0.551 | 0.882 | 0.509 | 2.191 | 0.859 |
+| Controle |        |       |                   | E5     |             | tri.vocab.pos |  15 | -0.763 | -0.975 | -1.646 |  0.543 | 0.667 | 0.172 | 0.369 | 0.985 |
+| Controle |        |       |                   | E6     |             | tri.vocab.pos |   4 | -0.794 | -0.665 | -1.671 | -0.177 | 0.678 | 0.339 | 1.080 | 0.845 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.pos |   5 |  0.131 | -0.151 | -1.010 |  1.499 | 0.967 | 0.433 | 1.201 | 0.987 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.pos |   9 | -0.894 | -0.802 | -1.438 | -0.461 | 0.404 | 0.135 | 0.310 | 0.734 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.pos |   6 | -0.635 | -0.730 | -1.464 |  0.650 | 0.747 | 0.305 | 0.784 | 0.652 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.pos |   1 | -1.254 | -1.254 | -1.254 | -1.254 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.pos |  13 | -0.673 | -0.793 | -1.414 |  0.185 | 0.469 | 0.130 | 0.284 | 0.582 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.pos |   5 | -1.270 | -1.181 | -2.158 | -0.758 | 0.563 | 0.252 | 0.699 | 0.578 |
+| Controle |        |       |                   | E1     |             | tri.vocab.pre |   6 | -0.082 | -0.083 | -0.581 |  0.351 | 0.388 | 0.158 | 0.407 | 0.626 |
+| Controle |        |       |                   | E2     |             | tri.vocab.pre |  10 | -0.849 | -0.738 | -1.939 |  0.107 | 0.650 | 0.206 | 0.465 | 0.857 |
+| Controle |        |       |                   | E3     |             | tri.vocab.pre |   6 | -0.719 | -0.724 | -1.049 | -0.369 | 0.315 | 0.129 | 0.331 | 0.544 |
+| Controle |        |       |                   | E4     |             | tri.vocab.pre |   3 | -0.834 | -1.110 | -1.250 | -0.141 | 0.604 | 0.349 | 1.501 | 0.555 |
+| Controle |        |       |                   | E5     |             | tri.vocab.pre |  15 | -0.763 | -0.805 | -1.493 |  0.115 | 0.535 | 0.138 | 0.296 | 0.806 |
+| Controle |        |       |                   | E6     |             | tri.vocab.pre |   4 | -0.883 | -0.873 | -1.612 | -0.175 | 0.611 | 0.305 | 0.972 | 0.673 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.pre |   5 | -0.949 | -1.035 | -1.331 | -0.479 | 0.337 | 0.151 | 0.418 | 0.397 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.pre |   9 | -1.068 | -1.119 | -2.057 |  0.025 | 0.625 | 0.208 | 0.481 | 0.910 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.pre |   6 | -0.719 | -0.457 | -1.987 |  0.014 | 0.780 | 0.318 | 0.818 | 0.956 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.pre |   1 | -0.844 | -0.844 | -0.844 | -0.844 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.pre |  13 | -0.674 | -0.741 | -1.611 |  0.432 | 0.653 | 0.181 | 0.395 | 0.858 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.pre |   5 | -0.946 | -0.923 | -1.956 |  0.365 | 0.860 | 0.385 | 1.068 | 0.575 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.pos |  31 | -0.652 | -0.627 | -1.835 |  0.675 | 0.692 | 0.124 | 0.254 | 1.025 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.pos |  13 | -0.625 | -0.569 | -1.671 |  0.551 | 0.588 | 0.163 | 0.355 | 0.668 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.pos |  27 | -0.598 | -0.690 | -1.438 |  1.499 | 0.657 | 0.126 | 0.260 | 0.635 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.pos |  12 | -0.951 | -1.063 | -2.158 |  0.650 | 0.691 | 0.200 | 0.439 | 0.616 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.pre |  31 | -0.659 | -0.582 | -1.939 |  0.351 | 0.608 | 0.109 | 0.223 | 0.873 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.pre |  13 | -0.796 | -0.946 | -1.612 | -0.141 | 0.449 | 0.125 | 0.271 | 0.648 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.pre |  27 | -0.856 | -1.035 | -2.057 |  0.432 | 0.607 | 0.117 | 0.240 | 0.675 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.pre |  12 | -0.824 | -0.832 | -1.987 |  0.365 | 0.747 | 0.216 | 0.475 | 1.033 |
+
 ## Vocabulario Ensinado (Acertos)
 
 | grupo    | genero | idade | zona.participante | escola | zona.escola | variable                 |   n |  mean | median | min | max |    sd |    se |    ci |  iqr |
@@ -295,6 +438,83 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Controle |        |       |                   |        | Rural       | score.vocab.ensinado.pre |  14 | 2.214 |    2.0 |   0 |   5 | 1.528 | 0.408 | 0.882 | 2.00 |
 | Stari    |        |       |                   |        | Urbana      | score.vocab.ensinado.pre |  29 | 2.828 |    3.0 |   0 |   7 | 1.583 | 0.294 | 0.602 | 2.00 |
 | Stari    |        |       |                   |        | Rural       | score.vocab.ensinado.pre |  13 | 2.846 |    3.0 |   1 |   5 | 1.144 | 0.317 | 0.691 | 2.00 |
+
+## Vocabulario Ensinado (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable               |   n |   mean | median |    min |    max |    sd |    se |    ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:-----------------------|----:|-------:|-------:|-------:|-------:|------:|------:|------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.ensinado.pos |  23 | -0.686 | -1.063 | -1.451 |  1.133 | 0.751 | 0.157 | 0.325 | 1.028 |
+| Controle | M      |       |                   |        |             | tri.vocab.ensinado.pos |  21 | -0.585 | -0.663 | -1.396 |  0.462 | 0.551 | 0.120 | 0.251 | 0.544 |
+| Stari    | F      |       |                   |        |             | tri.vocab.ensinado.pos |  17 | -0.677 | -0.918 | -1.396 |  0.727 | 0.625 | 0.152 | 0.321 | 0.779 |
+| Stari    | M      |       |                   |        |             | tri.vocab.ensinado.pos |  22 | -0.498 | -0.598 | -1.396 |  1.032 | 0.654 | 0.139 | 0.290 | 0.943 |
+| Controle | F      |       |                   |        |             | tri.vocab.ensinado.pre |  23 | -0.465 | -0.408 | -1.359 |  1.058 | 0.647 | 0.135 | 0.280 | 1.087 |
+| Controle | M      |       |                   |        |             | tri.vocab.ensinado.pre |  21 | -0.526 | -0.555 | -1.396 |  1.101 | 0.615 | 0.134 | 0.280 | 0.801 |
+| Stari    | F      |       |                   |        |             | tri.vocab.ensinado.pre |  17 | -0.417 | -0.518 | -1.451 |  0.895 | 0.674 | 0.163 | 0.347 | 0.747 |
+| Stari    | M      |       |                   |        |             | tri.vocab.ensinado.pre |  22 | -0.520 | -0.619 | -1.451 |  0.577 | 0.527 | 0.112 | 0.234 | 0.690 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.ensinado.pos |   8 | -0.342 | -0.684 | -1.451 |  1.133 | 0.955 | 0.338 | 0.798 | 1.508 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.ensinado.pos |  26 | -0.788 | -0.953 | -1.409 |  0.377 | 0.542 | 0.106 | 0.219 | 0.665 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.ensinado.pos |   5 | -0.228 | -0.457 | -1.026 |  0.462 | 0.640 | 0.286 | 0.795 | 0.910 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.ensinado.pos |   3 | -0.499 | -0.459 | -1.063 |  0.025 | 0.545 | 0.315 | 1.354 | 0.544 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.ensinado.pos |   1 | -0.983 | -0.983 | -0.983 | -0.983 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pos |   1 | -1.232 | -1.232 | -1.232 | -1.232 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.ensinado.pos |   7 | -0.557 | -0.514 | -1.126 |  0.202 | 0.439 | 0.166 | 0.406 | 0.396 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.ensinado.pos |  21 | -0.593 | -0.607 | -1.396 |  0.828 | 0.648 | 0.141 | 0.295 | 0.795 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.ensinado.pos |   9 | -0.410 | -0.540 | -1.262 |  1.032 | 0.775 | 0.258 | 0.596 | 1.134 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.ensinado.pos |   2 | -1.223 | -1.223 | -1.396 | -1.051 | 0.244 | 0.173 | 2.194 | 0.173 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.ensinado.pre |   8 | -0.267 | -0.197 | -1.212 |  1.058 | 0.737 | 0.261 | 0.616 | 0.633 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.ensinado.pre |  26 | -0.494 | -0.541 | -1.396 |  1.101 | 0.628 | 0.123 | 0.254 | 1.021 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.ensinado.pre |   5 | -0.689 | -0.991 | -1.123 | -0.042 | 0.506 | 0.226 | 0.628 | 0.801 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.ensinado.pre |   3 | -0.581 | -0.983 | -1.072 |  0.311 | 0.774 | 0.447 | 1.922 | 0.691 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.ensinado.pre |   1 | -1.051 | -1.051 | -1.051 | -1.051 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pre |   1 | -0.528 | -0.528 | -0.528 | -0.528 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.ensinado.pre |   7 | -0.846 | -0.880 | -1.232 | -0.434 | 0.278 | 0.105 | 0.257 | 0.347 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.ensinado.pre |  21 | -0.267 | -0.346 | -1.451 |  0.895 | 0.659 | 0.144 | 0.300 | 0.843 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.ensinado.pre |   9 | -0.676 | -0.609 | -1.451 |  0.148 | 0.476 | 0.159 | 0.366 | 0.500 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.ensinado.pre |   2 | -0.458 | -0.458 | -0.554 | -0.362 | 0.136 | 0.096 | 1.222 | 0.096 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.ensinado.pos |  22 | -0.616 | -0.845 | -1.451 |  1.133 | 0.787 | 0.168 | 0.349 | 1.078 |
+| Controle |        |       | Rural             |        |             | tri.vocab.ensinado.pos |  11 | -0.626 | -0.866 | -1.194 |  0.462 | 0.573 | 0.173 | 0.385 | 0.528 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pos |  11 | -0.694 | -0.770 | -1.232 |  0.220 | 0.476 | 0.144 | 0.320 | 0.538 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.ensinado.pos |  14 | -0.459 | -0.542 | -1.396 |  1.032 | 0.740 | 0.198 | 0.427 | 0.852 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.ensinado.pos |  15 | -0.662 | -0.649 | -1.396 |  0.727 | 0.627 | 0.162 | 0.347 | 0.719 |
+| Stari    |        |       |                   |        |             | tri.vocab.ensinado.pos |  10 | -0.612 | -0.670 | -1.262 |  0.177 | 0.535 | 0.169 | 0.383 | 0.933 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.ensinado.pre |  22 | -0.397 | -0.408 | -1.262 |  1.101 | 0.708 | 0.151 | 0.314 | 1.127 |
+| Controle |        |       | Rural             |        |             | tri.vocab.ensinado.pre |  11 | -0.434 | -0.243 | -1.396 |  0.311 | 0.622 | 0.188 | 0.418 | 0.912 |
+| Controle |        |       |                   |        |             | tri.vocab.ensinado.pre |  11 | -0.748 | -0.983 | -1.072 |  0.085 | 0.380 | 0.115 | 0.256 | 0.458 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.ensinado.pre |  14 | -0.556 | -0.576 | -1.451 |  0.526 | 0.501 | 0.134 | 0.289 | 0.648 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.ensinado.pre |  15 | -0.321 | -0.566 | -1.232 |  0.895 | 0.710 | 0.183 | 0.393 | 1.117 |
+| Stari    |        |       |                   |        |             | tri.vocab.ensinado.pre |  10 | -0.593 | -0.597 | -1.451 |  0.148 | 0.506 | 0.160 | 0.362 | 0.517 |
+| Controle |        |       |                   | E1     |             | tri.vocab.ensinado.pos |   6 | -0.341 | -0.363 | -1.232 |  0.670 | 0.920 | 0.376 | 0.966 | 1.588 |
+| Controle |        |       |                   | E2     |             | tri.vocab.ensinado.pos |  10 | -0.816 | -0.862 | -1.451 |  0.230 | 0.566 | 0.179 | 0.405 | 0.856 |
+| Controle |        |       |                   | E3     |             | tri.vocab.ensinado.pos |   6 | -0.677 | -0.933 | -1.079 |  0.397 | 0.573 | 0.234 | 0.601 | 0.477 |
+| Controle |        |       |                   | E4     |             | tri.vocab.ensinado.pos |   3 | -0.362 | -1.026 | -1.194 |  1.133 | 1.298 | 0.749 | 3.225 | 1.164 |
+| Controle |        |       |                   | E5     |             | tri.vocab.ensinado.pos |  15 | -0.657 | -0.598 | -1.409 |  0.462 | 0.569 | 0.147 | 0.315 | 0.779 |
+| Controle |        |       |                   | E6     |             | tri.vocab.ensinado.pos |   4 | -0.716 | -0.838 | -1.212 |  0.025 | 0.527 | 0.264 | 0.839 | 0.412 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.ensinado.pos |   5 | -0.041 |  0.077 | -1.177 |  1.032 | 1.009 | 0.451 | 1.252 | 1.795 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.ensinado.pos |   9 | -0.959 | -1.212 | -1.396 | -0.009 | 0.474 | 0.158 | 0.365 | 0.655 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.ensinado.pos |   6 | -0.447 | -0.506 | -1.396 |  0.727 | 0.784 | 0.320 | 0.823 | 0.957 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.ensinado.pos |   1 | -0.918 | -0.918 | -0.918 | -0.918 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.ensinado.pos |  13 | -0.531 | -0.571 | -1.359 |  0.202 | 0.456 | 0.126 | 0.276 | 0.349 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.ensinado.pos |   5 | -0.630 | -0.609 | -1.126 |  0.177 | 0.520 | 0.233 | 0.646 | 0.510 |
+| Controle |        |       |                   | E1     |             | tri.vocab.ensinado.pre |   6 |  0.246 |  0.032 | -0.408 |  1.101 | 0.673 | 0.275 | 0.707 | 1.091 |
+| Controle |        |       |                   | E2     |             | tri.vocab.ensinado.pre |  10 | -0.750 | -0.952 | -1.262 |  0.084 | 0.487 | 0.154 | 0.349 | 0.586 |
+| Controle |        |       |                   | E3     |             | tri.vocab.ensinado.pre |   6 | -0.124 |  0.017 | -1.192 |  0.311 | 0.538 | 0.220 | 0.565 | 0.146 |
+| Controle |        |       |                   | E4     |             | tri.vocab.ensinado.pre |   3 | -1.015 | -1.123 | -1.212 | -0.711 | 0.267 | 0.154 | 0.664 | 0.251 |
+| Controle |        |       |                   | E5     |             | tri.vocab.ensinado.pre |  15 | -0.614 | -0.528 | -1.396 |  0.440 | 0.536 | 0.138 | 0.297 | 0.750 |
+| Controle |        |       |                   | E6     |             | tri.vocab.ensinado.pre |   4 | -0.680 | -0.866 | -1.072 |  0.085 | 0.536 | 0.268 | 0.852 | 0.532 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.ensinado.pre |   5 | -0.624 | -0.609 | -1.018 | -0.023 | 0.387 | 0.173 | 0.481 | 0.340 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.ensinado.pre |   9 | -0.642 | -0.518 | -1.451 | -0.146 | 0.425 | 0.142 | 0.327 | 0.450 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.ensinado.pre |   6 | -0.263 | -0.488 | -1.089 |  0.801 | 0.739 | 0.302 | 0.776 | 0.991 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.ensinado.pre |   1 | -0.598 | -0.598 | -0.598 | -0.598 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.ensinado.pre |  13 | -0.390 | -0.571 | -1.451 |  0.895 | 0.766 | 0.212 | 0.463 | 1.118 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.ensinado.pre |   5 | -0.477 | -0.518 | -0.880 |  0.148 | 0.404 | 0.181 | 0.502 | 0.408 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.ensinado.pos |  31 | -0.647 | -0.663 | -1.451 |  0.670 | 0.645 | 0.116 | 0.237 | 1.009 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.ensinado.pos |  13 | -0.616 | -0.906 | -1.212 |  1.133 | 0.713 | 0.198 | 0.431 | 0.591 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.ensinado.pos |  27 | -0.583 | -0.607 | -1.396 |  1.032 | 0.654 | 0.126 | 0.259 | 0.924 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.ensinado.pos |  12 | -0.562 | -0.577 | -1.396 |  0.727 | 0.632 | 0.182 | 0.401 | 0.750 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.ensinado.pre |  31 | -0.491 | -0.528 | -1.396 |  1.101 | 0.648 | 0.116 | 0.238 | 0.868 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.ensinado.pre |  13 | -0.501 | -0.704 | -1.212 |  0.311 | 0.594 | 0.165 | 0.359 | 1.096 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.ensinado.pre |  27 | -0.517 | -0.566 | -1.451 |  0.895 | 0.604 | 0.116 | 0.239 | 0.836 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.ensinado.pre |  12 | -0.380 | -0.558 | -1.089 |  0.801 | 0.569 | 0.164 | 0.362 | 0.547 |
 
 ## Vocabulario Nao Ensinado (Acertos)
 
@@ -375,6 +595,83 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | Stari    |        |       |                   |        | Urbana      | score.vocab.nao.ensinado.pre |  29 | 10.103 |    9.0 |   0 |  17 | 3.931 | 0.730 |  1.495 | 7.00 |
 | Stari    |        |       |                   |        | Rural       | score.vocab.nao.ensinado.pre |  13 |  9.846 |    9.0 |   5 |  15 | 2.672 | 0.741 |  1.615 | 2.00 |
 
+## Vocabulario Nao Ensinado (TRI)
+
+| grupo    | genero | idade | zona.participante | escola | zona.escola | variable                   |   n |   mean | median |    min |    max |    sd |    se |    ci |   iqr |
+|:---------|:-------|:------|:------------------|:-------|:------------|:---------------------------|----:|-------:|-------:|-------:|-------:|------:|------:|------:|------:|
+| Controle | F      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  23 | -0.434 | -0.353 | -1.289 |  0.667 | 0.541 | 0.113 | 0.234 | 0.829 |
+| Controle | M      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  21 | -0.704 | -0.685 | -1.304 |  0.420 | 0.498 | 0.109 | 0.227 | 0.646 |
+| Stari    | F      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  17 | -0.725 | -0.769 | -1.389 |  0.351 | 0.483 | 0.117 | 0.248 | 0.473 |
+| Stari    | M      |       |                   |        |             | tri.vocab.nao.ensinado.pos |  22 | -0.652 | -0.811 | -1.400 |  1.597 | 0.632 | 0.135 | 0.280 | 0.399 |
+| Controle | F      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  23 | -0.685 | -0.724 | -1.424 | -0.016 | 0.408 | 0.085 | 0.176 | 0.499 |
+| Controle | M      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  21 | -0.843 | -0.798 | -2.007 |  0.021 | 0.499 | 0.109 | 0.227 | 0.546 |
+| Stari    | F      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  17 | -0.893 | -1.046 | -1.433 | -0.021 | 0.407 | 0.099 | 0.209 | 0.491 |
+| Stari    | M      |       |                   |        |             | tri.vocab.nao.ensinado.pre |  22 | -0.747 | -0.901 | -1.600 |  0.177 | 0.520 | 0.111 | 0.231 | 0.663 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pos |   8 | -0.101 | -0.007 | -0.891 |  0.568 | 0.540 | 0.191 | 0.451 | 0.736 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pos |  26 | -0.593 | -0.538 | -1.304 |  0.667 | 0.508 | 0.100 | 0.205 | 0.732 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pos |   5 | -0.634 | -0.685 | -0.969 | -0.087 | 0.330 | 0.148 | 0.410 | 0.132 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pos |   3 | -0.995 | -1.042 | -1.207 | -0.734 | 0.240 | 0.139 | 0.596 | 0.236 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pos |   1 | -1.293 | -1.293 | -1.293 | -1.293 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |   1 | -1.099 | -1.099 | -1.099 | -1.099 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pos |   7 | -0.821 | -0.942 | -1.201 | -0.194 | 0.358 | 0.135 | 0.331 | 0.461 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pos |  21 | -0.649 | -0.667 | -1.400 |  0.351 | 0.496 | 0.108 | 0.226 | 0.523 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pos |   9 | -0.550 | -0.803 | -1.215 |  1.597 | 0.842 | 0.281 | 0.647 | 0.355 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pos |   2 | -1.177 | -1.177 | -1.239 | -1.115 | 0.088 | 0.062 | 0.790 | 0.062 |
+| Controle |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pre |   8 | -0.354 | -0.416 | -0.659 | -0.046 | 0.218 | 0.077 | 0.182 | 0.346 |
+| Controle |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pre |  26 | -0.799 | -0.783 | -2.007 |  0.021 | 0.489 | 0.096 | 0.198 | 0.507 |
+| Controle |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pre |   5 | -1.069 | -1.230 | -1.346 | -0.459 | 0.365 | 0.163 | 0.454 | 0.299 |
+| Controle |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pre |   3 | -1.017 | -0.995 | -1.112 | -0.944 | 0.086 | 0.050 | 0.214 | 0.084 |
+| Controle |        | 14y   |                   |        |             | tri.vocab.nao.ensinado.pre |   1 | -0.722 | -0.722 | -0.722 | -0.722 |       |       |       | 0.000 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |   1 | -0.758 | -0.758 | -0.758 | -0.758 |       |       |       | 0.000 |
+| Stari    |        | 10y   |                   |        |             | tri.vocab.nao.ensinado.pre |   7 | -0.999 | -1.090 | -1.600 | -0.173 | 0.477 | 0.180 | 0.441 | 0.468 |
+| Stari    |        | 11y   |                   |        |             | tri.vocab.nao.ensinado.pre |  21 | -0.784 | -0.913 | -1.571 |  0.053 | 0.468 | 0.102 | 0.213 | 0.723 |
+| Stari    |        | 12y   |                   |        |             | tri.vocab.nao.ensinado.pre |   9 | -0.684 | -0.852 | -1.515 |  0.177 | 0.537 | 0.179 | 0.413 | 0.702 |
+| Stari    |        | 13y   |                   |        |             | tri.vocab.nao.ensinado.pre |   2 | -0.991 | -0.991 | -0.992 | -0.990 | 0.002 | 0.001 | 0.015 | 0.001 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pos |  22 | -0.366 | -0.322 | -1.289 |  0.667 | 0.590 | 0.126 | 0.262 | 0.883 |
+| Controle |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pos |  11 | -0.633 | -0.638 | -1.177 | -0.023 | 0.382 | 0.115 | 0.257 | 0.503 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |  11 | -0.884 | -0.780 | -1.304 | -0.321 | 0.370 | 0.112 | 0.249 | 0.599 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pos |  14 | -0.536 | -0.622 | -1.400 |  1.597 | 0.744 | 0.199 | 0.429 | 0.526 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pos |  15 | -0.630 | -0.667 | -1.389 |  0.351 | 0.482 | 0.125 | 0.267 | 0.480 |
+| Stari    |        |       |                   |        |             | tri.vocab.nao.ensinado.pos |  10 | -0.972 | -0.975 | -1.239 | -0.346 | 0.248 | 0.078 | 0.177 | 0.154 |
+| Controle |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pre |  22 | -0.557 | -0.502 | -1.424 |  0.021 | 0.464 | 0.099 | 0.206 | 0.761 |
+| Controle |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pre |  11 | -0.941 | -0.955 | -1.232 | -0.459 | 0.273 | 0.082 | 0.184 | 0.455 |
+| Controle |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |  11 | -0.987 | -0.798 | -2.007 | -0.474 | 0.424 | 0.128 | 0.285 | 0.404 |
+| Stari    |        |       | Urbana            |        |             | tri.vocab.nao.ensinado.pre |  14 | -0.921 | -0.973 | -1.515 | -0.264 | 0.359 | 0.096 | 0.207 | 0.451 |
+| Stari    |        |       | Rural             |        |             | tri.vocab.nao.ensinado.pre |  15 | -0.727 | -0.640 | -1.571 |  0.053 | 0.531 | 0.137 | 0.294 | 0.752 |
+| Stari    |        |       |                   |        |             | tri.vocab.nao.ensinado.pre |  10 | -0.781 | -0.966 | -1.600 |  0.177 | 0.540 | 0.171 | 0.387 | 0.561 |
+| Controle |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pos |   6 |  0.008 | -0.007 | -0.697 |  0.568 | 0.423 | 0.173 | 0.444 | 0.278 |
+| Controle |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pos |  10 | -0.738 | -0.718 | -1.293 | -0.302 | 0.328 | 0.104 | 0.235 | 0.477 |
+| Controle |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pos |   6 | -0.605 | -0.538 | -1.071 | -0.087 | 0.388 | 0.158 | 0.407 | 0.537 |
+| Controle |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pos |   3 | -0.403 | -0.490 | -0.969 |  0.248 | 0.613 | 0.354 | 1.523 | 0.609 |
+| Controle |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pos |  15 | -0.625 | -0.734 | -1.304 |  0.667 | 0.619 | 0.160 | 0.343 | 0.871 |
+| Controle |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pos |   4 | -0.804 | -0.798 | -1.298 | -0.321 | 0.520 | 0.260 | 0.828 | 0.858 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pos |   5 |  0.159 | -0.121 | -0.575 |  1.597 | 0.879 | 0.393 | 1.092 | 0.797 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pos |   9 | -0.833 | -0.769 | -1.400 | -0.346 | 0.333 | 0.111 | 0.256 | 0.473 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pos |   6 | -0.656 | -0.735 | -1.389 |  0.351 | 0.566 | 0.231 | 0.594 | 0.193 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pos |   1 | -1.106 | -1.106 | -1.106 | -1.106 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pos |  13 | -0.732 | -0.879 | -1.201 |  0.111 | 0.382 | 0.106 | 0.231 | 0.361 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pos |   5 | -1.082 | -1.086 | -1.239 | -0.928 | 0.146 | 0.065 | 0.182 | 0.273 |
+| Controle |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pre |   6 | -0.309 | -0.313 | -0.660 | -0.016 | 0.278 | 0.113 | 0.292 | 0.443 |
+| Controle |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pre |  10 | -0.875 | -0.848 | -1.424 | -0.159 | 0.466 | 0.147 | 0.333 | 0.840 |
+| Controle |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pre |   6 | -0.883 | -0.871 | -1.206 | -0.459 | 0.269 | 0.110 | 0.282 | 0.292 |
+| Controle |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pre |   3 | -0.632 | -0.737 | -1.005 | -0.155 | 0.435 | 0.251 | 1.080 | 0.425 |
+| Controle |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pre |  15 | -0.760 | -0.758 | -1.372 |  0.021 | 0.435 | 0.112 | 0.241 | 0.432 |
+| Controle |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pre |   4 | -1.069 | -0.897 | -2.007 | -0.474 | 0.661 | 0.331 | 1.052 | 0.531 |
+| Stari    |        |       |                   | E1     |             | tri.vocab.nao.ensinado.pre |   5 | -0.904 | -0.953 | -1.515 | -0.374 | 0.497 | 0.222 | 0.617 | 0.804 |
+| Stari    |        |       |                   | E2     |             | tri.vocab.nao.ensinado.pre |   9 | -0.885 | -0.992 | -1.433 | -0.089 | 0.417 | 0.139 | 0.321 | 0.523 |
+| Stari    |        |       |                   | E3     |             | tri.vocab.nao.ensinado.pre |   6 | -0.740 | -0.583 | -1.571 | -0.206 | 0.494 | 0.202 | 0.519 | 0.490 |
+| Stari    |        |       |                   | E4     |             | tri.vocab.nao.ensinado.pre |   1 | -0.935 | -0.935 | -0.935 | -0.935 |       |       |       | 0.000 |
+| Stari    |        |       |                   | E5     |             | tri.vocab.nao.ensinado.pre |  13 | -0.720 | -0.913 | -1.404 |  0.053 | 0.499 | 0.138 | 0.302 | 0.826 |
+| Stari    |        |       |                   | E6     |             | tri.vocab.nao.ensinado.pre |   5 | -0.878 | -0.990 | -1.600 |  0.177 | 0.647 | 0.289 | 0.803 | 0.057 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pos |  31 | -0.539 | -0.655 | -1.304 |  0.667 | 0.564 | 0.101 | 0.207 | 0.779 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pos |  13 | -0.620 | -0.498 | -1.298 |  0.248 | 0.465 | 0.129 | 0.281 | 0.689 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pos |  27 | -0.601 | -0.652 | -1.400 |  1.597 | 0.599 | 0.115 | 0.237 | 0.560 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pos |  12 | -0.871 | -0.935 | -1.389 |  0.351 | 0.452 | 0.130 | 0.287 | 0.364 |
+| Controle |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pre |  31 | -0.710 | -0.724 | -1.424 |  0.021 | 0.457 | 0.082 | 0.168 | 0.694 |
+| Controle |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pre |  13 | -0.882 | -0.798 | -2.007 | -0.155 | 0.445 | 0.123 | 0.269 | 0.268 |
+| Stari    |        |       |                   |        | Urbana      | tri.vocab.nao.ensinado.pre |  27 | -0.809 | -0.953 | -1.515 |  0.053 | 0.463 | 0.089 | 0.183 | 0.739 |
+| Stari    |        |       |                   |        | Rural       | tri.vocab.nao.ensinado.pre |  12 | -0.814 | -0.947 | -1.600 |  0.177 | 0.519 | 0.150 | 0.330 | 0.521 |
+
 # Checking of Assumptions
 
 ## Assumption: Normality distribution
@@ -389,6 +686,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.pos |  83 | 0.2293518 |  0.0808339 | YES      |  1.272341 | D’Agostino | 0.5293156 | ns       | YES       |
 | score.vocab.pos |  83 | 0.4922211 |  0.3661971 | YES      |  4.942305 | D’Agostino | 0.0844874 | ns       | YES       |
 
+### Vocabulario (TRI)
+
+| var           |   n |  skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:--------------|----:|----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.vocab.pos |  83 | 0.6943551 | 2.7497655 | NO       | 17.328262 | D’Agostino | 0.0001727 | \*\*\*   | NO        |
+| tri.vocab.pos |  82 | 1.0368175 | 5.7952388 | NO       | 32.259106 | D’Agostino | 0.0000001 | \*\*\*\* | NO        |
+| tri.vocab.pos |  62 | 0.8769991 | 2.5967406 | NO       | 16.765868 | D’Agostino | 0.0002287 | \*\*\*   | NO        |
+| tri.vocab.pos |  83 | 0.1351093 | 0.2851346 | YES      |  1.295538 | D’Agostino | 0.5232117 | ns       | YES       |
+| tri.vocab.pos |  83 | 0.7897561 | 2.6675625 | NO       | 18.696353 | D’Agostino | 0.0000871 | \*\*\*\* | NO        |
+
 ### Vocabulario Ensinado (Acertos)
 
 | var                      |   n |  skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
@@ -399,6 +706,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.ensinado.pos |  92 | 0.3904577 | -0.1064939 | YES      |  2.661355 | D’Agostino | 0.2642981 | ns       | YES       |
 | score.vocab.ensinado.pos |  92 | 0.5832216 | -0.0364913 | NO       |  5.605925 | D’Agostino | 0.0606302 | ns       | YES       |
 
+### Vocabulario Ensinado (TRI)
+
+| var                    |   n |  skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
+|:-----------------------|----:|----------:|-----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+| tri.vocab.ensinado.pos |  83 | 0.8733237 |  0.4508587 | NO       | 11.543350 | D’Agostino | 0.0031145 | \*\*     | NO        |
+| tri.vocab.ensinado.pos |  82 | 0.6763299 |  0.4472834 | NO       |  7.976768 | D’Agostino | 0.0185296 | \*       | NO        |
+| tri.vocab.ensinado.pos |  62 | 0.8563920 |  0.2338909 | NO       |  8.560656 | D’Agostino | 0.0138381 | \*       | NO        |
+| tri.vocab.ensinado.pos |  83 | 0.3583803 | -0.4674942 | YES      |  2.445281 | D’Agostino | 0.2944516 | ns       | YES       |
+| tri.vocab.ensinado.pos |  83 | 0.8296975 |  0.3285475 | NO       | 10.317392 | D’Agostino | 0.0057492 | \*\*     | NO        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 | var                          |   n |   skewness | kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
@@ -408,6 +725,16 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.nao.ensinado.pos |  69 | -0.3856252 | 1.311057 | YES      |  6.643472 | D’Agostino | 0.0360901 | \*       | NO        |
 | score.vocab.nao.ensinado.pos |  92 | -0.5702589 | 1.542795 | NO       | 11.455632 | D’Agostino | 0.0032542 | \*\*     | NO        |
 | score.vocab.nao.ensinado.pos |  92 | -0.5655374 | 1.469912 | NO       | 11.064311 | D’Agostino | 0.0039574 | \*\*     | NO        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        |   n |  skewness | kurtosis | symmetry | statistic | method     |        p | p.signif | normality |
+|:---------------------------|----:|----------:|---------:|:---------|----------:|:-----------|---------:|:---------|:----------|
+| tri.vocab.nao.ensinado.pos |  83 | 2.0148289 | 9.419494 | NO       |  58.96924 | D’Agostino | 0.00e+00 | \*\*\*\* | NO        |
+| tri.vocab.nao.ensinado.pos |  82 | 1.9878998 | 9.578127 | NO       |  58.25712 | D’Agostino | 0.00e+00 | \*\*\*\* | NO        |
+| tri.vocab.nao.ensinado.pos |  62 | 1.9663591 | 8.196990 | NO       |  46.67706 | D’Agostino | 0.00e+00 | \*\*\*\* | NO        |
+| tri.vocab.nao.ensinado.pos |  83 | 0.9035977 | 3.024147 | NO       |  22.03084 | D’Agostino | 1.64e-05 | \*\*\*\* | NO        |
+| tri.vocab.nao.ensinado.pos |  83 | 1.9458425 | 8.579470 | NO       |  56.20300 | D’Agostino | 0.00e+00 | \*\*\*\* | NO        |
 
 ## Assumption: Homogeneity
 
@@ -426,6 +753,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      79 | 0.1160930 | 0.9504254 | ns       |
 | score.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      75 | 0.5160000 | 0.6730000 | ns       |
 
+### Vocabulario (TRI)
+
+| var           | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:--------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`genero`            |  83 |       3 |      79 | 0.0163506 | 0.9971275 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            |  83 |       3 |      75 | 1.6500000 | 0.1850000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`idade`             |  82 |       8 |      73 | 1.2683444 | 0.2733548 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             |  82 |       7 |      65 | 1.2510000 | 0.2890000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      58 | 0.2628686 | 0.8518599 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      54 | 0.8040000 | 0.4970000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`escola`            |  83 |      11 |      71 | 0.9752891 | 0.4766838 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            |  83 |      10 |      60 | 0.8420000 | 0.5900000 | ns       |
+| tri.vocab.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      79 | 0.8969930 | 0.4465903 | ns       |
+| tri.vocab.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      75 | 1.2240000 | 0.3070000 | ns       |
+
 ### Vocabulario Ensinado (Acertos)
 
 | var                      | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -441,6 +783,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  92 |       3 |      88 | 0.3759129 | 0.7705837 | ns       |
 | score.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  92 |       3 |      84 | 1.7870000 | 0.1560000 | ns       |
 
+### Vocabulario Ensinado (TRI)
+
+| var                    | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-----------------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`genero`            |  83 |       3 |      79 | 0.1630991 | 0.9208953 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            |  83 |       3 |      75 | 0.6550000 | 0.5830000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`idade`             |  82 |       8 |      73 | 1.6849349 | 0.1165699 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             |  82 |       7 |      65 | 0.8360000 | 0.5610000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      58 | 0.3708608 | 0.7743075 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      54 | 0.2100000 | 0.8890000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`escola`            |  83 |      11 |      71 | 1.2238740 | 0.2877110 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            |  83 |      10 |      60 | 1.5830000 | 0.1340000 | ns       |
+| tri.vocab.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      79 | 0.2225532 | 0.8804614 | ns       |
+| tri.vocab.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      75 | 3.5990000 | 0.0170000 | \*       |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 | var                          | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
@@ -455,6 +812,21 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | score.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            |  92 |      10 |      69 | 1.0370000 | 0.4230000 | ns       |
 | score.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  92 |       3 |      88 | 0.4941734 | 0.6872476 | ns       |
 | score.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  92 |       3 |      84 | 1.1000000 | 0.3540000 | ns       |
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | method         | formula                             |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:---------------------------|:---------------|:------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`genero`            |  83 |       3 |      79 | 0.1477076 | 0.9308687 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`genero`            |  83 |       3 |      75 | 3.0280000 | 0.0350000 | \*       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`idade`             |  82 |       8 |      73 | 0.8968174 | 0.5238008 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`idade`             |  82 |       7 |      65 | 3.5040000 | 0.0030000 | \*\*     |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      58 | 0.6182301 | 0.6060023 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.participante` |  62 |       3 |      54 | 1.7870000 | 0.1610000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`escola`            |  83 |      11 |      71 | 0.9382235 | 0.5097351 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`escola`            |  83 |      10 |      60 | 1.7280000 | 0.0950000 | ns       |
+| tri.vocab.nao.ensinado.pos | Levene’s test  | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      79 | 0.6226354 | 0.6024458 | ns       |
+| tri.vocab.nao.ensinado.pos | Anova’s slopes | `.res`~`grupo`\*`zona.escola`       |  83 |       3 |      75 | 1.5890000 | 0.1990000 | ns       |
 
 # Computation of ANCOVA test and Pairwise Comparison
 
@@ -472,6 +844,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola            |   5 |  76 | 160.871 | 1359.544 |  1.799 | 0.123   | 0.106 |        |
 | 12  | zona.escola       |   1 |  80 |   0.006 | 1520.410 |  0.000 | 0.986   | 0.000 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect            | DFn | DFd |   SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:------------------|----:|----:|------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.vocab.pre     |   1 |  80 | 9.320 | 26.703 | 27.922 | \<0.001 | 0.259 | \*     |
+| 2   | grupo             |   1 |  80 | 0.008 | 26.703 |  0.025 | 0.876   | 0.000 |        |
+| 4   | genero            |   1 |  80 | 0.002 | 26.709 |  0.006 | 0.939   | 0.000 |        |
+| 6   | idade             |   4 |  76 | 2.466 | 23.992 |  1.953 | 0.11    | 0.093 |        |
+| 8   | zona.participante |   1 |  59 | 0.127 | 19.744 |  0.379 | 0.54    | 0.006 |        |
+| 10  | escola            |   5 |  76 | 5.665 | 21.046 |  4.091 | 0.002   | 0.212 | \*     |
+| 12  | zona.escola       |   1 |  80 | 0.260 | 26.451 |  0.787 | 0.378   | 0.010 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |    SSn |     SSd |     F |     p |   ges | p\<.05 |
@@ -484,6 +868,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 10  | escola                   |   5 |  85 |  5.645 | 255.824 | 0.375 | 0.864 | 0.022 |        |
 | 12  | zona.escola              |   1 |  89 |  2.575 | 258.893 | 0.885 | 0.349 | 0.010 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                 | DFn | DFd |   SSn |    SSd |     F |     p |   ges | p\<.05 |
+|:----|:-----------------------|----:|----:|------:|-------:|------:|------:|------:|:-------|
+| 1   | tri.vocab.ensinado.pre |   1 |  80 | 2.213 | 31.918 | 5.546 | 0.021 | 0.065 | \*     |
+| 2   | grupo                  |   1 |  80 | 0.065 | 31.918 | 0.163 | 0.687 | 0.002 |        |
+| 4   | genero                 |   1 |  80 | 0.551 | 31.432 | 1.404 | 0.240 | 0.017 |        |
+| 6   | idade                  |   4 |  76 | 2.791 | 28.815 | 1.840 | 0.130 | 0.088 |        |
+| 8   | zona.participante      |   1 |  59 | 0.210 | 26.992 | 0.460 | 0.500 | 0.008 |        |
+| 10  | escola                 |   5 |  76 | 2.289 | 29.694 | 1.172 | 0.331 | 0.072 |        |
+| 12  | zona.escola            |   1 |  80 | 0.002 | 31.981 | 0.004 | 0.947 | 0.000 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |     SSn |      SSd |      F |     p |   ges | p\<.05 |
@@ -495,6 +891,18 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | zona.participante            |   1 |  66 |  18.816 | 1358.742 |  0.914 | 0.343 | 0.014 |        |
 | 10  | escola                       |   5 |  85 |  59.211 | 1850.412 |  0.544 | 0.742 | 0.031 |        |
 | 12  | zona.escola                  |   1 |  89 |   0.072 | 1909.552 |  0.003 | 0.954 | 0.000 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |   SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 |  80 | 5.251 | 19.116 | 21.975 | \<0.001 | 0.215 | \*     |
+| 2   | grupo                      |   1 |  80 | 0.182 | 19.116 |  0.762 | 0.385   | 0.009 |        |
+| 4   | genero                     |   1 |  80 | 0.241 | 19.056 |  1.013 | 0.317   | 0.012 |        |
+| 6   | idade                      |   4 |  76 | 1.279 | 17.773 |  1.367 | 0.253   | 0.067 |        |
+| 8   | zona.participante          |   1 |  59 | 0.244 | 15.111 |  0.954 | 0.333   | 0.016 |        |
+| 10  | escola                     |   5 |  76 | 4.863 | 14.435 |  5.121 | \<0.001 | 0.252 | \*     |
+| 12  | zona.escola                |   1 |  80 | 0.258 | 19.040 |  1.084 | 0.301   | 0.013 |        |
 
 ## ANCOVA tests for two factors
 
@@ -509,6 +917,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola            |   5 |  70 |  97.113 | 1248.850 |  1.089 | 0.374   | 0.072 |        |
 | 20  | grupo:zona.escola       |   1 |  78 |  22.341 | 1481.759 |  1.176 | 0.282   | 0.015 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect                  | DFn | DFd |   SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.vocab.pre           |   1 |  78 | 8.869 | 26.419 | 26.187 | \<0.001 | 0.251 | \*     |
+| 4   | grupo:genero            |   1 |  78 | 0.283 | 26.419 |  0.834 | 0.364   | 0.011 |        |
+| 8   | grupo:idade             |   3 |  72 | 1.048 | 22.919 |  1.097 | 0.356   | 0.044 |        |
+| 12  | grupo:zona.participante |   1 |  57 | 0.618 | 18.964 |  1.858 | 0.178   | 0.032 |        |
+| 16  | grupo:escola            |   5 |  70 | 1.667 | 19.365 |  1.205 | 0.316   | 0.079 |        |
+| 20  | grupo:zona.escola       |   1 |  78 | 0.987 | 25.454 |  3.025 | 0.086   | 0.037 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |    SSn |     SSd |     F |     p |   ges | p\<.05 |
@@ -520,6 +939,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 16  | grupo:escola             |   5 |  79 | 13.362 | 241.094 | 0.876 | 0.501 | 0.053 |        |
 | 20  | grupo:zona.escola        |   1 |  87 |  4.432 | 253.180 | 1.523 | 0.220 | 0.017 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                  | DFn | DFd |   SSn |    SSd |     F |     p |   ges | p\<.05 |
+|:----|:------------------------|----:|----:|------:|-------:|------:|------:|------:|:-------|
+| 1   | tri.vocab.ensinado.pre  |   1 |  78 | 2.359 | 31.354 | 5.869 | 0.018 | 0.070 | \*     |
+| 4   | grupo:genero            |   1 |  78 | 0.042 | 31.354 | 0.103 | 0.749 | 0.001 |        |
+| 8   | grupo:idade             |   3 |  72 | 0.989 | 27.824 | 0.853 | 0.470 | 0.034 |        |
+| 12  | grupo:zona.participante |   1 |  57 | 0.275 | 26.604 | 0.589 | 0.446 | 0.010 |        |
+| 16  | grupo:escola            |   5 |  70 | 1.309 | 28.279 | 0.648 | 0.664 | 0.044 |        |
+| 20  | grupo:zona.escola       |   1 |  78 | 0.011 | 31.906 | 0.027 | 0.870 | 0.000 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |     SSn |      SSd |     F |     p |   ges | p\<.05 |
@@ -530,6 +960,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 12  | grupo:zona.participante      |   1 |  64 |  13.555 | 1345.178 | 0.645 | 0.425 | 0.010 |        |
 | 16  | grupo:escola                 |   5 |  79 |  98.834 | 1751.003 | 0.892 | 0.491 | 0.053 |        |
 | 20  | grupo:zona.escola            |   1 |  87 |  55.523 | 1852.791 | 2.607 | 0.110 | 0.029 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |   SSn |    SSd |      F | p       |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|------:|-------:|-------:|:--------|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 |  78 | 4.775 | 18.743 | 19.870 | \<0.001 | 0.203 | \*     |
+| 4   | grupo:genero               |   1 |  78 | 0.164 | 18.743 |  0.685 | 0.411   | 0.009 |        |
+| 8   | grupo:idade                |   3 |  72 | 0.327 | 17.054 |  0.460 | 0.711   | 0.019 |        |
+| 12  | grupo:zona.participante    |   1 |  57 | 0.114 | 14.987 |  0.434 | 0.513   | 0.008 |        |
+| 16  | grupo:escola               |   5 |  70 | 1.084 | 13.202 |  1.149 | 0.343   | 0.076 |        |
+| 20  | grupo:zona.escola          |   1 |  78 | 0.343 | 18.518 |  1.445 | 0.233   | 0.018 |        |
 
 ## ANCOVA tests for grupo=“Experimental”
 
@@ -544,6 +985,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao    |   2 |  29 |  47.524 | 570.075 | 1.209 | 0.313 | 0.077 |        |
 | 10  | monitor.experiencia |   1 |  30 |   4.497 | 613.103 | 0.220 | 0.642 | 0.007 |        |
 
+### Vocabulario (TRI)
+
+|     | Effect              | DFn | DFd |   SSn |    SSd |     F |     p |   ges | p\<.05 |
+|:----|:--------------------|----:|----:|------:|-------:|------:|------:|------:|:-------|
+| 1   | tri.vocab.pre       |   1 |  22 | 1.115 |  7.290 | 3.364 | 0.080 | 0.133 |        |
+| 2   | monitor             |   9 |  22 | 6.350 |  7.290 | 2.129 | 0.072 | 0.466 |        |
+| 4   | monitor.genero      |   1 |  30 | 1.188 | 12.451 | 2.863 | 0.101 | 0.087 |        |
+| 6   | monitor.area        |   8 |  23 | 6.079 |  7.560 | 2.312 | 0.055 | 0.446 |        |
+| 8   | monitor.formacao    |   2 |  29 | 0.596 | 13.043 | 0.663 | 0.523 | 0.044 |        |
+| 10  | monitor.experiencia |   1 |  30 | 0.966 | 12.674 | 2.285 | 0.141 | 0.071 |        |
+
 ### Vocabulario Ensinado (Acertos)
 
 |     | Effect                   | DFn | DFd |    SSn |    SSd |     F |     p |   ges | p\<.05 |
@@ -555,6 +1007,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 8   | monitor.formacao         |   2 |  32 |  3.733 | 94.988 | 0.629 | 0.540 | 0.038 |        |
 | 10  | monitor.experiencia      |   1 |  33 |  0.009 | 98.712 | 0.003 | 0.956 | 0.000 |        |
 
+### Vocabulario Ensinado (TRI)
+
+|     | Effect                 | DFn | DFd |   SSn |    SSd |     F |     p |   ges | p\<.05 |
+|:----|:-----------------------|----:|----:|------:|-------:|------:|------:|------:|:-------|
+| 1   | tri.vocab.ensinado.pre |   1 |  22 | 0.987 |  8.394 | 2.586 | 0.122 | 0.105 |        |
+| 2   | monitor                |   9 |  22 | 4.895 |  8.394 | 1.426 | 0.237 | 0.368 |        |
+| 4   | monitor.genero         |   1 |  30 | 0.380 | 12.909 | 0.882 | 0.355 | 0.029 |        |
+| 6   | monitor.area           |   8 |  23 | 4.210 |  9.079 | 1.333 | 0.277 | 0.317 |        |
+| 8   | monitor.formacao       |   2 |  29 | 0.322 | 12.967 | 0.360 | 0.701 | 0.024 |        |
+| 10  | monitor.experiencia    |   1 |  30 | 0.501 | 12.788 | 1.176 | 0.287 | 0.038 |        |
+
 ### Vocabulario Nao Ensinado (Acertos)
 
 |     | Effect                       | DFn | DFd |     SSn |     SSd |     F |     p |   ges | p\<.05 |
@@ -565,6 +1028,17 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | 6   | monitor.area                 |   8 |  26 | 124.864 | 585.720 | 0.693 | 0.694 | 0.176 |        |
 | 8   | monitor.formacao             |   2 |  32 |  14.885 | 695.699 | 0.342 | 0.713 | 0.021 |        |
 | 10  | monitor.experiencia          |   1 |  33 |  23.561 | 687.023 | 1.132 | 0.295 | 0.033 |        |
+
+### Vocabulario Nao Ensinado (TRI)
+
+|     | Effect                     | DFn | DFd |   SSn |    SSd |     F |     p |   ges | p\<.05 |
+|:----|:---------------------------|----:|----:|------:|-------:|------:|------:|------:|:-------|
+| 1   | tri.vocab.nao.ensinado.pre |   1 |  22 | 0.105 |  5.094 | 0.453 | 0.508 | 0.020 |        |
+| 2   | monitor                    |   9 |  22 | 5.578 |  5.094 | 2.677 | 0.029 | 0.523 | \*     |
+| 4   | monitor.genero             |   1 |  30 | 1.039 |  9.633 | 3.236 | 0.082 | 0.097 |        |
+| 6   | monitor.area               |   8 |  23 | 4.948 |  5.724 | 2.485 | 0.042 | 0.464 | \*     |
+| 8   | monitor.formacao           |   2 |  29 | 0.368 | 10.304 | 0.518 | 0.601 | 0.034 |        |
+| 10  | monitor.experiencia        |   1 |  30 | 0.859 |  9.812 | 2.627 | 0.116 | 0.081 |        |
 
 # Pairwise comparisons for one factor
 
@@ -590,11 +1064,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-51-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-89-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Controle |  44 |  -0.700 |    0.085 |    -0.644 |      0.099 |  -0.683 |    0.087 |
+| tri.vocab.pos | Stari    |  39 |  -0.846 |    0.103 |    -0.707 |      0.109 |  -0.663 |    0.093 |
+
+| .y.           | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle | Stari  |   -0.020 |   -0.275 |     0.235 | 0.128 |    -0.157 | 0.876 | 0.876 | ns           |
+| tri.vocab.pre | Controle | Stari  |    0.147 |   -0.117 |     0.410 | 0.132 |     1.106 | 0.272 | 0.272 | ns           |
+
+| .y.       | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Controle | pre    | pos    |   -0.041 |   -0.302 |     0.221 | 0.132 |    -0.307 | 0.759 | 0.759 | ns           |
+| tri.vocab | Stari    | pre    | pos    |   -0.172 |   -0.452 |     0.108 | 0.142 |    -1.212 | 0.227 | 0.227 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-103-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-105-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -616,11 +1124,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-59-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-115-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-61-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-63-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Controle |  44 |  -0.494 |    0.094 |    -0.638 |      0.099 |  -0.635 |    0.095 |
+| tri.vocab.ensinado.pos | Stari    |  39 |  -0.475 |    0.094 |    -0.576 |      0.102 |  -0.579 |    0.101 |
+
+| .y.                    | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle | Stari  |   -0.056 |   -0.333 |     0.220 | 0.139 |    -0.404 | 0.687 | 0.687 | ns           |
+| tri.vocab.ensinado.pre | Controle | Stari  |   -0.019 |   -0.285 |     0.247 | 0.134 |    -0.142 | 0.887 | 0.887 | ns           |
+
+| .y.                | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Controle | pre    | pos    |    0.109 |   -0.149 |     0.368 | 0.131 |     0.837 | 0.404 | 0.404 | ns           |
+| tri.vocab.ensinado | Stari    | pre    | pos    |    0.094 |   -0.182 |     0.371 | 0.140 |     0.674 | 0.501 | 0.501 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-137-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-139-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -642,11 +1184,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-153-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Controle |  44 |  -0.761 |    0.069 |    -0.563 |      0.080 |  -0.575 |    0.074 |
+| tri.vocab.nao.ensinado.pos | Stari    |  39 |  -0.810 |    0.076 |    -0.684 |      0.091 |  -0.669 |    0.078 |
+
+| .y.                        | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle | Stari  |    0.094 |   -0.120 |     0.308 | 0.108 |     0.873 | 0.385 | 0.385 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle | Stari  |    0.050 |   -0.153 |     0.253 | 0.102 |     0.486 | 0.628 | 0.628 | ns           |
+
+| .y.                    | grupo    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Controle | pre    | pos    |   -0.161 |   -0.373 |     0.051 | 0.107 |    -1.497 | 0.136 | 0.136 | ns           |
+| tri.vocab.nao.ensinado | Stari    | pre    | pos    |   -0.169 |   -0.396 |     0.058 | 0.115 |    -1.469 | 0.144 | 0.144 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
 
 ## factor: **genero**
 
@@ -670,11 +1246,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-83-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-85-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F      |  40 |  -0.745 |    0.093 |    -0.665 |      0.111 |  -0.679 |    0.091 |
+| tri.vocab.pos | M      |  43 |  -0.790 |    0.095 |    -0.681 |      0.097 |  -0.669 |    0.088 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | F      | M      |   -0.010 |   -0.262 |     0.243 | 0.127 |    -0.076 | 0.939 | 0.939 | ns           |
+| tri.vocab.pre | F      | M      |    0.045 |   -0.220 |     0.310 | 0.133 |     0.339 | 0.735 | 0.735 | ns           |
+
+| .y.       | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | F      | pre    | pos    |   -0.097 |   -0.373 |     0.178 | 0.140 |    -0.697 | 0.487 | 0.487 | ns           |
+| tri.vocab | M      | pre    | pos    |   -0.105 |   -0.372 |     0.161 | 0.135 |    -0.778 | 0.438 | 0.438 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-201-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -696,11 +1306,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F      |  40 |  -0.444 |    0.103 |    -0.682 |      0.109 |  -0.694 |    0.099 |
+| tri.vocab.ensinado.pos | M      |  43 |  -0.523 |    0.086 |    -0.541 |      0.092 |  -0.530 |    0.096 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | F      | M      |   -0.163 |   -0.438 |     0.111 | 0.138 |    -1.185 | 0.240 | 0.240 | ns           |
+| tri.vocab.ensinado.pre | F      | M      |    0.079 |   -0.187 |     0.345 | 0.133 |     0.591 | 0.556 | 0.556 | ns           |
+
+| .y.                | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | F      | pre    | pos    |    0.209 |   -0.062 |     0.480 | 0.137 |     1.521 | 0.130 | 0.130 | ns           |
+| tri.vocab.ensinado | M      | pre    | pos    |    0.002 |   -0.260 |     0.264 | 0.133 |     0.017 | 0.986 | 0.986 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-233-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -722,11 +1366,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-109-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-111-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-249-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F      |  40 |  -0.773 |    0.066 |    -0.558 |      0.084 |  -0.564 |    0.077 |
+| tri.vocab.nao.ensinado.pos | M      |  43 |  -0.794 |    0.077 |    -0.677 |      0.086 |  -0.672 |    0.074 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | F      | M      |    0.108 |   -0.106 |     0.321 | 0.107 |     1.006 | 0.317 | 0.317 | ns           |
+| tri.vocab.nao.ensinado.pre | F      | M      |    0.020 |   -0.183 |     0.224 | 0.102 |     0.200 | 0.842 | 0.842 | ns           |
+
+| .y.                    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | F      | pre    | pos    |   -0.226 |   -0.449 |    -0.004 | 0.113 |    -2.010 | 0.046 | 0.046 | \*           |
+| tri.vocab.nao.ensinado | M      | pre    | pos    |   -0.105 |   -0.320 |     0.110 | 0.109 |    -0.966 | 0.336 | 0.336 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-261-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-265-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
 
 ## factor: **idade**
 
@@ -764,11 +1442,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | 10y   |  15 |  -0.613 |    0.163 |    -0.449 |      0.199 |  -0.535 |    0.146 |
+| tri.vocab.pos | 11y   |  47 |  -0.766 |    0.093 |    -0.663 |      0.086 |  -0.665 |    0.082 |
+| tri.vocab.pos | 12y   |  14 |  -0.875 |    0.163 |    -0.670 |      0.216 |  -0.613 |    0.151 |
+| tri.vocab.pos | 13y   |   5 |  -0.986 |    0.048 |    -1.118 |      0.059 |  -1.000 |    0.252 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | 10y    | 11y    |    0.130 |   -0.204 |     0.463 | 0.167 |     0.775 | 0.441 | 1.000 | ns           |
+| tri.vocab.pos | 10y    | 12y    |    0.077 |   -0.342 |     0.497 | 0.211 |     0.367 | 0.715 | 1.000 | ns           |
+| tri.vocab.pos | 10y    | 13y    |    0.464 |   -0.119 |     1.047 | 0.293 |     1.585 | 0.117 | 0.702 | ns           |
+| tri.vocab.pos | 11y    | 12y    |   -0.052 |   -0.394 |     0.289 | 0.171 |    -0.306 | 0.761 | 1.000 | ns           |
+| tri.vocab.pos | 11y    | 13y    |    0.334 |   -0.194 |     0.863 | 0.265 |     1.260 | 0.211 | 1.000 | ns           |
+| tri.vocab.pos | 12y    | 13y    |    0.387 |   -0.197 |     0.970 | 0.293 |     1.320 | 0.191 | 1.000 | ns           |
+| tri.vocab.pre | 10y    | 11y    |    0.153 |   -0.210 |     0.516 | 0.182 |     0.839 | 0.404 | 1.000 | ns           |
+| tri.vocab.pre | 10y    | 12y    |    0.261 |   -0.193 |     0.716 | 0.228 |     1.144 | 0.256 | 1.000 | ns           |
+| tri.vocab.pre | 10y    | 13y    |    0.373 |   -0.259 |     1.005 | 0.317 |     1.176 | 0.243 | 1.000 | ns           |
+| tri.vocab.pre | 11y    | 12y    |    0.108 |   -0.264 |     0.481 | 0.187 |     0.579 | 0.564 | 1.000 | ns           |
+| tri.vocab.pre | 11y    | 13y    |    0.220 |   -0.355 |     0.795 | 0.289 |     0.762 | 0.448 | 1.000 | ns           |
+| tri.vocab.pre | 12y    | 13y    |    0.112 |   -0.525 |     0.749 | 0.320 |     0.349 | 0.728 | 1.000 | ns           |
+
+| .y.       | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | 10y   | pre    | pos    |   -0.167 |   -0.613 |     0.279 | 0.226 |    -0.739 | 0.461 | 0.461 | ns           |
+| tri.vocab | 11y   | pre    | pos    |   -0.130 |   -0.383 |     0.124 | 0.128 |    -1.011 | 0.314 | 0.314 | ns           |
+| tri.vocab | 12y   | pre    | pos    |   -0.170 |   -0.623 |     0.284 | 0.230 |    -0.740 | 0.461 | 0.461 | ns           |
+| tri.vocab | 13y   | pre    | pos    |    0.125 |   -0.627 |     0.877 | 0.381 |     0.329 | 0.743 | 0.743 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-293-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-295-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -804,11 +1530,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | 10y   |  15 |  -0.537 |    0.162 |    -0.442 |      0.192 |  -0.423 |    0.159 |
+| tri.vocab.ensinado.pos | 11y   |  47 |  -0.392 |    0.094 |    -0.701 |      0.087 |  -0.728 |    0.090 |
+| tri.vocab.ensinado.pos | 12y   |  14 |  -0.681 |    0.125 |    -0.345 |      0.190 |  -0.280 |    0.166 |
+| tri.vocab.ensinado.pos | 13y   |   5 |  -0.532 |    0.248 |    -0.789 |      0.253 |  -0.771 |    0.275 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | 10y    | 11y    |    0.305 |   -0.061 |     0.670 | 0.183 |     1.661 | 0.101 | 0.605 | ns           |
+| tri.vocab.ensinado.pos | 10y    | 12y    |   -0.143 |   -0.600 |     0.314 | 0.229 |    -0.625 | 0.534 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 10y    | 13y    |    0.348 |   -0.285 |     0.982 | 0.318 |     1.095 | 0.277 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 11y    | 12y    |   -0.448 |   -0.827 |    -0.069 | 0.190 |    -2.352 | 0.021 | 0.127 | ns           |
+| tri.vocab.ensinado.pos | 11y    | 13y    |    0.044 |   -0.534 |     0.621 | 0.290 |     0.150 | 0.881 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | 12y    | 13y    |    0.491 |   -0.148 |     1.131 | 0.321 |     1.530 | 0.130 | 0.781 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 11y    |   -0.145 |   -0.506 |     0.216 | 0.181 |    -0.800 | 0.426 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 12y    |    0.143 |   -0.309 |     0.595 | 0.227 |     0.632 | 0.529 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 10y    | 13y    |   -0.005 |   -0.633 |     0.623 | 0.315 |    -0.016 | 0.987 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 11y    | 12y    |    0.288 |   -0.082 |     0.659 | 0.186 |     1.551 | 0.125 | 0.751 | ns           |
+| tri.vocab.ensinado.pre | 11y    | 13y    |    0.140 |   -0.432 |     0.712 | 0.287 |     0.486 | 0.628 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | 12y    | 13y    |   -0.149 |   -0.782 |     0.485 | 0.318 |    -0.467 | 0.642 | 1.000 | ns           |
+
+| .y.                | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | 10y   | pre    | pos    |   -0.143 |   -0.586 |     0.301 | 0.225 |    -0.636 | 0.526 | 0.526 | ns           |
+| tri.vocab.ensinado | 11y   | pre    | pos    |    0.298 |    0.046 |     0.550 | 0.128 |     2.339 | 0.021 | 0.021 | \*           |
+| tri.vocab.ensinado | 12y   | pre    | pos    |   -0.351 |   -0.802 |     0.099 | 0.228 |    -1.540 | 0.126 | 0.126 | ns           |
+| tri.vocab.ensinado | 13y   | pre    | pos    |    0.335 |   -0.412 |     1.083 | 0.378 |     0.887 | 0.377 | 0.377 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -844,11 +1618,59 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-143-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-145-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-343-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-345-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | 10y   |  15 |  -0.655 |    0.124 |    -0.437 |      0.150 |  -0.505 |    0.126 |
+| tri.vocab.nao.ensinado.pos | 11y   |  47 |  -0.792 |    0.069 |    -0.618 |      0.073 |  -0.614 |    0.071 |
+| tri.vocab.nao.ensinado.pos | 12y   |  14 |  -0.822 |    0.135 |    -0.580 |      0.184 |  -0.560 |    0.129 |
+| tri.vocab.nao.ensinado.pos | 13y   |   5 |  -1.007 |    0.028 |    -1.068 |      0.090 |  -0.951 |    0.218 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | 10y    | 11y    |    0.109 |   -0.179 |     0.396 | 0.144 |     0.754 | 0.453 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | 10y    | 12y    |    0.055 |   -0.305 |     0.415 | 0.181 |     0.306 | 0.760 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | 10y    | 13y    |    0.446 |   -0.058 |     0.950 | 0.253 |     1.762 | 0.082 | 0.492 | ns           |
+| tri.vocab.nao.ensinado.pos | 11y    | 12y    |   -0.054 |   -0.347 |     0.240 | 0.147 |    -0.363 | 0.717 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | 11y    | 13y    |    0.337 |   -0.119 |     0.793 | 0.229 |     1.474 | 0.145 | 0.868 | ns           |
+| tri.vocab.nao.ensinado.pos | 12y    | 13y    |    0.391 |   -0.113 |     0.894 | 0.253 |     1.545 | 0.126 | 0.759 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 11y    |    0.138 |   -0.140 |     0.415 | 0.139 |     0.988 | 0.326 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 12y    |    0.167 |   -0.180 |     0.514 | 0.174 |     0.956 | 0.342 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 10y    | 13y    |    0.352 |   -0.131 |     0.835 | 0.242 |     1.452 | 0.151 | 0.904 | ns           |
+| tri.vocab.nao.ensinado.pre | 11y    | 12y    |    0.029 |   -0.255 |     0.314 | 0.143 |     0.205 | 0.838 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 11y    | 13y    |    0.214 |   -0.225 |     0.654 | 0.221 |     0.971 | 0.335 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | 12y    | 13y    |    0.185 |   -0.302 |     0.672 | 0.245 |     0.757 | 0.452 | 1.000 | ns           |
+
+| .y.                    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | 10y   | pre    | pos    |   -0.213 |   -0.574 |     0.148 | 0.183 |    -1.163 | 0.247 | 0.247 | ns           |
+| tri.vocab.nao.ensinado | 11y   | pre    | pos    |   -0.207 |   -0.412 |    -0.002 | 0.104 |    -1.993 | 0.048 | 0.048 | \*           |
+| tri.vocab.nao.ensinado | 12y   | pre    | pos    |   -0.197 |   -0.564 |     0.170 | 0.186 |    -1.060 | 0.291 | 0.291 | ns           |
+| tri.vocab.nao.ensinado | 13y   | pre    | pos    |    0.063 |   -0.545 |     0.671 | 0.308 |     0.205 | 0.838 | 0.838 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
 
 ## factor: **zona.participante**
 
@@ -872,11 +1694,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-375-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-377-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-379-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural             |  26 |  -0.772 |    0.118 |    -0.643 |      0.104 |  -0.613 |    0.114 |
+| tri.vocab.pos | Urbana            |  36 |  -0.684 |    0.103 |    -0.499 |      0.128 |  -0.521 |    0.097 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Urbana | Rural  |    0.092 |   -0.207 |     0.391 | 0.149 |     0.616 | 0.540 | 0.540 | ns           |
+| tri.vocab.pre | Urbana | Rural  |    0.088 |   -0.227 |     0.402 | 0.157 |     0.558 | 0.579 | 0.579 | ns           |
+
+| .y.       | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Urbana            | pre    | pos    |   -0.226 |   -0.519 |     0.067 | 0.148 |    -1.526 | 0.129 | 0.129 | ns           |
+| tri.vocab | Rural             | pre    | pos    |   -0.112 |   -0.465 |     0.242 | 0.179 |    -0.626 | 0.532 | 0.532 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-389-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-391-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -898,11 +1754,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-405-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural             |  26 |  -0.369 |    0.130 |    -0.647 |      0.116 |  -0.662 |    0.133 |
+| tri.vocab.ensinado.pos | Urbana            |  36 |  -0.459 |    0.105 |    -0.555 |      0.127 |  -0.544 |    0.113 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |    p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|-----:|------:|:-------------|
+| tri.vocab.ensinado.pos | Urbana | Rural  |    0.118 |   -0.231 |     0.468 | 0.175 |     0.678 | 0.50 |  0.50 | ns           |
+| tri.vocab.ensinado.pre | Urbana | Rural  |   -0.090 |   -0.422 |     0.243 | 0.166 |    -0.541 | 0.59 |  0.59 | ns           |
+
+| .y.                | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Urbana            | pre    | pos    |    0.011 |   -0.293 |     0.315 | 0.153 |     0.070 | 0.944 | 0.944 | ns           |
+| tri.vocab.ensinado | Rural             | pre    | pos    |    0.301 |   -0.065 |     0.667 | 0.185 |     1.625 | 0.107 | 0.107 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-425-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -924,11 +1814,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-439-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-441-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural             |  26 |  -0.818 |    0.088 |    -0.631 |      0.085 |  -0.590 |    0.100 |
+| tri.vocab.nao.ensinado.pos | Urbana            |  36 |  -0.699 |    0.076 |    -0.432 |      0.108 |  -0.462 |    0.085 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Urbana | Rural  |    0.128 |   -0.135 |     0.391 | 0.131 |     0.977 | 0.333 | 0.333 | ns           |
+| tri.vocab.nao.ensinado.pre | Urbana | Rural  |    0.119 |   -0.115 |     0.352 | 0.117 |     1.018 | 0.313 | 0.313 | ns           |
+
+| .y.                    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Urbana            | pre    | pos    |   -0.288 |   -0.523 |    -0.053 | 0.119 |    -2.422 | 0.017 | 0.017 | \*           |
+| tri.vocab.nao.ensinado | Rural             | pre    | pos    |   -0.170 |   -0.453 |     0.114 | 0.143 |    -1.183 | 0.239 | 0.239 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-451-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-453-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
 
 ## factor: **escola**
 
@@ -976,11 +1900,69 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-469-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-473-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-475-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | E1     |  11 |  -0.476 |    0.172 |     0.099 |      0.214 |  -0.027 |    0.160 |
+| tri.vocab.pos | E2     |  19 |  -0.953 |    0.145 |    -0.908 |      0.109 |  -0.826 |    0.121 |
+| tri.vocab.pos | E3     |  12 |  -0.719 |    0.164 |    -0.624 |      0.169 |  -0.644 |    0.150 |
+| tri.vocab.pos | E5     |  28 |  -0.721 |    0.110 |    -0.721 |      0.109 |  -0.740 |    0.098 |
+| tri.vocab.pos | E6     |   9 |  -0.918 |    0.238 |    -1.059 |      0.209 |  -0.992 |    0.174 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+| tri.vocab.pos | E1     | E2     |    0.798 |    0.394 |     1.203 | 0.203 |     3.935 | \<0.001 | 0.002 | \*\*         |
+| tri.vocab.pos | E1     | E3     |    0.616 |    0.181 |     1.052 | 0.219 |     2.820 | 0.006   | 0.062 | ns           |
+| tri.vocab.pos | E1     | E5     |    0.713 |    0.341 |     1.085 | 0.187 |     3.816 | \<0.001 | 0.003 | \*\*         |
+| tri.vocab.pos | E1     | E6     |    0.964 |    0.490 |     1.439 | 0.238 |     4.051 | \<0.001 | 0.001 | \*\*         |
+| tri.vocab.pos | E2     | E3     |   -0.182 |   -0.567 |     0.204 | 0.193 |    -0.940 | 0.35    | 1.000 | ns           |
+| tri.vocab.pos | E2     | E5     |   -0.085 |   -0.397 |     0.226 | 0.156 |    -0.546 | 0.587   | 1.000 | ns           |
+| tri.vocab.pos | E2     | E6     |    0.166 |   -0.254 |     0.586 | 0.211 |     0.788 | 0.433   | 1.000 | ns           |
+| tri.vocab.pos | E3     | E5     |    0.096 |   -0.262 |     0.454 | 0.180 |     0.537 | 0.593   | 1.000 | ns           |
+| tri.vocab.pos | E3     | E6     |    0.348 |   -0.111 |     0.807 | 0.230 |     1.510 | 0.135   | 1.000 | ns           |
+| tri.vocab.pos | E5     | E6     |    0.251 |   -0.148 |     0.651 | 0.200 |     1.255 | 0.214   | 1.000 | ns           |
+| tri.vocab.pre | E1     | E2     |    0.476 |    0.019 |     0.934 | 0.230 |     2.073 | 0.042   | 0.416 | ns           |
+| tri.vocab.pre | E1     | E3     |    0.242 |   -0.262 |     0.747 | 0.253 |     0.957 | 0.342   | 1.000 | ns           |
+| tri.vocab.pre | E1     | E5     |    0.245 |   -0.185 |     0.675 | 0.216 |     1.136 | 0.26    | 1.000 | ns           |
+| tri.vocab.pre | E1     | E6     |    0.442 |   -0.101 |     0.985 | 0.273 |     1.621 | 0.109   | 1.000 | ns           |
+| tri.vocab.pre | E2     | E3     |   -0.234 |   -0.680 |     0.211 | 0.224 |    -1.047 | 0.299   | 1.000 | ns           |
+| tri.vocab.pre | E2     | E5     |   -0.231 |   -0.591 |     0.128 | 0.180 |    -1.283 | 0.203   | 1.000 | ns           |
+| tri.vocab.pre | E2     | E6     |   -0.035 |   -0.524 |     0.454 | 0.245 |    -0.141 | 0.888   | 1.000 | ns           |
+| tri.vocab.pre | E3     | E5     |    0.003 |   -0.414 |     0.420 | 0.209 |     0.013 | 0.99    | 1.000 | ns           |
+| tri.vocab.pre | E3     | E6     |    0.199 |   -0.333 |     0.732 | 0.267 |     0.746 | 0.458   | 1.000 | ns           |
+| tri.vocab.pre | E5     | E6     |    0.197 |   -0.266 |     0.660 | 0.232 |     0.847 | 0.4     | 1.000 | ns           |
+
+| .y.       | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | E1     | pre    | pos    |   -0.720 |   -1.207 |    -0.234 | 0.246 |    -2.926 | 0.004 | 0.004 | \*\*         |
+| tri.vocab | E2     | pre    | pos    |   -0.045 |   -0.430 |     0.340 | 0.195 |    -0.230 | 0.818 | 0.818 | ns           |
+| tri.vocab | E3     | pre    | pos    |   -0.095 |   -0.580 |     0.389 | 0.245 |    -0.388 | 0.699 | 0.699 | ns           |
+| tri.vocab | E5     | pre    | pos    |    0.005 |   -0.302 |     0.311 | 0.155 |     0.030 | 0.976 | 0.976 | ns           |
+| tri.vocab | E6     | pre    | pos    |    0.153 |   -0.378 |     0.684 | 0.269 |     0.570 | 0.570 | 0.570 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-485-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-487-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-489-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1026,11 +2008,69 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-499-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-205-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-501-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-503-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | E1     |  11 |  -0.150 |    0.212 |    -0.205 |      0.279 |  -0.280 |    0.183 |
+| tri.vocab.ensinado.pos | E2     |  19 |  -0.699 |    0.103 |    -0.883 |      0.118 |  -0.827 |    0.139 |
+| tri.vocab.ensinado.pos | E3     |  12 |  -0.193 |    0.179 |    -0.562 |      0.192 |  -0.627 |    0.174 |
+| tri.vocab.ensinado.pos | E5     |  28 |  -0.510 |    0.123 |    -0.598 |      0.097 |  -0.587 |    0.112 |
+| tri.vocab.ensinado.pos | E6     |   9 |  -0.567 |    0.149 |    -0.668 |      0.164 |  -0.643 |    0.198 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | E1     | E2     |    0.547 |    0.080 |     1.013 | 0.234 |     2.334 | 0.022 | 0.223 | ns           |
+| tri.vocab.ensinado.pos | E1     | E3     |    0.346 |   -0.148 |     0.841 | 0.248 |     1.396 | 0.167 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E5     |    0.307 |   -0.123 |     0.737 | 0.216 |     1.423 | 0.159 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E1     | E6     |    0.363 |   -0.178 |     0.904 | 0.272 |     1.336 | 0.186 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E3     |   -0.200 |   -0.652 |     0.252 | 0.227 |    -0.881 | 0.381 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E5     |   -0.240 |   -0.594 |     0.115 | 0.178 |    -1.346 | 0.182 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E2     | E6     |   -0.184 |   -0.664 |     0.297 | 0.241 |    -0.762 | 0.448 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E3     | E5     |   -0.040 |   -0.455 |     0.376 | 0.208 |    -0.190 | 0.850 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E3     | E6     |    0.016 |   -0.513 |     0.546 | 0.266 |     0.062 | 0.951 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | E5     | E6     |    0.056 |   -0.398 |     0.510 | 0.228 |     0.246 | 0.807 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E2     |    0.549 |    0.103 |     0.995 | 0.224 |     2.454 | 0.016 | 0.165 | ns           |
+| tri.vocab.ensinado.pre | E1     | E3     |    0.043 |   -0.448 |     0.535 | 0.247 |     0.176 | 0.861 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E1     | E5     |    0.360 |   -0.059 |     0.779 | 0.210 |     1.713 | 0.091 | 0.909 | ns           |
+| tri.vocab.ensinado.pre | E1     | E6     |    0.417 |   -0.112 |     0.946 | 0.266 |     1.571 | 0.120 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E2     | E3     |   -0.506 |   -0.940 |    -0.072 | 0.218 |    -2.322 | 0.023 | 0.230 | ns           |
+| tri.vocab.ensinado.pre | E2     | E5     |   -0.189 |   -0.539 |     0.161 | 0.176 |    -1.078 | 0.285 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E2     | E6     |   -0.132 |   -0.609 |     0.344 | 0.239 |    -0.553 | 0.582 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E3     | E5     |    0.317 |   -0.090 |     0.723 | 0.204 |     1.553 | 0.125 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E3     | E6     |    0.374 |   -0.145 |     0.893 | 0.261 |     1.435 | 0.156 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | E5     | E6     |    0.057 |   -0.394 |     0.508 | 0.226 |     0.252 | 0.802 | 1.000 | ns           |
+
+| .y.                | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | E1     | pre    | pos    |   -0.070 |   -0.561 |     0.421 | 0.249 |    -0.280 | 0.780 | 0.780 | ns           |
+| tri.vocab.ensinado | E2     | pre    | pos    |    0.184 |   -0.205 |     0.573 | 0.197 |     0.936 | 0.351 | 0.351 | ns           |
+| tri.vocab.ensinado | E3     | pre    | pos    |    0.369 |   -0.121 |     0.858 | 0.248 |     1.488 | 0.139 | 0.139 | ns           |
+| tri.vocab.ensinado | E5     | pre    | pos    |    0.066 |   -0.244 |     0.375 | 0.157 |     0.419 | 0.676 | 0.676 | ns           |
+| tri.vocab.ensinado | E6     | pre    | pos    |    0.088 |   -0.448 |     0.624 | 0.271 |     0.325 | 0.745 | 0.745 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-517-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-519-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-521-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1076,11 +2116,69 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-533-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-535-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-537-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | E1     |  11 |  -0.580 |    0.146 |     0.077 |      0.192 |  -0.009 |    0.133 |
+| tri.vocab.nao.ensinado.pos | E2     |  19 |  -0.880 |    0.099 |    -0.783 |      0.075 |  -0.745 |    0.100 |
+| tri.vocab.nao.ensinado.pos | E3     |  12 |  -0.812 |    0.112 |    -0.630 |      0.134 |  -0.621 |    0.126 |
+| tri.vocab.nao.ensinado.pos | E5     |  28 |  -0.741 |    0.086 |    -0.675 |      0.098 |  -0.694 |    0.082 |
+| tri.vocab.nao.ensinado.pos | E6     |   9 |  -0.962 |    0.206 |    -0.959 |      0.122 |  -0.886 |    0.146 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.vocab.nao.ensinado.pos | E1     | E2     |    0.736 |    0.401 |     1.071 | 0.168 |     4.377 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.vocab.nao.ensinado.pos | E1     | E3     |    0.611 |    0.246 |     0.977 | 0.183 |     3.333 | 0.001   | 0.013   | \*           |
+| tri.vocab.nao.ensinado.pos | E1     | E5     |    0.685 |    0.374 |     0.995 | 0.156 |     4.394 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.vocab.nao.ensinado.pos | E1     | E6     |    0.877 |    0.478 |     1.275 | 0.200 |     4.385 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.vocab.nao.ensinado.pos | E2     | E3     |   -0.124 |   -0.444 |     0.196 | 0.161 |    -0.774 | 0.442   | 1       | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E5     |   -0.051 |   -0.310 |     0.209 | 0.130 |    -0.391 | 0.697   | 1       | ns           |
+| tri.vocab.nao.ensinado.pos | E2     | E6     |    0.141 |   -0.210 |     0.493 | 0.176 |     0.801 | 0.426   | 1       | ns           |
+| tri.vocab.nao.ensinado.pos | E3     | E5     |    0.073 |   -0.226 |     0.373 | 0.150 |     0.488 | 0.627   | 1       | ns           |
+| tri.vocab.nao.ensinado.pos | E3     | E6     |    0.266 |   -0.118 |     0.649 | 0.193 |     1.379 | 0.172   | 1       | ns           |
+| tri.vocab.nao.ensinado.pos | E5     | E6     |    0.192 |   -0.144 |     0.528 | 0.168 |     1.141 | 0.258   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E2     |    0.300 |   -0.051 |     0.652 | 0.176 |     1.702 | 0.093   | 0.93    | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E3     |    0.232 |   -0.155 |     0.619 | 0.194 |     1.194 | 0.236   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E5     |    0.162 |   -0.168 |     0.492 | 0.166 |     0.976 | 0.332   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E1     | E6     |    0.383 |   -0.034 |     0.800 | 0.209 |     1.830 | 0.071   | 0.713   | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E3     |   -0.068 |   -0.410 |     0.274 | 0.172 |    -0.397 | 0.693   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E5     |   -0.139 |   -0.414 |     0.137 | 0.138 |    -1.001 | 0.32    | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E2     | E6     |    0.083 |   -0.293 |     0.458 | 0.188 |     0.439 | 0.662   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E3     | E5     |   -0.070 |   -0.391 |     0.250 | 0.161 |    -0.438 | 0.662   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E3     | E6     |    0.151 |   -0.258 |     0.560 | 0.205 |     0.735 | 0.465   | 1       | ns           |
+| tri.vocab.nao.ensinado.pre | E5     | E6     |    0.221 |   -0.134 |     0.577 | 0.178 |     1.240 | 0.219   | 1       | ns           |
+
+| .y.                    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:-----------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| tri.vocab.nao.ensinado | E1     | pre    | pos    |   -0.751 |   -1.139 |    -0.363 | 0.197 |    -3.822 | \<0.001 | \<0.001 | \*\*\*       |
+| tri.vocab.nao.ensinado | E2     | pre    | pos    |   -0.097 |   -0.404 |     0.211 | 0.156 |    -0.622 | 0.535   | 0.535   | ns           |
+| tri.vocab.nao.ensinado | E3     | pre    | pos    |   -0.181 |   -0.568 |     0.206 | 0.196 |    -0.925 | 0.356   | 0.356   | ns           |
+| tri.vocab.nao.ensinado | E5     | pre    | pos    |   -0.055 |   -0.300 |     0.189 | 0.124 |    -0.447 | 0.655   | 0.655   | ns           |
+| tri.vocab.nao.ensinado | E6     | pre    | pos    |    0.007 |   -0.417 |     0.431 | 0.215 |     0.034 | 0.973   | 0.973   | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-547-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-549-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-551-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-553-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
 
 ## factor: **zona.escola**
 
@@ -1104,11 +2202,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-565-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-567-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-569-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-571-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural       |  25 |  -0.809 |    0.119 |    -0.782 |      0.130 |  -0.759 |    0.115 |
+| tri.vocab.pos | Urbana      |  58 |  -0.751 |    0.080 |    -0.627 |      0.088 |  -0.637 |    0.076 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Urbana | Rural  |    0.122 |   -0.152 |     0.396 | 0.138 |     0.887 | 0.378 | 0.378 | ns           |
+| tri.vocab.pre | Urbana | Rural  |    0.059 |   -0.230 |     0.347 | 0.145 |     0.404 | 0.687 | 0.687 | ns           |
+
+| .y.       | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Urbana      | pre    | pos    |   -0.139 |   -0.367 |     0.089 | 0.115 |    -1.208 | 0.229 | 0.229 | ns           |
+| tri.vocab | Rural       | pre    | pos    |   -0.016 |   -0.366 |     0.333 | 0.177 |    -0.093 | 0.926 | 0.926 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-579-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-581-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-583-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-585-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-587-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1130,11 +2262,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-595-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-597-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-599-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-601-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-603-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural       |  25 |  -0.443 |    0.115 |    -0.590 |      0.132 |  -0.602 |    0.127 |
+| tri.vocab.ensinado.pos | Urbana      |  58 |  -0.504 |    0.082 |    -0.617 |      0.085 |  -0.612 |    0.083 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Urbana | Rural  |   -0.010 |   -0.311 |     0.291 | 0.151 |    -0.067 | 0.947 | 0.947 | ns           |
+| tri.vocab.ensinado.pre | Urbana | Rural  |   -0.061 |   -0.351 |     0.229 | 0.146 |    -0.419 | 0.676 | 0.676 | ns           |
+
+| .y.                | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Urbana      | pre    | pos    |    0.087 |   -0.139 |     0.312 | 0.114 |     0.760 | 0.448 | 0.448 | ns           |
+| tri.vocab.ensinado | Rural       | pre    | pos    |    0.141 |   -0.204 |     0.486 | 0.175 |     0.807 | 0.421 | 0.421 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-613-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-615-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-617-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-619-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1156,11 +2322,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-627-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-629-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-631-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-633-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural       |  25 |  -0.849 |    0.095 |    -0.740 |      0.093 |  -0.705 |    0.098 |
+| tri.vocab.nao.ensinado.pos | Urbana      |  58 |  -0.756 |    0.060 |    -0.568 |      0.076 |  -0.583 |    0.064 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Urbana | Rural  |    0.122 |   -0.111 |     0.355 | 0.117 |     1.041 | 0.301 | 0.301 | ns           |
+| tri.vocab.nao.ensinado.pre | Urbana | Rural  |    0.093 |   -0.127 |     0.314 | 0.111 |     0.844 | 0.401 | 0.401 | ns           |
+
+| .y.                    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Urbana      | pre    | pos    |   -0.193 |   -0.377 |     -0.01 | 0.093 |    -2.082 | 0.039 | 0.039 | \*           |
+| tri.vocab.nao.ensinado | Rural       | pre    | pos    |   -0.101 |   -0.382 |      0.18 | 0.142 |    -0.707 | 0.481 | 0.481 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-643-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-645-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-647-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-649-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-651-1.png)<!-- -->
 
 # Pairwise comparisons for two factors
 
@@ -1196,16 +2396,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-264-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-660-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-266-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-662-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-268-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-664-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-666-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-668-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F      | Controle |  23 |  -0.627 |    0.117 |    -0.555 |      0.147 |  -0.633 |    0.122 |
+| tri.vocab.pos | F      | Stari    |  17 |  -0.905 |    0.146 |    -0.815 |      0.167 |  -0.739 |    0.142 |
+| tri.vocab.pos | M      | Controle |  21 |  -0.779 |    0.124 |    -0.742 |      0.131 |  -0.736 |    0.127 |
+| tri.vocab.pos | M      | Stari    |  22 |  -0.801 |    0.146 |    -0.623 |      0.144 |  -0.605 |    0.124 |
+
+| .y.           | grupo    | genero | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |        | F        | M      |    0.102 |   -0.249 |     0.454 | 0.176 |     0.581 | 0.563 | 0.563 | ns           |
+| tri.vocab.pos | Stari    |        | F        | M      |   -0.134 |   -0.509 |     0.241 | 0.188 |    -0.711 | 0.479 | 0.479 | ns           |
+| tri.vocab.pre | Controle |        | F        | M      |    0.152 |   -0.212 |     0.517 | 0.183 |     0.833 | 0.407 | 0.407 | ns           |
+| tri.vocab.pre | Stari    |        | F        | M      |   -0.104 |   -0.494 |     0.285 | 0.196 |    -0.532 | 0.596 | 0.596 | ns           |
+| tri.vocab.pos |          | F      | Controle | Stari  |    0.106 |   -0.270 |     0.481 | 0.189 |     0.561 | 0.576 | 0.576 | ns           |
+| tri.vocab.pos |          | M      | Controle | Stari  |   -0.131 |   -0.484 |     0.223 | 0.178 |    -0.735 | 0.465 | 0.465 | ns           |
+| tri.vocab.pre |          | F      | Controle | Stari  |    0.278 |   -0.108 |     0.664 | 0.194 |     1.434 | 0.156 | 0.156 | ns           |
+| tri.vocab.pre |          | M      | Controle | Stari  |    0.021 |   -0.347 |     0.390 | 0.185 |     0.116 | 0.908 | 0.908 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |   -0.051 |   -0.417 |     0.314 | 0.185 |    -0.277 | 0.782 | 0.782 | ns           |
+| Controle | M      | pre    | pos    |   -0.025 |   -0.403 |     0.353 | 0.191 |    -0.132 | 0.896 | 0.896 | ns           |
+| Stari    | F      | pre    | pos    |   -0.159 |   -0.581 |     0.264 | 0.214 |    -0.742 | 0.459 | 0.459 | ns           |
+| Stari    | M      | pre    | pos    |   -0.185 |   -0.563 |     0.193 | 0.191 |    -0.966 | 0.335 | 0.335 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-677-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-679-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-681-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-683-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1237,16 +2486,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-276-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-693-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-694-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-696-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-698-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-700-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F      | Controle |  23 |  -0.465 |    0.135 |    -0.686 |      0.157 |  -0.691 |    0.132 |
+| tri.vocab.ensinado.pos | F      | Stari    |  17 |  -0.417 |    0.163 |    -0.677 |      0.152 |  -0.697 |    0.154 |
+| tri.vocab.ensinado.pos | M      | Controle |  21 |  -0.526 |    0.134 |    -0.585 |      0.120 |  -0.574 |    0.138 |
+| tri.vocab.ensinado.pos | M      | Stari    |  22 |  -0.520 |    0.112 |    -0.498 |      0.139 |  -0.489 |    0.135 |
+
+| .y.                    | grupo    | genero | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |        | F        | M      |   -0.118 |   -0.499 |     0.263 | 0.191 |    -0.615 | 0.540 | 0.540 | ns           |
+| tri.vocab.ensinado.pos | Stari    |        | F        | M      |   -0.208 |   -0.616 |     0.200 | 0.205 |    -1.014 | 0.314 | 0.314 | ns           |
+| tri.vocab.ensinado.pre | Controle |        | F        | M      |    0.062 |   -0.308 |     0.431 | 0.186 |     0.334 | 0.740 | 0.740 | ns           |
+| tri.vocab.ensinado.pre | Stari    |        | F        | M      |    0.103 |   -0.292 |     0.499 | 0.199 |     0.519 | 0.605 | 0.605 | ns           |
+| tri.vocab.ensinado.pos |          | F      | Controle | Stari  |    0.005 |   -0.399 |     0.409 | 0.203 |     0.025 | 0.980 | 0.980 | ns           |
+| tri.vocab.ensinado.pos |          | M      | Controle | Stari  |   -0.085 |   -0.470 |     0.300 | 0.193 |    -0.439 | 0.662 | 0.662 | ns           |
+| tri.vocab.ensinado.pre |          | F      | Controle | Stari  |   -0.048 |   -0.439 |     0.344 | 0.197 |    -0.242 | 0.809 | 0.809 | ns           |
+| tri.vocab.ensinado.pre |          | M      | Controle | Stari  |   -0.006 |   -0.380 |     0.367 | 0.188 |    -0.034 | 0.973 | 0.973 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |    0.210 |   -0.152 |     0.573 | 0.183 |     1.146 | 0.253 | 0.253 | ns           |
+| Controle | M      | pre    | pos    |    0.001 |   -0.374 |     0.375 | 0.190 |     0.003 | 0.998 | 0.998 | ns           |
+| Stari    | F      | pre    | pos    |    0.207 |   -0.212 |     0.625 | 0.212 |     0.976 | 0.330 | 0.330 | ns           |
+| Stari    | M      | pre    | pos    |    0.004 |   -0.370 |     0.378 | 0.190 |     0.021 | 0.983 | 0.983 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-711-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-713-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-717-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-719-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1278,16 +2576,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-289-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-727-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-290-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-728-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-292-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-730-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-294-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-732-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-734-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | genero | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F      | Controle |  23 |  -0.685 |    0.085 |    -0.434 |      0.113 |  -0.486 |    0.103 |
+| tri.vocab.nao.ensinado.pos | F      | Stari    |  17 |  -0.893 |    0.099 |    -0.725 |      0.117 |  -0.668 |    0.120 |
+| tri.vocab.nao.ensinado.pos | M      | Controle |  21 |  -0.843 |    0.109 |    -0.704 |      0.109 |  -0.672 |    0.107 |
+| tri.vocab.nao.ensinado.pos | M      | Stari    |  22 |  -0.747 |    0.111 |    -0.652 |      0.135 |  -0.672 |    0.105 |
+
+| .y.                        | grupo    | genero | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |        | F        | M      |    0.186 |   -0.111 |     0.483 | 0.149 |     1.245 | 0.217 | 0.217 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |        | F        | M      |    0.004 |   -0.313 |     0.321 | 0.159 |     0.024 | 0.981 | 0.981 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |        | F        | M      |    0.158 |   -0.120 |     0.436 | 0.140 |     1.129 | 0.262 | 0.262 | ns           |
+| tri.vocab.nao.ensinado.pre | Stari    |        | F        | M      |   -0.146 |   -0.444 |     0.152 | 0.150 |    -0.975 | 0.333 | 0.333 | ns           |
+| tri.vocab.nao.ensinado.pos |          | F      | Controle | Stari  |    0.181 |   -0.135 |     0.497 | 0.159 |     1.142 | 0.257 | 0.257 | ns           |
+| tri.vocab.nao.ensinado.pos |          | M      | Controle | Stari  |    0.000 |   -0.299 |     0.298 | 0.150 |    -0.003 | 0.997 | 0.997 | ns           |
+| tri.vocab.nao.ensinado.pre |          | F      | Controle | Stari  |    0.207 |   -0.088 |     0.502 | 0.148 |     1.399 | 0.166 | 0.166 | ns           |
+| tri.vocab.nao.ensinado.pre |          | M      | Controle | Stari  |   -0.097 |   -0.378 |     0.185 | 0.141 |    -0.683 | 0.497 | 0.497 | ns           |
+
+| grupo    | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | F      | pre    | pos    |   -0.219 |   -0.514 |     0.075 | 0.149 |    -1.471 | 0.143 | 0.143 | ns           |
+| Controle | M      | pre    | pos    |   -0.093 |   -0.398 |     0.211 | 0.154 |    -0.606 | 0.545 | 0.545 | ns           |
+| Stari    | F      | pre    | pos    |   -0.236 |   -0.576 |     0.104 | 0.172 |    -1.369 | 0.173 | 0.173 | ns           |
+| Stari    | M      | pre    | pos    |   -0.117 |   -0.421 |     0.187 | 0.154 |    -0.758 | 0.449 | 0.449 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-744-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-745-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-747-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-751-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-753-1.png)<!-- -->
 
 ## factores: **idade:grupo**
 
@@ -1335,16 +2682,79 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-302-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-761-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-303-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-762-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-305-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-764-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-766-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-768-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-770-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | 10y   | Controle |   8 |  -0.171 |    0.085 |    -0.127 |      0.276 |  -0.456 |    0.214 |
+| tri.vocab.pos | 10y   | Stari    |   7 |  -1.119 |    0.209 |    -0.818 |      0.231 |  -0.614 |    0.222 |
+| tri.vocab.pos | 11y   | Controle |  26 |  -0.725 |    0.114 |    -0.704 |      0.117 |  -0.722 |    0.113 |
+| tri.vocab.pos | 11y   | Stari    |  21 |  -0.817 |    0.155 |    -0.612 |      0.128 |  -0.577 |    0.126 |
+| tri.vocab.pos | 12y   | Controle |   5 |  -1.216 |    0.217 |    -0.567 |      0.202 |  -0.307 |    0.263 |
+| tri.vocab.pos | 12y   | Stari    |   9 |  -0.685 |    0.203 |    -0.727 |      0.325 |  -0.767 |    0.192 |
+
+| .y.           | grupo    | idade | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |       | 10y      | 11y    |    0.265 |   -0.216 |     0.747 | 0.241 |     1.100 | 0.275 | 0.826 | ns           |
+| tri.vocab.pos | Controle |       | 10y      | 12y    |   -0.149 |   -0.847 |     0.549 | 0.350 |    -0.426 | 0.671 | 1.000 | ns           |
+| tri.vocab.pos | Controle |       | 11y      | 12y    |   -0.414 |   -0.987 |     0.158 | 0.287 |    -1.445 | 0.153 | 0.459 | ns           |
+| tri.vocab.pos | Stari    |       | 10y      | 11y    |   -0.036 |   -0.542 |     0.469 | 0.254 |    -0.144 | 0.886 | 1.000 | ns           |
+| tri.vocab.pos | Stari    |       | 10y      | 12y    |    0.154 |   -0.434 |     0.741 | 0.294 |     0.522 | 0.603 | 1.000 | ns           |
+| tri.vocab.pos | Stari    |       | 11y      | 12y    |    0.190 |   -0.268 |     0.649 | 0.230 |     0.828 | 0.411 | 1.000 | ns           |
+| tri.vocab.pre | Controle |       | 10y      | 11y    |    0.554 |    0.075 |     1.032 | 0.240 |     2.307 | 0.024 | 0.072 | ns           |
+| tri.vocab.pre | Controle |       | 10y      | 12y    |    1.045 |    0.370 |     1.719 | 0.338 |     3.088 | 0.003 | 0.009 | \*\*         |
+| tri.vocab.pre | Controle |       | 11y      | 12y    |    0.491 |   -0.087 |     1.069 | 0.290 |     1.695 | 0.095 | 0.284 | ns           |
+| tri.vocab.pre | Stari    |       | 10y      | 11y    |   -0.301 |   -0.818 |     0.215 | 0.259 |    -1.163 | 0.249 | 0.746 | ns           |
+| tri.vocab.pre | Stari    |       | 10y      | 12y    |   -0.434 |   -1.030 |     0.163 | 0.299 |    -1.451 | 0.151 | 0.454 | ns           |
+| tri.vocab.pre | Stari    |       | 11y      | 12y    |   -0.132 |   -0.604 |     0.339 | 0.236 |    -0.560 | 0.577 | 1.000 | ns           |
+| tri.vocab.pos |          | 10y   | Controle | Stari  |    0.157 |   -0.476 |     0.791 | 0.318 |     0.495 | 0.622 | 0.622 | ns           |
+| tri.vocab.pos |          | 11y   | Controle | Stari  |   -0.145 |   -0.482 |     0.193 | 0.169 |    -0.855 | 0.395 | 0.395 | ns           |
+| tri.vocab.pos |          | 12y   | Controle | Stari  |    0.460 |   -0.192 |     1.112 | 0.327 |     1.407 | 0.164 | 0.164 | ns           |
+| tri.vocab.pre |          | 10y   | Controle | Stari  |    0.947 |    0.335 |     1.560 | 0.307 |     3.084 | 0.003 | 0.003 | \*\*         |
+| tri.vocab.pre |          | 11y   | Controle | Stari  |    0.092 |   -0.255 |     0.440 | 0.174 |     0.530 | 0.598 | 0.598 | ns           |
+| tri.vocab.pre |          | 12y   | Controle | Stari  |   -0.531 |   -1.191 |     0.129 | 0.331 |    -1.605 | 0.113 | 0.113 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |   -0.099 |   -0.701 |     0.503 | 0.305 |    -0.325 | 0.746 | 0.746 | ns           |
+| Controle | 11y   | pre    | pos    |   -0.021 |   -0.364 |     0.323 | 0.174 |    -0.119 | 0.906 | 0.906 | ns           |
+| Controle | 12y   | pre    | pos    |   -0.538 |   -1.288 |     0.212 | 0.380 |    -1.417 | 0.159 | 0.159 | ns           |
+| Stari    | 10y   | pre    | pos    |   -0.301 |   -0.963 |     0.362 | 0.335 |    -0.897 | 0.371 | 0.371 | ns           |
+| Stari    | 11y   | pre    | pos    |   -0.259 |   -0.632 |     0.115 | 0.189 |    -1.369 | 0.173 | 0.173 | ns           |
+| Stari    | 12y   | pre    | pos    |    0.019 |   -0.550 |     0.588 | 0.288 |     0.066 | 0.947 | 0.947 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-778-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-779-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-781-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-783-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-785-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-787-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1390,16 +2800,79 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-795-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-316-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-796-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-318-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-798-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-320-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-800-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | 10y   | Controle |   8 |  -0.267 |    0.261 |    -0.342 |      0.338 |  -0.408 |    0.223 |
+| tri.vocab.ensinado.pos | 10y   | Stari    |   7 |  -0.846 |    0.105 |    -0.557 |      0.166 |  -0.437 |    0.241 |
+| tri.vocab.ensinado.pos | 11y   | Controle |  26 |  -0.494 |    0.123 |    -0.788 |      0.106 |  -0.781 |    0.123 |
+| tri.vocab.ensinado.pos | 11y   | Stari    |  21 |  -0.267 |    0.144 |    -0.593 |      0.141 |  -0.660 |    0.139 |
+| tri.vocab.ensinado.pos | 12y   | Controle |   5 |  -0.689 |    0.226 |    -0.228 |      0.286 |  -0.159 |    0.281 |
+| tri.vocab.ensinado.pos | 12y   | Stari    |   9 |  -0.676 |    0.159 |    -0.410 |      0.258 |  -0.345 |    0.210 |
+
+| .y.                    | grupo    | idade | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |       | 10y      | 11y    |    0.373 |   -0.135 |     0.881 | 0.255 |     1.464 | 0.148 | 0.443 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 10y      | 12y    |   -0.250 |   -0.970 |     0.470 | 0.361 |    -0.692 | 0.491 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Controle |       | 11y      | 12y    |   -0.623 |   -1.235 |    -0.011 | 0.307 |    -2.029 | 0.046 | 0.139 | ns           |
+| tri.vocab.ensinado.pos | Stari    |       | 10y      | 11y    |    0.222 |   -0.342 |     0.786 | 0.283 |     0.786 | 0.435 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Stari    |       | 10y      | 12y    |   -0.093 |   -0.724 |     0.538 | 0.316 |    -0.294 | 0.770 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Stari    |       | 11y      | 12y    |   -0.315 |   -0.823 |     0.193 | 0.255 |    -1.237 | 0.220 | 0.661 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 10y      | 11y    |    0.227 |   -0.262 |     0.715 | 0.245 |     0.926 | 0.358 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 10y      | 12y    |    0.421 |   -0.267 |     1.110 | 0.345 |     1.221 | 0.226 | 0.678 | ns           |
+| tri.vocab.ensinado.pre | Controle |       | 11y      | 12y    |    0.195 |   -0.395 |     0.784 | 0.296 |     0.659 | 0.512 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Stari    |       | 10y      | 11y    |   -0.579 |   -1.106 |    -0.052 | 0.264 |    -2.193 | 0.032 | 0.095 | ns           |
+| tri.vocab.ensinado.pre | Stari    |       | 10y      | 12y    |   -0.170 |   -0.778 |     0.439 | 0.305 |    -0.556 | 0.580 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Stari    |       | 11y      | 12y    |    0.409 |   -0.071 |     0.890 | 0.241 |     1.698 | 0.094 | 0.282 | ns           |
+| tri.vocab.ensinado.pos |          | 10y   | Controle | Stari  |    0.029 |   -0.633 |     0.692 | 0.332 |     0.088 | 0.930 | 0.930 | ns           |
+| tri.vocab.ensinado.pos |          | 11y   | Controle | Stari  |   -0.122 |   -0.493 |     0.249 | 0.186 |    -0.655 | 0.515 | 0.515 | ns           |
+| tri.vocab.ensinado.pos |          | 12y   | Controle | Stari  |    0.186 |   -0.511 |     0.883 | 0.349 |     0.532 | 0.596 | 0.596 | ns           |
+| tri.vocab.ensinado.pre |          | 10y   | Controle | Stari  |    0.579 |   -0.046 |     1.204 | 0.313 |     1.848 | 0.069 | 0.069 | ns           |
+| tri.vocab.ensinado.pre |          | 11y   | Controle | Stari  |   -0.227 |   -0.581 |     0.127 | 0.178 |    -1.278 | 0.206 | 0.206 | ns           |
+| tri.vocab.ensinado.pre |          | 12y   | Controle | Stari  |   -0.012 |   -0.686 |     0.661 | 0.338 |    -0.037 | 0.971 | 0.971 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |   -0.040 |   -0.644 |     0.563 | 0.305 |    -0.132 | 0.895 | 0.895 | ns           |
+| Controle | 11y   | pre    | pos    |    0.294 |   -0.050 |     0.638 | 0.174 |     1.687 | 0.094 | 0.094 | ns           |
+| Controle | 12y   | pre    | pos    |   -0.514 |   -1.266 |     0.237 | 0.380 |    -1.353 | 0.178 | 0.178 | ns           |
+| Stari    | 10y   | pre    | pos    |   -0.289 |   -0.952 |     0.375 | 0.336 |    -0.861 | 0.391 | 0.391 | ns           |
+| Stari    | 11y   | pre    | pos    |    0.304 |   -0.071 |     0.678 | 0.189 |     1.603 | 0.111 | 0.111 | ns           |
+| Stari    | 12y   | pre    | pos    |   -0.246 |   -0.817 |     0.324 | 0.289 |    -0.853 | 0.395 | 0.395 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-812-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-813-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-821-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1445,16 +2918,79 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-328-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-829-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-830-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-832-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-333-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-834-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-836-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-838-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | idade | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | 10y   | Controle |   8 |  -0.354 |    0.077 |    -0.101 |      0.191 |  -0.298 |    0.183 |
+| tri.vocab.nao.ensinado.pos | 10y   | Stari    |   7 |  -0.999 |    0.180 |    -0.821 |      0.135 |  -0.712 |    0.190 |
+| tri.vocab.nao.ensinado.pos | 11y   | Controle |  26 |  -0.799 |    0.096 |    -0.593 |      0.100 |  -0.579 |    0.097 |
+| tri.vocab.nao.ensinado.pos | 11y   | Stari    |  21 |  -0.784 |    0.102 |    -0.649 |      0.108 |  -0.642 |    0.108 |
+| tri.vocab.nao.ensinado.pos | 12y   | Controle |   5 |  -1.069 |    0.163 |    -0.634 |      0.148 |  -0.492 |    0.225 |
+| tri.vocab.nao.ensinado.pos | 12y   | Stari    |   9 |  -0.684 |    0.179 |    -0.550 |      0.281 |  -0.591 |    0.166 |
+
+| .y.                        | grupo    | idade | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |       | 10y      | 11y    |    0.281 |   -0.135 |     0.697 | 0.208 |     1.349 | 0.182 | 0.545 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 10y      | 12y    |    0.194 |   -0.399 |     0.787 | 0.297 |     0.653 | 0.516 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Controle |       | 11y      | 12y    |   -0.087 |   -0.575 |     0.401 | 0.244 |    -0.356 | 0.723 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |       | 10y      | 11y    |   -0.070 |   -0.505 |     0.365 | 0.218 |    -0.321 | 0.749 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |       | 10y      | 12y    |   -0.122 |   -0.627 |     0.383 | 0.253 |    -0.482 | 0.632 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |       | 11y      | 12y    |   -0.052 |   -0.447 |     0.343 | 0.198 |    -0.262 | 0.794 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 10y      | 11y    |    0.445 |    0.073 |     0.817 | 0.187 |     2.384 | 0.020 | 0.060 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 10y      | 12y    |    0.715 |    0.190 |     1.240 | 0.263 |     2.717 | 0.008 | 0.025 | \*           |
+| tri.vocab.nao.ensinado.pre | Controle |       | 11y      | 12y    |    0.270 |   -0.179 |     0.720 | 0.225 |     1.199 | 0.235 | 0.704 | ns           |
+| tri.vocab.nao.ensinado.pre | Stari    |       | 10y      | 11y    |   -0.214 |   -0.616 |     0.187 | 0.201 |    -1.064 | 0.291 | 0.873 | ns           |
+| tri.vocab.nao.ensinado.pre | Stari    |       | 10y      | 12y    |   -0.315 |   -0.779 |     0.149 | 0.233 |    -1.352 | 0.181 | 0.542 | ns           |
+| tri.vocab.nao.ensinado.pre | Stari    |       | 11y      | 12y    |   -0.100 |   -0.467 |     0.267 | 0.184 |    -0.545 | 0.588 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 10y   | Controle | Stari  |    0.414 |   -0.124 |     0.952 | 0.270 |     1.537 | 0.129 | 0.129 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 11y   | Controle | Stari  |    0.063 |   -0.227 |     0.353 | 0.145 |     0.433 | 0.666 | 0.666 | ns           |
+| tri.vocab.nao.ensinado.pos |          | 12y   | Controle | Stari  |    0.098 |   -0.462 |     0.658 | 0.281 |     0.350 | 0.727 | 0.727 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 10y   | Controle | Stari  |    0.645 |    0.169 |     1.122 | 0.239 |     2.700 | 0.009 | 0.009 | \*\*         |
+| tri.vocab.nao.ensinado.pre |          | 11y   | Controle | Stari  |   -0.014 |   -0.284 |     0.256 | 0.135 |    -0.105 | 0.916 | 0.916 | ns           |
+| tri.vocab.nao.ensinado.pre |          | 12y   | Controle | Stari  |   -0.385 |   -0.898 |     0.129 | 0.257 |    -1.494 | 0.140 | 0.140 | ns           |
+
+| grupo    | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | 10y   | pre    | pos    |   -0.277 |   -0.763 |     0.210 | 0.246 |    -1.124 | 0.263 | 0.263 | ns           |
+| Controle | 11y   | pre    | pos    |   -0.206 |   -0.484 |     0.071 | 0.140 |    -1.468 | 0.144 | 0.144 | ns           |
+| Controle | 12y   | pre    | pos    |   -0.315 |   -0.920 |     0.291 | 0.307 |    -1.026 | 0.307 | 0.307 | ns           |
+| Stari    | 10y   | pre    | pos    |   -0.178 |   -0.713 |     0.357 | 0.271 |    -0.658 | 0.511 | 0.511 | ns           |
+| Stari    | 11y   | pre    | pos    |   -0.208 |   -0.510 |     0.094 | 0.153 |    -1.362 | 0.175 | 0.175 | ns           |
+| Stari    | 12y   | pre    | pos    |   -0.159 |   -0.618 |     0.301 | 0.233 |    -0.682 | 0.497 | 0.497 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-846-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-847-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-849-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-851-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-853-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-855-1.png)<!-- -->
 
 ## factores: **zona.participante:grupo**
 
@@ -1488,16 +3024,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-863-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-342-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-864-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-344-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-866-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-346-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-868-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-870-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-872-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural             | Controle |  11 |  -0.881 |    0.126 |    -0.640 |      0.127 |  -0.534 |    0.175 |
+| tri.vocab.pos | Rural             | Stari    |  15 |  -0.691 |    0.184 |    -0.646 |      0.159 |  -0.665 |    0.149 |
+| tri.vocab.pos | Urbana            | Controle |  22 |  -0.495 |    0.131 |    -0.490 |      0.164 |  -0.639 |    0.126 |
+| tri.vocab.pos | Urbana            | Stari    |  14 |  -0.980 |    0.135 |    -0.513 |      0.213 |  -0.341 |    0.158 |
+
+| .y.           | grupo    | zona.participante | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |                   | Urbana   | Rural  |   -0.105 |   -0.543 |     0.333 | 0.219 |    -0.479 | 0.634 | 0.634 | ns           |
+| tri.vocab.pos | Stari    |                   | Urbana   | Rural  |    0.324 |   -0.112 |     0.759 | 0.218 |     1.488 | 0.142 | 0.142 | ns           |
+| tri.vocab.pre | Controle |                   | Urbana   | Rural  |    0.386 |   -0.050 |     0.822 | 0.218 |     1.772 | 0.082 | 0.082 | ns           |
+| tri.vocab.pre | Stari    |                   | Urbana   | Rural  |   -0.289 |   -0.728 |     0.150 | 0.219 |    -1.319 | 0.192 | 0.192 | ns           |
+| tri.vocab.pos |          | Urbana            | Controle | Stari  |   -0.298 |   -0.712 |     0.116 | 0.207 |    -1.440 | 0.155 | 0.155 | ns           |
+| tri.vocab.pos |          | Rural             | Controle | Stari  |    0.131 |   -0.330 |     0.592 | 0.230 |     0.568 | 0.572 | 0.572 | ns           |
+| tri.vocab.pre |          | Urbana            | Controle | Stari  |    0.485 |    0.082 |     0.889 | 0.202 |     2.406 | 0.019 | 0.019 | \*           |
+| tri.vocab.pre |          | Rural             | Controle | Stari  |   -0.190 |   -0.658 |     0.279 | 0.234 |    -0.810 | 0.421 | 0.421 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |   -0.039 |   -0.414 |     0.336 | 0.189 |    -0.205 | 0.838 | 0.838 | ns           |
+| Controle | Rural             | pre    | pos    |   -0.204 |   -0.741 |     0.332 | 0.271 |    -0.754 | 0.453 | 0.453 | ns           |
+| Stari    | Urbana            | pre    | pos    |   -0.524 |   -0.993 |    -0.055 | 0.237 |    -2.212 | 0.029 | 0.029 | \*           |
+| Stari    | Rural             | pre    | pos    |   -0.045 |   -0.515 |     0.424 | 0.237 |    -0.192 | 0.848 | 0.848 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-880-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-881-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-883-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-885-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-887-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-889-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1529,16 +3114,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-354-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-898-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-900-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-902-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-904-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-906-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural             | Controle |  11 |  -0.434 |    0.188 |    -0.626 |      0.173 |  -0.622 |    0.206 |
+| tri.vocab.ensinado.pos | Rural             | Stari    |  15 |  -0.321 |    0.183 |    -0.662 |      0.162 |  -0.693 |    0.177 |
+| tri.vocab.ensinado.pos | Urbana            | Controle |  22 |  -0.397 |    0.151 |    -0.616 |      0.168 |  -0.623 |    0.146 |
+| tri.vocab.ensinado.pos | Urbana            | Stari    |  14 |  -0.556 |    0.134 |    -0.459 |      0.198 |  -0.418 |    0.184 |
+
+| .y.                    | grupo    | zona.participante | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |                   | Urbana   | Rural  |   -0.001 |   -0.507 |     0.504 | 0.252 |    -0.005 | 0.996 | 0.996 | ns           |
+| tri.vocab.ensinado.pos | Stari    |                   | Urbana   | Rural  |    0.275 |   -0.237 |     0.787 | 0.256 |     1.075 | 0.287 | 0.287 | ns           |
+| tri.vocab.ensinado.pre | Controle |                   | Urbana   | Rural  |    0.037 |   -0.446 |     0.520 | 0.241 |     0.154 | 0.878 | 0.878 | ns           |
+| tri.vocab.ensinado.pre | Stari    |                   | Urbana   | Rural  |   -0.235 |   -0.721 |     0.251 | 0.243 |    -0.969 | 0.337 | 0.337 | ns           |
+| tri.vocab.ensinado.pos |          | Urbana            | Controle | Stari  |   -0.205 |   -0.675 |     0.264 | 0.235 |    -0.875 | 0.385 | 0.385 | ns           |
+| tri.vocab.ensinado.pos |          | Rural             | Controle | Stari  |    0.071 |   -0.473 |     0.615 | 0.272 |     0.261 | 0.795 | 0.795 | ns           |
+| tri.vocab.ensinado.pre |          | Urbana            | Controle | Stari  |    0.159 |   -0.288 |     0.606 | 0.223 |     0.713 | 0.479 | 0.479 | ns           |
+| tri.vocab.ensinado.pre |          | Rural             | Controle | Stari  |   -0.113 |   -0.632 |     0.406 | 0.259 |    -0.436 | 0.664 | 0.664 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |    0.106 |   -0.287 |     0.500 | 0.199 |     0.535 | 0.594 | 0.594 | ns           |
+| Controle | Rural             | pre    | pos    |    0.245 |   -0.319 |     0.808 | 0.285 |     0.860 | 0.392 | 0.392 | ns           |
+| Stari    | Urbana            | pre    | pos    |   -0.138 |   -0.631 |     0.355 | 0.249 |    -0.553 | 0.581 | 0.581 | ns           |
+| Stari    | Rural             | pre    | pos    |    0.341 |   -0.152 |     0.834 | 0.249 |     1.370 | 0.173 | 0.173 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-914-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-915-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-917-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-919-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-921-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-923-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1570,16 +3204,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-367-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-368-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-932-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-370-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-934-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-372-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-936-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-938-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-940-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.participante | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural             | Controle |  11 |  -0.941 |    0.082 |    -0.633 |      0.115 |  -0.514 |    0.157 |
+| tri.vocab.nao.ensinado.pos | Rural             | Stari    |  15 |  -0.727 |    0.137 |    -0.630 |      0.125 |  -0.643 |    0.132 |
+| tri.vocab.nao.ensinado.pos | Urbana            | Controle |  22 |  -0.557 |    0.099 |    -0.366 |      0.126 |  -0.486 |    0.113 |
+| tri.vocab.nao.ensinado.pos | Urbana            | Stari    |  14 |  -0.921 |    0.096 |    -0.536 |      0.199 |  -0.429 |    0.140 |
+
+| .y.                        | grupo    | zona.participante | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |                   | Urbana   | Rural  |    0.028 |   -0.370 |     0.425 | 0.199 |     0.141 | 0.888 | 0.888 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |                   | Urbana   | Rural  |    0.215 |   -0.172 |     0.601 | 0.193 |     1.112 | 0.271 | 0.271 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |                   | Urbana   | Rural  |    0.384 |    0.063 |     0.704 | 0.160 |     2.397 | 0.020 | 0.020 | \*           |
+| tri.vocab.nao.ensinado.pre | Stari    |                   | Urbana   | Rural  |   -0.194 |   -0.516 |     0.128 | 0.161 |    -1.205 | 0.233 | 0.233 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Urbana            | Controle | Stari  |   -0.057 |   -0.426 |     0.312 | 0.184 |    -0.310 | 0.758 | 0.758 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Rural             | Controle | Stari  |    0.130 |   -0.283 |     0.543 | 0.206 |     0.628 | 0.532 | 0.532 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Urbana            | Controle | Stari  |    0.364 |    0.067 |     0.660 | 0.148 |     2.453 | 0.017 | 0.017 | \*           |
+| tri.vocab.nao.ensinado.pre |          | Rural             | Controle | Stari  |   -0.214 |   -0.559 |     0.130 | 0.172 |    -1.245 | 0.218 | 0.218 | ns           |
+
+| grupo    | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana            | pre    | pos    |   -0.186 |   -0.486 |     0.114 | 0.152 |    -1.226 | 0.223 | 0.223 | ns           |
+| Controle | Rural             | pre    | pos    |   -0.270 |   -0.700 |     0.159 | 0.217 |    -1.245 | 0.215 | 0.215 | ns           |
+| Stari    | Urbana            | pre    | pos    |   -0.453 |   -0.829 |    -0.077 | 0.190 |    -2.384 | 0.019 | 0.019 | \*           |
+| Stari    | Rural             | pre    | pos    |   -0.097 |   -0.473 |     0.279 | 0.190 |    -0.512 | 0.609 | 0.609 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-948-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-949-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-951-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-953-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
 
 ## factores: **escola:grupo**
 
@@ -1655,11 +3338,97 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-381-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-966-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-383-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-968-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-385-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-970-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-972-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-974-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | E1     | Controle |   6 |  -0.082 |    0.158 |     0.072 |      0.208 |  -0.234 |    0.228 |
+| tri.vocab.pos | E1     | Stari    |   5 |  -0.949 |    0.151 |     0.131 |      0.433 |   0.218 |    0.237 |
+| tri.vocab.pos | E2     | Controle |  10 |  -0.849 |    0.206 |    -0.921 |      0.176 |  -0.880 |    0.167 |
+| tri.vocab.pos | E2     | Stari    |   9 |  -1.068 |    0.208 |    -0.894 |      0.135 |  -0.754 |    0.179 |
+| tri.vocab.pos | E3     | Controle |   6 |  -0.719 |    0.129 |    -0.613 |      0.181 |  -0.631 |    0.216 |
+| tri.vocab.pos | E3     | Stari    |   6 |  -0.719 |    0.318 |    -0.635 |      0.305 |  -0.653 |    0.216 |
+| tri.vocab.pos | E5     | Controle |  15 |  -0.763 |    0.138 |    -0.763 |      0.172 |  -0.761 |    0.137 |
+| tri.vocab.pos | E5     | Stari    |  13 |  -0.674 |    0.181 |    -0.673 |      0.130 |  -0.712 |    0.147 |
+| tri.vocab.pos | E6     | Stari    |   5 |  -0.946 |    0.385 |    -1.270 |      0.252 |  -1.186 |    0.237 |
+
+|     | .y.           | grupo    | escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:----|:--------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| 1   | tri.vocab.pos | Controle |        | E1       | E2     |    0.645 |    0.075 |     1.215 | 0.285 |     2.260 | 0.027   | 0.163   | ns           |
+| 2   | tri.vocab.pos | Controle |        | E1       | E3     |    0.396 |   -0.229 |     1.021 | 0.313 |     1.266 | 0.21    | 1       | ns           |
+| 3   | tri.vocab.pos | Controle |        | E1       | E5     |    0.527 |   -0.004 |     1.058 | 0.266 |     1.981 | 0.052   | 0.311   | ns           |
+| 5   | tri.vocab.pos | Controle |        | E2       | E3     |   -0.249 |   -0.795 |     0.297 | 0.273 |    -0.911 | 0.366   | 1       | ns           |
+| 6   | tri.vocab.pos | Controle |        | E2       | E5     |   -0.119 |   -0.550 |     0.313 | 0.216 |    -0.549 | 0.585   | 1       | ns           |
+| 8   | tri.vocab.pos | Controle |        | E3       | E5     |    0.130 |   -0.380 |     0.641 | 0.255 |     0.510 | 0.612   | 1       | ns           |
+| 11  | tri.vocab.pos | Stari    |        | E1       | E2     |    0.972 |    0.382 |     1.561 | 0.295 |     3.292 | 0.002   | 0.016   | \*           |
+| 12  | tri.vocab.pos | Stari    |        | E1       | E3     |    0.871 |    0.229 |     1.512 | 0.321 |     2.711 | 0.009   | 0.086   | ns           |
+| 13  | tri.vocab.pos | Stari    |        | E1       | E5     |    0.930 |    0.371 |     1.488 | 0.280 |     3.321 | 0.001   | 0.015   | \*           |
+| 14  | tri.vocab.pos | Stari    |        | E1       | E6     |    1.403 |    0.736 |     2.071 | 0.334 |     4.197 | \<0.001 | \<0.001 | \*\*\*       |
+| 15  | tri.vocab.pos | Stari    |        | E2       | E3     |   -0.101 |   -0.663 |     0.461 | 0.281 |    -0.360 | 0.72    | 1       | ns           |
+| 16  | tri.vocab.pos | Stari    |        | E2       | E5     |   -0.042 |   -0.508 |     0.424 | 0.233 |    -0.181 | 0.857   | 1       | ns           |
+| 17  | tri.vocab.pos | Stari    |        | E2       | E6     |    0.432 |   -0.158 |     1.021 | 0.295 |     1.462 | 0.149   | 1       | ns           |
+| 18  | tri.vocab.pos | Stari    |        | E3       | E5     |    0.059 |   -0.462 |     0.580 | 0.261 |     0.226 | 0.822   | 1       | ns           |
+| 19  | tri.vocab.pos | Stari    |        | E3       | E6     |    0.533 |   -0.109 |     1.174 | 0.321 |     1.659 | 0.102   | 1       | ns           |
+| 20  | tri.vocab.pos | Stari    |        | E5       | E6     |    0.474 |   -0.085 |     1.033 | 0.280 |     1.693 | 0.095   | 0.952   | ns           |
+| 21  | tri.vocab.pre | Controle |        | E1       | E2     |    0.767 |    0.149 |     1.386 | 0.310 |     2.476 | 0.016   | 0.095   | ns           |
+| 22  | tri.vocab.pre | Controle |        | E1       | E3     |    0.637 |   -0.055 |     1.328 | 0.346 |     1.838 | 0.071   | 0.423   | ns           |
+| 23  | tri.vocab.pre | Controle |        | E1       | E5     |    0.681 |    0.102 |     1.259 | 0.290 |     2.349 | 0.022   | 0.131   | ns           |
+| 25  | tri.vocab.pre | Controle |        | E2       | E3     |   -0.131 |   -0.749 |     0.488 | 0.310 |    -0.421 | 0.675   | 1       | ns           |
+| 26  | tri.vocab.pre | Controle |        | E2       | E5     |   -0.086 |   -0.575 |     0.403 | 0.245 |    -0.353 | 0.725   | 1       | ns           |
+| 28  | tri.vocab.pre | Controle |        | E3       | E5     |    0.044 |   -0.535 |     0.623 | 0.290 |     0.152 | 0.88    | 1       | ns           |
+| 31  | tri.vocab.pre | Stari    |        | E1       | E2     |    0.118 |   -0.550 |     0.786 | 0.335 |     0.353 | 0.725   | 1       | ns           |
+| 32  | tri.vocab.pre | Stari    |        | E1       | E3     |   -0.231 |   -0.956 |     0.494 | 0.363 |    -0.636 | 0.527   | 1       | ns           |
+| 33  | tri.vocab.pre | Stari    |        | E1       | E5     |   -0.276 |   -0.906 |     0.354 | 0.316 |    -0.874 | 0.385   | 1       | ns           |
+| 34  | tri.vocab.pre | Stari    |        | E1       | E6     |   -0.003 |   -0.761 |     0.754 | 0.379 |    -0.009 | 0.993   | 1       | ns           |
+| 35  | tri.vocab.pre | Stari    |        | E2       | E3     |   -0.349 |   -0.980 |     0.282 | 0.316 |    -1.104 | 0.274   | 1       | ns           |
+| 36  | tri.vocab.pre | Stari    |        | E2       | E5     |   -0.394 |   -0.914 |     0.125 | 0.260 |    -1.515 | 0.135   | 1       | ns           |
+| 37  | tri.vocab.pre | Stari    |        | E2       | E6     |   -0.122 |   -0.790 |     0.547 | 0.335 |    -0.363 | 0.717   | 1       | ns           |
+| 38  | tri.vocab.pre | Stari    |        | E3       | E5     |   -0.045 |   -0.636 |     0.546 | 0.296 |    -0.152 | 0.88    | 1       | ns           |
+| 39  | tri.vocab.pre | Stari    |        | E3       | E6     |    0.228 |   -0.498 |     0.953 | 0.363 |     0.626 | 0.533   | 1       | ns           |
+| 40  | tri.vocab.pre | Stari    |        | E5       | E6     |    0.273 |   -0.358 |     0.903 | 0.316 |     0.863 | 0.391   | 1       | ns           |
+| 41  | tri.vocab.pos |          | E1     | Controle | Stari  |   -0.452 |   -1.118 |     0.215 | 0.334 |    -1.354 | 0.18    | 0.18    | ns           |
+| 42  | tri.vocab.pos |          | E2     | Controle | Stari  |   -0.125 |   -0.613 |     0.362 | 0.244 |    -0.514 | 0.609   | 0.609   | ns           |
+| 43  | tri.vocab.pos |          | E3     | Controle | Stari  |    0.022 |   -0.587 |     0.632 | 0.305 |     0.074 | 0.942   | 0.942   | ns           |
+| 44  | tri.vocab.pos |          | E5     | Controle | Stari  |   -0.049 |   -0.450 |     0.352 | 0.201 |    -0.244 | 0.808   | 0.808   | ns           |
+| 46  | tri.vocab.pre |          | E1     | Controle | Stari  |    0.867 |    0.142 |     1.593 | 0.363 |     2.387 | 0.02    | 0.02    | \*           |
+| 47  | tri.vocab.pre |          | E2     | Controle | Stari  |    0.218 |   -0.332 |     0.769 | 0.276 |     0.792 | 0.431   | 0.431   | ns           |
+| 48  | tri.vocab.pre |          | E3     | Controle | Stari  |    0.000 |   -0.692 |     0.691 | 0.346 |    -0.001 | 0.999   | 0.999   | ns           |
+| 49  | tri.vocab.pre |          | E5     | Controle | Stari  |   -0.089 |   -0.543 |     0.364 | 0.227 |    -0.394 | 0.695   | 0.695   | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |   -0.417 |   -1.087 |     0.254 | 0.339 |    -1.229 | 0.221 | 0.221 | ns           |
+| Controle | E2     | pre    | pos    |    0.071 |   -0.468 |     0.610 | 0.273 |     0.261 | 0.795 | 0.795 | ns           |
+| Controle | E3     | pre    | pos    |   -0.106 |   -0.802 |     0.589 | 0.352 |    -0.302 | 0.763 | 0.763 | ns           |
+| Controle | E5     | pre    | pos    |    0.078 |   -0.342 |     0.498 | 0.212 |     0.368 | 0.713 | 0.713 | ns           |
+| Stari    | E1     | pre    | pos    |   -1.075 |   -1.805 |    -0.346 | 0.369 |    -2.913 | 0.004 | 0.004 | \*\*         |
+| Stari    | E2     | pre    | pos    |   -0.174 |   -0.742 |     0.394 | 0.287 |    -0.605 | 0.546 | 0.546 | ns           |
+| Stari    | E3     | pre    | pos    |   -0.084 |   -0.780 |     0.612 | 0.352 |    -0.238 | 0.812 | 0.812 | ns           |
+| Stari    | E5     | pre    | pos    |   -0.077 |   -0.541 |     0.387 | 0.235 |    -0.328 | 0.743 | 0.743 | ns           |
+| Stari    | E6     | pre    | pos    |    0.320 |   -0.409 |     1.050 | 0.369 |     0.868 | 0.387 | 0.387 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-983-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-985-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-987-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1745,16 +3514,102 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-999-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-394-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1000-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-396-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1002-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-398-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1004-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1006-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1008-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | E1     | Controle |   6 |   0.246 |    0.275 |    -0.341 |      0.376 |  -0.563 |    0.261 |
+| tri.vocab.ensinado.pos | E1     | Stari    |   5 |  -0.624 |    0.173 |    -0.041 |      0.451 |   0.013 |    0.270 |
+| tri.vocab.ensinado.pos | E2     | Controle |  10 |  -0.750 |    0.154 |    -0.816 |      0.179 |  -0.721 |    0.194 |
+| tri.vocab.ensinado.pos | E2     | Stari    |   9 |  -0.642 |    0.142 |    -0.959 |      0.158 |  -0.898 |    0.202 |
+| tri.vocab.ensinado.pos | E3     | Controle |   6 |  -0.124 |    0.220 |    -0.677 |      0.234 |  -0.781 |    0.249 |
+| tri.vocab.ensinado.pos | E3     | Stari    |   6 |  -0.263 |    0.302 |    -0.447 |      0.320 |  -0.507 |    0.247 |
+| tri.vocab.ensinado.pos | E5     | Controle |  15 |  -0.614 |    0.138 |    -0.657 |      0.147 |  -0.605 |    0.157 |
+| tri.vocab.ensinado.pos | E5     | Stari    |  13 |  -0.390 |    0.212 |    -0.531 |      0.126 |  -0.551 |    0.167 |
+| tri.vocab.ensinado.pos | E6     | Stari    |   5 |  -0.477 |    0.181 |    -0.630 |      0.233 |  -0.622 |    0.269 |
+
+|     | .y.                    | grupo    | escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----|:-----------------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| 1   | tri.vocab.ensinado.pos | Controle |        | E1       | E2     |    0.158 |   -0.513 |     0.829 | 0.336 |     0.471 | 0.640 | 1.000 | ns           |
+| 2   | tri.vocab.ensinado.pos | Controle |        | E1       | E3     |    0.218 |   -0.482 |     0.919 | 0.351 |     0.622 | 0.536 | 1.000 | ns           |
+| 3   | tri.vocab.ensinado.pos | Controle |        | E1       | E5     |    0.042 |   -0.578 |     0.663 | 0.311 |     0.137 | 0.892 | 1.000 | ns           |
+| 5   | tri.vocab.ensinado.pos | Controle |        | E2       | E3     |    0.060 |   -0.581 |     0.701 | 0.321 |     0.187 | 0.852 | 1.000 | ns           |
+| 6   | tri.vocab.ensinado.pos | Controle |        | E2       | E5     |   -0.116 |   -0.608 |     0.377 | 0.246 |    -0.469 | 0.641 | 1.000 | ns           |
+| 8   | tri.vocab.ensinado.pos | Controle |        | E3       | E5     |   -0.176 |   -0.770 |     0.418 | 0.297 |    -0.590 | 0.557 | 1.000 | ns           |
+| 11  | tri.vocab.ensinado.pos | Stari    |        | E1       | E2     |    0.912 |    0.241 |     1.582 | 0.336 |     2.715 | 0.008 | 0.085 | ns           |
+| 12  | tri.vocab.ensinado.pos | Stari    |        | E1       | E3     |    0.521 |   -0.213 |     1.254 | 0.367 |     1.417 | 0.161 | 1.000 | ns           |
+| 13  | tri.vocab.ensinado.pos | Stari    |        | E1       | E5     |    0.564 |   -0.072 |     1.199 | 0.318 |     1.772 | 0.081 | 0.811 | ns           |
+| 14  | tri.vocab.ensinado.pos | Stari    |        | E1       | E6     |    0.635 |   -0.126 |     1.397 | 0.381 |     1.667 | 0.100 | 1.000 | ns           |
+| 15  | tri.vocab.ensinado.pos | Stari    |        | E2       | E3     |   -0.391 |   -1.032 |     0.250 | 0.321 |    -1.218 | 0.228 | 1.000 | ns           |
+| 16  | tri.vocab.ensinado.pos | Stari    |        | E2       | E5     |   -0.348 |   -0.873 |     0.178 | 0.263 |    -1.322 | 0.191 | 1.000 | ns           |
+| 17  | tri.vocab.ensinado.pos | Stari    |        | E2       | E6     |   -0.276 |   -0.948 |     0.396 | 0.336 |    -0.821 | 0.415 | 1.000 | ns           |
+| 18  | tri.vocab.ensinado.pos | Stari    |        | E3       | E5     |    0.043 |   -0.551 |     0.638 | 0.298 |     0.146 | 0.885 | 1.000 | ns           |
+| 19  | tri.vocab.ensinado.pos | Stari    |        | E3       | E6     |    0.115 |   -0.615 |     0.845 | 0.366 |     0.314 | 0.755 | 1.000 | ns           |
+| 20  | tri.vocab.ensinado.pos | Stari    |        | E5       | E6     |    0.071 |   -0.562 |     0.704 | 0.317 |     0.225 | 0.823 | 1.000 | ns           |
+| 21  | tri.vocab.ensinado.pre | Controle |        | E1       | E2     |    0.996 |    0.396 |     1.596 | 0.301 |     3.315 | 0.001 | 0.009 | \*\*         |
+| 22  | tri.vocab.ensinado.pre | Controle |        | E1       | E3     |    0.369 |   -0.301 |     1.040 | 0.336 |     1.100 | 0.275 | 1.000 | ns           |
+| 23  | tri.vocab.ensinado.pre | Controle |        | E1       | E5     |    0.860 |    0.298 |     1.421 | 0.281 |     3.058 | 0.003 | 0.019 | \*           |
+| 25  | tri.vocab.ensinado.pre | Controle |        | E2       | E3     |   -0.627 |   -1.227 |    -0.027 | 0.301 |    -2.085 | 0.041 | 0.246 | ns           |
+| 26  | tri.vocab.ensinado.pre | Controle |        | E2       | E5     |   -0.136 |   -0.611 |     0.338 | 0.238 |    -0.574 | 0.568 | 1.000 | ns           |
+| 28  | tri.vocab.ensinado.pre | Controle |        | E3       | E5     |    0.490 |   -0.071 |     1.052 | 0.281 |     1.744 | 0.086 | 0.515 | ns           |
+| 31  | tri.vocab.ensinado.pre | Stari    |        | E1       | E2     |    0.018 |   -0.630 |     0.666 | 0.325 |     0.055 | 0.956 | 1.000 | ns           |
+| 32  | tri.vocab.ensinado.pre | Stari    |        | E1       | E3     |   -0.362 |   -1.065 |     0.342 | 0.352 |    -1.026 | 0.308 | 1.000 | ns           |
+| 33  | tri.vocab.ensinado.pre | Stari    |        | E1       | E5     |   -0.235 |   -0.846 |     0.377 | 0.306 |    -0.766 | 0.446 | 1.000 | ns           |
+| 34  | tri.vocab.ensinado.pre | Stari    |        | E1       | E6     |   -0.148 |   -0.883 |     0.587 | 0.368 |    -0.402 | 0.689 | 1.000 | ns           |
+| 35  | tri.vocab.ensinado.pre | Stari    |        | E2       | E3     |   -0.380 |   -0.992 |     0.233 | 0.307 |    -1.237 | 0.220 | 1.000 | ns           |
+| 36  | tri.vocab.ensinado.pre | Stari    |        | E2       | E5     |   -0.252 |   -0.756 |     0.251 | 0.252 |    -1.000 | 0.321 | 1.000 | ns           |
+| 37  | tri.vocab.ensinado.pre | Stari    |        | E2       | E6     |   -0.166 |   -0.814 |     0.482 | 0.325 |    -0.511 | 0.611 | 1.000 | ns           |
+| 38  | tri.vocab.ensinado.pre | Stari    |        | E3       | E5     |    0.127 |   -0.446 |     0.701 | 0.287 |     0.443 | 0.660 | 1.000 | ns           |
+| 39  | tri.vocab.ensinado.pre | Stari    |        | E3       | E6     |    0.214 |   -0.490 |     0.917 | 0.352 |     0.607 | 0.546 | 1.000 | ns           |
+| 40  | tri.vocab.ensinado.pre | Stari    |        | E5       | E6     |    0.087 |   -0.525 |     0.698 | 0.306 |     0.283 | 0.778 | 1.000 | ns           |
+| 41  | tri.vocab.ensinado.pos |          | E1     | Controle | Stari  |   -0.576 |   -1.337 |     0.185 | 0.381 |    -1.512 | 0.135 | 0.135 | ns           |
+| 42  | tri.vocab.ensinado.pos |          | E2     | Controle | Stari  |    0.177 |   -0.376 |     0.730 | 0.277 |     0.640 | 0.524 | 0.524 | ns           |
+| 43  | tri.vocab.ensinado.pos |          | E3     | Controle | Stari  |   -0.274 |   -0.969 |     0.421 | 0.348 |    -0.787 | 0.434 | 0.434 | ns           |
+| 44  | tri.vocab.ensinado.pos |          | E5     | Controle | Stari  |   -0.055 |   -0.514 |     0.404 | 0.230 |    -0.238 | 0.812 | 0.812 | ns           |
+| 46  | tri.vocab.ensinado.pre |          | E1     | Controle | Stari  |    0.870 |    0.167 |     1.574 | 0.352 |     2.470 | 0.016 | 0.016 | \*           |
+| 47  | tri.vocab.ensinado.pre |          | E2     | Controle | Stari  |   -0.108 |   -0.642 |     0.426 | 0.267 |    -0.404 | 0.688 | 0.688 | ns           |
+| 48  | tri.vocab.ensinado.pre |          | E3     | Controle | Stari  |    0.139 |   -0.532 |     0.810 | 0.336 |     0.414 | 0.680 | 0.680 | ns           |
+| 49  | tri.vocab.ensinado.pre |          | E5     | Controle | Stari  |   -0.224 |   -0.664 |     0.216 | 0.221 |    -1.016 | 0.314 | 0.314 | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | E1     | pre    | pos    |    0.345 |   -0.330 |     1.019 | 0.341 |     1.010 | 0.314 | 0.314 | ns           |
+| Controle | E2     | pre    | pos    |    0.065 |   -0.477 |     0.607 | 0.274 |     0.238 | 0.812 | 0.812 | ns           |
+| Controle | E3     | pre    | pos    |    0.553 |   -0.147 |     1.253 | 0.354 |     1.562 | 0.120 | 0.120 | ns           |
+| Controle | E5     | pre    | pos    |    0.063 |   -0.359 |     0.485 | 0.214 |     0.294 | 0.769 | 0.769 | ns           |
+| Stari    | E1     | pre    | pos    |   -0.558 |   -1.291 |     0.176 | 0.371 |    -1.502 | 0.135 | 0.135 | ns           |
+| Stari    | E2     | pre    | pos    |    0.316 |   -0.255 |     0.888 | 0.289 |     1.094 | 0.276 | 0.276 | ns           |
+| Stari    | E3     | pre    | pos    |    0.184 |   -0.515 |     0.884 | 0.354 |     0.521 | 0.603 | 0.603 | ns           |
+| Stari    | E5     | pre    | pos    |    0.086 |   -0.381 |     0.553 | 0.236 |     0.365 | 0.716 | 0.716 | ns           |
+| Stari    | E6     | pre    | pos    |    0.244 |   -0.490 |     0.978 | 0.371 |     0.657 | 0.512 | 0.512 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1017-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1019-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1021-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1023-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1840,16 +3695,102 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-406-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1033-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1034-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1036-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1038-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1040-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1042-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | E1     | Controle |   6 |  -0.309 |    0.113 |     0.008 |      0.173 |  -0.204 |    0.188 |
+| tri.vocab.nao.ensinado.pos | E1     | Stari    |   5 |  -0.904 |    0.222 |     0.159 |      0.393 |   0.219 |    0.197 |
+| tri.vocab.nao.ensinado.pos | E2     | Controle |  10 |  -0.875 |    0.147 |    -0.738 |      0.104 |  -0.692 |    0.140 |
+| tri.vocab.nao.ensinado.pos | E2     | Stari    |   9 |  -0.885 |    0.139 |    -0.833 |      0.111 |  -0.781 |    0.147 |
+| tri.vocab.nao.ensinado.pos | E3     | Controle |   6 |  -0.883 |    0.110 |    -0.605 |      0.158 |  -0.555 |    0.180 |
+| tri.vocab.nao.ensinado.pos | E3     | Stari    |   6 |  -0.740 |    0.202 |    -0.656 |      0.231 |  -0.671 |    0.179 |
+| tri.vocab.nao.ensinado.pos | E5     | Controle |  15 |  -0.760 |    0.112 |    -0.625 |      0.160 |  -0.631 |    0.113 |
+| tri.vocab.nao.ensinado.pos | E5     | Stari    |  13 |  -0.720 |    0.138 |    -0.732 |      0.106 |  -0.757 |    0.122 |
+| tri.vocab.nao.ensinado.pos | E6     | Stari    |   5 |  -0.878 |    0.289 |    -1.082 |      0.065 |  -1.034 |    0.197 |
+
+|     | .y.                        | grupo    | escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:----|:---------------------------|:---------|:-------|:---------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| 1   | tri.vocab.nao.ensinado.pos | Controle |        | E1       | E2     |    0.488 |    0.015 |     0.961 | 0.237 |     2.061 | 0.043   | 0.26    | ns           |
+| 2   | tri.vocab.nao.ensinado.pos | Controle |        | E1       | E3     |    0.351 |   -0.174 |     0.876 | 0.263 |     1.336 | 0.186   | 1       | ns           |
+| 3   | tri.vocab.nao.ensinado.pos | Controle |        | E1       | E5     |    0.427 |   -0.010 |     0.864 | 0.219 |     1.950 | 0.055   | 0.333   | ns           |
+| 5   | tri.vocab.nao.ensinado.pos | Controle |        | E2       | E3     |   -0.137 |   -0.590 |     0.316 | 0.227 |    -0.603 | 0.548   | 1       | ns           |
+| 6   | tri.vocab.nao.ensinado.pos | Controle |        | E2       | E5     |   -0.061 |   -0.420 |     0.298 | 0.180 |    -0.338 | 0.736   | 1       | ns           |
+| 8   | tri.vocab.nao.ensinado.pos | Controle |        | E3       | E5     |    0.076 |   -0.349 |     0.501 | 0.213 |     0.357 | 0.722   | 1       | ns           |
+| 11  | tri.vocab.nao.ensinado.pos | Stari    |        | E1       | E2     |    1.001 |    0.511 |     1.490 | 0.245 |     4.082 | \<0.001 | 0.001   | \*\*         |
+| 12  | tri.vocab.nao.ensinado.pos | Stari    |        | E1       | E3     |    0.890 |    0.357 |     1.423 | 0.267 |     3.336 | 0.001   | 0.014   | \*           |
+| 13  | tri.vocab.nao.ensinado.pos | Stari    |        | E1       | E5     |    0.976 |    0.512 |     1.440 | 0.232 |     4.201 | \<0.001 | \<0.001 | \*\*\*       |
+| 14  | tri.vocab.nao.ensinado.pos | Stari    |        | E1       | E6     |    1.253 |    0.698 |     1.809 | 0.278 |     4.509 | \<0.001 | \<0.001 | \*\*\*       |
+| 15  | tri.vocab.nao.ensinado.pos | Stari    |        | E2       | E3     |   -0.110 |   -0.574 |     0.353 | 0.232 |    -0.475 | 0.636   | 1       | ns           |
+| 16  | tri.vocab.nao.ensinado.pos | Stari    |        | E2       | E5     |   -0.025 |   -0.407 |     0.358 | 0.192 |    -0.129 | 0.898   | 1       | ns           |
+| 17  | tri.vocab.nao.ensinado.pos | Stari    |        | E2       | E6     |    0.253 |   -0.237 |     0.742 | 0.245 |     1.031 | 0.306   | 1       | ns           |
+| 18  | tri.vocab.nao.ensinado.pos | Stari    |        | E3       | E5     |    0.086 |   -0.347 |     0.519 | 0.217 |     0.395 | 0.694   | 1       | ns           |
+| 19  | tri.vocab.nao.ensinado.pos | Stari    |        | E3       | E6     |    0.363 |   -0.169 |     0.896 | 0.267 |     1.362 | 0.178   | 1       | ns           |
+| 20  | tri.vocab.nao.ensinado.pos | Stari    |        | E5       | E6     |    0.278 |   -0.186 |     0.741 | 0.232 |     1.196 | 0.236   | 1       | ns           |
+| 21  | tri.vocab.nao.ensinado.pre | Controle |        | E1       | E2     |    0.566 |    0.098 |     1.034 | 0.234 |     2.413 | 0.019   | 0.112   | ns           |
+| 22  | tri.vocab.nao.ensinado.pre | Controle |        | E1       | E3     |    0.574 |    0.051 |     1.097 | 0.262 |     2.189 | 0.032   | 0.193   | ns           |
+| 23  | tri.vocab.nao.ensinado.pre | Controle |        | E1       | E5     |    0.451 |    0.013 |     0.889 | 0.219 |     2.055 | 0.044   | 0.263   | ns           |
+| 25  | tri.vocab.nao.ensinado.pre | Controle |        | E2       | E3     |    0.008 |   -0.460 |     0.476 | 0.234 |     0.035 | 0.972   | 1       | ns           |
+| 26  | tri.vocab.nao.ensinado.pre | Controle |        | E2       | E5     |   -0.115 |   -0.485 |     0.255 | 0.185 |    -0.621 | 0.537   | 1       | ns           |
+| 28  | tri.vocab.nao.ensinado.pre | Controle |        | E3       | E5     |   -0.123 |   -0.561 |     0.315 | 0.219 |    -0.562 | 0.576   | 1       | ns           |
+| 31  | tri.vocab.nao.ensinado.pre | Stari    |        | E1       | E2     |   -0.019 |   -0.525 |     0.487 | 0.253 |    -0.075 | 0.941   | 1       | ns           |
+| 32  | tri.vocab.nao.ensinado.pre | Stari    |        | E1       | E3     |   -0.164 |   -0.713 |     0.385 | 0.275 |    -0.596 | 0.553   | 1       | ns           |
+| 33  | tri.vocab.nao.ensinado.pre | Stari    |        | E1       | E5     |   -0.184 |   -0.661 |     0.293 | 0.239 |    -0.771 | 0.443   | 1       | ns           |
+| 34  | tri.vocab.nao.ensinado.pre | Stari    |        | E1       | E6     |   -0.026 |   -0.600 |     0.547 | 0.287 |    -0.092 | 0.927   | 1       | ns           |
+| 35  | tri.vocab.nao.ensinado.pre | Stari    |        | E2       | E3     |   -0.145 |   -0.623 |     0.333 | 0.239 |    -0.606 | 0.546   | 1       | ns           |
+| 36  | tri.vocab.nao.ensinado.pre | Stari    |        | E2       | E5     |   -0.165 |   -0.559 |     0.228 | 0.197 |    -0.840 | 0.404   | 1       | ns           |
+| 37  | tri.vocab.nao.ensinado.pre | Stari    |        | E2       | E6     |   -0.008 |   -0.513 |     0.498 | 0.253 |    -0.030 | 0.976   | 1       | ns           |
+| 38  | tri.vocab.nao.ensinado.pre | Stari    |        | E3       | E5     |   -0.020 |   -0.468 |     0.427 | 0.224 |    -0.091 | 0.928   | 1       | ns           |
+| 39  | tri.vocab.nao.ensinado.pre | Stari    |        | E3       | E6     |    0.137 |   -0.412 |     0.686 | 0.275 |     0.500 | 0.619   | 1       | ns           |
+| 40  | tri.vocab.nao.ensinado.pre | Stari    |        | E5       | E6     |    0.158 |   -0.319 |     0.635 | 0.239 |     0.661 | 0.511   | 1       | ns           |
+| 41  | tri.vocab.nao.ensinado.pos |          | E1     | Controle | Stari  |   -0.423 |   -0.973 |     0.127 | 0.275 |    -1.535 | 0.13    | 0.13    | ns           |
+| 42  | tri.vocab.nao.ensinado.pos |          | E2     | Controle | Stari  |    0.090 |   -0.313 |     0.493 | 0.202 |     0.445 | 0.658   | 0.658   | ns           |
+| 43  | tri.vocab.nao.ensinado.pos |          | E3     | Controle | Stari  |    0.116 |   -0.392 |     0.624 | 0.254 |     0.458 | 0.649   | 0.649   | ns           |
+| 44  | tri.vocab.nao.ensinado.pos |          | E5     | Controle | Stari  |    0.126 |   -0.207 |     0.459 | 0.167 |     0.757 | 0.452   | 0.452   | ns           |
+| 46  | tri.vocab.nao.ensinado.pre |          | E1     | Controle | Stari  |    0.595 |    0.046 |     1.144 | 0.275 |     2.163 | 0.034   | 0.034   | \*           |
+| 47  | tri.vocab.nao.ensinado.pre |          | E2     | Controle | Stari  |    0.010 |   -0.406 |     0.427 | 0.209 |     0.049 | 0.961   | 0.961   | ns           |
+| 48  | tri.vocab.nao.ensinado.pre |          | E3     | Controle | Stari  |   -0.143 |   -0.667 |     0.380 | 0.262 |    -0.546 | 0.587   | 0.587   | ns           |
+| 49  | tri.vocab.nao.ensinado.pre |          | E5     | Controle | Stari  |   -0.040 |   -0.384 |     0.303 | 0.172 |    -0.234 | 0.816   | 0.816   | ns           |
+
+| grupo    | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
+|:---------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+| Controle | E1     | pre    | pos    |   -0.483 |   -1.016 |     0.051 | 0.270 |    -1.787 | 0.076   | 0.076   | ns           |
+| Controle | E2     | pre    | pos    |   -0.137 |   -0.566 |     0.292 | 0.217 |    -0.630 | 0.53    | 0.53    | ns           |
+| Controle | E3     | pre    | pos    |   -0.278 |   -0.832 |     0.276 | 0.280 |    -0.993 | 0.323   | 0.323   | ns           |
+| Controle | E5     | pre    | pos    |   -0.041 |   -0.375 |     0.293 | 0.169 |    -0.243 | 0.809   | 0.809   | ns           |
+| Stari    | E1     | pre    | pos    |   -1.066 |   -1.647 |    -0.485 | 0.294 |    -3.628 | \<0.001 | \<0.001 | \*\*\*       |
+| Stari    | E2     | pre    | pos    |   -0.052 |   -0.505 |     0.400 | 0.229 |    -0.229 | 0.819   | 0.819   | ns           |
+| Stari    | E3     | pre    | pos    |   -0.084 |   -0.638 |     0.470 | 0.280 |    -0.300 | 0.765   | 0.765   | ns           |
+| Stari    | E5     | pre    | pos    |   -0.074 |   -0.443 |     0.296 | 0.187 |    -0.394 | 0.694   | 0.694   | ns           |
+| Stari    | E6     | pre    | pos    |    0.143 |   -0.438 |     0.724 | 0.294 |     0.485 | 0.629   | 0.629   | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1055-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1057-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1059-1.png)<!-- -->
 
 ## factores: **zona.escola:grupo**
 
@@ -1883,16 +3824,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1067-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-420-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1068-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-422-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1070-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-424-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1072-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1074-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1076-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Rural       | Controle |  13 |  -0.796 |    0.125 |    -0.625 |      0.163 |  -0.609 |    0.158 |
+| tri.vocab.pos | Rural       | Stari    |  12 |  -0.824 |    0.216 |    -0.951 |      0.200 |  -0.920 |    0.165 |
+| tri.vocab.pos | Urbana      | Controle |  31 |  -0.659 |    0.109 |    -0.652 |      0.124 |  -0.715 |    0.103 |
+| tri.vocab.pos | Urbana      | Stari    |  27 |  -0.856 |    0.117 |    -0.598 |      0.126 |  -0.548 |    0.110 |
+
+| .y.           | grupo    | zona.escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:---------|:------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Controle |             | Urbana   | Rural  |   -0.105 |   -0.482 |     0.272 | 0.189 |    -0.556 | 0.580 | 0.580 | ns           |
+| tri.vocab.pos | Stari    |             | Urbana   | Rural  |    0.372 |   -0.023 |     0.766 | 0.198 |     1.876 | 0.064 | 0.064 | ns           |
+| tri.vocab.pre | Controle |             | Urbana   | Rural  |    0.137 |   -0.263 |     0.537 | 0.201 |     0.681 | 0.498 | 0.498 | ns           |
+| tri.vocab.pre | Stari    |             | Urbana   | Rural  |   -0.032 |   -0.452 |     0.388 | 0.211 |    -0.153 | 0.879 | 0.879 | ns           |
+| tri.vocab.pos |          | Urbana      | Controle | Stari  |   -0.167 |   -0.469 |     0.135 | 0.152 |    -1.099 | 0.275 | 0.275 | ns           |
+| tri.vocab.pos |          | Rural       | Controle | Stari  |    0.310 |   -0.145 |     0.766 | 0.229 |     1.357 | 0.179 | 0.179 | ns           |
+| tri.vocab.pre |          | Urbana      | Controle | Stari  |    0.197 |   -0.122 |     0.516 | 0.160 |     1.230 | 0.222 | 0.222 | ns           |
+| tri.vocab.pre |          | Rural       | Controle | Stari  |    0.028 |   -0.457 |     0.512 | 0.243 |     0.114 | 0.910 | 0.910 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |   -0.008 |   -0.319 |     0.303 | 0.158 |    -0.048 | 0.962 | 0.962 | ns           |
+| Controle | Rural       | pre    | pos    |   -0.127 |   -0.614 |     0.359 | 0.246 |    -0.517 | 0.606 | 0.606 | ns           |
+| Stari    | Urbana      | pre    | pos    |   -0.296 |   -0.634 |     0.041 | 0.171 |    -1.732 | 0.085 | 0.085 | ns           |
+| Stari    | Rural       | pre    | pos    |    0.116 |   -0.389 |     0.622 | 0.256 |     0.454 | 0.651 | 0.651 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1084-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1091-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1093-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -1924,16 +3914,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-432-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-433-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1102-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1104-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1106-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1108-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1110-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Rural       | Controle |  13 |  -0.501 |    0.165 |    -0.616 |      0.198 |  -0.612 |    0.177 |
+| tri.vocab.ensinado.pos | Rural       | Stari    |  12 |  -0.380 |    0.164 |    -0.562 |      0.182 |  -0.591 |    0.185 |
+| tri.vocab.ensinado.pos | Urbana      | Controle |  31 |  -0.491 |    0.116 |    -0.647 |      0.116 |  -0.645 |    0.115 |
+| tri.vocab.ensinado.pos | Urbana      | Stari    |  27 |  -0.517 |    0.116 |    -0.583 |      0.126 |  -0.574 |    0.123 |
+
+| .y.                    | grupo    | zona.escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------|:------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Controle |             | Urbana   | Rural  |   -0.033 |   -0.454 |     0.388 | 0.211 |    -0.157 | 0.876 | 0.876 | ns           |
+| tri.vocab.ensinado.pos | Stari    |             | Urbana   | Rural  |    0.017 |   -0.426 |     0.460 | 0.222 |     0.077 | 0.939 | 0.939 | ns           |
+| tri.vocab.ensinado.pre | Controle |             | Urbana   | Rural  |    0.009 |   -0.395 |     0.414 | 0.203 |     0.045 | 0.964 | 0.964 | ns           |
+| tri.vocab.ensinado.pre | Stari    |             | Urbana   | Rural  |   -0.138 |   -0.562 |     0.287 | 0.213 |    -0.645 | 0.521 | 0.521 | ns           |
+| tri.vocab.ensinado.pos |          | Urbana      | Controle | Stari  |   -0.071 |   -0.406 |     0.264 | 0.168 |    -0.423 | 0.674 | 0.674 | ns           |
+| tri.vocab.ensinado.pos |          | Rural       | Controle | Stari  |   -0.021 |   -0.531 |     0.490 | 0.256 |    -0.082 | 0.935 | 0.935 | ns           |
+| tri.vocab.ensinado.pre |          | Urbana      | Controle | Stari  |    0.026 |   -0.296 |     0.348 | 0.162 |     0.161 | 0.873 | 0.873 | ns           |
+| tri.vocab.ensinado.pre |          | Rural       | Controle | Stari  |   -0.121 |   -0.611 |     0.369 | 0.246 |    -0.490 | 0.625 | 0.625 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |    0.130 |   -0.179 |     0.440 | 0.157 |     0.831 | 0.407 | 0.407 | ns           |
+| Controle | Rural       | pre    | pos    |    0.065 |   -0.419 |     0.549 | 0.245 |     0.265 | 0.791 | 0.791 | ns           |
+| Stari    | Urbana      | pre    | pos    |    0.038 |   -0.298 |     0.374 | 0.170 |     0.222 | 0.825 | 0.825 | ns           |
+| Stari    | Rural       | pre    | pos    |    0.217 |   -0.286 |     0.720 | 0.255 |     0.852 | 0.396 | 0.396 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1118-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1119-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1125-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1127-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -1965,16 +4004,65 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-445-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-446-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1136-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-448-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1138-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-450-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1140-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1142-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1144-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | zona.escola | grupo    |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:------------|:---------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Rural       | Controle |  13 |  -0.882 |    0.123 |    -0.620 |      0.129 |  -0.566 |    0.136 |
+| tri.vocab.nao.ensinado.pos | Rural       | Stari    |  12 |  -0.814 |    0.150 |    -0.871 |      0.130 |  -0.855 |    0.141 |
+| tri.vocab.nao.ensinado.pos | Urbana      | Controle |  31 |  -0.710 |    0.082 |    -0.539 |      0.101 |  -0.580 |    0.088 |
+| tri.vocab.nao.ensinado.pos | Urbana      | Stari    |  27 |  -0.809 |    0.089 |    -0.601 |      0.115 |  -0.587 |    0.094 |
+
+| .y.                        | grupo    | zona.escola | group1   | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:---------|:------------|:---------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Controle |             | Urbana   | Rural  |   -0.014 |   -0.337 |     0.309 | 0.162 |    -0.085 | 0.932 | 0.932 | ns           |
+| tri.vocab.nao.ensinado.pos | Stari    |             | Urbana   | Rural  |    0.268 |   -0.069 |     0.604 | 0.169 |     1.584 | 0.117 | 0.117 | ns           |
+| tri.vocab.nao.ensinado.pre | Controle |             | Urbana   | Rural  |    0.173 |   -0.134 |     0.479 | 0.154 |     1.120 | 0.266 | 0.266 | ns           |
+| tri.vocab.nao.ensinado.pre | Stari    |             | Urbana   | Rural  |    0.005 |   -0.317 |     0.327 | 0.162 |     0.029 | 0.977 | 0.977 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Urbana      | Controle | Stari  |    0.007 |   -0.249 |     0.264 | 0.129 |     0.058 | 0.954 | 0.954 | ns           |
+| tri.vocab.nao.ensinado.pos |          | Rural       | Controle | Stari  |    0.289 |   -0.100 |     0.678 | 0.195 |     1.481 | 0.143 | 0.143 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Urbana      | Controle | Stari  |    0.099 |   -0.145 |     0.343 | 0.123 |     0.808 | 0.421 | 0.421 | ns           |
+| tri.vocab.nao.ensinado.pre |          | Rural       | Controle | Stari  |   -0.069 |   -0.440 |     0.303 | 0.187 |    -0.368 | 0.714 | 0.714 | ns           |
+
+| grupo    | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| Controle | Urbana      | pre    | pos    |   -0.146 |   -0.398 |     0.105 | 0.127 |    -1.150 | 0.252 | 0.252 | ns           |
+| Controle | Rural       | pre    | pos    |   -0.210 |   -0.603 |     0.183 | 0.199 |    -1.055 | 0.293 | 0.293 | ns           |
+| Stari    | Urbana      | pre    | pos    |   -0.251 |   -0.523 |     0.022 | 0.138 |    -1.816 | 0.071 | 0.071 | ns           |
+| Stari    | Rural       | pre    | pos    |    0.024 |   -0.384 |     0.432 | 0.207 |     0.116 | 0.908 | 0.908 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1152-1.png)<!-- -->
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1153-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1155-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1157-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1159-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1161-1.png)<!-- -->
 
 # Pairwise comparisons for grupo=“Experimental”
 
@@ -2006,11 +4094,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-458-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-460-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-462-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1173-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1175-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1177-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | ML      |   6 |  -0.719 |    0.318 |    -0.635 |      0.305 |  -0.693 |    0.309 |
+| tri.vocab.pos | PR      |   5 |  -0.949 |    0.151 |     0.131 |      0.433 |   0.167 |    0.336 |
+| tri.vocab.pos | VL      |   5 |  -0.946 |    0.385 |    -1.270 |      0.252 |  -1.236 |    0.336 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | ML     | PR     |   -0.860 |   -1.859 |     0.140 | 0.459 |    -1.874 | 0.085 | 0.256 | ns           |
+| tri.vocab.pos | ML     | VL     |    0.543 |   -0.456 |     1.543 | 0.459 |     1.185 | 0.259 | 0.777 | ns           |
+| tri.vocab.pos | PR     | VL     |    1.403 |    0.371 |     2.436 | 0.474 |     2.961 | 0.012 | 0.036 | \*           |
+| tri.vocab.pre | ML     | PR     |    0.231 |   -0.691 |     1.152 | 0.427 |     0.541 | 0.597 | 1.000 | ns           |
+| tri.vocab.pre | ML     | VL     |    0.228 |   -0.694 |     1.149 | 0.427 |     0.533 | 0.603 | 1.000 | ns           |
+| tri.vocab.pre | PR     | VL     |   -0.003 |   -0.966 |     0.959 | 0.446 |    -0.008 | 0.994 | 1.000 | ns           |
+
+| .y.       | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | ML      | pre    | pos    |   -0.084 |   -0.928 |     0.760 | 0.412 |    -0.203 | 0.840 | 0.840 | ns           |
+| tri.vocab | PR      | pre    | pos    |   -1.075 |   -1.960 |    -0.191 | 0.432 |    -2.489 | 0.019 | 0.019 | \*           |
+| tri.vocab | VL      | pre    | pos    |    0.320 |   -0.564 |     1.205 | 0.432 |     0.742 | 0.464 | 0.464 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1187-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1189-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1191-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1193-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2038,11 +4166,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-470-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1201-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-472-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1203-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-474-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1205-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1207-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1209-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | ML      |   6 |  -0.263 |    0.302 |    -0.447 |      0.320 |  -0.582 |    0.295 |
+| tri.vocab.ensinado.pos | PR      |   5 |  -0.624 |    0.173 |    -0.041 |      0.451 |   0.095 |    0.322 |
+| tri.vocab.ensinado.pos | VL      |   5 |  -0.477 |    0.181 |    -0.630 |      0.233 |  -0.604 |    0.316 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | ML     | PR     |   -0.678 |   -1.649 |     0.294 | 0.446 |    -1.519 | 0.155 | 0.464 | ns           |
+| tri.vocab.ensinado.pos | ML     | VL     |    0.022 |   -0.923 |     0.967 | 0.434 |     0.051 | 0.960 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | PR     | VL     |    0.700 |   -0.280 |     1.679 | 0.449 |     1.557 | 0.146 | 0.437 | ns           |
+| tri.vocab.ensinado.pre | ML     | PR     |    0.362 |   -0.363 |     1.086 | 0.335 |     1.079 | 0.300 | 0.901 | ns           |
+| tri.vocab.ensinado.pre | ML     | VL     |    0.214 |   -0.511 |     0.938 | 0.335 |     0.637 | 0.535 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | PR     | VL     |   -0.148 |   -0.904 |     0.609 | 0.350 |    -0.422 | 0.680 | 1.000 | ns           |
+
+| .y.                | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | ML      | pre    | pos    |    0.184 |   -0.605 |     0.974 | 0.385 |     0.478 | 0.636 | 0.636 | ns           |
+| tri.vocab.ensinado | PR      | pre    | pos    |   -0.558 |   -1.386 |     0.270 | 0.404 |    -1.379 | 0.179 | 0.179 | ns           |
+| tri.vocab.ensinado | VL      | pre    | pos    |    0.244 |   -0.584 |     1.072 | 0.404 |     0.603 | 0.551 | 0.551 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1221-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1223-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1225-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2070,11 +4238,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-482-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-484-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1235-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-486-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1237-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1239-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1241-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | ML      |   6 |  -0.740 |    0.202 |    -0.656 |      0.231 |  -0.666 |    0.258 |
+| tri.vocab.nao.ensinado.pos | PR      |   5 |  -0.904 |    0.222 |     0.159 |      0.393 |   0.166 |    0.282 |
+| tri.vocab.nao.ensinado.pos | VL      |   5 |  -0.878 |    0.289 |    -1.082 |      0.065 |  -1.078 |    0.281 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | ML     | PR     |   -0.832 |   -1.669 |     0.005 | 0.384 |    -2.166 | 0.051 | 0.153 | ns           |
+| tri.vocab.nao.ensinado.pos | ML     | VL     |    0.412 |   -0.423 |     1.247 | 0.383 |     1.076 | 0.303 | 0.910 | ns           |
+| tri.vocab.nao.ensinado.pos | PR     | VL     |    1.244 |    0.378 |     2.110 | 0.398 |     3.129 | 0.009 | 0.026 | \*           |
+| tri.vocab.nao.ensinado.pre | ML     | PR     |    0.164 |   -0.551 |     0.879 | 0.331 |     0.496 | 0.628 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | ML     | VL     |    0.137 |   -0.577 |     0.852 | 0.331 |     0.416 | 0.685 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | PR     | VL     |   -0.026 |   -0.773 |     0.720 | 0.346 |    -0.077 | 0.940 | 1.000 | ns           |
+
+| .y.                    | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | ML      | pre    | pos    |   -0.084 |   -0.746 |     0.578 | 0.323 |    -0.260 | 0.797 | 0.797 | ns           |
+| tri.vocab.nao.ensinado | PR      | pre    | pos    |   -1.066 |   -1.761 |    -0.372 | 0.339 |    -3.146 | 0.004 | 0.004 | \*\*         |
+| tri.vocab.nao.ensinado | VL      | pre    | pos    |    0.143 |   -0.552 |     0.837 | 0.339 |     0.420 | 0.677 | 0.677 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1249-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1251-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1253-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1255-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1257-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.genero**
 
@@ -2098,11 +4306,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-494-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1265-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-496-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1267-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-498-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1269-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1271-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1273-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | F              |  20 |  -0.827 |    0.170 |    -0.845 |      0.133 |  -0.859 |    0.144 |
+| tri.vocab.pos | M              |  13 |  -0.909 |    0.103 |    -0.493 |      0.230 |  -0.470 |    0.179 |
+
+| .y.           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | F      | M      |   -0.389 |   -0.859 |     0.081 | 0.230 |    -1.692 | 0.101 | 0.101 | ns           |
+| tri.vocab.pre | F      | M      |    0.082 |   -0.381 |     0.545 | 0.227 |     0.362 | 0.720 | 0.720 | ns           |
+
+| .y.       | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | F              | pre    | pos    |   -0.048 |   -0.461 |     0.364 | 0.207 |    -0.234 | 0.816 | 0.816 | ns           |
+| tri.vocab | M              | pre    | pos    |   -0.417 |   -0.932 |     0.098 | 0.258 |    -1.617 | 0.111 | 0.111 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1281-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1283-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1285-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1287-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1289-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2124,11 +4366,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-506-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1297-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-508-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1299-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-510-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1301-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1303-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1305-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | F              |  20 |  -0.435 |    0.147 |    -0.626 |      0.142 |  -0.637 |    0.147 |
+| tri.vocab.ensinado.pos | M              |  13 |  -0.557 |    0.144 |    -0.433 |      0.194 |  -0.416 |    0.182 |
+
+| .y.                    | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | F      | M      |   -0.221 |    -0.70 |     0.259 | 0.235 |    -0.939 | 0.355 | 0.355 | ns           |
+| tri.vocab.ensinado.pre | F      | M      |    0.122 |    -0.32 |     0.564 | 0.217 |     0.561 | 0.579 | 0.579 | ns           |
+
+| .y.                | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | F              | pre    | pos    |    0.174 |   -0.216 |     0.563 | 0.195 |     0.891 | 0.376 | 0.376 | ns           |
+| tri.vocab.ensinado | M              | pre    | pos    |   -0.118 |   -0.604 |     0.368 | 0.243 |    -0.484 | 0.630 | 0.630 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1313-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1315-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1317-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1319-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1321-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2150,11 +4426,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-518-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1329-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-520-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1331-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-522-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1333-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1335-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1337-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | F              |  20 |  -0.769 |    0.114 |    -0.783 |      0.096 |  -0.805 |    0.128 |
+| tri.vocab.nao.ensinado.pos | M              |  13 |  -0.938 |    0.106 |    -0.469 |      0.209 |  -0.436 |    0.159 |
+
+| .y.                        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | F      | M      |   -0.369 |   -0.788 |     0.050 | 0.205 |    -1.799 | 0.082 | 0.082 | ns           |
+| tri.vocab.nao.ensinado.pre | F      | M      |    0.169 |   -0.168 |     0.506 | 0.165 |     1.021 | 0.315 | 0.315 | ns           |
+
+| .y.                    | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | F              | pre    | pos    |   -0.068 |    -0.40 |     0.263 | 0.166 |    -0.413 | 0.681 | 0.681 | ns           |
+| tri.vocab.nao.ensinado | M              | pre    | pos    |   -0.467 |    -0.88 |    -0.054 | 0.207 |    -2.258 | 0.027 | 0.027 | \*           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1345-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1347-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1349-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1351-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1353-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.area**
 
@@ -2184,11 +4494,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-530-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1361-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-532-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1363-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-534-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1365-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1367-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1369-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.area        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | Ciencias Biologicas |   6 |  -0.719 |    0.318 |    -0.635 |      0.305 |  -0.693 |    0.309 |
+| tri.vocab.pos | Historia            |   5 |  -0.949 |    0.151 |     0.131 |      0.433 |   0.167 |    0.336 |
+| tri.vocab.pos | Servico Social      |   5 |  -0.946 |    0.385 |    -1.270 |      0.252 |  -1.236 |    0.336 |
+
+| .y.           | group1              | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:--------------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | Ciencias Biologicas | Historia       |   -0.860 |   -1.859 |     0.140 | 0.459 |    -1.874 | 0.085 | 0.256 | ns           |
+| tri.vocab.pos | Ciencias Biologicas | Servico Social |    0.543 |   -0.456 |     1.543 | 0.459 |     1.185 | 0.259 | 0.777 | ns           |
+| tri.vocab.pos | Historia            | Servico Social |    1.403 |    0.371 |     2.436 | 0.474 |     2.961 | 0.012 | 0.036 | \*           |
+| tri.vocab.pre | Ciencias Biologicas | Historia       |    0.231 |   -0.691 |     1.152 | 0.427 |     0.541 | 0.597 | 1.000 | ns           |
+| tri.vocab.pre | Ciencias Biologicas | Servico Social |    0.228 |   -0.694 |     1.149 | 0.427 |     0.533 | 0.603 | 1.000 | ns           |
+| tri.vocab.pre | Historia            | Servico Social |   -0.003 |   -0.966 |     0.959 | 0.446 |    -0.008 | 0.994 | 1.000 | ns           |
+
+| .y.       | monitor.area        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | Ciencias Biologicas | pre    | pos    |   -0.084 |   -0.937 |     0.770 | 0.419 |    -0.200 | 0.843 | 0.843 | ns           |
+| tri.vocab | Historia            | pre    | pos    |   -1.075 |   -1.971 |    -0.180 | 0.439 |    -2.448 | 0.020 | 0.020 | \*           |
+| tri.vocab | Servico Social      | pre    | pos    |    0.320 |   -0.575 |     1.216 | 0.439 |     0.729 | 0.471 | 0.471 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1377-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1379-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1381-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1383-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1385-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2224,11 +4574,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-542-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1393-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-544-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1395-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-546-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1397-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1399-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1401-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.area        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | Ciencias Biologicas |   6 |  -0.263 |    0.302 |    -0.447 |      0.320 |  -0.582 |    0.295 |
+| tri.vocab.ensinado.pos | Historia            |   5 |  -0.624 |    0.173 |    -0.041 |      0.451 |   0.095 |    0.322 |
+| tri.vocab.ensinado.pos | Servico Social      |   5 |  -0.477 |    0.181 |    -0.630 |      0.233 |  -0.604 |    0.316 |
+
+| .y.                    | group1              | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | Ciencias Biologicas | Historia       |   -0.678 |   -1.649 |     0.294 | 0.446 |    -1.519 | 0.155 | 0.464 | ns           |
+| tri.vocab.ensinado.pos | Ciencias Biologicas | Servico Social |    0.022 |   -0.923 |     0.967 | 0.434 |     0.051 | 0.960 | 1.000 | ns           |
+| tri.vocab.ensinado.pos | Historia            | Servico Social |    0.700 |   -0.280 |     1.679 | 0.449 |     1.557 | 0.146 | 0.437 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas | Historia       |    0.362 |   -0.363 |     1.086 | 0.335 |     1.079 | 0.300 | 0.901 | ns           |
+| tri.vocab.ensinado.pre | Ciencias Biologicas | Servico Social |    0.214 |   -0.511 |     0.938 | 0.335 |     0.637 | 0.535 | 1.000 | ns           |
+| tri.vocab.ensinado.pre | Historia            | Servico Social |   -0.148 |   -0.904 |     0.609 | 0.350 |    -0.422 | 0.680 | 1.000 | ns           |
+
+| .y.                | monitor.area        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | Ciencias Biologicas | pre    | pos    |    0.184 |   -0.596 |     0.965 | 0.383 |     0.481 | 0.634 | 0.634 | ns           |
+| tri.vocab.ensinado | Historia            | pre    | pos    |   -0.558 |   -1.376 |     0.261 | 0.402 |    -1.387 | 0.175 | 0.175 | ns           |
+| tri.vocab.ensinado | Servico Social      | pre    | pos    |    0.244 |   -0.575 |     1.063 | 0.402 |     0.606 | 0.548 | 0.548 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1409-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1411-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1413-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1415-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1417-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2264,11 +4654,51 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-554-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1425-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-556-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1427-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-558-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1429-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1431-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1433-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.area        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas |   6 |  -0.740 |    0.202 |    -0.656 |      0.231 |  -0.666 |    0.258 |
+| tri.vocab.nao.ensinado.pos | Historia            |   5 |  -0.904 |    0.222 |     0.159 |      0.393 |   0.166 |    0.282 |
+| tri.vocab.nao.ensinado.pos | Servico Social      |   5 |  -0.878 |    0.289 |    -1.082 |      0.065 |  -1.078 |    0.281 |
+
+| .y.                        | group1              | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:--------------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas | Historia       |   -0.832 |   -1.669 |     0.005 | 0.384 |    -2.166 | 0.051 | 0.153 | ns           |
+| tri.vocab.nao.ensinado.pos | Ciencias Biologicas | Servico Social |    0.412 |   -0.423 |     1.247 | 0.383 |     1.076 | 0.303 | 0.910 | ns           |
+| tri.vocab.nao.ensinado.pos | Historia            | Servico Social |    1.244 |    0.378 |     2.110 | 0.398 |     3.129 | 0.009 | 0.026 | \*           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas | Historia       |    0.164 |   -0.551 |     0.879 | 0.331 |     0.496 | 0.628 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Ciencias Biologicas | Servico Social |    0.137 |   -0.577 |     0.852 | 0.331 |     0.416 | 0.685 | 1.000 | ns           |
+| tri.vocab.nao.ensinado.pre | Historia            | Servico Social |   -0.026 |   -0.773 |     0.720 | 0.346 |    -0.077 | 0.940 | 1.000 | ns           |
+
+| .y.                    | monitor.area        | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | Ciencias Biologicas | pre    | pos    |   -0.084 |   -0.776 |     0.608 | 0.340 |    -0.248 | 0.806 | 0.806 | ns           |
+| tri.vocab.nao.ensinado | Historia            | pre    | pos    |   -1.066 |   -1.792 |    -0.341 | 0.356 |    -2.994 | 0.005 | 0.005 | \*\*         |
+| tri.vocab.nao.ensinado | Servico Social      | pre    | pos    |    0.143 |   -0.583 |     0.868 | 0.356 |     0.400 | 0.692 | 0.692 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1441-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1443-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1445-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1447-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1449-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -2292,11 +4722,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-566-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1457-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-568-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1459-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-570-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1461-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1463-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1465-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | ensino medio     |  26 |  -0.865 |    0.132 |    -0.646 |      0.150 |  -0.644 |    0.132 |
+| tri.vocab.pos | graduacao        |   6 |  -0.838 |    0.212 |    -0.874 |      0.169 |  -0.884 |    0.274 |
+
+| .y.           | group1       | group2    | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------------|:----------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | ensino medio | graduacao |    0.240 |   -0.382 |     0.861 | 0.304 |     0.789 | 0.437 | 0.437 | ns           |
+| tri.vocab.pre | ensino medio | graduacao |   -0.026 |   -0.627 |     0.574 | 0.294 |    -0.090 | 0.929 | 0.929 | ns           |
+
+| .y.       | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | ensino medio     | pre    | pos    |   -0.263 |   -0.630 |     0.104 | 0.183 |    -1.433 | 0.157 | 0.157 | ns           |
+| tri.vocab | graduacao        | pre    | pos    |    0.036 |   -0.749 |     0.821 | 0.393 |     0.092 | 0.927 | 0.927 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1473-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1475-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1477-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1479-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1481-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2318,11 +4782,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-578-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1489-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-580-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1491-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-582-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1493-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1495-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1497-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | ensino medio     |  26 |  -0.473 |    0.128 |    -0.499 |      0.138 |  -0.501 |    0.131 |
+| tri.vocab.ensinado.pos | graduacao        |   6 |  -0.507 |    0.170 |    -0.709 |      0.195 |  -0.703 |    0.273 |
+
+| .y.                    | group1       | group2    | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------------|:----------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | ensino medio | graduacao |    0.203 |   -0.417 |     0.822 | 0.303 |     0.669 | 0.509 | 0.509 | ns           |
+| tri.vocab.ensinado.pre | ensino medio | graduacao |    0.034 |   -0.540 |     0.609 | 0.281 |     0.121 | 0.904 | 0.904 | ns           |
+
+| .y.                | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | ensino medio     | pre    | pos    |    0.018 |   -0.327 |     0.363 | 0.173 |     0.106 | 0.916 | 0.916 | ns           |
+| tri.vocab.ensinado | graduacao        | pre    | pos    |    0.201 |   -0.537 |     0.940 | 0.370 |     0.545 | 0.588 | 0.588 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1505-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1507-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1509-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1511-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1513-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2344,11 +4842,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-590-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1521-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-592-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1523-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-594-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1525-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1527-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1529-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.formacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:-----------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | ensino medio     |  26 |  -0.819 |    0.094 |    -0.606 |      0.125 |  -0.609 |    0.117 |
+| tri.vocab.nao.ensinado.pos | graduacao        |   6 |  -0.890 |    0.189 |    -0.818 |      0.126 |  -0.804 |    0.244 |
+
+| .y.                        | group1       | group2    | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------------|:----------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | ensino medio | graduacao |    0.195 |   -0.358 |     0.748 | 0.270 |     0.721 | 0.477 | 0.477 | ns           |
+| tri.vocab.nao.ensinado.pre | ensino medio | graduacao |    0.071 |   -0.372 |     0.513 | 0.217 |     0.326 | 0.747 | 0.747 | ns           |
+
+| .y.                    | monitor.formacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-----------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | ensino medio     | pre    | pos    |   -0.272 |   -0.567 |     0.023 | 0.148 |    -1.844 | 0.070 | 0.070 | ns           |
+| tri.vocab.nao.ensinado | graduacao        | pre    | pos    |   -0.072 |   -0.703 |     0.560 | 0.316 |    -0.227 | 0.821 | 0.821 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1537-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1539-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1541-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1543-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1545-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -2372,11 +4904,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-602-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1553-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-604-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1555-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-606-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1557-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1559-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1561-1.png)<!-- -->
+
+### Vocabulario (TRI)
+
+| var           | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:--------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.pos | maior 01 ano        |  21 |  -0.760 |    0.126 |    -0.537 |      0.164 |  -0.574 |    0.143 |
+| tri.vocab.pos | menor 01 ano        |  12 |  -1.032 |    0.202 |    -1.002 |      0.153 |  -0.938 |    0.190 |
+
+| .y.           | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:--------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.pos | maior 01 ano | menor 01 ano |    0.364 |   -0.128 |     0.855 | 0.241 |     1.512 | 0.141 | 0.141 | ns           |
+| tri.vocab.pre | maior 01 ano | menor 01 ano |    0.272 |   -0.189 |     0.733 | 0.226 |     1.204 | 0.238 | 0.238 | ns           |
+
+| .y.       | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:----------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab | maior 01 ano        | pre    | pos    |   -0.273 |   -0.663 |     0.117 | 0.195 |    -1.398 | 0.167 | 0.167 | ns           |
+| tri.vocab | menor 01 ano        | pre    | pos    |   -0.025 |   -0.544 |     0.493 | 0.259 |    -0.098 | 0.922 | 0.922 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1569-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1571-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1573-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1575-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1577-1.png)<!-- -->
 
 ### Vocabulario Ensinado (Acertos)
 
@@ -2398,11 +4964,45 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-614-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1585-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-616-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1587-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-618-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1589-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1591-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1593-1.png)<!-- -->
+
+### Vocabulario Ensinado (TRI)
+
+| var                    | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:-----------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.ensinado.pos | maior 01 ano        |  21 |  -0.420 |    0.135 |    -0.445 |      0.162 |  -0.456 |    0.143 |
+| tri.vocab.ensinado.pos | menor 01 ano        |  12 |  -0.593 |    0.167 |    -0.735 |      0.126 |  -0.715 |    0.190 |
+
+| .y.                    | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado.pos | maior 01 ano | menor 01 ano |    0.259 |   -0.229 |     0.746 | 0.239 |     1.085 | 0.287 | 0.287 | ns           |
+| tri.vocab.ensinado.pre | maior 01 ano | menor 01 ano |    0.173 |   -0.274 |     0.620 | 0.219 |     0.791 | 0.435 | 0.435 | ns           |
+
+| .y.                | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.ensinado | maior 01 ano        | pre    | pos    |   -0.009 |   -0.385 |     0.367 | 0.188 |    -0.047 | 0.963 | 0.963 | ns           |
+| tri.vocab.ensinado | menor 01 ano        | pre    | pos    |    0.192 |   -0.307 |     0.691 | 0.250 |     0.768 | 0.445 | 0.445 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1601-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1603-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1605-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1607-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1609-1.png)<!-- -->
 
 ### Vocabulario Nao Ensinado (Acertos)
 
@@ -2424,8 +5024,42 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-626-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1617-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-628-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1619-1.png)<!-- -->
 
-![](vocabulario-stari_files/figure-gfm/unnamed-chunk-630-1.png)<!-- -->
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1621-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1623-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1625-1.png)<!-- -->
+
+### Vocabulario Nao Ensinado (TRI)
+
+| var                        | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
+|:---------------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+| tri.vocab.nao.ensinado.pos | maior 01 ano        |  21 |  -0.788 |    0.101 |    -0.527 |      0.149 |  -0.537 |    0.125 |
+| tri.vocab.nao.ensinado.pos | menor 01 ano        |  12 |  -0.919 |    0.137 |    -0.893 |      0.075 |  -0.875 |    0.166 |
+
+| .y.                        | group1       | group2       | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:---------------------------|:-------------|:-------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado.pos | maior 01 ano | menor 01 ano |    0.339 |   -0.088 |     0.765 | 0.209 |     1.621 | 0.116 | 0.116 | ns           |
+| tri.vocab.nao.ensinado.pre | maior 01 ano | menor 01 ano |    0.131 |   -0.214 |     0.476 | 0.169 |     0.776 | 0.444 | 0.444 | ns           |
+
+| .y.                    | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
+|:-----------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+| tri.vocab.nao.ensinado | maior 01 ano        | pre    | pos    |   -0.313 |   -0.629 |     0.004 | 0.158 |    -1.974 | 0.053 | 0.053 | ns           |
+| tri.vocab.nao.ensinado | menor 01 ano        | pre    | pos    |   -0.052 |   -0.472 |     0.368 | 0.210 |    -0.246 | 0.806 | 0.806 | ns           |
+
+    ## Scale for colour is already present.
+    ## Adding another scale for colour, which will replace the existing scale.
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1633-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1635-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1637-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1639-1.png)<!-- -->
+
+![](vocabulario-stari_files/figure-gfm/unnamed-chunk-1641-1.png)<!-- -->

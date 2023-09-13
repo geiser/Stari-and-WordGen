@@ -210,6 +210,10 @@ Geiser C. Challco <geiser@alumni.usp.br>
 
 ![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-28-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+
 ### factor: **genero**
 
 | var            | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
@@ -230,11 +234,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-34-1.png)<!-- -->
-
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-36-1.png)<!-- -->
-
 ![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-38-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-40-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-44-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
 
 ### factor: **idade**
 
@@ -256,11 +264,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-54-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-56-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-60-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
 
 ### factor: **zona.participante**
 
@@ -282,11 +294,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-58-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-60-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-62-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-78-1.png)<!-- -->
 
 ### factor: **escola**
 
@@ -314,11 +330,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-70-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-86-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-88-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-90-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
 
 ### factor: **zona.escola**
 
@@ -340,11 +360,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-82-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-102-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-84-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-104-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-86-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-106-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-108-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-110-1.png)<!-- -->
 
 ## Pairwise comparisons for two factors
 
@@ -369,9 +393,13 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | flow.matematica | Controle | M      | pre    | pos    |    0.158 |   -0.271 |     0.588 | 0.214 |     0.740 | 0.463 | 0.463 | ns           |
 | flow.matematica | stari+WG | M      | pre    | pos    |   -0.167 |   -0.559 |     0.225 | 0.195 |    -0.854 | 0.397 | 0.397 | ns           |
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-127-1.png)<!-- -->
 
 ### factores: **grupo:idade**
 
@@ -396,9 +424,13 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | flow.matematica | stari+WG | Urbana            | pre    | pos    |   -0.188 |   -0.799 |     0.424 | 0.302 |    -0.622 | 0.538 | 0.538 | ns           |
 | flow.matematica | stari+WG | Rural             | pre    | pos    |   -0.442 |   -1.112 |     0.228 | 0.330 |    -1.337 | 0.190 | 0.190 | ns           |
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-161-1.png)<!-- -->
 
 ### factores: **grupo:escola**
 
@@ -428,11 +460,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-134-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-170-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-136-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-172-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-138-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-174-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-176-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-178-1.png)<!-- -->
 
 ### factores: **grupo:zona.escola**
 
@@ -455,9 +491,13 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | flow.matematica | stari+WG | Urbana      | pre    | pos    |   -0.307 |   -0.754 |     0.140 | 0.223 |    -1.379 | 0.174 | 0.174 | ns           |
 | flow.matematica | stari+WG | Rural       | pre    | pos    |   -0.256 |   -0.763 |     0.251 | 0.253 |    -1.014 | 0.316 | 0.316 | ns           |
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-189-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
 
 ## Pairwise comparisons for grupo=“Experimental”
 
@@ -487,10 +527,14 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
 
-![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-257-1.png)<!-- -->
+
+![](flow-matematica-stariWordgen_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
 
 ### factores: **grupo=“Experimental”:monitor.experiencia**
