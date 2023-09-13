@@ -53,6 +53,7 @@ library(shiny)
 library(esquisse)
 library(scales)
 library(knitr)
+library(rmarkdown)
 
 library(utils)
 library(ggpubr)
@@ -65,7 +66,6 @@ library(rshinystatistics)
 ```
 
 ```{r, include=FALSE, purl=FALSE}
-library(knitr)
 options(knitr.kable.NA = '')
 opts_chunk$set(echo = FALSE)
 defaultW <- getOption("warn")
@@ -920,6 +920,34 @@ if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "grupo", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "grupo", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -1012,6 +1040,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "grupo", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "grupo", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -1106,6 +1162,34 @@ if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "grupo", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "grupo", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -1198,6 +1282,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "grupo", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "grupo", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -1292,6 +1404,34 @@ if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "grupo", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "grupo", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -1384,6 +1524,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "grupo", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "grupo", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factor: **genero**
 
@@ -1480,6 +1648,34 @@ if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "genero", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["genero"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "genero", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -1572,6 +1768,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "genero", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["genero"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "genero", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -1666,6 +1890,34 @@ if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "genero", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["genero"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "genero", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -1758,6 +2010,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "genero", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["genero"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "genero", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -1852,6 +2132,34 @@ if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "genero", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["genero"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "genero", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -1944,6 +2252,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "genero", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["genero"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "genero", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factor: **idade**
 
@@ -2040,6 +2376,34 @@ if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "idade", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["idade"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "idade", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -2132,6 +2496,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "idade", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["idade"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "idade", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -2226,6 +2618,34 @@ if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "idade", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["idade"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "idade", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -2318,6 +2738,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "idade", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["idade"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "idade", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -2412,6 +2860,34 @@ if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "idade", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["idade"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "idade", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -2504,6 +2980,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "idade", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["idade"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "idade", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factor: **zona.participante**
 
@@ -2600,6 +3104,34 @@ if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "zona.participante", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["zona.participante"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "zona.participante", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -2692,6 +3224,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "zona.participante", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["zona.participante"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "zona.participante", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -2786,6 +3346,34 @@ if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "zona.participante", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["zona.participante"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "zona.participante", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -2878,6 +3466,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "zona.participante", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["zona.participante"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "zona.participante", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -2972,6 +3588,34 @@ if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "zona.participante", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["zona.participante"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "zona.participante", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -3064,6 +3708,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "zona.participante", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["zona.participante"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "zona.participante", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factor: **escola**
 
@@ -3160,6 +3832,34 @@ if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "escola", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["escola"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "escola", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -3252,6 +3952,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "escola", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["escola"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "escola", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -3346,6 +4074,34 @@ if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "escola", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["escola"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "escola", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -3438,6 +4194,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "escola", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["escola"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "escola", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -3532,6 +4316,34 @@ if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "escola", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["escola"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "escola", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -3624,6 +4436,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "escola", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["escola"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "escola", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factor: **zona.escola**
 
@@ -3720,6 +4560,34 @@ if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "zona.escola", aov1[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["zona.escola"]],
+    subtitle = which(aov1[["score.CLPP"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "zona.escola", aov1[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -3812,6 +4680,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "zona.escola", aov1[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["zona.escola"]],
+    subtitle = which(aov1[["score.CR"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "zona.escola", aov1[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -3906,6 +4802,34 @@ if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "zona.escola", aov1[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["zona.escola"]],
+    subtitle = which(aov1[["score.CI"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "zona.escola", aov1[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -3998,6 +4922,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "zona.escola", aov1[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["zona.escola"]],
+    subtitle = which(aov1[["score.TV"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "zona.escola", aov1[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -4092,6 +5044,34 @@ if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "zona.escola", aov1[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["zona.escola"]],
+    subtitle = which(aov1[["score.TF"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "zona.escola", aov1[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -4184,6 +5164,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "zona.escola", aov1[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["zona.escola"]],
+    subtitle = which(aov1[["score.TO"]]$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "zona.escola", aov1[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 # Pairwise comparisons for two factors 
 
@@ -4290,6 +5298,35 @@ if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", c("grupo","genero"), aov2[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.CLPP"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -4389,6 +5426,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CR.pos", c("grupo","genero"), aov2[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.CR"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CR", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -4490,6 +5556,35 @@ if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CI.pos", c("grupo","genero"), aov2[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.CI"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CI", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -4589,6 +5684,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TV.pos", c("grupo","genero"), aov2[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.TV"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TV", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -4690,6 +5814,35 @@ if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TF.pos", c("grupo","genero"), aov2[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.TF"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TF", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -4789,6 +5942,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TO.pos", c("grupo","genero"), aov2[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo:genero"]],
+    subtitle = which(aov2[["score.TO"]]$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TO", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **idade:grupo**
 
@@ -4892,6 +6074,35 @@ if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", c("grupo","idade"), aov2[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.CLPP"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -4991,6 +6202,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CR.pos", c("grupo","idade"), aov2[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.CR"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CR", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -5092,6 +6332,35 @@ if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CI.pos", c("grupo","idade"), aov2[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.CI"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CI", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -5191,6 +6460,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TV.pos", c("grupo","idade"), aov2[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.TV"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TV", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -5292,6 +6590,35 @@ if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TF.pos", c("grupo","idade"), aov2[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.TF"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TF", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -5391,6 +6718,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TO.pos", c("grupo","idade"), aov2[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo:idade"]],
+    subtitle = which(aov2[["score.TO"]]$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TO", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **zona.participante:grupo**
 
@@ -5494,6 +6850,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", c("grupo","zona.participante"), aov2[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.CLPP"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -5593,6 +6978,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CR.pos", c("grupo","zona.participante"), aov2[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.CR"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CR", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -5694,6 +7108,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CI.pos", c("grupo","zona.participante"), aov2[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.CI"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CI", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -5793,6 +7236,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TV.pos", c("grupo","zona.participante"), aov2[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.TV"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TV", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -5894,6 +7366,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TF.pos", c("grupo","zona.participante"), aov2[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.TF"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TF", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -5993,6 +7494,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TO.pos", c("grupo","zona.participante"), aov2[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo:zona.participante"]],
+    subtitle = which(aov2[["score.TO"]]$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TO", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **escola:grupo**
 
@@ -6096,6 +7626,35 @@ if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", c("grupo","escola"), aov2[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.CLPP"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -6195,6 +7754,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CR.pos", c("grupo","escola"), aov2[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.CR"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CR", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -6296,6 +7884,35 @@ if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CI.pos", c("grupo","escola"), aov2[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.CI"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CI", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -6395,6 +8012,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TV.pos", c("grupo","escola"), aov2[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.TV"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TV", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -6496,6 +8142,35 @@ if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TF.pos", c("grupo","escola"), aov2[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.TF"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TF", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -6595,6 +8270,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TO.pos", c("grupo","escola"), aov2[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo:escola"]],
+    subtitle = which(aov2[["score.TO"]]$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TO", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **zona.escola:grupo**
 
@@ -6698,6 +8402,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", c("grupo","zona.escola"), aov2[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.CLPP"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -6797,6 +8530,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CR.pos", c("grupo","zona.escola"), aov2[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.CR"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CR", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -6898,6 +8660,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.CI.pos", c("grupo","zona.escola"), aov2[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.CI"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.CI", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -6997,6 +8788,35 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TV.pos", c("grupo","zona.escola"), aov2[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.TV"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TV", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -7098,6 +8918,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TF.pos", c("grupo","zona.escola"), aov2[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.TF"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TF", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -7198,6 +9047,35 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
 
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "score.TO.pos", c("grupo","zona.escola"), aov2[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["grupo:zona.escola"]],
+    subtitle = which(aov2[["score.TO"]]$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "score.TO", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
+
 # Pairwise comparisons for grupo="Experimental"
 
 
@@ -7296,6 +9174,34 @@ if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "monitor", aov3[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["monitor"]],
+    subtitle = which(aov3[["score.CLPP"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "monitor", aov3[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -7388,6 +9294,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "monitor", aov3[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["monitor"]],
+    subtitle = which(aov3[["score.CR"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "monitor", aov3[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -7482,6 +9416,34 @@ if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "monitor", aov3[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["monitor"]],
+    subtitle = which(aov3[["score.CI"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "monitor", aov3[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -7574,6 +9536,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "monitor", aov3[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["monitor"]],
+    subtitle = which(aov3[["score.TV"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "monitor", aov3[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -7668,6 +9658,34 @@ if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "monitor", aov3[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["monitor"]],
+    subtitle = which(aov3[["score.TF"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "monitor", aov3[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -7760,6 +9778,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "monitor", aov3[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["monitor"]],
+    subtitle = which(aov3[["score.TO"]]$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "monitor", aov3[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **grupo="Experimental":monitor.genero**
 
@@ -7856,6 +9902,34 @@ if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "monitor.genero", aov3[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.CLPP"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "monitor.genero", aov3[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -7948,6 +10022,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "monitor.genero", aov3[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.CR"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "monitor.genero", aov3[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -8042,6 +10144,34 @@ if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "monitor.genero", aov3[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.CI"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "monitor.genero", aov3[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -8134,6 +10264,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "monitor.genero", aov3[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.TV"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "monitor.genero", aov3[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -8228,6 +10386,34 @@ if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "monitor.genero", aov3[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.TF"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "monitor.genero", aov3[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -8320,6 +10506,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "monitor.genero", aov3[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["monitor.genero"]],
+    subtitle = which(aov3[["score.TO"]]$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "monitor.genero", aov3[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **grupo="Experimental":monitor.area**
 
@@ -8416,6 +10630,34 @@ if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "monitor.area", aov3[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["monitor.area"]],
+    subtitle = which(aov3[["score.CLPP"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "monitor.area", aov3[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -8508,6 +10750,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "monitor.area", aov3[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["monitor.area"]],
+    subtitle = which(aov3[["score.CR"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "monitor.area", aov3[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -8602,6 +10872,34 @@ if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "monitor.area", aov3[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["monitor.area"]],
+    subtitle = which(aov3[["score.CI"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "monitor.area", aov3[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -8694,6 +10992,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "monitor.area", aov3[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["monitor.area"]],
+    subtitle = which(aov3[["score.TV"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "monitor.area", aov3[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -8788,6 +11114,34 @@ if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "monitor.area", aov3[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["monitor.area"]],
+    subtitle = which(aov3[["score.TF"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "monitor.area", aov3[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -8880,6 +11234,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "monitor.area", aov3[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["monitor.area"]],
+    subtitle = which(aov3[["score.TO"]]$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "monitor.area", aov3[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **grupo="Experimental":monitor.formacao**
 
@@ -8976,6 +11358,34 @@ if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "monitor.formacao", aov3[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.CLPP"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "monitor.formacao", aov3[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -9068,6 +11478,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "monitor.formacao", aov3[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.CR"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "monitor.formacao", aov3[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -9162,6 +11600,34 @@ if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "monitor.formacao", aov3[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.CI"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "monitor.formacao", aov3[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -9254,6 +11720,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "monitor.formacao", aov3[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.TV"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "monitor.formacao", aov3[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -9348,6 +11842,34 @@ if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "monitor.formacao", aov3[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.TF"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "monitor.formacao", aov3[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -9440,6 +11962,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "monitor.formacao", aov3[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["monitor.formacao"]],
+    subtitle = which(aov3[["score.TO"]]$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "monitor.formacao", aov3[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 
 ## factores: **grupo="Experimental":monitor.experiencia**
 
@@ -9536,6 +12086,34 @@ if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CLPP.pos", "monitor.experiencia", aov3[["score.CLPP"]], pwc$score.CLPP.pos, covar = "score.CLPP.pre",
+    theme = "classic", color = color[["score.CLPP"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.CLPP"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CLPP", "monitor.experiencia", aov3[["score.CLPP"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CLPP"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Leitura de Pseudo-Palavras (Acertos)")
+```
+
+
 ### Correta Regular (Acertos) 
 
 ```{r, include=FALSE}
@@ -9628,6 +12206,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Regular (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CR.pos", "monitor.experiencia", aov3[["score.CR"]], pwc$score.CR.pos, covar = "score.CR.pre",
+    theme = "classic", color = color[["score.CR"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.CR"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Regular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CR", "monitor.experiencia", aov3[["score.CR"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CR"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Regular (Acertos)")
+```
+
 
 ### Correta Irregular (Acertos) 
 
@@ -9722,6 +12328,34 @@ if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Irregular (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.CI.pos", "monitor.experiencia", aov3[["score.CI"]], pwc$score.CI.pos, covar = "score.CI.pre",
+    theme = "classic", color = color[["score.CI"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.CI"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Irregular (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.CI", "monitor.experiencia", aov3[["score.CI"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.CI"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Correta Irregular (Acertos)")
+```
+
+
 ### Trocas Visuais (Acertos) 
 
 ```{r, include=FALSE}
@@ -9814,6 +12448,34 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TV.pos", "monitor.experiencia", aov3[["score.TV"]], pwc$score.TV.pos, covar = "score.TV.pre",
+    theme = "classic", color = color[["score.TV"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.TV"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Visuais (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TV", "monitor.experiencia", aov3[["score.TV"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TV"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Visuais (Acertos)")
+```
+
 
 ### Trocas Fonologicas (Acertos) 
 
@@ -9908,6 +12570,34 @@ if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TF.pos", "monitor.experiencia", aov3[["score.TF"]], pwc$score.TF.pos, covar = "score.TF.pre",
+    theme = "classic", color = color[["score.TF"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.TF"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TF", "monitor.experiencia", aov3[["score.TF"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TF"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Fonologicas (Acertos)")
+```
+
+
 ### Trocas Orograficas (Acertos) 
 
 ```{r, include=FALSE}
@@ -10000,4 +12690,32 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
 ```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "score.TO.pos", "monitor.experiencia", aov3[["score.TO"]], pwc$score.TO.pos, covar = "score.TO.pre",
+    theme = "classic", color = color[["score.TO"]][["monitor.experiencia"]],
+    subtitle = which(aov3[["score.TO"]]$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Orograficas (Acertos)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "score.TO", "monitor.experiencia", aov3[["score.TO"]], pwc.long, pre.post = "time",
+    theme = "classic", color = color[["score.TO"]]$prepost)
+```
+
+```{r, dpi=300, fig.width=12, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("Trocas Orograficas (Acertos)")
+```
+
 

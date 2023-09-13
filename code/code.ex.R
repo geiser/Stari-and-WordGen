@@ -2,7 +2,9 @@ wants <- c('ggplot2','ggpubr','templates','PerformanceAnalytics','utils','random
 has <- wants %in% rownames(installed.packages())
 if (any(!has)) install.packages(wants[!has])
 
+library(knitr)
 library(templates)
+library(markdown)
 
 #### Flow Rmarkdown files generation ####
 
@@ -11,12 +13,12 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
                   list(label = "leitura", ylab="flow (ativ. leitura)"),
                   list(label = "matematica", ylab="flow (prob. matemática)"))) {
   for (info in list(
+    #list(file="../data/data.xlsx", sheet="flow.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+    #     output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen-without-stari.Rmd')),
+    #list(file="../data/data.xlsx", sheet="flow.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+    #     output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')),
     list(file="../data/data.xlsx", sheet="flow.wg", color = "#1984c5", exp.lab = "Experimental",
-         output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen.Rmd')),
-    list(file="../data/data.xlsx", sheet="flow.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-         output=paste0(getwd(),'/code/flow-',vars$label,'-stariWordgen.Rmd')),
-    list(file="../data/data.xlsx", sheet="flow.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-         output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen-without-stari.Rmd')))) {
+         output=paste0(getwd(),'/code/flow-',vars$label,'-wordgen.Rmd')))) {
 
     tfile = "templates/flow.Rmd"
     params = list(
@@ -78,20 +80,20 @@ for (vars in list(list(label = "debate", ylab="flow (debate)"),
 #### Triagem Rmarkdown files generation ####
 
 lapply(list(
+  #list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
+  #     output=paste0(getwd(),'/code/triagem-stari.Rmd')),
+  #list(file="../data/data.xlsx", sheet="triagem.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+  #     output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
+  #list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+  #     output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="triagem.wg", color = "#1984c5", exp.lab = "Experimental",
-       output=paste0(getwd(),'/code/triagem-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.st", color = "#fd7f6f", exp.lab = "Stari",
-       output=paste0(getwd(),'/code/triagem-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-       output=paste0(getwd(),'/code/triagem-stari-without-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="triagem.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-       output=paste0(getwd(),'/code/triagem-stariWordgen.Rmd'))
+       output=paste0(getwd(),'/code/triagem-wordgen.Rmd'))
   ), FUN = function(info) {
     tfile = "templates/learning.Rmd"
     sub = list(
-      palavras.lidas = list(var = "palavras.lidas", ylab="Quant. Palavras Lidas", barplot = TRUE)
-      , score.compreensao = list(var = "score.compreensao", ylab="Compreensao Leitora (Acertos)", barplot = TRUE)
-      #, tri.compreensao = list(var = "tri.compreensao", ylab="Compreensao Leitora (TRI)", barplot = FALSE)
+      palavras.lidas = list(var = "palavras.lidas", ylab="Quant. Palavras Lidas")
+      , score.compreensao = list(var = "score.compreensao", ylab="Compreensao Leitora (Acertos)")
+      , tri.compreensao = list(var = "tri.compreensao", ylab="Compreensao Leitora (TRI)")
     )
     params = list(
       label.en = "Triagem Test - Reading of Words per Minutes and Reading Comprehension",
@@ -165,8 +167,8 @@ lapply(list(
               pivot.key = "time", pivot.value = sub$var,
               aov = paste0("aov2[[\"",sub$var,"\"]]"), ylab = sub$ylab,
               fig.width = 7, fig.height = 7,
-              fig.width.bar = 8, fig.height.bar = 6,
-              fig.width.pbar = 10, fig.height.pbar = 6
+              fig.width.bar = 10, fig.height.bar = 6,
+              fig.width.pbar = 12, fig.height.pbar = 6
             )))
           }))
       )
@@ -200,22 +202,22 @@ lapply(list(
 
 
 for (info in list(
+  #list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
+  #     output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
+  #list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+  #     output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
+  #list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
+  #     output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')),
   list(file="../data/data.xlsx", sheet="vocabulario.wg", color = "#1984c5", exp.lab = "Experimental",
-       output=paste0(getwd(),'/code/vocabulario-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="vocabulario.st", color = "#fd7f6f", exp.lab = "Stari",
-       output=paste0(getwd(),'/code/vocabulario-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="vocabulario.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-       output=paste0(getwd(),'/code/vocabulario-wordgen-without-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="vocabulario.stWG", color = "#5ad45a", exp.lab = "stari+WG",
-       output=paste0(getwd(),'/code/vocabulario-stariWordgen.Rmd')))) {
+       output=paste0(getwd(),'/code/vocabulario-wordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
-    score.vocab = list(var="score.vocab", ylab="Vocabulario (Acertos)", barplot=TRUE)
-    #, tri.vocab = list(var="tri.vocab", ylab="Vocabulario (TRI)", barplot=FALSE)
-    , score.vocab.ensinado = list(var="score.vocab.ensinado", ylab="Vocabulario Ensinado (Acertos)", barplot=TRUE)
-    #, tri.vocab.ensinado = list(var="tri.vocab.ensinado", ylab="Vocabulario Ensinado (TRI)", barplot=FALSE)
-    , score.vocab.nao.ensinado = list(var="score.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (Acertos)", barplot=TRUE)
-    #, tri.vocab.nao.ensinado = list(var="tri.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (TRI)", barplot=FALSE)
+    score.vocab = list(var="score.vocab", ylab="Vocabulario (Acertos)")
+    , tri.vocab = list(var="tri.vocab", ylab="Vocabulario (TRI)")
+    , score.vocab.ensinado = list(var="score.vocab.ensinado", ylab="Vocabulario Ensinado (Acertos)")
+    , tri.vocab.ensinado = list(var="tri.vocab.ensinado", ylab="Vocabulario Ensinado (TRI)")
+    , score.vocab.nao.ensinado = list(var="score.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (Acertos)")
+    , tri.vocab.nao.ensinado = list(var="tri.vocab.nao.ensinado", ylab="Vocabulario Nao Ensinado (TRI)")
   )
   params = list(
     label.en = "Vocabulary Test",
@@ -289,8 +291,8 @@ for (info in list(
             pivot.key = "time", pivot.value = sub$var,
             aov = paste0("aov2[[\"",sub$var,"\"]]"), ylab = sub$ylab,
             fig.width = 7, fig.height = 7,
-            fig.width.bar = 8, fig.height.bar = 6,
-            fig.width.pbar = 10, fig.height.pbar = 6
+            fig.width.bar = 10, fig.height.bar = 6,
+            fig.width.pbar = 12, fig.height.pbar = 6
           )))
         }))
     )
@@ -323,14 +325,14 @@ for (info in list(
 #### Leitura Rmarkdown files generation ####
 
 for (info in list(
+  #list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
+  #     output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')),
+  #list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
+  #     output=paste0(getwd(),'/code/leitura-stari.Rmd')),
+  #list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
+  #     output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
   list(file="../data/data.xlsx", sheet="leitura.wg", color = "#1984c5", exp.lab = "Experimental",
-       output=paste0(getwd(),'/code/leitura-wordgen.Rmd')),
-  list(file="../data/data.xlsx", sheet="leitura.st", color = "#fd7f6f", exp.lab = "Stari",
-       output=paste0(getwd(),'/code/leitura-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="leitura.wg.wo.st", color = "#008000", exp.lab = "WordGen",
-       output=paste0(getwd(),'/code/leitura-wordgen-without-stari.Rmd')),
-  list(file="../data/data.xlsx", sheet="leitura.stWG",color = "#5ad45a", exp.lab = "stari+WG",
-       output=paste0(getwd(),'/code/leitura-stariWordgen.Rmd')))) {
+       output=paste0(getwd(),'/code/leitura-wordgen.Rmd')))) {
   tfile = "templates/learning.Rmd"
   sub = list(
     score.CLPP = list(var="score.CLPP", ylab="Leitura de Pseudo-Palavras (Acertos)", barplot=TRUE)

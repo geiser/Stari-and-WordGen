@@ -52,6 +52,7 @@ library(shiny)
 library(esquisse)
 library(scales)
 library(knitr)
+library(rmarkdown)
 
 library(utils)
 library(ggpubr)
@@ -62,7 +63,6 @@ library(rshinystatistics)
 ```
 
 ```{r, include=FALSE, purl=FALSE}
-library(knitr)
 options(knitr.kable.NA = '')
 opts_chunk$set(echo = FALSE)
 defaultW <- getOption("warn")

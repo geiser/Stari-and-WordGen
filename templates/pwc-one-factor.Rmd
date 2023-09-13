@@ -91,3 +91,30 @@ if (!is.null(pdat))
   plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "{{ dv }}", "{{ iv }}", {{ aov }}, pwc${{ dv }}, covar = "{{ covar }}",
+    theme = "classic", color = color[["{{ iv }}"]],
+    subtitle = which({{ aov }}$Effect == "{{ iv }}"))
+```
+
+```{r, dpi=300, fig.width={{ fig.width.bar }}, fig.height={{ fig.height.bar }}}
+if (!is.null(pdat))
+  plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "{{ pivot.value }}", "{{ iv }}", {{ aov }}, pwc.long, pre.post = "{{ pivot.key }}",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width={{ fig.width.pbar }}, fig.height={{ fig.height.pbar }}}
+if (!is.null(pdat))
+  plots[["{{ iv }}"]] + ggplot2::ylab("{{ ylab }}")
+```
+
+

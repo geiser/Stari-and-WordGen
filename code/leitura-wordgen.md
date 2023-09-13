@@ -1124,6 +1124,10 @@ Geiser C. Challco <geiser@alumni.usp.br>
 
 ![](leitura-wordgen_files/figure-gfm/unnamed-chunk-87-1.png)<!-- -->
 
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-89-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+
 ### Correta Regular (Acertos)
 
 | var          | grupo        |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
@@ -1144,11 +1148,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
-
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
-
 ![](leitura-wordgen_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-103-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-105-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1170,11 +1178,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-107-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-115-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-109-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-111-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1196,11 +1208,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-137-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-139-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1222,11 +1238,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-131-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-133-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-149-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-135-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-151-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-153-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1248,11 +1268,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-143-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-163-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-145-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-165-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-147-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
 
 ## factor: **genero**
 
@@ -1276,11 +1300,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-155-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-157-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-159-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-187-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1302,11 +1330,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-167-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-169-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-197-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-171-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-199-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-201-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1328,11 +1360,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-179-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-211-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-181-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-213-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-183-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1354,11 +1390,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-191-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-195-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-233-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-235-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1380,11 +1420,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-203-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-205-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-245-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-207-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-247-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-249-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1406,11 +1450,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-215-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-259-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-217-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-261-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-265-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
 
 ## factor: **idade**
 
@@ -1448,11 +1496,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-227-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-229-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-231-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-281-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-283-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1498,11 +1550,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-239-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-241-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-293-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-243-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-295-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1548,11 +1604,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-251-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-307-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-253-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-309-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-255-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1598,11 +1658,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-263-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-265-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-267-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-329-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-331-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1648,11 +1712,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-275-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-277-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-341-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-279-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-343-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-345-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1698,11 +1766,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-287-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-355-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-289-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-357-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-291-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
 
 ## factor: **zona.participante**
 
@@ -1726,11 +1798,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-299-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-301-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-303-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-375-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-377-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-379-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1752,11 +1828,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-311-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-313-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-389-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-315-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-391-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-393-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -1778,11 +1858,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-323-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-403-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-325-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-405-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-327-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -1804,11 +1888,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-335-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-337-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-339-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-425-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-427-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -1830,11 +1918,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-347-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-349-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-437-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-351-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-439-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-441-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -1856,11 +1948,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-359-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-451-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-361-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-453-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-363-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
 
 ## factor: **escola**
 
@@ -1920,11 +2016,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-371-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-373-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-469-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-375-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-473-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-475-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -1982,11 +2082,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-383-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-385-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-485-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-387-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-487-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-489-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2044,11 +2148,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-395-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-499-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-397-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-501-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-399-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-503-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2106,11 +2214,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-407-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-409-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-517-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-411-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-519-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-521-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-523-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2168,11 +2280,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-419-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-421-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-533-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-423-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-535-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-537-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-539-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2230,11 +2346,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-431-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-547-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-433-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-549-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-435-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-551-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-553-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
 
 ## factor: **zona.escola**
 
@@ -2258,11 +2378,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-443-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-563-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-445-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-565-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-447-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-567-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-569-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-571-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2284,11 +2408,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-455-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-579-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-457-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-581-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-459-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-583-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-585-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-587-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2310,11 +2438,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-467-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-595-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-469-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-597-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-471-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-599-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-601-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-603-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2336,11 +2468,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-479-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-481-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-613-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-483-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-615-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-617-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-619-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2362,11 +2498,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-491-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-627-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-493-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-629-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-495-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-631-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-633-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2388,11 +2528,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-503-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-643-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-505-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-645-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-507-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-647-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-649-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-651-1.png)<!-- -->
 
 # Pairwise comparisons for two factors
 
@@ -2428,16 +2572,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-515-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-516-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-660-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-518-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-662-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-520-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-664-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-666-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-668-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2469,16 +2617,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-528-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-529-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-677-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-531-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-679-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-533-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-681-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-683-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2510,16 +2662,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-541-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-693-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-542-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-694-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-544-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-696-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-546-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-698-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-700-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2551,16 +2707,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-554-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-555-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-711-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-557-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-713-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-559-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-717-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-719-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -2592,16 +2752,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-567-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-727-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-568-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-728-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-570-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-730-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-572-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-732-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-734-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -2633,16 +2797,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-580-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-744-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-581-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-745-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-583-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-747-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-585-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-751-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-753-1.png)<!-- -->
 
 ## factores: **idade:grupo**
 
@@ -2708,16 +2876,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-593-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-761-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-594-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-762-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-596-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-764-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-598-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-766-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-768-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-770-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -2791,11 +2963,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-607-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-779-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-609-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-781-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-611-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-783-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-785-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-787-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -2869,11 +3045,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-620-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-796-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-622-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-798-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-624-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-800-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -2947,11 +3127,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-633-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-813-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-635-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-637-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-821-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -3025,11 +3209,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-646-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-830-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-648-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-832-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-650-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-834-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-836-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-838-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -3103,11 +3291,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-659-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-847-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-661-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-849-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-663-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-851-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-853-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-855-1.png)<!-- -->
 
 ## factores: **zona.participante:grupo**
 
@@ -3141,16 +3333,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-671-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-863-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-672-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-864-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-674-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-866-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-676-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-868-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-870-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-872-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -3182,16 +3378,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-684-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-880-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-685-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-881-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-687-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-883-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-689-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-885-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-887-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-889-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -3223,16 +3423,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-697-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-698-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-898-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-700-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-900-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-702-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-902-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-904-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-906-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -3264,16 +3468,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-710-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-914-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-711-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-915-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-713-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-917-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-715-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-919-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-921-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-923-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -3305,16 +3513,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-723-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-724-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-932-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-726-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-934-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-728-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-936-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-938-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-940-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -3346,16 +3558,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-736-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-948-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-737-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-949-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-739-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-951-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-741-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-953-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
 
 ## factores: **escola:grupo**
 
@@ -3469,16 +3685,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-749-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-965-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-750-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-966-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-752-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-968-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-754-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-970-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-972-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-974-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -3590,16 +3810,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-762-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-982-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-763-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-983-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-765-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-985-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-767-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-987-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -3711,16 +3935,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-775-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-999-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-776-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1000-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-778-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1002-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-780-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1004-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1006-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1008-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -3832,16 +4060,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-788-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1016-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-789-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1017-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-791-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1019-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-793-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1021-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1023-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -3953,16 +4185,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-801-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1033-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-802-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1034-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-804-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1036-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-806-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1038-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1040-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1042-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -4074,16 +4310,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-814-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1050-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-815-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-817-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-819-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1055-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1057-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1059-1.png)<!-- -->
 
 ## factores: **zona.escola:grupo**
 
@@ -4117,16 +4357,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-827-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1067-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-828-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1068-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-830-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1070-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-832-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1072-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1074-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1076-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -4158,16 +4402,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-840-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1084-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-841-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-843-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-845-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1091-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1093-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -4199,16 +4447,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-853-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-854-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1102-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-856-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1104-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-858-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1106-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1108-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1110-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -4240,16 +4492,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-866-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1118-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-867-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1119-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-869-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-871-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1125-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1127-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -4281,16 +4537,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-879-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-880-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1136-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-882-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1138-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-884-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1140-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1142-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1144-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -4322,16 +4582,20 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-892-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1152-1.png)<!-- -->
 
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-893-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1153-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-895-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1155-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-897-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1157-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1159-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1161-1.png)<!-- -->
 
 # Pairwise comparisons for grupo=“Experimental”
 
@@ -4461,11 +4725,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-905-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-907-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-909-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1173-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1175-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1177-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -4591,11 +4859,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-917-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-919-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1187-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-921-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1189-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1191-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1193-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -4721,11 +4993,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-929-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1201-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-931-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1203-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-933-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1205-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1207-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1209-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -4851,11 +5127,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-941-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-943-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-945-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1221-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1223-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1225-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -4981,11 +5261,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-953-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-955-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1235-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-957-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1237-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1239-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1241-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -5111,11 +5395,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-965-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1249-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-967-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1251-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-969-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1253-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1255-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1257-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.genero**
 
@@ -5139,11 +5427,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-977-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1265-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-979-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1267-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-981-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1269-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1271-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1273-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -5165,11 +5457,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-989-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1281-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-991-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1283-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-993-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1285-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1287-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1289-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -5191,11 +5487,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1001-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1297-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1003-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1299-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1005-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1301-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1303-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1305-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -5217,11 +5517,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1013-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1313-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1015-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1315-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1017-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1317-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1319-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1321-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -5243,11 +5547,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1025-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1329-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1027-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1331-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1029-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1333-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1335-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1337-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -5269,11 +5577,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1037-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1345-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1039-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1347-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1041-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1349-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1351-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1353-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.area**
 
@@ -5381,11 +5693,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1049-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1361-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1051-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1363-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1053-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1365-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1367-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1369-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -5491,11 +5807,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1061-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1377-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1063-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1379-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1065-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1381-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1383-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1385-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -5601,11 +5921,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1073-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1393-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1075-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1395-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1077-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1397-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1399-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1401-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -5711,11 +6035,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1085-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1409-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1087-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1411-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1089-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1413-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1415-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1417-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -5821,11 +6149,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1097-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1425-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1099-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1427-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1101-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1429-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1431-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1433-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -5931,11 +6263,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1109-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1441-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1111-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1443-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1113-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1445-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1447-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1449-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.formacao**
 
@@ -5965,11 +6301,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1121-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1457-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1123-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1459-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1125-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1461-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1463-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1465-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -5997,11 +6337,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1133-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1473-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1135-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1475-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1137-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1477-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1479-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1481-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -6029,11 +6373,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1145-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1489-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1147-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1491-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1149-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1493-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1495-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1497-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -6061,11 +6409,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1157-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1505-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1159-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1507-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1161-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1509-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1511-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1513-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -6093,11 +6445,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1169-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1521-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1171-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1523-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1173-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1525-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1527-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1529-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -6125,11 +6481,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1181-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1537-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1183-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1539-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1185-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1541-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1543-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1545-1.png)<!-- -->
 
 ## factores: **grupo=“Experimental”:monitor.experiencia**
 
@@ -6153,11 +6513,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1193-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1553-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1195-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1555-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1197-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1557-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1559-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1561-1.png)<!-- -->
 
 ### Correta Regular (Acertos)
 
@@ -6179,11 +6543,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1205-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1569-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1207-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1571-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1209-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1573-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1575-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1577-1.png)<!-- -->
 
 ### Correta Irregular (Acertos)
 
@@ -6205,11 +6573,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1217-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1585-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1219-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1587-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1221-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1589-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1591-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1593-1.png)<!-- -->
 
 ### Trocas Visuais (Acertos)
 
@@ -6231,11 +6603,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1229-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1601-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1231-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1603-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1233-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1605-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1607-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1609-1.png)<!-- -->
 
 ### Trocas Fonologicas (Acertos)
 
@@ -6257,11 +6633,15 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1241-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1617-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1243-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1619-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1245-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1621-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1623-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1625-1.png)<!-- -->
 
 ### Trocas Orograficas (Acertos)
 
@@ -6283,8 +6663,12 @@ Geiser C. Challco <geiser@alumni.usp.br>
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1253-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1633-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1255-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1635-1.png)<!-- -->
 
-![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1257-1.png)<!-- -->
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1637-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1639-1.png)<!-- -->
+
+![](leitura-wordgen_files/figure-gfm/unnamed-chunk-1641-1.png)<!-- -->

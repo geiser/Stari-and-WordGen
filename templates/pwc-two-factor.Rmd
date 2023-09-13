@@ -83,8 +83,6 @@ if (!is.null(pdat))
   plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -97,4 +95,29 @@ if (!is.null(pdat))
   plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "{{ dv }}", c("{{ iv1 }}","{{ iv2 }}"), aov2, pwc${{ dv }}, covar = "{{ covar }}",
+    theme = "classic", color = color[["{{ iv1 }}:{{ iv2 }}"]],
+    subtitle = which(aov2$Effect == "{{ iv1 }}:{{ iv2 }}"))
+```
+
+```{r, dpi=300, fig.width={{ fig.width.bar }}, fig.height={{ fig.height.bar }}}
+if (!is.null(pdat))
+  plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "{{ pivot.value }}", c("{{ iv1 }}","{{ iv2 }}"), aov2, pwc.long, pre.post = "{{ pivot.key }}",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width={{ fig.width.pbar }}, fig.height={{ fig.height.pbar }}}
+if (!is.null(pdat))
+  plots[["{{ iv1 }}:{{ iv2 }}"]] + ggplot2::ylab("{{ ylab }}")
+```
 

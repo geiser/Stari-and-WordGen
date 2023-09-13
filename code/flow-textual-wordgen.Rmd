@@ -52,6 +52,7 @@ library(shiny)
 library(esquisse)
 library(scales)
 library(knitr)
+library(rmarkdown)
 
 library(utils)
 library(ggpubr)
@@ -62,7 +63,6 @@ library(rshinystatistics)
 ```
 
 ```{r, include=FALSE, purl=FALSE}
-library(knitr)
 options(knitr.kable.NA = '')
 opts_chunk$set(echo = FALSE)
 defaultW <- getOption("warn")
@@ -332,6 +332,33 @@ if (!is.null(pdat))
   plots[["grupo"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "grupo", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo"]],
+    subtitle = which(aov1$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "grupo", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factor: **genero** 
 
@@ -423,6 +450,33 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["genero"]] + ggplot2::ylab("flow (prod. textual)")
 ```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "genero", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["genero"]],
+    subtitle = which(aov1$Effect == "genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "genero", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["genero"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
 
 
 ### factor: **idade** 
@@ -516,6 +570,33 @@ if (!is.null(pdat))
   plots[["idade"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "idade", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["idade"]],
+    subtitle = which(aov1$Effect == "idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "idade", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["idade"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factor: **zona.participante** 
 
@@ -607,6 +688,33 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["zona.participante"]] + ggplot2::ylab("flow (prod. textual)")
 ```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "zona.participante", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["zona.participante"]],
+    subtitle = which(aov1$Effect == "zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "zona.participante", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.participante"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
 
 
 ### factor: **escola** 
@@ -700,6 +808,33 @@ if (!is.null(pdat))
   plots[["escola"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "escola", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["escola"]],
+    subtitle = which(aov1$Effect == "escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "escola", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["escola"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factor: **zona.escola** 
 
@@ -792,6 +927,33 @@ if (!is.null(pdat))
   plots[["zona.escola"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "zona.escola", aov1, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["zona.escola"]],
+    subtitle = which(aov1$Effect == "zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "zona.escola", aov1, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["zona.escola"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 ## Pairwise comparisons for two factors
 
 
@@ -879,8 +1041,6 @@ if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -893,6 +1053,31 @@ if (!is.null(pdat))
   plots[["grupo:genero"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "fss.textual", c("grupo","genero"), aov2, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:genero"]],
+    subtitle = which(aov2$Effect == "grupo:genero"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "flow.textual", c("grupo","genero"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (prod. textual)")
+```
 
 
 ### factores: **grupo:idade**
@@ -978,8 +1163,6 @@ if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -992,6 +1175,31 @@ if (!is.null(pdat))
   plots[["grupo:idade"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "fss.textual", c("grupo","idade"), aov2, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:idade"]],
+    subtitle = which(aov2$Effect == "grupo:idade"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "flow.textual", c("grupo","idade"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:idade"]] + ggplot2::ylab("flow (prod. textual)")
+```
 
 
 ### factores: **grupo:zona.participante**
@@ -1077,8 +1285,6 @@ if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -1091,6 +1297,31 @@ if (!is.null(pdat))
   plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "fss.textual", c("grupo","zona.participante"), aov2, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:zona.participante"]],
+    subtitle = which(aov2$Effect == "grupo:zona.participante"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "flow.textual", c("grupo","zona.participante"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (prod. textual)")
+```
 
 
 ### factores: **grupo:escola**
@@ -1176,8 +1407,6 @@ if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -1190,6 +1419,31 @@ if (!is.null(pdat))
   plots[["grupo:escola"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "fss.textual", c("grupo","escola"), aov2, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:escola"]],
+    subtitle = which(aov2$Effect == "grupo:escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "flow.textual", c("grupo","escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:escola"]] + ggplot2::ylab("flow (prod. textual)")
+```
 
 
 ### factores: **grupo:zona.escola**
@@ -1275,8 +1529,6 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
 ```
 
-
-
 ```{r}
 if (!is.null(pdat))
   plots <- twoWayAncovaBarPlots(
@@ -1289,6 +1541,31 @@ if (!is.null(pdat))
   plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat, "fss.textual", c("grupo","zona.escola"), aov2, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:zona.escola"]],
+    subtitle = which(aov2$Effect == "grupo:zona.escola"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+```{r}
+if (!is.null(pdat))
+  plots <- twoWayAncovaBoxPlots(
+    pdat.long, "flow.textual", c("grupo","zona.escola"), aov2, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (!is.null(pdat))
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (prod. textual)")
+```
 
 ## Pairwise comparisons for grupo="Experimental"
 
@@ -1385,6 +1662,33 @@ if (!is.null(pdat))
   plots[["monitor"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "monitor", aov3, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["monitor"]],
+    subtitle = which(aov3$Effect == "monitor"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "monitor", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factores: **grupo="Experimental":monitor.genero** 
 
@@ -1476,6 +1780,33 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.genero"]] + ggplot2::ylab("flow (prod. textual)")
 ```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "monitor.genero", aov3, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["monitor.genero"]],
+    subtitle = which(aov3$Effect == "monitor.genero"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "monitor.genero", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.genero"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
 
 
 ### factores: **grupo="Experimental":monitor.area** 
@@ -1569,6 +1900,33 @@ if (!is.null(pdat))
   plots[["monitor.area"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "monitor.area", aov3, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["monitor.area"]],
+    subtitle = which(aov3$Effect == "monitor.area"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "monitor.area", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.area"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factores: **grupo="Experimental":monitor.formacao** 
 
@@ -1661,6 +2019,33 @@ if (!is.null(pdat))
   plots[["monitor.formacao"]] + ggplot2::ylab("flow (prod. textual)")
 ```
 
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "monitor.formacao", aov3, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["monitor.formacao"]],
+    subtitle = which(aov3$Effect == "monitor.formacao"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "monitor.formacao", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.formacao"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
+
 
 ### factores: **grupo="Experimental":monitor.experiencia** 
 
@@ -1752,4 +2137,31 @@ if (!is.null(pdat))
 if (!is.null(pdat))
   plots[["monitor.experiencia"]] + ggplot2::ylab("flow (prod. textual)")
 ```
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat, "fss.textual", "monitor.experiencia", aov3, pwc$fss.textual, covar = "dfs.textual",
+    theme = "classic", color = color[["monitor.experiencia"]],
+    subtitle = which(aov3$Effect == "monitor.experiencia"))
+```
+
+```{r, dpi=300, fig.width=9, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("flow (prod. textual)") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (!is.null(pdat))
+  plots <- oneWayAncovaBoxPlots(
+    pdat.long, "flow.textual", "monitor.experiencia", aov3, pwc.long, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=15, fig.height=6}
+if (!is.null(pdat))
+  plots[["monitor.experiencia"]] + ggplot2::ylab("flow (prod. textual)")
+```
+
 
