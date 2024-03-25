@@ -1,0 +1,1049 @@
+---
+title: "ANCOVA in flow (math) (flow (math))"
+author: Geiser C. Challco <geiser@alumni.usp.br>
+comment: Teste ANCOVA para determinar se houve diferenças significativas
+         na flow (math) (medido usando pre- e pos-testes).
+         
+         ANCOVA test to determine whether there were significant differences
+         in flow (math) (measured using pre- and post-tests).
+         
+         Author - Geiser C. Challco <geiser@alumni.usp.br>
+         
+         Shiny-Statistic is distributed in the hope that it will be useful,
+         but WITHOUT ANY WARRANTY; without even the implied warranty of
+         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         GNU General Public License for more details.
+         
+         You should have received a copy of the GNU General Public License.
+         This file is  generate using Shiny-Statistic app (https://github.com/geiser/rshinystatistics)
+         If not, see <https://www.gnu.org/licenses/>.
+output:
+  github_document:
+    toc: true
+  word_document:
+    toc: true
+  html_document:
+    toc: true
+fontsize: 10pt
+---
+
+
+**NOTE**:
+
+ - Teste ANCOVA para determinar se houve diferenças significativas
+no flow (math) (medido usando pre- e pos-testes).
+ - ANCOVA test to determine whether there were significant differences
+in flow (math) (measured using pre- and post-tests).
+
+
+```{r setup, include=FALSE}
+# Install and Load Packages
+if (!'remotes' %in% rownames(installed.packages())) install.packages('remotes')
+if (!"rshinystatistics" %in% rownames(installed.packages())) {
+  remotes::install_github("geiser/rshinystatistics")
+} else if (packageVersion("rshinystatistics") < "0.0.0.9900") {
+  remotes::install_github("geiser/rshinystatistics")
+}
+
+wants <- c('ggplot2','ggpubr','rshinystatistics','utils','randomcoloR')
+has <- wants %in% rownames(installed.packages())
+if (any(!has)) install.packages(wants[!has])
+
+library(readxl)
+
+library(shiny)
+library(esquisse)
+library(scales)
+library(knitr)
+library(rmarkdown)
+
+library(utils)
+library(ggpubr)
+library(ggplot2)
+library(randomcoloR)
+
+library(dplyr)
+
+library(rstatix)
+library(rshinystatistics)
+```
+
+```{r, include=FALSE, purl=FALSE}
+options(knitr.kable.NA = '')
+```
+
+# Setting Initial Variables
+
+```{r}
+dv = "flow.math"
+dv.pos = "fss.matematica"
+dv.pre = "dfs.matematica"
+
+fatores2 <- c("genero","zona.participante","zona.escola")
+lfatores2 <- as.list(fatores2)
+names(lfatores2) <- fatores2
+
+fatores1 <- c("grupo", fatores2)
+lfatores1 <- as.list(fatores1)
+names(lfatores1) <- fatores1
+
+lfatores <- c(lfatores1)
+
+color <- list()
+color[["prepost"]] = c("#ffee65","#f28e2B")
+color[["grupo"]] = c("#bcbd22","#fd7f6f")
+color[["genero"]] = c("#FF007F","#4D4DFF")
+color[["zona.escola"]] = c("#AA00FF","#00CCCC")
+color[["zona.participante"]] = c("#AA00FF","#00CCCC")
+
+level <- list()
+level[["grupo"]] = c("Controle","Experimental")
+level[["genero"]] = c("F","M")
+level[["zona.escola"]] = c("Rural","Urbana")
+level[["zona.participante"]] = c("Rural","Urbana")
+
+# ..
+
+ymin <- 0
+ymax <- 0
+
+ymin.ci <- 0
+ymax.ci <- 0
+
+
+color[["grupo:genero"]] = c(
+  "Controle:F"="#ff99cb", "Controle:M"="#b7b7ff",
+  "Experimental:F"="#FF007F", "Experimental:M"="#4D4DFF",
+  "Controle.F"="#ff99cb", "Controle.M"="#b7b7ff",
+  "Experimental.F"="#FF007F", "Experimental.M"="#4D4DFF"
+)
+color[["grupo:zona.escola"]] = c(
+  "Controle:Rural"="#b2efef","Controle:Urbana"="#e5b2ff",
+  "Experimental:Rural"="#00CCCC", "Experimental:Urbana"="#AA00FF",
+  "Controle.Rural"="#b2efef","Controle.Urbana"="#e5b2ff",
+  "Experimental.Rural"="#00CCCC", "Experimental.Urbana"="#AA00FF"
+)
+color[["grupo:zona.participante"]] = c(
+  "Controle:Rural"="#b2efef","Controle:Urbana"="#e5b2ff",
+  "Experimental:Rural"="#00CCCC", "Experimental:Urbana"="#AA00FF",
+  "Controle.Rural"="#b2efef","Controle.Urbana"="#e5b2ff",
+  "Experimental.Rural"="#00CCCC", "Experimental.Urbana"="#AA00FF"
+)
+
+for (coln in c(
+  "palavras.lidas","score.compreensao","tri.compreensao",
+  "score.vocab","tri.vocab",
+  "score.vocab.ensinado","tri.vocab.ensinado","score.vocab.nao.ensinado","tri.vocab.nao.ensinado",
+  "score.CLPP","tri.CLPP","score.CR","tri.CR",
+  "score.CI","tri.CI","score.TV","tri.TV","score.TF","tri.TF","score.TO","tri.TO")) {
+  color[[paste0(coln,".quintile")]] = c("#BF0040","#FF0000","#800080","#0000FF","#4000BF")
+  level[[paste0(coln,".quintile")]] = c("1st quintile","2nd quintile","3rd quintile","4th quintile","5th quintile")
+  color[[paste0("grupo:",coln,".quintile")]] = c(
+    "Experimental.1st quintile"="#BF0040", "Controle.1st quintile"="#d8668c",
+    "Experimental.2nd quintile"="#FF0000", "Controle.2nd quintile"="#ff7f7f",
+    "Experimental.3rd quintile"="#8fce00", "Controle.3rd quintile"="#ddf0b2",
+    "Experimental.4th quintile"="#0000FF", "Controle.4th quintile"="#b2b2ff",
+    "Experimental.5th quintile"="#4000BF", "Controle.5th quintile"="#b299e5",
+    
+    "Experimental:1st quintile"="#BF0040", "Controle:1st quintile"="#d8668c",
+    "Experimental:2nd quintile"="#FF0000", "Controle:2nd quintile"="#ff7f7f",
+    "Experimental:3rd quintile"="#8fce00", "Controle:3rd quintile"="#ddf0b2",
+    "Experimental:4th quintile"="#0000FF", "Controle:4th quintile"="#b2b2ff",
+    "Experimental:5th quintile"="#4000BF", "Controle:5th quintile"="#b299e5")
+}
+
+
+gdat <- read_excel("../data/data.xlsx", sheet = "flow.st")
+
+
+
+dat <- gdat
+dat$grupo <- factor(dat[["grupo"]], level[["grupo"]])
+for (coln in c(names(lfatores))) {
+  dat[[coln]] <- factor(dat[[coln]], level[[coln]][level[[coln]] %in% unique(dat[[coln]])])
+}
+dat <- dat[which(!is.na(dat[[dv.pre]]) & !is.na(dat[[dv.pos]])),]
+dat <- dat[,c("id",names(lfatores),dv.pre,dv.pos)]
+
+dat.long <- rbind(dat, dat)
+dat.long$time <- c(rep("pre", nrow(dat)), rep("pos", nrow(dat)))
+dat.long$time <- factor(dat.long$time, c("pre","pos"))
+dat.long[[dv]] <- c(dat[[dv.pre]], dat[[dv.pos]])
+
+
+for (f in c("grupo", names(lfatores))) {
+  if (is.null(color[[f]]) && length(unique(dat[[f]])) > 0) 
+      color[[f]] <- distinctColorPalette(length(unique(dat[[f]])))
+}
+for (f in c(fatores2)) {
+  if (is.null(color[[paste0("grupo:",f)]]) && length(unique(dat[[f]])) > 0)
+    color[[paste0("grupo:",f)]] <- distinctColorPalette(length(unique(dat[["grupo"]]))*length(unique(dat[[f]])))
+}
+
+ldat <- list()
+laov <- list()
+lpwc <- list()
+lemms <- list()
+```
+
+# Descriptive Statistics of Initial Data
+
+```{r}
+df <- get.descriptives(dat, c(dv.pre, dv.pos), c("grupo"), 
+                       include.global = T, symmetry.test = T, normality.test = F)
+df <- plyr::rbind.fill(
+  df, do.call(plyr::rbind.fill, lapply(lfatores2, FUN = function(f) {
+    if (nrow(dat) > 0 && sum(!is.na(unique(dat[[f]]))) > 1)
+      get.descriptives(dat, c(dv.pre,dv.pos), c("grupo", f),
+                       symmetry.test = T, normality.test = F)
+    }))
+)
+df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
+            colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+# ANCOVA and Pairwise for one factor: **grupo**
+
+## Without remove non-normal data
+
+```{r}
+pdat = remove_group_data(dat[!is.na(dat[["grupo"]]),], "fss.matematica", "grupo")
+
+pdat.long <- rbind(pdat[,c("id","grupo")], pdat[,c("id","grupo")])
+pdat.long[["time"]] <- c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat)))
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+pdat.long[["flow.math"]] <- c(pdat[["dfs.matematica"]], pdat[["fss.matematica"]])
+
+aov = anova_test(pdat, fss.matematica ~ dfs.matematica + grupo)
+laov[["grupo"]] <- get_anova_table(aov)
+```
+
+
+```{r}
+pwc <- emmeans_test(pdat, fss.matematica ~ grupo, covariate = dfs.matematica,
+                    p.adjust.method = "bonferroni")
+```
+
+```{r}
+pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, "grupo"),
+                          flow.math ~ time,
+                          p.adjust.method = "bonferroni")
+lpwc[["grupo"]] <- plyr::rbind.fill(pwc, pwc.long)
+```
+
+```{r}
+ds <- get.descriptives(pdat, "fss.matematica", "grupo", covar = "dfs.matematica")
+ds <- merge(ds[ds$variable != "dfs.matematica",],
+            ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+            by = "grupo", all.x = T, suffixes = c("", ".dfs.matematica"))
+ds <- merge(get_emmeans(pwc), ds, by = "grupo", suffixes = c(".emms", ""))
+ds <- ds[,c("grupo","n","mean.dfs.matematica","se.dfs.matematica","mean","se",
+            "emmean","se.emms","conf.low","conf.high")]
+
+colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
+                  paste0(c("M","SE"), " (unadj)"),
+                  paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+
+lemms[["grupo"]] <- ds
+```
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+```{r}
+wdat = pdat 
+
+res = residuals(lm(fss.matematica ~ dfs.matematica + grupo, data = wdat))
+non.normal = getNonNormal(res, wdat$id, plimit = 0.05)
+
+wdat = wdat[!wdat$id %in% non.normal,]
+
+wdat.long <- rbind(wdat[,c("id","grupo")], wdat[,c("id","grupo")])
+wdat.long[["time"]] <- c(rep("pre", nrow(wdat)), rep("pos", nrow(wdat)))
+wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+wdat.long[["flow.math"]] <- c(wdat[["dfs.matematica"]], wdat[["fss.matematica"]])
+
+ldat[["grupo"]] = wdat
+
+(non.normal)
+```
+
+```{r}
+aov = anova_test(wdat, fss.matematica ~ dfs.matematica + grupo)
+laov[["grupo"]] <- merge(get_anova_table(aov), laov[["grupo"]],
+                            by="Effect", suffixes = c("","'"))
+
+(df = get_anova_table(aov))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+```{r}
+pwc <- emmeans_test(wdat, fss.matematica ~ grupo, covariate = dfs.matematica,
+                    p.adjust.method = "bonferroni")
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(pwc, digits = 3)
+```
+
+```{r}
+pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, "grupo"),
+                         flow.math ~ time,
+                         p.adjust.method = "bonferroni")
+lpwc[["grupo"]] <- merge(plyr::rbind.fill(pwc, pwc.long), lpwc[["grupo"]],
+                            by=c("grupo","term",".y.","group1","group2"),
+                            suffixes = c("","'"))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(pwc.long, digits = 3)
+```
+
+
+```{r}
+ds <- get.descriptives(wdat, "fss.matematica", "grupo", covar = "dfs.matematica")
+ds <- merge(ds[ds$variable != "dfs.matematica",],
+            ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+            by = "grupo", all.x = T, suffixes = c("", ".dfs.matematica"))
+ds <- merge(get_emmeans(pwc), ds, by = "grupo", suffixes = c(".emms", ""))
+ds <- ds[,c("grupo","n","mean.dfs.matematica","se.dfs.matematica","mean","se",
+            "emmean","se.emms","conf.low","conf.high")]
+
+colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
+                  paste0(c("M","SE"), " (unadj)"),
+                  paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+
+lemms[["grupo"]] <- merge(ds, lemms[["grupo"]], by=c("grupo"), suffixes = c("","'"))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(ds, digits = 3)
+```
+
+
+### Plots for ancova
+
+```{r}
+plots <- oneWayAncovaPlots(
+  wdat, "fss.matematica", "grupo", aov, list("grupo"=pwc), addParam = c("mean_ci"),
+  font.label.size=10, step.increase=0.05, p.label="p.adj",
+  subtitle = which(aov$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(nrow(plots[["grupo"]]$data)))
+  plots[["grupo"]] + ggplot2::ylab("flow (math)") + 
+  if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+```
+
+
+```{r}
+plots <- oneWayAncovaBoxPlots(
+  wdat, "fss.matematica", "grupo", aov, pwc, covar = "dfs.matematica",
+  theme = "classic", color = color[["grupo"]],
+  subtitle = which(aov$Effect == "grupo"))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (length(unique(wdat[["grupo"]])) > 1)
+  plots[["grupo"]] + ggplot2::ylab("flow (math)") +
+  ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+
+```{r}
+if (length(unique(wdat.long[["grupo"]])) > 1)
+  plots <- oneWayAncovaBoxPlots(
+    wdat.long, "flow.math", "grupo", aov, pwc.long,
+    pre.post = "time", theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (length(unique(wdat.long[["grupo"]])) > 1)
+  plots[["grupo"]] + ggplot2::ylab("flow (math)") +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax) 
+```
+
+
+### Checking linearity assumption
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+          color = "grupo", add = "reg.line")+
+  stat_regline_equation(
+    aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)
+  ) +
+  ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo"))) +
+  ggplot2::scale_color_manual(values = color[["grupo"]]) +
+  ggplot2::ylab("flow (math)")  +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+### Checking normality and homogeneity
+
+```{r}
+res <- augment(lm(fss.matematica ~ dfs.matematica + grupo, data = wdat))
+```
+
+```{r}
+shapiro_test(res$.resid)
+```
+
+```{r}
+levene_test(res, .resid ~ grupo)
+```
+
+
+# ANCOVA and Pairwise for two factors **grupo:genero**
+
+## Without remove non-normal data
+
+```{r}
+pdat = remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["genero"]]),],
+                         "fss.matematica", c("grupo","genero"))
+pdat = pdat[pdat[["genero"]] %in% do.call(
+  intersect, lapply(unique(pdat[["grupo"]]), FUN = function(x) {
+    unique(pdat[["genero"]][which(pdat[["grupo"]] == x)])
+  })),]
+pdat[["grupo"]] = factor(pdat[["grupo"]], level[["grupo"]])
+pdat[["genero"]] = factor(
+  pdat[["genero"]],
+  level[["genero"]][level[["genero"]] %in% unique(pdat[["genero"]])])
+
+pdat.long <- rbind(pdat[,c("id","grupo","genero")], pdat[,c("id","grupo","genero")])
+pdat.long[["time"]] <- c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat)))
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+pdat.long[["flow.math"]] <- c(pdat[["dfs.matematica"]], pdat[["fss.matematica"]])
+
+if (length(unique(pdat[["genero"]])) >= 2) {
+  aov = anova_test(pdat, fss.matematica ~ dfs.matematica + grupo*genero)
+  laov[["grupo:genero"]] <- get_anova_table(aov)
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["genero"]] <- emmeans_test(
+    group_by(pdat, grupo), fss.matematica ~ genero,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(pdat, genero), fss.matematica ~ grupo,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["genero"]])
+  pwc <- pwc[,c("grupo","genero", colnames(pwc)[!colnames(pwc) %in% c("grupo","genero")])]
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, c("grupo","genero")),
+                           flow.math ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:genero"]] <- plyr::rbind.fill(pwc, pwc.long)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ds <- get.descriptives(pdat, "fss.matematica", c("grupo","genero"), covar = "dfs.matematica")
+  ds <- merge(ds[ds$variable != "dfs.matematica",],
+              ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+              by = c("grupo","genero"), all.x = T, suffixes = c("", ".dfs.matematica"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","genero"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","genero","n","mean.dfs.matematica","se.dfs.matematica","mean","se",
+              "emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","genero", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:genero"]] <- ds
+}
+```
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  wdat = pdat 
+  
+  res = residuals(lm(fss.matematica ~ dfs.matematica + grupo*genero, data = wdat))
+  non.normal = getNonNormal(res, wdat$id, plimit = 0.05)
+  
+  wdat = wdat[!wdat$id %in% non.normal,]
+  
+  wdat.long <- rbind(wdat[,c("id","grupo","genero")], wdat[,c("id","grupo","genero")])
+  wdat.long[["time"]] <- c(rep("pre", nrow(wdat)), rep("pos", nrow(wdat)))
+  wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+  wdat.long[["flow.math"]] <- c(wdat[["dfs.matematica"]], wdat[["fss.matematica"]])
+  
+  
+  ldat[["grupo:genero"]] = wdat
+  
+  (non.normal)
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  aov = anova_test(wdat, fss.matematica ~ dfs.matematica + grupo*genero)
+  laov[["grupo:genero"]] <- merge(get_anova_table(aov), laov[["grupo:genero"]],
+                                         by="Effect", suffixes = c("","'"))
+  df = get_anova_table(aov)
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  kable(df, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["genero"]] <- emmeans_test(
+    group_by(wdat, grupo), fss.matematica ~ genero,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(wdat, genero), fss.matematica ~ grupo,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["genero"]])
+  pwc <- pwc[,c("grupo","genero", colnames(pwc)[!colnames(pwc) %in% c("grupo","genero")])]
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  kable(pwc, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, c("grupo","genero")),
+                           flow.math ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:genero"]] <- merge(plyr::rbind.fill(pwc, pwc.long),
+                                         lpwc[["grupo:genero"]],
+                                         by=c("grupo","genero","term",".y.","group1","group2"),
+                                         suffixes = c("","'"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  kable(pwc.long, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ds <- get.descriptives(wdat, "fss.matematica", c("grupo","genero"), covar = "dfs.matematica")
+  ds <- merge(ds[ds$variable != "dfs.matematica",],
+              ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+              by = c("grupo","genero"), all.x = T, suffixes = c("", ".dfs.matematica"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","genero"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","genero","n","mean.dfs.matematica","se.dfs.matematica",
+              "mean","se","emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","genero", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:genero"]] <- merge(ds, lemms[["grupo:genero"]],
+                                          by=c("grupo","genero"), suffixes = c("","'"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["genero"]])) >= 2)
+  kable(ds, digits = 3)
+```
+
+
+### Plots for ancova
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ggPlotAoC2(pwcs, "grupo", "genero", aov, ylab = "flow (math)",
+             subtitle = which(aov$Effect == "grupo:genero"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["genero"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ggPlotAoC2(pwcs, "genero", "grupo", aov, ylab = "flow (math)",
+               subtitle = which(aov$Effect == "grupo:genero"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat, "fss.matematica", c("grupo","genero"), aov, pwcs, covar = "dfs.matematica",
+    theme = "classic", color = color[["grupo:genero"]],
+    subtitle = which(aov$Effect == "grupo:genero"))
+}
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (math)") +
+  ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat.long, "flow.math", c("grupo","genero"), aov, pwc.long,
+    pre.post = "time",
+    theme = "classic", color = color$prepost)
+}
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (length(unique(pdat[["genero"]])) >= 2) 
+  plots[["grupo:genero"]] + ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+
+### Checking linearity assumption
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            facet.by = c("grupo","genero"), add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"))
+    ) + ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            color = "grupo", facet.by = "genero", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:genero"))) +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["genero"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            color = "genero", facet.by = "grupo", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = genero)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:genero"))) +
+    ggplot2::scale_color_manual(values = color[["genero"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+### Checking normality and homogeneity
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) 
+  res <- augment(lm(fss.matematica ~ dfs.matematica + grupo*genero, data = wdat))
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2)
+  shapiro_test(res$.resid)
+```
+
+```{r}
+if (length(unique(pdat[["genero"]])) >= 2) 
+  levene_test(res, .resid ~ grupo*genero)
+```
+
+
+# ANCOVA and Pairwise for two factors **grupo:zona.participante**
+
+## Without remove non-normal data
+
+```{r}
+pdat = remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["zona.participante"]]),],
+                         "fss.matematica", c("grupo","zona.participante"))
+pdat = pdat[pdat[["zona.participante"]] %in% do.call(
+  intersect, lapply(unique(pdat[["grupo"]]), FUN = function(x) {
+    unique(pdat[["zona.participante"]][which(pdat[["grupo"]] == x)])
+  })),]
+pdat[["grupo"]] = factor(pdat[["grupo"]], level[["grupo"]])
+pdat[["zona.participante"]] = factor(
+  pdat[["zona.participante"]],
+  level[["zona.participante"]][level[["zona.participante"]] %in% unique(pdat[["zona.participante"]])])
+
+pdat.long <- rbind(pdat[,c("id","grupo","zona.participante")], pdat[,c("id","grupo","zona.participante")])
+pdat.long[["time"]] <- c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat)))
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+pdat.long[["flow.math"]] <- c(pdat[["dfs.matematica"]], pdat[["fss.matematica"]])
+
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  aov = anova_test(pdat, fss.matematica ~ dfs.matematica + grupo*zona.participante)
+  laov[["grupo:zona.participante"]] <- get_anova_table(aov)
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.participante"]] <- emmeans_test(
+    group_by(pdat, grupo), fss.matematica ~ zona.participante,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(pdat, zona.participante), fss.matematica ~ grupo,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.participante"]])
+  pwc <- pwc[,c("grupo","zona.participante", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.participante")])]
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, c("grupo","zona.participante")),
+                           flow.math ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.participante"]] <- plyr::rbind.fill(pwc, pwc.long)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ds <- get.descriptives(pdat, "fss.matematica", c("grupo","zona.participante"), covar = "dfs.matematica")
+  ds <- merge(ds[ds$variable != "dfs.matematica",],
+              ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.participante"), all.x = T, suffixes = c("", ".dfs.matematica"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.participante"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.participante","n","mean.dfs.matematica","se.dfs.matematica","mean","se",
+              "emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.participante", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.participante"]] <- ds
+}
+```
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  wdat = pdat 
+  
+  res = residuals(lm(fss.matematica ~ dfs.matematica + grupo*zona.participante, data = wdat))
+  non.normal = getNonNormal(res, wdat$id, plimit = 0.05)
+  
+  wdat = wdat[!wdat$id %in% non.normal,]
+  
+  wdat.long <- rbind(wdat[,c("id","grupo","zona.participante")], wdat[,c("id","grupo","zona.participante")])
+  wdat.long[["time"]] <- c(rep("pre", nrow(wdat)), rep("pos", nrow(wdat)))
+  wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+  wdat.long[["flow.math"]] <- c(wdat[["dfs.matematica"]], wdat[["fss.matematica"]])
+  
+  
+  ldat[["grupo:zona.participante"]] = wdat
+  
+  (non.normal)
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  aov = anova_test(wdat, fss.matematica ~ dfs.matematica + grupo*zona.participante)
+  laov[["grupo:zona.participante"]] <- merge(get_anova_table(aov), laov[["grupo:zona.participante"]],
+                                         by="Effect", suffixes = c("","'"))
+  df = get_anova_table(aov)
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  kable(df, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.participante"]] <- emmeans_test(
+    group_by(wdat, grupo), fss.matematica ~ zona.participante,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(wdat, zona.participante), fss.matematica ~ grupo,
+    covariate = dfs.matematica, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.participante"]])
+  pwc <- pwc[,c("grupo","zona.participante", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.participante")])]
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  kable(pwc, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, c("grupo","zona.participante")),
+                           flow.math ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.participante"]] <- merge(plyr::rbind.fill(pwc, pwc.long),
+                                         lpwc[["grupo:zona.participante"]],
+                                         by=c("grupo","zona.participante","term",".y.","group1","group2"),
+                                         suffixes = c("","'"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  kable(pwc.long, digits = 3)
+}
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ds <- get.descriptives(wdat, "fss.matematica", c("grupo","zona.participante"), covar = "dfs.matematica")
+  ds <- merge(ds[ds$variable != "dfs.matematica",],
+              ds[ds$variable == "dfs.matematica", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.participante"), all.x = T, suffixes = c("", ".dfs.matematica"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.participante"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.participante","n","mean.dfs.matematica","se.dfs.matematica",
+              "mean","se","emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.participante", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.participante"]] <- merge(ds, lemms[["grupo:zona.participante"]],
+                                          by=c("grupo","zona.participante"), suffixes = c("","'"))
+}
+```
+
+```{r, echo=FALSE, purl=FALSE}
+if (length(unique(pdat[["zona.participante"]])) >= 2)
+  kable(ds, digits = 3)
+```
+
+
+### Plots for ancova
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggPlotAoC2(pwcs, "grupo", "zona.participante", aov, ylab = "flow (math)",
+             subtitle = which(aov$Effect == "grupo:zona.participante"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["zona.participante"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggPlotAoC2(pwcs, "zona.participante", "grupo", aov, ylab = "flow (math)",
+               subtitle = which(aov$Effect == "grupo:zona.participante"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat, "fss.matematica", c("grupo","zona.participante"), aov, pwcs, covar = "dfs.matematica",
+    theme = "classic", color = color[["grupo:zona.participante"]],
+    subtitle = which(aov$Effect == "grupo:zona.participante"))
+}
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (math)") +
+  ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat.long, "flow.math", c("grupo","zona.participante"), aov, pwc.long,
+    pre.post = "time",
+    theme = "classic", color = color$prepost)
+}
+```
+
+```{r, dpi=300, fig.width=14, fig.height=6}
+if (length(unique(pdat[["zona.participante"]])) >= 2) 
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+
+### Checking linearity assumption
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            facet.by = c("grupo","zona.participante"), add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"))
+    ) + ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            color = "grupo", facet.by = "zona.participante", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.participante"))) +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.matematica", y = "fss.matematica", size = 0.5,
+            color = "zona.participante", facet.by = "grupo", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = zona.participante)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.participante"))) +
+    ggplot2::scale_color_manual(values = color[["zona.participante"]]) +
+    ggplot2::ylab("flow (math)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+### Checking normality and homogeneity
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) 
+  res <- augment(lm(fss.matematica ~ dfs.matematica + grupo*zona.participante, data = wdat))
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2)
+  shapiro_test(res$.resid)
+```
+
+```{r}
+if (length(unique(pdat[["zona.participante"]])) >= 2) 
+  levene_test(res, .resid ~ grupo*zona.participante)
+```
+
+
+# Summary of Results
+
+## Descriptive Statistics
+
+```{r}
+df <- get.descriptives(ldat[["grupo"]], c(dv.pre, dv.pos), c("grupo"), 
+                       include.global = T, symmetry.test = T, normality.test = F)
+df <- plyr::rbind.fill(
+  df, do.call(plyr::rbind.fill, lapply(lfatores2, FUN = function(f) {
+    if (nrow(dat) > 0 && sum(!is.na(unique(dat[[f]]))) > 1 && paste0("grupo:",f) %in% names(ldat))
+      get.descriptives(ldat[[paste0("grupo:",f)]], c(dv.pre,dv.pos), c("grupo", f),
+                       symmetry.test = T, normality.test = F)
+    }))
+)
+df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
+             colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## ANCOVA Table Comparison
+
+```{r}
+df <- do.call(plyr::rbind.fill, laov)
+df <- df[!duplicated(df$Effect),]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## PairWise Table Comparison
+
+```{r}
+df <- do.call(plyr::rbind.fill, lpwc)
+df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
+            names(df)[!names(df) %in% c(names(lfatores),"term",".y.")])]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## EMMS Table Comparison
+
+```{r}
+df <- do.call(plyr::rbind.fill, lemms)
+df[["N-N'"]] <- df[["N"]] - df[["N'"]]
+df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
+            names(df)[!names(df) %in% names(lfatores)])]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+

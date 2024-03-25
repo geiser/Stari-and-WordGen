@@ -1,0 +1,21 @@
+
+
+#{{ title }}
+
+```{r, echo=FALSE, include=FALSE}
+aov2[["{{ var }}"]] <- do.call(rbind, lapply(lfatores2, FUN = function(x) {
+  df <- dat[["{{ var }}"]][!is.na(dat[["{{ var }}"]][[x]]),]
+  if (length(unique(df$grupo)) >= 2 &&  length(unique(df[[x]])) >= 2) {
+    aov = ancova.test(df, "{{ var }}.pos", c("grupo", x), "{{ var }}.pre", 2, "ges")${{ var }}.pos
+    return(cbind(formula=rep(paste0("{{ var }}.pos ~ {{ var }}.pre + grupo"," * ",x), nrow(aov)), aov))  
+  }
+}))
+row.names(aov2[["{{ var }}"]]) <- c()
+(aov2[["{{ var }}"]] <- aov2[["{{ var }}"]][!duplicated(aov2[["{{ var }}"]]$Effect) & !aov2[["{{ var }}"]]$Effect %in% fatores1,])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+df <- round.pval(aov2[["{{ var }}"]])
+kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
+```
+

@@ -1,0 +1,23 @@
+
+
+#{{ title }}
+
+```{r, echo=FALSE, include=FALSE}
+aov3[["{{ var }}"]] <- do.call(rbind, lapply(lfatores3, FUN = function(x) {
+  df <- dat[["{{ var }}"]][!is.na(dat[["{{ var }}"]][[x]]),]
+  if (length(unique(df[[x]])) >= 2) {
+    aov = ancova.test(df, "{{ var }}.pos", x, "{{ var }}.pre", 2, "ges")${{ var }}.pos
+    return(cbind(formula=rep(
+      paste0("{{ var }}.pos ~ {{ var }}.pre + grupo=`Experimental`"," * ", x),
+      nrow(aov)), aov))  
+  }
+}))
+row.names(aov3[["{{ var }}"]]) <- c()
+(aov3[["{{ var }}"]] <- aov3[["{{ var }}"]][!duplicated(aov3[["{{ var }}"]]$Effect),])
+```
+
+```{r, echo=FALSE, purl=FALSE}
+df <- round.pval(aov3[["{{ var }}"]])
+kable(df[,c("Effect","DFn","DFd","SSn","SSd","F","p","ges","p<.05")], digits=3)
+```
+

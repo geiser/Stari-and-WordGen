@@ -1,3 +1,68 @@
+
+
+library(readxl)
+
+readxl::excel_sheets("data/pre-data.xlsx")
+
+monitor = read_excel("data/pre-data.xlsx", sheet = "monitores")
+escolas = read_excel("data/pre-data.xlsx", sheet = "escolas")
+
+quintiles = list(
+  "triagem" = c("palavras.lidas","score.compreensao","tri.compreensao"),
+  "vocabulario" = c("score.vocab","tri.vocab",
+                    "score.vocab.ensinado","tri.vocab.ensinado",
+                    "score.vocab.nao.ensinado","tri.vocab.nao.ensinado"),
+  "leitura" = c("score.CLPP","tri.CLPP","score.CR","tri.CR",
+                "score.CI","tri.CI","score.TV","tri.TV",
+                "score.TF","tri.TF","score.TO","tri.TO")
+)
+
+lquintiles = lapply(
+  list(triagem = "triagem",vocabulario = "vocabulario",leitura = "leitura"),
+  FUN = function(pre) {
+    dt = do.call(plyr::rbind.fill,
+                 lapply(c(".stWG",".wg.wo.st",".st",".wg"), FUN = function(x) {
+                   read_excel("data/pre-data.xlsx", sheet = paste0(pre, x, ".wide"))
+                 }))
+    toReturn = list()
+    for (coln in quintiles[[pre]]) {
+      toReturn[[coln]] <- quantile(unique(dt[[paste0(coln,'.pre')]]),
+                                   probs = seq(0, 1, 1/5), na.rm = T)
+    }
+    toReturn
+  })
+
+db = list()
+for(x in c(".stWG",".wg.wo.st",".st",".wg")) {
+  df = read_excel("data/pre-data.xlsx", sheet = paste0("flow", x))
+  db[[paste0("flow", x)]] = merge(df, escolas, by.x = "escola", by.y = "id", all.x = T, all.y = F)
+}
+for (pre in names(lquintiles)) {
+  for (x in c(".stWG",".wg.wo.st",".st",".wg")) {
+    df = read_excel("data/pre-data.xlsx", sheet = paste0(pre, x, ".wide"))
+    df = merge(df, escolas, by.x = "escola", by.y = "id", all.x = T, all.y = F)
+    for (coln in quintiles[[pre]]) {
+      df[[paste0(coln,".quintile")]] <- sapply(df[[paste0(coln,'.pre')]], function(v) {
+        if (!is.na(v) && is.numeric(v)) {
+          qtl = lquintiles[[pre]][[coln]]
+          if (v < qtl[2]) "1st quintile"
+          else if (v < qtl[3]) "2nd quintile"
+          else if (v <= qtl[4]) "3rd quintile"
+          else if (v <= qtl[5]) "4th quintile"
+          else "5th quintile"
+        } else NA })
+    }
+    db[[paste0(pre, x)]] = df
+  }
+}
+
+writexl::write_xlsx(db, "data/data.xlsx")
+
+
+
+
+
+
 wants <- c('ggplot2','ggpubr','templates','PerformanceAnalytics','utils','randomcoloR')
 has <- wants %in% rownames(installed.packages())
 if (any(!has)) install.packages(wants[!has])

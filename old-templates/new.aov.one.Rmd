@@ -1,0 +1,371 @@
+---
+title: "ANCOVA in Vocabulario (Vocabulario)"
+author: Geiser C. Challco <geiser@alumni.usp.br>
+comment: Teste ANCOVA para determinar se houve diferenças significativas
+         na Vocabulario (medido usando pre- e pos-testes).
+         
+         ANCOVA test to determine whether there were significant differences
+         in Vocabulario (measured using pre- and post-tests).
+         
+         Author - Geiser C. Challco <geiser@alumni.usp.br>
+         
+         Shiny-Statistic is distributed in the hope that it will be useful,
+         but WITHOUT ANY WARRANTY; without even the implied warranty of
+         MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+         GNU General Public License for more details.
+         
+         You should have received a copy of the GNU General Public License.
+         This file is  generate using Shiny-Statistic app (https://github.com/geiser/rshinystatistics)
+         If not, see <https://www.gnu.org/licenses/>.
+output:
+  github_document:
+    toc: true
+  word_document:
+    toc: true
+  html_document:
+    toc: true
+fontsize: 10pt
+---
+
+
+```{r setup, include=FALSE}
+# Install and Load Packages
+if (!'remotes' %in% rownames(installed.packages())) install.packages('remotes')
+if (!"rshinystatistics" %in% rownames(installed.packages())) {
+  remotes::install_github("geiser/rshinystatistics")
+} else if (packageVersion("rshinystatistics") < "0.0.0.9900") {
+  remotes::install_github("geiser/rshinystatistics")
+}
+
+wants <- c('ggplot2','ggpubr','rshinystatistics','utils','randomcoloR')
+has <- wants %in% rownames(installed.packages())
+if (any(!has)) install.packages(wants[!has])
+
+library(readxl)
+
+library(shiny)
+library(esquisse)
+library(scales)
+library(knitr)
+library(rmarkdown)
+
+library(utils)
+library(ggpubr)
+library(ggplot2)
+library(randomcoloR)
+
+library(dplyr)
+
+library(rstatix)
+library(rshinystatistics)
+```
+
+```{r, include=FALSE, purl=FALSE}
+options(knitr.kable.NA = '')
+```
+
+# Setting Initial Variables and Data
+
+```{r, include=FALSE}
+wid = "id"
+  
+dv = "palavras.lidas"
+
+dv.pos = "palavras.lidas.pos"
+dv.pre = "palavras.lidas.pre"
+
+iv = "grupo"
+
+aov.p = as.formula(paste0(dv.pos," ~ ",iv))
+aov.f = as.formula(paste0(dv.pos," ~ ",dv.pre," + ",iv))
+
+factors <- list()
+factors[["grupo"]] = c("Controle","Experimental")
+
+color <- list()
+color[["prepost"]] = c("#ffee65","#f28e2B")
+color[["grupo"]] = c("#bcbd22","#fd7f6f")
+color[["Sexo"]] = c("#FF007F","#4D4DFF")
+color[["Zona"]] = c("#AA00FF","#00CCCC")
+color[["Cor.Raca"]] = c(
+  "Parda"="#b97100","Indígena"="#9F262F",
+  "Branca"="#87c498", "Preta"="#848283","Amarela"="#D6B91C"
+)
+
+color[["grupo:Sexo"]] = c(
+  "Controle:F"="#ff99cb", "Controle:M"="#b7b7ff",
+  "Experimental:F"="#FF007F", "Experimental:M"="#4D4DFF",
+  "Controle.F"="#ff99cb", "Controle.M"="#b7b7ff",
+  "Experimental.F"="#FF007F", "Experimental.M"="#4D4DFF"
+)
+color[["grupo:Zona"]] = c(
+  "Controle:Rural"="#b2efef","Controle:Urbana"="#e5b2ff",
+  "Experimental:Rural"="#00CCCC", "Experimental:Urbana"="#AA00FF",
+  "Controle.Rural"="#b2efef","Controle.Urbana"="#e5b2ff",
+  "Experimental.Rural"="#00CCCC", "Experimental.Urbana"="#AA00FF"
+)
+color[["grupo:Cor.Raca"]] = c(
+    "Controle:Parda"="#e3c699", "Experimental:Parda"="#b97100",
+    "Controle:Indígena"="#e2bdc0", "Experimental:Indígena"="#9F262F",
+    "Controle:Branca"="#c0e8cb", "Experimental:Branca"="#87c498",
+    "Controle:Preta"="#dad9d9", "Experimental:Preta"="#848283",
+    "Controle:Amarela"="#eee3a4", "Experimental:Amarela"="#D6B91C",
+    
+    "Controle.Parda"="#e3c699", "Experimental.Parda"="#b97100",
+    "Controle.Indígena"="#e2bdc0", "Experimental.Indígena"="#9F262F",
+    "Controle.Branca"="#c0e8cb", "Experimental.Branca"="#87c498",
+    "Controle.Preta"="#dad9d9", "Experimental.Preta"="#848283",
+    "Controle.Amarela"="#eee3a4", "Experimental.Amarela"="#D6B91C"
+)
+
+for (coln in c("vocab","score.tde",
+               "TFL.lidas.per.min","TFL.corretas.per.min","leitura.compreensao")) {
+  color[[paste0(coln,".quintile")]] = c("#BF0040","#FF0000","#800080","#0000FF","#4000BF")
+  color[[paste0("grupo:",coln,".quintile")]] = c(
+    "Experimental.1st quintile"="#BF0040", "Controle.1st quintile"="#d8668c",
+    "Experimental.2nd quintile"="#FF0000", "Controle.2nd quintile"="#ff7f7f",
+    "Experimental.3rd quintile"="#8fce00", "Controle.3rd quintile"="#ddf0b2",
+    "Experimental.4th quintile"="#0000FF", "Controle.4th quintile"="#b2b2ff",
+    "Experimental.5th quintile"="#4000BF", "Controle.5th quintile"="#b299e5",
+    
+    "Experimental:1st quintile"="#BF0040", "Controle:1st quintile"="#d8668c",
+    "Experimental:2nd quintile"="#FF0000", "Controle:2nd quintile"="#ff7f7f",
+    "Experimental:3rd quintile"="#8fce00", "Controle:3rd quintile"="#ddf0b2",
+    "Experimental:4th quintile"="#0000FF", "Controle:4th quintile"="#b2b2ff",
+    "Experimental:5th quintile"="#4000BF", "Controle:5th quintile"="#b299e5")
+}
+
+# ..
+
+gdat <- read_excel("../data/data.xlsx", sheet = "triagem.wg.wo.st.wide")
+gdat <- gdat[which(!is.na(gdat[dv.pre]) & !is.na(gdat[dv.pos])), 
+             c(wid, iv, dv.pre, dv.pos)]
+
+pdat = as.data.frame(remove_group_data(gdat, dv.pos, iv))
+
+for (f in names(factors))
+  if (f %in% colnames(pdat))
+    pdat[[f]] = factor(pdat[[f]], factors[[f]])
+
+pdat.long <- data.frame(time = c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat))))
+pdat.long[[wid]] <- c(pdat[[wid]], pdat[[wid]])
+pdat.long[[iv]] <- c(pdat[[iv]], pdat[[iv]])
+pdat.long[[dv]] <- c(pdat[[dv.pre]], pdat[[dv.pos]])
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+```
+
+# ANCOVA and Pairwise without remove non-normal data
+
+```{r}
+(aov.1 = anova_test(pdat, aov.f))
+```
+
+
+```{r}
+(pwc.1 <- emmeans_test(pdat, aov.p, covariate = dv.pre,
+                       p.adjust.method = "bonferroni"))
+```
+
+```{r}
+(pwc.long.1 <- emmeans_test(dplyr::group_by_at(pdat.long, iv),
+                            as.formula(paste0(dv," ~ time")),
+                            p.adjust.method = "bonferroni"))
+```
+
+
+```{r}
+ds1 <- get.descriptives(pdat, dv.pos, iv, covar = dv.pre)
+ds1 <- merge(ds1[ds1$variable != dv.pre,],
+             ds1[ds1$variable == dv.pre, !colnames(ds1) %in% c("variable")],
+             by = iv, all.x = T, suffixes = c("", ".dv.pre"))
+ds1 <- merge(get_emmeans(pwc.1), ds1, by = iv, suffixes = c(".emms", ""))
+ds1 <- ds1[,c(iv,"n","mean.dv.pre","se.dv.pre","mean","se","emmean","se.emms")]
+
+colnames(ds1) <- c(iv,"N",paste0(c("M","SE")," (pre)"),
+                   paste0(c("M","SE")," (unadj)"),paste0(c("M", "SE")," (adj)"))
+```
+
+
+```{r, echo=FALSE, purl=FALSE}
+kable(ds1, digits = 3)
+```
+
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+```{r}
+wdat = pdat 
+
+res = residuals(lm(aov.f, data = wdat))
+non.normal = getNonNormal(res, wdat[[wid]], plimit = 0.05)
+
+wdat = wdat[!wdat[[wid]] %in% non.normal,]
+
+wdat.long <- data.frame(time = c(rep("pre",nrow(wdat)), rep("pos",nrow(wdat))))
+wdat.long[[wid]] <- c(wdat[[wid]], wdat[[wid]])
+wdat.long[[iv]] <- c(wdat[[iv]], wdat[[iv]])
+wdat.long[[dv]] <- c(wdat[[dv.pre]], wdat[[dv.pos]])
+wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+
+(non.normal)
+```
+
+```{r}
+(aov.2 = anova_test(wdat, aov.f))
+```
+
+```{r}
+(pwc.2 <- emmeans_test(wdat, aov.p, covariate = iv, p.adjust.method = "bonferroni"))
+```
+
+```{r}
+(pwc.long.2 <- emmeans_test(dplyr::group_by_at(wdat.long, iv),
+                            as.formula(paste0(dv," ~ time")),
+                            p.adjust.method = "bonferroni"))
+```
+
+
+```{r}
+ds2 <- get.descriptives(wdat, dv.pos, iv, covar = dv.pre)
+ds2 <- merge(ds2[ds2$variable != dv.pre,],
+             ds2[ds2$variable == dv.pre, !colnames(ds2) %in% c("variable")],
+             by = iv, all.x = T, suffixes = c("", ".dv.pre"))
+
+ds2 <- merge(get_emmeans(pwc.2), ds2, by = iv, suffixes = c(".emms", ""))
+ds2 <- ds2[,c(iv,"n","mean.dv.pre","se.dv.pre","mean","se","emmean","se.emms")]
+
+colnames(ds2) <- c(iv, "N", paste0(c("M","SE")," (pre)"),
+                  paste0(c("M","SE")," (unadj)"),paste0(c("M", "SE")," (adj)"))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(ds2, digits = 3)
+```
+
+
+### Plots for ancova
+
+```{r}
+lpwc = list(); lpwc[[iv]] = pwc.2
+plots <- oneWayAncovaPlots(
+  wdat, dv.pos, iv, aov.2, lpwc, addParam = c("mean_ci"),
+  font.label.size=10, step.increase=0.05, p.label="p.adj",
+  subtitle = which(aov.2$Effect == iv))
+```
+
+```{r, dpi=300, fig.width=7, fig.height=7}
+if (!is.null(nrow(plots[[iv]]$data)))
+  plots[[iv]] + ggplot2::scale_color_manual(values = color[[iv]])
+```
+
+
+```{r}
+plots <- oneWayAncovaBoxPlots(
+  wdat, dv.pos, iv, aov.2, pwc.2, covar = dv.pre,
+  theme = "classic", color = color[[iv]],
+  subtitle = which(aov.2$Effect == iv))
+```
+
+```{r, dpi=300, fig.width=8, fig.height=6}
+if (length(unique(wdat[[iv]])) > 1)
+  plots[[iv]] + ggplot2::ylab("Vocabulario") + ggplot2::scale_x_discrete(labels=c('pre', 'pos'))
+```
+
+
+```{r}
+if (length(unique(wdat.long[[iv]])) > 1)
+  plots <- oneWayAncovaBoxPlots(
+    wdat.long, dv, iv, aov, pwc.long.2, pre.post = "time",
+    theme = "classic", color = color$prepost)
+```
+
+```{r, dpi=300, fig.width=10, fig.height=6}
+if (length(unique(wdat.long[[iv]])) > 1)
+  plots[[iv]] + ggplot2::ylab("Vocabulario")
+```
+
+
+### Checking linearity assumption
+
+```{r, dpi=300, fig.width=12, fig.height=8}
+ggscatter(wdat, x = dv.pre, y = dv.pos, size = 0.5,
+          color = iv, add = "reg.line") +
+  stat_regline_equation(
+    aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)) +
+  ggplot2::scale_color_manual(values = color[[iv]])
+```
+
+### Checking normality and homogeneity
+
+```{r}
+res <- augment(lm(aov.f, data = wdat))
+```
+
+```{r}
+shapiro_test(res$.resid)
+```
+
+```{r}
+levene_test(res, .resid ~ grupo)
+```
+
+
+# Summary of Results
+
+## Descriptive Statistics
+
+```{r}
+df <- get.descriptives(gdat, c(dv.pre, dv.pos), c(iv), 
+                       include.global = T, symmetry.test = T, normality.test = F)
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+```{r}
+df <- get.descriptives(pdat, c(dv.pre, dv.pos), c(iv), 
+                       include.global = T, symmetry.test = T, normality.test = F)
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## ANCOVA Table Comparison
+
+```{r}
+df <- merge(aov.1, aov.2, by = c("Effect"), suffixes = c("'",""))
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## PairWise Table Comparison
+
+```{r}
+df <- merge(pwc.1, pwc.2, by = c(".y.","group1","group2"), suffixes = c("'",""))
+df <- df[,c(names(df)[!names(df) %in% c(iv,"term","term'",".y.")])]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
+## EMMS Table Comparison
+
+```{r}
+df <- merge(ds1, ds2, by = iv, suffixes = c("'",""))
+df[["N'-N"]] <- df[["N'"]] - df[["N"]]
+```
+
+```{r, echo=FALSE, purl=FALSE}
+kable(df, digits = 3)
+```
+
+
