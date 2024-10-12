@@ -401,6 +401,24 @@ levene_test(res, .resid ~ grupo)
 ```
 
 
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "score.CLPP.pos",
+    covar = "score.CLPP.pre",
+    iv = c("grupo"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-scoreCLPPpos-from-scoreCLPPpre-grupo.rds')
+```
 # ANCOVA and Pairwise for two factors **grupo:genero**
 
 ## Without remove non-normal data
@@ -691,6 +709,26 @@ if (length(unique(pdat[["genero"]])) >= 2)
 if (length(unique(pdat[["genero"]])) >= 2) 
   levene_test(res, .resid ~ grupo*genero)
 ```
+
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "score.CLPP.pos",
+    covar = "score.CLPP.pre",
+    iv = c("grupo","genero"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-scoreCLPPpos-from-scoreCLPPpre-grupo-genero.rds')
+```
+
 
 
 # ANCOVA and Pairwise for two factors **grupo:zona.participante**
@@ -985,6 +1023,26 @@ if (length(unique(pdat[["zona.participante"]])) >= 2)
 ```
 
 
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "score.CLPP.pos",
+    covar = "score.CLPP.pre",
+    iv = c("grupo","zona.participante"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-scoreCLPPpos-from-scoreCLPPpre-grupo-zonaparticipante.rds')
+```
+
+
+
 # ANCOVA and Pairwise for two factors **grupo:zona.escola**
 
 ## Without remove non-normal data
@@ -1275,6 +1333,26 @@ if (length(unique(pdat[["zona.escola"]])) >= 2)
 if (length(unique(pdat[["zona.escola"]])) >= 2) 
   levene_test(res, .resid ~ grupo*zona.escola)
 ```
+
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "score.CLPP.pos",
+    covar = "score.CLPP.pre",
+    iv = c("grupo","zona.escola"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-scoreCLPPpos-from-scoreCLPPpre-grupo-zonaescola.rds')
+```
+
 
 
 # ANCOVA and Pairwise for two factors **grupo:score.CLPP.quintile**
@@ -1569,6 +1647,26 @@ if (length(unique(pdat[["score.CLPP.quintile"]])) >= 2)
 ```
 
 
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "score.CLPP.pos",
+    covar = "score.CLPP.pre",
+    iv = c("grupo","score.CLPP.quintile"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-scoreCLPPpos-from-scoreCLPPpre-grupo-scoreCLPPquintile.rds')
+```
+
+
+
 
 # Summary of Results
 
@@ -1631,4 +1729,9 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
 kable(df, digits = 3)
 ```
 
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(df, file = '/mnt/c/Users/geise/OneDrive/Workspace/Stari-and-WordGen/code/aov-wordgen-score.CLPP-emms.rds')
+```
 

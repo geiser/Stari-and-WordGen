@@ -211,64 +211,64 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
             colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | variable                 |   n |  mean | median | min | max |    sd |    se |    ci |  iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:------------------------------|:-------------------------|----:|------:|-------:|----:|----:|------:|------:|------:|-----:|:---------|---------:|---------:|
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pre | 176 | 3.807 |    4.0 |   0 |  10 | 2.327 | 0.175 | 0.346 | 3.00 | YES      |    0.328 |   -0.438 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pre | 135 | 4.104 |    4.0 |   0 |  10 | 2.180 | 0.188 | 0.371 | 3.00 | YES      |    0.358 |   -0.067 |
-|              |        |                   |             |                               | score.vocab.ensinado.pre | 311 | 3.936 |    4.0 |   0 |  10 | 2.265 | 0.128 | 0.253 | 3.00 | YES      |    0.327 |   -0.275 |
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pos | 176 | 3.795 |    4.0 |   0 |  10 | 2.276 | 0.172 | 0.339 | 4.00 | YES      |    0.228 |   -0.735 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pos | 135 | 4.215 |    4.0 |   0 |  10 | 2.389 | 0.206 | 0.407 | 3.00 | YES      |    0.047 |   -0.472 |
-|              |        |                   |             |                               | score.vocab.ensinado.pos | 311 | 3.977 |    4.0 |   0 |  10 | 2.331 | 0.132 | 0.260 | 4.00 | YES      |    0.155 |   -0.606 |
-| Controle     | F      |                   |             |                               | score.vocab.ensinado.pre |  87 | 3.954 |    4.0 |   0 |  10 | 2.401 | 0.257 | 0.512 | 3.00 | YES      |    0.437 |   -0.336 |
-| Controle     | M      |                   |             |                               | score.vocab.ensinado.pre |  89 | 3.663 |    4.0 |   0 |   9 | 2.256 | 0.239 | 0.475 | 3.00 | YES      |    0.171 |   -0.750 |
-| Experimental | F      |                   |             |                               | score.vocab.ensinado.pre |  59 | 4.576 |    4.0 |   0 |  10 | 2.313 | 0.301 | 0.603 | 3.00 | YES      |    0.479 |   -0.187 |
-| Experimental | M      |                   |             |                               | score.vocab.ensinado.pre |  75 | 3.680 |    4.0 |   0 |   8 | 1.960 | 0.226 | 0.451 | 3.00 | YES      |    0.020 |   -0.671 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pre |   1 | 8.000 |    8.0 |   8 |   8 |       |       |       | 0.00 | few data |    0.000 |    0.000 |
-| Controle     | F      |                   |             |                               | score.vocab.ensinado.pos |  87 | 4.057 |    4.0 |   0 |  10 | 2.364 | 0.253 | 0.504 | 4.00 | YES      |    0.224 |   -0.888 |
-| Controle     | M      |                   |             |                               | score.vocab.ensinado.pos |  89 | 3.539 |    3.0 |   0 |   9 | 2.169 | 0.230 | 0.457 | 3.00 | YES      |    0.172 |   -0.724 |
-| Experimental | F      |                   |             |                               | score.vocab.ensinado.pos |  59 | 4.542 |    5.0 |   0 |  10 | 2.514 | 0.327 | 0.655 | 3.00 | YES      |   -0.139 |   -0.643 |
-| Experimental | M      |                   |             |                               | score.vocab.ensinado.pos |  75 | 4.013 |    4.0 |   0 |  10 | 2.239 | 0.259 | 0.515 | 2.00 | YES      |    0.183 |   -0.236 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pos |   1 | 0.000 |    0.0 |   0 |   0 |       |       |       | 0.00 | few data |    0.000 |    0.000 |
-| Controle     |        | Rural             |             |                               | score.vocab.ensinado.pre |  56 | 3.696 |    3.0 |   0 |  10 | 2.536 | 0.339 | 0.679 | 3.00 | NO       |    0.598 |   -0.231 |
-| Controle     |        | Urbana            |             |                               | score.vocab.ensinado.pre |  77 | 3.896 |    4.0 |   0 |   9 | 2.303 | 0.262 | 0.523 | 3.00 | YES      |    0.074 |   -0.796 |
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pre |  43 | 3.791 |    4.0 |   0 |   9 | 2.122 | 0.324 | 0.653 | 3.00 | YES      |    0.312 |   -0.471 |
-| Experimental |        | Rural             |             |                               | score.vocab.ensinado.pre |  52 | 3.808 |    4.0 |   0 |  10 | 2.232 | 0.310 | 0.621 | 3.00 | NO       |    0.517 |   -0.054 |
-| Experimental |        | Urbana            |             |                               | score.vocab.ensinado.pre |  49 | 4.163 |    4.0 |   0 |  10 | 2.115 | 0.302 | 0.607 | 3.00 | YES      |    0.269 |   -0.192 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pre |  34 | 4.471 |    4.5 |   0 |  10 | 2.191 | 0.376 | 0.765 | 1.75 | YES      |    0.248 |   -0.058 |
-| Controle     |        | Rural             |             |                               | score.vocab.ensinado.pos |  56 | 4.161 |    4.0 |   1 |   8 | 1.980 | 0.265 | 0.530 | 3.00 | YES      |    0.444 |   -0.978 |
-| Controle     |        | Urbana            |             |                               | score.vocab.ensinado.pos |  77 | 3.935 |    4.0 |   0 |  10 | 2.478 | 0.282 | 0.562 | 4.00 | YES      |    0.171 |   -0.821 |
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pos |  43 | 3.070 |    3.0 |   0 |   7 | 2.142 | 0.327 | 0.659 | 3.50 | YES      |    0.195 |   -1.203 |
-| Experimental |        | Rural             |             |                               | score.vocab.ensinado.pos |  52 | 4.712 |    4.0 |   1 |   9 | 1.934 | 0.268 | 0.538 | 3.00 | YES      |    0.370 |   -0.430 |
-| Experimental |        | Urbana            |             |                               | score.vocab.ensinado.pos |  49 | 4.286 |    4.0 |   0 |  10 | 2.458 | 0.351 | 0.706 | 3.00 | YES      |   -0.126 |   -0.737 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pos |  34 | 3.353 |    3.0 |   0 |  10 | 2.729 | 0.468 | 0.952 | 3.75 | YES      |    0.498 |   -0.493 |
-| Controle     |        |                   | Rural       |                               | score.vocab.ensinado.pre |  58 | 3.897 |    4.0 |   0 |   9 | 2.330 | 0.306 | 0.613 | 2.75 | YES      |    0.246 |   -0.616 |
-| Controle     |        |                   | Urbana      |                               | score.vocab.ensinado.pre | 118 | 3.763 |    4.0 |   0 |  10 | 2.334 | 0.215 | 0.426 | 3.00 | YES      |    0.365 |   -0.385 |
-| Experimental |        |                   | Rural       |                               | score.vocab.ensinado.pre |  40 | 4.350 |    4.5 |   0 |  10 | 2.497 | 0.395 | 0.798 | 3.25 | YES      |    0.487 |   -0.441 |
-| Experimental |        |                   | Urbana      |                               | score.vocab.ensinado.pre |  95 | 4.000 |    4.0 |   0 |  10 | 2.037 | 0.209 | 0.415 | 2.00 | YES      |    0.172 |   -0.186 |
-| Controle     |        |                   | Rural       |                               | score.vocab.ensinado.pos |  58 | 4.052 |    3.5 |   0 |   8 | 2.164 | 0.284 | 0.569 | 4.00 | YES      |    0.323 |   -1.087 |
-| Controle     |        |                   | Urbana      |                               | score.vocab.ensinado.pos | 118 | 3.669 |    4.0 |   0 |  10 | 2.328 | 0.214 | 0.424 | 3.00 | YES      |    0.214 |   -0.673 |
-| Experimental |        |                   | Rural       |                               | score.vocab.ensinado.pos |  40 | 4.300 |    4.0 |   0 |  10 | 2.267 | 0.358 | 0.725 | 2.00 | YES      |    0.332 |   -0.063 |
-| Experimental |        |                   | Urbana      |                               | score.vocab.ensinado.pos |  95 | 4.179 |    4.0 |   0 |  10 | 2.449 | 0.251 | 0.499 | 3.00 | YES      |   -0.042 |   -0.678 |
-| Controle     |        |                   |             | 1st quintile                  | score.vocab.ensinado.pre |  32 | 0.562 |    1.0 |   0 |   1 | 0.504 | 0.089 | 0.182 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pre |  50 | 2.600 |    3.0 |   2 |   3 | 0.495 | 0.070 | 0.141 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pre |  71 | 4.789 |    5.0 |   4 |   6 | 0.791 | 0.094 | 0.187 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 4th quintile                  | score.vocab.ensinado.pre |  17 | 7.471 |    7.0 |   7 |   8 | 0.514 | 0.125 | 0.265 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 5th quintile                  | score.vocab.ensinado.pre |   6 | 9.167 |    9.0 |   9 |  10 | 0.408 | 0.167 | 0.428 | 0.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 1st quintile                  | score.vocab.ensinado.pre |  15 | 0.667 |    1.0 |   0 |   1 | 0.488 | 0.126 | 0.270 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pre |  37 | 2.459 |    2.0 |   2 |   3 | 0.505 | 0.083 | 0.168 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pre |  65 | 4.785 |    5.0 |   4 |   6 | 0.760 | 0.094 | 0.188 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 4th quintile                  | score.vocab.ensinado.pre |  14 | 7.357 |    7.0 |   7 |   8 | 0.497 | 0.133 | 0.287 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 5th quintile                  | score.vocab.ensinado.pre |   4 | 9.750 |   10.0 |   9 |  10 | 0.500 | 0.250 | 0.796 | 0.25 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 1st quintile                  | score.vocab.ensinado.pos |  32 | 2.781 |    2.0 |   0 |   8 | 1.930 | 0.341 | 0.696 | 2.00 | NO       |    0.692 |    0.070 |
-| Controle     |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pos |  50 | 2.940 |    3.0 |   0 |   8 | 2.064 | 0.292 | 0.587 | 2.75 | NO       |    0.733 |   -0.284 |
-| Controle     |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pos |  71 | 4.070 |    4.0 |   0 |   9 | 2.024 | 0.240 | 0.479 | 2.00 | YES      |   -0.074 |   -0.377 |
-| Controle     |        |                   |             | 4th quintile                  | score.vocab.ensinado.pos |  17 | 6.118 |    6.0 |   0 |  10 | 2.233 | 0.542 | 1.148 | 2.00 | NO       |   -0.963 |    1.182 |
-| Controle     |        |                   |             | 5th quintile                  | score.vocab.ensinado.pos |   6 | 6.500 |    6.5 |   5 |   8 | 1.049 | 0.428 | 1.101 | 1.00 | YES      |    0.000 |   -1.571 |
-| Experimental |        |                   |             | 1st quintile                  | score.vocab.ensinado.pos |  15 | 3.467 |    4.0 |   0 |   7 | 2.066 | 0.533 | 1.144 | 3.00 | YES      |   -0.047 |   -1.346 |
-| Experimental |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pos |  37 | 3.919 |    4.0 |   0 |   8 | 2.073 | 0.341 | 0.691 | 2.00 | YES      |   -0.150 |   -0.313 |
-| Experimental |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pos |  65 | 3.969 |    4.0 |   0 |   9 | 2.291 | 0.284 | 0.568 | 4.00 | YES      |   -0.047 |   -0.719 |
-| Experimental |        |                   |             | 4th quintile                  | score.vocab.ensinado.pos |  14 | 5.929 |    6.0 |   0 |  10 | 2.702 | 0.722 | 1.560 | 3.25 | NO       |   -0.603 |   -0.449 |
-| Experimental |        |                   |             | 5th quintile                  | score.vocab.ensinado.pos |   4 | 7.750 |    7.5 |   6 |  10 | 2.062 | 1.031 | 3.280 | 3.25 | few data |    0.000 |    0.000 |
+| grupo | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  |  | score.vocab.ensinado.pre | 176 | 3.807 | 4.0 | 0 | 10 | 2.327 | 0.175 | 0.346 | 3.00 | YES | 0.328 | -0.438 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pre | 135 | 4.104 | 4.0 | 0 | 10 | 2.180 | 0.188 | 0.371 | 3.00 | YES | 0.358 | -0.067 |
+|  |  |  |  |  | score.vocab.ensinado.pre | 311 | 3.936 | 4.0 | 0 | 10 | 2.265 | 0.128 | 0.253 | 3.00 | YES | 0.327 | -0.275 |
+| Controle |  |  |  |  | score.vocab.ensinado.pos | 176 | 3.795 | 4.0 | 0 | 10 | 2.276 | 0.172 | 0.339 | 4.00 | YES | 0.228 | -0.735 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pos | 135 | 4.215 | 4.0 | 0 | 10 | 2.389 | 0.206 | 0.407 | 3.00 | YES | 0.047 | -0.472 |
+|  |  |  |  |  | score.vocab.ensinado.pos | 311 | 3.977 | 4.0 | 0 | 10 | 2.331 | 0.132 | 0.260 | 4.00 | YES | 0.155 | -0.606 |
+| Controle | F |  |  |  | score.vocab.ensinado.pre | 87 | 3.954 | 4.0 | 0 | 10 | 2.401 | 0.257 | 0.512 | 3.00 | YES | 0.437 | -0.336 |
+| Controle | M |  |  |  | score.vocab.ensinado.pre | 89 | 3.663 | 4.0 | 0 | 9 | 2.256 | 0.239 | 0.475 | 3.00 | YES | 0.171 | -0.750 |
+| Experimental | F |  |  |  | score.vocab.ensinado.pre | 59 | 4.576 | 4.0 | 0 | 10 | 2.313 | 0.301 | 0.603 | 3.00 | YES | 0.479 | -0.187 |
+| Experimental | M |  |  |  | score.vocab.ensinado.pre | 75 | 3.680 | 4.0 | 0 | 8 | 1.960 | 0.226 | 0.451 | 3.00 | YES | 0.020 | -0.671 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pre | 1 | 8.000 | 8.0 | 8 | 8 |  |  |  | 0.00 | few data | 0.000 | 0.000 |
+| Controle | F |  |  |  | score.vocab.ensinado.pos | 87 | 4.057 | 4.0 | 0 | 10 | 2.364 | 0.253 | 0.504 | 4.00 | YES | 0.224 | -0.888 |
+| Controle | M |  |  |  | score.vocab.ensinado.pos | 89 | 3.539 | 3.0 | 0 | 9 | 2.169 | 0.230 | 0.457 | 3.00 | YES | 0.172 | -0.724 |
+| Experimental | F |  |  |  | score.vocab.ensinado.pos | 59 | 4.542 | 5.0 | 0 | 10 | 2.514 | 0.327 | 0.655 | 3.00 | YES | -0.139 | -0.643 |
+| Experimental | M |  |  |  | score.vocab.ensinado.pos | 75 | 4.013 | 4.0 | 0 | 10 | 2.239 | 0.259 | 0.515 | 2.00 | YES | 0.183 | -0.236 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pos | 1 | 0.000 | 0.0 | 0 | 0 |  |  |  | 0.00 | few data | 0.000 | 0.000 |
+| Controle |  | Rural |  |  | score.vocab.ensinado.pre | 56 | 3.696 | 3.0 | 0 | 10 | 2.536 | 0.339 | 0.679 | 3.00 | NO | 0.598 | -0.231 |
+| Controle |  | Urbana |  |  | score.vocab.ensinado.pre | 77 | 3.896 | 4.0 | 0 | 9 | 2.303 | 0.262 | 0.523 | 3.00 | YES | 0.074 | -0.796 |
+| Controle |  |  |  |  | score.vocab.ensinado.pre | 43 | 3.791 | 4.0 | 0 | 9 | 2.122 | 0.324 | 0.653 | 3.00 | YES | 0.312 | -0.471 |
+| Experimental |  | Rural |  |  | score.vocab.ensinado.pre | 52 | 3.808 | 4.0 | 0 | 10 | 2.232 | 0.310 | 0.621 | 3.00 | NO | 0.517 | -0.054 |
+| Experimental |  | Urbana |  |  | score.vocab.ensinado.pre | 49 | 4.163 | 4.0 | 0 | 10 | 2.115 | 0.302 | 0.607 | 3.00 | YES | 0.269 | -0.192 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pre | 34 | 4.471 | 4.5 | 0 | 10 | 2.191 | 0.376 | 0.765 | 1.75 | YES | 0.248 | -0.058 |
+| Controle |  | Rural |  |  | score.vocab.ensinado.pos | 56 | 4.161 | 4.0 | 1 | 8 | 1.980 | 0.265 | 0.530 | 3.00 | YES | 0.444 | -0.978 |
+| Controle |  | Urbana |  |  | score.vocab.ensinado.pos | 77 | 3.935 | 4.0 | 0 | 10 | 2.478 | 0.282 | 0.562 | 4.00 | YES | 0.171 | -0.821 |
+| Controle |  |  |  |  | score.vocab.ensinado.pos | 43 | 3.070 | 3.0 | 0 | 7 | 2.142 | 0.327 | 0.659 | 3.50 | YES | 0.195 | -1.203 |
+| Experimental |  | Rural |  |  | score.vocab.ensinado.pos | 52 | 4.712 | 4.0 | 1 | 9 | 1.934 | 0.268 | 0.538 | 3.00 | YES | 0.370 | -0.430 |
+| Experimental |  | Urbana |  |  | score.vocab.ensinado.pos | 49 | 4.286 | 4.0 | 0 | 10 | 2.458 | 0.351 | 0.706 | 3.00 | YES | -0.126 | -0.737 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pos | 34 | 3.353 | 3.0 | 0 | 10 | 2.729 | 0.468 | 0.952 | 3.75 | YES | 0.498 | -0.493 |
+| Controle |  |  | Rural |  | score.vocab.ensinado.pre | 58 | 3.897 | 4.0 | 0 | 9 | 2.330 | 0.306 | 0.613 | 2.75 | YES | 0.246 | -0.616 |
+| Controle |  |  | Urbana |  | score.vocab.ensinado.pre | 118 | 3.763 | 4.0 | 0 | 10 | 2.334 | 0.215 | 0.426 | 3.00 | YES | 0.365 | -0.385 |
+| Experimental |  |  | Rural |  | score.vocab.ensinado.pre | 40 | 4.350 | 4.5 | 0 | 10 | 2.497 | 0.395 | 0.798 | 3.25 | YES | 0.487 | -0.441 |
+| Experimental |  |  | Urbana |  | score.vocab.ensinado.pre | 95 | 4.000 | 4.0 | 0 | 10 | 2.037 | 0.209 | 0.415 | 2.00 | YES | 0.172 | -0.186 |
+| Controle |  |  | Rural |  | score.vocab.ensinado.pos | 58 | 4.052 | 3.5 | 0 | 8 | 2.164 | 0.284 | 0.569 | 4.00 | YES | 0.323 | -1.087 |
+| Controle |  |  | Urbana |  | score.vocab.ensinado.pos | 118 | 3.669 | 4.0 | 0 | 10 | 2.328 | 0.214 | 0.424 | 3.00 | YES | 0.214 | -0.673 |
+| Experimental |  |  | Rural |  | score.vocab.ensinado.pos | 40 | 4.300 | 4.0 | 0 | 10 | 2.267 | 0.358 | 0.725 | 2.00 | YES | 0.332 | -0.063 |
+| Experimental |  |  | Urbana |  | score.vocab.ensinado.pos | 95 | 4.179 | 4.0 | 0 | 10 | 2.449 | 0.251 | 0.499 | 3.00 | YES | -0.042 | -0.678 |
+| Controle |  |  |  | 1st quintile | score.vocab.ensinado.pre | 32 | 0.562 | 1.0 | 0 | 1 | 0.504 | 0.089 | 0.182 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 2nd quintile | score.vocab.ensinado.pre | 50 | 2.600 | 3.0 | 2 | 3 | 0.495 | 0.070 | 0.141 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 3rd quintile | score.vocab.ensinado.pre | 71 | 4.789 | 5.0 | 4 | 6 | 0.791 | 0.094 | 0.187 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 4th quintile | score.vocab.ensinado.pre | 17 | 7.471 | 7.0 | 7 | 8 | 0.514 | 0.125 | 0.265 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 5th quintile | score.vocab.ensinado.pre | 6 | 9.167 | 9.0 | 9 | 10 | 0.408 | 0.167 | 0.428 | 0.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 1st quintile | score.vocab.ensinado.pre | 15 | 0.667 | 1.0 | 0 | 1 | 0.488 | 0.126 | 0.270 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 2nd quintile | score.vocab.ensinado.pre | 37 | 2.459 | 2.0 | 2 | 3 | 0.505 | 0.083 | 0.168 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 3rd quintile | score.vocab.ensinado.pre | 65 | 4.785 | 5.0 | 4 | 6 | 0.760 | 0.094 | 0.188 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 4th quintile | score.vocab.ensinado.pre | 14 | 7.357 | 7.0 | 7 | 8 | 0.497 | 0.133 | 0.287 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 5th quintile | score.vocab.ensinado.pre | 4 | 9.750 | 10.0 | 9 | 10 | 0.500 | 0.250 | 0.796 | 0.25 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 1st quintile | score.vocab.ensinado.pos | 32 | 2.781 | 2.0 | 0 | 8 | 1.930 | 0.341 | 0.696 | 2.00 | NO | 0.692 | 0.070 |
+| Controle |  |  |  | 2nd quintile | score.vocab.ensinado.pos | 50 | 2.940 | 3.0 | 0 | 8 | 2.064 | 0.292 | 0.587 | 2.75 | NO | 0.733 | -0.284 |
+| Controle |  |  |  | 3rd quintile | score.vocab.ensinado.pos | 71 | 4.070 | 4.0 | 0 | 9 | 2.024 | 0.240 | 0.479 | 2.00 | YES | -0.074 | -0.377 |
+| Controle |  |  |  | 4th quintile | score.vocab.ensinado.pos | 17 | 6.118 | 6.0 | 0 | 10 | 2.233 | 0.542 | 1.148 | 2.00 | NO | -0.963 | 1.182 |
+| Controle |  |  |  | 5th quintile | score.vocab.ensinado.pos | 6 | 6.500 | 6.5 | 5 | 8 | 1.049 | 0.428 | 1.101 | 1.00 | YES | 0.000 | -1.571 |
+| Experimental |  |  |  | 1st quintile | score.vocab.ensinado.pos | 15 | 3.467 | 4.0 | 0 | 7 | 2.066 | 0.533 | 1.144 | 3.00 | YES | -0.047 | -1.346 |
+| Experimental |  |  |  | 2nd quintile | score.vocab.ensinado.pos | 37 | 3.919 | 4.0 | 0 | 8 | 2.073 | 0.341 | 0.691 | 2.00 | YES | -0.150 | -0.313 |
+| Experimental |  |  |  | 3rd quintile | score.vocab.ensinado.pos | 65 | 3.969 | 4.0 | 0 | 9 | 2.291 | 0.284 | 0.568 | 4.00 | YES | -0.047 | -0.719 |
+| Experimental |  |  |  | 4th quintile | score.vocab.ensinado.pos | 14 | 5.929 | 6.0 | 0 | 10 | 2.702 | 0.722 | 1.560 | 3.25 | NO | -0.603 | -0.449 |
+| Experimental |  |  |  | 5th quintile | score.vocab.ensinado.pos | 4 | 7.750 | 7.5 | 6 | 10 | 2.062 | 1.031 | 3.280 | 3.25 | few data | 0.000 | 0.000 |
 
 # ANCOVA and Pairwise for one factor: **grupo**
 
@@ -360,9 +360,9 @@ pwc <- emmeans_test(wdat, score.vocab.ensinado.pos ~ grupo, covariate = score.vo
                     p.adjust.method = "bonferroni")
 ```
 
-| term                            | .y.                      | group1   | group2       |  df | statistic |    p | p.adj | p.adj.signif |
-|:--------------------------------|:-------------------------|:---------|:-------------|----:|----------:|-----:|------:|:-------------|
-| score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 308 |    -1.203 | 0.23 |  0.23 | ns           |
+| term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 308 | -1.203 | 0.23 | 0.23 | ns |
 
 ``` r
 pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, "grupo"),
@@ -373,10 +373,10 @@ lpwc[["grupo"]] <- merge(plyr::rbind.fill(pwc, pwc.long), lpwc[["grupo"]],
                             suffixes = c("","'"))
 ```
 
-| grupo        | term | .y.                  | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-----|:---------------------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | time | score.vocab.ensinado | pre    | pos    | 618 |     0.046 | 0.963 | 0.963 | ns           |
-| Experimental | time | score.vocab.ensinado | pre    | pos    | 618 |    -0.398 | 0.691 | 0.691 | ns           |
+| grupo | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | time | score.vocab.ensinado | pre | pos | 618 | 0.046 | 0.963 | 0.963 | ns |
+| Experimental | time | score.vocab.ensinado | pre | pos | 618 | -0.398 | 0.691 | 0.691 | ns |
 
 ``` r
 ds <- get.descriptives(wdat, "score.vocab.ensinado.pos", "grupo", covar = "score.vocab.ensinado.pre")
@@ -394,10 +394,10 @@ colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
 lemms[["grupo"]] <- merge(ds, lemms[["grupo"]], by=c("grupo"), suffixes = c("","'"))
 ```
 
-| grupo        |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | 176 |   3.807 |    0.175 |     3.795 |      0.172 |   3.851 |    0.160 |    3.537 |     4.165 |
-| Experimental | 135 |   4.104 |    0.188 |     4.215 |      0.206 |   4.143 |    0.182 |    3.784 |     4.502 |
+| grupo | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 176 | 3.807 | 0.175 | 3.795 | 0.172 | 3.851 | 0.160 | 3.537 | 4.165 |
+| Experimental | 135 | 4.104 | 0.188 | 4.215 | 0.206 | 4.143 | 0.182 | 3.784 | 4.502 |
 
 ### Plots for ancova
 
@@ -613,12 +613,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term                             | .y.                      | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:---------------------------------|:-------------------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | F      | score.vocab.ensinado.pre\*grupo  | score.vocab.ensinado.pos | Controle | Experimental | 305 |    -0.598 | 0.550 | 0.550 | ns           |
-|              | M      | score.vocab.ensinado.pre\*grupo  | score.vocab.ensinado.pos | Controle | Experimental | 305 |    -1.422 | 0.156 | 0.156 | ns           |
-| Controle     |        | score.vocab.ensinado.pre\*genero | score.vocab.ensinado.pos | F        | M            | 305 |     1.236 | 0.217 | 0.217 | ns           |
-| Experimental |        | score.vocab.ensinado.pre\*genero | score.vocab.ensinado.pos | F        | M            | 305 |     0.371 | 0.711 | 0.711 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | F | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 305 | -0.598 | 0.550 | 0.550 | ns |
+|  | M | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 305 | -1.422 | 0.156 | 0.156 | ns |
+| Controle |  | score.vocab.ensinado.pre\*genero | score.vocab.ensinado.pos | F | M | 305 | 1.236 | 0.217 | 0.217 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*genero | score.vocab.ensinado.pos | F | M | 305 | 0.371 | 0.711 | 0.711 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -632,12 +632,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term | .y.                  | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:-----|:---------------------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | F      | time | score.vocab.ensinado | pre    | pos    | 612 |    -0.300 | 0.764 | 0.764 | ns           |
-| Controle     | M      | time | score.vocab.ensinado | pre    | pos    | 612 |     0.362 | 0.717 | 0.717 | ns           |
-| Experimental | F      | time | score.vocab.ensinado | pre    | pos    | 612 |     0.081 | 0.936 | 0.936 | ns           |
-| Experimental | M      | time | score.vocab.ensinado | pre    | pos    | 612 |    -0.897 | 0.370 | 0.370 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | F | time | score.vocab.ensinado | pre | pos | 612 | -0.300 | 0.764 | 0.764 | ns |
+| Controle | M | time | score.vocab.ensinado | pre | pos | 612 | 0.362 | 0.717 | 0.717 | ns |
+| Experimental | F | time | score.vocab.ensinado | pre | pos | 612 | 0.081 | 0.936 | 0.936 | ns |
+| Experimental | M | time | score.vocab.ensinado | pre | pos | 612 | -0.897 | 0.370 | 0.370 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -659,12 +659,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | F      |  87 |   3.954 |    0.257 |     4.057 |      0.253 |   4.044 |    0.224 |    3.602 |     4.485 |
-| Controle     | M      |  89 |   3.663 |    0.239 |     3.539 |      0.230 |   3.653 |    0.222 |    3.216 |     4.091 |
-| Experimental | F      |  59 |   4.576 |    0.301 |     4.542 |      0.327 |   4.256 |    0.275 |    3.715 |     4.797 |
-| Experimental | M      |  75 |   3.680 |    0.226 |     4.013 |      0.259 |   4.120 |    0.242 |    3.643 |     4.596 |
+| grupo | genero | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | F | 87 | 3.954 | 0.257 | 4.057 | 0.253 | 4.044 | 0.224 | 3.602 | 4.485 |
+| Controle | M | 89 | 3.663 | 0.239 | 3.539 | 0.230 | 3.653 | 0.222 | 3.216 | 4.091 |
+| Experimental | F | 59 | 4.576 | 0.301 | 4.542 | 0.327 | 4.256 | 0.275 | 3.715 | 4.797 |
+| Experimental | M | 75 | 3.680 | 0.226 | 4.013 | 0.259 | 4.120 | 0.242 | 3.643 | 4.596 |
 
 ### Plots for ancova
 
@@ -681,7 +681,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -696,7 +696,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -715,10 +715,9 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-44-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-45-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -735,7 +734,7 @@ if (length(unique(pdat[["genero"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -750,7 +749,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -766,7 +765,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -782,7 +781,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -937,12 +936,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term                                        | .y.                      | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:--------------------------------------------|:-------------------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural             | score.vocab.ensinado.pre\*grupo             | score.vocab.ensinado.pos | Controle | Experimental | 229 |    -1.295 | 0.197 | 0.197 | ns           |
-|              | Urbana            | score.vocab.ensinado.pre\*grupo             | score.vocab.ensinado.pos | Controle | Experimental | 229 |    -0.635 | 0.526 | 0.526 | ns           |
-| Controle     |                   | score.vocab.ensinado.pre\*zona.participante | score.vocab.ensinado.pos | Rural    | Urbana       | 229 |     0.885 | 0.377 | 0.377 | ns           |
-| Experimental |                   | score.vocab.ensinado.pre\*zona.participante | score.vocab.ensinado.pos | Rural    | Urbana       | 229 |     1.448 | 0.149 | 0.149 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 229 | -1.295 | 0.197 | 0.197 | ns |
+|  | Urbana | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 229 | -0.635 | 0.526 | 0.526 | ns |
+| Controle |  | score.vocab.ensinado.pre\*zona.participante | score.vocab.ensinado.pos | Rural | Urbana | 229 | 0.885 | 0.377 | 0.377 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*zona.participante | score.vocab.ensinado.pos | Rural | Urbana | 229 | 1.448 | 0.149 | 0.149 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -956,12 +955,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term | .y.                  | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:-----|:---------------------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural             | time | score.vocab.ensinado | pre    | pos    | 460 |    -1.078 | 0.282 | 0.282 | ns           |
-| Controle     | Urbana            | time | score.vocab.ensinado | pre    | pos    | 460 |    -0.106 | 0.916 | 0.916 | ns           |
-| Experimental | Rural             | time | score.vocab.ensinado | pre    | pos    | 460 |    -2.022 | 0.044 | 0.044 | \*           |
-| Experimental | Urbana            | time | score.vocab.ensinado | pre    | pos    | 460 |    -0.266 | 0.790 | 0.790 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | score.vocab.ensinado | pre | pos | 460 | -1.078 | 0.282 | 0.282 | ns |
+| Controle | Urbana | time | score.vocab.ensinado | pre | pos | 460 | -0.106 | 0.916 | 0.916 | ns |
+| Experimental | Rural | time | score.vocab.ensinado | pre | pos | 460 | -2.022 | 0.044 | 0.044 | \* |
+| Experimental | Urbana | time | score.vocab.ensinado | pre | pos | 460 | -0.266 | 0.790 | 0.790 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -983,12 +982,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural             |  56 |   3.696 |    0.339 |     4.161 |      0.265 |   4.243 |    0.269 |    3.712 |     4.774 |
-| Controle     | Urbana            |  77 |   3.896 |    0.262 |     3.935 |      0.282 |   3.930 |    0.229 |    3.478 |     4.382 |
-| Experimental | Rural             |  52 |   3.808 |    0.310 |     4.712 |      0.268 |   4.745 |    0.279 |    4.195 |     5.295 |
-| Experimental | Urbana            |  49 |   4.163 |    0.302 |     4.286 |      0.351 |   4.164 |    0.288 |    3.596 |     4.732 |
+| grupo | zona.participante | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 56 | 3.696 | 0.339 | 4.161 | 0.265 | 4.243 | 0.269 | 3.712 | 4.774 |
+| Controle | Urbana | 77 | 3.896 | 0.262 | 3.935 | 0.282 | 3.930 | 0.229 | 3.478 | 4.382 |
+| Experimental | Rural | 52 | 3.808 | 0.310 | 4.712 | 0.268 | 4.745 | 0.279 | 4.195 | 5.295 |
+| Experimental | Urbana | 49 | 4.163 | 0.302 | 4.286 | 0.351 | 4.164 | 0.288 | 3.596 | 4.732 |
 
 ### Plots for ancova
 
@@ -1005,7 +1004,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1020,7 +1019,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1039,10 +1038,9 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1059,7 +1057,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1074,7 +1072,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1090,7 +1088,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1106,7 +1104,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1261,12 +1259,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term                                  | .y.                      | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:--------------------------------------|:-------------------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural       | score.vocab.ensinado.pre\*grupo       | score.vocab.ensinado.pos | Controle | Experimental | 306 |    -0.124 | 0.902 | 0.902 | ns           |
-|              | Urbana      | score.vocab.ensinado.pre\*grupo       | score.vocab.ensinado.pos | Controle | Experimental | 306 |    -1.394 | 0.164 | 0.164 | ns           |
-| Controle     |             | score.vocab.ensinado.pre\*zona.escola | score.vocab.ensinado.pos | Rural    | Urbana       | 306 |     0.955 | 0.340 | 0.340 | ns           |
-| Experimental |             | score.vocab.ensinado.pre\*zona.escola | score.vocab.ensinado.pos | Rural    | Urbana       | 306 |    -0.072 | 0.942 | 0.942 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 306 | -0.124 | 0.902 | 0.902 | ns |
+|  | Urbana | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 306 | -1.394 | 0.164 | 0.164 | ns |
+| Controle |  | score.vocab.ensinado.pre\*zona.escola | score.vocab.ensinado.pos | Rural | Urbana | 306 | 0.955 | 0.340 | 0.340 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*zona.escola | score.vocab.ensinado.pos | Rural | Urbana | 306 | -0.072 | 0.942 | 0.942 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1280,12 +1278,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term | .y.                  | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:-----|:---------------------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural       | time | score.vocab.ensinado | pre    | pos    | 614 |    -0.363 | 0.716 | 0.716 | ns           |
-| Controle     | Urbana      | time | score.vocab.ensinado | pre    | pos    | 614 |     0.311 | 0.756 | 0.756 | ns           |
-| Experimental | Rural       | time | score.vocab.ensinado | pre    | pos    | 614 |     0.097 | 0.923 | 0.923 | ns           |
-| Experimental | Urbana      | time | score.vocab.ensinado | pre    | pos    | 614 |    -0.536 | 0.592 | 0.592 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | score.vocab.ensinado | pre | pos | 614 | -0.363 | 0.716 | 0.716 | ns |
+| Controle | Urbana | time | score.vocab.ensinado | pre | pos | 614 | 0.311 | 0.756 | 0.756 | ns |
+| Experimental | Rural | time | score.vocab.ensinado | pre | pos | 614 | 0.097 | 0.923 | 0.923 | ns |
+| Experimental | Urbana | time | score.vocab.ensinado | pre | pos | 614 | -0.536 | 0.592 | 0.592 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1307,12 +1305,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural       |  58 |   3.897 |    0.306 |     4.052 |      0.284 |   4.068 |    0.278 |    3.521 |     4.616 |
-| Controle     | Urbana      | 118 |   3.763 |    0.215 |     3.669 |      0.214 |   3.744 |    0.195 |    3.359 |     4.128 |
-| Experimental | Rural       |  40 |   4.350 |    0.395 |     4.300 |      0.358 |   4.122 |    0.336 |    3.461 |     4.784 |
-| Experimental | Urbana      |  95 |   4.000 |    0.209 |     4.179 |      0.251 |   4.151 |    0.218 |    3.723 |     4.579 |
+| grupo | zona.escola | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 58 | 3.897 | 0.306 | 4.052 | 0.284 | 4.068 | 0.278 | 3.521 | 4.616 |
+| Controle | Urbana | 118 | 3.763 | 0.215 | 3.669 | 0.214 | 3.744 | 0.195 | 3.359 | 4.128 |
+| Experimental | Rural | 40 | 4.350 | 0.395 | 4.300 | 0.358 | 4.122 | 0.336 | 3.461 | 4.784 |
+| Experimental | Urbana | 95 | 4.000 | 0.209 | 4.179 | 0.251 | 4.151 | 0.218 | 3.723 | 4.579 |
 
 ### Plots for ancova
 
@@ -1329,7 +1327,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1344,7 +1342,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1363,10 +1361,9 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1383,7 +1380,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-96-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1398,7 +1395,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-100-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1414,7 +1411,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-98-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1430,7 +1427,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-102-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1585,24 +1582,24 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.vocab.ensinado.quintile | term                                                    | .y.                      | group1       | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------------------|:--------------------------------------------------------|:-------------------------|:-------------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | 1st quintile                  | score.vocab.ensinado.pre\*grupo                         | score.vocab.ensinado.pos | Controle     | Experimental | 292 |    -0.950 | 0.343 | 0.343 | ns           |
-|              | 2nd quintile                  | score.vocab.ensinado.pre\*grupo                         | score.vocab.ensinado.pos | Controle     | Experimental | 292 |    -2.309 | 0.022 | 0.022 | \*           |
-|              | 3rd quintile                  | score.vocab.ensinado.pre\*grupo                         | score.vocab.ensinado.pos | Controle     | Experimental | 292 |     0.273 | 0.785 | 0.785 | ns           |
-|              | 4th quintile                  | score.vocab.ensinado.pre\*grupo                         | score.vocab.ensinado.pos | Controle     | Experimental | 292 |     0.165 | 0.869 | 0.869 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 2nd quintile | 292 |     1.589 | 0.113 | 0.678 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 3rd quintile | 292 |     1.159 | 0.247 | 1.000 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 4th quintile | 292 |     0.359 | 0.720 | 1.000 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 3rd quintile | 292 |     0.164 | 0.870 | 1.000 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 4th quintile | 292 |    -0.410 | 0.682 | 1.000 | ns           |
-| Controle     |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 3rd quintile | 4th quintile | 292 |    -0.713 | 0.477 | 1.000 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 2nd quintile | 292 |     0.753 | 0.452 | 1.000 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 3rd quintile | 292 |     1.810 | 0.071 | 0.428 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 4th quintile | 292 |     0.851 | 0.395 | 1.000 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 3rd quintile | 292 |     2.008 | 0.046 | 0.274 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 4th quintile | 292 |     0.635 | 0.526 | 1.000 | ns           |
-| Experimental |                               | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 3rd quintile | 4th quintile | 292 |    -0.656 | 0.512 | 1.000 | ns           |
+| grupo | score.vocab.ensinado.quintile | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | 1st quintile | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 292 | -0.950 | 0.343 | 0.343 | ns |
+|  | 2nd quintile | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 292 | -2.309 | 0.022 | 0.022 | \* |
+|  | 3rd quintile | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 292 | 0.273 | 0.785 | 0.785 | ns |
+|  | 4th quintile | score.vocab.ensinado.pre\*grupo | score.vocab.ensinado.pos | Controle | Experimental | 292 | 0.165 | 0.869 | 0.869 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 2nd quintile | 292 | 1.589 | 0.113 | 0.678 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 3rd quintile | 292 | 1.159 | 0.247 | 1.000 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 4th quintile | 292 | 0.359 | 0.720 | 1.000 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 3rd quintile | 292 | 0.164 | 0.870 | 1.000 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 4th quintile | 292 | -0.410 | 0.682 | 1.000 | ns |
+| Controle |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 3rd quintile | 4th quintile | 292 | -0.713 | 0.477 | 1.000 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 2nd quintile | 292 | 0.753 | 0.452 | 1.000 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 3rd quintile | 292 | 1.810 | 0.071 | 0.428 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 1st quintile | 4th quintile | 292 | 0.851 | 0.395 | 1.000 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 3rd quintile | 292 | 2.008 | 0.046 | 0.274 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 2nd quintile | 4th quintile | 292 | 0.635 | 0.526 | 1.000 | ns |
+| Experimental |  | score.vocab.ensinado.pre\*score.vocab.ensinado.quintile | score.vocab.ensinado.pos | 3rd quintile | 4th quintile | 292 | -0.656 | 0.512 | 1.000 | ns |
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1616,16 +1613,16 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.vocab.ensinado.quintile | term | .y.                  | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------------------|:-----|:---------------------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | 1st quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |    -5.629 | 0.000 | 0.000 | \*\*\*\*     |
-| Controle     | 2nd quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |    -1.078 | 0.281 | 0.281 | ns           |
-| Controle     | 3rd quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |     2.714 | 0.007 | 0.007 | \*\*         |
-| Controle     | 4th quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |     2.502 | 0.013 | 0.013 | \*           |
-| Experimental | 1st quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |    -4.864 | 0.000 | 0.000 | \*\*\*\*     |
-| Experimental | 2nd quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |    -3.981 | 0.000 | 0.000 | \*\*\*\*     |
-| Experimental | 3rd quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |     2.948 | 0.003 | 0.003 | \*\*         |
-| Experimental | 4th quintile                  | time | score.vocab.ensinado | pre    | pos    | 586 |     2.397 | 0.017 | 0.017 | \*           |
+| grupo | score.vocab.ensinado.quintile | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | 1st quintile | time | score.vocab.ensinado | pre | pos | 586 | -5.629 | 0.000 | 0.000 | \*\*\*\* |
+| Controle | 2nd quintile | time | score.vocab.ensinado | pre | pos | 586 | -1.078 | 0.281 | 0.281 | ns |
+| Controle | 3rd quintile | time | score.vocab.ensinado | pre | pos | 586 | 2.714 | 0.007 | 0.007 | \*\* |
+| Controle | 4th quintile | time | score.vocab.ensinado | pre | pos | 586 | 2.502 | 0.013 | 0.013 | \* |
+| Experimental | 1st quintile | time | score.vocab.ensinado | pre | pos | 586 | -4.864 | 0.000 | 0.000 | \*\*\*\* |
+| Experimental | 2nd quintile | time | score.vocab.ensinado | pre | pos | 586 | -3.981 | 0.000 | 0.000 | \*\*\*\* |
+| Experimental | 3rd quintile | time | score.vocab.ensinado | pre | pos | 586 | 2.948 | 0.003 | 0.003 | \*\* |
+| Experimental | 4th quintile | time | score.vocab.ensinado | pre | pos | 586 | 2.397 | 0.017 | 0.017 | \* |
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1647,16 +1644,16 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.vocab.ensinado.quintile |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | 1st quintile                  |  32 |   0.562 |    0.089 |     2.781 |      0.341 |   4.566 |    0.717 |    3.155 |     5.978 |
-| Controle     | 2nd quintile                  |  50 |   2.600 |    0.070 |     2.940 |      0.292 |   3.586 |    0.371 |    2.854 |     4.317 |
-| Controle     | 3rd quintile                  |  71 |   4.789 |    0.094 |     4.070 |      0.240 |   3.492 |    0.319 |    2.863 |     4.121 |
-| Controle     | 4th quintile                  |  17 |   7.471 |    0.125 |     6.118 |      0.542 |   4.039 |    0.878 |    2.311 |     5.766 |
-| Experimental | 1st quintile                  |  15 |   0.667 |    0.126 |     3.467 |      0.533 |   5.194 |    0.805 |    3.610 |     6.778 |
-| Experimental | 2nd quintile                  |  37 |   2.459 |    0.083 |     3.919 |      0.341 |   4.643 |    0.427 |    3.804 |     5.483 |
-| Experimental | 3rd quintile                  |  65 |   4.785 |    0.094 |     3.969 |      0.284 |   3.393 |    0.328 |    2.747 |     4.038 |
-| Experimental | 4th quintile                  |  14 |   7.357 |    0.133 |     5.929 |      0.722 |   3.913 |    0.892 |    2.157 |     5.669 |
+| grupo | score.vocab.ensinado.quintile | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 1st quintile | 32 | 0.562 | 0.089 | 2.781 | 0.341 | 4.566 | 0.717 | 3.155 | 5.978 |
+| Controle | 2nd quintile | 50 | 2.600 | 0.070 | 2.940 | 0.292 | 3.586 | 0.371 | 2.854 | 4.317 |
+| Controle | 3rd quintile | 71 | 4.789 | 0.094 | 4.070 | 0.240 | 3.492 | 0.319 | 2.863 | 4.121 |
+| Controle | 4th quintile | 17 | 7.471 | 0.125 | 6.118 | 0.542 | 4.039 | 0.878 | 2.311 | 5.766 |
+| Experimental | 1st quintile | 15 | 0.667 | 0.126 | 3.467 | 0.533 | 5.194 | 0.805 | 3.610 | 6.778 |
+| Experimental | 2nd quintile | 37 | 2.459 | 0.083 | 3.919 | 0.341 | 4.643 | 0.427 | 3.804 | 5.483 |
+| Experimental | 3rd quintile | 65 | 4.785 | 0.094 | 3.969 | 0.284 | 3.393 | 0.328 | 2.747 | 4.038 |
+| Experimental | 4th quintile | 14 | 7.357 | 0.133 | 5.929 | 0.722 | 3.913 | 0.892 | 2.157 | 5.669 |
 
 ### Plots for ancova
 
@@ -1673,7 +1670,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-116-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-120-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1688,7 +1685,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1707,10 +1704,9 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1727,7 +1723,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1742,7 +1738,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-122-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-126-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1758,7 +1754,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-127-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
@@ -1774,7 +1770,7 @@ if (length(unique(pdat[["score.vocab.ensinado.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-124-1.png)<!-- -->
+![](aov-wordgen-score.vocab.ensinado_files/figure-gfm/unnamed-chunk-128-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1821,54 +1817,54 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
              colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | variable                 |   n |  mean | median | min | max |    sd |    se |    ci |  iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:------------------------------|:-------------------------|----:|------:|-------:|----:|----:|------:|------:|------:|-----:|:---------|---------:|---------:|
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pre | 176 | 3.807 |    4.0 |   0 |  10 | 2.327 | 0.175 | 0.346 | 3.00 | YES      |    0.328 |   -0.438 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pre | 135 | 4.104 |    4.0 |   0 |  10 | 2.180 | 0.188 | 0.371 | 3.00 | YES      |    0.358 |   -0.067 |
-|              |        |                   |             |                               | score.vocab.ensinado.pre | 311 | 3.936 |    4.0 |   0 |  10 | 2.265 | 0.128 | 0.253 | 3.00 | YES      |    0.327 |   -0.275 |
-| Controle     |        |                   |             |                               | score.vocab.ensinado.pos | 176 | 3.795 |    4.0 |   0 |  10 | 2.276 | 0.172 | 0.339 | 4.00 | YES      |    0.228 |   -0.735 |
-| Experimental |        |                   |             |                               | score.vocab.ensinado.pos | 135 | 4.215 |    4.0 |   0 |  10 | 2.389 | 0.206 | 0.407 | 3.00 | YES      |    0.047 |   -0.472 |
-|              |        |                   |             |                               | score.vocab.ensinado.pos | 311 | 3.977 |    4.0 |   0 |  10 | 2.331 | 0.132 | 0.260 | 4.00 | YES      |    0.155 |   -0.606 |
-| Controle     | F      |                   |             |                               | score.vocab.ensinado.pre |  87 | 3.954 |    4.0 |   0 |  10 | 2.401 | 0.257 | 0.512 | 3.00 | YES      |    0.437 |   -0.336 |
-| Controle     | M      |                   |             |                               | score.vocab.ensinado.pre |  89 | 3.663 |    4.0 |   0 |   9 | 2.256 | 0.239 | 0.475 | 3.00 | YES      |    0.171 |   -0.750 |
-| Experimental | F      |                   |             |                               | score.vocab.ensinado.pre |  59 | 4.576 |    4.0 |   0 |  10 | 2.313 | 0.301 | 0.603 | 3.00 | YES      |    0.479 |   -0.187 |
-| Experimental | M      |                   |             |                               | score.vocab.ensinado.pre |  75 | 3.680 |    4.0 |   0 |   8 | 1.960 | 0.226 | 0.451 | 3.00 | YES      |    0.020 |   -0.671 |
-| Controle     | F      |                   |             |                               | score.vocab.ensinado.pos |  87 | 4.057 |    4.0 |   0 |  10 | 2.364 | 0.253 | 0.504 | 4.00 | YES      |    0.224 |   -0.888 |
-| Controle     | M      |                   |             |                               | score.vocab.ensinado.pos |  89 | 3.539 |    3.0 |   0 |   9 | 2.169 | 0.230 | 0.457 | 3.00 | YES      |    0.172 |   -0.724 |
-| Experimental | F      |                   |             |                               | score.vocab.ensinado.pos |  59 | 4.542 |    5.0 |   0 |  10 | 2.514 | 0.327 | 0.655 | 3.00 | YES      |   -0.139 |   -0.643 |
-| Experimental | M      |                   |             |                               | score.vocab.ensinado.pos |  75 | 4.013 |    4.0 |   0 |  10 | 2.239 | 0.259 | 0.515 | 2.00 | YES      |    0.183 |   -0.236 |
-| Controle     |        | Rural             |             |                               | score.vocab.ensinado.pre |  56 | 3.696 |    3.0 |   0 |  10 | 2.536 | 0.339 | 0.679 | 3.00 | NO       |    0.598 |   -0.231 |
-| Controle     |        | Urbana            |             |                               | score.vocab.ensinado.pre |  77 | 3.896 |    4.0 |   0 |   9 | 2.303 | 0.262 | 0.523 | 3.00 | YES      |    0.074 |   -0.796 |
-| Experimental |        | Rural             |             |                               | score.vocab.ensinado.pre |  52 | 3.808 |    4.0 |   0 |  10 | 2.232 | 0.310 | 0.621 | 3.00 | NO       |    0.517 |   -0.054 |
-| Experimental |        | Urbana            |             |                               | score.vocab.ensinado.pre |  49 | 4.163 |    4.0 |   0 |  10 | 2.115 | 0.302 | 0.607 | 3.00 | YES      |    0.269 |   -0.192 |
-| Controle     |        | Rural             |             |                               | score.vocab.ensinado.pos |  56 | 4.161 |    4.0 |   1 |   8 | 1.980 | 0.265 | 0.530 | 3.00 | YES      |    0.444 |   -0.978 |
-| Controle     |        | Urbana            |             |                               | score.vocab.ensinado.pos |  77 | 3.935 |    4.0 |   0 |  10 | 2.478 | 0.282 | 0.562 | 4.00 | YES      |    0.171 |   -0.821 |
-| Experimental |        | Rural             |             |                               | score.vocab.ensinado.pos |  52 | 4.712 |    4.0 |   1 |   9 | 1.934 | 0.268 | 0.538 | 3.00 | YES      |    0.370 |   -0.430 |
-| Experimental |        | Urbana            |             |                               | score.vocab.ensinado.pos |  49 | 4.286 |    4.0 |   0 |  10 | 2.458 | 0.351 | 0.706 | 3.00 | YES      |   -0.126 |   -0.737 |
-| Controle     |        |                   | Rural       |                               | score.vocab.ensinado.pre |  58 | 3.897 |    4.0 |   0 |   9 | 2.330 | 0.306 | 0.613 | 2.75 | YES      |    0.246 |   -0.616 |
-| Controle     |        |                   | Urbana      |                               | score.vocab.ensinado.pre | 118 | 3.763 |    4.0 |   0 |  10 | 2.334 | 0.215 | 0.426 | 3.00 | YES      |    0.365 |   -0.385 |
-| Experimental |        |                   | Rural       |                               | score.vocab.ensinado.pre |  40 | 4.350 |    4.5 |   0 |  10 | 2.497 | 0.395 | 0.798 | 3.25 | YES      |    0.487 |   -0.441 |
-| Experimental |        |                   | Urbana      |                               | score.vocab.ensinado.pre |  95 | 4.000 |    4.0 |   0 |  10 | 2.037 | 0.209 | 0.415 | 2.00 | YES      |    0.172 |   -0.186 |
-| Controle     |        |                   | Rural       |                               | score.vocab.ensinado.pos |  58 | 4.052 |    3.5 |   0 |   8 | 2.164 | 0.284 | 0.569 | 4.00 | YES      |    0.323 |   -1.087 |
-| Controle     |        |                   | Urbana      |                               | score.vocab.ensinado.pos | 118 | 3.669 |    4.0 |   0 |  10 | 2.328 | 0.214 | 0.424 | 3.00 | YES      |    0.214 |   -0.673 |
-| Experimental |        |                   | Rural       |                               | score.vocab.ensinado.pos |  40 | 4.300 |    4.0 |   0 |  10 | 2.267 | 0.358 | 0.725 | 2.00 | YES      |    0.332 |   -0.063 |
-| Experimental |        |                   | Urbana      |                               | score.vocab.ensinado.pos |  95 | 4.179 |    4.0 |   0 |  10 | 2.449 | 0.251 | 0.499 | 3.00 | YES      |   -0.042 |   -0.678 |
-| Controle     |        |                   |             | 1st quintile                  | score.vocab.ensinado.pre |  32 | 0.562 |    1.0 |   0 |   1 | 0.504 | 0.089 | 0.182 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pre |  50 | 2.600 |    3.0 |   2 |   3 | 0.495 | 0.070 | 0.141 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pre |  71 | 4.789 |    5.0 |   4 |   6 | 0.791 | 0.094 | 0.187 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 4th quintile                  | score.vocab.ensinado.pre |  17 | 7.471 |    7.0 |   7 |   8 | 0.514 | 0.125 | 0.265 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 1st quintile                  | score.vocab.ensinado.pre |  15 | 0.667 |    1.0 |   0 |   1 | 0.488 | 0.126 | 0.270 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pre |  37 | 2.459 |    2.0 |   2 |   3 | 0.505 | 0.083 | 0.168 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pre |  65 | 4.785 |    5.0 |   4 |   6 | 0.760 | 0.094 | 0.188 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 4th quintile                  | score.vocab.ensinado.pre |  14 | 7.357 |    7.0 |   7 |   8 | 0.497 | 0.133 | 0.287 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 1st quintile                  | score.vocab.ensinado.pos |  32 | 2.781 |    2.0 |   0 |   8 | 1.930 | 0.341 | 0.696 | 2.00 | NO       |    0.692 |    0.070 |
-| Controle     |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pos |  50 | 2.940 |    3.0 |   0 |   8 | 2.064 | 0.292 | 0.587 | 2.75 | NO       |    0.733 |   -0.284 |
-| Controle     |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pos |  71 | 4.070 |    4.0 |   0 |   9 | 2.024 | 0.240 | 0.479 | 2.00 | YES      |   -0.074 |   -0.377 |
-| Controle     |        |                   |             | 4th quintile                  | score.vocab.ensinado.pos |  17 | 6.118 |    6.0 |   0 |  10 | 2.233 | 0.542 | 1.148 | 2.00 | NO       |   -0.963 |    1.182 |
-| Experimental |        |                   |             | 1st quintile                  | score.vocab.ensinado.pos |  15 | 3.467 |    4.0 |   0 |   7 | 2.066 | 0.533 | 1.144 | 3.00 | YES      |   -0.047 |   -1.346 |
-| Experimental |        |                   |             | 2nd quintile                  | score.vocab.ensinado.pos |  37 | 3.919 |    4.0 |   0 |   8 | 2.073 | 0.341 | 0.691 | 2.00 | YES      |   -0.150 |   -0.313 |
-| Experimental |        |                   |             | 3rd quintile                  | score.vocab.ensinado.pos |  65 | 3.969 |    4.0 |   0 |   9 | 2.291 | 0.284 | 0.568 | 4.00 | YES      |   -0.047 |   -0.719 |
-| Experimental |        |                   |             | 4th quintile                  | score.vocab.ensinado.pos |  14 | 5.929 |    6.0 |   0 |  10 | 2.702 | 0.722 | 1.560 | 3.25 | NO       |   -0.603 |   -0.449 |
+| grupo | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  |  | score.vocab.ensinado.pre | 176 | 3.807 | 4.0 | 0 | 10 | 2.327 | 0.175 | 0.346 | 3.00 | YES | 0.328 | -0.438 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pre | 135 | 4.104 | 4.0 | 0 | 10 | 2.180 | 0.188 | 0.371 | 3.00 | YES | 0.358 | -0.067 |
+|  |  |  |  |  | score.vocab.ensinado.pre | 311 | 3.936 | 4.0 | 0 | 10 | 2.265 | 0.128 | 0.253 | 3.00 | YES | 0.327 | -0.275 |
+| Controle |  |  |  |  | score.vocab.ensinado.pos | 176 | 3.795 | 4.0 | 0 | 10 | 2.276 | 0.172 | 0.339 | 4.00 | YES | 0.228 | -0.735 |
+| Experimental |  |  |  |  | score.vocab.ensinado.pos | 135 | 4.215 | 4.0 | 0 | 10 | 2.389 | 0.206 | 0.407 | 3.00 | YES | 0.047 | -0.472 |
+|  |  |  |  |  | score.vocab.ensinado.pos | 311 | 3.977 | 4.0 | 0 | 10 | 2.331 | 0.132 | 0.260 | 4.00 | YES | 0.155 | -0.606 |
+| Controle | F |  |  |  | score.vocab.ensinado.pre | 87 | 3.954 | 4.0 | 0 | 10 | 2.401 | 0.257 | 0.512 | 3.00 | YES | 0.437 | -0.336 |
+| Controle | M |  |  |  | score.vocab.ensinado.pre | 89 | 3.663 | 4.0 | 0 | 9 | 2.256 | 0.239 | 0.475 | 3.00 | YES | 0.171 | -0.750 |
+| Experimental | F |  |  |  | score.vocab.ensinado.pre | 59 | 4.576 | 4.0 | 0 | 10 | 2.313 | 0.301 | 0.603 | 3.00 | YES | 0.479 | -0.187 |
+| Experimental | M |  |  |  | score.vocab.ensinado.pre | 75 | 3.680 | 4.0 | 0 | 8 | 1.960 | 0.226 | 0.451 | 3.00 | YES | 0.020 | -0.671 |
+| Controle | F |  |  |  | score.vocab.ensinado.pos | 87 | 4.057 | 4.0 | 0 | 10 | 2.364 | 0.253 | 0.504 | 4.00 | YES | 0.224 | -0.888 |
+| Controle | M |  |  |  | score.vocab.ensinado.pos | 89 | 3.539 | 3.0 | 0 | 9 | 2.169 | 0.230 | 0.457 | 3.00 | YES | 0.172 | -0.724 |
+| Experimental | F |  |  |  | score.vocab.ensinado.pos | 59 | 4.542 | 5.0 | 0 | 10 | 2.514 | 0.327 | 0.655 | 3.00 | YES | -0.139 | -0.643 |
+| Experimental | M |  |  |  | score.vocab.ensinado.pos | 75 | 4.013 | 4.0 | 0 | 10 | 2.239 | 0.259 | 0.515 | 2.00 | YES | 0.183 | -0.236 |
+| Controle |  | Rural |  |  | score.vocab.ensinado.pre | 56 | 3.696 | 3.0 | 0 | 10 | 2.536 | 0.339 | 0.679 | 3.00 | NO | 0.598 | -0.231 |
+| Controle |  | Urbana |  |  | score.vocab.ensinado.pre | 77 | 3.896 | 4.0 | 0 | 9 | 2.303 | 0.262 | 0.523 | 3.00 | YES | 0.074 | -0.796 |
+| Experimental |  | Rural |  |  | score.vocab.ensinado.pre | 52 | 3.808 | 4.0 | 0 | 10 | 2.232 | 0.310 | 0.621 | 3.00 | NO | 0.517 | -0.054 |
+| Experimental |  | Urbana |  |  | score.vocab.ensinado.pre | 49 | 4.163 | 4.0 | 0 | 10 | 2.115 | 0.302 | 0.607 | 3.00 | YES | 0.269 | -0.192 |
+| Controle |  | Rural |  |  | score.vocab.ensinado.pos | 56 | 4.161 | 4.0 | 1 | 8 | 1.980 | 0.265 | 0.530 | 3.00 | YES | 0.444 | -0.978 |
+| Controle |  | Urbana |  |  | score.vocab.ensinado.pos | 77 | 3.935 | 4.0 | 0 | 10 | 2.478 | 0.282 | 0.562 | 4.00 | YES | 0.171 | -0.821 |
+| Experimental |  | Rural |  |  | score.vocab.ensinado.pos | 52 | 4.712 | 4.0 | 1 | 9 | 1.934 | 0.268 | 0.538 | 3.00 | YES | 0.370 | -0.430 |
+| Experimental |  | Urbana |  |  | score.vocab.ensinado.pos | 49 | 4.286 | 4.0 | 0 | 10 | 2.458 | 0.351 | 0.706 | 3.00 | YES | -0.126 | -0.737 |
+| Controle |  |  | Rural |  | score.vocab.ensinado.pre | 58 | 3.897 | 4.0 | 0 | 9 | 2.330 | 0.306 | 0.613 | 2.75 | YES | 0.246 | -0.616 |
+| Controle |  |  | Urbana |  | score.vocab.ensinado.pre | 118 | 3.763 | 4.0 | 0 | 10 | 2.334 | 0.215 | 0.426 | 3.00 | YES | 0.365 | -0.385 |
+| Experimental |  |  | Rural |  | score.vocab.ensinado.pre | 40 | 4.350 | 4.5 | 0 | 10 | 2.497 | 0.395 | 0.798 | 3.25 | YES | 0.487 | -0.441 |
+| Experimental |  |  | Urbana |  | score.vocab.ensinado.pre | 95 | 4.000 | 4.0 | 0 | 10 | 2.037 | 0.209 | 0.415 | 2.00 | YES | 0.172 | -0.186 |
+| Controle |  |  | Rural |  | score.vocab.ensinado.pos | 58 | 4.052 | 3.5 | 0 | 8 | 2.164 | 0.284 | 0.569 | 4.00 | YES | 0.323 | -1.087 |
+| Controle |  |  | Urbana |  | score.vocab.ensinado.pos | 118 | 3.669 | 4.0 | 0 | 10 | 2.328 | 0.214 | 0.424 | 3.00 | YES | 0.214 | -0.673 |
+| Experimental |  |  | Rural |  | score.vocab.ensinado.pos | 40 | 4.300 | 4.0 | 0 | 10 | 2.267 | 0.358 | 0.725 | 2.00 | YES | 0.332 | -0.063 |
+| Experimental |  |  | Urbana |  | score.vocab.ensinado.pos | 95 | 4.179 | 4.0 | 0 | 10 | 2.449 | 0.251 | 0.499 | 3.00 | YES | -0.042 | -0.678 |
+| Controle |  |  |  | 1st quintile | score.vocab.ensinado.pre | 32 | 0.562 | 1.0 | 0 | 1 | 0.504 | 0.089 | 0.182 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 2nd quintile | score.vocab.ensinado.pre | 50 | 2.600 | 3.0 | 2 | 3 | 0.495 | 0.070 | 0.141 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 3rd quintile | score.vocab.ensinado.pre | 71 | 4.789 | 5.0 | 4 | 6 | 0.791 | 0.094 | 0.187 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 4th quintile | score.vocab.ensinado.pre | 17 | 7.471 | 7.0 | 7 | 8 | 0.514 | 0.125 | 0.265 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 1st quintile | score.vocab.ensinado.pre | 15 | 0.667 | 1.0 | 0 | 1 | 0.488 | 0.126 | 0.270 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 2nd quintile | score.vocab.ensinado.pre | 37 | 2.459 | 2.0 | 2 | 3 | 0.505 | 0.083 | 0.168 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 3rd quintile | score.vocab.ensinado.pre | 65 | 4.785 | 5.0 | 4 | 6 | 0.760 | 0.094 | 0.188 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 4th quintile | score.vocab.ensinado.pre | 14 | 7.357 | 7.0 | 7 | 8 | 0.497 | 0.133 | 0.287 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 1st quintile | score.vocab.ensinado.pos | 32 | 2.781 | 2.0 | 0 | 8 | 1.930 | 0.341 | 0.696 | 2.00 | NO | 0.692 | 0.070 |
+| Controle |  |  |  | 2nd quintile | score.vocab.ensinado.pos | 50 | 2.940 | 3.0 | 0 | 8 | 2.064 | 0.292 | 0.587 | 2.75 | NO | 0.733 | -0.284 |
+| Controle |  |  |  | 3rd quintile | score.vocab.ensinado.pos | 71 | 4.070 | 4.0 | 0 | 9 | 2.024 | 0.240 | 0.479 | 2.00 | YES | -0.074 | -0.377 |
+| Controle |  |  |  | 4th quintile | score.vocab.ensinado.pos | 17 | 6.118 | 6.0 | 0 | 10 | 2.233 | 0.542 | 1.148 | 2.00 | NO | -0.963 | 1.182 |
+| Experimental |  |  |  | 1st quintile | score.vocab.ensinado.pos | 15 | 3.467 | 4.0 | 0 | 7 | 2.066 | 0.533 | 1.144 | 3.00 | YES | -0.047 | -1.346 |
+| Experimental |  |  |  | 2nd quintile | score.vocab.ensinado.pos | 37 | 3.919 | 4.0 | 0 | 8 | 2.073 | 0.341 | 0.691 | 2.00 | YES | -0.150 | -0.313 |
+| Experimental |  |  |  | 3rd quintile | score.vocab.ensinado.pos | 65 | 3.969 | 4.0 | 0 | 9 | 2.291 | 0.284 | 0.568 | 4.00 | YES | -0.047 | -0.719 |
+| Experimental |  |  |  | 4th quintile | score.vocab.ensinado.pos | 14 | 5.929 | 6.0 | 0 | 10 | 2.702 | 0.722 | 1.560 | 3.25 | NO | -0.603 | -0.449 |
 
 ## ANCOVA Table Comparison
 
@@ -1877,18 +1873,18 @@ df <- do.call(plyr::rbind.fill, laov)
 df <- df[!duplicated(df$Effect),]
 ```
 
-|     | Effect                              | DFn | DFd |      F |     p | p\<.05 |   ges | DFn’ | DFd’ |     F’ |    p’ | p\<.05’ |  ges’ |
-|:----|:------------------------------------|----:|----:|-------:|------:|:-------|------:|-----:|-----:|-------:|------:|:--------|------:|
-| 1   | grupo                               |   1 | 308 |  1.447 | 0.230 |        | 0.005 |    1 |  308 |  1.447 | 0.230 |         | 0.005 |
-| 2   | score.vocab.ensinado.pre            |   1 | 308 | 65.187 | 0.000 | \*     | 0.175 |    1 |  308 | 65.187 | 0.000 | \*      | 0.175 |
-| 3   | genero                              |   1 | 305 |  1.382 | 0.241 |        | 0.005 |    1 |  305 |  1.382 | 0.241 |         | 0.005 |
-| 5   | grupo:genero                        |   1 | 305 |  0.277 | 0.599 |        | 0.001 |    1 |  305 |  0.277 | 0.599 |         | 0.001 |
-| 8   | grupo:zona.participante             |   1 | 229 |  0.252 | 0.616 |        | 0.001 |    1 |  229 |  0.252 | 0.616 |         | 0.001 |
-| 10  | zona.participante                   |   1 | 229 |  2.623 | 0.107 |        | 0.011 |    1 |  229 |  2.623 | 0.107 |         | 0.011 |
-| 12  | grupo:zona.escola                   |   1 | 306 |  0.455 | 0.501 |        | 0.001 |    1 |  306 |  0.455 | 0.501 |         | 0.001 |
-| 14  | zona.escola                         |   1 | 306 |  0.464 | 0.496 |        | 0.002 |    1 |  306 |  0.464 | 0.496 |         | 0.002 |
-| 16  | grupo:score.vocab.ensinado.quintile |   3 | 292 |  1.497 | 0.215 |        | 0.015 |    3 |  292 |  1.497 | 0.215 |         | 0.015 |
-| 18  | score.vocab.ensinado.quintile       |   3 | 292 |  2.725 | 0.044 | \*     | 0.027 |    3 |  292 |  2.725 | 0.044 | \*      | 0.027 |
+|  | Effect | DFn | DFd | F | p | p\<.05 | ges | DFn’ | DFd’ | F’ | p’ | p\<.05’ | ges’ |
+|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|---:|:---|---:|
+| 1 | grupo | 1 | 308 | 1.447 | 0.230 |  | 0.005 | 1 | 308 | 1.447 | 0.230 |  | 0.005 |
+| 2 | score.vocab.ensinado.pre | 1 | 308 | 65.187 | 0.000 | \* | 0.175 | 1 | 308 | 65.187 | 0.000 | \* | 0.175 |
+| 3 | genero | 1 | 305 | 1.382 | 0.241 |  | 0.005 | 1 | 305 | 1.382 | 0.241 |  | 0.005 |
+| 5 | grupo:genero | 1 | 305 | 0.277 | 0.599 |  | 0.001 | 1 | 305 | 0.277 | 0.599 |  | 0.001 |
+| 8 | grupo:zona.participante | 1 | 229 | 0.252 | 0.616 |  | 0.001 | 1 | 229 | 0.252 | 0.616 |  | 0.001 |
+| 10 | zona.participante | 1 | 229 | 2.623 | 0.107 |  | 0.011 | 1 | 229 | 2.623 | 0.107 |  | 0.011 |
+| 12 | grupo:zona.escola | 1 | 306 | 0.455 | 0.501 |  | 0.001 | 1 | 306 | 0.455 | 0.501 |  | 0.001 |
+| 14 | zona.escola | 1 | 306 | 0.464 | 0.496 |  | 0.002 | 1 | 306 | 0.464 | 0.496 |  | 0.002 |
+| 16 | grupo:score.vocab.ensinado.quintile | 3 | 292 | 1.497 | 0.215 |  | 0.015 | 3 | 292 | 1.497 | 0.215 |  | 0.015 |
+| 18 | score.vocab.ensinado.quintile | 3 | 292 | 2.725 | 0.044 | \* | 0.027 | 3 | 292 | 2.725 | 0.044 | \* | 0.027 |
 
 ## PairWise Table Comparison
 
@@ -1898,59 +1894,59 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% c(names(lfatores),"term",".y.")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | group1       | group2       |  df | statistic |     p | p.adj | p.adj.signif | df’ | statistic’ |    p’ | p.adj’ | p.adj.signif’ |
-|:-------------|:-------|:------------------|:------------|:------------------------------|:-------------|:-------------|----:|----------:|------:|------:|:-------------|----:|-----------:|------:|-------:|:--------------|
-| Controle     |        |                   |             |                               | pre          | pos          | 618 |     0.046 | 0.963 | 0.963 | ns           | 618 |      0.046 | 0.963 |  0.963 | ns            |
-| Experimental |        |                   |             |                               | pre          | pos          | 618 |    -0.398 | 0.691 | 0.691 | ns           | 618 |     -0.398 | 0.691 |  0.691 | ns            |
-|              |        |                   |             |                               | Controle     | Experimental | 308 |    -1.203 | 0.230 | 0.230 | ns           | 308 |     -1.203 | 0.230 |  0.230 | ns            |
-| Controle     | F      |                   |             |                               | pre          | pos          | 612 |    -0.300 | 0.764 | 0.764 | ns           | 612 |     -0.300 | 0.764 |  0.764 | ns            |
-| Controle     | M      |                   |             |                               | pre          | pos          | 612 |     0.362 | 0.717 | 0.717 | ns           | 612 |      0.362 | 0.717 |  0.717 | ns            |
-| Controle     |        |                   |             |                               | F            | M            | 305 |     1.236 | 0.217 | 0.217 | ns           | 305 |      1.236 | 0.217 |  0.217 | ns            |
-| Experimental | F      |                   |             |                               | pre          | pos          | 612 |     0.081 | 0.936 | 0.936 | ns           | 612 |      0.081 | 0.936 |  0.936 | ns            |
-| Experimental | M      |                   |             |                               | pre          | pos          | 612 |    -0.897 | 0.370 | 0.370 | ns           | 612 |     -0.897 | 0.370 |  0.370 | ns            |
-| Experimental |        |                   |             |                               | F            | M            | 305 |     0.371 | 0.711 | 0.711 | ns           | 305 |      0.371 | 0.711 |  0.711 | ns            |
-|              | F      |                   |             |                               | Controle     | Experimental | 305 |    -0.598 | 0.550 | 0.550 | ns           | 305 |     -0.598 | 0.550 |  0.550 | ns            |
-|              | M      |                   |             |                               | Controle     | Experimental | 305 |    -1.422 | 0.156 | 0.156 | ns           | 305 |     -1.422 | 0.156 |  0.156 | ns            |
-| Controle     |        |                   |             |                               | Rural        | Urbana       | 229 |     0.885 | 0.377 | 0.377 | ns           | 229 |      0.885 | 0.377 |  0.377 | ns            |
-| Controle     |        | Rural             |             |                               | pre          | pos          | 460 |    -1.078 | 0.282 | 0.282 | ns           | 460 |     -1.078 | 0.282 |  0.282 | ns            |
-| Controle     |        | Urbana            |             |                               | pre          | pos          | 460 |    -0.106 | 0.916 | 0.916 | ns           | 460 |     -0.106 | 0.916 |  0.916 | ns            |
-| Experimental |        |                   |             |                               | Rural        | Urbana       | 229 |     1.448 | 0.149 | 0.149 | ns           | 229 |      1.448 | 0.149 |  0.149 | ns            |
-| Experimental |        | Rural             |             |                               | pre          | pos          | 460 |    -2.022 | 0.044 | 0.044 | \*           | 460 |     -2.022 | 0.044 |  0.044 | \*            |
-| Experimental |        | Urbana            |             |                               | pre          | pos          | 460 |    -0.266 | 0.790 | 0.790 | ns           | 460 |     -0.266 | 0.790 |  0.790 | ns            |
-|              |        | Rural             |             |                               | Controle     | Experimental | 229 |    -1.295 | 0.197 | 0.197 | ns           | 229 |     -1.295 | 0.197 |  0.197 | ns            |
-|              |        | Urbana            |             |                               | Controle     | Experimental | 229 |    -0.635 | 0.526 | 0.526 | ns           | 229 |     -0.635 | 0.526 |  0.526 | ns            |
-| Controle     |        |                   |             |                               | Rural        | Urbana       | 306 |     0.955 | 0.340 | 0.340 | ns           | 306 |      0.955 | 0.340 |  0.340 | ns            |
-| Controle     |        |                   | Rural       |                               | pre          | pos          | 614 |    -0.363 | 0.716 | 0.716 | ns           | 614 |     -0.363 | 0.716 |  0.716 | ns            |
-| Controle     |        |                   | Urbana      |                               | pre          | pos          | 614 |     0.311 | 0.756 | 0.756 | ns           | 614 |      0.311 | 0.756 |  0.756 | ns            |
-| Experimental |        |                   |             |                               | Rural        | Urbana       | 306 |    -0.072 | 0.942 | 0.942 | ns           | 306 |     -0.072 | 0.942 |  0.942 | ns            |
-| Experimental |        |                   | Rural       |                               | pre          | pos          | 614 |     0.097 | 0.923 | 0.923 | ns           | 614 |      0.097 | 0.923 |  0.923 | ns            |
-| Experimental |        |                   | Urbana      |                               | pre          | pos          | 614 |    -0.536 | 0.592 | 0.592 | ns           | 614 |     -0.536 | 0.592 |  0.592 | ns            |
-|              |        |                   | Rural       |                               | Controle     | Experimental | 306 |    -0.124 | 0.902 | 0.902 | ns           | 306 |     -0.124 | 0.902 |  0.902 | ns            |
-|              |        |                   | Urbana      |                               | Controle     | Experimental | 306 |    -1.394 | 0.164 | 0.164 | ns           | 306 |     -1.394 | 0.164 |  0.164 | ns            |
-| Controle     |        |                   |             | 1st quintile                  | pre          | pos          | 586 |    -5.629 | 0.000 | 0.000 | \*\*\*\*     | 586 |     -5.629 | 0.000 |  0.000 | \*\*\*\*      |
-| Controle     |        |                   |             | 2nd quintile                  | pre          | pos          | 586 |    -1.078 | 0.281 | 0.281 | ns           | 586 |     -1.078 | 0.281 |  0.281 | ns            |
-| Controle     |        |                   |             | 3rd quintile                  | pre          | pos          | 586 |     2.714 | 0.007 | 0.007 | \*\*         | 586 |      2.714 | 0.007 |  0.007 | \*\*          |
-| Controle     |        |                   |             | 4th quintile                  | pre          | pos          | 586 |     2.502 | 0.013 | 0.013 | \*           | 586 |      2.502 | 0.013 |  0.013 | \*            |
-| Controle     |        |                   |             |                               | 1st quintile | 2nd quintile | 292 |     1.589 | 0.113 | 0.678 | ns           | 292 |      1.589 | 0.113 |  0.678 | ns            |
-| Controle     |        |                   |             |                               | 1st quintile | 3rd quintile | 292 |     1.159 | 0.247 | 1.000 | ns           | 292 |      1.159 | 0.247 |  1.000 | ns            |
-| Controle     |        |                   |             |                               | 1st quintile | 4th quintile | 292 |     0.359 | 0.720 | 1.000 | ns           | 292 |      0.359 | 0.720 |  1.000 | ns            |
-| Controle     |        |                   |             |                               | 2nd quintile | 3rd quintile | 292 |     0.164 | 0.870 | 1.000 | ns           | 292 |      0.164 | 0.870 |  1.000 | ns            |
-| Controle     |        |                   |             |                               | 2nd quintile | 4th quintile | 292 |    -0.410 | 0.682 | 1.000 | ns           | 292 |     -0.410 | 0.682 |  1.000 | ns            |
-| Controle     |        |                   |             |                               | 3rd quintile | 4th quintile | 292 |    -0.713 | 0.477 | 1.000 | ns           | 292 |     -0.713 | 0.477 |  1.000 | ns            |
-| Experimental |        |                   |             | 1st quintile                  | pre          | pos          | 586 |    -4.864 | 0.000 | 0.000 | \*\*\*\*     | 586 |     -4.864 | 0.000 |  0.000 | \*\*\*\*      |
-| Experimental |        |                   |             | 2nd quintile                  | pre          | pos          | 586 |    -3.981 | 0.000 | 0.000 | \*\*\*\*     | 586 |     -3.981 | 0.000 |  0.000 | \*\*\*\*      |
-| Experimental |        |                   |             | 3rd quintile                  | pre          | pos          | 586 |     2.948 | 0.003 | 0.003 | \*\*         | 586 |      2.948 | 0.003 |  0.003 | \*\*          |
-| Experimental |        |                   |             | 4th quintile                  | pre          | pos          | 586 |     2.397 | 0.017 | 0.017 | \*           | 586 |      2.397 | 0.017 |  0.017 | \*            |
-| Experimental |        |                   |             |                               | 1st quintile | 2nd quintile | 292 |     0.753 | 0.452 | 1.000 | ns           | 292 |      0.753 | 0.452 |  1.000 | ns            |
-| Experimental |        |                   |             |                               | 1st quintile | 3rd quintile | 292 |     1.810 | 0.071 | 0.428 | ns           | 292 |      1.810 | 0.071 |  0.428 | ns            |
-| Experimental |        |                   |             |                               | 1st quintile | 4th quintile | 292 |     0.851 | 0.395 | 1.000 | ns           | 292 |      0.851 | 0.395 |  1.000 | ns            |
-| Experimental |        |                   |             |                               | 2nd quintile | 3rd quintile | 292 |     2.008 | 0.046 | 0.274 | ns           | 292 |      2.008 | 0.046 |  0.274 | ns            |
-| Experimental |        |                   |             |                               | 2nd quintile | 4th quintile | 292 |     0.635 | 0.526 | 1.000 | ns           | 292 |      0.635 | 0.526 |  1.000 | ns            |
-| Experimental |        |                   |             |                               | 3rd quintile | 4th quintile | 292 |    -0.656 | 0.512 | 1.000 | ns           | 292 |     -0.656 | 0.512 |  1.000 | ns            |
-|              |        |                   |             | 1st quintile                  | Controle     | Experimental | 292 |    -0.950 | 0.343 | 0.343 | ns           | 292 |     -0.950 | 0.343 |  0.343 | ns            |
-|              |        |                   |             | 2nd quintile                  | Controle     | Experimental | 292 |    -2.309 | 0.022 | 0.022 | \*           | 292 |     -2.309 | 0.022 |  0.022 | \*            |
-|              |        |                   |             | 3rd quintile                  | Controle     | Experimental | 292 |     0.273 | 0.785 | 0.785 | ns           | 292 |      0.273 | 0.785 |  0.785 | ns            |
-|              |        |                   |             | 4th quintile                  | Controle     | Experimental | 292 |     0.165 | 0.869 | 0.869 | ns           | 292 |      0.165 | 0.869 |  0.869 | ns            |
+| grupo | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | group1 | group2 | df | statistic | p | p.adj | p.adj.signif | df’ | statistic’ | p’ | p.adj’ | p.adj.signif’ |
+|:---|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|:---|
+| Controle |  |  |  |  | pre | pos | 618 | 0.046 | 0.963 | 0.963 | ns | 618 | 0.046 | 0.963 | 0.963 | ns |
+| Experimental |  |  |  |  | pre | pos | 618 | -0.398 | 0.691 | 0.691 | ns | 618 | -0.398 | 0.691 | 0.691 | ns |
+|  |  |  |  |  | Controle | Experimental | 308 | -1.203 | 0.230 | 0.230 | ns | 308 | -1.203 | 0.230 | 0.230 | ns |
+| Controle | F |  |  |  | pre | pos | 612 | -0.300 | 0.764 | 0.764 | ns | 612 | -0.300 | 0.764 | 0.764 | ns |
+| Controle | M |  |  |  | pre | pos | 612 | 0.362 | 0.717 | 0.717 | ns | 612 | 0.362 | 0.717 | 0.717 | ns |
+| Controle |  |  |  |  | F | M | 305 | 1.236 | 0.217 | 0.217 | ns | 305 | 1.236 | 0.217 | 0.217 | ns |
+| Experimental | F |  |  |  | pre | pos | 612 | 0.081 | 0.936 | 0.936 | ns | 612 | 0.081 | 0.936 | 0.936 | ns |
+| Experimental | M |  |  |  | pre | pos | 612 | -0.897 | 0.370 | 0.370 | ns | 612 | -0.897 | 0.370 | 0.370 | ns |
+| Experimental |  |  |  |  | F | M | 305 | 0.371 | 0.711 | 0.711 | ns | 305 | 0.371 | 0.711 | 0.711 | ns |
+|  | F |  |  |  | Controle | Experimental | 305 | -0.598 | 0.550 | 0.550 | ns | 305 | -0.598 | 0.550 | 0.550 | ns |
+|  | M |  |  |  | Controle | Experimental | 305 | -1.422 | 0.156 | 0.156 | ns | 305 | -1.422 | 0.156 | 0.156 | ns |
+| Controle |  |  |  |  | Rural | Urbana | 229 | 0.885 | 0.377 | 0.377 | ns | 229 | 0.885 | 0.377 | 0.377 | ns |
+| Controle |  | Rural |  |  | pre | pos | 460 | -1.078 | 0.282 | 0.282 | ns | 460 | -1.078 | 0.282 | 0.282 | ns |
+| Controle |  | Urbana |  |  | pre | pos | 460 | -0.106 | 0.916 | 0.916 | ns | 460 | -0.106 | 0.916 | 0.916 | ns |
+| Experimental |  |  |  |  | Rural | Urbana | 229 | 1.448 | 0.149 | 0.149 | ns | 229 | 1.448 | 0.149 | 0.149 | ns |
+| Experimental |  | Rural |  |  | pre | pos | 460 | -2.022 | 0.044 | 0.044 | \* | 460 | -2.022 | 0.044 | 0.044 | \* |
+| Experimental |  | Urbana |  |  | pre | pos | 460 | -0.266 | 0.790 | 0.790 | ns | 460 | -0.266 | 0.790 | 0.790 | ns |
+|  |  | Rural |  |  | Controle | Experimental | 229 | -1.295 | 0.197 | 0.197 | ns | 229 | -1.295 | 0.197 | 0.197 | ns |
+|  |  | Urbana |  |  | Controle | Experimental | 229 | -0.635 | 0.526 | 0.526 | ns | 229 | -0.635 | 0.526 | 0.526 | ns |
+| Controle |  |  |  |  | Rural | Urbana | 306 | 0.955 | 0.340 | 0.340 | ns | 306 | 0.955 | 0.340 | 0.340 | ns |
+| Controle |  |  | Rural |  | pre | pos | 614 | -0.363 | 0.716 | 0.716 | ns | 614 | -0.363 | 0.716 | 0.716 | ns |
+| Controle |  |  | Urbana |  | pre | pos | 614 | 0.311 | 0.756 | 0.756 | ns | 614 | 0.311 | 0.756 | 0.756 | ns |
+| Experimental |  |  |  |  | Rural | Urbana | 306 | -0.072 | 0.942 | 0.942 | ns | 306 | -0.072 | 0.942 | 0.942 | ns |
+| Experimental |  |  | Rural |  | pre | pos | 614 | 0.097 | 0.923 | 0.923 | ns | 614 | 0.097 | 0.923 | 0.923 | ns |
+| Experimental |  |  | Urbana |  | pre | pos | 614 | -0.536 | 0.592 | 0.592 | ns | 614 | -0.536 | 0.592 | 0.592 | ns |
+|  |  |  | Rural |  | Controle | Experimental | 306 | -0.124 | 0.902 | 0.902 | ns | 306 | -0.124 | 0.902 | 0.902 | ns |
+|  |  |  | Urbana |  | Controle | Experimental | 306 | -1.394 | 0.164 | 0.164 | ns | 306 | -1.394 | 0.164 | 0.164 | ns |
+| Controle |  |  |  | 1st quintile | pre | pos | 586 | -5.629 | 0.000 | 0.000 | \*\*\*\* | 586 | -5.629 | 0.000 | 0.000 | \*\*\*\* |
+| Controle |  |  |  | 2nd quintile | pre | pos | 586 | -1.078 | 0.281 | 0.281 | ns | 586 | -1.078 | 0.281 | 0.281 | ns |
+| Controle |  |  |  | 3rd quintile | pre | pos | 586 | 2.714 | 0.007 | 0.007 | \*\* | 586 | 2.714 | 0.007 | 0.007 | \*\* |
+| Controle |  |  |  | 4th quintile | pre | pos | 586 | 2.502 | 0.013 | 0.013 | \* | 586 | 2.502 | 0.013 | 0.013 | \* |
+| Controle |  |  |  |  | 1st quintile | 2nd quintile | 292 | 1.589 | 0.113 | 0.678 | ns | 292 | 1.589 | 0.113 | 0.678 | ns |
+| Controle |  |  |  |  | 1st quintile | 3rd quintile | 292 | 1.159 | 0.247 | 1.000 | ns | 292 | 1.159 | 0.247 | 1.000 | ns |
+| Controle |  |  |  |  | 1st quintile | 4th quintile | 292 | 0.359 | 0.720 | 1.000 | ns | 292 | 0.359 | 0.720 | 1.000 | ns |
+| Controle |  |  |  |  | 2nd quintile | 3rd quintile | 292 | 0.164 | 0.870 | 1.000 | ns | 292 | 0.164 | 0.870 | 1.000 | ns |
+| Controle |  |  |  |  | 2nd quintile | 4th quintile | 292 | -0.410 | 0.682 | 1.000 | ns | 292 | -0.410 | 0.682 | 1.000 | ns |
+| Controle |  |  |  |  | 3rd quintile | 4th quintile | 292 | -0.713 | 0.477 | 1.000 | ns | 292 | -0.713 | 0.477 | 1.000 | ns |
+| Experimental |  |  |  | 1st quintile | pre | pos | 586 | -4.864 | 0.000 | 0.000 | \*\*\*\* | 586 | -4.864 | 0.000 | 0.000 | \*\*\*\* |
+| Experimental |  |  |  | 2nd quintile | pre | pos | 586 | -3.981 | 0.000 | 0.000 | \*\*\*\* | 586 | -3.981 | 0.000 | 0.000 | \*\*\*\* |
+| Experimental |  |  |  | 3rd quintile | pre | pos | 586 | 2.948 | 0.003 | 0.003 | \*\* | 586 | 2.948 | 0.003 | 0.003 | \*\* |
+| Experimental |  |  |  | 4th quintile | pre | pos | 586 | 2.397 | 0.017 | 0.017 | \* | 586 | 2.397 | 0.017 | 0.017 | \* |
+| Experimental |  |  |  |  | 1st quintile | 2nd quintile | 292 | 0.753 | 0.452 | 1.000 | ns | 292 | 0.753 | 0.452 | 1.000 | ns |
+| Experimental |  |  |  |  | 1st quintile | 3rd quintile | 292 | 1.810 | 0.071 | 0.428 | ns | 292 | 1.810 | 0.071 | 0.428 | ns |
+| Experimental |  |  |  |  | 1st quintile | 4th quintile | 292 | 0.851 | 0.395 | 1.000 | ns | 292 | 0.851 | 0.395 | 1.000 | ns |
+| Experimental |  |  |  |  | 2nd quintile | 3rd quintile | 292 | 2.008 | 0.046 | 0.274 | ns | 292 | 2.008 | 0.046 | 0.274 | ns |
+| Experimental |  |  |  |  | 2nd quintile | 4th quintile | 292 | 0.635 | 0.526 | 1.000 | ns | 292 | 0.635 | 0.526 | 1.000 | ns |
+| Experimental |  |  |  |  | 3rd quintile | 4th quintile | 292 | -0.656 | 0.512 | 1.000 | ns | 292 | -0.656 | 0.512 | 1.000 | ns |
+|  |  |  |  | 1st quintile | Controle | Experimental | 292 | -0.950 | 0.343 | 0.343 | ns | 292 | -0.950 | 0.343 | 0.343 | ns |
+|  |  |  |  | 2nd quintile | Controle | Experimental | 292 | -2.309 | 0.022 | 0.022 | \* | 292 | -2.309 | 0.022 | 0.022 | \* |
+|  |  |  |  | 3rd quintile | Controle | Experimental | 292 | 0.273 | 0.785 | 0.785 | ns | 292 | 0.273 | 0.785 | 0.785 | ns |
+|  |  |  |  | 4th quintile | Controle | Experimental | 292 | 0.165 | 0.869 | 0.869 | ns | 292 | 0.165 | 0.869 | 0.869 | ns |
 
 ## EMMS Table Comparison
 
@@ -1961,27 +1957,27 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% names(lfatores)])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |  N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
-|:-------------|:-------|:------------------|:------------|:------------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|----:|---------:|----------:|-----------:|------------:|---------:|----------:|----------:|-----------:|-----:|
-| Controle     |        |                   |             |                               | 176 |   3.807 |    0.175 |     3.795 |      0.172 |   3.851 |    0.160 |    3.537 |     4.165 | 176 |    3.807 |     0.175 |      3.795 |       0.172 |    3.851 |     0.160 |     3.537 |      4.165 |    0 |
-| Experimental |        |                   |             |                               | 135 |   4.104 |    0.188 |     4.215 |      0.206 |   4.143 |    0.182 |    3.784 |     4.502 | 135 |    4.104 |     0.188 |      4.215 |       0.206 |    4.143 |     0.182 |     3.784 |      4.502 |    0 |
-| Controle     | F      |                   |             |                               |  87 |   3.954 |    0.257 |     4.057 |      0.253 |   4.044 |    0.224 |    3.602 |     4.485 |  87 |    3.954 |     0.257 |      4.057 |       0.253 |    4.044 |     0.224 |     3.602 |      4.485 |    0 |
-| Controle     | M      |                   |             |                               |  89 |   3.663 |    0.239 |     3.539 |      0.230 |   3.653 |    0.222 |    3.216 |     4.091 |  89 |    3.663 |     0.239 |      3.539 |       0.230 |    3.653 |     0.222 |     3.216 |      4.091 |    0 |
-| Experimental | F      |                   |             |                               |  59 |   4.576 |    0.301 |     4.542 |      0.327 |   4.256 |    0.275 |    3.715 |     4.797 |  59 |    4.576 |     0.301 |      4.542 |       0.327 |    4.256 |     0.275 |     3.715 |      4.797 |    0 |
-| Experimental | M      |                   |             |                               |  75 |   3.680 |    0.226 |     4.013 |      0.259 |   4.120 |    0.242 |    3.643 |     4.596 |  75 |    3.680 |     0.226 |      4.013 |       0.259 |    4.120 |     0.242 |     3.643 |      4.596 |    0 |
-| Controle     |        | Rural             |             |                               |  56 |   3.696 |    0.339 |     4.161 |      0.265 |   4.243 |    0.269 |    3.712 |     4.774 |  56 |    3.696 |     0.339 |      4.161 |       0.265 |    4.243 |     0.269 |     3.712 |      4.774 |    0 |
-| Controle     |        | Urbana            |             |                               |  77 |   3.896 |    0.262 |     3.935 |      0.282 |   3.930 |    0.229 |    3.478 |     4.382 |  77 |    3.896 |     0.262 |      3.935 |       0.282 |    3.930 |     0.229 |     3.478 |      4.382 |    0 |
-| Experimental |        | Rural             |             |                               |  52 |   3.808 |    0.310 |     4.712 |      0.268 |   4.745 |    0.279 |    4.195 |     5.295 |  52 |    3.808 |     0.310 |      4.712 |       0.268 |    4.745 |     0.279 |     4.195 |      5.295 |    0 |
-| Experimental |        | Urbana            |             |                               |  49 |   4.163 |    0.302 |     4.286 |      0.351 |   4.164 |    0.288 |    3.596 |     4.732 |  49 |    4.163 |     0.302 |      4.286 |       0.351 |    4.164 |     0.288 |     3.596 |      4.732 |    0 |
-| Controle     |        |                   | Rural       |                               |  58 |   3.897 |    0.306 |     4.052 |      0.284 |   4.068 |    0.278 |    3.521 |     4.616 |  58 |    3.897 |     0.306 |      4.052 |       0.284 |    4.068 |     0.278 |     3.521 |      4.616 |    0 |
-| Controle     |        |                   | Urbana      |                               | 118 |   3.763 |    0.215 |     3.669 |      0.214 |   3.744 |    0.195 |    3.359 |     4.128 | 118 |    3.763 |     0.215 |      3.669 |       0.214 |    3.744 |     0.195 |     3.359 |      4.128 |    0 |
-| Experimental |        |                   | Rural       |                               |  40 |   4.350 |    0.395 |     4.300 |      0.358 |   4.122 |    0.336 |    3.461 |     4.784 |  40 |    4.350 |     0.395 |      4.300 |       0.358 |    4.122 |     0.336 |     3.461 |      4.784 |    0 |
-| Experimental |        |                   | Urbana      |                               |  95 |   4.000 |    0.209 |     4.179 |      0.251 |   4.151 |    0.218 |    3.723 |     4.579 |  95 |    4.000 |     0.209 |      4.179 |       0.251 |    4.151 |     0.218 |     3.723 |      4.579 |    0 |
-| Controle     |        |                   |             | 1st quintile                  |  32 |   0.562 |    0.089 |     2.781 |      0.341 |   4.566 |    0.717 |    3.155 |     5.978 |  32 |    0.562 |     0.089 |      2.781 |       0.341 |    4.566 |     0.717 |     3.155 |      5.978 |    0 |
-| Controle     |        |                   |             | 2nd quintile                  |  50 |   2.600 |    0.070 |     2.940 |      0.292 |   3.586 |    0.371 |    2.854 |     4.317 |  50 |    2.600 |     0.070 |      2.940 |       0.292 |    3.586 |     0.371 |     2.854 |      4.317 |    0 |
-| Controle     |        |                   |             | 3rd quintile                  |  71 |   4.789 |    0.094 |     4.070 |      0.240 |   3.492 |    0.319 |    2.863 |     4.121 |  71 |    4.789 |     0.094 |      4.070 |       0.240 |    3.492 |     0.319 |     2.863 |      4.121 |    0 |
-| Controle     |        |                   |             | 4th quintile                  |  17 |   7.471 |    0.125 |     6.118 |      0.542 |   4.039 |    0.878 |    2.311 |     5.766 |  17 |    7.471 |     0.125 |      6.118 |       0.542 |    4.039 |     0.878 |     2.311 |      5.766 |    0 |
-| Experimental |        |                   |             | 1st quintile                  |  15 |   0.667 |    0.126 |     3.467 |      0.533 |   5.194 |    0.805 |    3.610 |     6.778 |  15 |    0.667 |     0.126 |      3.467 |       0.533 |    5.194 |     0.805 |     3.610 |      6.778 |    0 |
-| Experimental |        |                   |             | 2nd quintile                  |  37 |   2.459 |    0.083 |     3.919 |      0.341 |   4.643 |    0.427 |    3.804 |     5.483 |  37 |    2.459 |     0.083 |      3.919 |       0.341 |    4.643 |     0.427 |     3.804 |      5.483 |    0 |
-| Experimental |        |                   |             | 3rd quintile                  |  65 |   4.785 |    0.094 |     3.969 |      0.284 |   3.393 |    0.328 |    2.747 |     4.038 |  65 |    4.785 |     0.094 |      3.969 |       0.284 |    3.393 |     0.328 |     2.747 |      4.038 |    0 |
-| Experimental |        |                   |             | 4th quintile                  |  14 |   7.357 |    0.133 |     5.929 |      0.722 |   3.913 |    0.892 |    2.157 |     5.669 |  14 |    7.357 |     0.133 |      5.929 |       0.722 |    3.913 |     0.892 |     2.157 |      5.669 |    0 |
+| grupo | genero | zona.participante | zona.escola | score.vocab.ensinado.quintile | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high | N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle |  |  |  |  | 176 | 3.807 | 0.175 | 3.795 | 0.172 | 3.851 | 0.160 | 3.537 | 4.165 | 176 | 3.807 | 0.175 | 3.795 | 0.172 | 3.851 | 0.160 | 3.537 | 4.165 | 0 |
+| Experimental |  |  |  |  | 135 | 4.104 | 0.188 | 4.215 | 0.206 | 4.143 | 0.182 | 3.784 | 4.502 | 135 | 4.104 | 0.188 | 4.215 | 0.206 | 4.143 | 0.182 | 3.784 | 4.502 | 0 |
+| Controle | F |  |  |  | 87 | 3.954 | 0.257 | 4.057 | 0.253 | 4.044 | 0.224 | 3.602 | 4.485 | 87 | 3.954 | 0.257 | 4.057 | 0.253 | 4.044 | 0.224 | 3.602 | 4.485 | 0 |
+| Controle | M |  |  |  | 89 | 3.663 | 0.239 | 3.539 | 0.230 | 3.653 | 0.222 | 3.216 | 4.091 | 89 | 3.663 | 0.239 | 3.539 | 0.230 | 3.653 | 0.222 | 3.216 | 4.091 | 0 |
+| Experimental | F |  |  |  | 59 | 4.576 | 0.301 | 4.542 | 0.327 | 4.256 | 0.275 | 3.715 | 4.797 | 59 | 4.576 | 0.301 | 4.542 | 0.327 | 4.256 | 0.275 | 3.715 | 4.797 | 0 |
+| Experimental | M |  |  |  | 75 | 3.680 | 0.226 | 4.013 | 0.259 | 4.120 | 0.242 | 3.643 | 4.596 | 75 | 3.680 | 0.226 | 4.013 | 0.259 | 4.120 | 0.242 | 3.643 | 4.596 | 0 |
+| Controle |  | Rural |  |  | 56 | 3.696 | 0.339 | 4.161 | 0.265 | 4.243 | 0.269 | 3.712 | 4.774 | 56 | 3.696 | 0.339 | 4.161 | 0.265 | 4.243 | 0.269 | 3.712 | 4.774 | 0 |
+| Controle |  | Urbana |  |  | 77 | 3.896 | 0.262 | 3.935 | 0.282 | 3.930 | 0.229 | 3.478 | 4.382 | 77 | 3.896 | 0.262 | 3.935 | 0.282 | 3.930 | 0.229 | 3.478 | 4.382 | 0 |
+| Experimental |  | Rural |  |  | 52 | 3.808 | 0.310 | 4.712 | 0.268 | 4.745 | 0.279 | 4.195 | 5.295 | 52 | 3.808 | 0.310 | 4.712 | 0.268 | 4.745 | 0.279 | 4.195 | 5.295 | 0 |
+| Experimental |  | Urbana |  |  | 49 | 4.163 | 0.302 | 4.286 | 0.351 | 4.164 | 0.288 | 3.596 | 4.732 | 49 | 4.163 | 0.302 | 4.286 | 0.351 | 4.164 | 0.288 | 3.596 | 4.732 | 0 |
+| Controle |  |  | Rural |  | 58 | 3.897 | 0.306 | 4.052 | 0.284 | 4.068 | 0.278 | 3.521 | 4.616 | 58 | 3.897 | 0.306 | 4.052 | 0.284 | 4.068 | 0.278 | 3.521 | 4.616 | 0 |
+| Controle |  |  | Urbana |  | 118 | 3.763 | 0.215 | 3.669 | 0.214 | 3.744 | 0.195 | 3.359 | 4.128 | 118 | 3.763 | 0.215 | 3.669 | 0.214 | 3.744 | 0.195 | 3.359 | 4.128 | 0 |
+| Experimental |  |  | Rural |  | 40 | 4.350 | 0.395 | 4.300 | 0.358 | 4.122 | 0.336 | 3.461 | 4.784 | 40 | 4.350 | 0.395 | 4.300 | 0.358 | 4.122 | 0.336 | 3.461 | 4.784 | 0 |
+| Experimental |  |  | Urbana |  | 95 | 4.000 | 0.209 | 4.179 | 0.251 | 4.151 | 0.218 | 3.723 | 4.579 | 95 | 4.000 | 0.209 | 4.179 | 0.251 | 4.151 | 0.218 | 3.723 | 4.579 | 0 |
+| Controle |  |  |  | 1st quintile | 32 | 0.562 | 0.089 | 2.781 | 0.341 | 4.566 | 0.717 | 3.155 | 5.978 | 32 | 0.562 | 0.089 | 2.781 | 0.341 | 4.566 | 0.717 | 3.155 | 5.978 | 0 |
+| Controle |  |  |  | 2nd quintile | 50 | 2.600 | 0.070 | 2.940 | 0.292 | 3.586 | 0.371 | 2.854 | 4.317 | 50 | 2.600 | 0.070 | 2.940 | 0.292 | 3.586 | 0.371 | 2.854 | 4.317 | 0 |
+| Controle |  |  |  | 3rd quintile | 71 | 4.789 | 0.094 | 4.070 | 0.240 | 3.492 | 0.319 | 2.863 | 4.121 | 71 | 4.789 | 0.094 | 4.070 | 0.240 | 3.492 | 0.319 | 2.863 | 4.121 | 0 |
+| Controle |  |  |  | 4th quintile | 17 | 7.471 | 0.125 | 6.118 | 0.542 | 4.039 | 0.878 | 2.311 | 5.766 | 17 | 7.471 | 0.125 | 6.118 | 0.542 | 4.039 | 0.878 | 2.311 | 5.766 | 0 |
+| Experimental |  |  |  | 1st quintile | 15 | 0.667 | 0.126 | 3.467 | 0.533 | 5.194 | 0.805 | 3.610 | 6.778 | 15 | 0.667 | 0.126 | 3.467 | 0.533 | 5.194 | 0.805 | 3.610 | 6.778 | 0 |
+| Experimental |  |  |  | 2nd quintile | 37 | 2.459 | 0.083 | 3.919 | 0.341 | 4.643 | 0.427 | 3.804 | 5.483 | 37 | 2.459 | 0.083 | 3.919 | 0.341 | 4.643 | 0.427 | 3.804 | 5.483 | 0 |
+| Experimental |  |  |  | 3rd quintile | 65 | 4.785 | 0.094 | 3.969 | 0.284 | 3.393 | 0.328 | 2.747 | 4.038 | 65 | 4.785 | 0.094 | 3.969 | 0.284 | 3.393 | 0.328 | 2.747 | 4.038 | 0 |
+| Experimental |  |  |  | 4th quintile | 14 | 7.357 | 0.133 | 5.929 | 0.722 | 3.913 | 0.892 | 2.157 | 5.669 | 14 | 7.357 | 0.133 | 5.929 | 0.722 | 3.913 | 0.892 | 2.157 | 5.669 | 0 |

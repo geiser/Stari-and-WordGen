@@ -401,6 +401,24 @@ levene_test(res, .resid ~ grupo)
 ```
 
 
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "fss.leitura",
+    covar = "dfs.leitura",
+    iv = c("grupo"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-fssleitura-from-dfsleitura-grupo.rds')
+```
 # ANCOVA and Pairwise for two factors **grupo:genero**
 
 ## Without remove non-normal data
@@ -691,6 +709,26 @@ if (length(unique(pdat[["genero"]])) >= 2)
 if (length(unique(pdat[["genero"]])) >= 2) 
   levene_test(res, .resid ~ grupo*genero)
 ```
+
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "fss.leitura",
+    covar = "dfs.leitura",
+    iv = c("grupo","genero"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-fssleitura-from-dfsleitura-grupo-genero.rds')
+```
+
 
 
 # ANCOVA and Pairwise for two factors **grupo:zona.participante**
@@ -985,6 +1023,26 @@ if (length(unique(pdat[["zona.participante"]])) >= 2)
 ```
 
 
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "fss.leitura",
+    covar = "dfs.leitura",
+    iv = c("grupo","zona.participante"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-fssleitura-from-dfsleitura-grupo-zonaparticipante.rds')
+```
+
+
+
 # ANCOVA and Pairwise for two factors **grupo:zona.escola**
 
 ## Without remove non-normal data
@@ -1277,6 +1335,26 @@ if (length(unique(pdat[["zona.escola"]])) >= 2)
 ```
 
 
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(
+  list(
+    test = "ancova",
+    dv = "fss.leitura",
+    covar = "dfs.leitura",
+    iv = c("grupo","zona.escola"),
+    wid = "id",
+    transformation = "none",
+    outliers = list(method = "none"),
+    non.normality = non.normal,
+    data = dat,
+    wdat = wdat
+  ),
+  file = 'wg-ancova-fssleitura-from-dfsleitura-grupo-zonaescola.rds')
+```
+
+
+
 
 # Summary of Results
 
@@ -1339,4 +1417,9 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
 kable(df, digits = 3)
 ```
 
+
+```{r include=FALSE}
+### Saving ancova information
+saveRDS(df, file = '/mnt/c/Users/geise/OneDrive/Workspace/Stari-and-WordGen/code/aov-wordgen-flow.read-emms.rds')
+```
 

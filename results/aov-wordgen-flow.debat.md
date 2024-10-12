@@ -184,42 +184,42 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
             colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | variable   |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:-----------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|:---------|---------:|---------:|
-| Controle     |        |                   |             | dfs.debate | 122 | 3.462 |  3.444 | 2.000 | 4.556 | 0.562 | 0.051 | 0.101 | 0.778 | YES      |   -0.318 |   -0.316 |
-| Experimental |        |                   |             | dfs.debate | 115 | 3.448 |  3.556 | 2.222 | 4.667 | 0.535 | 0.050 | 0.099 | 0.722 | YES      |   -0.063 |   -0.553 |
-|              |        |                   |             | dfs.debate | 237 | 3.455 |  3.444 | 2.000 | 4.667 | 0.548 | 0.036 | 0.070 | 0.667 | YES      |   -0.203 |   -0.398 |
-| Controle     |        |                   |             | fss.debate | 122 | 3.426 |  3.444 | 2.111 | 4.333 | 0.505 | 0.046 | 0.091 | 0.667 | YES      |   -0.155 |   -0.346 |
-| Experimental |        |                   |             | fss.debate | 115 | 3.551 |  3.556 | 2.111 | 5.000 | 0.564 | 0.053 | 0.104 | 0.667 | YES      |    0.076 |    0.066 |
-|              |        |                   |             | fss.debate | 237 | 3.487 |  3.444 | 2.111 | 5.000 | 0.537 | 0.035 | 0.069 | 0.667 | YES      |    0.014 |    0.009 |
-| Controle     | F      |                   |             | dfs.debate |  60 | 3.481 |  3.556 | 2.333 | 4.556 | 0.542 | 0.070 | 0.140 | 0.795 | YES      |   -0.140 |   -0.542 |
-| Controle     | M      |                   |             | dfs.debate |  62 | 3.444 |  3.444 | 2.000 | 4.556 | 0.586 | 0.074 | 0.149 | 0.750 | YES      |   -0.434 |   -0.301 |
-| Experimental | F      |                   |             | dfs.debate |  52 | 3.560 |  3.667 | 2.222 | 4.667 | 0.520 | 0.072 | 0.145 | 0.472 | NO       |   -0.528 |    0.315 |
-| Experimental | M      |                   |             | dfs.debate |  63 | 3.356 |  3.250 | 2.375 | 4.556 | 0.535 | 0.067 | 0.135 | 0.889 | YES      |    0.312 |   -0.779 |
-| Controle     | F      |                   |             | fss.debate |  60 | 3.533 |  3.556 | 2.444 | 4.333 | 0.492 | 0.063 | 0.127 | 0.580 | YES      |   -0.055 |   -0.748 |
-| Controle     | M      |                   |             | fss.debate |  62 | 3.322 |  3.333 | 2.111 | 4.222 | 0.501 | 0.064 | 0.127 | 0.667 | YES      |   -0.241 |   -0.269 |
-| Experimental | F      |                   |             | fss.debate |  52 | 3.683 |  3.667 | 2.111 | 4.750 | 0.529 | 0.073 | 0.147 | 0.694 | YES      |   -0.064 |    0.215 |
-| Experimental | M      |                   |             | fss.debate |  63 | 3.442 |  3.444 | 2.111 | 5.000 | 0.573 | 0.072 | 0.144 | 0.667 | YES      |    0.255 |    0.127 |
-| Controle     |        | Rural             |             | dfs.debate |  43 | 3.532 |  3.556 | 2.444 | 4.556 | 0.526 | 0.080 | 0.162 | 0.889 | YES      |   -0.064 |   -0.900 |
-| Controle     |        | Urbana            |             | dfs.debate |  51 | 3.365 |  3.444 | 2.000 | 4.500 | 0.628 | 0.088 | 0.177 | 0.833 | YES      |   -0.425 |   -0.676 |
-| Controle     |        |                   |             | dfs.debate |  28 | 3.531 |  3.500 | 2.778 | 4.556 | 0.476 | 0.090 | 0.185 | 0.556 | YES      |    0.302 |   -0.524 |
-| Experimental |        | Rural             |             | dfs.debate |  47 | 3.441 |  3.444 | 2.556 | 4.556 | 0.541 | 0.079 | 0.159 | 0.722 | YES      |    0.343 |   -0.664 |
-| Experimental |        | Urbana            |             | dfs.debate |  43 | 3.393 |  3.444 | 2.222 | 4.667 | 0.578 | 0.088 | 0.178 | 0.833 | YES      |   -0.098 |   -0.757 |
-| Experimental |        |                   |             | dfs.debate |  25 | 3.557 |  3.667 | 2.500 | 4.222 | 0.443 | 0.089 | 0.183 | 0.500 | NO       |   -0.820 |    0.071 |
-| Controle     |        | Rural             |             | fss.debate |  43 | 3.364 |  3.444 | 2.111 | 4.333 | 0.523 | 0.080 | 0.161 | 0.667 | YES      |    0.091 |   -0.556 |
-| Controle     |        | Urbana            |             | fss.debate |  51 | 3.443 |  3.375 | 2.111 | 4.333 | 0.525 | 0.073 | 0.148 | 0.604 | YES      |   -0.271 |   -0.168 |
-| Controle     |        |                   |             | fss.debate |  28 | 3.488 |  3.646 | 2.556 | 4.222 | 0.446 | 0.084 | 0.173 | 0.583 | YES      |   -0.245 |   -0.889 |
-| Experimental |        | Rural             |             | fss.debate |  47 | 3.456 |  3.444 | 2.111 | 4.750 | 0.572 | 0.083 | 0.168 | 0.715 | YES      |    0.096 |   -0.003 |
-| Experimental |        | Urbana            |             | fss.debate |  43 | 3.588 |  3.556 | 2.625 | 4.778 | 0.504 | 0.077 | 0.155 | 0.611 | YES      |    0.362 |   -0.241 |
-| Experimental |        |                   |             | fss.debate |  25 | 3.667 |  3.667 | 2.111 | 5.000 | 0.635 | 0.127 | 0.262 | 0.778 | YES      |   -0.238 |   -0.072 |
-| Controle     |        |                   | Rural       | dfs.debate |  41 | 3.518 |  3.556 | 2.111 | 4.556 | 0.540 | 0.084 | 0.171 | 0.667 | YES      |   -0.424 |    0.099 |
-| Controle     |        |                   | Urbana      | dfs.debate |  81 | 3.434 |  3.444 | 2.000 | 4.556 | 0.575 | 0.064 | 0.127 | 0.889 | YES      |   -0.253 |   -0.534 |
-| Experimental |        |                   | Rural       | dfs.debate |  35 | 3.537 |  3.667 | 2.556 | 4.556 | 0.533 | 0.090 | 0.183 | 0.694 | YES      |   -0.031 |   -0.731 |
-| Experimental |        |                   | Urbana      | dfs.debate |  80 | 3.410 |  3.444 | 2.222 | 4.667 | 0.535 | 0.060 | 0.119 | 0.778 | YES      |   -0.074 |   -0.566 |
-| Controle     |        |                   | Rural       | fss.debate |  41 | 3.422 |  3.444 | 2.556 | 4.333 | 0.418 | 0.065 | 0.132 | 0.556 | YES      |    0.140 |   -0.509 |
-| Controle     |        |                   | Urbana      | fss.debate |  81 | 3.427 |  3.444 | 2.111 | 4.333 | 0.547 | 0.061 | 0.121 | 0.667 | YES      |   -0.220 |   -0.509 |
-| Experimental |        |                   | Rural       | fss.debate |  35 | 3.552 |  3.444 | 2.111 | 4.750 | 0.623 | 0.105 | 0.214 | 0.889 | YES      |   -0.032 |   -0.503 |
-| Experimental |        |                   | Urbana      | fss.debate |  80 | 3.551 |  3.556 | 2.111 | 5.000 | 0.540 | 0.060 | 0.120 | 0.580 | YES      |    0.145 |    0.301 |
+| grupo | genero | zona.participante | zona.escola | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  | dfs.debate | 122 | 3.462 | 3.444 | 2.000 | 4.556 | 0.562 | 0.051 | 0.101 | 0.778 | YES | -0.318 | -0.316 |
+| Experimental |  |  |  | dfs.debate | 115 | 3.448 | 3.556 | 2.222 | 4.667 | 0.535 | 0.050 | 0.099 | 0.722 | YES | -0.063 | -0.553 |
+|  |  |  |  | dfs.debate | 237 | 3.455 | 3.444 | 2.000 | 4.667 | 0.548 | 0.036 | 0.070 | 0.667 | YES | -0.203 | -0.398 |
+| Controle |  |  |  | fss.debate | 122 | 3.426 | 3.444 | 2.111 | 4.333 | 0.505 | 0.046 | 0.091 | 0.667 | YES | -0.155 | -0.346 |
+| Experimental |  |  |  | fss.debate | 115 | 3.551 | 3.556 | 2.111 | 5.000 | 0.564 | 0.053 | 0.104 | 0.667 | YES | 0.076 | 0.066 |
+|  |  |  |  | fss.debate | 237 | 3.487 | 3.444 | 2.111 | 5.000 | 0.537 | 0.035 | 0.069 | 0.667 | YES | 0.014 | 0.009 |
+| Controle | F |  |  | dfs.debate | 60 | 3.481 | 3.556 | 2.333 | 4.556 | 0.542 | 0.070 | 0.140 | 0.795 | YES | -0.140 | -0.542 |
+| Controle | M |  |  | dfs.debate | 62 | 3.444 | 3.444 | 2.000 | 4.556 | 0.586 | 0.074 | 0.149 | 0.750 | YES | -0.434 | -0.301 |
+| Experimental | F |  |  | dfs.debate | 52 | 3.560 | 3.667 | 2.222 | 4.667 | 0.520 | 0.072 | 0.145 | 0.472 | NO | -0.528 | 0.315 |
+| Experimental | M |  |  | dfs.debate | 63 | 3.356 | 3.250 | 2.375 | 4.556 | 0.535 | 0.067 | 0.135 | 0.889 | YES | 0.312 | -0.779 |
+| Controle | F |  |  | fss.debate | 60 | 3.533 | 3.556 | 2.444 | 4.333 | 0.492 | 0.063 | 0.127 | 0.580 | YES | -0.055 | -0.748 |
+| Controle | M |  |  | fss.debate | 62 | 3.322 | 3.333 | 2.111 | 4.222 | 0.501 | 0.064 | 0.127 | 0.667 | YES | -0.241 | -0.269 |
+| Experimental | F |  |  | fss.debate | 52 | 3.683 | 3.667 | 2.111 | 4.750 | 0.529 | 0.073 | 0.147 | 0.694 | YES | -0.064 | 0.215 |
+| Experimental | M |  |  | fss.debate | 63 | 3.442 | 3.444 | 2.111 | 5.000 | 0.573 | 0.072 | 0.144 | 0.667 | YES | 0.255 | 0.127 |
+| Controle |  | Rural |  | dfs.debate | 43 | 3.532 | 3.556 | 2.444 | 4.556 | 0.526 | 0.080 | 0.162 | 0.889 | YES | -0.064 | -0.900 |
+| Controle |  | Urbana |  | dfs.debate | 51 | 3.365 | 3.444 | 2.000 | 4.500 | 0.628 | 0.088 | 0.177 | 0.833 | YES | -0.425 | -0.676 |
+| Controle |  |  |  | dfs.debate | 28 | 3.531 | 3.500 | 2.778 | 4.556 | 0.476 | 0.090 | 0.185 | 0.556 | YES | 0.302 | -0.524 |
+| Experimental |  | Rural |  | dfs.debate | 47 | 3.441 | 3.444 | 2.556 | 4.556 | 0.541 | 0.079 | 0.159 | 0.722 | YES | 0.343 | -0.664 |
+| Experimental |  | Urbana |  | dfs.debate | 43 | 3.393 | 3.444 | 2.222 | 4.667 | 0.578 | 0.088 | 0.178 | 0.833 | YES | -0.098 | -0.757 |
+| Experimental |  |  |  | dfs.debate | 25 | 3.557 | 3.667 | 2.500 | 4.222 | 0.443 | 0.089 | 0.183 | 0.500 | NO | -0.820 | 0.071 |
+| Controle |  | Rural |  | fss.debate | 43 | 3.364 | 3.444 | 2.111 | 4.333 | 0.523 | 0.080 | 0.161 | 0.667 | YES | 0.091 | -0.556 |
+| Controle |  | Urbana |  | fss.debate | 51 | 3.443 | 3.375 | 2.111 | 4.333 | 0.525 | 0.073 | 0.148 | 0.604 | YES | -0.271 | -0.168 |
+| Controle |  |  |  | fss.debate | 28 | 3.488 | 3.646 | 2.556 | 4.222 | 0.446 | 0.084 | 0.173 | 0.583 | YES | -0.245 | -0.889 |
+| Experimental |  | Rural |  | fss.debate | 47 | 3.456 | 3.444 | 2.111 | 4.750 | 0.572 | 0.083 | 0.168 | 0.715 | YES | 0.096 | -0.003 |
+| Experimental |  | Urbana |  | fss.debate | 43 | 3.588 | 3.556 | 2.625 | 4.778 | 0.504 | 0.077 | 0.155 | 0.611 | YES | 0.362 | -0.241 |
+| Experimental |  |  |  | fss.debate | 25 | 3.667 | 3.667 | 2.111 | 5.000 | 0.635 | 0.127 | 0.262 | 0.778 | YES | -0.238 | -0.072 |
+| Controle |  |  | Rural | dfs.debate | 41 | 3.518 | 3.556 | 2.111 | 4.556 | 0.540 | 0.084 | 0.171 | 0.667 | YES | -0.424 | 0.099 |
+| Controle |  |  | Urbana | dfs.debate | 81 | 3.434 | 3.444 | 2.000 | 4.556 | 0.575 | 0.064 | 0.127 | 0.889 | YES | -0.253 | -0.534 |
+| Experimental |  |  | Rural | dfs.debate | 35 | 3.537 | 3.667 | 2.556 | 4.556 | 0.533 | 0.090 | 0.183 | 0.694 | YES | -0.031 | -0.731 |
+| Experimental |  |  | Urbana | dfs.debate | 80 | 3.410 | 3.444 | 2.222 | 4.667 | 0.535 | 0.060 | 0.119 | 0.778 | YES | -0.074 | -0.566 |
+| Controle |  |  | Rural | fss.debate | 41 | 3.422 | 3.444 | 2.556 | 4.333 | 0.418 | 0.065 | 0.132 | 0.556 | YES | 0.140 | -0.509 |
+| Controle |  |  | Urbana | fss.debate | 81 | 3.427 | 3.444 | 2.111 | 4.333 | 0.547 | 0.061 | 0.121 | 0.667 | YES | -0.220 | -0.509 |
+| Experimental |  |  | Rural | fss.debate | 35 | 3.552 | 3.444 | 2.111 | 4.750 | 0.623 | 0.105 | 0.214 | 0.889 | YES | -0.032 | -0.503 |
+| Experimental |  |  | Urbana | fss.debate | 80 | 3.551 | 3.556 | 2.111 | 5.000 | 0.540 | 0.060 | 0.120 | 0.580 | YES | 0.145 | 0.301 |
 
 # ANCOVA and Pairwise for one factor: **grupo**
 
@@ -311,9 +311,9 @@ pwc <- emmeans_test(wdat, fss.debate ~ grupo, covariate = dfs.debate,
                     p.adjust.method = "bonferroni")
 ```
 
-| term              | .y.        | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-----------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-| dfs.debate\*grupo | fss.debate | Controle | Experimental | 234 |    -2.018 | 0.045 | 0.045 | \*           |
+| term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| dfs.debate\*grupo | fss.debate | Controle | Experimental | 234 | -2.018 | 0.045 | 0.045 | \* |
 
 ``` r
 pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, "grupo"),
@@ -345,10 +345,10 @@ colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
 lemms[["grupo"]] <- merge(ds, lemms[["grupo"]], by=c("grupo"), suffixes = c("","'"))
 ```
 
-| grupo        |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | 122 |   3.462 |    0.051 |     3.426 |      0.046 |   3.423 |    0.045 |    3.335 |     3.512 |
-| Experimental | 115 |   3.448 |    0.050 |     3.551 |      0.053 |   3.554 |    0.046 |    3.462 |     3.645 |
+| grupo | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 122 | 3.462 | 0.051 | 3.426 | 0.046 | 3.423 | 0.045 | 3.335 | 3.512 |
+| Experimental | 115 | 3.448 | 0.050 | 3.551 | 0.053 | 3.554 | 0.046 | 3.462 | 3.645 |
 
 ### Plots for ancova
 
@@ -564,12 +564,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term               | .y.        | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:-------------------|:-----------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | F      | dfs.debate\*grupo  | fss.debate | Controle | Experimental | 232 |    -1.327 | 0.186 | 0.186 | ns           |
-|              | M      | dfs.debate\*grupo  | fss.debate | Controle | Experimental | 232 |    -1.705 | 0.090 | 0.090 | ns           |
-| Controle     |        | dfs.debate\*genero | fss.debate | F        | M            | 232 |     2.220 | 0.027 | 0.027 | \*           |
-| Experimental |        | dfs.debate\*genero | fss.debate | F        | M            | 232 |     1.844 | 0.066 | 0.066 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | F | dfs.debate\*grupo | fss.debate | Controle | Experimental | 232 | -1.327 | 0.186 | 0.186 | ns |
+|  | M | dfs.debate\*grupo | fss.debate | Controle | Experimental | 232 | -1.705 | 0.090 | 0.090 | ns |
+| Controle |  | dfs.debate\*genero | fss.debate | F | M | 232 | 2.220 | 0.027 | 0.027 | \* |
+| Experimental |  | dfs.debate\*genero | fss.debate | F | M | 232 | 1.844 | 0.066 | 0.066 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -583,12 +583,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term | .y.        | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:-----|:-----------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | F      | time | flow.debat | pre    | pos    | 466 |    -0.525 | 0.600 | 0.600 | ns           |
-| Controle     | M      | time | flow.debat | pre    | pos    | 466 |     1.260 | 0.208 | 0.208 | ns           |
-| Experimental | F      | time | flow.debat | pre    | pos    | 466 |    -1.174 | 0.241 | 0.241 | ns           |
-| Experimental | M      | time | flow.debat | pre    | pos    | 466 |    -0.903 | 0.367 | 0.367 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | F | time | flow.debat | pre | pos | 466 | -0.525 | 0.600 | 0.600 | ns |
+| Controle | M | time | flow.debat | pre | pos | 466 | 1.260 | 0.208 | 0.208 | ns |
+| Experimental | F | time | flow.debat | pre | pos | 466 | -1.174 | 0.241 | 0.241 | ns |
+| Experimental | M | time | flow.debat | pre | pos | 466 | -0.903 | 0.367 | 0.367 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -610,12 +610,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | F      |  60 |   3.481 |    0.070 |     3.533 |      0.063 |   3.524 |    0.063 |    3.399 |     3.649 |
-| Controle     | M      |  62 |   3.444 |    0.074 |     3.322 |      0.064 |   3.326 |    0.062 |    3.203 |     3.449 |
-| Experimental | F      |  52 |   3.560 |    0.072 |     3.683 |      0.073 |   3.647 |    0.068 |    3.513 |     3.782 |
-| Experimental | M      |  63 |   3.356 |    0.067 |     3.442 |      0.072 |   3.476 |    0.062 |    3.354 |     3.599 |
+| grupo | genero | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | F | 60 | 3.481 | 0.070 | 3.533 | 0.063 | 3.524 | 0.063 | 3.399 | 3.649 |
+| Controle | M | 62 | 3.444 | 0.074 | 3.322 | 0.064 | 3.326 | 0.062 | 3.203 | 3.449 |
+| Experimental | F | 52 | 3.560 | 0.072 | 3.683 | 0.073 | 3.647 | 0.068 | 3.513 | 3.782 |
+| Experimental | M | 63 | 3.356 | 0.067 | 3.442 | 0.072 | 3.476 | 0.062 | 3.354 | 3.599 |
 
 ### Plots for ancova
 
@@ -632,7 +632,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -647,7 +647,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -666,10 +666,9 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-44-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-45-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -686,7 +685,7 @@ if (length(unique(pdat[["genero"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -701,7 +700,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -717,7 +716,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -733,7 +732,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -888,12 +887,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term                          | .y.        | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:------------------------------|:-----------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural             | dfs.debate\*grupo             | fss.debate | Controle | Experimental | 179 |    -1.154 | 0.250 | 0.250 | ns           |
-|              | Urbana            | dfs.debate\*grupo             | fss.debate | Controle | Experimental | 179 |    -1.308 | 0.192 | 0.192 | ns           |
-| Controle     |                   | dfs.debate\*zona.participante | fss.debate | Rural    | Urbana       | 179 |    -1.285 | 0.200 | 0.200 | ns           |
-| Experimental |                   | dfs.debate\*zona.participante | fss.debate | Rural    | Urbana       | 179 |    -1.395 | 0.165 | 0.165 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | dfs.debate\*grupo | fss.debate | Controle | Experimental | 179 | -1.154 | 0.250 | 0.250 | ns |
+|  | Urbana | dfs.debate\*grupo | fss.debate | Controle | Experimental | 179 | -1.308 | 0.192 | 0.192 | ns |
+| Controle |  | dfs.debate\*zona.participante | fss.debate | Rural | Urbana | 179 | -1.285 | 0.200 | 0.200 | ns |
+| Experimental |  | dfs.debate\*zona.participante | fss.debate | Rural | Urbana | 179 | -1.395 | 0.165 | 0.165 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -907,12 +906,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term | .y.        | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:-----|:-----------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural             | time | flow.debat | pre    | pos    | 360 |     1.409 | 0.160 | 0.160 | ns           |
-| Controle     | Urbana            | time | flow.debat | pre    | pos    | 360 |    -0.715 | 0.475 | 0.475 | ns           |
-| Experimental | Rural             | time | flow.debat | pre    | pos    | 360 |    -0.135 | 0.893 | 0.893 | ns           |
-| Experimental | Urbana            | time | flow.debat | pre    | pos    | 360 |    -1.635 | 0.103 | 0.103 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | flow.debat | pre | pos | 360 | 1.409 | 0.160 | 0.160 | ns |
+| Controle | Urbana | time | flow.debat | pre | pos | 360 | -0.715 | 0.475 | 0.475 | ns |
+| Experimental | Rural | time | flow.debat | pre | pos | 360 | -0.135 | 0.893 | 0.893 | ns |
+| Experimental | Urbana | time | flow.debat | pre | pos | 360 | -1.635 | 0.103 | 0.103 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -934,12 +933,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural             |  43 |   3.532 |    0.080 |     3.364 |      0.080 |   3.331 |    0.076 |    3.180 |     3.482 |
-| Controle     | Urbana            |  51 |   3.365 |    0.088 |     3.443 |      0.073 |   3.465 |    0.070 |    3.326 |     3.603 |
-| Experimental | Rural             |  47 |   3.441 |    0.079 |     3.456 |      0.083 |   3.453 |    0.073 |    3.309 |     3.597 |
-| Experimental | Urbana            |  43 |   3.393 |    0.088 |     3.588 |      0.077 |   3.600 |    0.076 |    3.449 |     3.750 |
+| grupo | zona.participante | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 43 | 3.532 | 0.080 | 3.364 | 0.080 | 3.331 | 0.076 | 3.180 | 3.482 |
+| Controle | Urbana | 51 | 3.365 | 0.088 | 3.443 | 0.073 | 3.465 | 0.070 | 3.326 | 3.603 |
+| Experimental | Rural | 47 | 3.441 | 0.079 | 3.456 | 0.083 | 3.453 | 0.073 | 3.309 | 3.597 |
+| Experimental | Urbana | 43 | 3.393 | 0.088 | 3.588 | 0.077 | 3.600 | 0.076 | 3.449 | 3.750 |
 
 ### Plots for ancova
 
@@ -956,7 +955,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -971,7 +970,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -990,10 +989,9 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1010,7 +1008,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1025,7 +1023,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1041,7 +1039,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1057,7 +1055,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1212,12 +1210,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term                    | .y.        | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:------------------------|:-----------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural       | dfs.debate\*grupo       | fss.debate | Controle | Experimental | 232 |    -1.069 | 0.286 | 0.286 | ns           |
-|              | Urbana      | dfs.debate\*grupo       | fss.debate | Controle | Experimental | 232 |    -1.681 | 0.094 | 0.094 | ns           |
-| Controle     |             | dfs.debate\*zona.escola | fss.debate | Rural    | Urbana       | 232 |    -0.370 | 0.711 | 0.711 | ns           |
-| Experimental |             | dfs.debate\*zona.escola | fss.debate | Rural    | Urbana       | 232 |    -0.443 | 0.658 | 0.658 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | dfs.debate\*grupo | fss.debate | Controle | Experimental | 232 | -1.069 | 0.286 | 0.286 | ns |
+|  | Urbana | dfs.debate\*grupo | fss.debate | Controle | Experimental | 232 | -1.681 | 0.094 | 0.094 | ns |
+| Controle |  | dfs.debate\*zona.escola | fss.debate | Rural | Urbana | 232 | -0.370 | 0.711 | 0.711 | ns |
+| Experimental |  | dfs.debate\*zona.escola | fss.debate | Rural | Urbana | 232 | -0.443 | 0.658 | 0.658 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1231,12 +1229,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term | .y.        | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:-----|:-----------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural       | time | flow.debat | pre    | pos    | 466 |     0.796 | 0.426 | 0.426 | ns           |
-| Controle     | Urbana      | time | flow.debat | pre    | pos    | 466 |     0.075 | 0.940 | 0.940 | ns           |
-| Experimental | Rural       | time | flow.debat | pre    | pos    | 466 |    -0.119 | 0.905 | 0.905 | ns           |
-| Experimental | Urbana      | time | flow.debat | pre    | pos    | 466 |    -1.645 | 0.101 | 0.101 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | flow.debat | pre | pos | 466 | 0.796 | 0.426 | 0.426 | ns |
+| Controle | Urbana | time | flow.debat | pre | pos | 466 | 0.075 | 0.940 | 0.940 | ns |
+| Experimental | Rural | time | flow.debat | pre | pos | 466 | -0.119 | 0.905 | 0.905 | ns |
+| Experimental | Urbana | time | flow.debat | pre | pos | 466 | -1.645 | 0.101 | 0.101 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1258,12 +1256,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural       |  41 |   3.518 |    0.084 |     3.422 |      0.065 |   3.400 |    0.078 |    3.246 |     3.554 |
-| Controle     | Urbana      |  81 |   3.434 |    0.064 |     3.427 |      0.061 |   3.435 |    0.056 |    3.326 |     3.545 |
-| Experimental | Rural       |  35 |   3.537 |    0.090 |     3.552 |      0.105 |   3.523 |    0.085 |    3.356 |     3.689 |
-| Experimental | Urbana      |  80 |   3.410 |    0.060 |     3.551 |      0.060 |   3.568 |    0.056 |    3.457 |     3.678 |
+| grupo | zona.escola | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 41 | 3.518 | 0.084 | 3.422 | 0.065 | 3.400 | 0.078 | 3.246 | 3.554 |
+| Controle | Urbana | 81 | 3.434 | 0.064 | 3.427 | 0.061 | 3.435 | 0.056 | 3.326 | 3.545 |
+| Experimental | Rural | 35 | 3.537 | 0.090 | 3.552 | 0.105 | 3.523 | 0.085 | 3.356 | 3.689 |
+| Experimental | Urbana | 80 | 3.410 | 0.060 | 3.551 | 0.060 | 3.568 | 0.056 | 3.457 | 3.678 |
 
 ### Plots for ancova
 
@@ -1280,7 +1278,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1295,7 +1293,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1314,10 +1312,9 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1334,7 +1331,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-96-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1349,7 +1346,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-100-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1365,7 +1362,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-98-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1381,7 +1378,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](aov-wordgen-flow.debat_files/figure-gfm/unnamed-chunk-102-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1428,38 +1425,38 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
              colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | variable   |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:-----------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|:---------|---------:|---------:|
-| Controle     |        |                   |             | dfs.debate | 122 | 3.462 |  3.444 | 2.000 | 4.556 | 0.562 | 0.051 | 0.101 | 0.778 | YES      |   -0.318 |   -0.316 |
-| Experimental |        |                   |             | dfs.debate | 115 | 3.448 |  3.556 | 2.222 | 4.667 | 0.535 | 0.050 | 0.099 | 0.722 | YES      |   -0.063 |   -0.553 |
-|              |        |                   |             | dfs.debate | 237 | 3.455 |  3.444 | 2.000 | 4.667 | 0.548 | 0.036 | 0.070 | 0.667 | YES      |   -0.203 |   -0.398 |
-| Controle     |        |                   |             | fss.debate | 122 | 3.426 |  3.444 | 2.111 | 4.333 | 0.505 | 0.046 | 0.091 | 0.667 | YES      |   -0.155 |   -0.346 |
-| Experimental |        |                   |             | fss.debate | 115 | 3.551 |  3.556 | 2.111 | 5.000 | 0.564 | 0.053 | 0.104 | 0.667 | YES      |    0.076 |    0.066 |
-|              |        |                   |             | fss.debate | 237 | 3.487 |  3.444 | 2.111 | 5.000 | 0.537 | 0.035 | 0.069 | 0.667 | YES      |    0.014 |    0.009 |
-| Controle     | F      |                   |             | dfs.debate |  60 | 3.481 |  3.556 | 2.333 | 4.556 | 0.542 | 0.070 | 0.140 | 0.795 | YES      |   -0.140 |   -0.542 |
-| Controle     | M      |                   |             | dfs.debate |  62 | 3.444 |  3.444 | 2.000 | 4.556 | 0.586 | 0.074 | 0.149 | 0.750 | YES      |   -0.434 |   -0.301 |
-| Experimental | F      |                   |             | dfs.debate |  52 | 3.560 |  3.667 | 2.222 | 4.667 | 0.520 | 0.072 | 0.145 | 0.472 | NO       |   -0.528 |    0.315 |
-| Experimental | M      |                   |             | dfs.debate |  63 | 3.356 |  3.250 | 2.375 | 4.556 | 0.535 | 0.067 | 0.135 | 0.889 | YES      |    0.312 |   -0.779 |
-| Controle     | F      |                   |             | fss.debate |  60 | 3.533 |  3.556 | 2.444 | 4.333 | 0.492 | 0.063 | 0.127 | 0.580 | YES      |   -0.055 |   -0.748 |
-| Controle     | M      |                   |             | fss.debate |  62 | 3.322 |  3.333 | 2.111 | 4.222 | 0.501 | 0.064 | 0.127 | 0.667 | YES      |   -0.241 |   -0.269 |
-| Experimental | F      |                   |             | fss.debate |  52 | 3.683 |  3.667 | 2.111 | 4.750 | 0.529 | 0.073 | 0.147 | 0.694 | YES      |   -0.064 |    0.215 |
-| Experimental | M      |                   |             | fss.debate |  63 | 3.442 |  3.444 | 2.111 | 5.000 | 0.573 | 0.072 | 0.144 | 0.667 | YES      |    0.255 |    0.127 |
-| Controle     |        | Rural             |             | dfs.debate |  43 | 3.532 |  3.556 | 2.444 | 4.556 | 0.526 | 0.080 | 0.162 | 0.889 | YES      |   -0.064 |   -0.900 |
-| Controle     |        | Urbana            |             | dfs.debate |  51 | 3.365 |  3.444 | 2.000 | 4.500 | 0.628 | 0.088 | 0.177 | 0.833 | YES      |   -0.425 |   -0.676 |
-| Experimental |        | Rural             |             | dfs.debate |  47 | 3.441 |  3.444 | 2.556 | 4.556 | 0.541 | 0.079 | 0.159 | 0.722 | YES      |    0.343 |   -0.664 |
-| Experimental |        | Urbana            |             | dfs.debate |  43 | 3.393 |  3.444 | 2.222 | 4.667 | 0.578 | 0.088 | 0.178 | 0.833 | YES      |   -0.098 |   -0.757 |
-| Controle     |        | Rural             |             | fss.debate |  43 | 3.364 |  3.444 | 2.111 | 4.333 | 0.523 | 0.080 | 0.161 | 0.667 | YES      |    0.091 |   -0.556 |
-| Controle     |        | Urbana            |             | fss.debate |  51 | 3.443 |  3.375 | 2.111 | 4.333 | 0.525 | 0.073 | 0.148 | 0.604 | YES      |   -0.271 |   -0.168 |
-| Experimental |        | Rural             |             | fss.debate |  47 | 3.456 |  3.444 | 2.111 | 4.750 | 0.572 | 0.083 | 0.168 | 0.715 | YES      |    0.096 |   -0.003 |
-| Experimental |        | Urbana            |             | fss.debate |  43 | 3.588 |  3.556 | 2.625 | 4.778 | 0.504 | 0.077 | 0.155 | 0.611 | YES      |    0.362 |   -0.241 |
-| Controle     |        |                   | Rural       | dfs.debate |  41 | 3.518 |  3.556 | 2.111 | 4.556 | 0.540 | 0.084 | 0.171 | 0.667 | YES      |   -0.424 |    0.099 |
-| Controle     |        |                   | Urbana      | dfs.debate |  81 | 3.434 |  3.444 | 2.000 | 4.556 | 0.575 | 0.064 | 0.127 | 0.889 | YES      |   -0.253 |   -0.534 |
-| Experimental |        |                   | Rural       | dfs.debate |  35 | 3.537 |  3.667 | 2.556 | 4.556 | 0.533 | 0.090 | 0.183 | 0.694 | YES      |   -0.031 |   -0.731 |
-| Experimental |        |                   | Urbana      | dfs.debate |  80 | 3.410 |  3.444 | 2.222 | 4.667 | 0.535 | 0.060 | 0.119 | 0.778 | YES      |   -0.074 |   -0.566 |
-| Controle     |        |                   | Rural       | fss.debate |  41 | 3.422 |  3.444 | 2.556 | 4.333 | 0.418 | 0.065 | 0.132 | 0.556 | YES      |    0.140 |   -0.509 |
-| Controle     |        |                   | Urbana      | fss.debate |  81 | 3.427 |  3.444 | 2.111 | 4.333 | 0.547 | 0.061 | 0.121 | 0.667 | YES      |   -0.220 |   -0.509 |
-| Experimental |        |                   | Rural       | fss.debate |  35 | 3.552 |  3.444 | 2.111 | 4.750 | 0.623 | 0.105 | 0.214 | 0.889 | YES      |   -0.032 |   -0.503 |
-| Experimental |        |                   | Urbana      | fss.debate |  80 | 3.551 |  3.556 | 2.111 | 5.000 | 0.540 | 0.060 | 0.120 | 0.580 | YES      |    0.145 |    0.301 |
+| grupo | genero | zona.participante | zona.escola | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  | dfs.debate | 122 | 3.462 | 3.444 | 2.000 | 4.556 | 0.562 | 0.051 | 0.101 | 0.778 | YES | -0.318 | -0.316 |
+| Experimental |  |  |  | dfs.debate | 115 | 3.448 | 3.556 | 2.222 | 4.667 | 0.535 | 0.050 | 0.099 | 0.722 | YES | -0.063 | -0.553 |
+|  |  |  |  | dfs.debate | 237 | 3.455 | 3.444 | 2.000 | 4.667 | 0.548 | 0.036 | 0.070 | 0.667 | YES | -0.203 | -0.398 |
+| Controle |  |  |  | fss.debate | 122 | 3.426 | 3.444 | 2.111 | 4.333 | 0.505 | 0.046 | 0.091 | 0.667 | YES | -0.155 | -0.346 |
+| Experimental |  |  |  | fss.debate | 115 | 3.551 | 3.556 | 2.111 | 5.000 | 0.564 | 0.053 | 0.104 | 0.667 | YES | 0.076 | 0.066 |
+|  |  |  |  | fss.debate | 237 | 3.487 | 3.444 | 2.111 | 5.000 | 0.537 | 0.035 | 0.069 | 0.667 | YES | 0.014 | 0.009 |
+| Controle | F |  |  | dfs.debate | 60 | 3.481 | 3.556 | 2.333 | 4.556 | 0.542 | 0.070 | 0.140 | 0.795 | YES | -0.140 | -0.542 |
+| Controle | M |  |  | dfs.debate | 62 | 3.444 | 3.444 | 2.000 | 4.556 | 0.586 | 0.074 | 0.149 | 0.750 | YES | -0.434 | -0.301 |
+| Experimental | F |  |  | dfs.debate | 52 | 3.560 | 3.667 | 2.222 | 4.667 | 0.520 | 0.072 | 0.145 | 0.472 | NO | -0.528 | 0.315 |
+| Experimental | M |  |  | dfs.debate | 63 | 3.356 | 3.250 | 2.375 | 4.556 | 0.535 | 0.067 | 0.135 | 0.889 | YES | 0.312 | -0.779 |
+| Controle | F |  |  | fss.debate | 60 | 3.533 | 3.556 | 2.444 | 4.333 | 0.492 | 0.063 | 0.127 | 0.580 | YES | -0.055 | -0.748 |
+| Controle | M |  |  | fss.debate | 62 | 3.322 | 3.333 | 2.111 | 4.222 | 0.501 | 0.064 | 0.127 | 0.667 | YES | -0.241 | -0.269 |
+| Experimental | F |  |  | fss.debate | 52 | 3.683 | 3.667 | 2.111 | 4.750 | 0.529 | 0.073 | 0.147 | 0.694 | YES | -0.064 | 0.215 |
+| Experimental | M |  |  | fss.debate | 63 | 3.442 | 3.444 | 2.111 | 5.000 | 0.573 | 0.072 | 0.144 | 0.667 | YES | 0.255 | 0.127 |
+| Controle |  | Rural |  | dfs.debate | 43 | 3.532 | 3.556 | 2.444 | 4.556 | 0.526 | 0.080 | 0.162 | 0.889 | YES | -0.064 | -0.900 |
+| Controle |  | Urbana |  | dfs.debate | 51 | 3.365 | 3.444 | 2.000 | 4.500 | 0.628 | 0.088 | 0.177 | 0.833 | YES | -0.425 | -0.676 |
+| Experimental |  | Rural |  | dfs.debate | 47 | 3.441 | 3.444 | 2.556 | 4.556 | 0.541 | 0.079 | 0.159 | 0.722 | YES | 0.343 | -0.664 |
+| Experimental |  | Urbana |  | dfs.debate | 43 | 3.393 | 3.444 | 2.222 | 4.667 | 0.578 | 0.088 | 0.178 | 0.833 | YES | -0.098 | -0.757 |
+| Controle |  | Rural |  | fss.debate | 43 | 3.364 | 3.444 | 2.111 | 4.333 | 0.523 | 0.080 | 0.161 | 0.667 | YES | 0.091 | -0.556 |
+| Controle |  | Urbana |  | fss.debate | 51 | 3.443 | 3.375 | 2.111 | 4.333 | 0.525 | 0.073 | 0.148 | 0.604 | YES | -0.271 | -0.168 |
+| Experimental |  | Rural |  | fss.debate | 47 | 3.456 | 3.444 | 2.111 | 4.750 | 0.572 | 0.083 | 0.168 | 0.715 | YES | 0.096 | -0.003 |
+| Experimental |  | Urbana |  | fss.debate | 43 | 3.588 | 3.556 | 2.625 | 4.778 | 0.504 | 0.077 | 0.155 | 0.611 | YES | 0.362 | -0.241 |
+| Controle |  |  | Rural | dfs.debate | 41 | 3.518 | 3.556 | 2.111 | 4.556 | 0.540 | 0.084 | 0.171 | 0.667 | YES | -0.424 | 0.099 |
+| Controle |  |  | Urbana | dfs.debate | 81 | 3.434 | 3.444 | 2.000 | 4.556 | 0.575 | 0.064 | 0.127 | 0.889 | YES | -0.253 | -0.534 |
+| Experimental |  |  | Rural | dfs.debate | 35 | 3.537 | 3.667 | 2.556 | 4.556 | 0.533 | 0.090 | 0.183 | 0.694 | YES | -0.031 | -0.731 |
+| Experimental |  |  | Urbana | dfs.debate | 80 | 3.410 | 3.444 | 2.222 | 4.667 | 0.535 | 0.060 | 0.119 | 0.778 | YES | -0.074 | -0.566 |
+| Controle |  |  | Rural | fss.debate | 41 | 3.422 | 3.444 | 2.556 | 4.333 | 0.418 | 0.065 | 0.132 | 0.556 | YES | 0.140 | -0.509 |
+| Controle |  |  | Urbana | fss.debate | 81 | 3.427 | 3.444 | 2.111 | 4.333 | 0.547 | 0.061 | 0.121 | 0.667 | YES | -0.220 | -0.509 |
+| Experimental |  |  | Rural | fss.debate | 35 | 3.552 | 3.444 | 2.111 | 4.750 | 0.623 | 0.105 | 0.214 | 0.889 | YES | -0.032 | -0.503 |
+| Experimental |  |  | Urbana | fss.debate | 80 | 3.551 | 3.556 | 2.111 | 5.000 | 0.540 | 0.060 | 0.120 | 0.580 | YES | 0.145 | 0.301 |
 
 ## ANCOVA Table Comparison
 
@@ -1468,16 +1465,16 @@ df <- do.call(plyr::rbind.fill, laov)
 df <- df[!duplicated(df$Effect),]
 ```
 
-|     | Effect                  | DFn | DFd |      F |     p | p\<.05 |   ges | DFn’ | DFd’ |     F’ |    p’ | p\<.05’ |  ges’ |
-|:----|:------------------------|----:|----:|-------:|------:|:-------|------:|-----:|-----:|-------:|------:|:--------|------:|
-| 1   | dfs.debate              |   1 | 234 | 37.158 | 0.000 | \*     | 0.137 |    1 |  234 | 37.158 | 0.000 | \*      | 0.137 |
-| 2   | grupo                   |   1 | 234 |  4.071 | 0.045 | \*     | 0.017 |    1 |  234 |  4.071 | 0.045 | \*      | 0.017 |
-| 4   | genero                  |   1 | 232 |  8.262 | 0.004 | \*     | 0.034 |    1 |  232 |  8.262 | 0.004 | \*      | 0.034 |
-| 6   | grupo:genero            |   1 | 232 |  0.042 | 0.837 |        | 0.000 |    1 |  232 |  0.042 | 0.837 |         | 0.000 |
-| 9   | grupo:zona.participante |   1 | 179 |  0.008 | 0.927 |        | 0.000 |    1 |  179 |  0.008 | 0.927 |         | 0.000 |
-| 10  | zona.participante       |   1 | 179 |  3.580 | 0.060 |        | 0.020 |    1 |  179 |  3.580 | 0.060 |         | 0.020 |
-| 13  | grupo:zona.escola       |   1 | 232 |  0.005 | 0.946 |        | 0.000 |    1 |  232 |  0.005 | 0.946 |         | 0.000 |
-| 14  | zona.escola             |   1 | 232 |  0.328 | 0.567 |        | 0.001 |    1 |  232 |  0.328 | 0.567 |         | 0.001 |
+|  | Effect | DFn | DFd | F | p | p\<.05 | ges | DFn’ | DFd’ | F’ | p’ | p\<.05’ | ges’ |
+|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|---:|:---|---:|
+| 1 | dfs.debate | 1 | 234 | 37.158 | 0.000 | \* | 0.137 | 1 | 234 | 37.158 | 0.000 | \* | 0.137 |
+| 2 | grupo | 1 | 234 | 4.071 | 0.045 | \* | 0.017 | 1 | 234 | 4.071 | 0.045 | \* | 0.017 |
+| 4 | genero | 1 | 232 | 8.262 | 0.004 | \* | 0.034 | 1 | 232 | 8.262 | 0.004 | \* | 0.034 |
+| 6 | grupo:genero | 1 | 232 | 0.042 | 0.837 |  | 0.000 | 1 | 232 | 0.042 | 0.837 |  | 0.000 |
+| 9 | grupo:zona.participante | 1 | 179 | 0.008 | 0.927 |  | 0.000 | 1 | 179 | 0.008 | 0.927 |  | 0.000 |
+| 10 | zona.participante | 1 | 179 | 3.580 | 0.060 |  | 0.020 | 1 | 179 | 3.580 | 0.060 |  | 0.020 |
+| 13 | grupo:zona.escola | 1 | 232 | 0.005 | 0.946 |  | 0.000 | 1 | 232 | 0.005 | 0.946 |  | 0.000 |
+| 14 | zona.escola | 1 | 232 | 0.328 | 0.567 |  | 0.001 | 1 | 232 | 0.328 | 0.567 |  | 0.001 |
 
 ## PairWise Table Comparison
 
@@ -1487,35 +1484,35 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% c(names(lfatores),"term",".y.")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif | df’ | statistic’ |    p’ | p.adj’ | p.adj.signif’ |
-|:-------------|:-------|:------------------|:------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|----:|-----------:|------:|-------:|:--------------|
-| Controle     |        |                   |             | pre      | pos          | 470 |     0.524 | 0.600 | 0.600 | ns           | 470 |      0.524 | 0.600 |  0.600 | ns            |
-| Experimental |        |                   |             | pre      | pos          | 470 |    -1.441 | 0.150 | 0.150 | ns           | 470 |     -1.441 | 0.150 |  0.150 | ns            |
-|              |        |                   |             | Controle | Experimental | 234 |    -2.018 | 0.045 | 0.045 | \*           | 234 |     -2.018 | 0.045 |  0.045 | \*            |
-| Controle     | F      |                   |             | pre      | pos          | 466 |    -0.525 | 0.600 | 0.600 | ns           | 466 |     -0.525 | 0.600 |  0.600 | ns            |
-| Controle     | M      |                   |             | pre      | pos          | 466 |     1.260 | 0.208 | 0.208 | ns           | 466 |      1.260 | 0.208 |  0.208 | ns            |
-| Controle     |        |                   |             | F        | M            | 232 |     2.220 | 0.027 | 0.027 | \*           | 232 |      2.220 | 0.027 |  0.027 | \*            |
-| Experimental | F      |                   |             | pre      | pos          | 466 |    -1.174 | 0.241 | 0.241 | ns           | 466 |     -1.174 | 0.241 |  0.241 | ns            |
-| Experimental | M      |                   |             | pre      | pos          | 466 |    -0.903 | 0.367 | 0.367 | ns           | 466 |     -0.903 | 0.367 |  0.367 | ns            |
-| Experimental |        |                   |             | F        | M            | 232 |     1.844 | 0.066 | 0.066 | ns           | 232 |      1.844 | 0.066 |  0.066 | ns            |
-|              | F      |                   |             | Controle | Experimental | 232 |    -1.327 | 0.186 | 0.186 | ns           | 232 |     -1.327 | 0.186 |  0.186 | ns            |
-|              | M      |                   |             | Controle | Experimental | 232 |    -1.705 | 0.090 | 0.090 | ns           | 232 |     -1.705 | 0.090 |  0.090 | ns            |
-| Controle     |        |                   |             | Rural    | Urbana       | 179 |    -1.285 | 0.200 | 0.200 | ns           | 179 |     -1.285 | 0.200 |  0.200 | ns            |
-| Controle     |        | Rural             |             | pre      | pos          | 360 |     1.409 | 0.160 | 0.160 | ns           | 360 |      1.409 | 0.160 |  0.160 | ns            |
-| Controle     |        | Urbana            |             | pre      | pos          | 360 |    -0.715 | 0.475 | 0.475 | ns           | 360 |     -0.715 | 0.475 |  0.475 | ns            |
-| Experimental |        |                   |             | Rural    | Urbana       | 179 |    -1.395 | 0.165 | 0.165 | ns           | 179 |     -1.395 | 0.165 |  0.165 | ns            |
-| Experimental |        | Rural             |             | pre      | pos          | 360 |    -0.135 | 0.893 | 0.893 | ns           | 360 |     -0.135 | 0.893 |  0.893 | ns            |
-| Experimental |        | Urbana            |             | pre      | pos          | 360 |    -1.635 | 0.103 | 0.103 | ns           | 360 |     -1.635 | 0.103 |  0.103 | ns            |
-|              |        | Rural             |             | Controle | Experimental | 179 |    -1.154 | 0.250 | 0.250 | ns           | 179 |     -1.154 | 0.250 |  0.250 | ns            |
-|              |        | Urbana            |             | Controle | Experimental | 179 |    -1.308 | 0.192 | 0.192 | ns           | 179 |     -1.308 | 0.192 |  0.192 | ns            |
-| Controle     |        |                   |             | Rural    | Urbana       | 232 |    -0.370 | 0.711 | 0.711 | ns           | 232 |     -0.370 | 0.711 |  0.711 | ns            |
-| Controle     |        |                   | Rural       | pre      | pos          | 466 |     0.796 | 0.426 | 0.426 | ns           | 466 |      0.796 | 0.426 |  0.426 | ns            |
-| Controle     |        |                   | Urbana      | pre      | pos          | 466 |     0.075 | 0.940 | 0.940 | ns           | 466 |      0.075 | 0.940 |  0.940 | ns            |
-| Experimental |        |                   |             | Rural    | Urbana       | 232 |    -0.443 | 0.658 | 0.658 | ns           | 232 |     -0.443 | 0.658 |  0.658 | ns            |
-| Experimental |        |                   | Rural       | pre      | pos          | 466 |    -0.119 | 0.905 | 0.905 | ns           | 466 |     -0.119 | 0.905 |  0.905 | ns            |
-| Experimental |        |                   | Urbana      | pre      | pos          | 466 |    -1.645 | 0.101 | 0.101 | ns           | 466 |     -1.645 | 0.101 |  0.101 | ns            |
-|              |        |                   | Rural       | Controle | Experimental | 232 |    -1.069 | 0.286 | 0.286 | ns           | 232 |     -1.069 | 0.286 |  0.286 | ns            |
-|              |        |                   | Urbana      | Controle | Experimental | 232 |    -1.681 | 0.094 | 0.094 | ns           | 232 |     -1.681 | 0.094 |  0.094 | ns            |
+| grupo | genero | zona.participante | zona.escola | group1 | group2 | df | statistic | p | p.adj | p.adj.signif | df’ | statistic’ | p’ | p.adj’ | p.adj.signif’ |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|:---|
+| Controle |  |  |  | pre | pos | 470 | 0.524 | 0.600 | 0.600 | ns | 470 | 0.524 | 0.600 | 0.600 | ns |
+| Experimental |  |  |  | pre | pos | 470 | -1.441 | 0.150 | 0.150 | ns | 470 | -1.441 | 0.150 | 0.150 | ns |
+|  |  |  |  | Controle | Experimental | 234 | -2.018 | 0.045 | 0.045 | \* | 234 | -2.018 | 0.045 | 0.045 | \* |
+| Controle | F |  |  | pre | pos | 466 | -0.525 | 0.600 | 0.600 | ns | 466 | -0.525 | 0.600 | 0.600 | ns |
+| Controle | M |  |  | pre | pos | 466 | 1.260 | 0.208 | 0.208 | ns | 466 | 1.260 | 0.208 | 0.208 | ns |
+| Controle |  |  |  | F | M | 232 | 2.220 | 0.027 | 0.027 | \* | 232 | 2.220 | 0.027 | 0.027 | \* |
+| Experimental | F |  |  | pre | pos | 466 | -1.174 | 0.241 | 0.241 | ns | 466 | -1.174 | 0.241 | 0.241 | ns |
+| Experimental | M |  |  | pre | pos | 466 | -0.903 | 0.367 | 0.367 | ns | 466 | -0.903 | 0.367 | 0.367 | ns |
+| Experimental |  |  |  | F | M | 232 | 1.844 | 0.066 | 0.066 | ns | 232 | 1.844 | 0.066 | 0.066 | ns |
+|  | F |  |  | Controle | Experimental | 232 | -1.327 | 0.186 | 0.186 | ns | 232 | -1.327 | 0.186 | 0.186 | ns |
+|  | M |  |  | Controle | Experimental | 232 | -1.705 | 0.090 | 0.090 | ns | 232 | -1.705 | 0.090 | 0.090 | ns |
+| Controle |  |  |  | Rural | Urbana | 179 | -1.285 | 0.200 | 0.200 | ns | 179 | -1.285 | 0.200 | 0.200 | ns |
+| Controle |  | Rural |  | pre | pos | 360 | 1.409 | 0.160 | 0.160 | ns | 360 | 1.409 | 0.160 | 0.160 | ns |
+| Controle |  | Urbana |  | pre | pos | 360 | -0.715 | 0.475 | 0.475 | ns | 360 | -0.715 | 0.475 | 0.475 | ns |
+| Experimental |  |  |  | Rural | Urbana | 179 | -1.395 | 0.165 | 0.165 | ns | 179 | -1.395 | 0.165 | 0.165 | ns |
+| Experimental |  | Rural |  | pre | pos | 360 | -0.135 | 0.893 | 0.893 | ns | 360 | -0.135 | 0.893 | 0.893 | ns |
+| Experimental |  | Urbana |  | pre | pos | 360 | -1.635 | 0.103 | 0.103 | ns | 360 | -1.635 | 0.103 | 0.103 | ns |
+|  |  | Rural |  | Controle | Experimental | 179 | -1.154 | 0.250 | 0.250 | ns | 179 | -1.154 | 0.250 | 0.250 | ns |
+|  |  | Urbana |  | Controle | Experimental | 179 | -1.308 | 0.192 | 0.192 | ns | 179 | -1.308 | 0.192 | 0.192 | ns |
+| Controle |  |  |  | Rural | Urbana | 232 | -0.370 | 0.711 | 0.711 | ns | 232 | -0.370 | 0.711 | 0.711 | ns |
+| Controle |  |  | Rural | pre | pos | 466 | 0.796 | 0.426 | 0.426 | ns | 466 | 0.796 | 0.426 | 0.426 | ns |
+| Controle |  |  | Urbana | pre | pos | 466 | 0.075 | 0.940 | 0.940 | ns | 466 | 0.075 | 0.940 | 0.940 | ns |
+| Experimental |  |  |  | Rural | Urbana | 232 | -0.443 | 0.658 | 0.658 | ns | 232 | -0.443 | 0.658 | 0.658 | ns |
+| Experimental |  |  | Rural | pre | pos | 466 | -0.119 | 0.905 | 0.905 | ns | 466 | -0.119 | 0.905 | 0.905 | ns |
+| Experimental |  |  | Urbana | pre | pos | 466 | -1.645 | 0.101 | 0.101 | ns | 466 | -1.645 | 0.101 | 0.101 | ns |
+|  |  |  | Rural | Controle | Experimental | 232 | -1.069 | 0.286 | 0.286 | ns | 232 | -1.069 | 0.286 | 0.286 | ns |
+|  |  |  | Urbana | Controle | Experimental | 232 | -1.681 | 0.094 | 0.094 | ns | 232 | -1.681 | 0.094 | 0.094 | ns |
 
 ## EMMS Table Comparison
 
@@ -1526,19 +1523,19 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% names(lfatores)])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |  N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
-|:-------------|:-------|:------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|----:|---------:|----------:|-----------:|------------:|---------:|----------:|----------:|-----------:|-----:|
-| Controle     |        |                   |             | 122 |   3.462 |    0.051 |     3.426 |      0.046 |   3.423 |    0.045 |    3.335 |     3.512 | 122 |    3.462 |     0.051 |      3.426 |       0.046 |    3.423 |     0.045 |     3.335 |      3.512 |    0 |
-| Experimental |        |                   |             | 115 |   3.448 |    0.050 |     3.551 |      0.053 |   3.554 |    0.046 |    3.462 |     3.645 | 115 |    3.448 |     0.050 |      3.551 |       0.053 |    3.554 |     0.046 |     3.462 |      3.645 |    0 |
-| Controle     | F      |                   |             |  60 |   3.481 |    0.070 |     3.533 |      0.063 |   3.524 |    0.063 |    3.399 |     3.649 |  60 |    3.481 |     0.070 |      3.533 |       0.063 |    3.524 |     0.063 |     3.399 |      3.649 |    0 |
-| Controle     | M      |                   |             |  62 |   3.444 |    0.074 |     3.322 |      0.064 |   3.326 |    0.062 |    3.203 |     3.449 |  62 |    3.444 |     0.074 |      3.322 |       0.064 |    3.326 |     0.062 |     3.203 |      3.449 |    0 |
-| Experimental | F      |                   |             |  52 |   3.560 |    0.072 |     3.683 |      0.073 |   3.647 |    0.068 |    3.513 |     3.782 |  52 |    3.560 |     0.072 |      3.683 |       0.073 |    3.647 |     0.068 |     3.513 |      3.782 |    0 |
-| Experimental | M      |                   |             |  63 |   3.356 |    0.067 |     3.442 |      0.072 |   3.476 |    0.062 |    3.354 |     3.599 |  63 |    3.356 |     0.067 |      3.442 |       0.072 |    3.476 |     0.062 |     3.354 |      3.599 |    0 |
-| Controle     |        | Rural             |             |  43 |   3.532 |    0.080 |     3.364 |      0.080 |   3.331 |    0.076 |    3.180 |     3.482 |  43 |    3.532 |     0.080 |      3.364 |       0.080 |    3.331 |     0.076 |     3.180 |      3.482 |    0 |
-| Controle     |        | Urbana            |             |  51 |   3.365 |    0.088 |     3.443 |      0.073 |   3.465 |    0.070 |    3.326 |     3.603 |  51 |    3.365 |     0.088 |      3.443 |       0.073 |    3.465 |     0.070 |     3.326 |      3.603 |    0 |
-| Experimental |        | Rural             |             |  47 |   3.441 |    0.079 |     3.456 |      0.083 |   3.453 |    0.073 |    3.309 |     3.597 |  47 |    3.441 |     0.079 |      3.456 |       0.083 |    3.453 |     0.073 |     3.309 |      3.597 |    0 |
-| Experimental |        | Urbana            |             |  43 |   3.393 |    0.088 |     3.588 |      0.077 |   3.600 |    0.076 |    3.449 |     3.750 |  43 |    3.393 |     0.088 |      3.588 |       0.077 |    3.600 |     0.076 |     3.449 |      3.750 |    0 |
-| Controle     |        |                   | Rural       |  41 |   3.518 |    0.084 |     3.422 |      0.065 |   3.400 |    0.078 |    3.246 |     3.554 |  41 |    3.518 |     0.084 |      3.422 |       0.065 |    3.400 |     0.078 |     3.246 |      3.554 |    0 |
-| Controle     |        |                   | Urbana      |  81 |   3.434 |    0.064 |     3.427 |      0.061 |   3.435 |    0.056 |    3.326 |     3.545 |  81 |    3.434 |     0.064 |      3.427 |       0.061 |    3.435 |     0.056 |     3.326 |      3.545 |    0 |
-| Experimental |        |                   | Rural       |  35 |   3.537 |    0.090 |     3.552 |      0.105 |   3.523 |    0.085 |    3.356 |     3.689 |  35 |    3.537 |     0.090 |      3.552 |       0.105 |    3.523 |     0.085 |     3.356 |      3.689 |    0 |
-| Experimental |        |                   | Urbana      |  80 |   3.410 |    0.060 |     3.551 |      0.060 |   3.568 |    0.056 |    3.457 |     3.678 |  80 |    3.410 |     0.060 |      3.551 |       0.060 |    3.568 |     0.056 |     3.457 |      3.678 |    0 |
+| grupo | genero | zona.participante | zona.escola | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high | N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
+|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle |  |  |  | 122 | 3.462 | 0.051 | 3.426 | 0.046 | 3.423 | 0.045 | 3.335 | 3.512 | 122 | 3.462 | 0.051 | 3.426 | 0.046 | 3.423 | 0.045 | 3.335 | 3.512 | 0 |
+| Experimental |  |  |  | 115 | 3.448 | 0.050 | 3.551 | 0.053 | 3.554 | 0.046 | 3.462 | 3.645 | 115 | 3.448 | 0.050 | 3.551 | 0.053 | 3.554 | 0.046 | 3.462 | 3.645 | 0 |
+| Controle | F |  |  | 60 | 3.481 | 0.070 | 3.533 | 0.063 | 3.524 | 0.063 | 3.399 | 3.649 | 60 | 3.481 | 0.070 | 3.533 | 0.063 | 3.524 | 0.063 | 3.399 | 3.649 | 0 |
+| Controle | M |  |  | 62 | 3.444 | 0.074 | 3.322 | 0.064 | 3.326 | 0.062 | 3.203 | 3.449 | 62 | 3.444 | 0.074 | 3.322 | 0.064 | 3.326 | 0.062 | 3.203 | 3.449 | 0 |
+| Experimental | F |  |  | 52 | 3.560 | 0.072 | 3.683 | 0.073 | 3.647 | 0.068 | 3.513 | 3.782 | 52 | 3.560 | 0.072 | 3.683 | 0.073 | 3.647 | 0.068 | 3.513 | 3.782 | 0 |
+| Experimental | M |  |  | 63 | 3.356 | 0.067 | 3.442 | 0.072 | 3.476 | 0.062 | 3.354 | 3.599 | 63 | 3.356 | 0.067 | 3.442 | 0.072 | 3.476 | 0.062 | 3.354 | 3.599 | 0 |
+| Controle |  | Rural |  | 43 | 3.532 | 0.080 | 3.364 | 0.080 | 3.331 | 0.076 | 3.180 | 3.482 | 43 | 3.532 | 0.080 | 3.364 | 0.080 | 3.331 | 0.076 | 3.180 | 3.482 | 0 |
+| Controle |  | Urbana |  | 51 | 3.365 | 0.088 | 3.443 | 0.073 | 3.465 | 0.070 | 3.326 | 3.603 | 51 | 3.365 | 0.088 | 3.443 | 0.073 | 3.465 | 0.070 | 3.326 | 3.603 | 0 |
+| Experimental |  | Rural |  | 47 | 3.441 | 0.079 | 3.456 | 0.083 | 3.453 | 0.073 | 3.309 | 3.597 | 47 | 3.441 | 0.079 | 3.456 | 0.083 | 3.453 | 0.073 | 3.309 | 3.597 | 0 |
+| Experimental |  | Urbana |  | 43 | 3.393 | 0.088 | 3.588 | 0.077 | 3.600 | 0.076 | 3.449 | 3.750 | 43 | 3.393 | 0.088 | 3.588 | 0.077 | 3.600 | 0.076 | 3.449 | 3.750 | 0 |
+| Controle |  |  | Rural | 41 | 3.518 | 0.084 | 3.422 | 0.065 | 3.400 | 0.078 | 3.246 | 3.554 | 41 | 3.518 | 0.084 | 3.422 | 0.065 | 3.400 | 0.078 | 3.246 | 3.554 | 0 |
+| Controle |  |  | Urbana | 81 | 3.434 | 0.064 | 3.427 | 0.061 | 3.435 | 0.056 | 3.326 | 3.545 | 81 | 3.434 | 0.064 | 3.427 | 0.061 | 3.435 | 0.056 | 3.326 | 3.545 | 0 |
+| Experimental |  |  | Rural | 35 | 3.537 | 0.090 | 3.552 | 0.105 | 3.523 | 0.085 | 3.356 | 3.689 | 35 | 3.537 | 0.090 | 3.552 | 0.105 | 3.523 | 0.085 | 3.356 | 3.689 | 0 |
+| Experimental |  |  | Urbana | 80 | 3.410 | 0.060 | 3.551 | 0.060 | 3.568 | 0.056 | 3.457 | 3.678 | 80 | 3.410 | 0.060 | 3.551 | 0.060 | 3.568 | 0.056 | 3.457 | 3.678 | 0 |

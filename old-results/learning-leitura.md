@@ -1,6 +1,6 @@
-ANCOVA test for reading (competência de leitura de palavras e
-pseudopalavras)
-================
+
+# ANCOVA test for reading (competência de leitura de palavras e pseudopalavras)
+
 Geiser C. Challco <geiser@alumni.usp.br>
 
 - [Descriptive Statistics of Initial

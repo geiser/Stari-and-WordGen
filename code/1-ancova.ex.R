@@ -8,7 +8,7 @@ library(markdown)
 
 generate_md <- function(
     info, params, factors = c("genero","zona.participante","zona.escola"),
-    other.factors = c(), dat.filter = "", suffix = "", fig.size = list()) {
+    other.factors = c(), dat.filter = "", suffix = "", fig.size = list(), rds.prefix = "") {
 
   tfile = "templates/ancova.Rmd"
   params = c(params, list(
@@ -40,7 +40,8 @@ generate_md <- function(
             pivot.key = "time", pivot.value = params$dv,
             fig.width = 7, fig.height = 7,
             fig.width.bar = 8, fig.height.bar = 6,
-            fig.width.pbar = 10, fig.height.pbar = 6
+            fig.width.pbar = 10, fig.height.pbar = 6,
+            rds.prefix = rds.prefix
           )))
     })))
 
@@ -66,7 +67,8 @@ generate_md <- function(
         pivot.key = "time", pivot.value = params$dv, ylab = params$ylab,
         fig.width = 7, fig.height = 7,
         fig.width.bar = 8, fig.height.bar = 6,
-        fig.width.pbar = fig.width.pbar, fig.height.pbar = 6
+        fig.width.pbar = fig.width.pbar, fig.height.pbar = 6,
+        rds.prefix = rds.prefix
       )))
   })))
 
@@ -74,7 +76,8 @@ generate_md <- function(
   txt <- paste0(collapse = "\n", c(txt, do.call(tmpl, c(
     list(".t" = paste(readLines("templates/aov-summary.Rmd"), collapse="\n")),
     list(
-      title = "# Summary of Results"
+      title = "# Summary of Results",
+      rds.prefix = paste0(info$prefix,'-',params$dv,suffix)
     )))))
 
 
@@ -137,7 +140,7 @@ generate_wg <- function(
 
   for (dv in dvs) {
     if (length(only.dvs) > 0 && !(dv$dv %in% only.dvs)) next
-    generate_md(info, dv, factors, other.factors, dat.filter, suffix, fig.size)
+    generate_md(info, dv, factors, other.factors, dat.filter, suffix, fig.size, "wg")
   }
 }
 
@@ -190,10 +193,62 @@ generate_stari <- function(
 
   for (dv in dvs) {
     if (length(only.dvs) > 0 && !(dv$dv %in% only.dvs)) next
-    generate_md(info, dv, factors, other.factors, dat.filter, suffix, fig.size)
+    generate_md(info, dv, factors, other.factors, dat.filter, suffix, fig.size, "st")
   }
 }
 
+
+generate_stWG <- function(
+    factors = c("genero","zona.participante","zona.escola"),
+    info = list(color = "#fd7f6f", grupo = "grupo",
+                prefix=paste0(getwd(),'/code/aov-stWG')),
+    only.dvs = c(),
+    other.factors = c(), dat.filter = "", suffix = "", fig.size = list()) {
+
+  dvs.flow = list(
+    list(ylab="flow (debat)", sheet = "flow.stWG",
+         dv.pre = "dfs.debate", dv.pos = "fss.debate", dv = "flow.debat"),
+    list(ylab="flow (textual prod)", sheet = "flow.stWG",
+         dv.pre = "dfs.textual", dv.pos = "fss.textual", dv = "flow.text"),
+    list(ylab="flow (reading)", sheet = "flow.stWG",
+         dv.pre = "dfs.leitura", dv.pos = "fss.leitura", dv = "flow.read"),
+    list(ylab="flow (math)", sheet = "flow.stWG",
+         dv.pre = "dfs.matematica", dv.pos = "fss.matematica", dv = "flow.math")
+  )
+
+  dvs = c(list(
+    list(ylab = "Reading Words (1 Min)", dv.pre = "palavras.lidas.pre",
+         dv.pos = "palavras.lidas.pos", dv = "palavras.lidas",
+         sheet = "triagem.stWG"),
+    list(ylab = "Reading Comprehension", dv.pre = "score.compreensao.pre",
+         dv.pos = "score.compreensao.pos", dv = "score.compreensao",
+         sheet = "triagem.stWG"),
+    list(ylab = "Vocabulary", dv.pre = "score.vocab.pre",
+         dv.pos = "score.vocab.pos", dv = "score.vocab",
+         sheet = "vocabulario.stWG"),
+    list(ylab = "Vocabulary taught", dv.pre = "score.vocab.ensinado.pre",
+         dv.pos = "score.vocab.ensinado.pos", dv = "score.vocab.ensinado",
+         sheet = "vocabulario.stWG"),
+    list(ylab = "Vocabulary not taught", dv.pre = "score.vocab.nao.ensinado.pre",
+         dv.pos = "score.vocab.nao.ensinado.pos", dv = "score.vocab.nao.ensinado",
+         sheet = "vocabulario.stWG"),
+    list(ylab = "Reading Words and Pseudowords", dv.pre = "score.CLPP.pre",
+         dv.pos = "score.CLPP.pos", dv = "score.CLPP",
+         sheet = "leitura.stWG"),
+    list(ylab = "Reading Regular Correct Words", dv.pre = "score.CR.pre",
+         dv.pos = "score.CR.pos", dv = "score.CR",
+         sheet = "leitura.stWG"),
+    list(ylab = "Reading Irregular Correct Words", dv.pre = "score.CI.pre",
+         dv.pos = "score.CI.pos", dv = "score.CI",
+         sheet = "leitura.stWG")
+  ), dvs.flow)
+
+
+  for (dv in dvs) {
+    if (length(only.dvs) > 0 && !(dv$dv %in% only.dvs)) next
+    generate_md(info, dv, factors, other.factors, dat.filter, suffix, fig.size, "stWG")
+  }
+}
 
 
 other.factors = list(
@@ -226,6 +281,10 @@ generate_wg(other.factors = other.factors, fig.size = fig.size)
 
 generate_stari(other.factors = other.factors, fig.size = fig.size)
 
+
+## ... generate st+WG
+
+generate_stWG(other.factors = list(), fig.size = fig.size)
 
 
 

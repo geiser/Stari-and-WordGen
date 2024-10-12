@@ -23,6 +23,24 @@ Geiser C. Challco <geiser@alumni.usp.br>
     - [Checking linearity assumption](#checking-linearity-assumption-1)
     - [Checking normality and
       homogeneity](#checking-normality-and-homogeneity-1)
+- [ANCOVA and Pairwise for two factors
+  **grupo:zona.participante**](#ancova-and-pairwise-for-two-factors-grupozonaparticipante)
+  - [Without remove non-normal data](#without-remove-non-normal-data-2)
+  - [Computing ANCOVA and PairWise After removing non-normal data
+    (OK)](#computing-ancova-and-pairwise-after-removing-non-normal-data-ok-2)
+    - [Plots for ancova](#plots-for-ancova-2)
+    - [Checking linearity assumption](#checking-linearity-assumption-2)
+    - [Checking normality and
+      homogeneity](#checking-normality-and-homogeneity-2)
+- [ANCOVA and Pairwise for two factors
+  **grupo:zona.escola**](#ancova-and-pairwise-for-two-factors-grupozonaescola)
+  - [Without remove non-normal data](#without-remove-non-normal-data-3)
+  - [Computing ANCOVA and PairWise After removing non-normal data
+    (OK)](#computing-ancova-and-pairwise-after-removing-non-normal-data-ok-3)
+    - [Plots for ancova](#plots-for-ancova-3)
+    - [Checking linearity assumption](#checking-linearity-assumption-3)
+    - [Checking normality and
+      homogeneity](#checking-normality-and-homogeneity-3)
 - [Summary of Results](#summary-of-results)
   - [Descriptive Statistics](#descriptive-statistics)
   - [ANCOVA Table Comparison](#ancova-table-comparison)
@@ -166,40 +184,40 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
             colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|:---------|---------:|---------:|
-| Controle     |        |                   |             | dfs.textual |  14 | 2.973 |  3.000 | 2.000 | 3.667 | 0.428 | 0.114 | 0.247 | 0.583 | YES      |   -0.490 |   -0.293 |
-| Experimental |        |                   |             | dfs.textual |   9 | 2.730 |  2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO       |   -0.741 |   -0.681 |
-|              |        |                   |             | dfs.textual |  23 | 2.878 |  3.000 | 1.111 | 3.667 | 0.592 | 0.123 | 0.256 | 0.583 | NO       |   -1.132 |    1.244 |
-| Controle     |        |                   |             | fss.textual |  14 | 3.231 |  3.222 | 2.556 | 4.444 | 0.555 | 0.148 | 0.321 | 0.583 | NO       |    0.762 |   -0.521 |
-| Experimental |        |                   |             | fss.textual |   9 | 2.870 |  2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES      |    0.395 |   -1.263 |
-|              |        |                   |             | fss.textual |  23 | 3.090 |  2.889 | 2.333 | 4.444 | 0.514 | 0.107 | 0.222 | 0.611 | NO       |    0.935 |    0.288 |
-| Controle     | F      |                   |             | dfs.textual |   6 | 2.963 |  3.000 | 2.556 | 3.444 | 0.295 | 0.121 | 0.310 | 0.167 | YES      |    0.244 |   -1.194 |
-| Controle     | M      |                   |             | dfs.textual |   8 | 2.981 |  3.111 | 2.000 | 3.667 | 0.526 | 0.186 | 0.440 | 0.677 | NO       |   -0.519 |   -1.041 |
-| Experimental | F      |                   |             | dfs.textual |   3 | 2.968 |  2.889 | 2.889 | 3.125 | 0.136 | 0.079 | 0.339 | 0.118 | few data |    0.000 |    0.000 |
-| Experimental | M      |                   |             | dfs.textual |   6 | 2.611 |  2.667 | 1.111 | 3.667 | 0.971 | 0.396 | 1.019 | 1.222 | YES      |   -0.306 |   -1.698 |
-| Controle     | F      |                   |             | fss.textual |   6 | 3.426 |  3.222 | 2.889 | 4.444 | 0.542 | 0.221 | 0.568 | 0.250 | NO       |    0.921 |   -0.745 |
-| Controle     | M      |                   |             | fss.textual |   8 | 3.085 |  2.889 | 2.556 | 4.125 | 0.554 | 0.196 | 0.463 | 0.667 | NO       |    0.747 |   -1.102 |
-| Experimental | F      |                   |             | fss.textual |   3 | 3.056 |  3.333 | 2.333 | 3.500 | 0.631 | 0.364 | 1.567 | 0.583 | few data |    0.000 |    0.000 |
-| Experimental | M      |                   |             | fss.textual |   6 | 2.778 |  2.722 | 2.667 | 3.111 | 0.172 | 0.070 | 0.181 | 0.111 | few data |    0.000 |    0.000 |
-| Controle     |        | Rural             |             | dfs.textual |   2 | 2.590 |  2.590 | 2.556 | 2.625 | 0.049 | 0.035 | 0.441 | 0.035 | few data |    0.000 |    0.000 |
-| Controle     |        | Urbana            |             | dfs.textual |   9 | 3.049 |  3.111 | 2.000 | 3.667 | 0.475 | 0.158 | 0.365 | 0.333 | NO       |   -0.887 |    0.042 |
-| Controle     |        |                   |             | dfs.textual |   3 | 3.000 |  3.000 | 2.667 | 3.333 | 0.333 | 0.192 | 0.828 | 0.333 | few data |    0.000 |    0.000 |
-| Experimental |        | Rural             |             | dfs.textual |   4 | 3.003 |  3.000 | 2.889 | 3.125 | 0.132 | 0.066 | 0.211 | 0.226 | few data |    0.000 |    0.000 |
-| Experimental |        | Urbana            |             | dfs.textual |   3 | 1.815 |  2.111 | 1.111 | 2.222 | 0.612 | 0.353 | 1.520 | 0.556 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | dfs.textual |   2 | 3.556 |  3.556 | 3.444 | 3.667 | 0.157 | 0.111 | 1.412 | 0.111 | few data |    0.000 |    0.000 |
-| Controle     |        | Rural             |             | fss.textual |   2 | 2.944 |  2.944 | 2.667 | 3.222 | 0.393 | 0.278 | 3.530 | 0.278 | few data |    0.000 |    0.000 |
-| Controle     |        | Urbana            |             | fss.textual |   9 | 3.273 |  3.222 | 2.556 | 4.444 | 0.619 | 0.206 | 0.476 | 0.333 | NO       |    0.790 |   -0.924 |
-| Controle     |        |                   |             | fss.textual |   3 | 3.296 |  3.556 | 2.667 | 3.667 | 0.548 | 0.316 | 1.362 | 0.500 | few data |    0.000 |    0.000 |
-| Experimental |        | Rural             |             | fss.textual |   4 | 2.958 |  3.000 | 2.333 | 3.500 | 0.551 | 0.275 | 0.876 | 0.792 | YES      |   -0.086 |   -2.278 |
-| Experimental |        | Urbana            |             | fss.textual |   3 | 2.741 |  2.778 | 2.667 | 2.778 | 0.064 | 0.037 | 0.159 | 0.056 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | fss.textual |   2 | 2.889 |  2.889 | 2.667 | 3.111 | 0.314 | 0.222 | 2.824 | 0.222 | few data |    0.000 |    0.000 |
-| Controle     |        |                   | Rural       | dfs.textual |   3 | 3.148 |  3.111 | 3.000 | 3.333 | 0.170 | 0.098 | 0.422 | 0.167 | few data |    0.000 |    0.000 |
-| Controle     |        |                   | Urbana      | dfs.textual |  11 | 2.926 |  3.000 | 2.000 | 3.667 | 0.469 | 0.142 | 0.315 | 0.576 | YES      |   -0.237 |   -0.811 |
-| Experimental |        |                   | Urbana      | dfs.textual |   9 | 2.730 |  2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO       |   -0.741 |   -0.681 |
-| Controle     |        |                   | Rural       | fss.textual |   3 | 3.481 |  3.556 | 3.222 | 3.667 | 0.231 | 0.134 | 0.575 | 0.222 | few data |    0.000 |    0.000 |
-| Controle     |        |                   | Urbana      | fss.textual |  11 | 3.163 |  2.889 | 2.556 | 4.444 | 0.605 | 0.183 | 0.407 | 0.444 | NO       |    1.010 |   -0.409 |
-| Experimental |        |                   | Urbana      | fss.textual |   9 | 2.870 |  2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES      |    0.395 |   -1.263 |
+| grupo | genero | zona.participante | zona.escola | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  | dfs.textual | 14 | 2.973 | 3.000 | 2.000 | 3.667 | 0.428 | 0.114 | 0.247 | 0.583 | YES | -0.490 | -0.293 |
+| Experimental |  |  |  | dfs.textual | 9 | 2.730 | 2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO | -0.741 | -0.681 |
+|  |  |  |  | dfs.textual | 23 | 2.878 | 3.000 | 1.111 | 3.667 | 0.592 | 0.123 | 0.256 | 0.583 | NO | -1.132 | 1.244 |
+| Controle |  |  |  | fss.textual | 14 | 3.231 | 3.222 | 2.556 | 4.444 | 0.555 | 0.148 | 0.321 | 0.583 | NO | 0.762 | -0.521 |
+| Experimental |  |  |  | fss.textual | 9 | 2.870 | 2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES | 0.395 | -1.263 |
+|  |  |  |  | fss.textual | 23 | 3.090 | 2.889 | 2.333 | 4.444 | 0.514 | 0.107 | 0.222 | 0.611 | NO | 0.935 | 0.288 |
+| Controle | F |  |  | dfs.textual | 6 | 2.963 | 3.000 | 2.556 | 3.444 | 0.295 | 0.121 | 0.310 | 0.167 | YES | 0.244 | -1.194 |
+| Controle | M |  |  | dfs.textual | 8 | 2.981 | 3.111 | 2.000 | 3.667 | 0.526 | 0.186 | 0.440 | 0.677 | NO | -0.519 | -1.041 |
+| Experimental | F |  |  | dfs.textual | 3 | 2.968 | 2.889 | 2.889 | 3.125 | 0.136 | 0.079 | 0.339 | 0.118 | few data | 0.000 | 0.000 |
+| Experimental | M |  |  | dfs.textual | 6 | 2.611 | 2.667 | 1.111 | 3.667 | 0.971 | 0.396 | 1.019 | 1.222 | YES | -0.306 | -1.698 |
+| Controle | F |  |  | fss.textual | 6 | 3.426 | 3.222 | 2.889 | 4.444 | 0.542 | 0.221 | 0.568 | 0.250 | NO | 0.921 | -0.745 |
+| Controle | M |  |  | fss.textual | 8 | 3.085 | 2.889 | 2.556 | 4.125 | 0.554 | 0.196 | 0.463 | 0.667 | NO | 0.747 | -1.102 |
+| Experimental | F |  |  | fss.textual | 3 | 3.056 | 3.333 | 2.333 | 3.500 | 0.631 | 0.364 | 1.567 | 0.583 | few data | 0.000 | 0.000 |
+| Experimental | M |  |  | fss.textual | 6 | 2.778 | 2.722 | 2.667 | 3.111 | 0.172 | 0.070 | 0.181 | 0.111 | few data | 0.000 | 0.000 |
+| Controle |  | Rural |  | dfs.textual | 2 | 2.590 | 2.590 | 2.556 | 2.625 | 0.049 | 0.035 | 0.441 | 0.035 | few data | 0.000 | 0.000 |
+| Controle |  | Urbana |  | dfs.textual | 9 | 3.049 | 3.111 | 2.000 | 3.667 | 0.475 | 0.158 | 0.365 | 0.333 | NO | -0.887 | 0.042 |
+| Controle |  |  |  | dfs.textual | 3 | 3.000 | 3.000 | 2.667 | 3.333 | 0.333 | 0.192 | 0.828 | 0.333 | few data | 0.000 | 0.000 |
+| Experimental |  | Rural |  | dfs.textual | 4 | 3.003 | 3.000 | 2.889 | 3.125 | 0.132 | 0.066 | 0.211 | 0.226 | few data | 0.000 | 0.000 |
+| Experimental |  | Urbana |  | dfs.textual | 3 | 1.815 | 2.111 | 1.111 | 2.222 | 0.612 | 0.353 | 1.520 | 0.556 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | dfs.textual | 2 | 3.556 | 3.556 | 3.444 | 3.667 | 0.157 | 0.111 | 1.412 | 0.111 | few data | 0.000 | 0.000 |
+| Controle |  | Rural |  | fss.textual | 2 | 2.944 | 2.944 | 2.667 | 3.222 | 0.393 | 0.278 | 3.530 | 0.278 | few data | 0.000 | 0.000 |
+| Controle |  | Urbana |  | fss.textual | 9 | 3.273 | 3.222 | 2.556 | 4.444 | 0.619 | 0.206 | 0.476 | 0.333 | NO | 0.790 | -0.924 |
+| Controle |  |  |  | fss.textual | 3 | 3.296 | 3.556 | 2.667 | 3.667 | 0.548 | 0.316 | 1.362 | 0.500 | few data | 0.000 | 0.000 |
+| Experimental |  | Rural |  | fss.textual | 4 | 2.958 | 3.000 | 2.333 | 3.500 | 0.551 | 0.275 | 0.876 | 0.792 | YES | -0.086 | -2.278 |
+| Experimental |  | Urbana |  | fss.textual | 3 | 2.741 | 2.778 | 2.667 | 2.778 | 0.064 | 0.037 | 0.159 | 0.056 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | fss.textual | 2 | 2.889 | 2.889 | 2.667 | 3.111 | 0.314 | 0.222 | 2.824 | 0.222 | few data | 0.000 | 0.000 |
+| Controle |  |  | Rural | dfs.textual | 3 | 3.148 | 3.111 | 3.000 | 3.333 | 0.170 | 0.098 | 0.422 | 0.167 | few data | 0.000 | 0.000 |
+| Controle |  |  | Urbana | dfs.textual | 11 | 2.926 | 3.000 | 2.000 | 3.667 | 0.469 | 0.142 | 0.315 | 0.576 | YES | -0.237 | -0.811 |
+| Experimental |  |  | Urbana | dfs.textual | 9 | 2.730 | 2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO | -0.741 | -0.681 |
+| Controle |  |  | Rural | fss.textual | 3 | 3.481 | 3.556 | 3.222 | 3.667 | 0.231 | 0.134 | 0.575 | 0.222 | few data | 0.000 | 0.000 |
+| Controle |  |  | Urbana | fss.textual | 11 | 3.163 | 2.889 | 2.556 | 4.444 | 0.605 | 0.183 | 0.407 | 0.444 | NO | 1.010 | -0.409 |
+| Experimental |  |  | Urbana | fss.textual | 9 | 2.870 | 2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES | 0.395 | -1.263 |
 
 # ANCOVA and Pairwise for one factor: **grupo**
 
@@ -291,9 +309,9 @@ pwc <- emmeans_test(wdat, fss.textual ~ grupo, covariate = dfs.textual,
                     p.adjust.method = "bonferroni")
 ```
 
-| term               | .y.         | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------------|:------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-| dfs.textual\*grupo | fss.textual | Controle | Experimental |  20 |     1.455 | 0.161 | 0.161 | ns           |
+| term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| dfs.textual\*grupo | fss.textual | Controle | Experimental | 20 | 1.455 | 0.161 | 0.161 | ns |
 
 ``` r
 pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, "grupo"),
@@ -325,10 +343,10 @@ colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
 lemms[["grupo"]] <- merge(ds, lemms[["grupo"]], by=c("grupo"), suffixes = c("","'"))
 ```
 
-| grupo        |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     |  14 |   2.973 |    0.114 |     3.231 |      0.148 |   3.212 |    0.132 |    2.936 |     3.487 |
-| Experimental |   9 |   2.730 |    0.264 |     2.870 |      0.124 |   2.901 |    0.166 |    2.555 |     3.246 |
+| grupo | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 14 | 2.973 | 0.114 | 3.231 | 0.148 | 3.212 | 0.132 | 2.936 | 3.487 |
+| Experimental | 9 | 2.730 | 0.264 | 2.870 | 0.124 | 2.901 | 0.166 | 2.555 | 3.246 |
 
 ### Plots for ancova
 
@@ -392,14 +410,6 @@ ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
   if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-    ## Warning: The dot-dot notation (`..eq.label..`) was deprecated in ggplot2 3.4.0.
-    ## ℹ Please use `after_stat(eq.label)` instead.
-    ## ℹ The deprecated feature was likely used in the ggpubr package.
-    ##   Please report the issue at <https://github.com/kassambara/ggpubr/issues>.
-    ## This warning is displayed once every 8 hours.
-    ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-    ## generated.
-
 ![](aov-stari-flow.text_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->
 
 ### Checking normality and homogeneity
@@ -431,8 +441,14 @@ levene_test(res, .resid ~ grupo)
 ## Without remove non-normal data
 
 ``` r
-pdat = remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["genero"]]),],
-                         "fss.textual", c("grupo","genero"))
+pdat = tryCatch(
+  remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["genero"]]),],
+                         "fss.textual", c("grupo","genero")),
+  error = function(e) NULL
+)
+
+if (!is.null(pdat)) {
+
 pdat = pdat[pdat[["genero"]] %in% do.call(
   intersect, lapply(unique(pdat[["grupo"]]), FUN = function(x) {
     unique(pdat[["genero"]][which(pdat[["grupo"]] == x)])
@@ -451,10 +467,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
   aov = anova_test(pdat, fss.textual ~ dfs.textual + grupo*genero)
   laov[["grupo:genero"]] <- get_anova_table(aov)
 }
+
+}
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   pwcs <- list()
   pwcs[["genero"]] <- emmeans_test(
     group_by(pdat, grupo), fss.textual ~ genero,
@@ -469,7 +487,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, c("grupo","genero")),
                            flow.text ~ time,
                            p.adjust.method = "bonferroni")
@@ -478,7 +496,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ds <- get.descriptives(pdat, "fss.textual", c("grupo","genero"), covar = "dfs.textual")
   ds <- merge(ds[ds$variable != "dfs.textual",],
               ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
@@ -499,7 +517,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ## Computing ANCOVA and PairWise After removing non-normal data (OK)
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   wdat = pdat 
   
   res = residuals(lm(fss.textual ~ dfs.textual + grupo*genero, data = wdat))
@@ -520,7 +538,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   aov = anova_test(wdat, fss.textual ~ dfs.textual + grupo*genero)
   laov[["grupo:genero"]] <- merge(get_anova_table(aov), laov[["grupo:genero"]],
                                          by="Effect", suffixes = c("","'"))
@@ -529,7 +547,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   pwcs <- list()
   pwcs[["genero"]] <- emmeans_test(
     group_by(wdat, grupo), fss.textual ~ genero,
@@ -544,7 +562,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, c("grupo","genero")),
                            flow.text ~ time,
                            p.adjust.method = "bonferroni")
@@ -556,7 +574,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ds <- get.descriptives(wdat, "fss.textual", c("grupo","genero"), covar = "dfs.textual")
   ds <- merge(ds[ds$variable != "dfs.textual",],
               ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
@@ -578,7 +596,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ### Plots for ancova
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ggPlotAoC2(pwcs, "grupo", "genero", aov, ylab = "flow (textual prod)",
              subtitle = which(aov$Effect == "grupo:genero"), addParam = "errorbar") +
     ggplot2::scale_color_manual(values = color[["genero"]]) +
@@ -588,7 +606,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ggPlotAoC2(pwcs, "genero", "grupo", aov, ylab = "flow (textual prod)",
                subtitle = which(aov$Effect == "grupo:genero"), addParam = "errorbar") +
     ggplot2::scale_color_manual(values = color[["grupo"]]) +
@@ -598,7 +616,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   plots <- twoWayAncovaBoxPlots(
     wdat, "fss.textual", c("grupo","genero"), aov, pwcs, covar = "dfs.textual",
     theme = "classic", color = color[["grupo:genero"]],
@@ -607,7 +625,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   plots[["grupo:genero"]] + ggplot2::ylab("flow (textual prod)") +
   ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
   if (ymin < ymax) ggplot2::ylim(ymin, ymax)
@@ -615,7 +633,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   plots <- twoWayAncovaBoxPlots(
     wdat.long, "flow.text", c("grupo","genero"), aov, pwc.long,
     pre.post = "time",
@@ -624,7 +642,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) 
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) 
   plots[["grupo:genero"]] + ggplot2::ylab("flow (textual prod)") +
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
@@ -632,7 +650,7 @@ if (length(unique(pdat[["genero"]])) >= 2)
 ### Checking linearity assumption
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
             facet.by = c("grupo","genero"), add = "reg.line")+
     stat_regline_equation(
@@ -643,7 +661,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
             color = "grupo", facet.by = "genero", add = "reg.line")+
     stat_regline_equation(
@@ -657,7 +675,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) {
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) {
   ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
             color = "genero", facet.by = "grupo", add = "reg.line")+
     stat_regline_equation(
@@ -673,18 +691,556 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 ### Checking normality and homogeneity
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) 
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) 
   res <- augment(lm(fss.textual ~ dfs.textual + grupo*genero, data = wdat))
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2)
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2)
   shapiro_test(res$.resid)
 ```
 
 ``` r
-if (length(unique(pdat[["genero"]])) >= 2) 
+if (!is.null(pdat) && length(unique(pdat[["genero"]])) >= 2) 
   levene_test(res, .resid ~ grupo*genero)
+```
+
+# ANCOVA and Pairwise for two factors **grupo:zona.participante**
+
+## Without remove non-normal data
+
+``` r
+pdat = tryCatch(
+  remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["zona.participante"]]),],
+                         "fss.textual", c("grupo","zona.participante")),
+  error = function(e) NULL
+)
+
+if (!is.null(pdat)) {
+
+pdat = pdat[pdat[["zona.participante"]] %in% do.call(
+  intersect, lapply(unique(pdat[["grupo"]]), FUN = function(x) {
+    unique(pdat[["zona.participante"]][which(pdat[["grupo"]] == x)])
+  })),]
+pdat[["grupo"]] = factor(pdat[["grupo"]], level[["grupo"]])
+pdat[["zona.participante"]] = factor(
+  pdat[["zona.participante"]],
+  level[["zona.participante"]][level[["zona.participante"]] %in% unique(pdat[["zona.participante"]])])
+
+pdat.long <- rbind(pdat[,c("id","grupo","zona.participante")], pdat[,c("id","grupo","zona.participante")])
+pdat.long[["time"]] <- c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat)))
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+pdat.long[["flow.text"]] <- c(pdat[["dfs.textual"]], pdat[["fss.textual"]])
+
+if (length(unique(pdat[["zona.participante"]])) >= 2) {
+  aov = anova_test(pdat, fss.textual ~ dfs.textual + grupo*zona.participante)
+  laov[["grupo:zona.participante"]] <- get_anova_table(aov)
+}
+
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.participante"]] <- emmeans_test(
+    group_by(pdat, grupo), fss.textual ~ zona.participante,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(pdat, zona.participante), fss.textual ~ grupo,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.participante"]])
+  pwc <- pwc[,c("grupo","zona.participante", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.participante")])]
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, c("grupo","zona.participante")),
+                           flow.text ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.participante"]] <- plyr::rbind.fill(pwc, pwc.long)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ds <- get.descriptives(pdat, "fss.textual", c("grupo","zona.participante"), covar = "dfs.textual")
+  ds <- merge(ds[ds$variable != "dfs.textual",],
+              ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.participante"), all.x = T, suffixes = c("", ".dfs.textual"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.participante"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.participante","n","mean.dfs.textual","se.dfs.textual","mean","se",
+              "emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.participante", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.participante"]] <- ds
+}
+```
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  wdat = pdat 
+  
+  res = residuals(lm(fss.textual ~ dfs.textual + grupo*zona.participante, data = wdat))
+  non.normal = getNonNormal(res, wdat$id, plimit = 0.05)
+  
+  wdat = wdat[!wdat$id %in% non.normal,]
+  
+  wdat.long <- rbind(wdat[,c("id","grupo","zona.participante")], wdat[,c("id","grupo","zona.participante")])
+  wdat.long[["time"]] <- c(rep("pre", nrow(wdat)), rep("pos", nrow(wdat)))
+  wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+  wdat.long[["flow.text"]] <- c(wdat[["dfs.textual"]], wdat[["fss.textual"]])
+  
+  
+  ldat[["grupo:zona.participante"]] = wdat
+  
+  (non.normal)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  aov = anova_test(wdat, fss.textual ~ dfs.textual + grupo*zona.participante)
+  laov[["grupo:zona.participante"]] <- merge(get_anova_table(aov), laov[["grupo:zona.participante"]],
+                                         by="Effect", suffixes = c("","'"))
+  df = get_anova_table(aov)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.participante"]] <- emmeans_test(
+    group_by(wdat, grupo), fss.textual ~ zona.participante,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(wdat, zona.participante), fss.textual ~ grupo,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.participante"]])
+  pwc <- pwc[,c("grupo","zona.participante", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.participante")])]
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, c("grupo","zona.participante")),
+                           flow.text ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.participante"]] <- merge(plyr::rbind.fill(pwc, pwc.long),
+                                         lpwc[["grupo:zona.participante"]],
+                                         by=c("grupo","zona.participante","term",".y.","group1","group2"),
+                                         suffixes = c("","'"))
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ds <- get.descriptives(wdat, "fss.textual", c("grupo","zona.participante"), covar = "dfs.textual")
+  ds <- merge(ds[ds$variable != "dfs.textual",],
+              ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.participante"), all.x = T, suffixes = c("", ".dfs.textual"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.participante"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.participante","n","mean.dfs.textual","se.dfs.textual",
+              "mean","se","emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.participante", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.participante"]] <- merge(ds, lemms[["grupo:zona.participante"]],
+                                          by=c("grupo","zona.participante"), suffixes = c("","'"))
+}
+```
+
+### Plots for ancova
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggPlotAoC2(pwcs, "grupo", "zona.participante", aov, ylab = "flow (textual prod)",
+             subtitle = which(aov$Effect == "grupo:zona.participante"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["zona.participante"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggPlotAoC2(pwcs, "zona.participante", "grupo", aov, ylab = "flow (textual prod)",
+               subtitle = which(aov$Effect == "grupo:zona.participante"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat, "fss.textual", c("grupo","zona.participante"), aov, pwcs, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:zona.participante"]],
+    subtitle = which(aov$Effect == "grupo:zona.participante"))
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (textual prod)") +
+  ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat.long, "flow.text", c("grupo","zona.participante"), aov, pwc.long,
+    pre.post = "time",
+    theme = "classic", color = color$prepost)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) 
+  plots[["grupo:zona.participante"]] + ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+### Checking linearity assumption
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            facet.by = c("grupo","zona.participante"), add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"))
+    ) + ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            color = "grupo", facet.by = "zona.participante", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.participante"))) +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            color = "zona.participante", facet.by = "grupo", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = zona.participante)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.participante"))) +
+    ggplot2::scale_color_manual(values = color[["zona.participante"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+### Checking normality and homogeneity
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) 
+  res <- augment(lm(fss.textual ~ dfs.textual + grupo*zona.participante, data = wdat))
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2)
+  shapiro_test(res$.resid)
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.participante"]])) >= 2) 
+  levene_test(res, .resid ~ grupo*zona.participante)
+```
+
+# ANCOVA and Pairwise for two factors **grupo:zona.escola**
+
+## Without remove non-normal data
+
+``` r
+pdat = tryCatch(
+  remove_group_data(dat[!is.na(dat[["grupo"]]) & !is.na(dat[["zona.escola"]]),],
+                         "fss.textual", c("grupo","zona.escola")),
+  error = function(e) NULL
+)
+
+if (!is.null(pdat)) {
+
+pdat = pdat[pdat[["zona.escola"]] %in% do.call(
+  intersect, lapply(unique(pdat[["grupo"]]), FUN = function(x) {
+    unique(pdat[["zona.escola"]][which(pdat[["grupo"]] == x)])
+  })),]
+pdat[["grupo"]] = factor(pdat[["grupo"]], level[["grupo"]])
+pdat[["zona.escola"]] = factor(
+  pdat[["zona.escola"]],
+  level[["zona.escola"]][level[["zona.escola"]] %in% unique(pdat[["zona.escola"]])])
+
+pdat.long <- rbind(pdat[,c("id","grupo","zona.escola")], pdat[,c("id","grupo","zona.escola")])
+pdat.long[["time"]] <- c(rep("pre", nrow(pdat)), rep("pos", nrow(pdat)))
+pdat.long[["time"]] <- factor(pdat.long[["time"]], c("pre","pos"))
+pdat.long[["flow.text"]] <- c(pdat[["dfs.textual"]], pdat[["fss.textual"]])
+
+if (length(unique(pdat[["zona.escola"]])) >= 2) {
+  aov = anova_test(pdat, fss.textual ~ dfs.textual + grupo*zona.escola)
+  laov[["grupo:zona.escola"]] <- get_anova_table(aov)
+}
+
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.escola"]] <- emmeans_test(
+    group_by(pdat, grupo), fss.textual ~ zona.escola,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(pdat, zona.escola), fss.textual ~ grupo,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.escola"]])
+  pwc <- pwc[,c("grupo","zona.escola", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.escola")])]
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(pdat.long, c("grupo","zona.escola")),
+                           flow.text ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.escola"]] <- plyr::rbind.fill(pwc, pwc.long)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ds <- get.descriptives(pdat, "fss.textual", c("grupo","zona.escola"), covar = "dfs.textual")
+  ds <- merge(ds[ds$variable != "dfs.textual",],
+              ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.escola"), all.x = T, suffixes = c("", ".dfs.textual"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.escola"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.escola","n","mean.dfs.textual","se.dfs.textual","mean","se",
+              "emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.escola", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.escola"]] <- ds
+}
+```
+
+## Computing ANCOVA and PairWise After removing non-normal data (OK)
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  wdat = pdat 
+  
+  res = residuals(lm(fss.textual ~ dfs.textual + grupo*zona.escola, data = wdat))
+  non.normal = getNonNormal(res, wdat$id, plimit = 0.05)
+  
+  wdat = wdat[!wdat$id %in% non.normal,]
+  
+  wdat.long <- rbind(wdat[,c("id","grupo","zona.escola")], wdat[,c("id","grupo","zona.escola")])
+  wdat.long[["time"]] <- c(rep("pre", nrow(wdat)), rep("pos", nrow(wdat)))
+  wdat.long[["time"]] <- factor(wdat.long[["time"]], c("pre","pos"))
+  wdat.long[["flow.text"]] <- c(wdat[["dfs.textual"]], wdat[["fss.textual"]])
+  
+  
+  ldat[["grupo:zona.escola"]] = wdat
+  
+  (non.normal)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  aov = anova_test(wdat, fss.textual ~ dfs.textual + grupo*zona.escola)
+  laov[["grupo:zona.escola"]] <- merge(get_anova_table(aov), laov[["grupo:zona.escola"]],
+                                         by="Effect", suffixes = c("","'"))
+  df = get_anova_table(aov)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  pwcs <- list()
+  pwcs[["zona.escola"]] <- emmeans_test(
+    group_by(wdat, grupo), fss.textual ~ zona.escola,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  pwcs[["grupo"]] <- emmeans_test(
+    group_by(wdat, zona.escola), fss.textual ~ grupo,
+    covariate = dfs.textual, p.adjust.method = "bonferroni")
+  
+  pwc <- plyr::rbind.fill(pwcs[["grupo"]], pwcs[["zona.escola"]])
+  pwc <- pwc[,c("grupo","zona.escola", colnames(pwc)[!colnames(pwc) %in% c("grupo","zona.escola")])]
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, c("grupo","zona.escola")),
+                           flow.text ~ time,
+                           p.adjust.method = "bonferroni")
+  lpwc[["grupo:zona.escola"]] <- merge(plyr::rbind.fill(pwc, pwc.long),
+                                         lpwc[["grupo:zona.escola"]],
+                                         by=c("grupo","zona.escola","term",".y.","group1","group2"),
+                                         suffixes = c("","'"))
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ds <- get.descriptives(wdat, "fss.textual", c("grupo","zona.escola"), covar = "dfs.textual")
+  ds <- merge(ds[ds$variable != "dfs.textual",],
+              ds[ds$variable == "dfs.textual", !colnames(ds) %in% c("variable")],
+              by = c("grupo","zona.escola"), all.x = T, suffixes = c("", ".dfs.textual"))
+  ds <- merge(get_emmeans(pwcs[["grupo"]]), ds,
+              by = c("grupo","zona.escola"), suffixes = c(".emms", ""))
+  ds <- ds[,c("grupo","zona.escola","n","mean.dfs.textual","se.dfs.textual",
+              "mean","se","emmean","se.emms","conf.low","conf.high")]
+  
+  colnames(ds) <- c("grupo","zona.escola", "N", paste0(c("M","SE")," (pre)"),
+                    paste0(c("M","SE"), " (unadj)"),
+                    paste0(c("M", "SE"), " (adj)"), "conf.low", "conf.high")
+  
+  lemms[["grupo:zona.escola"]] <- merge(ds, lemms[["grupo:zona.escola"]],
+                                          by=c("grupo","zona.escola"), suffixes = c("","'"))
+}
+```
+
+### Plots for ancova
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ggPlotAoC2(pwcs, "grupo", "zona.escola", aov, ylab = "flow (textual prod)",
+             subtitle = which(aov$Effect == "grupo:zona.escola"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["zona.escola"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ggPlotAoC2(pwcs, "zona.escola", "grupo", aov, ylab = "flow (textual prod)",
+               subtitle = which(aov$Effect == "grupo:zona.escola"), addParam = "errorbar") +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin.ci < ymax.ci) ggplot2::ylim(ymin.ci, ymax.ci)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat, "fss.textual", c("grupo","zona.escola"), aov, pwcs, covar = "dfs.textual",
+    theme = "classic", color = color[["grupo:zona.escola"]],
+    subtitle = which(aov$Effect == "grupo:zona.escola"))
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (textual prod)") +
+  ggplot2::scale_x_discrete(labels=c('pre', 'pos')) +
+  if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  plots <- twoWayAncovaBoxPlots(
+    wdat.long, "flow.text", c("grupo","zona.escola"), aov, pwc.long,
+    pre.post = "time",
+    theme = "classic", color = color$prepost)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) 
+  plots[["grupo:zona.escola"]] + ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+```
+
+### Checking linearity assumption
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            facet.by = c("grupo","zona.escola"), add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"))
+    ) + ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            color = "grupo", facet.by = "zona.escola", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = grupo)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.escola"))) +
+    ggplot2::scale_color_manual(values = color[["grupo"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) {
+  ggscatter(wdat, x = "dfs.textual", y = "fss.textual", size = 0.5,
+            color = "zona.escola", facet.by = "grupo", add = "reg.line")+
+    stat_regline_equation(
+      aes(label =  paste(..eq.label.., ..rr.label.., sep = "~~~~"), color = zona.escola)
+    ) +
+    ggplot2::labs(subtitle = rstatix::get_test_label(aov, detailed = T, row = which(aov$Effect == "grupo:zona.escola"))) +
+    ggplot2::scale_color_manual(values = color[["zona.escola"]]) +
+    ggplot2::ylab("flow (textual prod)") +
+    if (ymin < ymax) ggplot2::ylim(ymin, ymax)
+}
+```
+
+### Checking normality and homogeneity
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) 
+  res <- augment(lm(fss.textual ~ dfs.textual + grupo*zona.escola, data = wdat))
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2)
+  shapiro_test(res$.resid)
+```
+
+``` r
+if (!is.null(pdat) && length(unique(pdat[["zona.escola"]])) >= 2) 
+  levene_test(res, .resid ~ grupo*zona.escola)
 ```
 
 # Summary of Results
@@ -705,14 +1261,14 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
              colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr | symmetry | skewness | kurtosis |
-|:-------------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|:---------|---------:|---------:|
-| Controle     | dfs.textual |  14 | 2.973 |  3.000 | 2.000 | 3.667 | 0.428 | 0.114 | 0.247 | 0.583 | YES      |   -0.490 |   -0.293 |
-| Experimental | dfs.textual |   9 | 2.730 |  2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO       |   -0.741 |   -0.681 |
-|              | dfs.textual |  23 | 2.878 |  3.000 | 1.111 | 3.667 | 0.592 | 0.123 | 0.256 | 0.583 | NO       |   -1.132 |    1.244 |
-| Controle     | fss.textual |  14 | 3.231 |  3.222 | 2.556 | 4.444 | 0.555 | 0.148 | 0.321 | 0.583 | NO       |    0.762 |   -0.521 |
-| Experimental | fss.textual |   9 | 2.870 |  2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES      |    0.395 |   -1.263 |
-|              | fss.textual |  23 | 3.090 |  2.889 | 2.333 | 4.444 | 0.514 | 0.107 | 0.222 | 0.611 | NO       |    0.935 |    0.288 |
+| grupo | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle | dfs.textual | 14 | 2.973 | 3.000 | 2.000 | 3.667 | 0.428 | 0.114 | 0.247 | 0.583 | YES | -0.490 | -0.293 |
+| Experimental | dfs.textual | 9 | 2.730 | 2.889 | 1.111 | 3.667 | 0.791 | 0.264 | 0.608 | 0.903 | NO | -0.741 | -0.681 |
+|  | dfs.textual | 23 | 2.878 | 3.000 | 1.111 | 3.667 | 0.592 | 0.123 | 0.256 | 0.583 | NO | -1.132 | 1.244 |
+| Controle | fss.textual | 14 | 3.231 | 3.222 | 2.556 | 4.444 | 0.555 | 0.148 | 0.321 | 0.583 | NO | 0.762 | -0.521 |
+| Experimental | fss.textual | 9 | 2.870 | 2.778 | 2.333 | 3.500 | 0.371 | 0.124 | 0.285 | 0.444 | YES | 0.395 | -1.263 |
+|  | fss.textual | 23 | 3.090 | 2.889 | 2.333 | 4.444 | 0.514 | 0.107 | 0.222 | 0.611 | NO | 0.935 | 0.288 |
 
 ## ANCOVA Table Comparison
 
@@ -734,11 +1290,11 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% c(names(lfatores),"term",".y.")])]
 ```
 
-| grupo        | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif | df’ | statistic’ |    p’ | p.adj’ | p.adj.signif’ |
-|:-------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|----:|-----------:|------:|-------:|:--------------|
-| Controle     | pre      | pos          |  42 |    -1.251 | 0.218 | 0.218 | ns           |  42 |     -1.251 | 0.218 |  0.218 | ns            |
-| Experimental | pre      | pos          |  42 |    -0.546 | 0.588 | 0.588 | ns           |  42 |     -0.546 | 0.588 |  0.588 | ns            |
-|              | Controle | Experimental |  20 |     1.455 | 0.161 | 0.161 | ns           |  20 |      1.455 | 0.161 |  0.161 | ns            |
+| grupo | group1 | group2 | df | statistic | p | p.adj | p.adj.signif | df’ | statistic’ | p’ | p.adj’ | p.adj.signif’ |
+|:---|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|:---|
+| Controle | pre | pos | 42 | -1.251 | 0.218 | 0.218 | ns | 42 | -1.251 | 0.218 | 0.218 | ns |
+| Experimental | pre | pos | 42 | -0.546 | 0.588 | 0.588 | ns | 42 | -0.546 | 0.588 | 0.588 | ns |
+|  | Controle | Experimental | 20 | 1.455 | 0.161 | 0.161 | ns | 20 | 1.455 | 0.161 | 0.161 | ns |
 
 ## EMMS Table Comparison
 
@@ -749,7 +1305,7 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% names(lfatores)])]
 ```
 
-| grupo        |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |  N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
-|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|----:|---------:|----------:|-----------:|------------:|---------:|----------:|----------:|-----------:|-----:|
-| Controle     |  14 |   2.973 |    0.114 |     3.231 |      0.148 |   3.212 |    0.132 |    2.936 |     3.487 |  14 |    2.973 |     0.114 |      3.231 |       0.148 |    3.212 |     0.132 |     2.936 |      3.487 |    0 |
-| Experimental |   9 |   2.730 |    0.264 |     2.870 |      0.124 |   2.901 |    0.166 |    2.555 |     3.246 |   9 |    2.730 |     0.264 |      2.870 |       0.124 |    2.901 |     0.166 |     2.555 |      3.246 |    0 |
+| grupo | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high | N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 14 | 2.973 | 0.114 | 3.231 | 0.148 | 3.212 | 0.132 | 2.936 | 3.487 | 14 | 2.973 | 0.114 | 3.231 | 0.148 | 3.212 | 0.132 | 2.936 | 3.487 | 0 |
+| Experimental | 9 | 2.730 | 0.264 | 2.870 | 0.124 | 2.901 | 0.166 | 2.555 | 3.246 | 9 | 2.730 | 0.264 | 2.870 | 0.124 | 2.901 | 0.166 | 2.555 | 3.246 | 0 |

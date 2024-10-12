@@ -1,5 +1,6 @@
-ANCOVA test for vocabulario (aprendizagem de vocabulário)
-================
+
+# ANCOVA test for vocabulario (aprendizagem de vocabulário)
+
 Geiser C. Challco <geiser@alumni.usp.br>
 
 - [Descriptive Statistics of Initial

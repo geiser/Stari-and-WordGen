@@ -194,58 +194,58 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
             colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.CI.quintile | variable     |   n |   mean | median | min | max |    sd |    se |     ci |  iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:------------------|:-------------|----:|-------:|-------:|----:|----:|------:|------:|-------:|-----:|:---------|---------:|---------:|
-| Controle     |        |                   |             |                   | score.CI.pre |  50 |  9.300 |   10.0 |   0 |  14 | 3.512 | 0.497 |  0.998 | 4.00 | NO       |   -0.962 |    0.427 |
-| Experimental |        |                   |             |                   | score.CI.pre |  42 |  8.667 |    9.0 |   0 |  14 | 3.490 | 0.538 |  1.088 | 4.00 | NO       |   -0.574 |    0.210 |
-|              |        |                   |             |                   | score.CI.pre |  92 |  9.011 |   10.0 |   0 |  14 | 3.497 | 0.365 |  0.724 | 4.00 | NO       |   -0.788 |    0.323 |
-| Controle     |        |                   |             |                   | score.CI.pos |  50 |  8.180 |    8.0 |   0 |  17 | 4.498 | 0.636 |  1.278 | 6.00 | YES      |   -0.192 |   -0.585 |
-| Experimental |        |                   |             |                   | score.CI.pos |  42 |  9.643 |   10.0 |   0 |  17 | 4.282 | 0.661 |  1.334 | 5.75 | NO       |   -0.768 |   -0.122 |
-|              |        |                   |             |                   | score.CI.pos |  92 |  8.848 |    9.0 |   0 |  17 | 4.437 | 0.463 |  0.919 | 6.00 | YES      |   -0.447 |   -0.481 |
-| Controle     | F      |                   |             |                   | score.CI.pre |  25 |  9.240 |   10.0 |   0 |  14 | 3.734 | 0.747 |  1.541 | 3.00 | NO       |   -0.988 |    0.207 |
-| Controle     | M      |                   |             |                   | score.CI.pre |  25 |  9.360 |   10.0 |   0 |  14 | 3.353 | 0.671 |  1.384 | 5.00 | NO       |   -0.836 |    0.282 |
-| Experimental | F      |                   |             |                   | score.CI.pre |  19 |  8.895 |    9.0 |   0 |  14 | 3.943 | 0.904 |  1.900 | 6.00 | YES      |   -0.276 |   -0.787 |
-| Experimental | M      |                   |             |                   | score.CI.pre |  23 |  8.478 |    9.0 |   0 |  13 | 3.146 | 0.656 |  1.360 | 3.00 | NO       |   -1.078 |    1.179 |
-| Controle     | F      |                   |             |                   | score.CI.pos |  25 |  7.960 |    8.0 |   0 |  17 | 4.198 | 0.840 |  1.733 | 3.00 | YES      |    0.147 |   -0.129 |
-| Controle     | M      |                   |             |                   | score.CI.pos |  25 |  8.400 |    9.0 |   0 |  16 | 4.856 | 0.971 |  2.005 | 6.00 | YES      |   -0.433 |   -0.973 |
-| Experimental | F      |                   |             |                   | score.CI.pos |  19 |  8.947 |    9.0 |   0 |  17 | 4.588 | 1.053 |  2.211 | 4.50 | NO       |   -0.504 |   -0.482 |
-| Experimental | M      |                   |             |                   | score.CI.pos |  23 | 10.217 |   11.0 |   0 |  15 | 4.022 | 0.839 |  1.739 | 5.50 | NO       |   -0.954 |    0.044 |
-| Controle     |        | Rural             |             |                   | score.CI.pre |  12 | 10.417 |   10.0 |   6 |  14 | 2.234 | 0.645 |  1.420 | 1.75 | YES      |   -0.168 |   -0.750 |
-| Controle     |        | Urbana            |             |                   | score.CI.pre |  26 |  8.923 |   10.0 |   0 |  14 | 4.137 | 0.811 |  1.671 | 5.25 | NO       |   -0.922 |   -0.305 |
-| Controle     |        |                   |             |                   | score.CI.pre |  12 |  9.000 |    8.5 |   4 |  13 | 3.045 | 0.879 |  1.935 | 4.75 | YES      |    0.035 |   -1.459 |
-| Experimental |        | Rural             |             |                   | score.CI.pre |  15 |  9.467 |    9.0 |   5 |  14 | 3.044 | 0.786 |  1.686 | 4.00 | YES      |    0.151 |   -1.295 |
-| Experimental |        | Urbana            |             |                   | score.CI.pre |  16 |  7.438 |    8.5 |   0 |  13 | 3.521 | 0.880 |  1.876 | 4.00 | NO       |   -0.848 |   -0.026 |
-| Experimental |        |                   |             |                   | score.CI.pre |  11 |  9.364 |    9.0 |   1 |  14 | 3.802 | 1.146 |  2.554 | 5.50 | NO       |   -0.672 |   -0.453 |
-| Controle     |        | Rural             |             |                   | score.CI.pos |  12 |  8.417 |    9.0 |   0 |  12 | 3.476 | 1.003 |  2.209 | 2.50 | NO       |   -1.071 |    0.368 |
-| Controle     |        | Urbana            |             |                   | score.CI.pos |  26 |  8.154 |    7.5 |   0 |  17 | 4.905 | 0.962 |  1.981 | 6.75 | YES      |    0.048 |   -0.914 |
-| Controle     |        |                   |             |                   | score.CI.pos |  12 |  8.000 |    8.0 |   0 |  15 | 4.824 | 1.393 |  3.065 | 5.25 | YES      |   -0.289 |   -1.109 |
-| Experimental |        | Rural             |             |                   | score.CI.pos |  15 |  8.933 |    9.0 |   0 |  17 | 4.682 | 1.209 |  2.593 | 6.50 | YES      |   -0.128 |   -0.924 |
-| Experimental |        | Urbana            |             |                   | score.CI.pos |  16 |  9.375 |   10.5 |   0 |  14 | 3.914 | 0.978 |  2.085 | 2.50 | NO       |   -1.127 |    0.179 |
-| Experimental |        |                   |             |                   | score.CI.pos |  11 | 11.000 |   12.0 |   0 |  15 | 4.313 | 1.300 |  2.897 | 4.00 | NO       |   -1.353 |    1.038 |
-| Controle     |        |                   | Rural       |                   | score.CI.pre |  14 |  8.214 |    8.5 |   0 |  14 | 4.406 | 1.178 |  2.544 | 5.75 | YES      |   -0.444 |   -1.091 |
-| Controle     |        |                   | Urbana      |                   | score.CI.pre |  36 |  9.722 |   10.0 |   0 |  14 | 3.067 | 0.511 |  1.038 | 3.00 | NO       |   -1.091 |    1.223 |
-| Experimental |        |                   | Rural       |                   | score.CI.pre |  13 |  9.077 |   10.0 |   1 |  14 | 3.730 | 1.034 |  2.254 | 4.00 | NO       |   -0.563 |   -0.709 |
-| Experimental |        |                   | Urbana      |                   | score.CI.pre |  29 |  8.483 |    9.0 |   0 |  14 | 3.429 | 0.637 |  1.304 | 3.00 | NO       |   -0.573 |    0.523 |
-| Controle     |        |                   | Rural       |                   | score.CI.pos |  14 |  9.143 |    9.5 |   0 |  17 | 5.763 | 1.540 |  3.327 | 8.75 | YES      |   -0.315 |   -1.363 |
-| Controle     |        |                   | Urbana      |                   | score.CI.pos |  36 |  7.806 |    8.0 |   0 |  16 | 3.934 | 0.656 |  1.331 | 5.25 | YES      |   -0.311 |   -0.272 |
-| Experimental |        |                   | Rural       |                   | score.CI.pos |  13 |  9.308 |   10.0 |   0 |  17 | 5.313 | 1.474 |  3.211 | 6.00 | YES      |   -0.432 |   -1.020 |
-| Experimental |        |                   | Urbana      |                   | score.CI.pos |  29 |  9.793 |   10.0 |   0 |  15 | 3.830 | 0.711 |  1.457 | 4.00 | NO       |   -0.941 |    0.143 |
-| Controle     |        |                   |             | 1st quintile      | score.CI.pre |   4 |  1.000 |    0.5 |   0 |   3 | 1.414 | 0.707 |  2.250 | 1.50 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 2nd quintile      | score.CI.pre |   8 |  5.750 |    6.0 |   4 |   7 | 0.886 | 0.313 |  0.741 | 0.25 | NO       |   -0.673 |   -0.539 |
-| Controle     |        |                   |             | 3rd quintile      | score.CI.pre |  28 | 10.071 |   10.0 |   8 |  12 | 1.184 | 0.224 |  0.459 | 2.00 | YES      |   -0.003 |   -0.804 |
-| Controle     |        |                   |             | 4th quintile      | score.CI.pre |  10 | 13.300 |   13.0 |  13 |  14 | 0.483 | 0.153 |  0.346 | 0.75 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 1st quintile      | score.CI.pre |   3 |  0.333 |    0.0 |   0 |   1 | 0.577 | 0.333 |  1.434 | 0.50 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 2nd quintile      | score.CI.pre |  13 |  6.385 |    7.0 |   5 |   7 | 0.870 | 0.241 |  0.526 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 3rd quintile      | score.CI.pre |  19 |  9.737 |   10.0 |   8 |  12 | 1.098 | 0.252 |  0.529 | 1.50 | YES      |    0.257 |   -0.944 |
-| Experimental |        |                   |             | 4th quintile      | score.CI.pre |   7 | 13.571 |   14.0 |  13 |  14 | 0.535 | 0.202 |  0.494 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 1st quintile      | score.CI.pos |   4 |  8.000 |    7.0 |   2 |  16 | 5.888 | 2.944 |  9.369 | 5.00 | YES      |    0.353 |   -1.875 |
-| Controle     |        |                   |             | 2nd quintile      | score.CI.pos |   8 |  6.750 |    6.5 |   0 |  15 | 4.400 | 1.556 |  3.678 | 3.00 | YES      |    0.384 |   -0.703 |
-| Controle     |        |                   |             | 3rd quintile      | score.CI.pos |  28 |  8.107 |    8.0 |   0 |  16 | 3.881 | 0.733 |  1.505 | 4.25 | YES      |   -0.500 |   -0.023 |
-| Controle     |        |                   |             | 4th quintile      | score.CI.pos |  10 |  9.600 |   12.0 |   0 |  17 | 5.854 | 1.851 |  4.188 | 6.75 | NO       |   -0.598 |   -1.211 |
-| Experimental |        |                   |             | 1st quintile      | score.CI.pos |   3 |  4.333 |    0.0 |   0 |  13 | 7.506 | 4.333 | 18.645 | 6.50 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 2nd quintile      | score.CI.pos |  13 |  8.308 |    9.0 |   0 |  13 | 3.816 | 1.058 |  2.306 | 4.00 | NO       |   -0.800 |   -0.303 |
-| Experimental |        |                   |             | 3rd quintile      | score.CI.pos |  19 | 10.632 |   11.0 |   2 |  17 | 3.774 | 0.866 |  1.819 | 4.00 | YES      |   -0.463 |   -0.457 |
-| Experimental |        |                   |             | 4th quintile      | score.CI.pos |   7 | 11.714 |   12.0 |   6 |  14 | 2.928 | 1.107 |  2.708 | 3.00 | NO       |   -0.887 |   -0.751 |
+| grupo | genero | zona.participante | zona.escola | score.CI.quintile | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  |  | score.CI.pre | 50 | 9.300 | 10.0 | 0 | 14 | 3.512 | 0.497 | 0.998 | 4.00 | NO | -0.962 | 0.427 |
+| Experimental |  |  |  |  | score.CI.pre | 42 | 8.667 | 9.0 | 0 | 14 | 3.490 | 0.538 | 1.088 | 4.00 | NO | -0.574 | 0.210 |
+|  |  |  |  |  | score.CI.pre | 92 | 9.011 | 10.0 | 0 | 14 | 3.497 | 0.365 | 0.724 | 4.00 | NO | -0.788 | 0.323 |
+| Controle |  |  |  |  | score.CI.pos | 50 | 8.180 | 8.0 | 0 | 17 | 4.498 | 0.636 | 1.278 | 6.00 | YES | -0.192 | -0.585 |
+| Experimental |  |  |  |  | score.CI.pos | 42 | 9.643 | 10.0 | 0 | 17 | 4.282 | 0.661 | 1.334 | 5.75 | NO | -0.768 | -0.122 |
+|  |  |  |  |  | score.CI.pos | 92 | 8.848 | 9.0 | 0 | 17 | 4.437 | 0.463 | 0.919 | 6.00 | YES | -0.447 | -0.481 |
+| Controle | F |  |  |  | score.CI.pre | 25 | 9.240 | 10.0 | 0 | 14 | 3.734 | 0.747 | 1.541 | 3.00 | NO | -0.988 | 0.207 |
+| Controle | M |  |  |  | score.CI.pre | 25 | 9.360 | 10.0 | 0 | 14 | 3.353 | 0.671 | 1.384 | 5.00 | NO | -0.836 | 0.282 |
+| Experimental | F |  |  |  | score.CI.pre | 19 | 8.895 | 9.0 | 0 | 14 | 3.943 | 0.904 | 1.900 | 6.00 | YES | -0.276 | -0.787 |
+| Experimental | M |  |  |  | score.CI.pre | 23 | 8.478 | 9.0 | 0 | 13 | 3.146 | 0.656 | 1.360 | 3.00 | NO | -1.078 | 1.179 |
+| Controle | F |  |  |  | score.CI.pos | 25 | 7.960 | 8.0 | 0 | 17 | 4.198 | 0.840 | 1.733 | 3.00 | YES | 0.147 | -0.129 |
+| Controle | M |  |  |  | score.CI.pos | 25 | 8.400 | 9.0 | 0 | 16 | 4.856 | 0.971 | 2.005 | 6.00 | YES | -0.433 | -0.973 |
+| Experimental | F |  |  |  | score.CI.pos | 19 | 8.947 | 9.0 | 0 | 17 | 4.588 | 1.053 | 2.211 | 4.50 | NO | -0.504 | -0.482 |
+| Experimental | M |  |  |  | score.CI.pos | 23 | 10.217 | 11.0 | 0 | 15 | 4.022 | 0.839 | 1.739 | 5.50 | NO | -0.954 | 0.044 |
+| Controle |  | Rural |  |  | score.CI.pre | 12 | 10.417 | 10.0 | 6 | 14 | 2.234 | 0.645 | 1.420 | 1.75 | YES | -0.168 | -0.750 |
+| Controle |  | Urbana |  |  | score.CI.pre | 26 | 8.923 | 10.0 | 0 | 14 | 4.137 | 0.811 | 1.671 | 5.25 | NO | -0.922 | -0.305 |
+| Controle |  |  |  |  | score.CI.pre | 12 | 9.000 | 8.5 | 4 | 13 | 3.045 | 0.879 | 1.935 | 4.75 | YES | 0.035 | -1.459 |
+| Experimental |  | Rural |  |  | score.CI.pre | 15 | 9.467 | 9.0 | 5 | 14 | 3.044 | 0.786 | 1.686 | 4.00 | YES | 0.151 | -1.295 |
+| Experimental |  | Urbana |  |  | score.CI.pre | 16 | 7.438 | 8.5 | 0 | 13 | 3.521 | 0.880 | 1.876 | 4.00 | NO | -0.848 | -0.026 |
+| Experimental |  |  |  |  | score.CI.pre | 11 | 9.364 | 9.0 | 1 | 14 | 3.802 | 1.146 | 2.554 | 5.50 | NO | -0.672 | -0.453 |
+| Controle |  | Rural |  |  | score.CI.pos | 12 | 8.417 | 9.0 | 0 | 12 | 3.476 | 1.003 | 2.209 | 2.50 | NO | -1.071 | 0.368 |
+| Controle |  | Urbana |  |  | score.CI.pos | 26 | 8.154 | 7.5 | 0 | 17 | 4.905 | 0.962 | 1.981 | 6.75 | YES | 0.048 | -0.914 |
+| Controle |  |  |  |  | score.CI.pos | 12 | 8.000 | 8.0 | 0 | 15 | 4.824 | 1.393 | 3.065 | 5.25 | YES | -0.289 | -1.109 |
+| Experimental |  | Rural |  |  | score.CI.pos | 15 | 8.933 | 9.0 | 0 | 17 | 4.682 | 1.209 | 2.593 | 6.50 | YES | -0.128 | -0.924 |
+| Experimental |  | Urbana |  |  | score.CI.pos | 16 | 9.375 | 10.5 | 0 | 14 | 3.914 | 0.978 | 2.085 | 2.50 | NO | -1.127 | 0.179 |
+| Experimental |  |  |  |  | score.CI.pos | 11 | 11.000 | 12.0 | 0 | 15 | 4.313 | 1.300 | 2.897 | 4.00 | NO | -1.353 | 1.038 |
+| Controle |  |  | Rural |  | score.CI.pre | 14 | 8.214 | 8.5 | 0 | 14 | 4.406 | 1.178 | 2.544 | 5.75 | YES | -0.444 | -1.091 |
+| Controle |  |  | Urbana |  | score.CI.pre | 36 | 9.722 | 10.0 | 0 | 14 | 3.067 | 0.511 | 1.038 | 3.00 | NO | -1.091 | 1.223 |
+| Experimental |  |  | Rural |  | score.CI.pre | 13 | 9.077 | 10.0 | 1 | 14 | 3.730 | 1.034 | 2.254 | 4.00 | NO | -0.563 | -0.709 |
+| Experimental |  |  | Urbana |  | score.CI.pre | 29 | 8.483 | 9.0 | 0 | 14 | 3.429 | 0.637 | 1.304 | 3.00 | NO | -0.573 | 0.523 |
+| Controle |  |  | Rural |  | score.CI.pos | 14 | 9.143 | 9.5 | 0 | 17 | 5.763 | 1.540 | 3.327 | 8.75 | YES | -0.315 | -1.363 |
+| Controle |  |  | Urbana |  | score.CI.pos | 36 | 7.806 | 8.0 | 0 | 16 | 3.934 | 0.656 | 1.331 | 5.25 | YES | -0.311 | -0.272 |
+| Experimental |  |  | Rural |  | score.CI.pos | 13 | 9.308 | 10.0 | 0 | 17 | 5.313 | 1.474 | 3.211 | 6.00 | YES | -0.432 | -1.020 |
+| Experimental |  |  | Urbana |  | score.CI.pos | 29 | 9.793 | 10.0 | 0 | 15 | 3.830 | 0.711 | 1.457 | 4.00 | NO | -0.941 | 0.143 |
+| Controle |  |  |  | 1st quintile | score.CI.pre | 4 | 1.000 | 0.5 | 0 | 3 | 1.414 | 0.707 | 2.250 | 1.50 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 2nd quintile | score.CI.pre | 8 | 5.750 | 6.0 | 4 | 7 | 0.886 | 0.313 | 0.741 | 0.25 | NO | -0.673 | -0.539 |
+| Controle |  |  |  | 3rd quintile | score.CI.pre | 28 | 10.071 | 10.0 | 8 | 12 | 1.184 | 0.224 | 0.459 | 2.00 | YES | -0.003 | -0.804 |
+| Controle |  |  |  | 4th quintile | score.CI.pre | 10 | 13.300 | 13.0 | 13 | 14 | 0.483 | 0.153 | 0.346 | 0.75 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 1st quintile | score.CI.pre | 3 | 0.333 | 0.0 | 0 | 1 | 0.577 | 0.333 | 1.434 | 0.50 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 2nd quintile | score.CI.pre | 13 | 6.385 | 7.0 | 5 | 7 | 0.870 | 0.241 | 0.526 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 3rd quintile | score.CI.pre | 19 | 9.737 | 10.0 | 8 | 12 | 1.098 | 0.252 | 0.529 | 1.50 | YES | 0.257 | -0.944 |
+| Experimental |  |  |  | 4th quintile | score.CI.pre | 7 | 13.571 | 14.0 | 13 | 14 | 0.535 | 0.202 | 0.494 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 1st quintile | score.CI.pos | 4 | 8.000 | 7.0 | 2 | 16 | 5.888 | 2.944 | 9.369 | 5.00 | YES | 0.353 | -1.875 |
+| Controle |  |  |  | 2nd quintile | score.CI.pos | 8 | 6.750 | 6.5 | 0 | 15 | 4.400 | 1.556 | 3.678 | 3.00 | YES | 0.384 | -0.703 |
+| Controle |  |  |  | 3rd quintile | score.CI.pos | 28 | 8.107 | 8.0 | 0 | 16 | 3.881 | 0.733 | 1.505 | 4.25 | YES | -0.500 | -0.023 |
+| Controle |  |  |  | 4th quintile | score.CI.pos | 10 | 9.600 | 12.0 | 0 | 17 | 5.854 | 1.851 | 4.188 | 6.75 | NO | -0.598 | -1.211 |
+| Experimental |  |  |  | 1st quintile | score.CI.pos | 3 | 4.333 | 0.0 | 0 | 13 | 7.506 | 4.333 | 18.645 | 6.50 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 2nd quintile | score.CI.pos | 13 | 8.308 | 9.0 | 0 | 13 | 3.816 | 1.058 | 2.306 | 4.00 | NO | -0.800 | -0.303 |
+| Experimental |  |  |  | 3rd quintile | score.CI.pos | 19 | 10.632 | 11.0 | 2 | 17 | 3.774 | 0.866 | 1.819 | 4.00 | YES | -0.463 | -0.457 |
+| Experimental |  |  |  | 4th quintile | score.CI.pos | 7 | 11.714 | 12.0 | 6 | 14 | 2.928 | 1.107 | 2.708 | 3.00 | NO | -0.887 | -0.751 |
 
 # ANCOVA and Pairwise for one factor: **grupo**
 
@@ -337,9 +337,9 @@ pwc <- emmeans_test(wdat, score.CI.pos ~ grupo, covariate = score.CI.pre,
                     p.adjust.method = "bonferroni")
 ```
 
-| term                | .y.          | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:--------------------|:-------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-| score.CI.pre\*grupo | score.CI.pos | Controle | Experimental |  88 |    -1.761 | 0.082 | 0.082 | ns           |
+| term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 88 | -1.761 | 0.082 | 0.082 | ns |
 
 ``` r
 pwc.long <- emmeans_test(dplyr::group_by_at(wdat.long, "grupo"),
@@ -371,10 +371,10 @@ colnames(ds) <- c("grupo", "N", paste0(c("M","SE")," (pre)"),
 lemms[["grupo"]] <- merge(ds, lemms[["grupo"]], by=c("grupo"), suffixes = c("","'"))
 ```
 
-| grupo        |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     |  49 |   9.306 |    0.507 |     8.347 |      0.626 |   8.234 |    0.593 |    7.055 |     9.413 |
-| Experimental |  42 |   8.667 |    0.538 |     9.643 |      0.661 |   9.775 |    0.641 |    8.501 |    11.049 |
+| grupo | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 49 | 9.306 | 0.507 | 8.347 | 0.626 | 8.234 | 0.593 | 7.055 | 9.413 |
+| Experimental | 42 | 8.667 | 0.538 | 9.643 | 0.661 | 9.775 | 0.641 | 8.501 | 11.049 |
 
 ### Plots for ancova
 
@@ -590,12 +590,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term                 | .y.          | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:---------------------|:-------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | F      | score.CI.pre\*grupo  | score.CI.pos | Controle | Experimental |  85 |    -0.914 | 0.363 | 0.363 | ns           |
-|              | M      | score.CI.pre\*grupo  | score.CI.pos | Controle | Experimental |  85 |    -1.185 | 0.239 | 0.239 | ns           |
-| Controle     |        | score.CI.pre\*genero | score.CI.pos | F        | M            |  85 |    -0.979 | 0.330 | 0.330 | ns           |
-| Experimental |        | score.CI.pre\*genero | score.CI.pos | F        | M            |  85 |    -1.145 | 0.256 | 0.256 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | F | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 85 | -0.914 | 0.363 | 0.363 | ns |
+|  | M | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 85 | -1.185 | 0.239 | 0.239 | ns |
+| Controle |  | score.CI.pre\*genero | score.CI.pos | F | M | 85 | -0.979 | 0.330 | 0.330 | ns |
+| Experimental |  | score.CI.pre\*genero | score.CI.pos | F | M | 85 | -1.145 | 0.256 | 0.256 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -609,12 +609,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero | term | .y.      | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:-------|:-----|:---------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | F      | time | score.CI | pre    | pos    | 172 |     1.148 | 0.252 | 0.252 | ns           |
-| Controle     | M      | time | score.CI | pre    | pos    | 172 |     0.150 | 0.881 | 0.881 | ns           |
-| Experimental | F      | time | score.CI | pre    | pos    | 172 |    -0.041 | 0.967 | 0.967 | ns           |
-| Experimental | M      | time | score.CI | pre    | pos    | 172 |    -1.497 | 0.136 | 0.136 | ns           |
+| grupo | genero | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | F | time | score.CI | pre | pos | 172 | 1.148 | 0.252 | 0.252 | ns |
+| Controle | M | time | score.CI | pre | pos | 172 | 0.150 | 0.881 | 0.881 | ns |
+| Experimental | F | time | score.CI | pre | pos | 172 | -0.041 | 0.967 | 0.967 | ns |
+| Experimental | M | time | score.CI | pre | pos | 172 | -1.497 | 0.136 | 0.136 | ns |
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -636,12 +636,12 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-| grupo        | genero |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | F      |  25 |   9.240 |    0.747 |     7.960 |      0.840 |   7.859 |    0.810 |    6.248 |     9.470 |
-| Controle     | M      |  23 |   9.304 |    0.729 |     9.130 |      0.903 |   9.004 |    0.845 |    7.324 |    10.683 |
-| Experimental | F      |  19 |   8.895 |    0.904 |     8.947 |      1.053 |   8.985 |    0.929 |    7.139 |    10.831 |
-| Experimental | M      |  23 |   8.478 |    0.656 |    10.217 |      0.839 |  10.423 |    0.846 |    8.740 |    12.105 |
+| grupo | genero | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | F | 25 | 9.240 | 0.747 | 7.960 | 0.840 | 7.859 | 0.810 | 6.248 | 9.470 |
+| Controle | M | 23 | 9.304 | 0.729 | 9.130 | 0.903 | 9.004 | 0.845 | 7.324 | 10.683 |
+| Experimental | F | 19 | 8.895 | 0.904 | 8.947 | 1.053 | 8.985 | 0.929 | 7.139 | 10.831 |
+| Experimental | M | 23 | 8.478 | 0.656 | 10.217 | 0.839 | 10.423 | 0.846 | 8.740 | 12.105 |
 
 ### Plots for ancova
 
@@ -658,7 +658,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-41-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -673,7 +673,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-42-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-43-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -692,10 +692,9 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-44-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-45-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -712,7 +711,7 @@ if (length(unique(pdat[["genero"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-46-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -727,7 +726,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-47-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -743,7 +742,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["genero"]])) >= 2) {
@@ -759,7 +758,7 @@ if (length(unique(pdat[["genero"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-49-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-50-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -914,12 +913,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term                            | .y.          | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:--------------------------------|:-------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural             | score.CI.pre\*grupo             | score.CI.pos | Controle | Experimental |  64 |    -0.490 | 0.626 | 0.626 | ns           |
-|              | Urbana            | score.CI.pre\*grupo             | score.CI.pos | Controle | Experimental |  64 |    -1.223 | 0.226 | 0.226 | ns           |
-| Controle     |                   | score.CI.pre\*zona.participante | score.CI.pos | Rural    | Urbana       |  64 |    -0.142 | 0.887 | 0.887 | ns           |
-| Experimental |                   | score.CI.pre\*zona.participante | score.CI.pos | Rural    | Urbana       |  64 |    -0.692 | 0.492 | 0.492 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 64 | -0.490 | 0.626 | 0.626 | ns |
+|  | Urbana | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 64 | -1.223 | 0.226 | 0.226 | ns |
+| Controle |  | score.CI.pre\*zona.participante | score.CI.pos | Rural | Urbana | 64 | -0.142 | 0.887 | 0.887 | ns |
+| Experimental |  | score.CI.pre\*zona.participante | score.CI.pos | Rural | Urbana | 64 | -0.692 | 0.492 | 0.492 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -933,12 +932,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante | term | .y.      | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:-----|:---------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural             | time | score.CI | pre    | pos    | 130 |     1.228 | 0.222 | 0.222 | ns           |
-| Controle     | Urbana            | time | score.CI | pre    | pos    | 130 |     0.695 | 0.488 | 0.488 | ns           |
-| Experimental | Rural             | time | score.CI | pre    | pos    | 130 |     0.366 | 0.715 | 0.715 | ns           |
-| Experimental | Urbana            | time | score.CI | pre    | pos    | 130 |    -1.374 | 0.172 | 0.172 | ns           |
+| grupo | zona.participante | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | score.CI | pre | pos | 130 | 1.228 | 0.222 | 0.222 | ns |
+| Controle | Urbana | time | score.CI | pre | pos | 130 | 0.695 | 0.488 | 0.488 | ns |
+| Experimental | Rural | time | score.CI | pre | pos | 130 | 0.366 | 0.715 | 0.715 | ns |
+| Experimental | Urbana | time | score.CI | pre | pos | 130 | -1.374 | 0.172 | 0.172 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -960,12 +959,12 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.participante |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural             |  12 |  10.417 |    0.645 |     8.417 |      1.003 |   7.948 |    1.264 |    5.423 |    10.473 |
-| Controle     | Urbana            |  26 |   8.923 |    0.811 |     8.154 |      0.962 |   8.165 |    0.845 |    6.476 |     9.853 |
-| Experimental | Rural             |  15 |   9.467 |    0.786 |     8.933 |      1.209 |   8.770 |    1.116 |    6.541 |    10.998 |
-| Experimental | Urbana            |  16 |   7.438 |    0.880 |     9.375 |      0.978 |   9.862 |    1.102 |    7.660 |    12.064 |
+| grupo | zona.participante | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 12 | 10.417 | 0.645 | 8.417 | 1.003 | 7.948 | 1.264 | 5.423 | 10.473 |
+| Controle | Urbana | 26 | 8.923 | 0.811 | 8.154 | 0.962 | 8.165 | 0.845 | 6.476 | 9.853 |
+| Experimental | Rural | 15 | 9.467 | 0.786 | 8.933 | 1.209 | 8.770 | 1.116 | 6.541 | 10.998 |
+| Experimental | Urbana | 16 | 7.438 | 0.880 | 9.375 | 0.978 | 9.862 | 1.102 | 7.660 | 12.064 |
 
 ### Plots for ancova
 
@@ -982,7 +981,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-66-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-68-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -997,7 +996,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-67-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1016,10 +1015,9 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-69-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1036,7 +1034,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-71-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1051,7 +1049,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1067,7 +1065,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-73-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-75-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.participante"]])) >= 2) {
@@ -1083,7 +1081,7 @@ if (length(unique(pdat[["zona.participante"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-74-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-76-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1238,12 +1236,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term                      | .y.          | group1   | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:--------------------------|:-------------|:---------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | Rural       | score.CI.pre\*grupo       | score.CI.pos | Controle | Experimental |  84 |     0.143 | 0.887 | 0.887 | ns           |
-|              | Urbana      | score.CI.pre\*grupo       | score.CI.pos | Controle | Experimental |  84 |    -1.762 | 0.082 | 0.082 | ns           |
-| Controle     |             | score.CI.pre\*zona.escola | score.CI.pos | Rural    | Urbana       |  84 |     0.989 | 0.325 | 0.325 | ns           |
-| Experimental |             | score.CI.pre\*zona.escola | score.CI.pos | Rural    | Urbana       |  84 |    -0.567 | 0.572 | 0.572 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | Rural | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 84 | 0.143 | 0.887 | 0.887 | ns |
+|  | Urbana | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 84 | -1.762 | 0.082 | 0.082 | ns |
+| Controle |  | score.CI.pre\*zona.escola | score.CI.pos | Rural | Urbana | 84 | 0.989 | 0.325 | 0.325 | ns |
+| Experimental |  | score.CI.pre\*zona.escola | score.CI.pos | Rural | Urbana | 84 | -0.567 | 0.572 | 0.572 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1257,12 +1255,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola | term | .y.      | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------|:-----|:---------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | Rural       | time | score.CI | pre    | pos    | 170 |    -0.629 | 0.530 | 0.530 | ns           |
-| Controle     | Urbana      | time | score.CI | pre    | pos    | 170 |     1.167 | 0.245 | 0.245 | ns           |
-| Experimental | Rural       | time | score.CI | pre    | pos    | 170 |    -0.151 | 0.880 | 0.880 | ns           |
-| Experimental | Urbana      | time | score.CI | pre    | pos    | 170 |    -1.278 | 0.203 | 0.203 | ns           |
+| grupo | zona.escola | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | Rural | time | score.CI | pre | pos | 170 | -0.629 | 0.530 | 0.530 | ns |
+| Controle | Urbana | time | score.CI | pre | pos | 170 | 1.167 | 0.245 | 0.245 | ns |
+| Experimental | Rural | time | score.CI | pre | pos | 170 | -0.151 | 0.880 | 0.880 | ns |
+| Experimental | Urbana | time | score.CI | pre | pos | 170 | -1.278 | 0.203 | 0.203 | ns |
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1284,12 +1282,12 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-| grupo        | zona.escola |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | Rural       |  14 |   8.214 |    1.178 |     9.143 |      1.540 |   9.472 |    1.061 |    7.363 |    11.581 |
-| Controle     | Urbana      |  33 |   9.636 |    0.548 |     8.515 |      0.569 |   8.213 |    0.693 |    6.834 |     9.591 |
-| Experimental | Rural       |  13 |   9.077 |    1.034 |     9.308 |      1.474 |   9.254 |    1.097 |    7.073 |    11.435 |
-| Experimental | Urbana      |  29 |   8.483 |    0.637 |     9.793 |      0.711 |  10.003 |    0.736 |    8.538 |    11.467 |
+| grupo | zona.escola | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | Rural | 14 | 8.214 | 1.178 | 9.143 | 1.540 | 9.472 | 1.061 | 7.363 | 11.581 |
+| Controle | Urbana | 33 | 9.636 | 0.548 | 8.515 | 0.569 | 8.213 | 0.693 | 6.834 | 9.591 |
+| Experimental | Rural | 13 | 9.077 | 1.034 | 9.308 | 1.474 | 9.254 | 1.097 | 7.073 | 11.435 |
+| Experimental | Urbana | 29 | 8.483 | 0.637 | 9.793 | 0.711 | 10.003 | 0.736 | 8.538 | 11.467 |
 
 ### Plots for ancova
 
@@ -1306,7 +1304,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-91-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1321,7 +1319,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-92-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-95-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1340,10 +1338,9 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-94-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1360,7 +1357,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-96-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1375,7 +1372,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-97-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-100-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1391,7 +1388,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-98-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-101-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["zona.escola"]])) >= 2) {
@@ -1407,7 +1404,7 @@ if (length(unique(pdat[["zona.escola"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-99-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-102-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1562,17 +1559,17 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.CI.quintile | term                            | .y.          | group1       | group2       |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:--------------------------------|:-------------|:-------------|:-------------|----:|----------:|------:|------:|:-------------|
-|              | 2nd quintile      | score.CI.pre\*grupo             | score.CI.pos | Controle     | Experimental |  73 |    -0.357 | 0.722 | 0.722 | ns           |
-|              | 3rd quintile      | score.CI.pre\*grupo             | score.CI.pos | Controle     | Experimental |  73 |    -2.789 | 0.007 | 0.007 | \*\*         |
-|              | 4th quintile      | score.CI.pre\*grupo             | score.CI.pos | Controle     | Experimental |  73 |    -0.475 | 0.636 | 0.636 | ns           |
-| Controle     |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 3rd quintile |  73 |     1.332 | 0.187 | 0.561 | ns           |
-| Controle     |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 4th quintile |  73 |     1.022 | 0.310 | 0.930 | ns           |
-| Controle     |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 3rd quintile | 4th quintile |  73 |     0.295 | 0.769 | 1.000 | ns           |
-| Experimental |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 3rd quintile |  73 |     0.364 | 0.717 | 1.000 | ns           |
-| Experimental |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 4th quintile |  73 |     1.026 | 0.308 | 0.925 | ns           |
-| Experimental |                   | score.CI.pre\*score.CI.quintile | score.CI.pos | 3rd quintile | 4th quintile |  73 |     1.234 | 0.221 | 0.664 | ns           |
+| grupo | score.CI.quintile | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+|  | 2nd quintile | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 73 | -0.357 | 0.722 | 0.722 | ns |
+|  | 3rd quintile | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 73 | -2.789 | 0.007 | 0.007 | \*\* |
+|  | 4th quintile | score.CI.pre\*grupo | score.CI.pos | Controle | Experimental | 73 | -0.475 | 0.636 | 0.636 | ns |
+| Controle |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 3rd quintile | 73 | 1.332 | 0.187 | 0.561 | ns |
+| Controle |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 4th quintile | 73 | 1.022 | 0.310 | 0.930 | ns |
+| Controle |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 3rd quintile | 4th quintile | 73 | 0.295 | 0.769 | 1.000 | ns |
+| Experimental |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 3rd quintile | 73 | 0.364 | 0.717 | 1.000 | ns |
+| Experimental |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 2nd quintile | 4th quintile | 73 | 1.026 | 0.308 | 0.925 | ns |
+| Experimental |  | score.CI.pre\*score.CI.quintile | score.CI.pos | 3rd quintile | 4th quintile | 73 | 1.234 | 0.221 | 0.664 | ns |
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1586,14 +1583,14 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.CI.quintile | term | .y.      | group1 | group2 |  df | statistic |     p | p.adj | p.adj.signif |
-|:-------------|:------------------|:-----|:---------|:-------|:-------|----:|----------:|------:|------:|:-------------|
-| Controle     | 2nd quintile      | time | score.CI | pre    | pos    | 148 |    -1.416 | 0.159 | 0.159 | ns           |
-| Controle     | 3rd quintile      | time | score.CI | pre    | pos    | 148 |     2.318 | 0.022 | 0.022 | \*           |
-| Controle     | 4th quintile      | time | score.CI | pre    | pos    | 148 |     2.141 | 0.034 | 0.034 | \*           |
-| Experimental | 2nd quintile      | time | score.CI | pre    | pos    | 148 |    -2.318 | 0.022 | 0.022 | \*           |
-| Experimental | 3rd quintile      | time | score.CI | pre    | pos    | 148 |    -1.577 | 0.117 | 0.117 | ns           |
-| Experimental | 4th quintile      | time | score.CI | pre    | pos    | 148 |     1.315 | 0.190 | 0.190 | ns           |
+| grupo | score.CI.quintile | term | .y. | group1 | group2 | df | statistic | p | p.adj | p.adj.signif |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|
+| Controle | 2nd quintile | time | score.CI | pre | pos | 148 | -1.416 | 0.159 | 0.159 | ns |
+| Controle | 3rd quintile | time | score.CI | pre | pos | 148 | 2.318 | 0.022 | 0.022 | \* |
+| Controle | 4th quintile | time | score.CI | pre | pos | 148 | 2.141 | 0.034 | 0.034 | \* |
+| Experimental | 2nd quintile | time | score.CI | pre | pos | 148 | -2.318 | 0.022 | 0.022 | \* |
+| Experimental | 3rd quintile | time | score.CI | pre | pos | 148 | -1.577 | 0.117 | 0.117 | ns |
+| Experimental | 4th quintile | time | score.CI | pre | pos | 148 | 1.315 | 0.190 | 0.190 | ns |
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1615,14 +1612,14 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-| grupo        | score.CI.quintile |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
-|:-------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|
-| Controle     | 2nd quintile      |   7 |   5.714 |    0.360 |     7.714 |      1.409 |  11.201 |    2.103 |    7.010 |    15.391 |
-| Controle     | 3rd quintile      |  27 |  10.074 |    0.232 |     8.407 |      0.694 |   8.127 |    0.689 |    6.755 |     9.500 |
-| Controle     | 4th quintile      |   9 |  13.333 |    0.167 |    10.667 |      1.691 |   7.571 |    1.862 |    3.861 |    11.282 |
-| Experimental | 2nd quintile      |  12 |   6.500 |    0.230 |     9.000 |      0.870 |  11.808 |    1.659 |    8.501 |    15.114 |
-| Experimental | 3rd quintile      |  18 |   9.722 |    0.266 |    11.111 |      0.762 |  11.135 |    0.828 |    9.485 |    12.785 |
-| Experimental | 4th quintile      |   7 |  13.571 |    0.202 |    11.714 |      1.107 |   8.413 |    2.036 |    4.355 |    12.471 |
+| grupo | score.CI.quintile | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |
+|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle | 2nd quintile | 7 | 5.714 | 0.360 | 7.714 | 1.409 | 11.201 | 2.103 | 7.010 | 15.391 |
+| Controle | 3rd quintile | 27 | 10.074 | 0.232 | 8.407 | 0.694 | 8.127 | 0.689 | 6.755 | 9.500 |
+| Controle | 4th quintile | 9 | 13.333 | 0.167 | 10.667 | 1.691 | 7.571 | 1.862 | 3.861 | 11.282 |
+| Experimental | 2nd quintile | 12 | 6.500 | 0.230 | 9.000 | 0.870 | 11.808 | 1.659 | 8.501 | 15.114 |
+| Experimental | 3rd quintile | 18 | 9.722 | 0.266 | 11.111 | 0.762 | 11.135 | 0.828 | 9.485 | 12.785 |
+| Experimental | 4th quintile | 7 | 13.571 | 0.202 | 11.714 | 1.107 | 8.413 | 2.036 | 4.355 | 12.471 |
 
 ### Plots for ancova
 
@@ -1639,7 +1636,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-116-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-120-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1654,7 +1651,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
     ## Scale for colour is already present.
     ## Adding another scale for colour, which will replace the existing scale.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-117-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1673,10 +1670,9 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour
-    ## values.
+    ## Warning: No shared levels found between `names(values)` of the manual scale and the data's colour values.
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-119-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1693,7 +1689,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2)
     if (ymin < ymax) ggplot2::ylim(ymin, ymax)
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-121-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-125-1.png)<!-- -->
 
 ### Checking linearity assumption
 
@@ -1708,7 +1704,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-122-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-126-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1724,7 +1720,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-123-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-127-1.png)<!-- -->
 
 ``` r
 if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
@@ -1740,7 +1736,7 @@ if (length(unique(pdat[["score.CI.quintile"]])) >= 2) {
 }
 ```
 
-![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-124-1.png)<!-- -->
+![](aov-stari-score.CI_files/figure-gfm/unnamed-chunk-128-1.png)<!-- -->
 
 ### Checking normality and homogeneity
 
@@ -1787,50 +1783,50 @@ df <- df[,c(fatores1[fatores1 %in% colnames(df)],"variable",
              colnames(df)[!colnames(df) %in% c(fatores1,"variable")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.CI.quintile | variable     |   n |   mean | median | min | max |    sd |    se |    ci |  iqr | symmetry | skewness | kurtosis |
-|:-------------|:-------|:------------------|:------------|:------------------|:-------------|----:|-------:|-------:|----:|----:|------:|------:|------:|-----:|:---------|---------:|---------:|
-| Controle     |        |                   |             |                   | score.CI.pre |  49 |  9.306 |   10.0 |   0 |  14 | 3.548 | 0.507 | 1.019 | 4.00 | NO       |   -0.957 |    0.363 |
-| Experimental |        |                   |             |                   | score.CI.pre |  42 |  8.667 |    9.0 |   0 |  14 | 3.490 | 0.538 | 1.088 | 4.00 | NO       |   -0.574 |    0.210 |
-|              |        |                   |             |                   | score.CI.pre |  91 |  9.011 |   10.0 |   0 |  14 | 3.517 | 0.369 | 0.732 | 4.00 | NO       |   -0.784 |    0.286 |
-| Controle     |        |                   |             |                   | score.CI.pos |  49 |  8.347 |    8.0 |   0 |  17 | 4.385 | 0.626 | 1.260 | 6.00 | YES      |   -0.191 |   -0.499 |
-| Experimental |        |                   |             |                   | score.CI.pos |  42 |  9.643 |   10.0 |   0 |  17 | 4.282 | 0.661 | 1.334 | 5.75 | NO       |   -0.768 |   -0.122 |
-|              |        |                   |             |                   | score.CI.pos |  91 |  8.945 |    9.0 |   0 |  17 | 4.362 | 0.457 | 0.909 | 5.50 | YES      |   -0.450 |   -0.422 |
-| Controle     | F      |                   |             |                   | score.CI.pre |  25 |  9.240 |   10.0 |   0 |  14 | 3.734 | 0.747 | 1.541 | 3.00 | NO       |   -0.988 |    0.207 |
-| Controle     | M      |                   |             |                   | score.CI.pre |  23 |  9.304 |   10.0 |   0 |  14 | 3.496 | 0.729 | 1.512 | 5.50 | NO       |   -0.756 |   -0.033 |
-| Experimental | F      |                   |             |                   | score.CI.pre |  19 |  8.895 |    9.0 |   0 |  14 | 3.943 | 0.904 | 1.900 | 6.00 | YES      |   -0.276 |   -0.787 |
-| Experimental | M      |                   |             |                   | score.CI.pre |  23 |  8.478 |    9.0 |   0 |  13 | 3.146 | 0.656 | 1.360 | 3.00 | NO       |   -1.078 |    1.179 |
-| Controle     | F      |                   |             |                   | score.CI.pos |  25 |  7.960 |    8.0 |   0 |  17 | 4.198 | 0.840 | 1.733 | 3.00 | YES      |    0.147 |   -0.129 |
-| Controle     | M      |                   |             |                   | score.CI.pos |  23 |  9.130 |   10.0 |   0 |  16 | 4.331 | 0.903 | 1.873 | 5.50 | NO       |   -0.518 |   -0.561 |
-| Experimental | F      |                   |             |                   | score.CI.pos |  19 |  8.947 |    9.0 |   0 |  17 | 4.588 | 1.053 | 2.211 | 4.50 | NO       |   -0.504 |   -0.482 |
-| Experimental | M      |                   |             |                   | score.CI.pos |  23 | 10.217 |   11.0 |   0 |  15 | 4.022 | 0.839 | 1.739 | 5.50 | NO       |   -0.954 |    0.044 |
-| Controle     |        | Rural             |             |                   | score.CI.pre |  12 | 10.417 |   10.0 |   6 |  14 | 2.234 | 0.645 | 1.420 | 1.75 | YES      |   -0.168 |   -0.750 |
-| Controle     |        | Urbana            |             |                   | score.CI.pre |  26 |  8.923 |   10.0 |   0 |  14 | 4.137 | 0.811 | 1.671 | 5.25 | NO       |   -0.922 |   -0.305 |
-| Experimental |        | Rural             |             |                   | score.CI.pre |  15 |  9.467 |    9.0 |   5 |  14 | 3.044 | 0.786 | 1.686 | 4.00 | YES      |    0.151 |   -1.295 |
-| Experimental |        | Urbana            |             |                   | score.CI.pre |  16 |  7.438 |    8.5 |   0 |  13 | 3.521 | 0.880 | 1.876 | 4.00 | NO       |   -0.848 |   -0.026 |
-| Controle     |        | Rural             |             |                   | score.CI.pos |  12 |  8.417 |    9.0 |   0 |  12 | 3.476 | 1.003 | 2.209 | 2.50 | NO       |   -1.071 |    0.368 |
-| Controle     |        | Urbana            |             |                   | score.CI.pos |  26 |  8.154 |    7.5 |   0 |  17 | 4.905 | 0.962 | 1.981 | 6.75 | YES      |    0.048 |   -0.914 |
-| Experimental |        | Rural             |             |                   | score.CI.pos |  15 |  8.933 |    9.0 |   0 |  17 | 4.682 | 1.209 | 2.593 | 6.50 | YES      |   -0.128 |   -0.924 |
-| Experimental |        | Urbana            |             |                   | score.CI.pos |  16 |  9.375 |   10.5 |   0 |  14 | 3.914 | 0.978 | 2.085 | 2.50 | NO       |   -1.127 |    0.179 |
-| Controle     |        |                   | Rural       |                   | score.CI.pre |  14 |  8.214 |    8.5 |   0 |  14 | 4.406 | 1.178 | 2.544 | 5.75 | YES      |   -0.444 |   -1.091 |
-| Controle     |        |                   | Urbana      |                   | score.CI.pre |  33 |  9.636 |   10.0 |   0 |  14 | 3.151 | 0.548 | 1.117 | 3.00 | NO       |   -1.052 |    0.983 |
-| Experimental |        |                   | Rural       |                   | score.CI.pre |  13 |  9.077 |   10.0 |   1 |  14 | 3.730 | 1.034 | 2.254 | 4.00 | NO       |   -0.563 |   -0.709 |
-| Experimental |        |                   | Urbana      |                   | score.CI.pre |  29 |  8.483 |    9.0 |   0 |  14 | 3.429 | 0.637 | 1.304 | 3.00 | NO       |   -0.573 |    0.523 |
-| Controle     |        |                   | Rural       |                   | score.CI.pos |  14 |  9.143 |    9.5 |   0 |  17 | 5.763 | 1.540 | 3.327 | 8.75 | YES      |   -0.315 |   -1.363 |
-| Controle     |        |                   | Urbana      |                   | score.CI.pos |  33 |  8.515 |    8.0 |   0 |  16 | 3.270 | 0.569 | 1.160 | 6.00 | YES      |    0.005 |    0.000 |
-| Experimental |        |                   | Rural       |                   | score.CI.pos |  13 |  9.308 |   10.0 |   0 |  17 | 5.313 | 1.474 | 3.211 | 6.00 | YES      |   -0.432 |   -1.020 |
-| Experimental |        |                   | Urbana      |                   | score.CI.pos |  29 |  9.793 |   10.0 |   0 |  15 | 3.830 | 0.711 | 1.457 | 4.00 | NO       |   -0.941 |    0.143 |
-| Controle     |        |                   |             | 2nd quintile      | score.CI.pre |   7 |  5.714 |    6.0 |   4 |   7 | 0.951 | 0.360 | 0.880 | 0.50 | NO       |   -0.528 |   -0.966 |
-| Controle     |        |                   |             | 3rd quintile      | score.CI.pre |  27 | 10.074 |   10.0 |   8 |  12 | 1.207 | 0.232 | 0.477 | 2.00 | YES      |   -0.009 |   -0.888 |
-| Controle     |        |                   |             | 4th quintile      | score.CI.pre |   9 | 13.333 |   13.0 |  13 |  14 | 0.500 | 0.167 | 0.384 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 2nd quintile      | score.CI.pre |  12 |  6.500 |    7.0 |   5 |   7 | 0.798 | 0.230 | 0.507 | 1.00 | few data |    0.000 |    0.000 |
-| Experimental |        |                   |             | 3rd quintile      | score.CI.pre |  18 |  9.722 |    9.5 |   8 |  12 | 1.127 | 0.266 | 0.561 | 1.75 | YES      |    0.287 |   -1.037 |
-| Experimental |        |                   |             | 4th quintile      | score.CI.pre |   7 | 13.571 |   14.0 |  13 |  14 | 0.535 | 0.202 | 0.494 | 1.00 | few data |    0.000 |    0.000 |
-| Controle     |        |                   |             | 2nd quintile      | score.CI.pos |   7 |  7.714 |    7.0 |   4 |  15 | 3.729 | 1.409 | 3.449 | 3.00 | NO       |    0.886 |   -0.710 |
-| Controle     |        |                   |             | 3rd quintile      | score.CI.pos |  27 |  8.407 |    8.0 |   0 |  16 | 3.608 | 0.694 | 1.427 | 4.00 | YES      |   -0.466 |    0.302 |
-| Controle     |        |                   |             | 4th quintile      | score.CI.pos |   9 | 10.667 |   12.0 |   0 |  17 | 5.074 | 1.691 | 3.901 | 5.00 | NO       |   -0.837 |   -0.437 |
-| Experimental |        |                   |             | 2nd quintile      | score.CI.pos |  12 |  9.000 |    9.0 |   2 |  13 | 3.015 | 0.870 | 1.916 | 3.25 | NO       |   -0.657 |    0.005 |
-| Experimental |        |                   |             | 3rd quintile      | score.CI.pos |  18 | 11.111 |   11.0 |   5 |  17 | 3.234 | 0.762 | 1.608 | 3.75 | YES      |   -0.143 |   -0.879 |
-| Experimental |        |                   |             | 4th quintile      | score.CI.pos |   7 | 11.714 |   12.0 |   6 |  14 | 2.928 | 1.107 | 2.708 | 3.00 | NO       |   -0.887 |   -0.751 |
+| grupo | genero | zona.participante | zona.escola | score.CI.quintile | variable | n | mean | median | min | max | sd | se | ci | iqr | symmetry | skewness | kurtosis |
+|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---|---:|---:|
+| Controle |  |  |  |  | score.CI.pre | 49 | 9.306 | 10.0 | 0 | 14 | 3.548 | 0.507 | 1.019 | 4.00 | NO | -0.957 | 0.363 |
+| Experimental |  |  |  |  | score.CI.pre | 42 | 8.667 | 9.0 | 0 | 14 | 3.490 | 0.538 | 1.088 | 4.00 | NO | -0.574 | 0.210 |
+|  |  |  |  |  | score.CI.pre | 91 | 9.011 | 10.0 | 0 | 14 | 3.517 | 0.369 | 0.732 | 4.00 | NO | -0.784 | 0.286 |
+| Controle |  |  |  |  | score.CI.pos | 49 | 8.347 | 8.0 | 0 | 17 | 4.385 | 0.626 | 1.260 | 6.00 | YES | -0.191 | -0.499 |
+| Experimental |  |  |  |  | score.CI.pos | 42 | 9.643 | 10.0 | 0 | 17 | 4.282 | 0.661 | 1.334 | 5.75 | NO | -0.768 | -0.122 |
+|  |  |  |  |  | score.CI.pos | 91 | 8.945 | 9.0 | 0 | 17 | 4.362 | 0.457 | 0.909 | 5.50 | YES | -0.450 | -0.422 |
+| Controle | F |  |  |  | score.CI.pre | 25 | 9.240 | 10.0 | 0 | 14 | 3.734 | 0.747 | 1.541 | 3.00 | NO | -0.988 | 0.207 |
+| Controle | M |  |  |  | score.CI.pre | 23 | 9.304 | 10.0 | 0 | 14 | 3.496 | 0.729 | 1.512 | 5.50 | NO | -0.756 | -0.033 |
+| Experimental | F |  |  |  | score.CI.pre | 19 | 8.895 | 9.0 | 0 | 14 | 3.943 | 0.904 | 1.900 | 6.00 | YES | -0.276 | -0.787 |
+| Experimental | M |  |  |  | score.CI.pre | 23 | 8.478 | 9.0 | 0 | 13 | 3.146 | 0.656 | 1.360 | 3.00 | NO | -1.078 | 1.179 |
+| Controle | F |  |  |  | score.CI.pos | 25 | 7.960 | 8.0 | 0 | 17 | 4.198 | 0.840 | 1.733 | 3.00 | YES | 0.147 | -0.129 |
+| Controle | M |  |  |  | score.CI.pos | 23 | 9.130 | 10.0 | 0 | 16 | 4.331 | 0.903 | 1.873 | 5.50 | NO | -0.518 | -0.561 |
+| Experimental | F |  |  |  | score.CI.pos | 19 | 8.947 | 9.0 | 0 | 17 | 4.588 | 1.053 | 2.211 | 4.50 | NO | -0.504 | -0.482 |
+| Experimental | M |  |  |  | score.CI.pos | 23 | 10.217 | 11.0 | 0 | 15 | 4.022 | 0.839 | 1.739 | 5.50 | NO | -0.954 | 0.044 |
+| Controle |  | Rural |  |  | score.CI.pre | 12 | 10.417 | 10.0 | 6 | 14 | 2.234 | 0.645 | 1.420 | 1.75 | YES | -0.168 | -0.750 |
+| Controle |  | Urbana |  |  | score.CI.pre | 26 | 8.923 | 10.0 | 0 | 14 | 4.137 | 0.811 | 1.671 | 5.25 | NO | -0.922 | -0.305 |
+| Experimental |  | Rural |  |  | score.CI.pre | 15 | 9.467 | 9.0 | 5 | 14 | 3.044 | 0.786 | 1.686 | 4.00 | YES | 0.151 | -1.295 |
+| Experimental |  | Urbana |  |  | score.CI.pre | 16 | 7.438 | 8.5 | 0 | 13 | 3.521 | 0.880 | 1.876 | 4.00 | NO | -0.848 | -0.026 |
+| Controle |  | Rural |  |  | score.CI.pos | 12 | 8.417 | 9.0 | 0 | 12 | 3.476 | 1.003 | 2.209 | 2.50 | NO | -1.071 | 0.368 |
+| Controle |  | Urbana |  |  | score.CI.pos | 26 | 8.154 | 7.5 | 0 | 17 | 4.905 | 0.962 | 1.981 | 6.75 | YES | 0.048 | -0.914 |
+| Experimental |  | Rural |  |  | score.CI.pos | 15 | 8.933 | 9.0 | 0 | 17 | 4.682 | 1.209 | 2.593 | 6.50 | YES | -0.128 | -0.924 |
+| Experimental |  | Urbana |  |  | score.CI.pos | 16 | 9.375 | 10.5 | 0 | 14 | 3.914 | 0.978 | 2.085 | 2.50 | NO | -1.127 | 0.179 |
+| Controle |  |  | Rural |  | score.CI.pre | 14 | 8.214 | 8.5 | 0 | 14 | 4.406 | 1.178 | 2.544 | 5.75 | YES | -0.444 | -1.091 |
+| Controle |  |  | Urbana |  | score.CI.pre | 33 | 9.636 | 10.0 | 0 | 14 | 3.151 | 0.548 | 1.117 | 3.00 | NO | -1.052 | 0.983 |
+| Experimental |  |  | Rural |  | score.CI.pre | 13 | 9.077 | 10.0 | 1 | 14 | 3.730 | 1.034 | 2.254 | 4.00 | NO | -0.563 | -0.709 |
+| Experimental |  |  | Urbana |  | score.CI.pre | 29 | 8.483 | 9.0 | 0 | 14 | 3.429 | 0.637 | 1.304 | 3.00 | NO | -0.573 | 0.523 |
+| Controle |  |  | Rural |  | score.CI.pos | 14 | 9.143 | 9.5 | 0 | 17 | 5.763 | 1.540 | 3.327 | 8.75 | YES | -0.315 | -1.363 |
+| Controle |  |  | Urbana |  | score.CI.pos | 33 | 8.515 | 8.0 | 0 | 16 | 3.270 | 0.569 | 1.160 | 6.00 | YES | 0.005 | 0.000 |
+| Experimental |  |  | Rural |  | score.CI.pos | 13 | 9.308 | 10.0 | 0 | 17 | 5.313 | 1.474 | 3.211 | 6.00 | YES | -0.432 | -1.020 |
+| Experimental |  |  | Urbana |  | score.CI.pos | 29 | 9.793 | 10.0 | 0 | 15 | 3.830 | 0.711 | 1.457 | 4.00 | NO | -0.941 | 0.143 |
+| Controle |  |  |  | 2nd quintile | score.CI.pre | 7 | 5.714 | 6.0 | 4 | 7 | 0.951 | 0.360 | 0.880 | 0.50 | NO | -0.528 | -0.966 |
+| Controle |  |  |  | 3rd quintile | score.CI.pre | 27 | 10.074 | 10.0 | 8 | 12 | 1.207 | 0.232 | 0.477 | 2.00 | YES | -0.009 | -0.888 |
+| Controle |  |  |  | 4th quintile | score.CI.pre | 9 | 13.333 | 13.0 | 13 | 14 | 0.500 | 0.167 | 0.384 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 2nd quintile | score.CI.pre | 12 | 6.500 | 7.0 | 5 | 7 | 0.798 | 0.230 | 0.507 | 1.00 | few data | 0.000 | 0.000 |
+| Experimental |  |  |  | 3rd quintile | score.CI.pre | 18 | 9.722 | 9.5 | 8 | 12 | 1.127 | 0.266 | 0.561 | 1.75 | YES | 0.287 | -1.037 |
+| Experimental |  |  |  | 4th quintile | score.CI.pre | 7 | 13.571 | 14.0 | 13 | 14 | 0.535 | 0.202 | 0.494 | 1.00 | few data | 0.000 | 0.000 |
+| Controle |  |  |  | 2nd quintile | score.CI.pos | 7 | 7.714 | 7.0 | 4 | 15 | 3.729 | 1.409 | 3.449 | 3.00 | NO | 0.886 | -0.710 |
+| Controle |  |  |  | 3rd quintile | score.CI.pos | 27 | 8.407 | 8.0 | 0 | 16 | 3.608 | 0.694 | 1.427 | 4.00 | YES | -0.466 | 0.302 |
+| Controle |  |  |  | 4th quintile | score.CI.pos | 9 | 10.667 | 12.0 | 0 | 17 | 5.074 | 1.691 | 3.901 | 5.00 | NO | -0.837 | -0.437 |
+| Experimental |  |  |  | 2nd quintile | score.CI.pos | 12 | 9.000 | 9.0 | 2 | 13 | 3.015 | 0.870 | 1.916 | 3.25 | NO | -0.657 | 0.005 |
+| Experimental |  |  |  | 3rd quintile | score.CI.pos | 18 | 11.111 | 11.0 | 5 | 17 | 3.234 | 0.762 | 1.608 | 3.75 | YES | -0.143 | -0.879 |
+| Experimental |  |  |  | 4th quintile | score.CI.pos | 7 | 11.714 | 12.0 | 6 | 14 | 2.928 | 1.107 | 2.708 | 3.00 | NO | -0.887 | -0.751 |
 
 ## ANCOVA Table Comparison
 
@@ -1839,18 +1835,18 @@ df <- do.call(plyr::rbind.fill, laov)
 df <- df[!duplicated(df$Effect),]
 ```
 
-|     | Effect                  | DFn | DFd |     F |     p | p\<.05 |   ges | DFn’ | DFd’ |    F’ |    p’ | p\<.05’ |  ges’ |
-|:----|:------------------------|----:|----:|------:|------:|:-------|------:|-----:|-----:|------:|------:|:--------|------:|
-| 1   | grupo                   |   1 |  88 | 3.101 | 0.082 |        | 0.034 |    1 |   89 | 3.721 | 0.057 |         | 0.040 |
-| 2   | score.CI.pre            |   1 |  88 | 9.470 | 0.003 | \*     | 0.097 |    1 |   89 | 9.283 | 0.003 | \*      | 0.094 |
-| 3   | genero                  |   1 |  85 | 2.240 | 0.138 |        | 0.026 |    1 |   87 | 0.959 | 0.330 |         | 0.011 |
-| 5   | grupo:genero            |   1 |  85 | 0.029 | 0.865 |        | 0.000 |    1 |   87 | 0.343 | 0.560 |         | 0.004 |
-| 8   | grupo:zona.participante |   1 |  64 | 0.164 | 0.686 |        | 0.003 |    1 |   64 | 0.164 | 0.686 |         | 0.003 |
-| 10  | zona.participante       |   1 |  64 | 0.329 | 0.568 |        | 0.005 |    1 |   64 | 0.329 | 0.568 |         | 0.005 |
-| 12  | grupo:zona.escola       |   1 |  84 | 1.189 | 0.279 |        | 0.014 |    1 |   87 | 1.922 | 0.169 |         | 0.022 |
-| 14  | zona.escola             |   1 |  84 | 0.103 | 0.750 |        | 0.001 |    1 |   87 | 0.500 | 0.482 |         | 0.006 |
-| 16  | grupo:score.CI.quintile |   2 |  73 | 0.958 | 0.389 |        | 0.026 |    2 |   78 | 0.398 | 0.673 |         | 0.010 |
-| 18  | score.CI.quintile       |   2 |  73 | 0.307 | 0.736 |        | 0.008 |    2 |   78 | 0.489 | 0.615 |         | 0.012 |
+|  | Effect | DFn | DFd | F | p | p\<.05 | ges | DFn’ | DFd’ | F’ | p’ | p\<.05’ | ges’ |
+|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|---:|:---|---:|
+| 1 | grupo | 1 | 88 | 3.101 | 0.082 |  | 0.034 | 1 | 89 | 3.721 | 0.057 |  | 0.040 |
+| 2 | score.CI.pre | 1 | 88 | 9.470 | 0.003 | \* | 0.097 | 1 | 89 | 9.283 | 0.003 | \* | 0.094 |
+| 3 | genero | 1 | 85 | 2.240 | 0.138 |  | 0.026 | 1 | 87 | 0.959 | 0.330 |  | 0.011 |
+| 5 | grupo:genero | 1 | 85 | 0.029 | 0.865 |  | 0.000 | 1 | 87 | 0.343 | 0.560 |  | 0.004 |
+| 8 | grupo:zona.participante | 1 | 64 | 0.164 | 0.686 |  | 0.003 | 1 | 64 | 0.164 | 0.686 |  | 0.003 |
+| 10 | zona.participante | 1 | 64 | 0.329 | 0.568 |  | 0.005 | 1 | 64 | 0.329 | 0.568 |  | 0.005 |
+| 12 | grupo:zona.escola | 1 | 84 | 1.189 | 0.279 |  | 0.014 | 1 | 87 | 1.922 | 0.169 |  | 0.022 |
+| 14 | zona.escola | 1 | 84 | 0.103 | 0.750 |  | 0.001 | 1 | 87 | 0.500 | 0.482 |  | 0.006 |
+| 16 | grupo:score.CI.quintile | 2 | 73 | 0.958 | 0.389 |  | 0.026 | 2 | 78 | 0.398 | 0.673 |  | 0.010 |
+| 18 | score.CI.quintile | 2 | 73 | 0.307 | 0.736 |  | 0.008 | 2 | 78 | 0.489 | 0.615 |  | 0.012 |
 
 ## PairWise Table Comparison
 
@@ -1860,50 +1856,50 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% c(names(lfatores),"term",".y.")])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.CI.quintile | group1       | group2       |  df | statistic |     p | p.adj | p.adj.signif | df’ | statistic’ |    p’ | p.adj’ | p.adj.signif’ |
-|:-------------|:-------|:------------------|:------------|:------------------|:-------------|:-------------|----:|----------:|------:|------:|:-------------|----:|-----------:|------:|-------:|:--------------|
-| Controle     |        |                   |             |                   | pre          | pos          | 178 |     1.202 | 0.231 | 0.231 | ns           | 180 |      1.408 | 0.161 |  0.161 | ns            |
-| Experimental |        |                   |             |                   | pre          | pos          | 178 |    -1.132 | 0.259 | 0.259 | ns           | 180 |     -1.125 | 0.262 |  0.262 | ns            |
-|              |        |                   |             |                   | Controle     | Experimental |  88 |    -1.761 | 0.082 | 0.082 | ns           |  89 |     -1.929 | 0.057 |  0.057 | ns            |
-| Controle     | F      |                   |             |                   | pre          | pos          | 172 |     1.148 | 0.252 | 0.252 | ns           | 176 |      1.129 | 0.260 |  0.260 | ns            |
-| Controle     | M      |                   |             |                   | pre          | pos          | 172 |     0.150 | 0.881 | 0.881 | ns           | 176 |      0.847 | 0.398 |  0.398 | ns            |
-| Controle     |        |                   |             |                   | F            | M            |  85 |    -0.979 | 0.330 | 0.330 | ns           |  87 |     -0.329 | 0.743 |  0.743 | ns            |
-| Experimental | F      |                   |             |                   | pre          | pos          | 172 |    -0.041 | 0.967 | 0.967 | ns           | 176 |     -0.040 | 0.968 |  0.968 | ns            |
-| Experimental | M      |                   |             |                   | pre          | pos          | 172 |    -1.497 | 0.136 | 0.136 | ns           | 176 |     -1.472 | 0.143 |  0.143 | ns            |
-| Experimental |        |                   |             |                   | F            | M            |  85 |    -1.145 | 0.256 | 0.256 | ns           |  87 |     -1.092 | 0.278 |  0.278 | ns            |
-|              | F      |                   |             |                   | Controle     | Experimental |  85 |    -0.914 | 0.363 | 0.363 | ns           |  87 |     -0.872 | 0.386 |  0.386 | ns            |
-|              | M      |                   |             |                   | Controle     | Experimental |  85 |    -1.185 | 0.239 | 0.239 | ns           |  87 |     -1.763 | 0.081 |  0.081 | ns            |
-| Controle     |        |                   |             |                   | Rural        | Urbana       |  64 |    -0.142 | 0.887 | 0.887 | ns           |  64 |     -0.142 | 0.887 |  0.887 | ns            |
-| Controle     |        | Rural             |             |                   | pre          | pos          | 130 |     1.228 | 0.222 | 0.222 | ns           | 130 |      1.228 | 0.222 |  0.222 | ns            |
-| Controle     |        | Urbana            |             |                   | pre          | pos          | 130 |     0.695 | 0.488 | 0.488 | ns           | 130 |      0.695 | 0.488 |  0.488 | ns            |
-| Experimental |        |                   |             |                   | Rural        | Urbana       |  64 |    -0.692 | 0.492 | 0.492 | ns           |  64 |     -0.692 | 0.492 |  0.492 | ns            |
-| Experimental |        | Rural             |             |                   | pre          | pos          | 130 |     0.366 | 0.715 | 0.715 | ns           | 130 |      0.366 | 0.715 |  0.715 | ns            |
-| Experimental |        | Urbana            |             |                   | pre          | pos          | 130 |    -1.374 | 0.172 | 0.172 | ns           | 130 |     -1.374 | 0.172 |  0.172 | ns            |
-|              |        | Rural             |             |                   | Controle     | Experimental |  64 |    -0.490 | 0.626 | 0.626 | ns           |  64 |     -0.490 | 0.626 |  0.626 | ns            |
-|              |        | Urbana            |             |                   | Controle     | Experimental |  64 |    -1.223 | 0.226 | 0.226 | ns           |  64 |     -1.223 | 0.226 |  0.226 | ns            |
-| Controle     |        |                   |             |                   | Rural        | Urbana       |  84 |     0.989 | 0.325 | 0.325 | ns           |  87 |      1.470 | 0.145 |  0.145 | ns            |
-| Controle     |        |                   | Rural       |                   | pre          | pos          | 170 |    -0.629 | 0.530 | 0.530 | ns           | 176 |     -0.616 | 0.539 |  0.539 | ns            |
-| Controle     |        |                   | Urbana      |                   | pre          | pos          | 170 |     1.167 | 0.245 | 0.245 | ns           | 176 |      2.039 | 0.043 |  0.043 | \*            |
-| Experimental |        |                   |             |                   | Rural        | Urbana       |  84 |    -0.567 | 0.572 | 0.572 | ns           |  87 |     -0.522 | 0.603 |  0.603 | ns            |
-| Experimental |        |                   | Rural       |                   | pre          | pos          | 170 |    -0.151 | 0.880 | 0.880 | ns           | 176 |     -0.147 | 0.883 |  0.883 | ns            |
-| Experimental |        |                   | Urbana      |                   | pre          | pos          | 170 |    -1.278 | 0.203 | 0.203 | ns           | 176 |     -1.251 | 0.213 |  0.213 | ns            |
-|              |        |                   | Rural       |                   | Controle     | Experimental |  84 |     0.143 | 0.887 | 0.887 | ns           |  87 |      0.120 | 0.905 |  0.905 | ns            |
-|              |        |                   | Urbana      |                   | Controle     | Experimental |  84 |    -1.762 | 0.082 | 0.082 | ns           |  87 |     -2.362 | 0.020 |  0.020 | \*            |
-| Controle     |        |                   |             | 2nd quintile      | pre          | pos          | 148 |    -1.416 | 0.159 | 0.159 | ns           | 158 |     -0.669 | 0.504 |  0.504 | ns            |
-| Controle     |        |                   |             | 3rd quintile      | pre          | pos          | 148 |     2.318 | 0.022 | 0.022 | \*           | 158 |      2.459 | 0.015 |  0.015 | \*            |
-| Controle     |        |                   |             | 4th quintile      | pre          | pos          | 148 |     2.141 | 0.034 | 0.034 | \*           | 158 |      2.768 | 0.006 |  0.006 | \*\*          |
-| Controle     |        |                   |             |                   | 2nd quintile | 3rd quintile |  73 |     1.332 | 0.187 | 0.561 | ns           |  78 |      1.152 | 0.253 |  0.758 | ns            |
-| Controle     |        |                   |             |                   | 2nd quintile | 4th quintile |  73 |     1.022 | 0.310 | 0.930 | ns           |  78 |      1.180 | 0.241 |  0.724 | ns            |
-| Controle     |        |                   |             |                   | 3rd quintile | 4th quintile |  73 |     0.295 | 0.769 | 1.000 | ns           |  78 |      0.819 | 0.415 |  1.000 | ns            |
-| Experimental |        |                   |             | 2nd quintile      | pre          | pos          | 148 |    -2.318 | 0.022 | 0.022 | \*           | 158 |     -1.641 | 0.103 |  0.103 | ns            |
-| Experimental |        |                   |             | 3rd quintile      | pre          | pos          | 148 |    -1.577 | 0.117 | 0.117 | ns           | 158 |     -0.923 | 0.358 |  0.358 | ns            |
-| Experimental |        |                   |             | 4th quintile      | pre          | pos          | 148 |     1.315 | 0.190 | 0.190 | ns           | 158 |      1.163 | 0.247 |  0.247 | ns            |
-| Experimental |        |                   |             |                   | 2nd quintile | 3rd quintile |  73 |     0.364 | 0.717 | 1.000 | ns           |  78 |      0.476 | 0.636 |  1.000 | ns            |
-| Experimental |        |                   |             |                   | 2nd quintile | 4th quintile |  73 |     1.026 | 0.308 | 0.925 | ns           |  78 |      0.986 | 0.327 |  0.982 | ns            |
-| Experimental |        |                   |             |                   | 3rd quintile | 4th quintile |  73 |     1.234 | 0.221 | 0.664 | ns           |  78 |      1.093 | 0.278 |  0.834 | ns            |
-|              |        |                   |             | 2nd quintile      | Controle     | Experimental |  73 |    -0.357 | 0.722 | 0.722 | ns           |  78 |     -0.508 | 0.613 |  0.613 | ns            |
-|              |        |                   |             | 3rd quintile      | Controle     | Experimental |  73 |    -2.789 | 0.007 | 0.007 | \*\*         |  78 |     -2.375 | 0.020 |  0.020 | \*            |
-|              |        |                   |             | 4th quintile      | Controle     | Experimental |  73 |    -0.475 | 0.636 | 0.636 | ns           |  78 |     -0.931 | 0.355 |  0.355 | ns            |
+| grupo | genero | zona.participante | zona.escola | score.CI.quintile | group1 | group2 | df | statistic | p | p.adj | p.adj.signif | df’ | statistic’ | p’ | p.adj’ | p.adj.signif’ |
+|:---|:---|:---|:---|:---|:---|:---|---:|---:|---:|---:|:---|---:|---:|---:|---:|:---|
+| Controle |  |  |  |  | pre | pos | 178 | 1.202 | 0.231 | 0.231 | ns | 180 | 1.408 | 0.161 | 0.161 | ns |
+| Experimental |  |  |  |  | pre | pos | 178 | -1.132 | 0.259 | 0.259 | ns | 180 | -1.125 | 0.262 | 0.262 | ns |
+|  |  |  |  |  | Controle | Experimental | 88 | -1.761 | 0.082 | 0.082 | ns | 89 | -1.929 | 0.057 | 0.057 | ns |
+| Controle | F |  |  |  | pre | pos | 172 | 1.148 | 0.252 | 0.252 | ns | 176 | 1.129 | 0.260 | 0.260 | ns |
+| Controle | M |  |  |  | pre | pos | 172 | 0.150 | 0.881 | 0.881 | ns | 176 | 0.847 | 0.398 | 0.398 | ns |
+| Controle |  |  |  |  | F | M | 85 | -0.979 | 0.330 | 0.330 | ns | 87 | -0.329 | 0.743 | 0.743 | ns |
+| Experimental | F |  |  |  | pre | pos | 172 | -0.041 | 0.967 | 0.967 | ns | 176 | -0.040 | 0.968 | 0.968 | ns |
+| Experimental | M |  |  |  | pre | pos | 172 | -1.497 | 0.136 | 0.136 | ns | 176 | -1.472 | 0.143 | 0.143 | ns |
+| Experimental |  |  |  |  | F | M | 85 | -1.145 | 0.256 | 0.256 | ns | 87 | -1.092 | 0.278 | 0.278 | ns |
+|  | F |  |  |  | Controle | Experimental | 85 | -0.914 | 0.363 | 0.363 | ns | 87 | -0.872 | 0.386 | 0.386 | ns |
+|  | M |  |  |  | Controle | Experimental | 85 | -1.185 | 0.239 | 0.239 | ns | 87 | -1.763 | 0.081 | 0.081 | ns |
+| Controle |  |  |  |  | Rural | Urbana | 64 | -0.142 | 0.887 | 0.887 | ns | 64 | -0.142 | 0.887 | 0.887 | ns |
+| Controle |  | Rural |  |  | pre | pos | 130 | 1.228 | 0.222 | 0.222 | ns | 130 | 1.228 | 0.222 | 0.222 | ns |
+| Controle |  | Urbana |  |  | pre | pos | 130 | 0.695 | 0.488 | 0.488 | ns | 130 | 0.695 | 0.488 | 0.488 | ns |
+| Experimental |  |  |  |  | Rural | Urbana | 64 | -0.692 | 0.492 | 0.492 | ns | 64 | -0.692 | 0.492 | 0.492 | ns |
+| Experimental |  | Rural |  |  | pre | pos | 130 | 0.366 | 0.715 | 0.715 | ns | 130 | 0.366 | 0.715 | 0.715 | ns |
+| Experimental |  | Urbana |  |  | pre | pos | 130 | -1.374 | 0.172 | 0.172 | ns | 130 | -1.374 | 0.172 | 0.172 | ns |
+|  |  | Rural |  |  | Controle | Experimental | 64 | -0.490 | 0.626 | 0.626 | ns | 64 | -0.490 | 0.626 | 0.626 | ns |
+|  |  | Urbana |  |  | Controle | Experimental | 64 | -1.223 | 0.226 | 0.226 | ns | 64 | -1.223 | 0.226 | 0.226 | ns |
+| Controle |  |  |  |  | Rural | Urbana | 84 | 0.989 | 0.325 | 0.325 | ns | 87 | 1.470 | 0.145 | 0.145 | ns |
+| Controle |  |  | Rural |  | pre | pos | 170 | -0.629 | 0.530 | 0.530 | ns | 176 | -0.616 | 0.539 | 0.539 | ns |
+| Controle |  |  | Urbana |  | pre | pos | 170 | 1.167 | 0.245 | 0.245 | ns | 176 | 2.039 | 0.043 | 0.043 | \* |
+| Experimental |  |  |  |  | Rural | Urbana | 84 | -0.567 | 0.572 | 0.572 | ns | 87 | -0.522 | 0.603 | 0.603 | ns |
+| Experimental |  |  | Rural |  | pre | pos | 170 | -0.151 | 0.880 | 0.880 | ns | 176 | -0.147 | 0.883 | 0.883 | ns |
+| Experimental |  |  | Urbana |  | pre | pos | 170 | -1.278 | 0.203 | 0.203 | ns | 176 | -1.251 | 0.213 | 0.213 | ns |
+|  |  |  | Rural |  | Controle | Experimental | 84 | 0.143 | 0.887 | 0.887 | ns | 87 | 0.120 | 0.905 | 0.905 | ns |
+|  |  |  | Urbana |  | Controle | Experimental | 84 | -1.762 | 0.082 | 0.082 | ns | 87 | -2.362 | 0.020 | 0.020 | \* |
+| Controle |  |  |  | 2nd quintile | pre | pos | 148 | -1.416 | 0.159 | 0.159 | ns | 158 | -0.669 | 0.504 | 0.504 | ns |
+| Controle |  |  |  | 3rd quintile | pre | pos | 148 | 2.318 | 0.022 | 0.022 | \* | 158 | 2.459 | 0.015 | 0.015 | \* |
+| Controle |  |  |  | 4th quintile | pre | pos | 148 | 2.141 | 0.034 | 0.034 | \* | 158 | 2.768 | 0.006 | 0.006 | \*\* |
+| Controle |  |  |  |  | 2nd quintile | 3rd quintile | 73 | 1.332 | 0.187 | 0.561 | ns | 78 | 1.152 | 0.253 | 0.758 | ns |
+| Controle |  |  |  |  | 2nd quintile | 4th quintile | 73 | 1.022 | 0.310 | 0.930 | ns | 78 | 1.180 | 0.241 | 0.724 | ns |
+| Controle |  |  |  |  | 3rd quintile | 4th quintile | 73 | 0.295 | 0.769 | 1.000 | ns | 78 | 0.819 | 0.415 | 1.000 | ns |
+| Experimental |  |  |  | 2nd quintile | pre | pos | 148 | -2.318 | 0.022 | 0.022 | \* | 158 | -1.641 | 0.103 | 0.103 | ns |
+| Experimental |  |  |  | 3rd quintile | pre | pos | 148 | -1.577 | 0.117 | 0.117 | ns | 158 | -0.923 | 0.358 | 0.358 | ns |
+| Experimental |  |  |  | 4th quintile | pre | pos | 148 | 1.315 | 0.190 | 0.190 | ns | 158 | 1.163 | 0.247 | 0.247 | ns |
+| Experimental |  |  |  |  | 2nd quintile | 3rd quintile | 73 | 0.364 | 0.717 | 1.000 | ns | 78 | 0.476 | 0.636 | 1.000 | ns |
+| Experimental |  |  |  |  | 2nd quintile | 4th quintile | 73 | 1.026 | 0.308 | 0.925 | ns | 78 | 0.986 | 0.327 | 0.982 | ns |
+| Experimental |  |  |  |  | 3rd quintile | 4th quintile | 73 | 1.234 | 0.221 | 0.664 | ns | 78 | 1.093 | 0.278 | 0.834 | ns |
+|  |  |  |  | 2nd quintile | Controle | Experimental | 73 | -0.357 | 0.722 | 0.722 | ns | 78 | -0.508 | 0.613 | 0.613 | ns |
+|  |  |  |  | 3rd quintile | Controle | Experimental | 73 | -2.789 | 0.007 | 0.007 | \*\* | 78 | -2.375 | 0.020 | 0.020 | \* |
+|  |  |  |  | 4th quintile | Controle | Experimental | 73 | -0.475 | 0.636 | 0.636 | ns | 78 | -0.931 | 0.355 | 0.355 | ns |
 
 ## EMMS Table Comparison
 
@@ -1914,25 +1910,25 @@ df <- df[,c(names(lfatores)[names(lfatores) %in% colnames(df)],
             names(df)[!names(df) %in% names(lfatores)])]
 ```
 
-| grupo        | genero | zona.participante | zona.escola | score.CI.quintile |   N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high |  N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
-|:-------------|:-------|:------------------|:------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|---------:|----------:|----:|---------:|----------:|-----------:|------------:|---------:|----------:|----------:|-----------:|-----:|
-| Controle     |        |                   |             |                   |  49 |   9.306 |    0.507 |     8.347 |      0.626 |   8.234 |    0.593 |    7.055 |     9.413 |  50 |    9.300 |     0.497 |      8.180 |       0.636 |    8.068 |     0.597 |     6.883 |      9.254 |   -1 |
-| Experimental |        |                   |             |                   |  42 |   8.667 |    0.538 |     9.643 |      0.661 |   9.775 |    0.641 |    8.501 |    11.049 |  42 |    8.667 |     0.538 |      9.643 |       0.661 |    9.776 |     0.651 |     8.482 |     11.070 |    0 |
-| Controle     | F      |                   |             |                   |  25 |   9.240 |    0.747 |     7.960 |      0.840 |   7.859 |    0.810 |    6.248 |     9.470 |  25 |    9.240 |     0.747 |      7.960 |       0.840 |    7.870 |     0.846 |     6.189 |      9.552 |    0 |
-| Controle     | M      |                   |             |                   |  23 |   9.304 |    0.729 |     9.130 |      0.903 |   9.004 |    0.845 |    7.324 |    10.683 |  25 |    9.360 |     0.671 |      8.400 |       0.971 |    8.263 |     0.847 |     6.580 |      9.946 |   -2 |
-| Experimental | F      |                   |             |                   |  19 |   8.895 |    0.904 |     8.947 |      1.053 |   8.985 |    0.929 |    7.139 |    10.831 |  19 |    8.895 |     0.904 |      8.947 |       1.053 |    8.993 |     0.970 |     7.065 |     10.921 |    0 |
-| Experimental | M      |                   |             |                   |  23 |   8.478 |    0.656 |    10.217 |      0.839 |  10.423 |    0.846 |    8.740 |    12.105 |  23 |    8.478 |     0.656 |     10.217 |       0.839 |   10.426 |     0.884 |     8.668 |     12.183 |    0 |
-| Controle     |        | Rural             |             |                   |  12 |  10.417 |    0.645 |     8.417 |      1.003 |   7.948 |    1.264 |    5.423 |    10.473 |  12 |   10.417 |     0.645 |      8.417 |       1.003 |    7.948 |     1.264 |     5.423 |     10.473 |    0 |
-| Controle     |        | Urbana            |             |                   |  26 |   8.923 |    0.811 |     8.154 |      0.962 |   8.165 |    0.845 |    6.476 |     9.853 |  26 |    8.923 |     0.811 |      8.154 |       0.962 |    8.165 |     0.845 |     6.476 |      9.853 |    0 |
-| Experimental |        | Rural             |             |                   |  15 |   9.467 |    0.786 |     8.933 |      1.209 |   8.770 |    1.116 |    6.541 |    10.998 |  15 |    9.467 |     0.786 |      8.933 |       1.209 |    8.770 |     1.116 |     6.541 |     10.998 |    0 |
-| Experimental |        | Urbana            |             |                   |  16 |   7.438 |    0.880 |     9.375 |      0.978 |   9.862 |    1.102 |    7.660 |    12.064 |  16 |    7.438 |     0.880 |      9.375 |       0.978 |    9.862 |     1.102 |     7.660 |     12.064 |    0 |
-| Controle     |        |                   | Rural       |                   |  14 |   8.214 |    1.178 |     9.143 |      1.540 |   9.472 |    1.061 |    7.363 |    11.581 |  14 |    8.214 |     1.178 |      9.143 |       1.540 |    9.475 |     1.127 |     7.234 |     11.716 |    0 |
-| Controle     |        |                   | Urbana      |                   |  33 |   9.636 |    0.548 |     8.515 |      0.569 |   8.213 |    0.693 |    6.834 |     9.591 |  36 |    9.722 |     0.511 |      7.806 |       0.656 |    7.509 |     0.706 |     6.106 |      8.913 |   -3 |
-| Experimental |        |                   | Rural       |                   |  13 |   9.077 |    1.034 |     9.308 |      1.474 |   9.254 |    1.097 |    7.073 |    11.435 |  13 |    9.077 |     1.034 |      9.308 |       1.474 |    9.280 |     1.165 |     6.964 |     11.596 |    0 |
-| Experimental |        |                   | Urbana      |                   |  29 |   8.483 |    0.637 |     9.793 |      0.711 |  10.003 |    0.736 |    8.538 |    11.467 |  29 |    8.483 |     0.637 |      9.793 |       0.711 |   10.013 |     0.783 |     8.457 |     11.570 |    0 |
-| Controle     |        |                   |             | 2nd quintile      |   7 |   5.714 |    0.360 |     7.714 |      1.409 |  11.201 |    2.103 |    7.010 |    15.391 |   8 |    5.750 |     0.313 |      6.750 |       1.556 |   10.659 |     2.287 |     6.107 |     15.212 |   -1 |
-| Controle     |        |                   |             | 3rd quintile      |  27 |  10.074 |    0.232 |     8.407 |      0.694 |   8.127 |    0.689 |    6.755 |     9.500 |  28 |   10.071 |     0.224 |      8.107 |       0.733 |    7.733 |     0.778 |     6.185 |      9.281 |   -1 |
-| Controle     |        |                   |             | 4th quintile      |   9 |  13.333 |    0.167 |    10.667 |      1.691 |   7.571 |    1.862 |    3.861 |    11.282 |  10 |   13.300 |     0.153 |      9.600 |       1.851 |    6.026 |     2.073 |     1.898 |     10.154 |   -1 |
-| Experimental |        |                   |             | 2nd quintile      |  12 |   6.500 |    0.230 |     9.000 |      0.870 |  11.808 |    1.659 |    8.501 |    15.114 |  13 |    6.385 |     0.241 |      8.308 |       1.058 |   11.588 |     1.872 |     7.862 |     15.315 |   -1 |
-| Experimental |        |                   |             | 3rd quintile      |  18 |   9.722 |    0.266 |    11.111 |      0.762 |  11.135 |    0.828 |    9.485 |    12.785 |  19 |    9.737 |     0.252 |     10.632 |       0.866 |   10.589 |     0.921 |     8.756 |     12.423 |   -1 |
-| Experimental |        |                   |             | 4th quintile      |   7 |  13.571 |    0.202 |    11.714 |      1.107 |   8.413 |    2.036 |    4.355 |    12.471 |   7 |   13.571 |     0.202 |     11.714 |       1.107 |    7.871 |     2.326 |     3.241 |     12.501 |    0 |
+| grupo | genero | zona.participante | zona.escola | score.CI.quintile | N | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) | conf.low | conf.high | N’ | M (pre)’ | SE (pre)’ | M (unadj)’ | SE (unadj)’ | M (adj)’ | SE (adj)’ | conf.low’ | conf.high’ | N-N’ |
+|:---|:---|:---|:---|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Controle |  |  |  |  | 49 | 9.306 | 0.507 | 8.347 | 0.626 | 8.234 | 0.593 | 7.055 | 9.413 | 50 | 9.300 | 0.497 | 8.180 | 0.636 | 8.068 | 0.597 | 6.883 | 9.254 | -1 |
+| Experimental |  |  |  |  | 42 | 8.667 | 0.538 | 9.643 | 0.661 | 9.775 | 0.641 | 8.501 | 11.049 | 42 | 8.667 | 0.538 | 9.643 | 0.661 | 9.776 | 0.651 | 8.482 | 11.070 | 0 |
+| Controle | F |  |  |  | 25 | 9.240 | 0.747 | 7.960 | 0.840 | 7.859 | 0.810 | 6.248 | 9.470 | 25 | 9.240 | 0.747 | 7.960 | 0.840 | 7.870 | 0.846 | 6.189 | 9.552 | 0 |
+| Controle | M |  |  |  | 23 | 9.304 | 0.729 | 9.130 | 0.903 | 9.004 | 0.845 | 7.324 | 10.683 | 25 | 9.360 | 0.671 | 8.400 | 0.971 | 8.263 | 0.847 | 6.580 | 9.946 | -2 |
+| Experimental | F |  |  |  | 19 | 8.895 | 0.904 | 8.947 | 1.053 | 8.985 | 0.929 | 7.139 | 10.831 | 19 | 8.895 | 0.904 | 8.947 | 1.053 | 8.993 | 0.970 | 7.065 | 10.921 | 0 |
+| Experimental | M |  |  |  | 23 | 8.478 | 0.656 | 10.217 | 0.839 | 10.423 | 0.846 | 8.740 | 12.105 | 23 | 8.478 | 0.656 | 10.217 | 0.839 | 10.426 | 0.884 | 8.668 | 12.183 | 0 |
+| Controle |  | Rural |  |  | 12 | 10.417 | 0.645 | 8.417 | 1.003 | 7.948 | 1.264 | 5.423 | 10.473 | 12 | 10.417 | 0.645 | 8.417 | 1.003 | 7.948 | 1.264 | 5.423 | 10.473 | 0 |
+| Controle |  | Urbana |  |  | 26 | 8.923 | 0.811 | 8.154 | 0.962 | 8.165 | 0.845 | 6.476 | 9.853 | 26 | 8.923 | 0.811 | 8.154 | 0.962 | 8.165 | 0.845 | 6.476 | 9.853 | 0 |
+| Experimental |  | Rural |  |  | 15 | 9.467 | 0.786 | 8.933 | 1.209 | 8.770 | 1.116 | 6.541 | 10.998 | 15 | 9.467 | 0.786 | 8.933 | 1.209 | 8.770 | 1.116 | 6.541 | 10.998 | 0 |
+| Experimental |  | Urbana |  |  | 16 | 7.438 | 0.880 | 9.375 | 0.978 | 9.862 | 1.102 | 7.660 | 12.064 | 16 | 7.438 | 0.880 | 9.375 | 0.978 | 9.862 | 1.102 | 7.660 | 12.064 | 0 |
+| Controle |  |  | Rural |  | 14 | 8.214 | 1.178 | 9.143 | 1.540 | 9.472 | 1.061 | 7.363 | 11.581 | 14 | 8.214 | 1.178 | 9.143 | 1.540 | 9.475 | 1.127 | 7.234 | 11.716 | 0 |
+| Controle |  |  | Urbana |  | 33 | 9.636 | 0.548 | 8.515 | 0.569 | 8.213 | 0.693 | 6.834 | 9.591 | 36 | 9.722 | 0.511 | 7.806 | 0.656 | 7.509 | 0.706 | 6.106 | 8.913 | -3 |
+| Experimental |  |  | Rural |  | 13 | 9.077 | 1.034 | 9.308 | 1.474 | 9.254 | 1.097 | 7.073 | 11.435 | 13 | 9.077 | 1.034 | 9.308 | 1.474 | 9.280 | 1.165 | 6.964 | 11.596 | 0 |
+| Experimental |  |  | Urbana |  | 29 | 8.483 | 0.637 | 9.793 | 0.711 | 10.003 | 0.736 | 8.538 | 11.467 | 29 | 8.483 | 0.637 | 9.793 | 0.711 | 10.013 | 0.783 | 8.457 | 11.570 | 0 |
+| Controle |  |  |  | 2nd quintile | 7 | 5.714 | 0.360 | 7.714 | 1.409 | 11.201 | 2.103 | 7.010 | 15.391 | 8 | 5.750 | 0.313 | 6.750 | 1.556 | 10.659 | 2.287 | 6.107 | 15.212 | -1 |
+| Controle |  |  |  | 3rd quintile | 27 | 10.074 | 0.232 | 8.407 | 0.694 | 8.127 | 0.689 | 6.755 | 9.500 | 28 | 10.071 | 0.224 | 8.107 | 0.733 | 7.733 | 0.778 | 6.185 | 9.281 | -1 |
+| Controle |  |  |  | 4th quintile | 9 | 13.333 | 0.167 | 10.667 | 1.691 | 7.571 | 1.862 | 3.861 | 11.282 | 10 | 13.300 | 0.153 | 9.600 | 1.851 | 6.026 | 2.073 | 1.898 | 10.154 | -1 |
+| Experimental |  |  |  | 2nd quintile | 12 | 6.500 | 0.230 | 9.000 | 0.870 | 11.808 | 1.659 | 8.501 | 15.114 | 13 | 6.385 | 0.241 | 8.308 | 1.058 | 11.588 | 1.872 | 7.862 | 15.315 | -1 |
+| Experimental |  |  |  | 3rd quintile | 18 | 9.722 | 0.266 | 11.111 | 0.762 | 11.135 | 0.828 | 9.485 | 12.785 | 19 | 9.737 | 0.252 | 10.632 | 0.866 | 10.589 | 0.921 | 8.756 | 12.423 | -1 |
+| Experimental |  |  |  | 4th quintile | 7 | 13.571 | 0.202 | 11.714 | 1.107 | 8.413 | 2.036 | 4.355 | 12.471 | 7 | 13.571 | 0.202 | 11.714 | 1.107 | 7.871 | 2.326 | 3.241 | 12.501 | 0 |

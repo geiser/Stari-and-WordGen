@@ -1,75 +1,86 @@
-ANCOVA test for flow.leitura (engajamento na leitura)
-================
-Geiser C. Challco <geiser@alumni.usp.br>
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
-- [Descriptive Statistics of Initial
-  Data](#descriptive-statistics-of-initial-data)
-- [Checking of Assumptions](#checking-of-assumptions)
-  - [Identify and dealing with outliers (performing treatment of
-    outliers)](#identify-and-dealing-with-outliers-performing-treatment-of-outliers)
-  - [Assumption: Normality distribution of
-    data](#assumption-normality-distribution-of-data)
-    - [Para fatores de:
-      **intervention:genero**](#para-fatores-de-interventiongenero)
-    - [Para fatores de:
-      **intervention:idade**](#para-fatores-de-interventionidade)
-    - [Para fatores de:
-      **intervention:zona.escola**](#para-fatores-de-interventionzonaescola)
-    - [Para fatores de:
-      **intervention:zona.participante**](#para-fatores-de-interventionzonaparticipante)
-    - [Para fatores de:
-      **intervention:escola**](#para-fatores-de-interventionescola)
-    - [Para fatores de:
-      **intervention:monitor**](#para-fatores-de-interventionmonitor)
-  - [Assumption: Homogeneity of data
-    distribution](#assumption-homogeneity-of-data-distribution)
-    - [Para fatores de:
-      **intervention:genero**](#para-fatores-de-interventiongenero-1)
-    - [Para fatores de:
-      **intervention:idade**](#para-fatores-de-interventionidade-1)
-    - [Para fatores de:
-      **intervention:zona.escola**](#para-fatores-de-interventionzonaescola-1)
-    - [Para fatores de:
-      **intervention:zona.participante**](#para-fatores-de-interventionzonaparticipante-1)
-    - [Para fatores de:
-      **intervention:escola**](#para-fatores-de-interventionescola-1)
-    - [Para fatores de:
-      **intervention:monitor**](#para-fatores-de-interventionmonitor-1)
-- [Computation of ANCOVA test and Pairwise
-  Comparison](#computation-of-ancova-test-and-pairwise-comparison)
-  - [ANCOVA test](#ancova-test)
-  - [Pairwise comparisons for one
-    factor](#pairwise-comparisons-for-one-factor)
-    - [factor: **intervention**](#factor-intervention)
-    - [factor: **genero**](#factor-genero)
-    - [factor: **idade**](#factor-idade)
-    - [factor: **zona.escola**](#factor-zonaescola)
-    - [factor: **zona.participante**](#factor-zonaparticipante)
-    - [factor: **escola**](#factor-escola)
-    - [factor: **monitor**](#factor-monitor)
-    - [factor: **monitor.genero**](#factor-monitorgenero)
-    - [factor: **monitor.formacao**](#factor-monitorformacao)
-    - [factor: **monitor.titulacao**](#factor-monitortitulacao)
-    - [factor: **monitor.experiencia**](#factor-monitorexperiencia)
-  - [Pairwise comparisons for two
-    factors](#pairwise-comparisons-for-two-factors)
-    - [factores: **intervention:genero**](#factores-interventiongenero)
-    - [factores: **intervention:idade**](#factores-interventionidade)
-    - [factores:
-      **intervention:zona.escola**](#factores-interventionzonaescola)
-    - [factores:
-      **intervention:zona.participante**](#factores-interventionzonaparticipante)
-    - [factores: **intervention:escola**](#factores-interventionescola)
-    - [factores:
-      **intervention:monitor**](#factores-interventionmonitor)
-    - [factores:
-      **intervention:monitor.genero**](#factores-interventionmonitorgenero)
-    - [factores:
-      **intervention:monitor.formacao**](#factores-interventionmonitorformacao)
-    - [factores:
-      **intervention:monitor.titulacao**](#factores-interventionmonitortitulacao)
-    - [factores:
-      **intervention:monitor.experiencia**](#factores-interventionmonitorexperiencia)
+# ANCOVA test for flow.leitura (engajamento na leitura)
+
+Geiser C. Challco
+[geiser\@alumni.usp.br](mailto:geiser@alumni.usp.br){.email}
+
+-   [Descriptive Statistics of Initial
+    Data](#descriptive-statistics-of-initial-data)
+-   [Checking of Assumptions](#checking-of-assumptions)
+    -   [Identify and dealing with outliers (performing treatment of
+        outliers)](#identify-and-dealing-with-outliers-performing-treatment-of-outliers)
+    -   [Assumption: Normality distribution of
+        data](#assumption-normality-distribution-of-data)
+        -   [Para fatores de:
+            **intervention:genero**](#para-fatores-de-interventiongenero)
+        -   [Para fatores de:
+            **intervention:idade**](#para-fatores-de-interventionidade)
+        -   [Para fatores de:
+            **intervention:zona.escola**](#para-fatores-de-interventionzonaescola)
+        -   [Para fatores de:
+            **intervention:zona.participante**](#para-fatores-de-interventionzonaparticipante)
+        -   [Para fatores de:
+            **intervention:escola**](#para-fatores-de-interventionescola)
+        -   [Para fatores de:
+            **intervention:monitor**](#para-fatores-de-interventionmonitor)
+    -   [Assumption: Homogeneity of data
+        distribution](#assumption-homogeneity-of-data-distribution)
+        -   [Para fatores de:
+            **intervention:genero**](#para-fatores-de-interventiongenero-1)
+        -   [Para fatores de:
+            **intervention:idade**](#para-fatores-de-interventionidade-1)
+        -   [Para fatores de:
+            **intervention:zona.escola**](#para-fatores-de-interventionzonaescola-1)
+        -   [Para fatores de:
+            **intervention:zona.participante**](#para-fatores-de-interventionzonaparticipante-1)
+        -   [Para fatores de:
+            **intervention:escola**](#para-fatores-de-interventionescola-1)
+        -   [Para fatores de:
+            **intervention:monitor**](#para-fatores-de-interventionmonitor-1)
+-   [Computation of ANCOVA test and Pairwise
+    Comparison](#computation-of-ancova-test-and-pairwise-comparison)
+    -   [ANCOVA test](#ancova-test)
+    -   [Pairwise comparisons for one
+        factor](#pairwise-comparisons-for-one-factor)
+        -   [factor: **intervention**](#factor-intervention)
+        -   [factor: **genero**](#factor-genero)
+        -   [factor: **idade**](#factor-idade)
+        -   [factor: **zona.escola**](#factor-zonaescola)
+        -   [factor: **zona.participante**](#factor-zonaparticipante)
+        -   [factor: **escola**](#factor-escola)
+        -   [factor: **monitor**](#factor-monitor)
+        -   [factor: **monitor.genero**](#factor-monitorgenero)
+        -   [factor: **monitor.formacao**](#factor-monitorformacao)
+        -   [factor: **monitor.titulacao**](#factor-monitortitulacao)
+        -   [factor:
+            **monitor.experiencia**](#factor-monitorexperiencia)
+    -   [Pairwise comparisons for two
+        factors](#pairwise-comparisons-for-two-factors)
+        -   [factores:
+            **intervention:genero**](#factores-interventiongenero)
+        -   [factores:
+            **intervention:idade**](#factores-interventionidade)
+        -   [factores:
+            **intervention:zona.escola**](#factores-interventionzonaescola)
+        -   [factores:
+            **intervention:zona.participante**](#factores-interventionzonaparticipante)
+        -   [factores:
+            **intervention:escola**](#factores-interventionescola)
+        -   [factores:
+            **intervention:monitor**](#factores-interventionmonitor)
+        -   [factores:
+            **intervention:monitor.genero**](#factores-interventionmonitorgenero)
+        -   [factores:
+            **intervention:monitor.formacao**](#factores-interventionmonitorformacao)
+        -   [factores:
+            **intervention:monitor.titulacao**](#factores-interventionmonitortitulacao)
+        -   [factores:
+            **intervention:monitor.experiencia**](#factores-interventionmonitorexperiencia)
 
 Teste ANCOVA para determinar se houve diferenças significativas em
 referência ao engajamento nas atividades de leitura (medido como estado
@@ -78,10 +89,10 @@ de fluxo).
 ANCOVA test to determine whether there were significant differences in
 reference to engagement in reading activities (measured as flow state).
 
-# Descriptive Statistics of Initial Data
+# Descriptive Statistics of Initial Data {#descriptive-statistics-of-initial-data}
 
 | intervention      | genero | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr |
-|:------------------|:-------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|
+|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Controle          | F      | fss.leitura |  60 | 3.521 |  3.611 | 2.556 | 4.222 | 0.418 | 0.054 | 0.108 | 0.583 |
 | Controle          | M      | fss.leitura |  66 | 3.394 |  3.333 | 2.000 | 4.556 | 0.522 | 0.064 | 0.128 | 0.743 |
 | Stari             | F      | fss.leitura |   5 | 3.467 |  3.667 | 2.556 | 4.000 | 0.563 | 0.252 | 0.699 | 0.444 |
@@ -100,7 +111,7 @@ reference to engagement in reading activities (measured as flow state).
 | Stari and WordGen | M      | dfs.leitura |  12 | 3.351 |  3.222 | 2.778 | 4.111 | 0.479 | 0.138 | 0.305 | 0.750 |
 
 | intervention      | escola | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr |
-|:------------------|:-------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|
+|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Controle          | E1     | fss.leitura |  12 | 3.439 |  3.611 | 2.444 | 4.556 | 0.593 | 0.171 | 0.377 | 0.647 |
 | Controle          | E2     | fss.leitura |  23 | 3.437 |  3.333 | 2.667 | 4.556 | 0.530 | 0.110 | 0.229 | 0.778 |
 | Controle          | E3     | fss.leitura |  15 | 3.419 |  3.444 | 2.889 | 3.778 | 0.257 | 0.066 | 0.142 | 0.278 |
@@ -141,7 +152,7 @@ reference to engagement in reading activities (measured as flow state).
 | Stari and WordGen | E6     | dfs.leitura |   2 | 3.222 |  3.222 | 3.111 | 3.333 | 0.157 | 0.111 | 1.412 | 0.111 |
 
 | intervention      | zona.escola | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr |
-|:------------------|:------------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|
+|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Controle          | Urbana      | fss.leitura |  84 | 3.449 |  3.444 | 2.000 | 4.556 | 0.525 | 0.057 | 0.114 | 0.806 |
 | Controle          | Rural       | fss.leitura |  42 | 3.465 |  3.444 | 2.556 | 4.000 | 0.371 | 0.057 | 0.116 | 0.438 |
 | Stari             | Urbana      | fss.leitura |  11 | 3.199 |  3.333 | 2.000 | 4.000 | 0.610 | 0.184 | 0.410 | 0.903 |
@@ -158,7 +169,7 @@ reference to engagement in reading activities (measured as flow state).
 | Stari and WordGen | Rural       | dfs.leitura |   7 | 3.458 |  3.333 | 2.875 | 4.111 | 0.445 | 0.168 | 0.411 | 0.611 |
 
 | intervention      | zona.participante | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr |
-|:------------------|:------------------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|
+|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Controle          | Urbana            | fss.leitura |  54 | 3.450 |  3.528 | 2.222 | 4.556 | 0.487 | 0.066 | 0.133 | 0.667 |
 | Controle          | Rural             | fss.leitura |  43 | 3.395 |  3.333 | 2.000 | 4.222 | 0.454 | 0.069 | 0.140 | 0.556 |
 | Controle          | NA                | fss.leitura |  29 | 3.549 |  3.444 | 2.667 | 4.375 | 0.495 | 0.092 | 0.188 | 0.667 |
@@ -185,7 +196,7 @@ reference to engagement in reading activities (measured as flow state).
 | Stari and WordGen | NA                | dfs.leitura |   5 | 3.133 |  3.111 | 2.333 | 4.111 | 0.664 | 0.297 | 0.824 | 0.556 |
 
 | intervention      | monitor | variable    |   n |  mean | median |   min |   max |    sd |    se |    ci |   iqr |
-|:------------------|:--------|:------------|----:|------:|-------:|------:|------:|------:|------:|------:|------:|
+|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Controle          | NA      | fss.leitura | 126 | 3.454 |  3.444 | 2.000 | 4.556 | 0.478 | 0.043 | 0.084 | 0.667 |
 | Stari             | EA      | fss.leitura |   2 | 2.944 |  2.944 | 2.556 | 3.333 | 0.550 | 0.389 | 4.941 | 0.389 |
 | Stari             | GR,JC   | fss.leitura |   1 | 2.750 |  2.750 | 2.750 | 2.750 |    NA |    NA |   NaN | 0.000 |
@@ -245,12 +256,12 @@ reference to engagement in reading activities (measured as flow state).
 | Stari and WordGen | MM      | dfs.leitura |   1 | 3.000 |  3.000 | 3.000 | 3.000 |    NA |    NA |   NaN | 0.000 |
 | Stari and WordGen | VL      | dfs.leitura |   2 | 3.222 |  3.222 | 3.111 | 3.333 | 0.157 | 0.111 | 1.412 | 0.111 |
 
-# Checking of Assumptions
+# Checking of Assumptions {#checking-of-assumptions}
 
-## Identify and dealing with outliers (performing treatment of outliers)
+## Identify and dealing with outliers (performing treatment of outliers) {#identify-and-dealing-with-outliers-performing-treatment-of-outliers}
 
 | intervention | genero | escola | zona.escola | zona.participante | id   | fss.leitura | dfs.leitura | is.outlier | is.extreme |
-|:-------------|:-------|:-------|:------------|:------------------|:-----|------------:|------------:|:-----------|:-----------|
+|:-------|:-------|:-------|:-------|:-------|:-------|-------:|-------:|:-------|:-------|
 | Controle     | F      | E1     | Urbana      | Urbana            | s160 |    2.666667 |    3.000000 | TRUE       | TRUE       |
 | Controle     | F      | E6     | Rural       | NA                | s313 |    2.666667 |    3.777778 | TRUE       | FALSE      |
 | Controle     | M      | E2     | Urbana      | Urbana            | s194 |    2.666667 |    3.444444 | TRUE       | TRUE       |
@@ -268,99 +279,99 @@ reference to engagement in reading activities (measured as flow state).
 
 *Note*: No one of outliers is extreme then we don’t need to remove data
 
-## Assumption: Normality distribution of data
+## Assumption: Normality distribution of data {#assumption-normality-distribution-of-data}
 
 *Note*: All data satisfy normality
 
-### Para fatores de: **intervention:genero**
+### Para fatores de: **intervention:genero** {#para-fatores-de-interventiongenero}
 
 | var         |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 269 | -0.2266821 | 0.0946266 | YES      |  2.754071 | D’Agostino | 0.2523255 | ns       | \-        |
 
-### Para fatores de: **intervention:idade**
+### Para fatores de: **intervention:idade** {#para-fatores-de-interventionidade}
 
 | var         |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 261 | -0.3512184 | 0.5441483 | YES      |  8.561429 | D’Agostino | 0.0138328 | ns       | \-        |
 
 ### Para fatores de: **intervention:zona.escola**
 
 | var         |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 269 | -0.2207365 | 0.2033293 | YES      |  3.130041 | D’Agostino | 0.2090838 | ns       | \-        |
 
 ### Para fatores de: **intervention:zona.participante**
 
 | var         |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 209 | -0.2518686 | 0.4292706 | YES      |  4.342309 | D’Agostino | 0.1140459 | ns       | \-        |
 
-### Para fatores de: **intervention:escola**
+### Para fatores de: **intervention:escola** {#para-fatores-de-interventionescola}
 
 | var         |   n |  skewness |   kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|----------:|-----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 269 | -0.226897 | -0.1140963 | YES      |  2.416465 | D’Agostino | 0.2987248 | ns       | \-        |
 
-### Para fatores de: **intervention:monitor**
+### Para fatores de: **intervention:monitor** {#para-fatores-de-interventionmonitor}
 
 | var         |   n |   skewness |  kurtosis | symmetry | statistic | method     |         p | p.signif | normality |
-|:------------|----:|-----------:|----------:|:---------|----------:|:-----------|----------:|:---------|:----------|
+|:-------|-------:|-------:|-------:|:-------|-------:|:-------|-------:|:-------|:-------|
 | fss.leitura | 143 | -0.3729789 | 0.0613607 | YES      |  3.791679 | D’Agostino | 0.1501922 | ns       | QQ        |
 
-## Assumption: Homogeneity of data distribution
+## Assumption: Homogeneity of data distribution {#assumption-homogeneity-of-data-distribution}
 
 *Note*: Can be applied parametric tests, all data satisfied homogeneity
 tests
 
-### Para fatores de: **intervention:genero**
+### Para fatores de: **intervention:genero** {#para-fatores-de-interventiongenero-1}
+
+| var         | method         | formula                          |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-------|:-------|:---------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`genero` | 269 |       7 |     261 |  0.389902 | 0.9078796 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`genero` | 269 |       7 |     253 |  0.411000 | 0.8950000 | ns       |
+
+### Para fatores de: **intervention:idade** {#para-fatores-de-interventionidade-1}
 
 | var         | method         | formula                         |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
-|:------------|:---------------|:--------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`genero` | 269 |       7 |     261 |  0.389902 | 0.9078796 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`genero` | 269 |       7 |     253 |  0.411000 | 0.8950000 | ns       |
-
-### Para fatores de: **intervention:idade**
-
-| var         | method         | formula                        |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
-|:------------|:---------------|:-------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`idade` | 261 |      18 |     242 |  1.147203 | 0.3074194 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`idade` | 261 |      14 |     227 |  0.945000 | 0.5110000 | ns       |
+|:-------|:-------|:---------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`idade` | 261 |      18 |     242 |  1.147203 | 0.3074194 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`idade` | 261 |      14 |     227 |  0.945000 | 0.5110000 | ns       |
 
 ### Para fatores de: **intervention:zona.escola**
 
-| var         | method         | formula                              |   n | DFn.df1 | DFd.df2 | statistic |        p | p.signif |
-|:------------|:---------------|:-------------------------------------|----:|--------:|--------:|----------:|---------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`zona.escola` | 269 |       6 |     262 | 0.9166671 | 0.483339 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`zona.escola` | 269 |       6 |     255 | 0.8060000 | 0.566000 | ns       |
+| var         | method         | formula                               |   n | DFn.df1 | DFd.df2 | statistic |        p | p.signif |
+|:-------|:-------|:-----------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`zona.escola` | 269 |       6 |     262 | 0.9166671 | 0.483339 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`zona.escola` | 269 |       6 |     255 | 0.8060000 | 0.566000 | ns       |
 
 ### Para fatores de: **intervention:zona.participante**
 
-| var         | method         | formula                                    |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
-|:------------|:---------------|:-------------------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`zona.participante` | 209 |       7 |     201 |  1.121954 | 0.3506246 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`zona.participante` | 209 |       7 |     193 |  1.355000 | 0.2270000 | ns       |
+| var         | method         | formula                                     |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-------|:-------|:-------------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`zona.participante` | 209 |       7 |     201 |  1.121954 | 0.3506246 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`zona.participante` | 209 |       7 |     193 |  1.355000 | 0.2270000 | ns       |
 
-### Para fatores de: **intervention:escola**
-
-| var         | method         | formula                         |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
-|:------------|:---------------|:--------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`escola` | 269 |      18 |     250 | 0.8514758 | 0.6381104 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`escola` | 269 |      17 |     232 | 0.7530000 | 0.7460000 | ns       |
-
-### Para fatores de: **intervention:monitor**
+### Para fatores de: **intervention:escola** {#para-fatores-de-interventionescola-1}
 
 | var         | method         | formula                          |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
-|:------------|:---------------|:---------------------------------|----:|--------:|--------:|----------:|----------:|:---------|
-| fss.leitura | Levene’s test  | `.res`~`intervention`\*`monitor` | 143 |      27 |     115 | 0.9973736 | 0.4784681 | ns       |
-| fss.leitura | Anova’s slopes | `.res`~`intervention`\*`monitor` | 143 |      15 |      99 | 0.6610000 | 0.8170000 | ns       |
+|:-------|:-------|:---------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`escola` | 269 |      18 |     250 | 0.8514758 | 0.6381104 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`escola` | 269 |      17 |     232 | 0.7530000 | 0.7460000 | ns       |
 
-# Computation of ANCOVA test and Pairwise Comparison
+### Para fatores de: **intervention:monitor** {#para-fatores-de-interventionmonitor-1}
 
-## ANCOVA test
+| var         | method         | formula                           |   n | DFn.df1 | DFd.df2 | statistic |         p | p.signif |
+|:-------|:-------|:---------|-------:|-------:|-------:|-------:|-------:|:-------|
+| fss.leitura | Levene’s test  | `.res`\~`intervention`\*`monitor` | 143 |      27 |     115 | 0.9973736 | 0.4784681 | ns       |
+| fss.leitura | Anova’s slopes | `.res`\~`intervention`\*`monitor` | 143 |      15 |      99 | 0.6610000 | 0.8170000 | ns       |
+
+# Computation of ANCOVA test and Pairwise Comparison {#computation-of-ancova-test-and-pairwise-comparison}
+
+## ANCOVA test {#ancova-test}
 
 | Effect                           | DFn | DFd |   SSn |    SSd |      F | p       |   ges | p\<.05 |
-|:---------------------------------|----:|----:|------:|-------:|-------:|:--------|------:|:-------|
+|:--------------|------:|------:|------:|------:|------:|:------|------:|:------|
 | dfs.leitura                      |   1 | 264 | 9.674 | 63.639 | 40.131 | \<0.001 | 0.132 | \*     |
 | intervention                     |   3 | 264 | 0.261 | 63.639 |  0.361 | 0.781   | 0.004 |        |
 | genero                           |   1 | 266 | 2.066 | 61.835 |  8.886 | 0.003   | 0.032 | \*     |
@@ -384,19 +395,19 @@ tests
 | intervention:monitor.experiencia |   2 | 135 | 0.645 | 34.257 |  1.271 | 0.284   | 0.018 |        |
 | intervention:monitor.titulacao   |   4 | 132 | 0.974 | 35.083 |  0.916 | 0.457   | 0.027 |        |
 
-## Pairwise comparisons for one factor
+## Pairwise comparisons for one factor {#pairwise-comparisons-for-one-factor}
 
-### factor: **intervention**
+### factor: **intervention** {#factor-intervention}
 
 | var         | intervention      |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | 126 |   3.559 |    0.047 |     3.454 |      0.043 |   3.433 |    0.044 |
 | fss.leitura | Stari             |  11 |   3.004 |    0.242 |     3.199 |      0.184 |   3.369 |    0.150 |
 | fss.leitura | Stari and WordGen |  16 |   3.256 |    0.129 |     3.449 |      0.138 |   3.532 |    0.123 |
 | fss.leitura | WordGen           | 116 |   3.513 |    0.052 |     3.476 |      0.052 |   3.471 |    0.046 |
 
 | .y.         | group1   | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | Controle | Stari             |    0.064 |   -0.245 |     0.374 | 0.157 |     0.409 | 0.683 | 1.000 | ns           |
 | fss.leitura | Controle | WordGen           |   -0.037 |   -0.162 |     0.087 | 0.063 |    -0.589 | 0.556 | 1.000 | ns           |
 | fss.leitura | Controle | Stari and WordGen |   -0.099 |   -0.357 |     0.160 | 0.131 |    -0.750 | 0.454 | 1.000 | ns           |
@@ -411,14 +422,16 @@ tests
 | dfs.leitura | WordGen  | Stari and WordGen |    0.257 |   -0.035 |     0.550 | 0.149 |     1.731 | 0.085 | 0.508 | ns           |
 
 | intervention      | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | Controle          | pre    | pos    |    0.103 |   -0.027 |     0.233 | 0.066 |     1.555 | 0.120 | 0.120 | ns           |
 | Stari             | pre    | pos    |   -0.087 |   -0.501 |     0.328 | 0.211 |    -0.411 | 0.681 | 0.681 | ns           |
 | WordGen           | pre    | pos    |    0.016 |   -0.120 |     0.152 | 0.069 |     0.231 | 0.818 | 0.818 | ns           |
 | Stari and WordGen | pre    | pos    |   -0.101 |   -0.464 |     0.261 | 0.184 |    -0.550 | 0.583 | 0.583 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-48-1.png)<!-- -->
 
@@ -426,25 +439,27 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-52-1.png)<!-- -->
 
-### factor: **genero**
+### factor: **genero** {#factor-genero}
 
 | var         | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | F      | 122 |   3.577 |    0.048 |     3.575 |      0.043 |   3.550 |    0.044 |
 | fss.leitura | M      | 147 |   3.434 |    0.049 |     3.351 |      0.045 |   3.372 |    0.040 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | F      | M      |    0.177 |    0.060 |     0.295 | 0.060 |     2.981 | 0.003 | 0.003 | \*\*         |
 | dfs.leitura | F      | M      |    0.143 |    0.007 |     0.280 | 0.069 |     2.076 | 0.039 | 0.039 | \*           |
 
 | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | F      | pre    | pos    |   -0.013 |   -0.146 |     0.119 | 0.068 |    -0.198 | 0.843 | 0.843 | ns           |
 | M      | pre    | pos    |    0.079 |   -0.040 |     0.197 | 0.060 |     1.306 | 0.192 | 0.192 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-60-1.png)<!-- -->
 
@@ -452,17 +467,17 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-64-1.png)<!-- -->
 
-### factor: **idade**
+### factor: **idade** {#factor-idade}
 
 | var         | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | 10y   |  51 |   3.458 |    0.074 |     3.459 |      0.073 |   3.479 |    0.068 |
 | fss.leitura | 11y   | 153 |   3.563 |    0.042 |     3.505 |      0.042 |   3.488 |    0.040 |
 | fss.leitura | 12y   |  37 |   3.452 |    0.118 |     3.398 |      0.093 |   3.419 |    0.080 |
 | fss.leitura | 13y   |  16 |   3.385 |    0.138 |     3.175 |      0.127 |   3.220 |    0.122 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | 10y    | 11y    |   -0.009 |   -0.165 |     0.146 | 0.079 |    -0.120 | 0.905 | 1.000 | ns           |
 | fss.leitura | 10y    | 12y    |    0.060 |   -0.148 |     0.267 | 0.105 |     0.566 | 0.572 | 1.000 | ns           |
 | fss.leitura | 10y    | 13y    |    0.259 |   -0.017 |     0.534 | 0.140 |     1.850 | 0.065 | 0.393 | ns           |
@@ -477,14 +492,16 @@ tests
 | dfs.leitura | 12y    | 13y    |    0.067 |   -0.261 |     0.395 | 0.166 |     0.401 | 0.689 | 1.000 | ns           |
 
 | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | 10y   | pre    | pos    |    0.020 |   -0.184 |     0.223 | 0.104 |     0.189 | 0.850 | 0.850 | ns           |
 | 11y   | pre    | pos    |    0.050 |   -0.067 |     0.167 | 0.060 |     0.840 | 0.402 | 0.402 | ns           |
 | 12y   | pre    | pos    |    0.043 |   -0.191 |     0.277 | 0.119 |     0.362 | 0.717 | 0.717 | ns           |
 | 13y   | pre    | pos    |    0.199 |   -0.156 |     0.554 | 0.181 |     1.102 | 0.271 | 0.271 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-72-1.png)<!-- -->
 
@@ -495,22 +512,24 @@ tests
 ### factor: **zona.escola**
 
 | var         | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Rural       |  84 |   3.688 |    0.050 |     3.475 |      0.056 |   3.407 |    0.054 |
 | fss.leitura | Urbana      | 185 |   3.412 |    0.044 |     3.443 |      0.039 |   3.473 |    0.036 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|:------|:------|:------|
 | fss.leitura | Urbana | Rural  |    0.066 |   -0.064 |     0.196 | 0.066 |     0.998 | 0.319   | 0.319   | ns           |
 | dfs.leitura | Urbana | Rural  |   -0.276 |   -0.420 |    -0.132 | 0.073 |    -3.786 | \<0.001 | \<0.001 | \*\*\*       |
 
 | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | Urbana      | pre    | pos    |   -0.025 |   -0.132 |     0.081 | 0.054 |     -0.47 | 0.638 | 0.638 | ns           |
 | Rural       | pre    | pos    |    0.195 |    0.036 |     0.354 | 0.081 |      2.41 | 0.016 | 0.016 | \*           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-84-1.png)<!-- -->
 
@@ -521,22 +540,24 @@ tests
 ### factor: **zona.participante**
 
 | var         | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Rural             | 101 |   3.495 |    0.052 |     3.400 |      0.056 |   3.394 |    0.049 |
 | fss.leitura | Urbana            | 108 |   3.459 |    0.062 |     3.464 |      0.048 |   3.470 |    0.048 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | Urbana | Rural  |    0.075 |   -0.060 |     0.211 | 0.069 |     1.094 | 0.275 | 0.275 | ns           |
 | dfs.leitura | Urbana | Rural  |   -0.036 |   -0.196 |     0.124 | 0.081 |    -0.445 | 0.657 | 0.657 | ns           |
 
 | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | Urbana            | pre    | pos    |    0.002 |   -0.144 |     0.148 | 0.074 |     0.023 | 0.982 | 0.982 | ns           |
 | Rural             | pre    | pos    |    0.088 |   -0.065 |     0.241 | 0.078 |     1.125 | 0.261 | 0.261 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-96-1.png)<!-- -->
 
@@ -544,10 +565,10 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-100-1.png)<!-- -->
 
-### factor: **escola**
+### factor: **escola** {#factor-escola}
 
 | var         | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | E1     |  27 |   3.074 |    0.140 |     3.521 |      0.123 |   3.685 |    0.095 |
 | fss.leitura | E2     |  50 |   3.459 |    0.068 |     3.407 |      0.066 |   3.422 |    0.068 |
 | fss.leitura | E3     |  30 |   3.732 |    0.094 |     3.263 |      0.099 |   3.172 |    0.088 |
@@ -556,7 +577,7 @@ tests
 | fss.leitura | E6     |  24 |   3.734 |    0.082 |     3.639 |      0.093 |   3.548 |    0.098 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|:------|:------|:------|
 | fss.leitura | E1     | E2     |    0.263 |    0.034 |     0.491 | 0.116 |     2.264 | 0.024   | 0.366   | ns           |
 | fss.leitura | E1     | E3     |    0.513 |    0.254 |     0.772 | 0.132 |     3.896 | \<0.001 | 0.002   | \*\*         |
 | fss.leitura | E1     | E4     |    0.172 |   -0.084 |     0.428 | 0.130 |     1.321 | 0.188   | 1       | ns           |
@@ -589,7 +610,7 @@ tests
 | dfs.leitura | E5     | E6     |   -0.259 |   -0.501 |    -0.017 | 0.123 |    -2.104 | 0.036   | 0.545   | ns           |
 
 | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | E1     | pre    | pos    |   -0.387 |   -0.662 |    -0.113 | 0.140 |    -2.770 | 0.006 | 0.006 | \*\*         |
 | E2     | pre    | pos    |    0.031 |   -0.171 |     0.234 | 0.103 |     0.304 | 0.761 | 0.761 | ns           |
 | E3     | pre    | pos    |    0.438 |    0.170 |     0.706 | 0.136 |     3.207 | 0.001 | 0.001 | \*\*         |
@@ -597,8 +618,10 @@ tests
 | E5     | pre    | pos    |    0.037 |   -0.101 |     0.175 | 0.070 |     0.524 | 0.601 | 0.601 | ns           |
 | E6     | pre    | pos    |    0.079 |   -0.208 |     0.367 | 0.146 |     0.543 | 0.588 | 0.588 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-108-1.png)<!-- -->
 
@@ -606,10 +629,10 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-112-1.png)<!-- -->
 
-### factor: **monitor**
+### factor: **monitor** {#factor-monitor}
 
 | var         | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | AC      |  11 |   3.505 |    0.074 |     3.545 |      0.116 |   3.526 |    0.144 |
 | fss.leitura | CE      |  14 |   3.605 |    0.154 |     3.701 |      0.132 |   3.634 |    0.128 |
 | fss.leitura | EA      |  13 |   3.544 |    0.155 |     3.524 |      0.187 |   3.485 |    0.133 |
@@ -622,7 +645,7 @@ tests
 | fss.leitura | VL      |  13 |   3.628 |    0.118 |     3.690 |      0.136 |   3.612 |    0.133 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|:------|------:|:------|
 | fss.leitura | AC     | CE     |   -0.108 |   -0.490 |     0.273 | 0.193 |    -0.563 | 0.575   | 1.000 | ns           |
 | fss.leitura | AC     | EA     |    0.040 |   -0.347 |     0.428 | 0.196 |     0.206 | 0.837   | 1.000 | ns           |
 | fss.leitura | AC     | GR     |    0.085 |   -0.290 |     0.461 | 0.190 |     0.449 | 0.654   | 1.000 | ns           |
@@ -715,7 +738,7 @@ tests
 | dfs.leitura | PR     | VL     |   -0.598 |   -1.038 |    -0.157 | 0.223 |    -2.686 | 0.008   | 0.370 | ns           |
 
 | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | AC      | pre    | pos    |   -0.040 |   -0.509 |     0.428 | 0.238 |    -0.170 | 0.865 | 0.865 | ns           |
 | CE      | pre    | pos    |   -0.098 |   -0.500 |     0.304 | 0.204 |    -0.480 | 0.632 | 0.632 | ns           |
 | EA      | pre    | pos    |    0.020 |   -0.410 |     0.451 | 0.219 |     0.093 | 0.926 | 0.926 | ns           |
@@ -727,8 +750,10 @@ tests
 | PR      | pre    | pos    |   -0.577 |   -0.965 |    -0.188 | 0.197 |    -2.925 | 0.004 | 0.004 | \*\*         |
 | VL      | pre    | pos    |   -0.084 |   -0.478 |     0.311 | 0.200 |    -0.419 | 0.676 | 0.676 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-120-1.png)<!-- -->
 
@@ -739,22 +764,24 @@ tests
 ### factor: **monitor.genero**
 
 | var         | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | F              |  82 |   3.495 |    0.058 |     3.403 |      0.058 |   3.390 |    0.055 |
 | fss.leitura | M              |  52 |   3.414 |    0.098 |     3.561 |      0.085 |   3.582 |    0.069 |
 
 | .y.         | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | F      | M      |   -0.193 |   -0.369 |    -0.017 | 0.089 |    -2.167 | 0.032 | 0.032 | \*           |
 | dfs.leitura | F      | M      |    0.081 |   -0.130 |     0.292 | 0.107 |     0.758 | 0.450 | 0.450 | ns           |
 
 | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | F              | pre    | pos    |    0.072 |   -0.098 |     0.242 | 0.087 |     0.834 | 0.405 | 0.405 | ns           |
 | M              | pre    | pos    |   -0.153 |   -0.368 |     0.062 | 0.109 |    -1.404 | 0.161 | 0.161 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-132-1.png)<!-- -->
 
@@ -765,7 +792,7 @@ tests
 ### factor: **monitor.formacao**
 
 | var         | monitor.formacao           |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:--------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Arquitetura e Urbanismo    |  10 |   3.554 |    0.193 |     3.378 |      0.190 |   3.335 |    0.151 |
 | fss.leitura | Ciencias Biologicas        |  15 |   3.701 |    0.136 |     3.106 |      0.181 |   2.993 |    0.124 |
 | fss.leitura | Comunicacao Social         |  14 |   3.605 |    0.154 |     3.701 |      0.132 |   3.634 |    0.128 |
@@ -777,7 +804,7 @@ tests
 | fss.leitura | Servico Social             |  13 |   3.628 |    0.118 |     3.690 |      0.136 |   3.612 |    0.133 |
 
 | .y.         | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic | p       | p.adj   | p.adj.signif |
-|:------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|:--------|:--------|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|:------|:------|:------|
 | fss.leitura | Arquitetura e Urbanismo | Ciencias Biologicas |    0.342 |   -0.043 |     0.727 | 0.195 |     1.758 | 0.081   | 1       | ns           |
 | fss.leitura | Arquitetura e Urbanismo | Comunicacao Social  |   -0.299 |   -0.689 |     0.091 | 0.197 |    -1.519 | 0.131   | 1       | ns           |
 | fss.leitura | Arquitetura e Urbanismo | Historia            |   -0.458 |   -0.849 |    -0.066 | 0.198 |    -2.311 | 0.022   | 0.809   | ns           |
@@ -852,7 +879,7 @@ tests
 | dfs.leitura | Pedagogia               | Servico Social      |   -0.123 |   -0.598 |     0.352 | 0.240 |    -0.513 | 0.609   | 1       | ns           |
 
 | monitor.formacao           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | Arquitetura e Urbanismo    | pre    | pos    |    0.214 |   -0.255 |     0.683 | 0.238 |     0.897 | 0.371 | 0.371 | ns           |
 | Ciencias Biologicas        | pre    | pos    |    0.579 |    0.186 |     0.973 | 0.200 |     2.897 | 0.004 | 0.004 | \*\*         |
 | Comunicacao Social         | pre    | pos    |   -0.098 |   -0.499 |     0.303 | 0.204 |    -0.481 | 0.631 | 0.631 | ns           |
@@ -863,8 +890,10 @@ tests
 | Pedagogia                  | pre    | pos    |   -0.040 |   -0.508 |     0.427 | 0.237 |    -0.170 | 0.865 | 0.865 | ns           |
 | Servico Social             | pre    | pos    |   -0.084 |   -0.478 |     0.310 | 0.200 |    -0.420 | 0.675 | 0.675 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-144-1.png)<!-- -->
 
@@ -875,13 +904,13 @@ tests
 ### factor: **monitor.titulacao**
 
 | var         | monitor.titulacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | ensino medio      |  96 |   3.427 |    0.065 |     3.413 |      0.058 |   3.427 |    0.052 |
 | fss.leitura | especializacao    |  14 |   3.605 |    0.154 |     3.701 |      0.132 |   3.644 |    0.136 |
 | fss.leitura | graduacao         |  24 |   3.526 |    0.089 |     3.534 |      0.112 |   3.508 |    0.103 |
 
 | .y.         | group1         | group2         | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:---------------|:---------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | ensino medio   | especializacao |   -0.217 |   -0.505 |     0.071 | 0.146 |    -1.490 | 0.139 | 0.416 | ns           |
 | fss.leitura | ensino medio   | graduacao      |   -0.081 |   -0.310 |     0.148 | 0.116 |    -0.699 | 0.486 | 1.000 | ns           |
 | fss.leitura | especializacao | graduacao      |    0.136 |   -0.201 |     0.473 | 0.170 |     0.797 | 0.427 | 1.000 | ns           |
@@ -890,13 +919,15 @@ tests
 | dfs.leitura | especializacao | graduacao      |    0.079 |   -0.321 |     0.479 | 0.202 |     0.391 | 0.696 | 1.000 | ns           |
 
 | monitor.titulacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | ensino medio      | pre    | pos    |    0.002 |   -0.155 |     0.158 | 0.079 |     0.020 | 0.984 | 0.984 | ns           |
 | especializacao    | pre    | pos    |   -0.098 |   -0.509 |     0.313 | 0.209 |    -0.469 | 0.640 | 0.640 | ns           |
 | graduacao         | pre    | pos    |   -0.008 |   -0.332 |     0.317 | 0.165 |    -0.046 | 0.964 | 0.964 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-156-1.png)<!-- -->
 
@@ -907,22 +938,24 @@ tests
 ### factor: **monitor.experiencia**
 
 | var         | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | \> 01 ano           |  26 |   3.231 |    0.140 |     3.569 |      0.111 |   3.673 |    0.099 |
 | fss.leitura | até 01 ano          | 108 |   3.520 |    0.054 |     3.439 |      0.054 |   3.414 |    0.048 |
 
 | .y.         | group1    | group2     | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------|:----------|:-----------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | fss.leitura | \> 01 ano | até 01 ano |    0.259 |    0.039 |     0.478 | 0.111 |     2.329 | 0.021 | 0.021 | \*           |
 | dfs.leitura | \> 01 ano | até 01 ano |   -0.288 |   -0.544 |    -0.033 | 0.129 |    -2.233 | 0.027 | 0.027 | \*           |
 
 | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:------|:------|:------|------:|------:|------:|------:|------:|------:|------:|:------|
 | \> 01 ano           | pre    | pos    |   -0.358 |   -0.662 |    -0.054 | 0.154 |    -2.319 | 0.021 | 0.021 | \*           |
 | até 01 ano          | pre    | pos    |    0.064 |   -0.083 |     0.211 | 0.075 |     0.856 | 0.393 | 0.393 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-168-1.png)<!-- -->
 
@@ -930,12 +963,12 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-172-1.png)<!-- -->
 
-## Pairwise comparisons for two factors
+## Pairwise comparisons for two factors {#pairwise-comparisons-for-two-factors}
 
-### factores: **intervention:genero**
+### factores: **intervention:genero** {#factores-interventiongenero}
 
 | var         | intervention      | genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | F      |  60 |   3.595 |    0.069 |     3.521 |      0.054 |   3.493 |    0.062 |
 | fss.leitura | Controle          | M      |  66 |   3.526 |    0.065 |     3.394 |      0.064 |   3.388 |    0.059 |
 | fss.leitura | Stari and WordGen | M      |  12 |   3.351 |    0.138 |     3.478 |      0.155 |   3.527 |    0.139 |
@@ -945,7 +978,7 @@ tests
 | fss.leitura | WordGen           | M      |  63 |   3.407 |    0.075 |     3.318 |      0.070 |   3.349 |    0.061 |
 
 |     | intervention | genero | group1   | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:-------------|:-------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 1   | NA           | F      | Controle | Stari             |   -0.076 |   -0.520 |     0.368 | 0.225 |    -0.337 | 0.736 | 1.000 | ns           |
 | 2   | NA           | F      | Controle | WordGen           |   -0.128 |   -0.307 |     0.051 | 0.091 |    -1.412 | 0.159 | 0.477 | ns           |
 | 4   | NA           | F      | Stari    | WordGen           |   -0.052 |   -0.499 |     0.394 | 0.227 |    -0.231 | 0.818 | 1.000 | ns           |
@@ -972,7 +1005,7 @@ tests
 | 31  | WordGen      | NA     | F        | M                 |    0.233 |    0.030 |     0.436 | 0.103 |     2.264 | 0.024 | 0.024 | \*           |
 
 | intervention      | genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Controle          | F      | pre    | pos    |    0.053 |   -0.134 |     0.239 | 0.095 |     0.554 | 0.580 | 0.580 | ns           |
 | Controle          | M      | pre    | pos    |    0.147 |   -0.029 |     0.324 | 0.090 |     1.642 | 0.101 | 0.101 | ns           |
 | Stari             | F      | pre    | pos    |   -0.289 |   -0.955 |     0.378 | 0.339 |    -0.851 | 0.395 | 0.395 | ns           |
@@ -981,8 +1014,10 @@ tests
 | WordGen           | M      | pre    | pos    |    0.051 |   -0.129 |     0.232 | 0.092 |     0.557 | 0.578 | 0.578 | ns           |
 | Stari and WordGen | M      | pre    | pos    |   -0.020 |   -0.426 |     0.385 | 0.207 |    -0.099 | 0.921 | 0.921 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-180-1.png)<!-- -->
 
@@ -992,10 +1027,10 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-185-1.png)<!-- -->
 
-### factores: **intervention:idade**
+### factores: **intervention:idade** {#factores-interventionidade}
 
 | var         | intervention      | idade |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | 10y   |  24 |   3.583 |    0.092 |     3.541 |      0.083 |   3.524 |    0.100 |
 | fss.leitura | Controle          | 11y   |  68 |   3.618 |    0.062 |     3.486 |      0.053 |   3.459 |    0.059 |
 | fss.leitura | Controle          | 12y   |  18 |   3.519 |    0.145 |     3.437 |      0.144 |   3.441 |    0.115 |
@@ -1008,7 +1043,7 @@ tests
 | fss.leitura | WordGen           | 13y   |   6 |   3.176 |    0.192 |     3.146 |      0.149 |   3.259 |    0.200 |
 
 |     | intervention | idade | group1   | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:-------------|:------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 2   | NA           | 10y   | Controle | WordGen           |    0.105 |   -0.176 |     0.386 | 0.143 |     0.735 | 0.463 | 0.463 | ns           |
 | 7   | NA           | 11y   | Controle | Stari             |   -0.188 |   -0.602 |     0.226 | 0.210 |    -0.896 | 0.371 | 1.000 | ns           |
 | 8   | NA           | 11y   | Controle | WordGen           |   -0.078 |   -0.242 |     0.085 | 0.083 |    -0.943 | 0.346 | 1.000 | ns           |
@@ -1053,7 +1088,7 @@ tests
 | 90  | WordGen      | NA    | 12y      | 13y               |    0.341 |   -0.169 |     0.851 | 0.259 |     1.318 | 0.189 | 1.000 | ns           |
 
 | intervention      | idade | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Controle          | 10y   | pre    | pos    |    0.076 |   -0.215 |     0.367 | 0.148 |     0.512 | 0.609 | 0.609 | ns           |
 | Controle          | 11y   | pre    | pos    |    0.104 |   -0.066 |     0.275 | 0.087 |     1.202 | 0.230 | 0.230 | ns           |
 | Controle          | 12y   | pre    | pos    |    0.103 |   -0.222 |     0.429 | 0.166 |     0.624 | 0.533 | 0.533 | ns           |
@@ -1065,8 +1100,10 @@ tests
 | WordGen           | 13y   | pre    | pos    |    0.111 |   -0.445 |     0.667 | 0.283 |     0.393 | 0.695 | 0.695 | ns           |
 | Stari and WordGen | 11y   | pre    | pos    |    0.120 |   -0.352 |     0.593 | 0.241 |     0.500 | 0.617 | 0.617 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-193-1.png)<!-- -->
 
@@ -1079,7 +1116,7 @@ tests
 ### factores: **intervention:zona.escola**
 
 | var         | intervention      | zona.escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | Rural       |  42 |   3.730 |    0.063 |     3.465 |      0.057 |   3.383 |    0.076 |
 | fss.leitura | Controle          | Urbana      |  84 |   3.473 |    0.062 |     3.449 |      0.057 |   3.458 |    0.053 |
 | fss.leitura | Stari and WordGen | Rural       |   7 |   3.458 |    0.168 |     3.815 |      0.149 |   3.830 |    0.184 |
@@ -1089,7 +1126,7 @@ tests
 | fss.leitura | WordGen           | Urbana      |  81 |   3.439 |    0.064 |     3.500 |      0.058 |   3.521 |    0.054 |
 
 |     | intervention      | zona.escola | group1   | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:------------------|:------------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 1   | NA                | Urbana      | Controle | Stari             |    0.084 |   -0.227 |     0.395 | 0.158 |     0.531 | 0.596 | 1.000 | ns           |
 | 2   | NA                | Urbana      | Controle | WordGen           |   -0.063 |   -0.212 |     0.086 | 0.076 |    -0.834 | 0.405 | 1.000 | ns           |
 | 3   | NA                | Urbana      | Controle | Stari and WordGen |    0.153 |   -0.185 |     0.492 | 0.172 |     0.892 | 0.373 | 1.000 | ns           |
@@ -1116,7 +1153,7 @@ tests
 | 32  | Stari and WordGen | NA          | Urbana   | Rural             |   -0.360 |   -0.903 |     0.183 | 0.276 |    -1.304 | 0.193 | 0.193 | ns           |
 
 | intervention      | zona.escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Controle          | Urbana      | pre    | pos    |    0.028 |   -0.128 |     0.185 | 0.080 |     0.356 | 0.722 | 0.722 | ns           |
 | Controle          | Rural       | pre    | pos    |    0.267 |    0.041 |     0.493 | 0.115 |     2.323 | 0.021 | 0.021 | \*           |
 | Stari             | Urbana      | pre    | pos    |   -0.101 |   -0.522 |     0.319 | 0.214 |    -0.473 | 0.636 | 0.636 | ns           |
@@ -1125,8 +1162,10 @@ tests
 | Stari and WordGen | Urbana      | pre    | pos    |    0.087 |   -0.376 |     0.550 | 0.236 |     0.369 | 0.712 | 0.712 | ns           |
 | Stari and WordGen | Rural       | pre    | pos    |   -0.357 |   -0.924 |     0.209 | 0.288 |    -1.238 | 0.216 | 0.216 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-206-1.png)<!-- -->
 
@@ -1137,7 +1176,7 @@ tests
 ### factores: **intervention:zona.participante**
 
 | var         | intervention      | zona.participante |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | Rural             |  43 |   3.549 |    0.084 |     3.395 |      0.069 |   3.379 |    0.076 |
 | fss.leitura | Controle          | Urbana            |  54 |   3.539 |    0.075 |     3.450 |      0.066 |   3.438 |    0.068 |
 | fss.leitura | Stari and WordGen | Rural             |   5 |   3.086 |    0.171 |     3.361 |      0.236 |   3.486 |    0.225 |
@@ -1147,7 +1186,7 @@ tests
 | fss.leitura | WordGen           | Urbana            |  44 |   3.447 |    0.099 |     3.495 |      0.068 |   3.510 |    0.075 |
 
 |     | intervention      | zona.participante | group1   | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:------------------|:------------------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 2   | NA                | Urbana            | Controle | WordGen           |   -0.072 |   -0.273 |     0.128 | 0.102 |    -0.714 | 0.476 | 1.000 | ns           |
 | 3   | NA                | Urbana            | Controle | Stari and WordGen |   -0.161 |   -0.585 |     0.263 | 0.215 |    -0.749 | 0.455 | 1.000 | ns           |
 | 6   | NA                | Urbana            | WordGen  | Stari and WordGen |   -0.088 |   -0.517 |     0.340 | 0.217 |    -0.407 | 0.684 | 1.000 | ns           |
@@ -1174,7 +1213,7 @@ tests
 | 32  | Stari and WordGen | NA                | Urbana   | Rural             |    0.414 |   -0.253 |     1.081 | 0.338 |     1.224 | 0.223 | 0.223 | ns           |
 
 | intervention      | zona.participante | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Controle          | Urbana            | pre    | pos    |    0.082 |   -0.121 |     0.286 | 0.103 |     0.795 | 0.427 | 0.427 | ns           |
 | Controle          | Rural             | pre    | pos    |    0.169 |   -0.065 |     0.402 | 0.119 |     1.421 | 0.156 | 0.156 | ns           |
 | Stari             | Rural             | pre    | pos    |   -0.039 |   -0.705 |     0.627 | 0.339 |    -0.115 | 0.909 | 0.909 | ns           |
@@ -1183,8 +1222,10 @@ tests
 | Stari and WordGen | Urbana            | pre    | pos    |    0.232 |   -0.356 |     0.820 | 0.299 |     0.776 | 0.438 | 0.438 | ns           |
 | Stari and WordGen | Rural             | pre    | pos    |   -0.382 |   -1.048 |     0.284 | 0.339 |    -1.127 | 0.260 | 0.260 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-219-1.png)<!-- -->
 
@@ -1194,10 +1235,10 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-224-1.png)<!-- -->
 
-### factores: **intervention:escola**
+### factores: **intervention:escola** {#factores-interventionescola}
 
 | var         | intervention      | escola |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:-------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Controle          | E1     |  12 |   3.130 |    0.148 |     3.439 |      0.171 |   3.582 |    0.139 |
 | fss.leitura | Controle          | E2     |  23 |   3.552 |    0.100 |     3.437 |      0.110 |   3.417 |    0.100 |
 | fss.leitura | Controle          | E3     |  15 |   3.763 |    0.135 |     3.419 |      0.066 |   3.318 |    0.124 |
@@ -1216,7 +1257,7 @@ tests
 | fss.leitura | WordGen           | E6     |  11 |   3.702 |    0.126 |     3.664 |      0.159 |   3.586 |    0.144 |
 
 |     | intervention      | escola | group1   | group2            | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
-|:----|:------------------|:-------|:---------|:------------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|:-----|-----:|:-----|
 | 1   | NA                | E1     | Controle | Stari             |   -0.077 |   -0.582 |     0.429 | 0.256 |    -0.298 | 0.766   | 1.000 | ns           |
 | 2   | NA                | E1     | Controle | WordGen           |   -0.240 |   -0.643 |     0.164 | 0.205 |    -1.171 | 0.243   | 0.729 | ns           |
 | 4   | NA                | E1     | Stari    | WordGen           |   -0.163 |   -0.685 |     0.359 | 0.265 |    -0.616 | 0.539   | 1.000 | ns           |
@@ -1313,7 +1354,7 @@ tests
 | 190 | Stari and WordGen | NA     | E4       | E5                |    0.585 |   -0.038 |     1.207 | 0.316 |     1.849 | 0.066   | 0.066 | ns           |
 
 | intervention      | escola | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:-------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Controle          | E1     | pre    | pos    |   -0.162 |   -0.567 |     0.243 | 0.206 |    -0.785 | 0.433 | 0.433 | ns           |
 | Controle          | E2     | pre    | pos    |    0.076 |   -0.218 |     0.371 | 0.150 |     0.510 | 0.610 | 0.610 | ns           |
 | Controle          | E3     | pre    | pos    |    0.296 |   -0.082 |     0.674 | 0.192 |     1.537 | 0.125 | 0.125 | ns           |
@@ -1331,13 +1372,17 @@ tests
 | Stari and WordGen | E4     | pre    | pos    |   -0.256 |   -0.921 |     0.410 | 0.339 |    -0.755 | 0.451 | 0.451 | ns           |
 | Stari and WordGen | E5     | pre    | pos    |   -0.020 |   -0.532 |     0.491 | 0.260 |    -0.079 | 0.937 | 0.937 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-232-1.png)<!-- -->
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-233-1.png)<!-- -->
 
@@ -1345,10 +1390,10 @@ tests
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-237-1.png)<!-- -->
 
-### factores: **intervention:monitor**
+### factores: **intervention:monitor** {#factores-interventionmonitor}
 
 | var         | intervention      | monitor |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:--------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Stari and WordGen | CE      |   5 |   3.553 |    0.224 |     3.808 |      0.209 |   3.778 |    0.218 |
 | fss.leitura | Stari             | PR      |   5 |   2.542 |    0.433 |     3.289 |      0.374 |   3.715 |    0.230 |
 | fss.leitura | WordGen           | AC      |  11 |   3.505 |    0.074 |     3.545 |      0.116 |   3.536 |    0.147 |
@@ -1363,7 +1408,7 @@ tests
 | fss.leitura | WordGen           | VL      |  11 |   3.702 |    0.126 |     3.664 |      0.159 |   3.566 |    0.148 |
 
 |     | intervention | monitor | group1  | group2            | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
-|:----|:-------------|:--------|:--------|:------------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|:-----|-----:|:-----|
 | 6   | NA           | CE      | WordGen | Stari and WordGen |   -0.203 |   -0.742 |     0.335 | 0.272 |    -0.747 | 0.456   | 0.456 | ns           |
 | 25  | NA           | PR      | Stari   | WordGen           |   -0.115 |   -0.656 |     0.426 | 0.273 |    -0.421 | 0.674   | 0.674 | ns           |
 | 36  | NA           | CE      | WordGen | Stari and WordGen |    0.081 |   -0.565 |     0.728 | 0.326 |     0.250 | 0.803   | 0.803 | ns           |
@@ -1460,7 +1505,7 @@ tests
 | 285 | WordGen      | NA      | PR      | VL                |   -0.427 |   -0.934 |     0.079 | 0.255 |    -1.673 | 0.097   | 1.000 | ns           |
 
 | intervention      | monitor | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:--------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Stari             | PR      | pre    | pos    |   -0.747 |   -1.443 |    -0.052 | 0.353 |    -2.116 | 0.035 | 0.035 | \*           |
 | WordGen           | AC      | pre    | pos    |   -0.040 |   -0.509 |     0.429 | 0.238 |    -0.170 | 0.865 | 0.865 | ns           |
 | WordGen           | CE      | pre    | pos    |   -0.021 |   -0.515 |     0.473 | 0.251 |    -0.084 | 0.933 | 0.933 | ns           |
@@ -1483,14 +1528,14 @@ tests
 ### factores: **intervention:monitor.genero**
 
 | var         | intervention      | monitor.genero |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:---------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Stari and WordGen | M              |   7 |   3.458 |    0.166 |     3.581 |      0.212 |   3.588 |    0.192 |
 | fss.leitura | Stari             | M              |   7 |   2.704 |    0.325 |     3.190 |      0.279 |   3.512 |    0.202 |
 | fss.leitura | WordGen           | F              |  75 |   3.517 |    0.061 |     3.411 |      0.061 |   3.393 |    0.059 |
 | fss.leitura | WordGen           | M              |  38 |   3.537 |    0.105 |     3.626 |      0.095 |   3.600 |    0.083 |
 
 |     | intervention | monitor.genero | group1  | group2            | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
-|:----|:-------------|:---------------|:--------|:------------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|:-----|-----:|:-----|
 | 4   | NA           | M              | Stari   | WordGen           |   -0.089 |   -0.522 |     0.345 | 0.219 |    -0.404 | 0.687   | 1.000 | ns           |
 | 5   | NA           | M              | Stari   | Stari and WordGen |   -0.077 |   -0.627 |     0.474 | 0.278 |    -0.275 | 0.784   | 1.000 | ns           |
 | 6   | NA           | M              | WordGen | Stari and WordGen |    0.012 |   -0.402 |     0.426 | 0.209 |     0.057 | 0.954   | 1.000 | ns           |
@@ -1501,7 +1546,7 @@ tests
 | 17  | WordGen      | NA             | F       | M                 |   -0.019 |   -0.249 |     0.210 | 0.116 |    -0.167 | 0.867   | 0.867 | ns           |
 
 | intervention      | monitor.genero | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:---------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Stari             | M              | pre    | pos    |   -0.486 |   -1.077 |     0.105 | 0.300 |    -1.620 | 0.106 | 0.106 | ns           |
 | WordGen           | F              | pre    | pos    |    0.090 |   -0.085 |     0.265 | 0.089 |     1.009 | 0.314 | 0.314 | ns           |
 | WordGen           | M              | pre    | pos    |   -0.101 |   -0.346 |     0.143 | 0.124 |    -0.818 | 0.414 | 0.414 | ns           |
@@ -1518,7 +1563,7 @@ tests
 ### factores: **intervention:monitor.formacao**
 
 | var         | intervention      | monitor.formacao           |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:---------------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Stari and WordGen | Comunicacao Social         |   5 |   3.553 |    0.224 |     3.808 |      0.209 |   3.777 |    0.217 |
 | fss.leitura | Stari             | Historia                   |   5 |   2.542 |    0.433 |     3.289 |      0.374 |   3.720 |    0.230 |
 | fss.leitura | WordGen           | Arquitetura e Urbanismo    |   9 |   3.591 |    0.212 |     3.444 |      0.199 |   3.396 |    0.162 |
@@ -1532,7 +1577,7 @@ tests
 | fss.leitura | WordGen           | Servico Social             |  11 |   3.702 |    0.126 |     3.664 |      0.159 |   3.565 |    0.148 |
 
 |     | intervention | monitor.formacao   | group1                  | group2              | estimate | conf.low | conf.high |    se | statistic | p       | p.adj | p.adj.signif |
-|:----|:-------------|:-------------------|:------------------------|:--------------------|---------:|---------:|----------:|------:|----------:|:--------|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|:-----|-----:|:-----|
 | 9   | NA           | Comunicacao Social | WordGen                 | Stari and WordGen   |   -0.204 |   -0.741 |     0.334 | 0.271 |    -0.751 | 0.454   | 0.454 | ns           |
 | 10  | NA           | Historia           | Stari                   | WordGen             |   -0.111 |   -0.650 |     0.429 | 0.272 |    -0.407 | 0.685   | 0.685 | ns           |
 | 36  | NA           | Comunicacao Social | WordGen                 | Stari and WordGen   |    0.081 |   -0.566 |     0.729 | 0.327 |     0.249 | 0.803   | 0.803 | ns           |
@@ -1611,7 +1656,7 @@ tests
 | 234 | WordGen      | NA                 | Pedagogia               | Servico Social      |   -0.197 |   -0.692 |     0.298 | 0.250 |    -0.789 | 0.432   | 1.000 | ns           |
 
 | intervention      | monitor.formacao           | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:---------------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Stari             | Historia                   | pre    | pos    |   -0.747 |   -1.444 |    -0.051 | 0.354 |    -2.113 | 0.036 | 0.036 | \*           |
 | WordGen           | Arquitetura e Urbanismo    | pre    | pos    |    0.181 |   -0.314 |     0.676 | 0.251 |     0.718 | 0.473 | 0.473 | ns           |
 | WordGen           | Ciencias Biologicas        | pre    | pos    |    0.579 |    0.183 |     0.975 | 0.201 |     2.883 | 0.004 | 0.004 | \*\*         |
@@ -1633,7 +1678,7 @@ tests
 ### factores: **intervention:monitor.titulacao**
 
 | var         | intervention      | monitor.titulacao |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Stari and WordGen | ensino medio      |   5 |   3.000 |    0.176 |     3.178 |      0.274 |   3.364 |    0.232 |
 | fss.leitura | Stari and WordGen | especializacao    |   5 |   3.553 |    0.224 |     3.808 |      0.209 |   3.776 |    0.229 |
 | fss.leitura | Stari             | ensino medio      |   8 |   2.964 |    0.332 |     3.319 |      0.230 |   3.521 |    0.185 |
@@ -1642,7 +1687,7 @@ tests
 | fss.leitura | WordGen           | graduacao         |  21 |   3.580 |    0.093 |     3.603 |      0.117 |   3.560 |    0.112 |
 
 |     | intervention      | monitor.titulacao | group1         | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:------------------|:------------------|:---------------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 1   | NA                | ensino medio      | Stari          | WordGen           |    0.095 |   -0.289 |     0.480 | 0.194 |     0.491 | 0.625 | 1.000 | ns           |
 | 2   | NA                | ensino medio      | Stari          | Stari and WordGen |    0.156 |   -0.422 |     0.734 | 0.292 |     0.534 | 0.594 | 1.000 | ns           |
 | 3   | NA                | ensino medio      | WordGen        | Stari and WordGen |    0.061 |   -0.413 |     0.534 | 0.239 |     0.254 | 0.800 | 1.000 | ns           |
@@ -1661,7 +1706,7 @@ tests
 | 34  | Stari and WordGen | NA                | ensino medio   | especializacao    |   -0.553 |   -1.292 |     0.187 | 0.374 |    -1.480 | 0.141 | 0.141 | ns           |
 
 | intervention      | monitor.titulacao | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Stari             | ensino medio      | pre    | pos    |   -0.304 |   -0.833 |     0.225 | 0.269 |    -1.132 | 0.259 | 0.259 | ns           |
 | WordGen           | ensino medio      | pre    | pos    |    0.045 |   -0.121 |     0.212 | 0.085 |     0.536 | 0.593 | 0.593 | ns           |
 | WordGen           | especializacao    | pre    | pos    |   -0.021 |   -0.523 |     0.480 | 0.255 |    -0.083 | 0.934 | 0.934 | ns           |
@@ -1680,7 +1725,7 @@ tests
 ### factores: **intervention:monitor.experiencia**
 
 | var         | intervention      | monitor.experiencia |   n | M (pre) | SE (pre) | M (unadj) | SE (unadj) | M (adj) | SE (adj) |
-|:------------|:------------------|:--------------------|----:|--------:|---------:|----------:|-----------:|--------:|---------:|
+|:-------|:-------|:-------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | fss.leitura | Stari and WordGen | até 01 ano          |  11 |   3.271 |    0.147 |     3.471 |      0.176 |   3.559 |    0.152 |
 | fss.leitura | Stari             | \> 01 ano           |   5 |   2.542 |    0.433 |     3.289 |      0.374 |   3.712 |    0.235 |
 | fss.leitura | Stari             | até 01 ano          |   5 |   3.444 |    0.176 |     3.200 |      0.184 |   3.209 |    0.224 |
@@ -1688,7 +1733,7 @@ tests
 | fss.leitura | WordGen           | até 01 ano          |  92 |   3.553 |    0.059 |     3.449 |      0.059 |   3.408 |    0.053 |
 
 |     | intervention | monitor.experiencia | group1    | group2            | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:----|:-------------|:--------------------|:----------|:------------------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | 1   | NA           | \> 01 ano           | Stari     | WordGen           |    0.045 |   -0.466 |     0.555 | 0.258 |     0.174 | 0.862 | 0.862 | ns           |
 | 4   | NA           | até 01 ano          | Stari     | WordGen           |   -0.199 |   -0.655 |     0.257 | 0.230 |    -0.863 | 0.390 | 1.000 | ns           |
 | 5   | NA           | até 01 ano          | Stari     | Stari and WordGen |   -0.350 |   -0.886 |     0.185 | 0.271 |    -1.294 | 0.198 | 0.594 | ns           |
@@ -1703,15 +1748,17 @@ tests
 | 17  | WordGen      | NA                  | \> 01 ano | até 01 ano        |   -0.158 |   -0.432 |     0.116 | 0.139 |    -1.139 | 0.257 | 0.257 | ns           |
 
 | intervention      | monitor.experiencia | group1 | group2 | estimate | conf.low | conf.high |    se | statistic |     p | p.adj | p.adj.signif |
-|:------------------|:--------------------|:-------|:-------|---------:|---------:|----------:|------:|----------:|------:|------:|:-------------|
+|:-----|:-----|:-----|:-----|-----:|-----:|-----:|-----:|-----:|-----:|-----:|:-----|
 | Stari             | \> 01 ano           | pre    | pos    |   -0.747 |   -1.444 |    -0.050 | 0.354 |    -2.110 | 0.036 | 0.036 | \*           |
 | Stari             | até 01 ano          | pre    | pos    |    0.181 |   -0.464 |     0.826 | 0.328 |     0.552 | 0.581 | 0.581 | ns           |
 | WordGen           | \> 01 ano           | pre    | pos    |   -0.270 |   -0.602 |     0.063 | 0.169 |    -1.598 | 0.111 | 0.111 | ns           |
 | WordGen           | até 01 ano          | pre    | pos    |    0.089 |   -0.068 |     0.246 | 0.080 |     1.120 | 0.264 | 0.264 | ns           |
 | Stari and WordGen | até 01 ano          | pre    | pos    |   -0.199 |   -0.669 |     0.270 | 0.239 |    -0.836 | 0.404 | 0.404 | ns           |
 
-    ## Scale for colour is already present.
-    ## Adding another scale for colour, which will replace the existing scale.
+```         
+## Scale for colour is already present.
+## Adding another scale for colour, which will replace the existing scale.
+```
 
 ![](flow-leitura_files/figure-gfm/unnamed-chunk-297-1.png)<!-- -->
 
